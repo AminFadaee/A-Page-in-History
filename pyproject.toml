@@ -1,0 +1,27 @@
+[project]
+name = "page-in-history"
+version = "0.1.0"
+description = "History data pipeline and Anki deck of civilizations and historical figures"
+license = "MIT"
+authors = [
+    { name = "Amin", email = "amenfd@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "genanki>=0.13.1",
+    "geopandas>=1.1",
+    "matplotlib>=3.11",
+    "mwparserfromhell>=0.7",
+    "pillow>=12.3.0",
+    "pyogrio>=0.13",
+    "pyproj>=3.8",
+    "requests>=2.34",
+    "shapely>=2.1",
+]
+
+[project.scripts]
+page-in-history = "page_in_history.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
