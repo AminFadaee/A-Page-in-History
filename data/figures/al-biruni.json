@@ -1,0 +1,28 @@
+{
+  "id": "Q11826",
+  "slug": "al-biruni",
+  "name": "Al-Biruni",
+  "wikipedia": "Al-Biruni",
+  "role": "Khwarazmian polymath",
+  "life": "973–1048",
+  "civilizations": [
+    "Samanid Empire"
+  ],
+  "related": [],
+  "contribution": "A Khwarazmian polymath of the Islamic Golden Age.",
+  "image": "images/al-biruni.jpg",
+  "image_credit": "Michel Bakni · CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Samanid Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Samanid Empire"
+      ]
+    },
+    "lead": "Abu Reyhan Muhammad ibn Ahmad al-Biruni (Persian: ابوریحان محمد بن احمد بیرونی, romanized: Abū-Reyhān Bīrūnī; Arabic: أبو الريحان محمد بن أحمد البيروني; c. 973 – c. 1050), known as Biruni (بیرونی), was a Khwarazmian polymath of the Islamic Golden Age. Well versed in physics, mathematics, astronomy and the natural sciences, he also distinguished himself as a historian, chronologist and linguist, and has been described as the first anthropologist and a founding figure in comparative religion, geodesy and Indology."
+  }
+}

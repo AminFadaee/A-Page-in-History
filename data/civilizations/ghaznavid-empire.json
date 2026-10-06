@@ -1,0 +1,85 @@
+{
+  "id": "Q249578",
+  "slug": "ghaznavid-empire",
+  "name": "Ghaznavid Empire",
+  "wikipedia": "Ghaznavid Empire",
+  "map_year": 1028,
+  "period": {
+    "start": {
+      "earliest": 977,
+      "latest": 977,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1186,
+      "latest": 1186,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Ghazni",
+      "location": [
+        68.423333333333,
+        33.549166666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q140973",
+      "name": "Khusrau Malik"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan"
+  ],
+  "map": "maps/ghaznavid-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Ghazni"
+      ],
+      "infobox": [
+        "Ghazni",
+        "Lahore"
+      ]
+    },
+    "cliopatria_years": [
+      962,
+      1209
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Kara-Khanids",
+      "Buyid Dynasty",
+      "Oghuz Turks",
+      "Seljuk Dynasty",
+      "Chauhan Dynasty",
+      "Lohara Dynasty",
+      "Kashmir",
+      "Tibetans",
+      "Kimek-Kipchak confederation",
+      "Byzantine Empire",
+      "Fatimid Caliphate",
+      "Hamdanid Emirates",
+      "Qocho Kingdom",
+      "Western Chalukya Empire",
+      "Pala Empire",
+      "Kamarupa Kingdom",
+      "Paramara Dynasty",
+      "Chaulukya Dynasty",
+      "Ganzhou Kingdom",
+      "Kingdom of Georgia",
+      "Shirvan"
+    ]
+  }
+}

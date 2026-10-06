@@ -1,0 +1,90 @@
+{
+  "id": "Q12150341",
+  "slug": "samanid-empire",
+  "name": "Samanid Empire",
+  "wikipedia": "Samanid Empire",
+  "map_year": 911,
+  "period": {
+    "start": {
+      "earliest": 819,
+      "latest": 819,
+      "circa": false
+    },
+    "end": {
+      "earliest": 999,
+      "latest": 999,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bukhara",
+      "location": [
+        64.428611111111,
+        39.774722222222
+      ]
+    },
+    {
+      "name": "Samarkand",
+      "location": [
+        66.97583333333333,
+        39.65472222222222
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Tajikistan",
+    "Kyrgyzstan"
+  ],
+  "map": "maps/samanid-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bukhara",
+        "Samarkand"
+      ],
+      "infobox": [
+        "Samarkand",
+        "Bukhara"
+      ]
+    },
+    "cliopatria_years": [
+      886,
+      999
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Abbasid Caliphate",
+      "Kimek-Kipchak confederation",
+      "Oghuz Turks",
+      "Kara-Khanids",
+      "Kingdom of Khotan",
+      "Kashmir",
+      "Tibetans",
+      "Khazaria",
+      "Qocho Kingdom",
+      "Gurjara-Pratihara Dynasty",
+      "Byzantine Empire",
+      "Rashtrakuta Dynasty",
+      "Pala Empire",
+      "First Bulgarian Empire",
+      "Makuria",
+      "Ganzhou Kingdom",
+      "Alodia",
+      "Kamarupa Kingdom",
+      "Georgia",
+      "Shirvan"
+    ]
+  }
+}

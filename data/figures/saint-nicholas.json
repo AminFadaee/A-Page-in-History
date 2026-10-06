@@ -1,0 +1,28 @@
+{
+  "id": "Q44269",
+  "slug": "saint-nicholas",
+  "name": "Saint Nicholas",
+  "wikipedia": "Saint Nicholas",
+  "role": "",
+  "life": "2nd century – 3rd century",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "An early Christian bishop of Greek descent from the maritime city of Patara in Anatolia during the time of the Roman Empire.",
+  "image": "images/saint-nicholas.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Saint Nicholas of Myra (traditionally 15 March 270 – 6 December 343), also known as Nicholas of Bari, was an early Christian bishop of Greek descent from the maritime city of Patara in Anatolia (in modern-day Antalya Province, Turkey) during the time of the Roman Empire. Because of the many miracles attributed to his intercession, he is also known as Nicholas the Wonderworker.  Saint Nicholas is the patron saint of sailors, merchants, archers, repentant thieves, children, brewers, pawnbrokers, toymakers, unmarried people, and students in various cities and countries around Europe. His reputation evolved among the pious, as was common for early Christian saints, and his legendary habit of secret gift-giving gave rise to the folklore of Santa Claus (\"Saint Nick\") through Sinterklaas."
+  }
+}

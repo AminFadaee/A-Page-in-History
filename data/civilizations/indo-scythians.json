@@ -1,0 +1,56 @@
+{
+  "id": "Q240123",
+  "slug": "indo-scythians",
+  "name": "Indo-Scythians",
+  "wikipedia": "Indo-Scythian Kingdom",
+  "map_year": -66,
+  "period": {
+    "start": {
+      "earliest": -150,
+      "latest": -150,
+      "circa": true
+    },
+    "end": {
+      "earliest": 400,
+      "latest": 400,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Afghanistan"
+  ],
+  "map": "maps/indo-scythians.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Sigal, Sakastan"
+      ],
+      "infobox": [
+        "Ujjain",
+        "Mathura",
+        "Taxila"
+      ]
+    },
+    "cliopatria_years": [
+      -144,
+      282
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Parthian Empire",
+      "Kanva Dynasty",
+      "Satavahana Dynasty",
+      "Yuezhi",
+      "Hadhramaut"
+    ]
+  }
+}

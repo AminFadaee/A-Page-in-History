@@ -1,0 +1,158 @@
+{
+  "id": "Q83958",
+  "slug": "macedonian-empire",
+  "name": "Macedonian Empire",
+  "wikipedia": "Macedonia (ancient kingdom)",
+  "map_year": -318,
+  "period": {
+    "start": {
+      "earliest": -700,
+      "latest": -601,
+      "circa": false
+    },
+    "end": {
+      "earliest": -168,
+      "latest": -168,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Aegae",
+      "location": [
+        22.3227596,
+        40.4779658
+      ]
+    },
+    {
+      "name": "Pella",
+      "location": [
+        22.525642,
+        40.760033
+      ]
+    }
+  ],
+  "predecessors": [
+    "Achaemenid Empire"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q83958",
+        "layer": 1,
+        "name": "Macedonian Empire"
+      },
+      {
+        "id": "Q389688",
+        "layer": 0,
+        "name": "Achaemenid Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q389688",
+        "Q83958",
+        "Iran, Afghanistan, Egypt"
+      ]
+    ],
+    "question": "successions/macedonian-empire-question.png",
+    "answer": "successions/macedonian-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q297086",
+      "name": "Alexander I of Macedon"
+    },
+    {
+      "id": "Q318426",
+      "name": "Perdiccas II of Macedon"
+    },
+    {
+      "id": "Q26846",
+      "name": "Archelaus of Macedon"
+    },
+    {
+      "id": "Q130650",
+      "name": "Philip II of Macedon"
+    },
+    {
+      "id": "Q8409",
+      "name": "Alexander the Great"
+    },
+    {
+      "id": "Q207183",
+      "name": "Cassander"
+    },
+    {
+      "id": "Q59734",
+      "name": "Demetrius I Poliorcetes"
+    },
+    {
+      "id": "Q172353",
+      "name": "Pyrrhus of Epirus"
+    },
+    {
+      "id": "Q32133",
+      "name": "Lysimachus"
+    },
+    {
+      "id": "Q241386",
+      "name": "Antigonus II Gonatas"
+    },
+    {
+      "id": "Q108816",
+      "name": "Antigonus III Doson"
+    },
+    {
+      "id": "Q237248",
+      "name": "Philip V of Macedon"
+    },
+    {
+      "id": "Q207363",
+      "name": "Perseus of Macedon"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Pakistan",
+    "Afghanistan",
+    "Egypt",
+    "Turkey",
+    "Syria",
+    "Israel",
+    "Lebanon",
+    "Palestine"
+  ],
+  "map": "maps/macedonian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Aegae",
+        "Pella",
+        "Aigai"
+      ],
+      "infobox": [
+        "Aegae",
+        "Pella"
+      ]
+    },
+    "cliopatria_years": [
+      -675,
+      -292
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Maurya Empire",
+      "Kingdom of Kush",
+      "Kingdom of Armenia",
+      "Kingdom of Lysimachus",
+      "Yuezhi",
+      "Scythia",
+      "Kalinga",
+      "Hadhramaut"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "Q190896",
+  "slug": "abu-hanifa",
+  "name": "Abu Hanifa",
+  "wikipedia": "Abu Hanifa",
+  "role": "Muslim scholar, jurist, and theologian",
+  "life": "699–767",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [
+    "Abbasid Caliphate"
+  ],
+  "contribution": "A Muslim scholar, jurist, theologian, and ascetic, and the founder and eponym of the Hanafi school of Sunni jurisprudence.",
+  "image": "images/abu-hanifa.jpg",
+  "image_credit": "OatCookies · CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Umayyad Caliphate",
+        "Abbasid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Abu Hanifa (Arabic: أَبُو حَنِيفَة, romanized: Abū Ḥanīfa; 5 September 699 – 18 June 767 CE) was a Muslim scholar, jurist, theologian, and ascetic, and the founder and eponym of the Hanafi school of Sunni jurisprudence. The Hanafi school remains the most widely practised of the Sunni schools and is extensively followed and applied throughout the Muslim world, predominating in Central and South Asia, Turkey, Africa, the Balkans, Russia, and parts of the Arab world."
+  }
+}

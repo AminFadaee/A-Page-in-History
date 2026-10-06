@@ -1,0 +1,28 @@
+{
+  "id": "Q131002",
+  "slug": "harun-al-rashid",
+  "name": "Harun al-Rashid",
+  "wikipedia": "Harun al-Rashid",
+  "role": "5th Abbasid caliph",
+  "life": "766–809",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [],
+  "contribution": "The fifth of the Abbasid caliphs, reigning from September 786 until his death in March 809.",
+  "image": "images/harun-al-rashid.jpg",
+  "image_credit": "Unknown artistUnknown artist · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Abbasid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Abbasid Caliphate"
+      ]
+    },
+    "lead": "Abū Jaʿfar Hārūn ibn Muḥammad ar-Rashīd, or simply Hārūn ibn al-Mahdī (c. 763 or 766 – 24 March 809), famously known as The Hārūn al-Rashīd, was the fifth of the Abbasid caliphs, reigning from September 786 until his death in March 809. His reign is traditionally regarded to be the beginning of the Islamic Golden Age. His epithet al-Rashid translates to  \"the Just\", \"the Upright\", or \"the Rightly-Guided\"."
+  }
+}

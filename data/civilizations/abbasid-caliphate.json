@@ -1,0 +1,152 @@
+{
+  "id": "Q12536",
+  "slug": "abbasid-caliphate",
+  "name": "Abbasid Caliphate",
+  "wikipedia": "Abbasid Caliphate",
+  "map_year": 778,
+  "period": {
+    "start": {
+      "earliest": 750,
+      "latest": 750,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1258,
+      "latest": 1258,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Baghdad",
+      "location": [
+        44.36611111111111,
+        33.31527777777778
+      ]
+    },
+    {
+      "name": "Cairo",
+      "location": [
+        31.235833333333332,
+        30.044444444444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Umayyad Caliphate"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q12536",
+        "layer": 1,
+        "name": "Abbasid Caliphate"
+      },
+      {
+        "id": "Q8575586",
+        "layer": 0,
+        "name": "Umayyad Caliphate"
+      },
+      {
+        "id": "Q1337854",
+        "layer": 1,
+        "name": "Emirate of Córdoba"
+      }
+    ],
+    "edges": [
+      [
+        "Q8575586",
+        "Q12536",
+        "Saudi Arabia, Iran"
+      ],
+      [
+        "Q8575586",
+        "Q1337854",
+        "Spain, Portugal"
+      ]
+    ],
+    "question": "successions/abbasid-caliphate-question.png",
+    "answer": "successions/abbasid-caliphate-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q252087",
+      "name": "Al-Saffah"
+    },
+    {
+      "id": "Q293454",
+      "name": "Al-Musta'sim"
+    },
+    {
+      "id": "Q1417881",
+      "name": "Al-Mustansir II"
+    },
+    {
+      "id": "Q210489",
+      "name": "Al-Mutawakkil III"
+    }
+  ],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Iran",
+    "Egypt",
+    "Yemen",
+    "Turkmenistan",
+    "Iraq",
+    "Afghanistan",
+    "Oman",
+    "Syria",
+    "Tunisia",
+    "Tajikistan",
+    "Jordan",
+    "Azerbaijan",
+    "United Arab Emirates",
+    "Georgia",
+    "Armenia",
+    "Israel",
+    "Kuwait",
+    "Qatar",
+    "Lebanon",
+    "Palestine",
+    "Bahrain"
+  ],
+  "map": "maps/abbasid-caliphate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Samarra",
+        "Hashimiyya",
+        "Baghdad",
+        "Cairo"
+      ],
+      "infobox": [
+        "Kufa",
+        "Baghdad",
+        "Abbasid Samarra",
+        "Cairo"
+      ]
+    },
+    "cliopatria_years": [
+      750,
+      1259
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Uyghur Khaganate",
+      "Tibetan Empire",
+      "Kingdom of the Franks",
+      "Khazaria",
+      "Byzantine Empire",
+      "Oghuz Turks",
+      "Tang Dynasty",
+      "Kimek-Kipchak confederation",
+      "Rashtrakuta Dynasty",
+      "Nanzhao",
+      "Water Chenla",
+      "Land Chenla"
+    ]
+  }
+}

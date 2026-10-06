@@ -1,0 +1,152 @@
+{
+  "id": "Q12490507",
+  "slug": "rashidun-caliphate",
+  "name": "Rashidun Caliphate",
+  "wikipedia": "Rashidun Caliphate",
+  "map_year": 647,
+  "period": {
+    "start": {
+      "earliest": 632,
+      "latest": 632,
+      "circa": false
+    },
+    "end": {
+      "earliest": 661,
+      "latest": 661,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Medina",
+      "location": [
+        39.61,
+        24.47
+      ]
+    },
+    {
+      "name": "Kufa",
+      "location": [
+        44.4,
+        32.03
+      ]
+    }
+  ],
+  "predecessors": [
+    "Sasanian Empire"
+  ],
+  "successors": [
+    "Umayyad Caliphate"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q12490507",
+        "layer": 1,
+        "name": "Rashidun Caliphate"
+      },
+      {
+        "id": "Q83891",
+        "layer": 0,
+        "name": "Sasanian Empire"
+      },
+      {
+        "id": "Q8575586",
+        "layer": 2,
+        "name": "Umayyad Caliphate"
+      },
+      {
+        "id": "Q12544",
+        "layer": 1,
+        "name": "Eastern Roman Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q83891",
+        "Q12490507",
+        "Iran, Egypt"
+      ],
+      [
+        "Q12490507",
+        "Q8575586",
+        "Saudi Arabia, Iran"
+      ],
+      [
+        "Q12544",
+        "Q8575586",
+        "Egypt, Turkey, Libya"
+      ]
+    ],
+    "question": "successions/rashidun-caliphate-question.png",
+    "answer": "successions/rashidun-caliphate-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q334923",
+      "name": "Abu Bakr"
+    },
+    {
+      "id": "Q8467",
+      "name": "Umar"
+    },
+    {
+      "id": "Q39619",
+      "name": "Ali"
+    }
+  ],
+  "modern_countries": [
+    "Saudi Arabia",
+    "Iran",
+    "Egypt",
+    "Yemen",
+    "Iraq",
+    "Afghanistan",
+    "Oman",
+    "Syria",
+    "Jordan",
+    "Azerbaijan",
+    "United Arab Emirates",
+    "Georgia",
+    "Armenia",
+    "Israel",
+    "Kuwait",
+    "Qatar",
+    "Lebanon",
+    "Palestine",
+    "Bahrain"
+  ],
+  "map": "maps/rashidun-caliphate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Medina",
+        "Kufa"
+      ],
+      "infobox": [
+        "Medina",
+        "Kufa"
+      ]
+    },
+    "cliopatria_years": [
+      633,
+      665
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Western Göktürks",
+      "Byzantine Empire",
+      "Khazaria",
+      "Turk Shahis",
+      "Tibetan Empire",
+      "Chalukya Dynasty",
+      "Avar Khaganate",
+      "Visigothic Kingdom",
+      "Tuyuhun",
+      "Harsha's Empire",
+      "Alodia"
+    ]
+  }
+}

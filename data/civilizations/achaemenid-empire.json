@@ -1,0 +1,186 @@
+{
+  "id": "Q389688",
+  "slug": "achaemenid-empire",
+  "name": "Achaemenid Empire",
+  "wikipedia": "Achaemenid Empire",
+  "map_year": -480,
+  "period": {
+    "start": {
+      "earliest": -550,
+      "latest": -550,
+      "circa": false
+    },
+    "end": {
+      "earliest": -330,
+      "latest": -330,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Babylon",
+      "location": [
+        44.42111111111111,
+        32.5425
+      ]
+    },
+    {
+      "name": "Pasargadae",
+      "location": [
+        53.179444444444,
+        30.2
+      ]
+    },
+    {
+      "name": "Persepolis",
+      "location": [
+        52.89,
+        29.935
+      ]
+    },
+    {
+      "name": "Susa",
+      "location": [
+        48.25611111111111,
+        32.18944444444445
+      ]
+    },
+    {
+      "name": "Ecbatana",
+      "location": [
+        48.516247,
+        34.8065
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Macedonian Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q389688",
+        "layer": 1,
+        "name": "Achaemenid Empire"
+      },
+      {
+        "id": "Q83958",
+        "layer": 2,
+        "name": "Macedonian Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q389688",
+        "Q83958",
+        "Iran, Afghanistan, Egypt"
+      ]
+    ],
+    "question": "successions/achaemenid-empire-question.png",
+    "answer": "successions/achaemenid-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q8423",
+      "name": "Cyrus the Great"
+    },
+    {
+      "id": "Q182483",
+      "name": "Cambyses II"
+    },
+    {
+      "id": "Q242267",
+      "name": "Bardiya"
+    },
+    {
+      "id": "Q44387",
+      "name": "Darius the Great"
+    },
+    {
+      "id": "Q129165",
+      "name": "Xerxes I"
+    },
+    {
+      "id": "Q189689",
+      "name": "Artaxerxes I"
+    },
+    {
+      "id": "Q272043",
+      "name": "Xerxes II"
+    },
+    {
+      "id": "Q298631",
+      "name": "Sogdianus"
+    },
+    {
+      "id": "Q202236",
+      "name": "Darius II"
+    },
+    {
+      "id": "Q188472",
+      "name": "Artaxerxes II"
+    },
+    {
+      "id": "Q192867",
+      "name": "Artaxerxes III"
+    },
+    {
+      "id": "Q260783",
+      "name": "Arses of Persia"
+    },
+    {
+      "id": "Q102865",
+      "name": "Darius III"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Turkey",
+    "Afghanistan",
+    "Egypt",
+    "Pakistan",
+    "Turkmenistan",
+    "Iraq",
+    "Uzbekistan",
+    "Syria",
+    "Tajikistan",
+    "Israel",
+    "Armenia",
+    "Lebanon",
+    "Palestine",
+    "Cyprus",
+    "Turkish Republic of Northern Cyprus"
+  ],
+  "map": "maps/achaemenid-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Babylon",
+        "Pasargadae",
+        "Persepolis",
+        "Susa",
+        "Ecbatana"
+      ],
+      "infobox": [
+        "Babylon",
+        "Pasargadae",
+        "Ecbatana",
+        "Susa",
+        "Persepolis"
+      ]
+    },
+    "cliopatria_years": [
+      -550,
+      -327
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Kush",
+      "Scythia",
+      "Hadhramaut"
+    ]
+  }
+}

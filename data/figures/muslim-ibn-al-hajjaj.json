@@ -1,0 +1,28 @@
+{
+  "id": "Q140124",
+  "slug": "muslim-ibn-al-hajjaj",
+  "name": "Muslim ibn al-Hajjaj",
+  "wikipedia": "Muslim ibn al-Hajjaj",
+  "role": "Arab Muslim hadith scholar",
+  "life": "821–875",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [],
+  "contribution": "An Islamic scholarfrom the city of Nishapur, particularly known as a muhaddith.",
+  "image": "images/muslim-ibn-al-hajjaj.jpg",
+  "image_credit": "خالد بن طارق · CC0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Abbasid Caliphate"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Abbasid Caliphate"
+      ]
+    },
+    "lead": "Abū al-Ḥusayn Muslim ibn al-Ḥajjāj ibn Muslim ibn Ward al-Qushayrī an-Naysābūrī (Arabic: أبو الحسين مسلم بن الحجاج بن مسلم بن وَرْد القشيري النيسابوري; after 815 – May 875 CE / 206 – 261 AH), commonly known as Imam Muslim, was an Islamic scholarfrom the city of Nishapur, particularly known as a muhaddith (scholar of hadith). His hadith collection, known as Sahih Muslim, is one of the six major hadith collections in Sunni Islam and is regarded as one of the two most authentic (sahih) collections, alongside Sahih al-Bukhari."
+  }
+}

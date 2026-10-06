@@ -1,0 +1,129 @@
+{
+  "id": "Q2277",
+  "slug": "roman-empire",
+  "name": "Roman Empire",
+  "wikipedia": "Roman Empire",
+  "map_year": 117,
+  "period": {
+    "start": {
+      "earliest": -27,
+      "latest": -27,
+      "circa": false
+    },
+    "end": {
+      "earliest": 395,
+      "latest": 395,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Rome",
+      "location": [
+        12.482777777778,
+        41.893055555556
+      ]
+    },
+    {
+      "name": "Ravenna",
+      "location": [
+        12.201666666666666,
+        44.416111111111114
+      ]
+    },
+    {
+      "name": "Constantinople",
+      "location": [
+        28.976018,
+        41.01224
+      ]
+    }
+  ],
+  "predecessors": [
+    "Roman Republic"
+  ],
+  "successors": [
+    "Western Roman Empire",
+    "Eastern Roman Empire"
+  ],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkey",
+    "Egypt",
+    "France",
+    "Spain",
+    "Italy",
+    "Iraq",
+    "Romania",
+    "Syria",
+    "United Kingdom",
+    "Greece",
+    "Bulgaria",
+    "Portugal",
+    "Tunisia",
+    "Austria",
+    "Serbia",
+    "Bosnia and Herzegovina",
+    "Croatia",
+    "Switzerland",
+    "Belgium",
+    "Armenia",
+    "Albania",
+    "North Macedonia",
+    "Israel",
+    "Slovenia",
+    "Montenegro",
+    "Kosovo",
+    "Lebanon",
+    "Palestine",
+    "Cyprus",
+    "Turkish Republic of Northern Cyprus",
+    "Luxembourg",
+    "Andorra",
+    "Malta",
+    "Liechtenstein",
+    "San Marino",
+    "Vatican City"
+  ],
+  "map": "maps/roman-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rome",
+        "Milan",
+        "Ravenna",
+        "Roma",
+        "Constantinople"
+      ],
+      "infobox": [
+        "Rome",
+        "Eastern Roman Empire",
+        "Western Roman Empire",
+        "Dorling Kindersley",
+        "Mediolanum",
+        "Ravenna",
+        "Nicomedia",
+        "De facto and de jure",
+        "Constantine the Great",
+        "Byzantine senate",
+        "Roman Senate",
+        "Constantinople"
+      ]
+    },
+    "cliopatria_years": [
+      -31,
+      394
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Parthian Empire",
+      "Kushan Empire",
+      "Xianbei",
+      "Satavahana Dynasty",
+      "Xiongnu"
+    ]
+  }
+}

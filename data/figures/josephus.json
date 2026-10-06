@@ -1,0 +1,28 @@
+{
+  "id": "Q134461",
+  "slug": "josephus",
+  "name": "Josephus",
+  "wikipedia": "Josephus",
+  "role": "Roman–Jewish historian and military leader",
+  "life": "37–100",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Roman–Jewish historian and military leader.",
+  "image": "images/josephus.jpg",
+  "image_credit": "Rijksmuseum · CC0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Flavius Josephus (born Yosef ben Mattityahu; c. AD 36 – c. 100) was a Roman–Jewish historian and military leader.  Best known for writing The Jewish War, he was born in Jerusalem—then part of the Roman province of Judea—to a father of priestly descent and a mother who claimed Hasmonean royal ancestry."
+  }
+}

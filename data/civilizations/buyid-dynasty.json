@@ -1,0 +1,92 @@
+{
+  "id": "Q273874",
+  "slug": "buyid-dynasty",
+  "name": "Buyid Dynasty",
+  "wikipedia": "Buyid dynasty",
+  "map_year": 980,
+  "period": {
+    "start": {
+      "earliest": 934,
+      "latest": 934,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1062,
+      "latest": 1062,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Shiraz",
+      "location": [
+        52.53111111111111,
+        29.610277777777778
+      ]
+    },
+    {
+      "name": "Ray",
+      "location": [
+        51.434444444444445,
+        35.5975
+      ]
+    },
+    {
+      "name": "Baghdad",
+      "location": [
+        44.36611111111111,
+        33.31527777777778
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Iraq",
+    "Kuwait"
+  ],
+  "map": "maps/buyid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shiraz",
+        "Ray, Iran",
+        "Baghdad",
+        "Hamadan"
+      ],
+      "infobox": [
+        "Shiraz",
+        "Fars province",
+        "Ray, Iran",
+        "Jibal",
+        "Baghdad",
+        "Iraq"
+      ]
+    },
+    "cliopatria_years": [
+      936,
+      1055
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Samanid Empire",
+      "Fatimid Caliphate",
+      "Byzantine Empire",
+      "Hamdanid Emirates",
+      "Ghaznavid Empire",
+      "Sind-Habbari Dynasty",
+      "Makuria",
+      "Chauhan Dynasty",
+      "Chaulukya Dynasty",
+      "Utpala Dynasty",
+      "Bagratid Armenia",
+      "Georgia",
+      "Shirvan"
+    ]
+  }
+}

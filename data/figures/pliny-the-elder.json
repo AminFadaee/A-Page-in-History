@@ -1,0 +1,28 @@
+{
+  "id": "Q82778",
+  "slug": "pliny-the-elder",
+  "name": "Pliny the Elder",
+  "wikipedia": "Pliny the Elder",
+  "role": "Roman military commander and writer",
+  "life": "1st century – AD 79",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Roman author, naturalist, scientist, naval and army commander of the early Roman Empire, procurator, and friend of the emperor Vespasian.",
+  "image": "images/pliny-the-elder.jpg",
+  "image_credit": "Geoffrey · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Gaius Plinius Secundus (23 or 24 – 25 August 79), known in English as Pliny the Elder ( PLIN-ee), was a Roman author, naturalist, scientist, naval and army commander of the early Roman Empire, procurator, and friend of the emperor Vespasian. Pliny wrote the encyclopedic Naturalis Historia (Natural History), a thirty-seven-volume work covering a vast array of topics on human knowledge and the natural world, which became an editorial model for encyclopedias. He spent most of his spare time studying, writing, and investigating natural and geographic phenomena in the field."
+  }
+}

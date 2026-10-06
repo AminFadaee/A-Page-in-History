@@ -1,0 +1,61 @@
+{
+  "id": "Q47690",
+  "slug": "babylonia",
+  "name": "Babylonia",
+  "wikipedia": "Babylonia",
+  "map_year": -1400,
+  "period": {
+    "start": {
+      "earliest": -1894,
+      "latest": -1894,
+      "circa": false
+    },
+    "end": {
+      "earliest": -539,
+      "latest": -539,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Babylon",
+      "location": [
+        44.42111111111111,
+        32.5425
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iraq",
+    "Iran"
+  ],
+  "map": "maps/babylonia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Babylon"
+      ],
+      "infobox": [
+        "Babylon"
+      ]
+    },
+    "cliopatria_years": [
+      -1800,
+      -601
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mitanni",
+      "Elam",
+      "Assyria",
+      "New Kingdom of Egypt",
+      "Hittites"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "Q168261",
+  "slug": "ptolemy-i-soter",
+  "name": "Ptolemy I Soter",
+  "wikipedia": "Ptolemy I Soter",
+  "role": "Pharaoh of Egypt from 305 to 282 BC",
+  "life": "4th century BC – 3rd century BC",
+  "civilizations": [
+    "Macedonian Empire",
+    "Ptolemaic Kingdom"
+  ],
+  "related": [],
+  "contribution": "A Macedonian Greek general, historian, and successor of Alexander the Great who went on to found the Ptolemaic Kingdom centered in Egypt.",
+  "image": "images/ptolemy-i-soter.jpg",
+  "image_credit": "Marie-Lan Nguyen · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Macedonian Empire",
+        "Ptolemaic Kingdom"
+      ],
+      "lead": [
+        "Ptolemaic Kingdom"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Macedonian Empire"
+      ]
+    },
+    "lead": "Ptolemy I Soter (; Greek: Πτολεμαῖος Σωτήρ, Ptolemaîos Sōtḗr, \"Ptolemy the Savior\"; c. 369/68 BC – January 282 BC) was a Macedonian Greek general, historian, and successor of Alexander the Great who went on to found the Ptolemaic Kingdom centered in Egypt. Ptolemy was king and pharaoh of Ptolemaic Egypt from 305/304 BC to his death in 282 BC, and his descendants continued to rule Egypt until 30 BC. During their rule, Egypt became a thriving bastion of Hellenistic civilization and Alexandria a great seat of Greek culture."
+  }
+}

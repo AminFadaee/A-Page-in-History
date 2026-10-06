@@ -1,0 +1,35 @@
+{
+  "id": "Q152127",
+  "slug": "gaiseric",
+  "name": "Gaiseric",
+  "wikipedia": "Gaiseric",
+  "role": "King of the Vandals and Alans",
+  "life": "389–477",
+  "civilizations": [
+    "Vandal Kingdom",
+    "Roman Empire"
+  ],
+  "related": [
+    "Western Roman Empire"
+  ],
+  "contribution": "King of the Vandals and Alans from 428 to 477 AD. He ruled over the Vandal kingdom and migrated the kingdom to North Africa, playing a key role in the decline of the Western Roman Empire during the 5th century.",
+  "image": "images/gaiseric.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Vandal Kingdom"
+      ],
+      "lead": [
+        "Vandal Kingdom",
+        "Western Roman Empire",
+        "Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Gaiseric (c. 389 – 25 January 477 AD), also known as Geiseric or Genseric (Latin: Gaisericus, Geisericus; reconstructed Vandalic: *Gaisarīx) was king of the Vandals and Alans from 428 to 477 AD. He ruled over the Vandal kingdom and migrated the kingdom to North Africa, playing a key role in the decline of the Western Roman Empire during the 5th century."
+  }
+}

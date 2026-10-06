@@ -1,0 +1,33 @@
+{
+  "id": "Q307629",
+  "slug": "abd-allah-al-mahdi-billah",
+  "name": "Abd Allah al-Mahdi Billah",
+  "wikipedia": "Abd Allah al-Mahdi Billah",
+  "role": "Isma'ili Imam and first Fatimid Caliph from 909 to 934",
+  "life": "873–934",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [
+    "Fatimid Caliphate",
+    "Aghlabid Dynasty"
+  ],
+  "contribution": "The founder of the Isma'ili Fatimid Caliphate, the only major Shi'a caliphate in Islamic history, and the eleventh Imam of the Isma'ili branch of Shi'ism.",
+  "image": "images/abd-allah-al-mahdi-billah.jpg",
+  "image_credit": "PHGCOM · CC0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Fatimid Caliphate",
+        "Abbasid Caliphate",
+        "Aghlabid Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Abbasid Caliphate"
+      ]
+    },
+    "lead": "Abū Muḥammad ʿAbd Allāh ibn al-Ḥusayn (Arabic: أبو محمد عبد الله بن الحسين; 31 July 874 – 4 March 934), better known by his regnal name al-Mahdī biʾllāh (Arabic: المهدي بالله, \"The Rightly Guided by God\"), was the founder of the Isma'ili Fatimid Caliphate, the only major Shi'a caliphate in Islamic history, and the eleventh Imam of the Isma'ili branch of Shi'ism."
+  }
+}

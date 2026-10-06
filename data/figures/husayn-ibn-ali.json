@@ -1,0 +1,29 @@
+{
+  "id": "Q112128",
+  "slug": "husayn-ibn-ali",
+  "name": "Husayn ibn Ali",
+  "wikipedia": "Husayn ibn Ali",
+  "role": "Grandson of Muhammad and the 3rd Imam",
+  "life": "626–680",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [],
+  "contribution": "The second son of Ali and Fatima, a younger brother of Hasan and a grandson of the Islamic prophet Muhammad.",
+  "image": "",
+  "image_credit": "",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Rashidun Caliphate",
+        "Umayyad Caliphate"
+      ],
+      "lead": [
+        "Umayyad Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Husayn ibn Ali (Arabic: حسين ابن علي, romanized: Ḥusayn ibn ʿAlī; 11 January 626 – 10 October 680 CE) was the second son of Ali and Fatima, a younger brother of Hasan and a grandson of the Islamic prophet Muhammad. He is the third Imam in Shia Islam, succeeding Hasan. Husayn is a prominent member of the Ahl al-Bayt and Ahl al-Kisa, and a participant in the Event of the mubahala. Muhammad described Hasan and Husayn as the leaders of the youth of paradise."
+  }
+}

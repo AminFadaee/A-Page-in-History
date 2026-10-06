@@ -1,0 +1,31 @@
+{
+  "id": "Q8413",
+  "slug": "constantine-the-great",
+  "name": "Constantine the Great",
+  "wikipedia": "Constantine the Great",
+  "role": "Roman emperor from 306 to 337",
+  "life": "c. 272–337",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [
+    "Sasanian Empire"
+  ],
+  "contribution": "Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity.",
+  "image": "images/constantine-the-great.jpg",
+  "image_credit": "Jean-Christophe BENOIST · CC BY 2.5",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Sasanian Empire",
+        "Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Constantine I (27 February 272 – 22 May 337), also known as Constantine the Great, was Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity. He played a pivotal role in elevating the status of Christianity in the Roman Empire, the Edict of Milan decriminalising Christian practice and ceasing Christian persecution. This was a turning point in the Christianisation of the Roman Empire. He founded the city of Constantinople (now Istanbul) and made it the capital of the Empire, which it remained for over a millennium."
+  }
+}

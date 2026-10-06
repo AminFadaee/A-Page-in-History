@@ -1,0 +1,31 @@
+{
+  "id": "Q189271",
+  "slug": "mahmud-of-ghazni",
+  "name": "Mahmud of Ghazni",
+  "wikipedia": "Mahmud of Ghazni",
+  "role": "Ghaznavid sultan from 998 to 1030",
+  "life": "971–1030",
+  "civilizations": [
+    "Ghaznavid Empire"
+  ],
+  "related": [
+    "Samanid Empire"
+  ],
+  "contribution": "The Sultan of the Ghaznavid Empire, ruling from 998 to 1030.",
+  "image": "images/mahmud-of-ghazni.jpg",
+  "image_credit": "11th century artist · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Ghaznavid Empire",
+        "Samanid Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ghaznavid Empire"
+      ]
+    },
+    "lead": "Abu al-Qasim Mahmud ibn Sabuktigin (Persian: ابوالقاسم محمود بن سبکتگین, romanized: Abu al-Qāṣim Maḥmūd ibn Sabuktigīn; 2 October 971 – 30 April 1030), commonly known as Mahmud of Ghazni or Mahmud Ghaznavi (محمود غزنوی), was the Sultan of the Ghaznavid Empire, ruling from 998 to 1030. Mahmud was known by his honorific title Yamin al-Dawla (یمین‌ الدوله, lit. 'Right Hand of the State'). At the time of his death, his kingdom had been transformed into an extensive military empire, which extended from present-day northwestern Iran proper to the Punjab in the Indian subcontinent and Khwarazm in Transoxiana."
+  }
+}

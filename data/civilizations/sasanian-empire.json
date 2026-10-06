@@ -1,0 +1,136 @@
+{
+  "id": "Q83891",
+  "slug": "sasanian-empire",
+  "name": "Sasanian Empire",
+  "wikipedia": "Sasanian Empire",
+  "map_year": 623,
+  "period": {
+    "start": {
+      "earliest": 224,
+      "latest": 224,
+      "circa": false
+    },
+    "end": {
+      "earliest": 651,
+      "latest": 651,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Istakhr",
+      "location": [
+        52.909444444444,
+        29.981666666667
+      ]
+    },
+    {
+      "name": "Ctesiphon",
+      "location": [
+        44.580833,
+        33.093611
+      ]
+    }
+  ],
+  "predecessors": [
+    "Parthian Empire"
+  ],
+  "successors": [
+    "Rashidun Caliphate"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q83891",
+        "layer": 1,
+        "name": "Sasanian Empire"
+      },
+      {
+        "id": "Q1986139",
+        "layer": 0,
+        "name": "Parthian Empire"
+      },
+      {
+        "id": "Q12490507",
+        "layer": 2,
+        "name": "Rashidun Caliphate"
+      }
+    ],
+    "edges": [
+      [
+        "Q1986139",
+        "Q83891",
+        "Iran, Turkmenistan"
+      ],
+      [
+        "Q83891",
+        "Q12490507",
+        "Iran, Egypt"
+      ]
+    ],
+    "question": "successions/sasanian-empire-question.png",
+    "answer": "successions/sasanian-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q371319",
+      "name": "Ardashir I"
+    },
+    {
+      "id": "Q208463",
+      "name": "Yazdegerd III"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Egypt",
+    "Iraq",
+    "Turkey",
+    "Afghanistan",
+    "Turkmenistan",
+    "Yemen",
+    "Syria",
+    "Azerbaijan",
+    "Georgia",
+    "Jordan",
+    "Armenia",
+    "Israel",
+    "Kuwait",
+    "Qatar",
+    "Lebanon",
+    "Palestine",
+    "Bahrain"
+  ],
+  "map": "maps/sasanian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Istakhr",
+        "Ctesiphon"
+      ],
+      "infobox": [
+        "Istakhr",
+        "Ctesiphon"
+      ]
+    },
+    "cliopatria_years": [
+      215,
+      643
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Western Göktürks",
+      "Eastern Roman Empire",
+      "Turk Shahis",
+      "Harsha's Empire",
+      "Avar Khaganate",
+      "Visigothic Kingdom",
+      "Chalukya Dynasty",
+      "Tibetan Empire",
+      "Samo's Empire",
+      "Alodia"
+    ]
+  }
+}

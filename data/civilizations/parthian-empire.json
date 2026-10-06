@@ -1,0 +1,129 @@
+{
+  "id": "Q1986139",
+  "slug": "parthian-empire",
+  "name": "Parthian Empire",
+  "wikipedia": "Parthian Empire",
+  "map_year": 161,
+  "period": {
+    "start": {
+      "earliest": -247,
+      "latest": -247,
+      "circa": false
+    },
+    "end": {
+      "earliest": 224,
+      "latest": 224,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Nisa",
+      "location": [
+        58.212408333333,
+        37.951147222222
+      ]
+    },
+    {
+      "name": "Ctesiphon",
+      "location": [
+        44.580833,
+        33.093611
+      ]
+    },
+    {
+      "name": "Qumis",
+      "location": [
+        54.103672,
+        35.953053
+      ]
+    }
+  ],
+  "predecessors": [
+    "Seleucid Empire"
+  ],
+  "successors": [
+    "Sasanian Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q1986139",
+        "layer": 1,
+        "name": "Parthian Empire"
+      },
+      {
+        "id": "Q93180",
+        "layer": 0,
+        "name": "Seleucid Empire"
+      },
+      {
+        "id": "Q83891",
+        "layer": 2,
+        "name": "Sasanian Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q93180",
+        "Q1986139",
+        "Iran, Turkmenistan"
+      ],
+      [
+        "Q1986139",
+        "Q83891",
+        "Iran, Turkmenistan"
+      ]
+    ],
+    "question": "successions/parthian-empire-question.png",
+    "answer": "successions/parthian-empire-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Turkmenistan",
+    "Iraq",
+    "Pakistan",
+    "Turkey",
+    "Syria",
+    "Armenia",
+    "Qatar",
+    "Bahrain"
+  ],
+  "map": "maps/parthian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Nisa, Turkmenistan",
+        "Ctesiphon",
+        "Seleucia",
+        "Qumis, Iran"
+      ],
+      "infobox": [
+        "Ctesiphon",
+        "Ecbatana",
+        "Qumis, Iran",
+        "Susa",
+        "Nisa, Turkmenistan",
+        "Asaak",
+        "Ray, Iran"
+      ]
+    },
+    "cliopatria_years": [
+      -239,
+      237
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kushan Empire",
+      "Roman Empire",
+      "Satavahana Dynasty",
+      "Western Satraps",
+      "Protectorate of the Western Regions",
+      "Huns",
+      "Wusun"
+    ]
+  }
+}

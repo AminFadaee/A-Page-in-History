@@ -1,0 +1,42 @@
+{
+  "id": "Q128904",
+  "slug": "elam",
+  "name": "Elam",
+  "wikipedia": "Elam",
+  "map_year": -1800,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Iraq"
+  ],
+  "map": "maps/elam.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Anshan",
+        "Susa"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -3200,
+      -601
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Assyria",
+      "Sumerian City-States",
+      "Hyksos"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "Q200401",
+  "slug": "antigonus-i-monophthalmus",
+  "name": "Antigonus I Monophthalmus",
+  "wikipedia": "Antigonus I Monophthalmus",
+  "role": "Macedonian general, founder of Antigonid dynasty",
+  "life": "382–301 BC",
+  "civilizations": [
+    "Macedonian Empire"
+  ],
+  "related": [
+    "Roman Republic"
+  ],
+  "contribution": "A Macedonian Greek general and successor of Alexander the Great who founded the Antigonid dynasty, which ruled over Macedonia until its conquest by the Roman Republic in 168 BC. A prominent military leader in Alexander's army, he went on to control large parts of Alexander's former empire.",
+  "image": "images/antigonus-i-monophthalmus.jpg",
+  "image_credit": "Copyrighted free use",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Macedonian Empire"
+      ],
+      "lead": [
+        "Roman Republic",
+        "Macedonian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Antigonus I Monophthalmus (Ancient Greek: Ἀντίγονος Μονόφθαλμος Antigonos Monophthalmos, \"Antigonus the One-Eyed\"; 382–301 BC) was a Macedonian Greek general and successor of Alexander the Great who founded the Antigonid dynasty, which ruled over Macedonia until its conquest by the Roman Republic in 168 BC. A prominent military leader in Alexander's army, he went on to control large parts of Alexander's former empire. He assumed the title of basileus (king) in 306 BC and reigned until his death."
+  }
+}

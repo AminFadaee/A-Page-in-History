@@ -1,0 +1,31 @@
+{
+  "id": "Q43459",
+  "slug": "ferdowsi",
+  "name": "Ferdowsi",
+  "wikipedia": "Ferdowsi",
+  "role": "Persian poet",
+  "life": "c. 940–1020",
+  "civilizations": [
+    "Samanid Empire"
+  ],
+  "related": [],
+  "contribution": "A Persian poet who is notable for being the author of the Shahnameh, which is one of the world's longest epic poems created by a single poet, and the greatest epic of the Persian-speaking countries.",
+  "image": "images/ferdowsi.jpg",
+  "image_credit": "ca. 1476–86 artist · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Samanid Empire",
+        "Ghaznavid Empire"
+      ],
+      "lead": [
+        "Samanid Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Samanid Empire"
+      ]
+    },
+    "lead": "Abul-Qāsem Mansur bin Hasan Tosi (940–1025), better known by his pen name Ferdowsi, was a Persian poet who is notable for being the author of the Shahnameh (\"Book of Kings\"), which is one of the world's longest epic poems created by a single poet, and the greatest epic of the Persian-speaking countries. Ferdowsi is celebrated as one of the most influential figures of Persian literature and one of the greatest in the history of literature."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "Q130650",
+  "slug": "philip-ii-of-macedon",
+  "name": "Philip II of Macedon",
+  "wikipedia": "Philip II of Macedon",
+  "role": "King of Macedon from 359 to 336 BC",
+  "life": "4th century BC – 336 BC",
+  "civilizations": [
+    "Macedonian Empire"
+  ],
+  "related": [
+    "Achaemenid Empire"
+  ],
+  "contribution": "The king of Macedon from 359 BC until his death in 336 BC.",
+  "image": "images/philip-ii-of-macedon.jpg",
+  "image_credit": "Richard Mortel from Riyadh, Saudi Arabia · CC BY 2.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Macedonian Empire"
+      ],
+      "lead": [
+        "Macedonian Empire",
+        "Achaemenid Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Macedonian Empire"
+      ]
+    },
+    "lead": "Philip II of Macedon (Ancient Greek: Φίλιππος, romanized: Phílippos; 382 BC – October 336 BC) was the king (basileus) of Macedon from 359 BC until his death in 336 BC."
+  }
+}

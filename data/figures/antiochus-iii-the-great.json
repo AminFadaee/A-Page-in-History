@@ -1,0 +1,39 @@
+{
+  "id": "Q3365",
+  "slug": "antiochus-iii-the-great",
+  "name": "Antiochus III the Great",
+  "wikipedia": "Antiochus III the Great",
+  "role": "King of the Seleucid Empire from 222 to 187 BC",
+  "life": "c. 242–187 BC",
+  "civilizations": [
+    "Seleucid Empire"
+  ],
+  "related": [
+    "Ptolemaic Kingdom",
+    "Greco-Bactrian Kingdom",
+    "Roman Republic",
+    "Aetolian League"
+  ],
+  "contribution": "The sixth ruler of the Seleucid Empire, reigning from 223 BC to 187 BC.",
+  "image": "images/antiochus-iii-the-great.jpg",
+  "image_credit": "Uploadalt · CC BY 3.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Seleucid Empire"
+      ],
+      "lead": [
+        "Seleucid Empire",
+        "Ptolemaic Kingdom",
+        "Greco-Bactrian Kingdom",
+        "Roman Republic",
+        "Aetolian League"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Seleucid Empire"
+      ]
+    },
+    "lead": "Antiochus III the Great (; Ancient Greek: Ἀντίοχος ὁ Μέγας, Antíokhos ho Mégas; c. 241 BC – 3 July 187 BC) was the sixth ruler of the Seleucid Empire, reigning from 223 BC to 187 BC."
+  }
+}

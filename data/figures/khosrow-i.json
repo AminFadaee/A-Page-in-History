@@ -1,0 +1,39 @@
+{
+  "id": "Q207381",
+  "slug": "khosrow-i",
+  "name": "Khosrow I",
+  "wikipedia": "Khosrow I",
+  "role": "Shahanshah of the Sasanian Empire from 531 to 579",
+  "life": "501–579",
+  "civilizations": [
+    "Sasanian Empire"
+  ],
+  "related": [
+    "Ghassanids",
+    "Lazica",
+    "White Huns",
+    "Kingdom of Axum"
+  ],
+  "contribution": "The Sasanian King of Kings of Iran from 531 to 579.",
+  "image": "images/khosrow-i.jpg",
+  "image_credit": "CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Sasanian Empire"
+      ],
+      "lead": [
+        "Sasanian Empire",
+        "Ghassanids",
+        "Lazica",
+        "White Huns",
+        "Kingdom of Axum"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Sasanian Empire"
+      ]
+    },
+    "lead": "Khosrow I (also spelled Khosrau, Khusro or Chosroes; Middle Persian: 𐭧𐭥𐭮𐭫𐭥𐭣𐭩), traditionally known by his epithet of Anushirvan (Middle Persian: 𐭠𐭭𐭥𐭱𐭫𐭥𐭡𐭠𐭭, lit. 'the Immortal Soul'), was the Sasanian King of Kings of Iran from 531 to 579. He was the son and successor of Kavad I (r. 488–496, 498/499–531)."
+  }
+}

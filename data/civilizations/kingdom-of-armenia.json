@@ -1,0 +1,74 @@
+{
+  "id": "Q208404",
+  "slug": "kingdom-of-armenia",
+  "name": "Kingdom of Armenia",
+  "wikipedia": "Kingdom of Armenia (antiquity)",
+  "map_year": -77,
+  "period": {
+    "start": {
+      "earliest": -331,
+      "latest": -331,
+      "circa": false
+    },
+    "end": {
+      "earliest": 428,
+      "latest": 428,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tigranocerta",
+      "location": [
+        41.00138889,
+        38.14222222
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkey",
+    "Syria",
+    "Iran",
+    "Armenia",
+    "Lebanon"
+  ],
+  "map": "maps/kingdom-of-armenia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Van, Turkey",
+        "Tigranocerta",
+        "Artashat, Armenia",
+        "Arshakavan"
+      ],
+      "infobox": [
+        "Armavir",
+        "Yervandashat",
+        "Artaxata",
+        "Tigranocerta",
+        "Vagharshapat",
+        "Dvin"
+      ]
+    },
+    "cliopatria_years": [
+      -326,
+      646
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Parthian Empire",
+      "Kingdom of Pontus",
+      "Kingdom of Cappadocia",
+      "Nabataeans",
+      "Judea",
+      "Galatia",
+      "Thracian Kingdom"
+    ]
+  }
+}

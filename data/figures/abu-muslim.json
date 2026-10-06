@@ -1,0 +1,31 @@
+{
+  "id": "Q335210",
+  "slug": "abu-muslim",
+  "name": "Abu Muslim",
+  "wikipedia": "Abu Muslim",
+  "role": "",
+  "life": "718–755",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [
+    "Abbasid Caliphate"
+  ],
+  "contribution": "A Persian revolutionary and military commander who was a central figure in the Abbasid Revolution that brought down the Umayyad Caliphate and established the Abbasid Caliphate.",
+  "image": "images/abu-muslim.jpg",
+  "image_credit": "1598 author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Umayyad Caliphate",
+        "Abbasid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Abu Muslim (c. 718 to 727 – 755 CE) was a Persian revolutionary and military commander who was a central figure in the Abbasid Revolution that brought down the Umayyad Caliphate and established the Abbasid Caliphate."
+  }
+}

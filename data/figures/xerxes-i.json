@@ -1,0 +1,30 @@
+{
+  "id": "Q129165",
+  "slug": "xerxes-i",
+  "name": "Xerxes I",
+  "wikipedia": "Xerxes I",
+  "role": "King of Kings of the Achaemenid Empire from 486 to 465 BC",
+  "life": "519–465 BC",
+  "civilizations": [
+    "Achaemenid Empire"
+  ],
+  "related": [],
+  "contribution": "A Persian ruler who reigned as the fourth King of Kings of the Achaemenid Empire, reigning from 486 BC until his assassination in 465 BC. He was the son of Darius the Great and Atossa.",
+  "image": "images/xerxes-i.jpg",
+  "image_credit": "Darafsh · CC BY 3.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Achaemenid Empire"
+      ],
+      "lead": [
+        "Achaemenid Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Achaemenid Empire"
+      ]
+    },
+    "lead": "Xerxes I ( ZURK-seez; from Old Iranian Xšayār̥šā, commonly known as Xerxes the Great; c. 518 BC – 465 BC) was a Persian ruler who reigned as the fourth King of Kings of the Achaemenid Empire, reigning from 486 BC until his assassination in 465 BC. He was the son of Darius the Great and Atossa."
+  }
+}
