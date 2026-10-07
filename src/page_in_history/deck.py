@@ -9,7 +9,7 @@ from enum import StrEnum
 
 import genanki
 
-from page_in_history.dates import Span, period_label
+from page_in_history.dates import Span, centuries, period_label
 
 DECK_NAME = "Page in History"
 CIVILIZATION_MODEL_ID = 1_812_604_221
@@ -18,16 +18,16 @@ TAG_PREFIX = "PIH"
 MEDIA_PREFIX = "pih"
 TAG_UNSAFE = re.compile(r"[^\w-]+")
 MAX_MODERN_COUNTRIES = 10
+MAX_COUNTRY_TAGS = 3
 
 logger = logging.getLogger(__name__)
 
 
 class Subdeck(StrEnum):
-    MAPS = "Maps"
+    CIVILIZATIONS = "Civilizations"
     SUCCESSION = "Succession"
     PERIODS = "Periods"
     FIGURES = "Figures"
-    CIVILIZATIONS = "Civilizations"
 
     @property
     def full_name(self) -> str:
@@ -114,7 +114,7 @@ SUCCESSION_QUESTION = '<div class="image diagram">{{SuccessionQuestion}}</div>'
 SUCCESSION_ANSWER = '<div class="image diagram">{{SuccessionAnswer}}</div>'
 
 CIVILIZATION_TEMPLATES = (
-    Template("Map", Subdeck.MAPS, ("Map",),
+    Template("Map", Subdeck.CIVILIZATIONS, ("Map",),
              face(UNKNOWN_ENTITY, "Map", MAP_IMAGE),
              face(entity(CIVILIZATION_TITLE, answered=True), "Map", MAP_IMAGE) + CIVILIZATION_INFO),
     Template("Succession", Subdeck.SUCCESSION, ("SuccessionQuestion",),
@@ -135,10 +135,7 @@ FIGURE_INFO = info(("Civilization", "Civilization"), ("Known for", "Contribution
 FIGURE_TEMPLATES = (
     Template("Who", Subdeck.FIGURES, ("Role",),
              face(entity("{{Name}}"), "Who", UNKNOWN_VALUE),
-             face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT),
-    Template("Civilization", Subdeck.CIVILIZATIONS, ("Civilization",),
-             face(entity("{{Name}}"), "Civilization", UNKNOWN_VALUE),
-             face(entity(FIGURE_TITLE), "Civilization", value("{{Civilization}}", answered=True))
+             face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT
              + conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')),
 )
 
@@ -184,6 +181,32 @@ because deleted cards come back when you import an update.</p>
 (CC BY-SA); people lists from Wikipedia's Vital Articles and Pantheon (CC BY); modern borders from Natural Earth
 (public domain); portraits from Wikimedia Commons under the licence credited on each card. Built {date.today().isoformat()}.</p>
 """
+
+
+def century_tag(number: int) -> str:
+    """'PIH::Century::BC::06th', 'PIH::Century::AD::03rd': padded so the tag browser sorts them in order."""
+    suffix = "th" if 10 <= abs(number) % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(abs(number) % 10, "th")
+    return tag("Century", "BC" if number < 0 else "AD", f"{abs(number):02d}{suffix}")
+
+
+def civilization_tags(document: dict) -> list[str]:
+    tags = [tag("Civilization", document["name"])]
+    period = document["period"]
+    if period["confirmed"]:
+        tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]
+    countries = document["modern_countries"][:MAX_COUNTRY_TAGS]
+    for first, last, anchor in document["succession"].get("edges", []):
+        if document["id"] in (first, last):
+            countries += anchor.split(", ")
+    return tags + [tag("Country", country) for country in countries if country]
+
+
+def figure_tags(document: dict) -> list[str]:
+    tags = [tag("Civilization", name) for name in document["civilizations"]]
+    tags += [century_tag(number) for number in centuries(*document["lifetime"])]
+    tags += [tag("Country", document["birth_country"])] if document["birth_country"] else []
+    tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
+    return tags
 
 
 def tag(*parts: str) -> str:
@@ -253,7 +276,7 @@ class DeckBuilder:
             "ModernCountries": countries(document["modern_countries"]),
         }
         self._add(self.civilization_model, CIVILIZATION_FIELDS, CIVILIZATION_TEMPLATES, values,
-                  [tag("Civilization"), tag(document["name"])], document["id"])
+                  civilization_tags(document), document["id"])
 
     def add_figure(self, document: dict, maps: dict[str, str]) -> None:
         civilization = document["civilizations"][0] if document["civilizations"] else ""
@@ -269,7 +292,7 @@ class DeckBuilder:
             "ImageCredit": escaped(document["image_credit"]),
             "Related": joined(document["related"]),
         }
-        tags = [tag("Figure")] + [tag(name) for name in document["civilizations"]]
+        tags = figure_tags(document)
         self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"])
 
     def write(self, output: pathlib.Path) -> None:

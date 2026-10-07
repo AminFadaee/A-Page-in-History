@@ -34,7 +34,6 @@ def report(paths: DataPaths) -> str:
     total = len(figures)
     lines += ["", f"Figures ({total})",
               coverage("Who card", sum(bool(f["role"]) for f in figures), total),
-              coverage("Civilization card (2 of 3 agree)", sum(bool(f["civilizations"]) for f in figures), total),
               coverage("Image (back of card only)", sum(bool(f["image"]) for f in figures), total)]
     unresolved = summary["unresolved_polities"]
     lines += ["", f"Cliopatria polities around the slice left unresolved: {len(unresolved)}"]

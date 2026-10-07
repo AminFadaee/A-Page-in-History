@@ -45,7 +45,6 @@ SAMPLES = (
     Sample("Page in History civilization", "Succession", "Seleucid Empire", "civilization-succession-one-side.webp"),
     Sample("Page in History civilization", "Period", "Achaemenid Empire", "civilization-period.webp"),
     Sample("Page in History figure", "Who", "Cyrus the Great", "figure-who.webp"),
-    Sample("Page in History figure", "Civilization", "Ferdowsi", "figure-civilization.webp"),
 )
 
 

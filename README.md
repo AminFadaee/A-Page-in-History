@@ -17,7 +17,7 @@ one, so the cards build a web: Cyrus → Achaemenid Empire → its map, its neig
 
 | Subdeck | Question | Answer | Made only when |
 |---|---|---|---|
-| Maps | the map, with every neighbour labelled | the civilization and its period | always |
+| Civilizations | the map, with every neighbour labelled | the civilization and its period | always |
 | Succession | a diagram of what came directly before and after, with the civilization as ? | the civilization | at least one neighbour's own links are all known |
 | Periods | When: Achaemenid Empire | 550–330 BC | the period is confirmed |
 
@@ -42,11 +42,23 @@ and cut to today's coastline.
 
 | Subdeck | Question | Answer | Made only when |
 |---|---|---|---|
-| Figures | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for | always |
-| Civilizations | Civilization: Ferdowsi | Samanid Empire, with its map | the civilization is confirmed |
+| Figures | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map | always |
 
 Images of people from before photography are artists' depictions, so they are shown on the back as illustrations
 and never asked about.
+
+### Tags
+
+Notes are tagged so you can filter or suspend groups of them:
+
+- civilization: `PIH::Civilization::Sasanian_Empire`, on the civilization and on every figure linked to it
+- century: `PIH::Century::BC::06th`, `PIH::Century::AD::03rd`, every century of a civilization's period or a figure's life
+- country: `PIH::Country::Iran`, the main modern countries of a civilization and where its successions happened, or
+  where a figure was born
+- occupation: `PIH::Occupation::Philosopher`, for figures
+
+To skip a kind of question, suspend its subdeck rather than deleting it: deleted cards come back when you import an
+update.
 
 ## Sources and rules
 
@@ -61,7 +73,7 @@ and never asked about.
 | Modern countries | Cliopatria, Natural Earth | At least 5% of the civilization's territory or half of the country |
 | Map: borders, coastline, rivers | Natural Earth | Rivers of scale rank 4 and above everywhere, rank 5 where they cross the civilization |
 | Map: capitals | Wikidata coordinates of the confirmed capitals | |
-| Figures | Wikipedia Vital Articles (levels 4 and 5), Pantheon | Everyone on level 4; from level 5 only people with a Pantheon Historical Popularity Index of 85 or more. Leaves out entertainers, athletes and similar occupations |
+| Figures | Wikipedia Vital Articles (levels 4 and 5), Pantheon | Everyone on level 4; from level 5 only people with a Pantheon Historical Popularity Index of 78 or more. Leaves out entertainers, athletes and similar occupations |
 | A figure's civilization | Wikidata citizenship, links in the article's opening paragraph, the Vital Articles section the person is filed under, birthplace (Pantheon) on the Cliopatria map | At least two of the four |
 | Role | Wikipedia short description | |
 | Contribution | Wikipedia opening paragraph | The opening sentence as written, without its subject |

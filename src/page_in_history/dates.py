@@ -43,6 +43,15 @@ def century_label(year: int) -> str:
     return f"{century}{suffix} century{' BC' if year <= 0 else ''}"
 
 
+def century(year: int) -> int:
+    """Signed century: 3 for AD 201–300, -6 for 600–501 BC."""
+    return (year - 1) // 100 + 1 if year > 0 else -((-year + 99) // 100)
+
+
+def centuries(earliest: int, latest: int) -> list[int]:
+    return [number for number in range(century(earliest), century(latest) + 1) if number != 0]
+
+
 def century_span(century: int, before_christ: bool) -> Span:
     return Span(-century * 100, -century * 100 + 99) if before_christ else Span((century - 1) * 100 + 1, century * 100)
 
