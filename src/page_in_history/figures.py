@@ -24,7 +24,7 @@ EXCLUDED_OCCUPATIONS = {
     "AMERICAN FOOTBALL PLAYER", "YOUTUBER", "POKER PLAYER", "MAGICIAN", "GAMER", "BULLFIGHTER", "GO PLAYER",
 }
 ASSUMED_LIFESPAN = 70
-MIN_LEVEL_5_POPULARITY = 85
+MIN_LEVEL_5_POPULARITY = 78
 MIN_VOTES = 2
 SHORT_DESCRIPTION_DATES = re.compile(r"\s*\((?:[^()]*\d[^()]*)\)\s*$|,?\s*(?:c\.\s*)?\d+(?:st|nd|rd|th)?[- ]century.*$")
 COPULA = re.compile(r"\b(?:was|is|were)\s+", re.IGNORECASE)
@@ -42,6 +42,9 @@ class Figure:
     wikipedia: str
     role: str
     life: str
+    lifetime: list[int]
+    occupation: str
+    birth_country: str
     civilizations: list[str]
     related: list[str]
     contribution: str
@@ -120,7 +123,7 @@ class FigureBuilder:
             section_polities = self._polities(section, linked)
             civilizations, related, votes = self._civilizations(person, span, lead_polities, section_polities)
             if set(civilizations) & polity_names:
-                figures.append((title, person, civilizations, related, votes))
+                figures.append((title, person, span, civilizations, related, votes))
         logger.info("%d figures link to the selected civilizations", len(figures))
         return self._assemble(figures)
 
@@ -180,11 +183,12 @@ class FigureBuilder:
         titles = [title for title, *_ in figures]
         introductions = self.wikipedia.introductions(titles)
         assembled = []
-        for title, person, civilizations, related, votes in figures:
+        for title, person, span, civilizations, related, votes in figures:
             extract, short_description = introductions.get(title, ("", None))
             paragraph = first_paragraph(extract)
             contribution = predicate(paragraph)
             image, credit = self._image(person)
+            known = self.pantheon.get(person.id)
             assembled.append(Figure(
                 id=person.id,
                 slug=slugify(title),
@@ -192,6 +196,9 @@ class FigureBuilder:
                 wikipedia=title,
                 role=role(short_description),
                 life=life_label(person.years("P569"), person.years("P570")),
+                lifetime=list(span),
+                occupation=known.occupation.capitalize() if known else "",
+                birth_country=known.birth_country if known else "",
                 civilizations=civilizations,
                 related=related,
                 contribution=contribution,

@@ -13,6 +13,7 @@ class Person:
     popularity: float | None
     birth_year: int | None
     birthplace: tuple[float, float] | None
+    birth_country: str
 
 
 def number(value: str) -> float | None:
@@ -31,5 +32,6 @@ def load(http: Http) -> dict[str, Person]:
                 number(row["hpi"]),
                 int(birth_year) if birth_year is not None else None,
                 (longitude, latitude) if longitude is not None and latitude is not None else None,
+                row["bplace_country"],
             )
     return people
