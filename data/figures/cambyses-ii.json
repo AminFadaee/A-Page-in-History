@@ -1,0 +1,38 @@
+{
+  "id": "Q182483",
+  "slug": "cambyses-ii",
+  "name": "Cambyses II",
+  "wikipedia": "Cambyses II",
+  "role": "Ruler of the Achaemenid Empire from 530 to 522 BC",
+  "life": "559–522 BC",
+  "lifetime": [
+    -559,
+    -522
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Achaemenid Empire"
+  ],
+  "related": [],
+  "contribution": "The second King of Kings of the Achaemenid Empire, reigning from 530 to 522 BCE. He was the son of and successor to Cyrus the Great; his mother was Cassandane.",
+  "image": "images/cambyses-ii.jpg",
+  "image_credit": "Jona Lendering · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Achaemenid Empire"
+      ],
+      "lead": [
+        "Achaemenid Empire"
+      ],
+      "vital_section": [
+        "Achaemenid Empire"
+      ],
+      "birthplace": [
+        "Achaemenid Empire"
+      ]
+    },
+    "lead": "Cambyses II was the second King of Kings of the Achaemenid Empire, reigning from 530 to 522 BCE. He was the son of and successor to Cyrus the Great (r. 550–530 BC); his mother was Cassandane. His relatively brief reign was marked by his conquests in North Africa, notably Egypt, which he took by defeating pharaoh Psamtik III (r. 526–525 BC) at the Battle of Pelusium in 525 BC. After his victory in Egypt, he expanded the empire's holdings in Africa by taking Cyrenaica, the coastal region of eastern Libya. In the spring of 522 BC, Cambyses had to leave Egypt hastily to put down a revolt in Persia."
+  }
+}

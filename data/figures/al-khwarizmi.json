@@ -5,6 +5,12 @@
   "wikipedia": "Al-Khwarizmi",
   "role": "Islamic mathematician",
   "life": "c. 780–850",
+  "lifetime": [
+    780,
+    850
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Turkmenistan",
   "civilizations": [
     "Abbasid Caliphate"
   ],

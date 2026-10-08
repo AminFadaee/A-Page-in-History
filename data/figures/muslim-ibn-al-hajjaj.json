@@ -5,6 +5,12 @@
   "wikipedia": "Muslim ibn al-Hajjaj",
   "role": "Arab Muslim hadith scholar",
   "life": "821–875",
+  "lifetime": [
+    821,
+    875
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Iran",
   "civilizations": [
     "Abbasid Caliphate"
   ],

@@ -5,6 +5,12 @@
   "wikipedia": "Pliny the Elder",
   "role": "Roman military commander and writer",
   "life": "1st century – AD 79",
+  "lifetime": [
+    20,
+    79
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Italy",
   "civilizations": [
     "Roman Empire"
   ],

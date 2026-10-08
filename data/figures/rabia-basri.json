@@ -1,0 +1,35 @@
+{
+  "id": "Q256506",
+  "slug": "rabia-basri",
+  "name": "Rabia Basri",
+  "wikipedia": "Rabia Basri",
+  "role": "Female Sufi scholar and saint",
+  "life": "8th century – AD 801",
+  "lifetime": [
+    710,
+    801
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [],
+  "contribution": "A poet, one of the earliest Sufi mystics and an influential religious figure from Basra.",
+  "image": "images/rabia-basri.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Umayyad Caliphate",
+        "Abbasid Caliphate"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Rābiʼa al-ʼAdawiyya al-Qaysiyya (Arabic: رابعة العدوية القيسية; c. 716 – 801 CE) or Rabia Basri was a poet, one of the earliest Sufi mystics and an influential religious figure from Basra. Her full name is said to be Rābiʿa bint Ismāʿīl; her kunya was Umm ʿAmr (or Umm al-Khayr), her wilāya was al-ʿAtakiyyah, and her nisba was al-ʿAdawiyya or al-Qaysīyya because she was a freed slave of the tribe of Qays ibn ʿAdī. She is regarded as one of the three preeminent Qalandars of the world."
+  }
+}

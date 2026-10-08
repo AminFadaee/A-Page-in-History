@@ -5,6 +5,12 @@
   "wikipedia": "Marcus Aurelius",
   "role": "Stoic philosopher, Roman emperor from 161 to 180",
   "life": "121–180",
+  "lifetime": [
+    121,
+    180
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
   "civilizations": [
     "Roman Empire"
   ],

@@ -5,6 +5,12 @@
   "wikipedia": "Ahmad ibn Hanbal",
   "role": "Muslim scholar, jurist, and theologian",
   "life": "780–855",
+  "lifetime": [
+    780,
+    855
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iraq",
   "civilizations": [
     "Abbasid Caliphate"
   ],

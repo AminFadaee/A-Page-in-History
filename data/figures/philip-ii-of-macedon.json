@@ -5,6 +5,12 @@
   "wikipedia": "Philip II of Macedon",
   "role": "King of Macedon from 359 to 336 BC",
   "life": "4th century BC – 336 BC",
+  "lifetime": [
+    -394,
+    -336
+  ],
+  "occupation": "Politician",
+  "birth_country": "Greece",
   "civilizations": [
     "Macedonian Empire"
   ],

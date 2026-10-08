@@ -5,6 +5,12 @@
   "wikipedia": "Darius the Great",
   "role": "Persian ruler from 522 to 486 BCE",
   "life": "550–486 BC",
+  "lifetime": [
+    -550,
+    -486
+  ],
+  "occupation": "Politician",
+  "birth_country": "Georgia",
   "civilizations": [
     "Achaemenid Empire"
   ],

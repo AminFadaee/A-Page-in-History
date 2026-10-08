@@ -5,6 +5,12 @@
   "wikipedia": "Josephus",
   "role": "Roman–Jewish historian and military leader",
   "life": "37–100",
+  "lifetime": [
+    37,
+    100
+  ],
+  "occupation": "Historian",
+  "birth_country": "Israel",
   "civilizations": [
     "Roman Empire"
   ],

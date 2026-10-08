@@ -5,6 +5,12 @@
   "wikipedia": "Abu Hanifa",
   "role": "Muslim scholar, jurist, and theologian",
   "life": "699–767",
+  "lifetime": [
+    699,
+    767
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Iraq",
   "civilizations": [
     "Umayyad Caliphate"
   ],

@@ -5,6 +5,12 @@
   "wikipedia": "Umar",
   "role": "Rashidun caliph from 634 to 644",
   "life": "c. 586–644",
+  "lifetime": [
+    586,
+    644
+  ],
+  "occupation": "Politician",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Rashidun Caliphate"
   ],

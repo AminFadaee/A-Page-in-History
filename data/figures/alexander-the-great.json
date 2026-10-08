@@ -5,6 +5,12 @@
   "wikipedia": "Alexander the Great",
   "role": "King of Macedon from 336 to 323 BC",
   "life": "356–323 BC",
+  "lifetime": [
+    -356,
+    -323
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Greece",
   "civilizations": [
     "Macedonian Empire"
   ],

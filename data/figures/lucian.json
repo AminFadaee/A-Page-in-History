@@ -5,6 +5,12 @@
   "wikipedia": "Lucian",
   "role": "",
   "life": "c. 120–180",
+  "lifetime": [
+    120,
+    180
+  ],
+  "occupation": "Writer",
+  "birth_country": "Türkiye",
   "civilizations": [
     "Roman Empire"
   ],

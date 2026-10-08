@@ -5,6 +5,12 @@
   "wikipedia": "Caracalla",
   "role": "Roman emperor from 198 to 217",
   "life": "188–217",
+  "lifetime": [
+    188,
+    217
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
   "civilizations": [
     "Roman Empire"
   ],

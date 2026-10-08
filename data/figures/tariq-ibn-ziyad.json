@@ -1,0 +1,37 @@
+{
+  "id": "Q230497",
+  "slug": "tariq-ibn-ziyad",
+  "name": "Tariq ibn Ziyad",
+  "wikipedia": "Tariq ibn Ziyad",
+  "role": "Umayyad commander in Hispania",
+  "life": "670–720",
+  "lifetime": [
+    670,
+    720
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Algeria",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [
+    "Visigothic Kingdom"
+  ],
+  "contribution": "An Umayyad commander who initiated the Muslim conquest of the Iberian Peninsula against the Visigothic Kingdom in 711–718 AD. He led an army and crossed the Strait of Gibraltar from the North African coast, consolidating his troops at what is today known as the Rock of Gibraltar (named after him, from Arabic Jabal Ṭāriq, literally 'mountain of Tariq').",
+  "image": "images/tariq-ibn-ziyad.jpg",
+  "image_credit": "Theodor Hosemann (1807-1875) · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Umayyad Caliphate"
+      ],
+      "lead": [
+        "Umayyad Caliphate",
+        "Visigothic Kingdom"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Tariq ibn Ziyad (Arabic: طارق بن زياد Ṭāriq ibn Ziyād; c. 670 – c. 720), also known simply as Tarik in English, was an Umayyad commander who initiated the Muslim conquest of the Iberian Peninsula (present-day Spain and Portugal) against the Visigothic Kingdom in 711–718 AD. He led an army and crossed the Strait of Gibraltar from the North African coast, consolidating his troops at what is today known as the Rock of Gibraltar (named after him, from Arabic Jabal Ṭāriq (جبل طارق), literally 'mountain of Tariq')."
+  }
+}

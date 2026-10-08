@@ -5,6 +5,12 @@
   "wikipedia": "Ali",
   "role": "Shia Imam (632–661) and Rashidun caliph",
   "life": "599–661",
+  "lifetime": [
+    599,
+    661
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Rashidun Caliphate"
   ],

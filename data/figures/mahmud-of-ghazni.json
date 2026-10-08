@@ -5,6 +5,12 @@
   "wikipedia": "Mahmud of Ghazni",
   "role": "Ghaznavid sultan from 998 to 1030",
   "life": "971–1030",
+  "lifetime": [
+    971,
+    1030
+  ],
+  "occupation": "Politician",
+  "birth_country": "Afghanistan",
   "civilizations": [
     "Ghaznavid Empire"
   ],

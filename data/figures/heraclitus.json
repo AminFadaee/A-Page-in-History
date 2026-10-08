@@ -5,6 +5,12 @@
   "wikipedia": "Heraclitus",
   "role": "Ancient Greek philosopher",
   "life": "c. 535 BC – 5th century BC",
+  "lifetime": [
+    -535,
+    -470
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Türkiye",
   "civilizations": [
     "Achaemenid Empire"
   ],

@@ -5,6 +5,12 @@
   "wikipedia": "Cyrus the Great",
   "role": "Founder of the Achaemenid Empire",
   "life": "c. 600–530 BC",
+  "lifetime": [
+    -600,
+    -530
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
   "civilizations": [
     "Achaemenid Empire"
   ],

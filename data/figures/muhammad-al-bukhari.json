@@ -5,6 +5,12 @@
   "wikipedia": "Muhammad al-Bukhari",
   "role": "Islamic hadith scholar",
   "life": "810–870",
+  "lifetime": [
+    810,
+    870
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Uzbekistan",
   "civilizations": [
     "Abbasid Caliphate"
   ],

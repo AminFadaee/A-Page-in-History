@@ -5,6 +5,12 @@
   "wikipedia": "Harun al-Rashid",
   "role": "5th Abbasid caliph",
   "life": "766–809",
+  "lifetime": [
+    766,
+    809
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
   "civilizations": [
     "Abbasid Caliphate"
   ],

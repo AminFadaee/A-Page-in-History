@@ -5,6 +5,12 @@
   "wikipedia": "Commodus",
   "role": "Roman emperor from 177 to 192",
   "life": "161–192",
+  "lifetime": [
+    161,
+    192
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
   "civilizations": [
     "Roman Empire"
   ],

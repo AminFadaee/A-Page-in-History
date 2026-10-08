@@ -5,6 +5,12 @@
   "wikipedia": "Constantine the Great",
   "role": "Roman emperor from 306 to 337",
   "life": "c. 272–337",
+  "lifetime": [
+    272,
+    337
+  ],
+  "occupation": "Politician",
+  "birth_country": "Serbia",
   "civilizations": [
     "Roman Empire"
   ],

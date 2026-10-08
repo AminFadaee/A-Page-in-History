@@ -1,0 +1,36 @@
+{
+  "id": "Q189689",
+  "slug": "artaxerxes-i",
+  "name": "Artaxerxes I",
+  "wikipedia": "Artaxerxes I",
+  "role": "King of Kings of the Achaemenid Empire from 465 to 424 BC",
+  "life": "5th century BC – 424 BC",
+  "lifetime": [
+    -500,
+    -424
+  ],
+  "occupation": "Politician",
+  "birth_country": "",
+  "civilizations": [
+    "Achaemenid Empire"
+  ],
+  "related": [],
+  "contribution": "The fifth King of Kings of the Achaemenid Empire of  Persia, from August 465 to December 424 BC. He was the third son of Xerxes I. In Greek sources he is also surnamed \"Long-handed\", allegedly because his right hand was longer than his left.",
+  "image": "images/artaxerxes-i.jpg",
+  "image_credit": "Diego Delso · CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Achaemenid Empire"
+      ],
+      "lead": [
+        "Achaemenid Empire"
+      ],
+      "vital_section": [
+        "Achaemenid Empire"
+      ],
+      "birthplace": []
+    },
+    "lead": "Artaxerxes I was the fifth King of Kings of the Achaemenid Empire of  Persia, from August 465 to December 424 BC. He was the third son of Xerxes I. In Greek sources he is also surnamed \"Long-handed\" (Ancient Greek: μακρόχειρ Makrókheir; Latin: Longimanus), allegedly because his right hand was longer than his left. Josephus and several ancient traditions identify him as King Ahasuerus, from the Book of Esther."
+  }
+}

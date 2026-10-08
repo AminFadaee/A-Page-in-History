@@ -1,0 +1,38 @@
+{
+  "id": "Q102865",
+  "slug": "darius-iii",
+  "name": "Darius III",
+  "wikipedia": "Darius III",
+  "role": "King of the Achaemenid Empire from 336 to 330 BC)",
+  "life": "380–330 BC",
+  "lifetime": [
+    -380,
+    -330
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Achaemenid Empire"
+  ],
+  "related": [],
+  "contribution": "The thirteenth and last Achaemenid King of Kings of Persia, reigning from 336 BC to his death in 330 BC.",
+  "image": "images/darius-iii.jpg",
+  "image_credit": "Carole Raddato from FRANKFURT, Germany · CC BY-SA 2.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Achaemenid Empire"
+      ],
+      "lead": [
+        "Achaemenid Empire"
+      ],
+      "vital_section": [
+        "Achaemenid Empire"
+      ],
+      "birthplace": [
+        "Achaemenid Empire"
+      ]
+    },
+    "lead": "Darius III (Old Persian: 𐎭𐎠𐎼𐎹𐎺𐎢𐏁 Dārayavaʰuš; Ancient Greek: Δαρεῖος Dareios; c. 380 – 330 BC) was the thirteenth and last Achaemenid King of Kings of Persia, reigning from 336 BC to his death in 330 BC."
+  }
+}

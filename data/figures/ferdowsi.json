@@ -5,6 +5,12 @@
   "wikipedia": "Ferdowsi",
   "role": "Persian poet",
   "life": "c. 940–1020",
+  "lifetime": [
+    940,
+    1020
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iran",
   "civilizations": [
     "Samanid Empire"
   ],

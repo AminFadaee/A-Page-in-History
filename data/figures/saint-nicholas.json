@@ -5,6 +5,12 @@
   "wikipedia": "Saint Nicholas",
   "role": "",
   "life": "2nd century – 3rd century",
+  "lifetime": [
+    151,
+    350
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Türkiye",
   "civilizations": [
     "Roman Empire"
   ],

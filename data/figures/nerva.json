@@ -1,0 +1,34 @@
+{
+  "id": "Q1424",
+  "slug": "nerva",
+  "name": "Nerva",
+  "wikipedia": "Nerva",
+  "role": "Roman emperor from AD 96 to 98",
+  "life": "30–98",
+  "lifetime": [
+    30,
+    98
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Roman emperor from AD 96 to 98.",
+  "image": "images/nerva.jpg",
+  "image_credit": "Livioandronico2013 · CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [],
+      "vital_section": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Nerva (; born Marcus Cocceius Nerva; 8 November 30 – 27 January 98) was a Roman emperor from AD 96 to 98. Nerva became emperor when aged almost 66, after a lifetime of imperial service under Nero and the succeeding rulers of the Flavian dynasty."
+  }
+}

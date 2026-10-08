@@ -5,6 +5,12 @@
   "wikipedia": "Xerxes I",
   "role": "King of Kings of the Achaemenid Empire from 486 to 465 BC",
   "life": "519–465 BC",
+  "lifetime": [
+    -519,
+    -465
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
   "civilizations": [
     "Achaemenid Empire"
   ],

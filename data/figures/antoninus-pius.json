@@ -1,0 +1,34 @@
+{
+  "id": "Q1429",
+  "slug": "antoninus-pius",
+  "name": "Antoninus Pius",
+  "wikipedia": "Antoninus Pius",
+  "role": "Roman emperor from 138 to 161",
+  "life": "86–161",
+  "lifetime": [
+    86,
+    161
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Roman emperor from AD 138 to 161.",
+  "image": "images/antoninus-pius.jpg",
+  "image_credit": "Unknown artistUnknown artist · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [],
+      "vital_section": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Titus Aelius Hadrianus Antoninus Pius (; Latin: [antoːˈniːnus ˈpius]; 19 September 86 – 7 March 161) was Roman emperor from AD 138 to 161. He was the fourth of the Five Good Emperors from the Nerva–Antonine dynasty and also the fourth of the six adoptive emperors."
+  }
+}

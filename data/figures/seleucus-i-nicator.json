@@ -5,6 +5,12 @@
   "wikipedia": "Seleucus I Nicator",
   "role": "Macedonian general, Diadochus, and founder of the Seleucid Empire",
   "life": "358–281 BC",
+  "lifetime": [
+    -358,
+    -281
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Greece",
   "civilizations": [
     "Macedonian Empire",
     "Seleucid Empire"

@@ -1,0 +1,34 @@
+{
+  "id": "Q168705",
+  "slug": "al-masudi",
+  "name": "Al-Masudi",
+  "wikipedia": "Al-Masudi",
+  "role": "Arab historian and geographer",
+  "life": "c. 896–957",
+  "lifetime": [
+    896,
+    957
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [],
+  "contribution": "A historian, geographer and traveler sometimes referred to as the \"Herodotus of the Arabs\". A polymath and prolific author of over twenty works on theology, history, geography, natural science and philosophy, his celebrated magnum opus The Meadows of Gold combines universal history with scientific geography, social commentary and biography.",
+  "image": "images/al-masudi.jpg",
+  "image_credit": "Hubertl · CC BY-SA 4.0",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Abbasid Caliphate"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Abbasid Caliphate"
+      ]
+    },
+    "lead": "al-Masʿūdī (full name Abū al-Ḥasan ʿAlī ibn al-Ḥusayn ibn ʿAlī al-Masʿūdī, أبو الحسن علي بن الحسين بن علي المسعودي), c. 896–956, was a historian, geographer and traveler sometimes referred to as the \"Herodotus of the Arabs\". A polymath and prolific author of over twenty works on theology, history (Islamic and universal), geography, natural science and philosophy, his celebrated magnum opus The Meadows of Gold (Murūj al-Dhahab) combines universal history with scientific geography, social commentary and biography."
+  }
+}

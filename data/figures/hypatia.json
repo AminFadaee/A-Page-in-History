@@ -5,6 +5,12 @@
   "wikipedia": "Hypatia",
   "role": "",
   "life": "c. 360–415",
+  "lifetime": [
+    360,
+    415
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Egypt",
   "civilizations": [
     "Roman Empire"
   ],

@@ -5,6 +5,12 @@
   "wikipedia": "Gaiseric",
   "role": "King of the Vandals and Alans",
   "life": "389–477",
+  "lifetime": [
+    389,
+    477
+  ],
+  "occupation": "Politician",
+  "birth_country": "Hungary",
   "civilizations": [
     "Vandal Kingdom",
     "Roman Empire"

@@ -5,6 +5,12 @@
   "wikipedia": "Abu Muslim",
   "role": "",
   "life": "718–755",
+  "lifetime": [
+    718,
+    755
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Turkmenistan",
   "civilizations": [
     "Umayyad Caliphate"
   ],

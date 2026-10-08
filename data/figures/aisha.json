@@ -5,6 +5,12 @@
   "wikipedia": "Aisha",
   "role": "Muhammad's third wife",
   "life": "c. 614–678",
+  "lifetime": [
+    614,
+    678
+  ],
+  "occupation": "Companion",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Rashidun Caliphate"
   ],

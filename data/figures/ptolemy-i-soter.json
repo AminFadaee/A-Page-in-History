@@ -5,6 +5,12 @@
   "wikipedia": "Ptolemy I Soter",
   "role": "Pharaoh of Egypt from 305 to 282 BC",
   "life": "4th century BC – 3rd century BC",
+  "lifetime": [
+    -374,
+    -285
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Greece",
   "civilizations": [
     "Macedonian Empire",
     "Ptolemaic Kingdom"

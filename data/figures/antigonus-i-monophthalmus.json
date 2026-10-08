@@ -5,6 +5,12 @@
   "wikipedia": "Antigonus I Monophthalmus",
   "role": "Macedonian general, founder of Antigonid dynasty",
   "life": "382–301 BC",
+  "lifetime": [
+    -382,
+    -301
+  ],
+  "occupation": "Politician",
+  "birth_country": "Greece",
   "civilizations": [
     "Macedonian Empire"
   ],

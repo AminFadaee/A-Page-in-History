@@ -5,6 +5,12 @@
   "wikipedia": "John of Damascus",
   "role": "Christian monk, priest, hymnographer and apologist",
   "life": "c. 675–749",
+  "lifetime": [
+    675,
+    749
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Syria",
   "civilizations": [
     "Umayyad Caliphate"
   ],

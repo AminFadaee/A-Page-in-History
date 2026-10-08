@@ -5,6 +5,12 @@
   "wikipedia": "Tigranes the Great",
   "role": "King of Armenia from 95 to 55 BC",
   "life": "140–55 BC",
+  "lifetime": [
+    -140,
+    -55
+  ],
+  "occupation": "Politician",
+  "birth_country": "Armenia",
   "civilizations": [
     "Kingdom of Armenia"
   ],

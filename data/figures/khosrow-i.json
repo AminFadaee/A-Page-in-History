@@ -5,6 +5,12 @@
   "wikipedia": "Khosrow I",
   "role": "Shahanshah of the Sasanian Empire from 531 to 579",
   "life": "501–579",
+  "lifetime": [
+    501,
+    579
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
   "civilizations": [
     "Sasanian Empire"
   ],

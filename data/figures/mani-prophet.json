@@ -1,0 +1,39 @@
+{
+  "id": "Q203922",
+  "slug": "mani-prophet",
+  "name": "Mani (prophet)",
+  "wikipedia": "Mani (prophet)",
+  "role": "",
+  "life": "c. 216–274",
+  "lifetime": [
+    216,
+    277
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Parthian Empire",
+    "Sasanian Empire"
+  ],
+  "related": [],
+  "contribution": "An Iranian prophet and the founder of Manichaeism, a religion most prevalent in late antiquity.",
+  "image": "images/mani-prophet.jpg",
+  "image_credit": "Mladifilozof · Public domain",
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Parthian Empire",
+        "Sasanian Empire"
+      ],
+      "lead": [
+        "Parthian Empire",
+        "Sasanian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Parthian Empire"
+      ]
+    },
+    "lead": "Mani (; c. April AD 216 – 2 March AD 274 or 26 February AD 277) was an Iranian prophet and the founder of Manichaeism, a religion most prevalent in late antiquity."
+  }
+}

@@ -5,6 +5,12 @@
   "wikipedia": "Abu Nuwas",
   "role": "",
   "life": "c. 756–814",
+  "lifetime": [
+    756,
+    814
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iran",
   "civilizations": [
     "Abbasid Caliphate"
   ],

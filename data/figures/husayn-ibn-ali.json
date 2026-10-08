@@ -5,6 +5,12 @@
   "wikipedia": "Husayn ibn Ali",
   "role": "Grandson of Muhammad and the 3rd Imam",
   "life": "626–680",
+  "lifetime": [
+    626,
+    680
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Umayyad Caliphate"
   ],

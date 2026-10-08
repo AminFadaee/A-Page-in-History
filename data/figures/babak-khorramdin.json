@@ -5,6 +5,12 @@
   "wikipedia": "Babak Khorramdin",
   "role": "",
   "life": "798–838",
+  "lifetime": [
+    798,
+    838
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Iran",
   "civilizations": [
     "Abbasid Caliphate"
   ],

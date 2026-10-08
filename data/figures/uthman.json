@@ -5,6 +5,12 @@
   "wikipedia": "Uthman",
   "role": "Rashidun caliph from 644 to 656",
   "life": "574–656",
+  "lifetime": [
+    574,
+    656
+  ],
+  "occupation": "Politician",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Rashidun Caliphate"
   ],

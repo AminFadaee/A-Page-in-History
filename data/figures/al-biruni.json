@@ -5,6 +5,12 @@
   "wikipedia": "Al-Biruni",
   "role": "Khwarazmian polymath",
   "life": "973–1048",
+  "lifetime": [
+    973,
+    1048
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Uzbekistan",
   "civilizations": [
     "Samanid Empire"
   ],

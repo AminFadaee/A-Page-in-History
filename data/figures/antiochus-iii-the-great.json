@@ -5,6 +5,12 @@
   "wikipedia": "Antiochus III the Great",
   "role": "King of the Seleucid Empire from 222 to 187 BC",
   "life": "c. 242–187 BC",
+  "lifetime": [
+    -242,
+    -187
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
   "civilizations": [
     "Seleucid Empire"
   ],

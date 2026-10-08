@@ -5,6 +5,12 @@
   "wikipedia": "Abu Bakr",
   "role": "Rashidun caliph from 632 to 634",
   "life": "c. 573–634",
+  "lifetime": [
+    573,
+    634
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Rashidun Caliphate"
   ],

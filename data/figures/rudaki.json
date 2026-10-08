@@ -5,6 +5,12 @@
   "wikipedia": "Rudaki",
   "role": "Persian poet",
   "life": "859–941",
+  "lifetime": [
+    859,
+    941
+  ],
+  "occupation": "Writer",
+  "birth_country": "Tajikistan",
   "civilizations": [
     "Samanid Empire"
   ],

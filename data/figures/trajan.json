@@ -5,6 +5,12 @@
   "wikipedia": "Trajan",
   "role": "Roman emperor from AD 98 to 117",
   "life": "53–117",
+  "lifetime": [
+    53,
+    117
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
   "civilizations": [
     "Roman Empire"
   ],

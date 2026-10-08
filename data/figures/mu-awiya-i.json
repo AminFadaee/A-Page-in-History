@@ -5,6 +5,12 @@
   "wikipedia": "Mu'awiya I",
   "role": "Founder of the Umayyad Caliphate",
   "life": "603–680",
+  "lifetime": [
+    603,
+    680
+  ],
+  "occupation": "Politician",
+  "birth_country": "Saudi Arabia",
   "civilizations": [
     "Umayyad Caliphate"
   ],

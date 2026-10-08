@@ -5,6 +5,12 @@
   "wikipedia": "Abd Allah al-Mahdi Billah",
   "role": "Isma'ili Imam and first Fatimid Caliph from 909 to 934",
   "life": "873–934",
+  "lifetime": [
+    873,
+    934
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
   "civilizations": [
     "Abbasid Caliphate"
   ],

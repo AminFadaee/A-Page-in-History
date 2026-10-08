@@ -5,6 +5,12 @@
   "wikipedia": "Al-Kindi",
   "role": "Muslim Arab philosopher, mathematician and physician",
   "life": "c. 801–870",
+  "lifetime": [
+    801,
+    873
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Iraq",
   "civilizations": [
     "Abbasid Caliphate"
   ],
