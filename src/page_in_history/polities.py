@@ -20,6 +20,8 @@ IDENTITY_PADDING_YEARS = 150
 MIN_REGION_SHARE = 0.05
 MIN_INSIDE_SHARE = 0.25
 MIN_PEAK_AREA_KM2 = 50_000
+MIN_LANGUAGE_EDITIONS = 60
+ENDED_BEFORE = 1945
 INFOBOX_TOLERANCE_YEARS = 1
 CLIOPATRIA_TOLERANCE_YEARS = 25
 SUCCESSION_WINDOW_YEARS = 30
@@ -67,6 +69,17 @@ class Polity:
 
     def to_json(self) -> dict:
         return asdict(self)
+
+
+def equal_area(frame):
+    """Reprojected for area measurements and repaired, since reprojection can make a valid shape self-intersect."""
+    projected = frame.to_crs(EQUAL_AREA)
+    return projected.set_geometry(projected.geometry.make_valid()) if hasattr(projected, "set_geometry") \
+        else projected.make_valid()
+
+
+def equal_area_shape(geometry, crs):
+    return equal_area(gpd.GeoSeries([geometry], crs=crs)).iloc[0]
 
 
 def shortcut(link: tuple[str, str], links: set[tuple[str, str]]) -> bool:
@@ -142,13 +155,17 @@ class PolityCatalog:
         self.entities.update(wikidata.entities([qid for entity in self.entities.values() for qid in entity.ids("P17")]))
         classes = {qid for entity in self.entities.values() for qid in entity.ids("P31", preferred_only=False)}
         self.polity_classes = wikidata.subclass_of(sorted(classes), POLITY_ROOTS)
+        others = [page.title for page in pages.values()
+                  if page.qid in self.entities and not self.is_polity(self.entities[page.qid])]
+        self.infoboxes = {title: country_infobox(text) for title, text in wikipedia.wikitext(others).items()}
         self.unresolved: dict[str, str] = {}
         candidates: dict[str, Identity] = {}
         for name, (title, cliopatria_qid) in links.items():
             group = rows[rows.Name == name]
             page = pages.get(title)
             entity = self.entities.get(page.qid) if page and page.qid else None
-            found = self._identify(name, title, entity, cliopatria_qid, int(group.FromYear.min()), int(group.ToYear.max()))
+            found = self._identify(name, page.title if page else title, entity, cliopatria_qid,
+                                   int(group.FromYear.min()), int(group.ToYear.max()))
             if isinstance(found, Identity):
                 candidates[name] = found
             else:
@@ -175,7 +192,18 @@ class PolityCatalog:
                   and dynasty in (self.entities[qid].label or "").lower().split()]
         if len(states) == 1 and states[0].enwiki:
             return Identity(name, states[0].enwiki, states[0].id, f"the state named after {entity.label}")
+        infobox = self.infoboxes.get(title)
+        if infobox and self._infobox_overlaps(infobox, entity, start, end):
+            return Identity(name, title, entity.id, "Wikipedia article with a country infobox")
         return f"Wikipedia link {title!r} is not a polity article"
+
+    @staticmethod
+    def _infobox_overlaps(infobox: Infobox, entity: Entity, start: int, end: int) -> bool:
+        """Wikipedia's editors file the article as a state; its dates, or the item's, must overlap Cliopatria's."""
+        if infobox.start and infobox.end:
+            return (infobox.start.earliest <= end + CLIOPATRIA_TOLERANCE_YEARS
+                    and infobox.end.latest >= start - CLIOPATRIA_TOLERANCE_YEARS)
+        return years_overlap(entity, start, end)
 
     def _without_duplicates(self, candidates: dict[str, Identity]) -> dict[str, Identity]:
         """When several Cliopatria names share one item, the one with the largest territory keeps it."""
@@ -198,12 +226,12 @@ class PolityBuilder:
         self.cliopatria = catalog.cliopatria
         self.wikipedia = catalog.wikipedia
         self.wikidata = catalog.wikidata
-        self.countries = countries.to_crs(EQUAL_AREA)
+        self.countries = equal_area(countries)
         self.handovers: dict[tuple[str, str], str] = {}
 
     def select(self, region: str, start: int, end: int) -> list[Identity]:
         area = self.countries[self.countries.name == region].geometry.union_all()
-        rows = self.cliopatria.active(start, end).to_crs(EQUAL_AREA)
+        rows = equal_area(self.cliopatria.active(start, end))
         selected = []
         for name, group in rows.groupby("Name"):
             if name not in self.catalog.identities or group.Area.max() < MIN_PEAK_AREA_KM2:
@@ -213,18 +241,30 @@ class PolityBuilder:
                 selected.append(self.catalog.identities[name])
         return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
 
+    def select_notable(self) -> list[Identity]:
+        """Civilizations covered by Wikipedia in at least 60 languages that ended before 1945: importance rather than
+        size, so small early civilizations stay in and today's countries are left to a geography deck."""
+        editions = self.wikidata.language_editions([identity.qid for identity in self.catalog.identities.values()])
+        selected = [identity for name, identity in self.catalog.identities.items()
+                    if editions.get(identity.qid, 0) >= MIN_LANGUAGE_EDITIONS
+                    and self.cliopatria.rows(name).ToYear.max() < ENDED_BEFORE]
+        return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
+
     def build(self, identities: list[Identity]) -> list[Polity]:
-        texts = self.wikipedia.wikitext([identity.title for identity in identities])
-        infoboxes = {identity.name: country_infobox(texts.get(identity.title, "")) or Infobox() for identity in identities}
+        """Notes for the selected civilizations. Successions are worked out over every resolved civilization, so a
+        civilization left out of the deck can still appear in a selected one's diagram, just never be asked about."""
+        known = list(self.catalog.identities.values())
+        texts = self.wikipedia.wikitext([identity.title for identity in known])
+        infoboxes = {identity.name: country_infobox(texts.get(identity.title, "")) or Infobox() for identity in known}
         linked = [title for box in infoboxes.values() for title in box.capital + box.predecessors + box.successors + box.leaders]
         self.pages = self.wikipedia.resolve(linked)
-        referenced = [entity.ids(*props) for entity in (self.catalog.entities[i.qid] for i in identities)
+        referenced = [entity.ids(*props) for entity in (self.catalog.entities[i.qid] for i in known)
                       for props in (("P36",), ("P1365", "P155"), ("P1366", "P156"))]
         self.names = self.wikidata.entities([qid for ids in referenced for qid in ids] +
                                             [page.qid for page in self.pages.values() if page.qid])
-        links = self._succession_links(identities, infoboxes)
-        built = {identity.qid for identity in identities}
-        return [self._polity(identity, infoboxes[identity.name], links, built) for identity in identities]
+        links = self._succession_links(known, infoboxes)
+        resolved = {identity.qid for identity in known}
+        return [self._polity(identity, infoboxes[identity.name], links, resolved) for identity in identities]
 
     def _succession_links(self, identities: list[Identity], infoboxes: dict[str, Infobox]) -> list[tuple[str, str]]:
         """'A was followed by B' is one fact, whichever article states it. Each source counts once per link, from
@@ -268,8 +308,8 @@ class PolityBuilder:
             new = after[(after.ToYear >= window[0]) & (after.FromYear <= window[1])]
             if old.empty or new.empty:
                 continue
-            overlap = (gpd.GeoSeries([old.geometry.union_all()], crs=old.crs).to_crs(EQUAL_AREA).iloc[0]
-                       .intersection(gpd.GeoSeries([new.geometry.union_all()], crs=new.crs).to_crs(EQUAL_AREA).iloc[0]))
+            overlap = (equal_area_shape(old.geometry.union_all(), old.crs)
+                       .intersection(equal_area_shape(new.geometry.union_all(), new.crs)))
             if shared is None or overlap.area > shared.area:
                 shared = overlap
         if shared is None or shared.area < MIN_HANDOVER_KM2 * 1e6:
@@ -355,9 +395,9 @@ class PolityBuilder:
         column = others.ToYear if before else others.FromYear
         nearby = others[(column >= window[0]) & (column <= window[1]) & (others.Name != row.Name)]
         nearby = nearby[nearby.geometry.intersects(row.geometry)]
-        shape = gpd.GeoSeries([row.geometry], crs=others.crs).to_crs(EQUAL_AREA).iloc[0]
+        shape = equal_area_shape(row.geometry, others.crs)
         found = []
-        for name, group in nearby.to_crs(EQUAL_AREA).groupby("Name"):
+        for name, group in equal_area(nearby).groupby("Name"):
             overlap = max(geometry.intersection(shape).area for geometry in group.geometry) / shape.area
             if overlap >= SUCCESSION_OVERLAP and name in self.catalog.identities:
                 found.append(self.catalog.identities[name].qid)
@@ -376,7 +416,7 @@ class PolityBuilder:
         return [{"id": qid, "name": self._name(qid)} for qid in leaders if qid in holders]
 
     def _modern_countries(self, geometry) -> list[str]:
-        shape = gpd.GeoSeries([geometry], crs=self.cliopatria.frame.crs).to_crs(EQUAL_AREA).iloc[0]
+        shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
         found = []
         for country in self.countries[self.countries.intersects(shape)].itertuples():
             overlap = country.geometry.intersection(shape).area
