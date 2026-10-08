@@ -25,8 +25,16 @@ EXCLUDED_OCCUPATIONS = {
 }
 ASSUMED_LIFESPAN = 70
 MIN_LEVEL_5_POPULARITY = 78
+PHOTO_ERA = 1860
+PHOTOGRAPH = "Q125191"
+COMMONS_API = "https://commons.wikimedia.org/w/api.php"
+MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
+HUMAN_YEAR = re.compile(r"\b(\d{3,4})\b")
+NOT_A_PORTRAIT = re.compile(r"\bcoins?\b|coinage|\bdinars?\b|\baure(?:us|i)\b|siliqua|calligraph", re.IGNORECASE)
 MIN_VOTES = 2
-SHORT_DESCRIPTION_DATES = re.compile(r"\s*\((?:[^()]*\d[^()]*)\)\s*$|,?\s*(?:c\.\s*)?\d+(?:st|nd|rd|th)?[- ]century.*$")
+LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
+DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
+TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
 COPULA = re.compile(r"\b(?:was|is|were)\s+", re.IGNORECASE)
 PARENTHESES = re.compile(r"\s*\([^()]*\)")
 SENTENCE_END = re.compile(r"(?<=[a-z0-9\])])\.\s+(?=[A-Z])")
@@ -50,6 +58,7 @@ class Figure:
     contribution: str
     image: str = ""
     image_credit: str = ""
+    photo: bool = False
     checks: dict = field(default_factory=dict)
 
     def to_json(self) -> dict:
@@ -70,8 +79,11 @@ def life_label(birth: list[Year], death: list[Year]) -> str:
     return period_label(birth[0].as_span(), death[0].as_span())
 
 
-def role(short_description: str | None) -> str:
-    text = SHORT_DESCRIPTION_DATES.sub("", short_description or "").strip()
+def role(description: str | None) -> str:
+    """A short description without its dates: '4th-century Christian bishop and saint (270–343)' becomes
+    'Christian bishop and saint'; the life years are shown separately."""
+    text = LEADING_CENTURY.sub("", DATES_IN_PARENTHESES.sub("", description or "")).strip()
+    text = TRAILING_YEAR.sub("", text).strip(" ,")
     return text[:1].upper() + text[1:]
 
 
@@ -187,14 +199,14 @@ class FigureBuilder:
             extract, short_description = introductions.get(title, ("", None))
             paragraph = first_paragraph(extract)
             contribution = predicate(paragraph)
-            image, credit = self._image(person)
+            image, credit, photo, photo_check = self._image(person)
             known = self.pantheon.get(person.id)
             assembled.append(Figure(
                 id=person.id,
                 slug=slugify(title),
                 name=title,
                 wikipedia=title,
-                role=role(short_description),
+                role=role(short_description or person.description),
                 life=life_label(person.years("P569"), person.years("P570")),
                 lifetime=list(span),
                 occupation=known.occupation.capitalize() if known else "",
@@ -204,21 +216,54 @@ class FigureBuilder:
                 contribution=contribution,
                 image=image,
                 image_credit=credit,
-                checks={"civilization_votes": votes, "lead": paragraph},
+                photo=photo,
+                checks={"civilization_votes": votes, "lead": paragraph, "photo": photo_check},
             ))
         return assembled
 
-    def _image(self, person: Entity) -> tuple[str, str]:
-        files = [claim["mainsnak"]["datavalue"]["value"] for claim in person.statements("P18")]
-        if not files:
-            return "", ""
-        return files[0], self._credit(files[0])
+    def _image(self, person: Entity) -> tuple[str, str, bool, str]:
+        """The person's main Wikidata image unless Commons files it under coins or calligraphy (other images can show
+        someone else), its credit, and whether it is a photograph of the person: only for people who died in or after
+        1860, and only when the file was captured during their lifetime or Commons classifies it as a photograph."""
+        files = [claim["mainsnak"]["datavalue"]["value"] for claim in person.statements("P18")][:1]
+        for file in files:
+            params = {"action": "query", "titles": f"File:{file}", "prop": "imageinfo|categories", "iiprop": "extmetadata",
+                      "clshow": "!hidden", "cllimit": "max", "format": "json", "formatversion": 2}
+            page = self.http.json(COMMONS_API, params, namespace="commons")["query"]["pages"][0]
+            if "missing" in page or any(NOT_A_PORTRAIT.search(category["title"]) for category in page.get("categories", [])):
+                continue
+            metadata = page.get("imageinfo", [{}])[0].get("extmetadata", {})
+            artist = plain(metadata.get("Artist", {}).get("value", ""))
+            licence = metadata.get("LicenseShortName", {}).get("value", "")
+            credit = " · ".join(part for part in (artist, licence) if part)
+            captured = plain(metadata.get("DateTimeOriginal", {}).get("value", ""))
+            photo, check = self._photograph(person, page.get("pageid"), captured)
+            return page["title"].removeprefix("File:"), credit, photo, check
+        return "", "", False, "image is a coin or calligraphy" if files else "no image"
 
-    def _credit(self, file: str) -> str:
-        params = {"action": "query", "titles": f"File:{file}", "prop": "imageinfo", "iiprop": "extmetadata",
-                  "format": "json", "formatversion": 2}
-        pages = self.http.json("https://commons.wikimedia.org/w/api.php", params, namespace="commons")["query"]["pages"]
-        metadata = pages[0].get("imageinfo", [{}])[0].get("extmetadata", {})
-        artist = re.sub(r"<[^>]+>", "", metadata.get("Artist", {}).get("value", "")).strip()
-        licence = metadata.get("LicenseShortName", {}).get("value", "")
-        return " · ".join(part for part in (artist, licence) if part)
+    def _photograph(self, person: Entity, page_id: int | None, captured: str) -> tuple[bool, str]:
+        births, deaths = person.years("P569"), person.years("P570")
+        if not deaths or deaths[0].value < PHOTO_ERA:
+            return False, f"no death year in or after {PHOTO_ERA}"
+        year = capture_year(captured)
+        if year is not None and births and births[0].earliest <= year <= deaths[0].latest:
+            return True, f"captured {captured} during their lifetime"
+        if page_id:
+            media = self.http.json(COMMONS_API, {"action": "wbgetentities", "ids": f"M{page_id}", "format": "json"},
+                                   namespace="commons")
+            statements = media.get("entities", {}).get(f"M{page_id}", {}).get("statements") or {}
+            kinds = [claim["mainsnak"].get("datavalue", {}).get("value", {}).get("id") for claim in statements.get("P31", [])]
+            if PHOTOGRAPH in kinds:
+                return True, "classified as a photograph on Commons"
+        return False, f"capture date {captured!r} not within their lifetime and not classified as a photograph"
+
+
+def capture_year(captured: str) -> int | None:
+    """The year from a Commons capture date: its machine-readable form ('QS:P571,+1863-11-08…') when present,
+    otherwise the first three- or four-digit number ('8 November 1863', 'circa 1890')."""
+    match = MACHINE_DATE.search(captured) or HUMAN_YEAR.search(captured)
+    return int(match.group(1)) if match else None
+
+
+def plain(html: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
