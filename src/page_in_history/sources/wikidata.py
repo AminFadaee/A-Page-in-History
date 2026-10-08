@@ -9,6 +9,7 @@ BATCH = 20
 CIRCA = "Q5727902"
 SOURCING_CIRCUMSTANCES = "P1480"
 YEAR_PRECISION = 9
+NOT_WIKIPEDIAS = {"commonswiki", "specieswiki", "metawiki", "wikidatawiki", "mediawikiwiki", "sourceswiki"}
 
 
 @dataclass(frozen=True)
@@ -52,6 +53,10 @@ class Entity:
     @property
     def label(self) -> str | None:
         return self.data.get("labels", {}).get("en", {}).get("value")
+
+    @property
+    def description(self) -> str | None:
+        return self.data.get("descriptions", {}).get("en", {}).get("value")
 
     @property
     def enwiki(self) -> str | None:
@@ -119,6 +124,18 @@ class Wikidata:
             for qid, entity in data.get("entities", {}).items():
                 if "missing" not in entity:
                     found[qid] = Entity(entity)
+        return found
+
+    def language_editions(self, ids: list[str]) -> dict[str, int]:
+        """How many Wikipedia language editions have an article on each item."""
+        unique = sorted(set(ids))
+        found: dict[str, int] = {}
+        for start in range(0, len(unique), 50):
+            params = {"action": "wbgetentities", "ids": "|".join(unique[start : start + 50]), "props": "sitelinks",
+                      "format": "json"}
+            for qid, entity in self.http.json(API, params, namespace="sitelinks").get("entities", {}).items():
+                found[qid] = sum(1 for site in entity.get("sitelinks", {}) if site.endswith("wiki")
+                                 and site not in NOT_WIKIPEDIAS)
         return found
 
     def subclass_of(self, classes: list[str], roots: set[str], depth: int = 12) -> set[str]:
