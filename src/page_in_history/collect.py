@@ -26,7 +26,9 @@ logger = logging.getLogger(__name__)
 
 @dataclass(frozen=True)
 class Slice:
-    region: str
+    """A region and period, or the whole world (no region) with civilizations chosen by importance."""
+
+    region: str | None
     start: int
     end: int
 
@@ -72,7 +74,9 @@ class Collector:
         countries = naturalearth.countries(self.http)
         catalog = PolityCatalog(cliopatria, wikipedia, wikidata, scope.start, scope.end)
         builder = PolityBuilder(catalog, countries)
-        polities = builder.build(builder.select(scope.region, scope.start, scope.end))
+        selected = (builder.select(scope.region, scope.start, scope.end) if scope.region
+                    else builder.select_notable())
+        polities = builder.build(selected)
         logger.info("Selected %d civilizations: %s", len(polities), ", ".join(polity.name for polity in polities))
         for directory in (self.paths.civilizations, self.paths.figures, self.paths.maps, self.paths.successions,
                           self.paths.images):
@@ -81,21 +85,34 @@ class Collector:
         font = fonts.inter(self.http)
         renderer = MapRenderer(cliopatria, countries, naturalearth.rivers(self.http), font)
         diagram = SuccessionDiagram(font)
+        self.failures: list[str] = []
         for polity in polities:
-            polity.map = f"maps/{polity.slug}.png"
-            capitals = [capital["location"] for capital in polity.capitals if capital["location"]]
-            polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals,
-                                                        self.paths.root / polity.map)
-            if polity.succession:
-                for side, reveal in (("question", False), ("answer", True)):
-                    polity.succession[side] = f"successions/{polity.slug}-{side}.png"
-                    diagram.render(polity.succession, polity.id, reveal, self.paths.root / polity.succession[side])
+            try:
+                self._draw(polity, renderer, diagram)
+            except Exception:
+                logger.exception("Could not draw %s", polity.name)
+                self.failures.append(f"drawing {polity.name}")
+                polity.map, polity.succession = "", {}
         figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http)
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         for figure in figures:
-            figure.image = self._image(figure)
+            try:
+                figure.image = self._image(figure)
+            except Exception:
+                logger.exception("Could not fetch the image of %s", figure.name)
+                self.failures.append(f"image of {figure.name}")
+                figure.image, figure.photo = "", False
         self._write(polities, figures)
         self._report(scope, catalog, cliopatria, polities, figures)
+
+    def _draw(self, polity: Polity, renderer: MapRenderer, diagram: SuccessionDiagram) -> None:
+        polity.map = f"maps/{polity.slug}.png"
+        capitals = [capital["location"] for capital in polity.capitals if capital["location"]]
+        polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals, self.paths.root / polity.map)
+        if polity.succession:
+            for side, reveal in (("question", False), ("answer", True)):
+                polity.succession[side] = f"successions/{polity.slug}-{side}.png"
+                diagram.render(polity.succession, polity.id, reveal, self.paths.root / polity.succession[side])
 
     def _image(self, figure: Figure) -> str:
         if not figure.image:
@@ -118,6 +135,7 @@ class Collector:
             "slice": asdict(scope),
             "civilizations": len(polities),
             "figures": len(figures),
+            "failures": self.failures,
             "unresolved_polities": dict(sorted(catalog.unresolved.items())),
             "ignored_cliopatria_steps": [asdict(spike) for spike in cliopatria.spikes],
         })

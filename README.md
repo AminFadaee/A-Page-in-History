@@ -2,8 +2,10 @@
 
 An Anki deck of civilizations and the people who shaped them, and the pipeline that builds it.
 
-This is an early proof of concept, limited to one slice: **Iran from 1000 BC to AD 1000**. It exists to check the
-sources and card types before the deck is extended to the rest of the world.
+It covers the civilizations that Wikipedia writes about in at least 60 languages and that ended before 1945, from
+Akkad and Old Kingdom Egypt to the Ottoman and Qing empires, and the historical figures linked to them. Importance is
+measured by that reach rather than by size, so small early civilizations like Phoenicia stay in, and today's
+countries are left to a geography deck.
 
 Every value comes from public sources through code. There are no hand-written overrides: a field is filled only when
 independent sources agree, and is left empty otherwise.
@@ -43,6 +45,7 @@ and cut to today's coastline.
 | Subdeck | Question | Answer | Made only when |
 |---|---|---|---|
 | Figures | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map | always |
+| Photos | a photograph | the person | they died in 1860 or later and the image is a photograph: taken during their lifetime by its Commons date, or classified as a photograph on Commons |
 
 Images of people from before photography are artists' depictions, so they are shown on the back as illustrations
 and never asked about.
@@ -64,7 +67,7 @@ update.
 
 | Field | Sources | Rule |
 |---|---|---|
-| Civilizations, borders, neighbours | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria) | Polities with at least 5% of the region, or 25% of their own territory inside it, and a peak of 50,000 km² or more |
+| Civilizations, borders, neighbours | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), Wikidata | Polities with a Wikipedia article in at least 60 languages that ended before 1945. With `--region`: polities with at least 5% of the region, or 25% of their own territory inside it, and a peak of 50,000 km² or more |
 | Identity of a civilization | Cliopatria's Wikipedia link, Wikidata | The article's Wikidata item must be a state; Cliopatria's own Wikidata ids are often wrong and only count when they match |
 | Period | Wikipedia infobox (start and end years, or the life span), Wikidata, Cliopatria | Each end needs two sources to agree: within a year, or 25 years against Cliopatria's time steps. Centuries count as their whole range, and the most precise of the agreeing dates is shown |
 | Capital | Wikidata, Wikipedia infobox | Capitals both list |
@@ -75,9 +78,9 @@ update.
 | Map: capitals | Wikidata coordinates of the confirmed capitals | |
 | Figures | Wikipedia Vital Articles (levels 4 and 5), Pantheon | Everyone on level 4; from level 5 only people with a Pantheon Historical Popularity Index of 78 or more. Leaves out entertainers, athletes and similar occupations |
 | A figure's civilization | Wikidata citizenship, links in the article's opening paragraph, the Vital Articles section the person is filed under, birthplace (Pantheon) on the Cliopatria map | At least two of the four |
-| Role | Wikipedia short description | |
+| Role | Wikipedia short description, or Wikidata's description when there is none | Dates and centuries are removed, since the life years are shown separately |
 | Contribution | Wikipedia opening paragraph | The opening sentence as written, without its subject |
-| Portraits | Wikidata, Wikimedia Commons | |
+| Portraits | Wikidata, Wikimedia Commons | The person's main Wikidata image, unless Commons files it under coins or calligraphy |
 
 Cliopatria occasionally labels a single time step with the wrong shape (Alexander's empire appears as the Ptolemaic
 Kingdom for 326–324 BC). A step more than 2.5 times larger than both its neighbours is ignored and reported by
@@ -98,8 +101,9 @@ uv run page-in-history deck      # build build/page_in_history.apkg
 uv run page-in-history samples   # render sample cards into docs/samples/
 ```
 
-`collect` takes `--region` (a modern country as named by Natural Earth), `--start` and `--end` (negative years are
-BC). Downloads and API responses are cached in `cache/`, so later runs work offline.
+`collect` builds the whole world by default. `--region` (a modern country as named by Natural Earth), `--start` and
+`--end` (negative years are BC) limit it to one slice, such as `--region Iran --start -1000 --end 1000`. Downloads
+and API responses are cached in `cache/`, so later runs work offline.
 
 ## Licence
 

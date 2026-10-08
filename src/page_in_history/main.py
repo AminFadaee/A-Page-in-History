@@ -29,9 +29,9 @@ def parse_args() -> argparse.Namespace:
 
     collect = commands.add_parser("collect", help="select civilizations and figures for a region and period")
     collect.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
-    collect.add_argument("--region", default="Iran", help="modern country, as named by Natural Earth")
-    collect.add_argument("--start", type=int, default=-1000, help="first year, negative for BC")
-    collect.add_argument("--end", type=int, default=1000, help="last year")
+    collect.add_argument("--region", help="limit to a modern country, as named by Natural Earth; the whole world if left out")
+    collect.add_argument("--start", type=int, default=-3400, help="first year, negative for BC")
+    collect.add_argument("--end", type=int, default=2024, help="last year")
 
     check = commands.add_parser("check", help="report what was confirmed, left out and why")
     check.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
