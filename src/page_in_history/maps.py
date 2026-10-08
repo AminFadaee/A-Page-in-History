@@ -1,6 +1,7 @@
 import hashlib
 import io
 import itertools
+import math
 import pathlib
 import textwrap
 from dataclasses import dataclass
@@ -42,6 +43,7 @@ OVERLAP_HATCH = "///"
 MIN_OVERLAP_PIXELS = 4
 LOCAL_RIVER_RANK = 5
 CAPITAL_SIZE = 110
+CAPITAL_MERGE_PIXELS = 10
 
 INSET_WIDTH = 0.2
 INSET_MARGIN = 0.015
@@ -250,8 +252,9 @@ class MapRenderer:
         if not capitals:
             return
         points = gpd.GeoSeries([Point(location) for location in capitals], crs="EPSG:4326").to_crs(scene.crs)
-        axes.scatter(points.x, points.y, marker="*", s=CAPITAL_SIZE, color=Color.CAPITAL, edgecolors=Color.LINE,
-                     linewidths=0.6, zorder=5)
+        stars = merged(list(zip(points.x, points.y)), CAPITAL_MERGE_PIXELS * scene.pixel)
+        axes.scatter([x for x, _ in stars], [y for _, y in stars], marker="*", s=CAPITAL_SIZE, color=Color.CAPITAL,
+                     edgecolors=Color.LINE, linewidths=0.6, zorder=5)
 
     def _inset(self, figure, scene: Scene, corner: Corner):
         """A small world map with the frame outlined, in the least crowded corner."""
@@ -331,6 +334,18 @@ class MapRenderer:
                         return True
                     text.remove()
         return False
+
+
+def merged(points: list[tuple[float, float]], distance: float) -> list[tuple[float, float]]:
+    """Capitals closer than a star's width share one star at their midpoint, so stars never pile up."""
+    groups: list[list[tuple[float, float]]] = []
+    for point in points:
+        group = next((group for group in groups if any(math.dist(point, other) < distance for other in group)), None)
+        if group is None:
+            groups.append([point])
+        else:
+            group.append(point)
+    return [(sum(x for x, _ in group) / len(group), sum(y for _, y in group) / len(group)) for group in groups]
 
 
 def corner_box(scene: Scene, corner: Corner):
