@@ -13,7 +13,7 @@ def report(paths: DataPaths) -> str:
     figures = load_documents(paths.figures)
     summary = json.loads(paths.report.read_text())
     scope = summary["slice"]
-    lines = [f"Slice: {scope['region']}, {scope['start']} to {scope['end']}", "",
+    lines = [f"Slice: {scope['region'] or 'world'}, {scope['start']} to {scope['end']}", "",
              f"Civilizations ({len(civilizations)})"]
     total = len(civilizations)
     lines += [
@@ -34,7 +34,9 @@ def report(paths: DataPaths) -> str:
     total = len(figures)
     lines += ["", f"Figures ({total})",
               coverage("Who card", sum(bool(f["role"]) for f in figures), total),
-              coverage("Image (back of card only)", sum(bool(f["image"]) for f in figures), total)]
+              coverage("Image", sum(bool(f["image"]) for f in figures), total),
+              coverage("Photo card (photograph, died 1860 or later)", sum(f["photo"] for f in figures), total)]
+    lines += ["", f"Failures: {len(summary['failures'])}"] + [f"    {failure}" for failure in summary["failures"]]
     unresolved = summary["unresolved_polities"]
     lines += ["", f"Cliopatria polities around the slice left unresolved: {len(unresolved)}"]
     lines += [f"    {name}: {reason}" for name, reason in unresolved.items()]

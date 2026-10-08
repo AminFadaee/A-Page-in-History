@@ -28,6 +28,7 @@ class Subdeck(StrEnum):
     SUCCESSION = "Succession"
     PERIODS = "Periods"
     FIGURES = "Figures"
+    PHOTOS = "Photos"
 
     @property
     def full_name(self) -> str:
@@ -46,8 +47,8 @@ class Template:
     front: str
     back: str
 
-    def as_genanki(self) -> dict:
-        return {"name": self.name, "qfmt": self.front, "afmt": self.back}
+    def as_genanki(self, script: str = "") -> dict:
+        return {"name": self.name, "qfmt": self.front + script, "afmt": self.back + script}
 
 
 class RoutedCard(genanki.Card):
@@ -129,7 +130,8 @@ CIVILIZATION_FIELDS = ("Id", "Name", "Map", "Period", "AskPeriod", "Capital", "P
                        "SuccessionQuestion", "SuccessionAnswer", "Rulers", "ModernCountries")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
-PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">Depiction · {{ImageCredit}}</div></div>')
+PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
+PHOTO = '<div class="value image photo">{{Image}}</div>'
 FIGURE_INFO = info(("Civilization", "Civilization"), ("Known for", "Contribution"), ("Related", "Related"))
 
 FIGURE_TEMPLATES = (
@@ -137,9 +139,13 @@ FIGURE_TEMPLATES = (
              face(entity("{{Name}}"), "Who", UNKNOWN_VALUE),
              face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT
              + conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')),
+    Template("Photo", Subdeck.PHOTOS, ("Photo", "Image"),
+             face(UNKNOWN_ENTITY, "Photo", PHOTO),
+             face(entity(FIGURE_TITLE, answered=True), "Photo", PHOTO) + FIGURE_INFO),
 )
 
-FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit", "Related")
+FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
+                 "ImageKind", "Photo", "Related")
 
 CSS = """
 .card {
@@ -168,7 +174,80 @@ CSS = """
 .info .key { color: var(--muted); font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; margin-right: 0.4em; }
 .portrait { margin-top: 18px; }
 .portrait img { max-height: 260px; max-width: 100%; border-radius: 6px; }
+.photo img { max-height: 55vh; max-width: 100%; border-radius: 6px; }
 .credit { font-size: 12px; color: var(--muted); margin-top: 4px; }
+"""
+
+
+MAP_ZOOM_CSS = """
+.map img { cursor: zoom-in; }
+.zoom-overlay { position: fixed; inset: 0; z-index: 1000; overflow: auto; background: rgba(0, 0, 0, .88); cursor: grab;
+  -webkit-overflow-scrolling: touch; }
+.zoom-overlay.dragging { cursor: grabbing; }
+.zoom-stage { display: flex; min-width: 100%; min-height: 100%; width: max-content; height: max-content; }
+.zoom-stage img { margin: auto; max-width: none; max-height: none; }
+"""
+
+MAP_ZOOM_SCRIPT = """
+<script>
+(function () {
+  var ZOOM = 1.25;
+  var root = document.getElementById("qa") || document.body;
+
+  function open(image, event) {
+    var bounds = image.getBoundingClientRect();
+    var focusX = (event.clientX - bounds.left) / bounds.width;
+    var focusY = (event.clientY - bounds.top) / bounds.height;
+    var fit = Math.min(window.innerWidth / image.naturalWidth, window.innerHeight / image.naturalHeight);
+    var overlay = document.createElement("div");
+    var stage = document.createElement("div");
+    var large = document.createElement("img");
+    overlay.className = "zoom-overlay";
+    stage.className = "zoom-stage";
+    large.src = image.src;
+    large.style.width = image.naturalWidth * fit * ZOOM + "px";
+    large.style.height = image.naturalHeight * fit * ZOOM + "px";
+    stage.appendChild(large);
+    overlay.appendChild(stage);
+    root.appendChild(overlay);
+    overlay.scrollLeft = large.offsetLeft + focusX * large.offsetWidth - overlay.clientWidth / 2;
+    overlay.scrollTop = large.offsetTop + focusY * large.offsetHeight - overlay.clientHeight / 2;
+    pannable(overlay);
+  }
+
+  function pannable(overlay) {
+    var drag = null;
+    overlay.addEventListener("pointerdown", function (event) {
+      if (event.pointerType !== "mouse") return;
+      drag = { x: event.clientX, y: event.clientY, left: overlay.scrollLeft, top: overlay.scrollTop, moved: false };
+      overlay.classList.add("dragging");
+    });
+    overlay.addEventListener("pointermove", function (event) {
+      if (!drag) return;
+      var dx = event.clientX - drag.x;
+      var dy = event.clientY - drag.y;
+      drag.moved = drag.moved || Math.abs(dx) + Math.abs(dy) > 4;
+      overlay.scrollLeft = drag.left - dx;
+      overlay.scrollTop = drag.top - dy;
+    });
+    overlay.addEventListener("pointerup", function () {
+      overlay.classList.remove("dragging");
+      setTimeout(function () { drag = null; }, 0);
+    });
+    overlay.addEventListener("click", function (event) {
+      event.stopPropagation();
+      if (!(drag && drag.moved)) overlay.remove();
+    });
+  }
+
+  root.querySelectorAll(".map img").forEach(function (image) {
+    image.addEventListener("click", function (event) {
+      event.stopPropagation();
+      open(image, event);
+    });
+  });
+})();
+</script>
 """
 
 
@@ -290,6 +369,8 @@ class DeckBuilder:
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
+            "ImageKind": "Photograph" if document["photo"] else "Depiction",
+            "Photo": "yes" if document["photo"] else "",
             "Related": joined(document["related"]),
         }
         tags = figure_tags(document)
@@ -319,9 +400,9 @@ class DeckBuilder:
             model_id,
             name,
             fields=[{"name": field} for field in fields],
-            templates=[Template(t.name, t.subdeck, t.requires, guarded(t.requires, t.front), t.back).as_genanki()
-                       for t in templates],
-            css=CSS,
+            templates=[Template(t.name, t.subdeck, t.requires, guarded(t.requires, t.front), t.back)
+                       .as_genanki(MAP_ZOOM_SCRIPT) for t in templates],
+            css=CSS + MAP_ZOOM_CSS,
             sort_field_index=1,
         )
 
