@@ -21,7 +21,15 @@ MIN_REGION_SHARE = 0.05
 MIN_INSIDE_SHARE = 0.25
 MIN_PEAK_AREA_KM2 = 50_000
 MIN_LANGUAGE_EDITIONS = 60
-ENDED_BEFORE = 1945
+ENDED_BY = 1950
+HISTORICAL_CLASSES = {
+    "Q3024240",  # historical country
+    "Q4204501",  # historical ethnic group
+    "Q1620908",  # historical region
+    "Q8432",  # civilization
+    "Q28171280",  # ancient civilization
+}
+HUMAN_SETTLEMENT = "Q486972"
 INFOBOX_TOLERANCE_YEARS = 1
 CLIOPATRIA_TOLERANCE_YEARS = 25
 SUCCESSION_WINDOW_YEARS = 30
@@ -242,13 +250,25 @@ class PolityBuilder:
         return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
 
     def select_notable(self) -> list[Identity]:
-        """Civilizations covered by Wikipedia in at least 60 languages that ended before 1945: importance rather than
-        size, so small early civilizations stay in and today's countries are left to a geography deck."""
+        """Civilizations covered by Wikipedia in at least 60 languages that ended by 1950: importance rather than size,
+        so small early civilizations stay in and today's countries are left to a geography deck."""
         editions = self.wikidata.language_editions([identity.qid for identity in self.catalog.identities.values()])
-        selected = [identity for name, identity in self.catalog.identities.items()
-                    if editions.get(identity.qid, 0) >= MIN_LANGUAGE_EDITIONS
-                    and self.cliopatria.rows(name).ToYear.max() < ENDED_BEFORE]
+        popular = [identity for identity in self.catalog.identities.values()
+                   if editions.get(identity.qid, 0) >= MIN_LANGUAGE_EDITIONS]
+        classes = {qid for identity in popular for qid in self.catalog.entities[identity.qid].ids("P31", preferred_only=False)}
+        self.settlement_classes = self.wikidata.subclass_of(sorted(classes), {HUMAN_SETTLEMENT})
+        selected = [identity for identity in popular if self._ended(self.catalog.entities[identity.qid])]
         return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
+
+    def _ended(self, entity: Entity) -> bool:
+        """The item itself ended by 1950; or, when Wikidata gives no end date, it files the item as a historical
+        country, people, region or civilization and not as a settlement. Cliopatria's own dates are not enough: it
+        sometimes links a historical polity to today's place, such as San Marino or the city of Kathmandu."""
+        ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+        if ends:
+            return max(ends) <= ENDED_BY
+        classes = set(entity.ids("P31", preferred_only=False))
+        return bool(classes & HISTORICAL_CLASSES) and not classes & self.settlement_classes
 
     def build(self, identities: list[Identity]) -> list[Polity]:
         """Notes for the selected civilizations. Successions are worked out over every resolved civilization, so a
