@@ -11,7 +11,7 @@ def countries(http: Http) -> gpd.GeoDataFrame:
     path = http.download(COUNTRIES_URL, "ne_50m_admin_0_countries.zip")
     frame = gpd.read_file(f"zip://{path}")
     frame["geometry"] = frame.geometry.buffer(0)
-    return frame[["NAME_EN", "WIKIDATAID", "geometry"]].rename(columns={"NAME_EN": "name", "WIKIDATAID": "qid"})
+    return frame[["ADMIN", "WIKIDATAID", "geometry"]].rename(columns={"ADMIN": "name", "WIKIDATAID": "qid"})
 
 
 def rivers(http: Http) -> gpd.GeoDataFrame:
