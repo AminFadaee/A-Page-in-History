@@ -24,7 +24,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of Scotland"
+      ],
+      "death": [
         "Kingdom of Scotland"
       ],
       "lead": [
@@ -32,7 +35,9 @@
         "Kingdom of France",
         "Kingdom of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Scotland"
+      ],
       "birthplace": [
         "Kingdom of Scotland"
       ]

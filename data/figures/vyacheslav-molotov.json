@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Russia",
   "civilizations": [
+    "Union of Soviet Socialist Republics",
     "Russian Empire"
   ],
   "related": [
@@ -23,14 +24,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Union of Soviet Socialist Republics",
-        "Russian Empire"
+      "office": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "death": [
+        "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Nazi Germany"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Union of Soviet Socialist Republics",
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

@@ -1,0 +1,40 @@
+{
+  "id": "Q83100",
+  "slug": "osman-i",
+  "name": "Osman I",
+  "wikipedia": "Osman I",
+  "role": "Founder of the Ottoman Empire",
+  "life": "1258–1326",
+  "lifetime": [
+    1258,
+    1326
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "The eponymous founder of the Ottoman Empire.",
+  "image": "images/osman-i.jpg",
+  "image_credit": "Ottoman miniature painting · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "death": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "birthplace": [
+        "Nicaean Empire"
+      ]
+    },
+    "lead": "Osman I or Osman Ghazi (Ottoman Turkish: عثمان غازى, romanized: ʿOsmān Ġāzī; Turkish: I. Osman or Osman Gazi; died 1323/4) was the eponymous founder of the Ottoman Empire (first known as a beylik or emirate). While initially a small Turkoman principality during Osman's lifetime, his beylik transformed into a vast empire in the centuries after his death. It existed until 1922 shortly after the end of World War I, when the sultanate was abolished.",
+    "photo": "no death year in or after 1860"
+  }
+}

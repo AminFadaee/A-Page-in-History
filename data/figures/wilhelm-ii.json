@@ -26,9 +26,11 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Prussia",
+      "office": [
         "German Empire"
+      ],
+      "death": [
+        "Nazi Germany"
       ],
       "lead": [
         "German Empire",
@@ -37,9 +39,8 @@
         "Russian Empire",
         "Weimar Republic"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "German Confederation"
+      "citizenship": [
+        "German Empire"
       ]
     },
     "lead": "Wilhelm II (Friedrich Wilhelm Viktor Albert; 27 January 1859 – 4 June 1941) was the last German Emperor from 1888 until his abdication in 1918. His fall from power marked the end of the German Empire as well as the Hohenzollern dynasty's 400-year rule over Prussia.",

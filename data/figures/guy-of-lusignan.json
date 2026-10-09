@@ -1,0 +1,45 @@
+{
+  "id": "Q294192",
+  "slug": "guy-of-lusignan",
+  "name": "Guy of Lusignan",
+  "wikipedia": "Guy of Lusignan",
+  "role": "King of Jerusalem from 1186 to 1192",
+  "life": "1150–1194",
+  "lifetime": [
+    1129,
+    1194
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of Cyprus",
+    "Kingdom of Jerusalem"
+  ],
+  "related": [
+    "Ayyubid Sultanate"
+  ],
+  "contribution": "King of Jerusalem, first as the husband and co-ruler of Queen Sibylla from 1186 to 1190, then as disputed ruler from 1190 to 1192.",
+  "image": "images/guy-of-lusignan.jpg",
+  "image_credit": "AnonymousUnknown author · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Jerusalem"
+      ],
+      "death": [
+        "Kingdom of Cyprus"
+      ],
+      "lead": [
+        "Kingdom of Cyprus",
+        "Ayyubid Sultanate"
+      ],
+      "citizenship": [
+        "Kingdom of Jerusalem",
+        "Kingdom of Cyprus"
+      ]
+    },
+    "lead": "Guy of Lusignan (c. 1150 – 1194) was king of Jerusalem, first as the husband and co-ruler of Queen Sibylla from 1186 to 1190, then as disputed ruler from 1190 to 1192. He was also lord of Cyprus from 1192 to 1194. As king, Guy was highly unpopular amongst the nobles of the Kingdom of Jerusalem, and is often blamed for the fall of the kingdom to Saladin.",
+    "photo": "no death year in or after 1860"
+  }
+}

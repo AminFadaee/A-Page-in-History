@@ -12,7 +12,8 @@
   "occupation": "Painter",
   "birth_country": "Ukraine",
   "civilizations": [
-    "Russian Empire"
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
   ],
   "related": [],
   "contribution": "A Russian avant-garde artist and art theorist, whose work and writings pioneered the development of abstract painting in the 20th century.",
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
         "Russian Empire",
         "Union of Soviet Socialist Republics"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Russian Empire"
       ]

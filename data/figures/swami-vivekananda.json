@@ -23,13 +23,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "British Raj"
       ],
       "lead": [
         "United States of America"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "British Raj"
+      ],
       "birthplace": [
         "British Raj"
       ]

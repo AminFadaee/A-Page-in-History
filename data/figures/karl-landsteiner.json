@@ -12,6 +12,7 @@
   "occupation": "Biologist",
   "birth_country": "Austria",
   "civilizations": [
+    "United States of America",
     "Austria-Hungary"
   ],
   "related": [],
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "Austria-Hungary",
         "United States of America"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Austria-Hungary"
       ]

@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Pakistan",
   "civilizations": [
-    "British Raj",
-    "Islamic Republic of Pakistan"
+    "Islamic Republic of Pakistan",
+    "British Raj"
   ],
   "related": [],
   "contribution": "A barrister, statesman, and the founder of Pakistan.",
@@ -22,15 +22,20 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Islamic Republic of Pakistan",
-        "British Raj"
+      "office": [
+        "Islamic Republic of Pakistan"
+      ],
+      "death": [
+        "Islamic Republic of Pakistan"
       ],
       "lead": [
         "Islamic Republic of Pakistan",
         "British Raj"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Islamic Republic of Pakistan",
+        "British Raj"
+      ],
       "birthplace": [
         "British Raj"
       ]

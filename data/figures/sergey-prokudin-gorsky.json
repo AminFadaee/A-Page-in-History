@@ -21,13 +21,18 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "category": [
         "Russian Empire"
+      ],
+      "death": [
+        "Nazi Germany"
       ],
       "lead": [
         "Russian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

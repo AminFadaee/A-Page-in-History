@@ -22,16 +22,18 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Federal Republic of Germany"
+      ],
+      "lead": [
+        "Federal Republic of Germany"
+      ],
+      "citizenship": [
         "Federal Republic of Germany",
         "German Empire",
         "Weimar Republic",
         "Nazi Germany"
       ],
-      "lead": [
-        "Federal Republic of Germany"
-      ],
-      "vital_section": [],
       "birthplace": [
         "German Empire"
       ]

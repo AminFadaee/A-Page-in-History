@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Kingdom of England"
+      ],
       "lead": [
         "Kingdom of England"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of England"
       ]

@@ -1,0 +1,39 @@
+{
+  "id": "Q37193",
+  "slug": "robert-koch",
+  "name": "Robert Koch",
+  "wikipedia": "Robert Koch",
+  "role": "German physician and bacteriologist",
+  "life": "1843–1910",
+  "lifetime": [
+    1843,
+    1910
+  ],
+  "occupation": "Physician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Kingdom of Hanover"
+  ],
+  "related": [],
+  "contribution": "A German physician and microbiologist.",
+  "image": "images/robert-koch.jpg",
+  "image_credit": "Wilhelm Fechner · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "German Empire"
+      ],
+      "citizenship": [
+        "Kingdom of Hanover",
+        "German Empire"
+      ],
+      "birthplace": [
+        "Kingdom of Hanover"
+      ]
+    },
+    "lead": "Heinrich Hermann Robert Koch ( KOKH; German: [ˈʁoːbɛʁt kɔx] ; 11 December 1843 – 27 May 1910) was a German physician and microbiologist. He won the 1905 Nobel Prize in Physiology or Medicine \"for his investigations and discoveries in relation to tuberculosis\".",
+    "photo": "capture date '' not within their lifetime and not classified as a photograph"
+  }
+}

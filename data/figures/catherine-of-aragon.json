@@ -1,0 +1,45 @@
+{
+  "id": "Q162819",
+  "slug": "catherine-of-aragon",
+  "name": "Catherine of Aragon",
+  "wikipedia": "Catherine of Aragon",
+  "role": "Queen of England from 1509 to 1533",
+  "life": "1485–1536",
+  "lifetime": [
+    1485,
+    1536
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Crown of Aragon",
+    "Kingdom of France"
+  ],
+  "contribution": "Queen of England as the first wife of Henry VIII from their marriage on 11 June 1509 until its annulment on 23 May 1533.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Crown of Aragon",
+        "Kingdom of England",
+        "Kingdom of France"
+      ],
+      "citizenship": [
+        "Kingdom of Spain"
+      ],
+      "birthplace": [
+        "Crown of Castile"
+      ]
+    },
+    "lead": "Catherine of Aragon (also spelled Katherine; Spanish: Catalina de Aragón; 16 December 1485 – 7 January 1536) was Queen of England as the first wife of Henry VIII from their marriage on 11 June 1509 until its annulment on 23 May 1533. She had previously been Princess of Wales as the wife of Henry's elder brother Arthur, Prince of Wales for a short time before his death.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

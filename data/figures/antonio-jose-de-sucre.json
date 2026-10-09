@@ -1,0 +1,49 @@
+{
+  "id": "Q189779",
+  "slug": "antonio-jose-de-sucre",
+  "name": "Antonio José de Sucre",
+  "wikipedia": "Antonio José de Sucre",
+  "role": "President of Peru and Bolivia",
+  "life": "1795–1830",
+  "lifetime": [
+    1795,
+    1830
+  ],
+  "occupation": "Politician",
+  "birth_country": "Venezuela",
+  "civilizations": [
+    "Spanish Empire",
+    "Republic of Peru",
+    "Gran Colombia",
+    "Bolivia"
+  ],
+  "related": [],
+  "contribution": "A Venezuelan general and politician who served as the president of Bolivia from 1825 to 1828.",
+  "image": "images/antonio-jose-de-sucre.jpg",
+  "image_credit": "Martín Tovar y Tovar (1827 - 1902) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Bolivia",
+        "Republic of Peru"
+      ],
+      "death": [
+        "Gran Colombia"
+      ],
+      "lead": [
+        "Spanish Empire",
+        "Republic of Peru"
+      ],
+      "citizenship": [
+        "Spanish Empire",
+        "Gran Colombia"
+      ],
+      "birthplace": [
+        "Spanish Empire"
+      ]
+    },
+    "lead": "Antonio José de Sucre y Alcalá (Spanish pronunciation: [anˈtonjo xoˈse ðe ˈsukɾej alkaˈla] ; 3 February 1795 – 4 June 1830), known as the \"Gran Mariscal de Ayacucho\" (English: \"Grand Marshal of Ayacucho\"), was a Venezuelan general and politician who served as the president of Bolivia from 1825 to 1828. A close friend and associate of Simón Bolívar, he was one of the primary leaders of South America's struggle for independence from the Spanish Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

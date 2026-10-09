@@ -12,24 +12,29 @@
   "occupation": "Military personnel",
   "birth_country": "China",
   "civilizations": [
-    "Qing Dynasty",
-    "People's Republic of China"
+    "Republic of China",
+    "People's Republic of China",
+    "Qing Dynasty"
   ],
-  "related": [
-    "Republic of China"
-  ],
+  "related": [],
   "contribution": "A Chinese military commander, revolutionary, and statesman who was President of the Republic of China from 1948 to 1975 and the head of the Nationalist government from 1925 to 1948.",
   "image": "images/chiang-kai-shek.jpg",
   "image_credit": "Unknown photographer · Attribution",
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Qing Dynasty"
+      "office": [
+        "Republic of China"
+      ],
+      "death": [
+        "Republic of China"
       ],
       "lead": [
         "Republic of China",
         "People's Republic of China"
+      ],
+      "citizenship": [
+        "Qing Dynasty"
       ],
       "vital_section": [
         "People's Republic of China"

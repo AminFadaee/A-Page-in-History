@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Han Dynasty"
       ],
       "lead": [
         "Han Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Han Dynasty"
+      ],
       "birthplace": [
         "Han Dynasty"
       ]

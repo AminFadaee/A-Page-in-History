@@ -1,0 +1,37 @@
+{
+  "id": "Q171730",
+  "slug": "georges-clemenceau",
+  "name": "Georges Clemenceau",
+  "wikipedia": "Georges Clemenceau",
+  "role": "Prime Minister of France",
+  "life": "1841–1929",
+  "lifetime": [
+    1841,
+    1929
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "French Third Republic"
+  ],
+  "related": [
+    "German Empire"
+  ],
+  "contribution": "A French statesman who was prime minister of France from 1906 to 1909 and again from 1917 until 1920.",
+  "image": "images/georges-clemenceau.jpg",
+  "image_credit": "Paul Nadar · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "French Third Republic"
+      ],
+      "lead": [
+        "French Third Republic",
+        "German Empire"
+      ]
+    },
+    "lead": "Georges Benjamin Clemenceau (28 September 1841 – 24 November 1929) was a French statesman who was prime minister of France from 1906 to 1909 and again from 1917 until 1920. A physician turned journalist, he played a central role in the politics of the Third Republic, particularly amid the end of the First World War. He was a key figure of the Independent Radicals, advocating for the separation of church and state, as well as the amnesty of the Communards exiled to New Caledonia.",
+    "photo": "captured 1904 during their lifetime"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Q160341",
+  "slug": "edward-iv",
+  "name": "Edward IV",
+  "wikipedia": "Edward IV",
+  "role": "King of England",
+  "life": "1442–1483",
+  "lifetime": [
+    1442,
+    1483
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of England from 4 March 1461 to 3 October 1470, then again from 11 April 1471 until he died in 1483.",
+  "image": "images/edward-iv.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of England"
+      ],
+      "death": [
+        "Kingdom of England"
+      ],
+      "citizenship": [
+        "Kingdom of England"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Edward IV (28 April 1442 – 9 April 1483) was King of England from 4 March 1461 to 3 October 1470, then again from 11 April 1471 until he died in 1483. A member of the House of York, he was a central figure in the Wars of the Roses, a series of civil wars in England fought between the Yorkist and Lancastrian factions between 1455 and 1487.",
+    "photo": "no death year in or after 1860"
+  }
+}

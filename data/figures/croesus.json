@@ -1,0 +1,39 @@
+{
+  "id": "Q184462",
+  "slug": "croesus",
+  "name": "Croesus",
+  "wikipedia": "Croesus",
+  "role": "King of Lydia from 585 or 561 to 547 BC",
+  "life": "",
+  "lifetime": [
+    -596,
+    -526
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Lydia"
+  ],
+  "related": [
+    "Twenty-sixth Dynasty of Egypt",
+    "Neo-Babylonian Empire"
+  ],
+  "contribution": "The last king of Lydia from 585 BC to 546 BC. He was renowned for his great wealth, as well as his ultimate defeat by the Persian king Cyrus the Great following the siege of Sardis.",
+  "image": "images/croesus.jpg",
+  "image_credit": "Marco Prins · CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Lydia"
+      ],
+      "lead": [
+        "Lydia",
+        "Twenty-sixth Dynasty of Egypt",
+        "Neo-Babylonian Empire"
+      ]
+    },
+    "lead": "Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 BC to 546 BC. He was renowned for his great wealth, as well as his ultimate defeat by the Persian king Cyrus the Great following the siege of Sardis.",
+    "photo": "no death year in or after 1860"
+  }
+}

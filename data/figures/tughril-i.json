@@ -25,7 +25,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Great Seljuk Empire"
+      ],
+      "death": [
         "Great Seljuk Empire"
       ],
       "lead": [
@@ -34,8 +37,9 @@
         "Fatimid Caliphate",
         "Ghaznavid Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Great Seljuk Empire"
+      ]
     },
     "lead": "Abu Talib Muhammad Tughril ibn Mika'il (Persian: ابوطالبْ محمد طغرل بن میکائیل), better known as Tughril (طغرل / طغریل; also spelled Toghril / Tughrul), was a Turkoman chieftain, who founded the Seljuk Empire, ruling from 1037 to 1063.",
     "photo": "no death year in or after 1860"

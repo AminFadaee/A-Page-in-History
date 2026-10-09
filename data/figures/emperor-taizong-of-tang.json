@@ -22,15 +22,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Tang Dynasty",
-        "Sui Dynasty"
-      ],
       "lead": [
         "Tang Dynasty",
         "Sui Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Tang Dynasty",
+        "Sui Dynasty"
+      ],
       "birthplace": [
         "Sui Dynasty"
       ]

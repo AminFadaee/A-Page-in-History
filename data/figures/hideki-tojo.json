@@ -1,0 +1,44 @@
+{
+  "id": "Q160847",
+  "slug": "hideki-tojo",
+  "name": "Hideki Tojo",
+  "wikipedia": "Hideki Tojo",
+  "role": "Japanese general, prime minister from 1941 to 1944",
+  "life": "1884–1948",
+  "lifetime": [
+    1884,
+    1948
+  ],
+  "occupation": "Politician",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Empire of Japan"
+  ],
+  "related": [
+    "Weimar Republic",
+    "Nazi Germany"
+  ],
+  "contribution": "A Japanese military officer and politician who served as Prime Minister of Japan from 1941 to 1944 during World War II. His leadership was marked by widespread state violence and mass killings perpetrated in the name of Japanese nationalism.",
+  "image": "images/hideki-tojo.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Empire of Japan"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "lead": [
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "Empire of Japan"
+      ]
+    },
+    "lead": "Hideki Tojo (30 December 1884 – 23 December 1948) was a Japanese military officer and politician who served as Prime Minister of Japan from 1941 to 1944 during World War II. His leadership was marked by widespread state violence and mass killings perpetrated in the name of Japanese nationalism.",
+    "photo": "capture date '' not within their lifetime and not classified as a photograph"
+  }
+}

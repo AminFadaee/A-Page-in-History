@@ -12,7 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
-    "Kingdom of Italy"
+    "Kingdom of Italy",
+    "Republic of Italy"
   ],
   "related": [],
   "contribution": "Head of the Catholic Church and sovereign of Vatican City from 2 March 1939 until his death on 9 October 1958.",
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Republic of Italy"
+      ],
+      "citizenship": [
         "Kingdom of Italy",
         "Republic of Italy"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Italy"
       ]

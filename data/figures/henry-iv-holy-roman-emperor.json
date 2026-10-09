@@ -21,11 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Holy Roman Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "death": [
+        "Holy Roman Empire"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
+      ],
       "birthplace": [
         "Holy Roman Empire"
       ]

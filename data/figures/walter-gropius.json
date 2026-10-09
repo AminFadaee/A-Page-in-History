@@ -12,6 +12,7 @@
   "occupation": "Architect",
   "birth_country": "Germany",
   "civilizations": [
+    "United States of America",
     "German Empire"
   ],
   "related": [],
@@ -21,13 +22,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "German Empire",
         "Weimar Republic",
         "Nazi Germany"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "German Empire"
       ]

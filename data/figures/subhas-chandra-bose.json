@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "British Raj"
+    "British Raj",
+    "Empire of Japan"
   ],
   "related": [
     "Nazi Germany",
-    "Empire of Japan",
     "Union of Soviet Socialist Republics"
   ],
   "contribution": "An Indian anti-colonial nationalist whose defiance of British authority in India made him a hero among many Indians, but his wartime alliances with Nazi Germany and the Empire of Japan left a legacy vexed by authoritarianism, antisemitism, and military failure.",
@@ -25,8 +25,8 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "British Raj"
+      "death": [
+        "Empire of Japan"
       ],
       "lead": [
         "British Raj",
@@ -34,7 +34,9 @@
         "Empire of Japan",
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "British Raj"
+      ],
       "birthplace": [
         "British Raj"
       ]

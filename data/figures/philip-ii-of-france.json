@@ -1,0 +1,42 @@
+{
+  "id": "Q34428",
+  "slug": "philip-ii-of-france",
+  "name": "Philip II of France",
+  "wikipedia": "Philip II of France",
+  "role": "King of France from 1180 to 1223",
+  "life": "1165–1223",
+  "lifetime": [
+    1165,
+    1223
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Angevin Empire"
+  ],
+  "contribution": "King of France from 1180 to 1223.",
+  "image": "images/philip-ii-of-france.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Angevin Empire"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Philip II (21 August 1165 – 14 July 1223), also known as Philip Augustus (French: Philippe Auguste), was King of France from 1180 to 1223. His predecessors had been known as kings of the Franks (Latin: rex Francorum), but from 1190 onward, Philip became the first French monarch to style himself \"King of France\" (rex Francie). The only son of King Louis VII and his third wife, Adela of Champagne, he was originally nicknamed 'God-given' (Dieudonné) because he was a first son and born late in his father's life. Philip was given the epithet \"Augustus\" by the chronicler Rigord for having extended the crown lands of France so remarkably.",
+    "photo": "no death year in or after 1860"
+  }
+}

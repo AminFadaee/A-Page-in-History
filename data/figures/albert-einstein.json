@@ -12,6 +12,7 @@
   "occupation": "Physicist",
   "birth_country": "Germany",
   "civilizations": [
+    "United States of America",
     "German Empire"
   ],
   "related": [
@@ -23,16 +24,21 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Swiss Confederation",
-        "Weimar Republic",
+      "category": [
+        "United States of America"
+      ],
+      "death": [
         "United States of America"
       ],
       "lead": [
         "German Empire",
         "Nazi Germany"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Swiss Confederation",
+        "Weimar Republic",
+        "United States of America"
+      ],
       "birthplace": [
         "German Empire"
       ]

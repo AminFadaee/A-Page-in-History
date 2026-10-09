@@ -12,14 +12,14 @@
   "occupation": "Politician",
   "birth_country": "Finland",
   "civilizations": [
-    "Russian Empire",
-    "Republic of Finland"
+    "Republic of Finland",
+    "Swiss Confederation",
+    "Russian Empire"
   ],
   "related": [
     "German Empire",
     "Union of Soviet Socialist Republics",
-    "Nazi Germany",
-    "Swiss Confederation"
+    "Nazi Germany"
   ],
   "contribution": "A Finnish military commander and statesman.",
   "image": "images/carl-gustaf-emil-mannerheim.jpg",
@@ -27,9 +27,14 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "office": [
         "Republic of Finland"
+      ],
+      "category": [
+        "Republic of Finland"
+      ],
+      "death": [
+        "Swiss Confederation"
       ],
       "lead": [
         "Republic of Finland",
@@ -38,7 +43,10 @@
         "Nazi Germany",
         "Swiss Confederation"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Republic of Finland"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

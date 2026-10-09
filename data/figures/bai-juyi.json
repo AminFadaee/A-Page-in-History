@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Tang Dynasty"
       ],
       "lead": [
         "Tang Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Tang Dynasty"
+      ],
       "birthplace": [
         "Tang Dynasty"
       ]

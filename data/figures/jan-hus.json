@@ -23,14 +23,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Bohemia"
-      ],
       "lead": [
         "Kingdom of Bohemia",
         "Margraviate of Moravia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Bohemia"
+      ],
       "birthplace": [
         "Kingdom of Bohemia"
       ]

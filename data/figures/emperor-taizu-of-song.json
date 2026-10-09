@@ -27,7 +27,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Northern Song"
       ],
       "lead": [
@@ -38,9 +38,8 @@
         "Southern Han",
         "Jingnan"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Later Tang"
+      "citizenship": [
+        "Northern Song"
       ]
     },
     "lead": "Emperor Taizu of Song (21 March 927 – 14 November 976), personal name Zhao Kuangyin, courtesy name Yuanlang, was the founding emperor of the Song dynasty of China. He reigned from 960 until his death in 976. Formerly a distinguished military general of the Later Zhou dynasty, Emperor Taizu came to power after staging a coup d'état and forcing Emperor Gong, the last Later Zhou ruler, to abdicate the throne in his favor.",

@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Austrian Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Austrian Empire"
       ]

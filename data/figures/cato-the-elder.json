@@ -1,0 +1,39 @@
+{
+  "id": "Q180081",
+  "slug": "cato-the-elder",
+  "name": "Cato the Elder",
+  "wikipedia": "Cato the Elder",
+  "role": "Roman politician, soldier and writer",
+  "life": "c. 234–149 BC",
+  "lifetime": [
+    -234,
+    -149
+  ],
+  "occupation": "Writer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [
+    "Seleucid Empire"
+  ],
+  "contribution": "A Roman soldier, senator, and historian known for his conservatism and opposition to Hellenization.",
+  "image": "images/cato-the-elder.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Republic"
+      ],
+      "lead": [
+        "Seleucid Empire"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Marcus Porcius Cato (; 234–149 BC), also known as Cato the Censor (Latin: Censorius), the Elder and the Wise, was a Roman soldier, senator, and historian known for his conservatism and opposition to Hellenization. He was the first to write history in Latin with his Origines, a now fragmentary work on the history of Rome.  His work De agri cultura, a treatise on agriculture, rituals, and recipes, is the oldest extant prose written in the Latin language. Cato's epithet \"Elder\" distinguishes him from his great-grandson Cato the Younger.",
+    "photo": "no death year in or after 1860"
+  }
+}

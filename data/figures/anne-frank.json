@@ -21,12 +21,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "Nazi Germany",
         "Weimar Republic"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Weimar Republic"
       ]

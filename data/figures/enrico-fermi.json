@@ -12,6 +12,7 @@
   "occupation": "Physicist",
   "birth_country": "Italy",
   "civilizations": [
+    "United States of America",
     "Kingdom of Italy"
   ],
   "related": [],
@@ -21,13 +22,14 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "category": [
+        "United States of America"
+      ],
+      "citizenship": [
         "Kingdom of Italy",
         "Republic of Italy",
         "United States of America"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Italy"
       ]

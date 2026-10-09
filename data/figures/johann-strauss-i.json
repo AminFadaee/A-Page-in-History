@@ -1,0 +1,34 @@
+{
+  "id": "Q184178",
+  "slug": "johann-strauss-i",
+  "name": "Johann Strauss I",
+  "wikipedia": "Johann Strauss I",
+  "role": "Austrian composer",
+  "life": "1804–1849",
+  "lifetime": [
+    1804,
+    1849
+  ],
+  "occupation": "Composer",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "An Austrian composer of the Romantic Period.",
+  "image": "images/johann-strauss-i.jpg",
+  "image_credit": "E. Linde &amp; Co. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Austrian Empire"
+      ],
+      "citizenship": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Johann Baptist Strauss I (; German: [ˈjoːhan bapˈtɪst ˈʃtʁaʊs]; 14 March 1804 – 25 September 1849), also known as Johann Strauss Sr., the Elder or the Father (German: Johann Strauß Vater), was an Austrian composer of the Romantic Period. He was famous for his light music, namely waltzes, polkas, and galops, which he popularized alongside Joseph Lanner, thereby setting the foundations for his sons—Johann II, Josef and Eduard—to carry on his musical dynasty. He is best known for his composition of the Radetzky March (named after Joseph Radetzky von Radetz).",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Holy Roman Empire"
+      ],
+      "citizenship": [
         "Kingdom of Portugal"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Portugal"
       ]

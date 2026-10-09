@@ -21,11 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "British Raj"
+      ],
       "lead": [
         "British Raj"
       ],
-      "vital_section": [],
       "birthplace": [
         "British Raj"
       ]

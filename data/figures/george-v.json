@@ -1,0 +1,46 @@
+{
+  "id": "Q269412",
+  "slug": "george-v",
+  "name": "George V",
+  "wikipedia": "George V",
+  "role": "King of the United Kingdom from 1910 to 1936",
+  "life": "1865–1936",
+  "lifetime": [
+    1865,
+    1936
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "British Raj",
+    "Canada"
+  ],
+  "related": [
+    "British Colonial Empire",
+    "Russian Empire",
+    "German Empire"
+  ],
+  "contribution": "King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.",
+  "image": "images/george-v.jpg",
+  "image_credit": "Bassano Ltd · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "British Raj",
+        "Canada",
+        "Irish Free State"
+      ],
+      "lead": [
+        "British Colonial Empire",
+        "Russian Empire",
+        "German Empire"
+      ],
+      "citizenship": [
+        "British Raj"
+      ]
+    },
+    "lead": "George V (George Frederick Ernest Albert; 3 June 1865 – 20 January 1936) was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.",
+    "photo": "captured between 1922 and 1923date QS:P571,+1922-00-00T00:00:00Z/8,P1319,+1922-00-00T00:00:00Z/9,P1326,+1923-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

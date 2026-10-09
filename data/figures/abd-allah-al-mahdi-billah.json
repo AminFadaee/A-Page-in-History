@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Iran",
   "civilizations": [
+    "Fatimid Caliphate",
     "Abbasid Caliphate"
   ],
   "related": [
-    "Fatimid Caliphate",
     "Qarmatians",
     "Aghlabid Dynasty"
   ],
@@ -25,14 +25,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Fatimid Caliphate"
+      ],
+      "death": [
+        "Fatimid Caliphate"
+      ],
       "lead": [
         "Fatimid Caliphate",
         "Qarmatians",
         "Abbasid Caliphate",
         "Aghlabid Dynasty"
       ],
-      "vital_section": [],
       "birthplace": [
         "Abbasid Caliphate"
       ]

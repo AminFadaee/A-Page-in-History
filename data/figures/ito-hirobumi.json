@@ -1,0 +1,45 @@
+{
+  "id": "Q174971",
+  "slug": "ito-hirobumi",
+  "name": "Itō Hirobumi",
+  "wikipedia": "Itō Hirobumi",
+  "role": "Japanese statesman",
+  "life": "1841–1909",
+  "lifetime": [
+    1841,
+    1909
+  ],
+  "occupation": "Politician",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Qing Dynasty",
+    "Empire of Japan"
+  ],
+  "related": [
+    "United States of America"
+  ],
+  "contribution": "A Japanese statesman who served as the first prime minister of Japan from 1885 to 1888.",
+  "image": "images/ito-hirobumi.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Empire of Japan"
+      ],
+      "death": [
+        "Qing Dynasty"
+      ],
+      "lead": [
+        "Empire of Japan",
+        "United States of America",
+        "Qing Dynasty"
+      ],
+      "birthplace": [
+        "Tokugawa Shogunate"
+      ]
+    },
+    "lead": "Prince Itō Hirobumi (Japanese: 伊藤 博文 [i.toː (|) çi.ɾoꜜ.bɯ.mʲi]; born Hayashi Risuke (林 利助); 16 October 1841 – 26 October 1909) was a Japanese statesman who served as the first prime minister of Japan from 1885 to 1888. Itō held office again as prime minister three times between 1892 and 1901. He was also a member of the genrō, a group of senior statesmen who effectively dictated policy for the Empire of Japan during the Meiji era. A key figure in the making of modern Japan, Itō played a central role in the drafting of the 1889 Meiji Constitution as well as the establishment of the National Diet and Japanese cabinet system.",
+    "photo": "captured Taken in 1900 during their lifetime"
+  }
+}

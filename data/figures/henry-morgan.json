@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of England"
+      "death": [
+        "English Colonial Empire"
       ],
       "lead": [
         "Kingdom of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of England"
+      ],
       "birthplace": [
         "Kingdom of England"
       ]

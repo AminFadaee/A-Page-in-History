@@ -12,23 +12,23 @@
   "occupation": "Politician",
   "birth_country": "Italy",
   "civilizations": [
+    "Ptolemaic Kingdom",
     "Roman Republic"
   ],
-  "related": [
-    "Ptolemaic Kingdom"
-  ],
+  "related": [],
   "contribution": "A Roman general and statesman who was prominent in the final decades of the Roman Republic.",
   "image": "images/pompey.jpg",
   "image_credit": "Alphanidon · CC BY-SA 4.0",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Ptolemaic Kingdom"
+      ],
       "lead": [
         "Roman Republic",
         "Ptolemaic Kingdom"
       ],
-      "vital_section": [],
       "birthplace": [
         "Roman Republic"
       ]

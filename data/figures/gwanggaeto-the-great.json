@@ -25,16 +25,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Goguryeo"
-      ],
       "lead": [
         "Goguryeo",
         "Baekje",
         "Silla",
         "Later Yan"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Goguryeo"
+      ],
       "birthplace": [
         "Goguryeo"
       ]

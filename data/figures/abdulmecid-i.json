@@ -1,0 +1,41 @@
+{
+  "id": "Q174772",
+  "slug": "abdulmecid-i",
+  "name": "Abdülmecid I",
+  "wikipedia": "Abdülmecid I",
+  "role": "Sultan of the Ottoman Empire from 1839 to 1861",
+  "life": "1823–1861",
+  "lifetime": [
+    1823,
+    1861
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Second French Empire",
+    "Russian Empire"
+  ],
+  "contribution": "The 31st sultan of the Ottoman Empire.",
+  "image": "images/abdulmecid-i.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Second French Empire",
+        "Russian Empire"
+      ],
+      "citizenship": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Abdülmecid I (Ottoman Turkish: عبد المجید اول, romanized: ʿAbdü'l-Mecîd, Turkish: I. Abdülmecid; 25 April 1823 – 25 June 1861) was the 31st sultan of the Ottoman Empire. He succeeded his father Mahmud II on 2 July 1839.",
+    "photo": "captured mid 19th centurydate QS:P571,+1850-00-00T00:00:00Z/7,P4241,Q40719748 during their lifetime"
+  }
+}

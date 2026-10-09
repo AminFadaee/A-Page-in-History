@@ -23,14 +23,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Mali Empire"
-      ],
       "lead": [
         "Mali Empire",
         "Mamluk Sultanate"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Mali Empire"
+      ],
       "birthplace": [
         "Mali Empire"
       ]

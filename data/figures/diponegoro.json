@@ -21,14 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Dutch East Indies"
       ],
       "lead": [
         "Dutch East Indies"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Dutch East Indies"
+      ]
     },
     "lead": "Prince Diponegoro (Javanese: ꦢꦶꦥꦤꦼꦒꦫ, romanized: Dipånegårå; born Bendara Raden Mas Mustahar, ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦩꦸꦱ꧀ꦠꦲꦂ; later Bendara Raden Mas Antawirya, ꦧꦼꦤ꧀ꦢꦫꦫꦢꦺꦤ꧀ꦩꦱ꧀ꦲꦤ꧀ꦠꦮꦶꦂꦪ; 11 November 1785 – 8 January 1855), also known as Dipanegara and Dipa Negara, was a Javanese prince who opposed the Dutch colonial rule. The eldest son of the Yogyakarta Sultan Hamengkubuwono III, he played an important role in the Java War between 1825 and 1830. After his defeat and capture, he was exiled to Makassar, where he died at 69 years old.",
     "photo": "no death year in or after 1860"

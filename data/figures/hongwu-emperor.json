@@ -22,15 +22,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Ming Dynasty",
-        "Yuan Dynasty"
+      "death": [
+        "Ming Dynasty"
       ],
       "lead": [
         "Ming Dynasty",
         "Yuan Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ming Dynasty",
+        "Yuan Dynasty"
+      ],
       "birthplace": [
         "Yuan Dynasty"
       ]

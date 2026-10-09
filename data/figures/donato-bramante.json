@@ -1,0 +1,34 @@
+{
+  "id": "Q7793",
+  "slug": "donato-bramante",
+  "name": "Donato Bramante",
+  "wikipedia": "Donato Bramante",
+  "role": "Italian architect and painter",
+  "life": "1444–1514",
+  "lifetime": [
+    1444,
+    1514
+  ],
+  "occupation": "Architect",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "An Italian architect and painter.",
+  "image": "images/donato-bramante.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Donato Bramante (1444 – 11 April 1514), born as Donato di Pascuccio d'Antonio and also known as Bramante Lazzari, was an Italian architect and painter. He introduced Renaissance architecture to Milan and the High Renaissance style to Rome, where his plan for St. Peter's Basilica formed the basis of the design executed by Michelangelo. His Tempietto (San Pietro in Montorio) marked the beginning of the High Renaissance in Rome (1502) when Pope Julius II appointed him to build a sanctuary over the spot where Peter was martyred.",
+    "photo": "no death year in or after 1860"
+  }
+}

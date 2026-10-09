@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Nazi Germany",
-    "German Empire"
+    "Nazi Germany"
   ],
   "related": [],
   "contribution": "A high-ranking SS and police official in Nazi Germany as well as one of the principal architects of the Holocaust.",
@@ -22,17 +21,18 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Nazi Germany",
-        "Weimar Republic",
-        "German Empire"
+      "office": [
+        "Nazi Germany"
+      ],
+      "death": [
+        "Nazi Germany"
       ],
       "lead": [
         "Nazi Germany"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "German Empire"
+      "citizenship": [
+        "Nazi Germany",
+        "Weimar Republic"
       ]
     },
     "lead": "Reinhard Tristan Eugen Heydrich (; German: [ˈʁaɪnhaʁt ˈtʁɪstan ˈʔɔʏɡn̩ ˈhaɪdʁɪç] ; 7 March 1904 – 4 June 1942) was a high-ranking SS and police official in Nazi Germany as well as one of the principal architects of the Holocaust. He held the rank of SS-Obergruppenführer und General der Polizei. Many historians regard Heydrich as one of the most sinister figures within the Nazi regime. Adolf Hitler described him as \"the man with the iron heart\".",

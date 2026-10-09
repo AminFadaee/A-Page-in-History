@@ -23,15 +23,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Mongol Empire"
+      ],
+      "death": [
         "Mongol Empire"
       ],
       "lead": [
         "Mongol Empire",
         "Great Jin"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Mongol Empire"
+      ]
     },
     "lead": "Tolui (c. 1191 – 1232) was the youngest son of Genghis Khan and Börte. A prominent general during the early Mongol conquests, Tolui was a leading candidate to succeed his father after his death in 1227 and ultimately served as regent of the Mongol Empire until the accession of his brother Ögedei two years later. Tolui's wife was Sorghaghtani Beki; their sons included Möngke and Kublai, the fourth and fifth khans of the empire, and Hulagu, the founder of the Ilkhanate.",
     "photo": "no death year in or after 1860"

@@ -1,0 +1,34 @@
+{
+  "id": "Q48438",
+  "slug": "saint-george",
+  "name": "Saint George",
+  "wikipedia": "Saint George",
+  "role": "Christian saint and martyr",
+  "life": "c. 275–303",
+  "lifetime": [
+    275,
+    303
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "An early Christian martyr who is venerated as a saint in Christianity.",
+  "image": "images/saint-george.jpg",
+  "image_credit": "Bernat Martorell · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Saint George (Greek: Γεώργιος, romanized: Geṓrgios; died 23 April 303), also George of Lydda, was an early Christian martyr who is venerated as a saint in Christianity. According to holy tradition, he was a soldier in the Roman army. Of Cappadocian Greek origin, he became a member of the Praetorian Guard for Roman emperor Diocletian. During the Diocletianic Persecution, he was sentenced to death for refusing to recant his Christian faith. He became one of the most venerated saints, heroes, and megalomartyrs in Christianity. Since the Crusades, he has been venerated especially as a military saint. He is respected by Christians, Druze, as well as some Muslims as a martyr of monotheistic faith.",
+    "photo": "no death year in or after 1860"
+  }
+}

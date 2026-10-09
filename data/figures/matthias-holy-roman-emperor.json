@@ -1,0 +1,41 @@
+{
+  "id": "Q152157",
+  "slug": "matthias-holy-roman-emperor",
+  "name": "Matthias, Holy Roman Emperor",
+  "wikipedia": "Matthias, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1612 to 1619",
+  "life": "1557–1619",
+  "lifetime": [
+    1557,
+    1619
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Holy Roman Empire",
+    "Habsburg Monarchy"
+  ],
+  "related": [],
+  "contribution": "Holy Roman Emperor from 1612 to 1619, Archduke of Austria from 1608 to 1619, King of Hungary and Croatia from 1608 to 1618 and King of Bohemia from 1611 to 1617.",
+  "image": "images/matthias-holy-roman-emperor.jpg",
+  "image_credit": "Circle of Hans von Aachen · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Holy Roman Empire"
+      ],
+      "death": [
+        "Habsburg Monarchy"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Matthias (24 February 1557 – 20 March 1619) was Holy Roman Emperor from 1612 to 1619, Archduke of Austria from 1608 to 1619, King of Hungary and Croatia from 1608 to 1618 and King of Bohemia from 1611 to 1617. His personal motto was Concordia lumine maior (\"Unity is stronger in the light\").",
+    "photo": "no death year in or after 1860"
+  }
+}

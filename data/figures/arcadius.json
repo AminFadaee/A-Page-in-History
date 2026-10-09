@@ -1,0 +1,34 @@
+{
+  "id": "Q159369",
+  "slug": "arcadius",
+  "name": "Arcadius",
+  "wikipedia": "Arcadius",
+  "role": "Roman emperor from 383 to 408",
+  "life": "377–408",
+  "lifetime": [
+    377,
+    408
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Eastern Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Roman emperor from 383 to his death in 408.",
+  "image": "images/arcadius.jpg",
+  "image_credit": "Gryffindor · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Eastern Roman Empire"
+      ],
+      "citizenship": [
+        "Eastern Roman Empire"
+      ]
+    },
+    "lead": "Arcadius (Latin: Arcadius, Ancient Greek: Ἀρκάδιος Arkadios; c. 377 – 1 May 408) was Roman emperor from 383 to his death in 408. He was the eldest son of the Augustus Theodosius I (r. 379–395) and his first wife Aelia Flaccilla, and the brother of Honorius (r. 393–423). Arcadius ruled the eastern half of the empire from 395, when their father died, while Honorius ruled the west. In his time, he was seen as a weak ruler dominated by a series of powerful ministers and by his wife, Aelia Eudoxia.",
+    "photo": "no death year in or after 1860"
+  }
+}

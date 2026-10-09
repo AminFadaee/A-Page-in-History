@@ -21,16 +21,21 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Genoa"
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
       ],
       "lead": [
         "Papal States"
       ],
+      "citizenship": [
+        "Republic of Genoa"
+      ],
       "vital_section": [
         "Papal States"
-      ],
-      "birthplace": []
+      ]
     },
     "lead": "Pope Julius II (Latin: Iulius II; Italian: Giulio II; born Giuliano della Rovere; 5 December 1443 – 21 February 1513) was head of the Catholic Church and leader of the Papal States from 1503 to his death, in February 1513.",
     "photo": "no death year in or after 1860"

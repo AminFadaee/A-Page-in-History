@@ -12,8 +12,8 @@
   "occupation": "Writer",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Empire",
-    "Union of Soviet Socialist Republics"
+    "Union of Soviet Socialist Republics",
+    "Russian Empire"
   ],
   "related": [],
   "contribution": "A Russian and Soviet poet, novelist, and literary translator.",
@@ -22,14 +22,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "category": [
+        "Russian Empire"
+      ],
+      "death": [
         "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

@@ -24,7 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of Italy"
       ],
       "lead": [
@@ -32,7 +32,9 @@
         "Nazi Germany",
         "French Third Republic"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Italy"
+      ],
       "birthplace": [
         "Kingdom of Italy"
       ]

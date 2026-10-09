@@ -12,7 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Russia",
   "civilizations": [
-    "Grand Principality of Moscow"
+    "Tsardom of Russia"
   ],
   "related": [
     "Khanate of Kazan",
@@ -27,8 +27,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Grand Principality of Moscow",
+      "office": [
+        "Tsardom of Russia"
+      ],
+      "death": [
         "Tsardom of Russia"
       ],
       "lead": [
@@ -38,9 +40,8 @@
         "Kingdom of England",
         "Ottoman Empire"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Grand Principality of Moscow"
+      "citizenship": [
+        "Tsardom of Russia"
       ]
     },
     "lead": "Ivan IV Vasilyevich (Russian: Иван IV Васильевич; 25 August 1530 – 28 March [O.S. 18 March] 1584), commonly known as Ivan the Terrible, was Grand Prince of Moscow and all Russia from 1533 to 1547 and the first Tsar and Grand Prince of all Russia from 1547 until his death in 1584. Ivan's reign was characterised by Russia's transformation from a medieval state to a fledgling empire, but at an immense cost to its people and long-term economy.",

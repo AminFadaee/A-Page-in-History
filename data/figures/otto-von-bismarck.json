@@ -12,14 +12,15 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "German Confederation"
+    "German Empire",
+    "German Confederation",
+    "Kingdom of Prussia",
+    "North German Confederation"
   ],
   "related": [
-    "German Empire",
     "Russian Empire",
     "Second French Empire",
-    "Austrian Empire",
-    "North German Confederation"
+    "Austrian Empire"
   ],
   "contribution": "A German statesman and diplomat who oversaw the unification of Germany and served as its first chancellor from 1871 to 1890.",
   "image": "images/otto-von-bismarck.jpg",
@@ -27,8 +28,14 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Prussia"
+      "office": [
+        "Netherlands",
+        "Kingdom of Prussia",
+        "North German Confederation",
+        "German Empire"
+      ],
+      "death": [
+        "German Empire"
       ],
       "lead": [
         "German Empire",
@@ -38,7 +45,9 @@
         "German Confederation",
         "North German Confederation"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "German Confederation"
       ]

@@ -23,15 +23,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Umayyad Caliphate"
+      ],
+      "death": [
         "Umayyad Caliphate"
       ],
       "lead": [
         "Umayyad Caliphate",
         "Eastern Roman Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Umayyad Caliphate"
+      ]
     },
     "lead": "Mu'awiya ibn Abi Sufyan (c. 597, 603 or 605 – April 680), commonly known as Mu'awiya I, was the founder of the Umayyad Caliphate, ruling as the first caliph of the Umayyad dynasty from 661 until his death in 680. He became caliph less than thirty years after the death of the Islamic prophet Muhammad and immediately after the four Rashidun ('rightly-guided') caliphs. Unlike his predecessors, who had been close, early companions of Muhammad, Mu'awiya was a relatively late follower of Muhammad.",
     "photo": "no death year in or after 1860"

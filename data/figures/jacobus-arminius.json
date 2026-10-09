@@ -1,0 +1,37 @@
+{
+  "id": "Q313070",
+  "slug": "jacobus-arminius",
+  "name": "Jacobus Arminius",
+  "wikipedia": "Jacobus Arminius",
+  "role": "Dutch theologian",
+  "life": "1560–1609",
+  "lifetime": [
+    1560,
+    1609
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch Reformed minister and theologian during the Protestant Reformation period whose views became the basis of Arminianism and the Dutch Remonstrant movement.",
+  "image": "images/jacobus-arminius.jpg",
+  "image_credit": "David Bailly · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Dutch Republic"
+      ],
+      "citizenship": [
+        "Dutch Republic"
+      ],
+      "birthplace": [
+        "Kingdom of Spain"
+      ]
+    },
+    "lead": "Jacobus Arminius (; Dutch: Jakob Hermanszoon; 10 October 1560 – 19 October 1609) was a Dutch Reformed minister and theologian during the Protestant Reformation period whose views became the basis of Arminianism and the Dutch Remonstrant movement. He served from 1603 as professor in theology at the University of Leiden and wrote many books and treatises on theology.",
+    "photo": "no death year in or after 1860"
+  }
+}

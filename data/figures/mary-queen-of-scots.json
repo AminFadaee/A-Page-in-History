@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Scotland"
+    "Kingdom of Scotland",
+    "Kingdom of England"
   ],
   "related": [
-    "Kingdom of France",
-    "Kingdom of England"
+    "Kingdom of France"
   ],
   "contribution": "Queen of Scotland from 14 December 1542 until her forced abdication on 24 July 1567.",
   "image": "images/mary-queen-of-scots.jpg",
@@ -24,15 +24,20 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of Scotland"
+      ],
+      "death": [
+        "Kingdom of England"
       ],
       "lead": [
         "Kingdom of Scotland",
         "Kingdom of France",
         "Kingdom of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Scotland"
+      ],
       "birthplace": [
         "Kingdom of Scotland"
       ]

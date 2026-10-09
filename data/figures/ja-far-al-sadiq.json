@@ -1,0 +1,37 @@
+{
+  "id": "Q170046",
+  "slug": "ja-far-al-sadiq",
+  "name": "Ja'far al-Sadiq",
+  "wikipedia": "Ja'far al-Sadiq",
+  "role": "Muslim scholar and Shia imam",
+  "life": "702–765",
+  "lifetime": [
+    699,
+    765
+  ],
+  "occupation": "Astronomer",
+  "birth_country": "Saudi Arabia",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [],
+  "contribution": "A Muslim scholar, jurist, hadith transmitter and the sixth and last agreed-upon Shia Imam amongst Twelvers and Isma'ilis.",
+  "image": "images/ja-far-al-sadiq.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Abbasid Caliphate"
+      ],
+      "lead": [
+        "Abbasid Caliphate"
+      ],
+      "birthplace": [
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Ja'far ibn Muhammad al-Sadiq (Arabic: جعفر ابن محمد الصادق, romanized: Jaʿfar ibn Muḥammad al-Ṣādiq; c. 702–765) was a Muslim scholar, jurist, hadith transmitter and the sixth and last agreed-upon Shia Imam amongst Twelvers and Isma'ilis. Known by the title al-Sadiq (\"The Truthful\"), Ja'far was the eponymous founder of the Ja'fari school of Islamic jurisprudence. In the canonical Twelver hadith collections, more traditions are cited from Ja'far than that of the other Imams combined, although their attribution to him is questionable, making it hard to determine his actual teachings. Among the theological contributions ascribed to him are the doctrine of nass (divinely inspired designation of each Imam by the previous Imam) and isma (the infallibility of the Imams), as well as that of taqiya (religious dissimulation under persecution).",
+    "photo": "no death year in or after 1860"
+  }
+}

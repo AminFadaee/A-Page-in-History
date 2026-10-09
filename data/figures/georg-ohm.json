@@ -1,0 +1,34 @@
+{
+  "id": "Q1585",
+  "slug": "georg-ohm",
+  "name": "Georg Ohm",
+  "wikipedia": "Georg Ohm",
+  "role": "German mathematician and physicist",
+  "life": "1789–1854",
+  "lifetime": [
+    1789,
+    1854
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Bavaria"
+  ],
+  "related": [],
+  "contribution": "A German mathematician and physicist.",
+  "image": "images/georg-ohm.jpg",
+  "image_credit": "Original: unknown · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Bavaria"
+      ],
+      "citizenship": [
+        "Kingdom of Bavaria"
+      ]
+    },
+    "lead": "Georg Simon Ohm (; German: [oːm] ; 16 March 1789 – 6 July 1854) was a German mathematician and physicist. As a school teacher, Ohm began his research with the new electrochemical cell, invented by Italian scientist Alessandro Volta. Using equipment of his own creation, Ohm found that there is a direct proportionality between the potential difference (voltage) applied across a conductor and the resultant electric current; this relation is known as Ohm's law.",
+    "photo": "no death year in or after 1860"
+  }
+}

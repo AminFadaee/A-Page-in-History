@@ -24,8 +24,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Hungarian Republic",
+      "office": [
+        "Socialist Federal Republic of Yugoslavia"
+      ],
+      "death": [
         "Socialist Federal Republic of Yugoslavia"
       ],
       "lead": [
@@ -33,7 +35,10 @@
         "Austria-Hungary",
         "Socialist Federal Republic of Yugoslavia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Hungarian Republic",
+        "Socialist Federal Republic of Yugoslavia"
+      ],
       "birthplace": [
         "Austria-Hungary"
       ]

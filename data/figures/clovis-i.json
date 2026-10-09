@@ -1,0 +1,43 @@
+{
+  "id": "Q82339",
+  "slug": "clovis-i",
+  "name": "Clovis I",
+  "wikipedia": "Clovis I",
+  "role": "King of the Franks from 481 to 511",
+  "life": "c. 466–511",
+  "lifetime": [
+    466,
+    511
+  ],
+  "occupation": "Politician",
+  "birth_country": "Belgium",
+  "civilizations": [
+    "Kingdom of the Franks"
+  ],
+  "related": [
+    "Kingdom of Soissons"
+  ],
+  "contribution": "The first Frankish king to unite the Franks, changing the form of leadership from a group of petty kings to rule by a single king, and ensuring that the kingship was passed down to his heirs.",
+  "image": "images/clovis-i.jpg",
+  "image_credit": "Jean Du Tillet http://mandragore.bnf.fr/ · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of the Franks",
+        "Eastern Roman Empire"
+      ],
+      "death": [
+        "Kingdom of the Franks"
+      ],
+      "lead": [
+        "Kingdom of Soissons"
+      ],
+      "citizenship": [
+        "Kingdom of the Franks"
+      ]
+    },
+    "lead": "Clovis I (Latin: Chlodovechus; reconstructed Frankish: *Hlodowig; c. 466 – 27 November 511) was the first Frankish king to unite the Franks, changing the form of leadership from a group of petty kings to rule by a single king, and ensuring that the kingship was passed down to his heirs. He is considered the founder of the Merovingian dynasty, which ruled the Frankish kingdom for the next two centuries. Clovis is an important figure in the history of France. According to Charles de Gaulle, he was \"the first king of what would become France.\"",
+    "photo": "no death year in or after 1860"
+  }
+}

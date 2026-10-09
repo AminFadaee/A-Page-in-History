@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Iran",
   "civilizations": [
-    "Ghaznavid Empire",
-    "Great Seljuk Empire"
+    "Great Seljuk Empire",
+    "Ghaznavid Empire"
   ],
   "related": [],
   "contribution": "A Persian Sunni scholar, jurist, and vizier of the Seljuk Empire.",
@@ -22,14 +22,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Ghaznavid Empire",
+      "death": [
         "Great Seljuk Empire"
       ],
       "lead": [
         "Great Seljuk Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ghaznavid Empire",
+        "Great Seljuk Empire"
+      ],
       "birthplace": [
         "Ghaznavid Empire"
       ]

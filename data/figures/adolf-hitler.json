@@ -13,11 +13,11 @@
   "birth_country": "Austria",
   "civilizations": [
     "Nazi Germany",
+    "Weimar Republic",
     "Austria-Hungary"
   ],
   "related": [
     "German Empire",
-    "Weimar Republic",
     "French Third Republic"
   ],
   "contribution": "An Austrian-born  German politician who was dictator of Germany in the Nazi era from 1933 until his suicide in 1945.",
@@ -26,9 +26,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Austria",
-        "Nazi Germany"
+      "office": [
+        "Nazi Germany",
+        "Weimar Republic"
+      ],
+      "death": [
+        "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Nazi Germany",
@@ -37,7 +40,10 @@
         "Weimar Republic",
         "French Third Republic"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Austria",
+        "Nazi Germany"
+      ],
       "birthplace": [
         "Austria-Hungary"
       ]

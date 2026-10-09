@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "British Raj",
-    "Republic of India"
+    "Republic of India",
+    "British Raj"
   ],
   "related": [],
   "contribution": "An Indian lawyer, anti-colonial nationalist, secular humanist, social democrat, and statesman who was a central figure in India during the middle of the 20th century.",
@@ -22,11 +22,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "British Raj",
+      "office": [
+        "Republic of India"
+      ],
+      "death": [
         "Republic of India"
       ],
       "lead": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],

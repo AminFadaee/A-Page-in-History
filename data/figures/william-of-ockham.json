@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Margraviate of Brandenburg"
+      ],
+      "citizenship": [
         "Kingdom of England"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of England"
       ]

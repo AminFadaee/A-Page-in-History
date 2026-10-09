@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
+    "Nazi Germany",
     "German Empire"
   ],
   "related": [],
@@ -21,12 +22,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "German Empire",
         "Nazi Germany"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "German Empire"
       ]

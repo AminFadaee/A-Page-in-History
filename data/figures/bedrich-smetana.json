@@ -12,7 +12,8 @@
   "occupation": "Composer",
   "birth_country": "Czechia",
   "civilizations": [
-    "Austrian Empire"
+    "Austrian Empire",
+    "Austria-Hungary"
   ],
   "related": [],
   "contribution": "A Czech composer who pioneered the development of a musical style that became closely identified with his people's aspirations to a cultural and political \"revival\". He has been regarded in his homeland as the father of Czech music.",
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Austria-Hungary"
+      ],
+      "citizenship": [
         "Austrian Empire",
         "Austria-Hungary"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Austrian Empire"
       ]

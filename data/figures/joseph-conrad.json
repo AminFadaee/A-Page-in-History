@@ -23,14 +23,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
-        "Second Polish Republic"
-      ],
       "lead": [
         "British Colonial Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Second Polish Republic"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

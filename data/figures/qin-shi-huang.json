@@ -25,9 +25,8 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Qin Dynasty",
-        "Qin"
+      "death": [
+        "Qin Dynasty"
       ],
       "lead": [
         "Qin Dynasty",
@@ -35,7 +34,10 @@
         "Qin",
         "Chu"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Qin Dynasty",
+        "Qin"
+      ],
       "birthplace": [
         "Zhao"
       ]

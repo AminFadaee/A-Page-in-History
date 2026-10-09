@@ -1,0 +1,47 @@
+{
+  "id": "Q130834",
+  "slug": "francis-ii-holy-roman-emperor",
+  "name": "Francis II, Holy Roman Emperor",
+  "wikipedia": "Francis II, Holy Roman Emperor",
+  "role": "Holy Roman Emperor, Emperor of Austria",
+  "life": "1768–1835",
+  "lifetime": [
+    1768,
+    1835
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [
+    "German Confederation",
+    "Confederation of the Rhine"
+  ],
+  "contribution": "The last Holy Roman Emperor from 1792 to 1806, and the first Emperor of Austria from 1804 to 1835.",
+  "image": "images/francis-ii-holy-roman-emperor.jpg",
+  "image_credit": "Friedrich von Amerling · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Austrian Empire"
+      ],
+      "death": [
+        "Austrian Empire"
+      ],
+      "lead": [
+        "German Confederation",
+        "Confederation of the Rhine"
+      ],
+      "citizenship": [
+        "Austrian Empire"
+      ],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Francis II and I (German: Franz II; 12 February 1768 – 2 March 1835) was the last Holy Roman Emperor (as Francis II) from 1792 to 1806, and the first Emperor of Austria (as Francis I) from 1804 to 1835. He was also King of Germany, Hungary, Croatia and Bohemia, and served as the first president of the German Confederation following its establishment in 1815.",
+    "photo": "no death year in or after 1860"
+  }
+}

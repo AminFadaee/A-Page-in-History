@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of France"
       ],
-      "lead": [],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

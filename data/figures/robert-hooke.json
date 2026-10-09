@@ -1,0 +1,34 @@
+{
+  "id": "Q46830",
+  "slug": "robert-hooke",
+  "name": "Robert Hooke",
+  "wikipedia": "Robert Hooke",
+  "role": "English polymath",
+  "life": "1635–1703",
+  "lifetime": [
+    1635,
+    1703
+  ],
+  "occupation": "Physicist",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English polymath who was active as a physicist, astronomer, geologist, meteorologist, and architect.",
+  "image": "images/robert-hooke.jpg",
+  "image_credit": "Mary Beale · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of England"
+      ],
+      "citizenship": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Robert Hooke (; 18 July 1635 – 3 March 1703) was an English polymath who was active as a physicist ('natural philosopher'), astronomer, geologist, meteorologist, and architect. He is credited as one of the first scientists to investigate living things at microscopic scale in 1665, using a compound microscope that he designed. Hooke was an impoverished scientific inquirer in young adulthood who went on to become one of the most important scientists of his time. After the Great Fire of London in 1666, Hooke (as a surveyor and architect) attained wealth and esteem by performing more than half of the property line surveys and assisting with the city's rapid reconstruction. Often vilified by writers in the centuries after his death, his reputation was restored at the end of the twentieth century and he has been called \"England's Leonardo [da Vinci]\".",
+    "photo": "no death year in or after 1860"
+  }
+}

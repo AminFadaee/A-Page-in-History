@@ -23,16 +23,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Venice",
+      "death": [
         "Ottoman Empire"
       ],
       "lead": [
         "Kingdom of Naples",
         "Ottoman Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Republic of Venice",
+        "Ottoman Empire"
+      ]
     },
     "lead": "Gjergj Kastrioti (also known as Skanderbeg; c. 1405 – 17 January 1468) was an Albanian nobleman and military leader who led the League of Lezhë in the Ottoman-Albanian Wars until his death. Skanderbeg is considered to be a major figure of medieval Albanian history and today is the national hero of Albania.",
     "photo": "no death year in or after 1860"

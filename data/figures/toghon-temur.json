@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Yuan Dynasty"
       ],
       "lead": [
         "Yuan Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Yuan Dynasty"
+      ],
       "birthplace": [
         "Yuan Dynasty"
       ]

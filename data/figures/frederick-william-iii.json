@@ -21,11 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of Prussia"
       ],
-      "lead": [],
-      "vital_section": [],
+      "death": [
+        "German Confederation"
+      ],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "Kingdom of Prussia"
       ]

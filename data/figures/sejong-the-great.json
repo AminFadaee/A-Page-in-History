@@ -23,14 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Joseon"
       ],
       "lead": [
         "Joseon",
         "Ming Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Joseon"
+      ],
       "birthplace": [
         "Joseon"
       ]

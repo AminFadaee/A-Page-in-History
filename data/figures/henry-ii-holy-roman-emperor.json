@@ -23,7 +23,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Holy Roman Empire"
+      ],
+      "death": [
+        "Holy Roman Empire"
+      ],
       "lead": [
         "Duchy of Bohemia",
         "Holy Roman Empire"

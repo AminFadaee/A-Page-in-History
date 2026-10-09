@@ -21,11 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "French Fourth Republic"
+      ],
+      "citizenship": [
         "Russian Empire"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Russian Empire"
       ]

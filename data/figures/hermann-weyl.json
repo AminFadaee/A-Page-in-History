@@ -12,8 +12,8 @@
   "occupation": "Mathematician",
   "birth_country": "Germany",
   "civilizations": [
-    "German Empire",
-    "Swiss Confederation"
+    "Swiss Confederation",
+    "German Empire"
   ],
   "related": [],
   "contribution": "A German mathematician, theoretical physicist, logician and philosopher.",
@@ -22,16 +22,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "German Empire",
-        "Weimar Republic",
-        "United States of America",
+      "death": [
         "Swiss Confederation"
       ],
       "lead": [
         "Swiss Confederation"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "German Empire",
+        "Weimar Republic",
+        "United States of America",
+        "Swiss Confederation"
+      ],
       "birthplace": [
         "German Empire"
       ]

@@ -12,6 +12,7 @@
   "occupation": "Philosopher",
   "birth_country": "India",
   "civilizations": [
+    "United States of America",
     "British Raj"
   ],
   "related": [],
@@ -21,12 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "British Raj"
       ]

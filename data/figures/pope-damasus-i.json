@@ -1,0 +1,34 @@
+{
+  "id": "Q130997",
+  "slug": "pope-damasus-i",
+  "name": "Pope Damasus I",
+  "wikipedia": "Pope Damasus I",
+  "role": "Head of the Catholic Church from 366 to 384",
+  "life": "305–384",
+  "lifetime": [
+    305,
+    384
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The bishop of Rome from October 366 to his death in 384.",
+  "image": "images/pope-damasus-i.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Pope Damasus I (; c. 305 – 11 December 384), also known as Damasus of Rome, was the bishop of Rome from October 366 to his death in 384. He presided over the Council of Rome of 382, which established the canon, or official list, of sacred scripture.",
+    "photo": "no death year in or after 1860"
+  }
+}

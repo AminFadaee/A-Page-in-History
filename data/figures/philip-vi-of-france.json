@@ -1,0 +1,45 @@
+{
+  "id": "Q170586",
+  "slug": "philip-vi-of-france",
+  "name": "Philip VI of France",
+  "wikipedia": "Philip VI of France",
+  "role": "Disputed King of France from 1328 to 1350",
+  "life": "1293–1350",
+  "lifetime": [
+    1293,
+    1350
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Dauphiné",
+    "Kingdom of Arles"
+  ],
+  "contribution": "The first king of France from the House of Valois, reigning from 1328 until his death in 1350.",
+  "image": "images/philip-vi-of-france.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France",
+        "County of Anjou"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Dauphiné",
+        "Kingdom of Arles"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Philip VI (French: Philippe; 1293 – 22 August 1350), called the Fortunate (French: le Fortuné), the Catholic (le Catholique) and of Valois (de Valois), was the first king of France from the House of Valois, reigning from 1328 until his death in 1350. Philip's reign was dominated by the consequences of a succession dispute. When King Charles IV of France died in 1328, his nearest male relative was his sororal nephew, Edward III of England, but the French nobility preferred Charles's paternal cousin, Philip of Valois.",
+    "photo": "no death year in or after 1860"
+  }
+}

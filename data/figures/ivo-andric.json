@@ -12,6 +12,7 @@
   "occupation": "Writer",
   "birth_country": "Bosnia and Herzegovina",
   "civilizations": [
+    "Socialist Federal Republic of Yugoslavia",
     "Austria-Hungary"
   ],
   "related": [
@@ -24,7 +25,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Socialist Federal Republic of Yugoslavia"
       ],
       "lead": [
@@ -32,7 +33,9 @@
         "Nazi Germany",
         "Yugoslavia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Socialist Federal Republic of Yugoslavia"
+      ],
       "birthplace": [
         "Austria-Hungary"
       ]

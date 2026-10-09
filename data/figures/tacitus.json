@@ -1,0 +1,34 @@
+{
+  "id": "Q2161",
+  "slug": "tacitus",
+  "name": "Tacitus",
+  "wikipedia": "Tacitus",
+  "role": "Roman historian and senator",
+  "life": "c. 55–120",
+  "lifetime": [
+    55,
+    120
+  ],
+  "occupation": "Historian",
+  "birth_country": "France",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Roman historian and politician.",
+  "image": "images/tacitus.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Publius Cornelius Tacitus, known simply as Tacitus ( TAS-it-əs, Latin: [ˈtakɪtʊs]; c. AD 56 – c. 120), was a Roman historian and politician. He is widely regarded as one of the greatest Roman historians by modern scholars.",
+    "photo": "no death year in or after 1860"
+  }
+}

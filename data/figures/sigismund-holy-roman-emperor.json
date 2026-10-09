@@ -1,0 +1,49 @@
+{
+  "id": "Q57124",
+  "slug": "sigismund-holy-roman-emperor",
+  "name": "Sigismund, Holy Roman Emperor",
+  "wikipedia": "Sigismund, Holy Roman Emperor",
+  "role": "King of Hungary from 1387 to 1437, Holy Roman Emperor from 1433",
+  "life": "1368–1437",
+  "lifetime": [
+    1368,
+    1437
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Bohemia",
+    "Kingdom of Hungary"
+  ],
+  "related": [
+    "Margraviate of Brandenburg",
+    "Ottoman Empire"
+  ],
+  "contribution": "Holy Roman Emperor from 1433 until his death in 1437.",
+  "image": "images/sigismund-holy-roman-emperor.jpg",
+  "image_credit": "Formerly attributed to Pisanello · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Hungary",
+        "Kingdom of Bohemia",
+        "Duchy of Luxembourg"
+      ],
+      "death": [
+        "Kingdom of Bohemia"
+      ],
+      "lead": [
+        "Margraviate of Brandenburg",
+        "Kingdom of Hungary",
+        "Ottoman Empire",
+        "Kingdom of Bohemia"
+      ],
+      "birthplace": [
+        "Electorate of Trier"
+      ]
+    },
+    "lead": "Sigismund of Luxembourg (15 February 1368 – 9 December 1437) was Holy Roman Emperor from 1433 until his death in 1437. As the husband of Mary, Queen of Hungary, he was King of Hungary and Croatia (jure uxoris) from 1387. He was elected King of Germany (King of the Romans) in 1410, and was also King of Bohemia from 1419, as well as prince-elector of Brandenburg (1378–88 and 1411–15). He was the last male member of the House of Luxembourg.",
+    "photo": "no death year in or after 1860"
+  }
+}

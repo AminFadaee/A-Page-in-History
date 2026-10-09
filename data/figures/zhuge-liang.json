@@ -12,12 +12,12 @@
   "occupation": "Engineer",
   "birth_country": "China",
   "civilizations": [
-    "Shu Han",
-    "Han Dynasty"
+    "Han Dynasty",
+    "Cao Wei",
+    "Shu Han"
   ],
   "related": [
-    "Eastern Wu",
-    "Cao Wei"
+    "Eastern Wu"
   ],
   "contribution": "A Chinese statesman and strategist who lived through the collapse of the Eastern Han dynasty and became the principal architect of the Shu Han state.",
   "image": "images/zhuge-liang.jpg",
@@ -25,8 +25,8 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Shu Han"
+      "death": [
+        "Cao Wei"
       ],
       "lead": [
         "Han Dynasty",
@@ -34,7 +34,9 @@
         "Eastern Wu",
         "Cao Wei"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Shu Han"
+      ],
       "birthplace": [
         "Han Dynasty"
       ]

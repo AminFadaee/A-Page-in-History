@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
+    "Republic of India",
     "British Raj"
   ],
   "related": [],
@@ -21,12 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Republic of India"
+      ],
+      "death": [
+        "Republic of India"
+      ],
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "British Raj"
       ]

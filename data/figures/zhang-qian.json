@@ -24,7 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Han Dynasty"
       ],
       "lead": [
@@ -32,7 +32,9 @@
         "Greco-Bactrian Kingdom",
         "Parthian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Han Dynasty"
+      ],
       "birthplace": [
         "Han Dynasty"
       ]

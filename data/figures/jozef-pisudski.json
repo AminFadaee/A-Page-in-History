@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Lithuania",
   "civilizations": [
-    "Russian Empire",
-    "Second Polish Republic"
+    "Second Polish Republic",
+    "Russian Empire"
   ],
   "related": [
     "Austria-Hungary"
@@ -24,8 +24,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "office": [
+        "Second Polish Republic"
+      ],
+      "death": [
         "Second Polish Republic"
       ],
       "lead": [
@@ -33,7 +35,10 @@
         "Russian Empire",
         "Austria-Hungary"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Second Polish Republic"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

@@ -1,0 +1,34 @@
+{
+  "id": "Q188623",
+  "slug": "francois-viete",
+  "name": "François Viète",
+  "wikipedia": "François Viète",
+  "role": "French mathematician",
+  "life": "1540–1603",
+  "lifetime": [
+    1540,
+    1603
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French mathematician whose work on new algebra was an important step towards modern algebra, due to his innovative use of letters as parameters in equations.",
+  "image": "images/francois-viete.jpg",
+  "image_credit": "The original uploader was Dr. Manuel at German Wikipedia. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "François Viète (French: [fʁɑ̃swa vjɛt]; 1540 – 23 February 1603), known in Latin as Franciscus Vieta, was a French mathematician whose work on new algebra was an important step towards modern algebra, due to his innovative use of letters as parameters in equations. Because of this, Viète is sometimes called \"the father of modern algebraic notation\". He was a lawyer by trade, and served as a privy councillor to both Henry III and Henry IV of France.",
+    "photo": "no death year in or after 1860"
+  }
+}

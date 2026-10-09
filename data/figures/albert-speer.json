@@ -1,0 +1,34 @@
+{
+  "id": "Q60045",
+  "slug": "albert-speer",
+  "name": "Albert Speer",
+  "wikipedia": "Albert Speer",
+  "role": "German architect",
+  "life": "1905–1981",
+  "lifetime": [
+    1905,
+    1981
+  ],
+  "occupation": "Architect",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A German architect who served as Minister of Armaments and War Production in Nazi Germany during most of World War II. A close friend and ally of Adolf Hitler, he was convicted at the Nuremberg trials and served 20 years in prison.",
+  "image": "images/albert-speer.jpg",
+  "image_credit": "Binder (maybe Atelier Binder after Alexander Binders death in 1929) · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Nazi Germany"
+      ]
+    },
+    "lead": "Berthold Konrad Hermann Albert Speer (; German: [ˈʃpeːɐ̯] ; 19 March 1905 – 1 September 1981) was a German architect who served as Minister of Armaments and War Production in Nazi Germany during most of World War II. A close friend and ally of Adolf Hitler, he was convicted at the Nuremberg trials and served 20 years in prison.",
+    "photo": "captured 1933date QS:P571,+1933-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

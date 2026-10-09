@@ -1,0 +1,34 @@
+{
+  "id": "Q345012",
+  "slug": "huineng",
+  "name": "Huineng",
+  "wikipedia": "Huineng",
+  "role": "Semi-legendary Tang dynasty Chinese Chan Buddhist master",
+  "life": "638–713",
+  "lifetime": [
+    638,
+    713
+  ],
+  "occupation": "",
+  "birth_country": "",
+  "civilizations": [
+    "Tang Dynasty"
+  ],
+  "related": [],
+  "contribution": "A semi-legendary but central figure in the early history of Chinese Chan Buddhism.",
+  "image": "images/huineng.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Tang Dynasty"
+      ],
+      "citizenship": [
+        "Tang Dynasty"
+      ]
+    },
+    "lead": "Dajian Huineng or Hui-neng (traditional Chinese: 大鑒惠能; pinyin: Dàjiàn Huìnéng; Cantonese Jyutping: daai6 gaam3 wai6 nang4; Wade–Giles: Ta⁴-chien⁴ Hui⁴-nêng²; Japanese: Daikan Enō; Korean: Daegam Hyeneung; trad. 638-713), also commonly known as the Sixth Patriarch or Sixth Ancestor of Chan (Chinese: 禪宗六祖), is a semi-legendary but central figure in the early history of Chinese Chan Buddhism.",
+    "photo": "no death year in or after 1860"
+  }
+}

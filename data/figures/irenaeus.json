@@ -1,0 +1,34 @@
+{
+  "id": "Q182123",
+  "slug": "irenaeus",
+  "name": "Irenaeus",
+  "wikipedia": "Irenaeus",
+  "role": "Greek bishop and Church Father",
+  "life": "c. 130–202",
+  "lifetime": [
+    130,
+    202
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Greek bishop in the second century, noted for his role in guiding and expanding Christian communities in the southern regions of present-day France and, more widely, for the development of Christian theology by opposing Gnostic interpretations of Christian Scripture and defending orthodoxy.",
+  "image": "images/irenaeus.jpg",
+  "image_credit": "Lucien Bégule · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Irenaeus of Lyon ( or ; Koine Greek: Εἰρηναῖος, romanized: Eirēnaîos, IPA: [i.re̝ˈnɛ.os]) was a Greek bishop in the second century, noted for his role in guiding and expanding Christian communities in the southern regions of present-day France and, more widely, for the development of Christian theology by opposing Gnostic interpretations of Christian Scripture and defending orthodoxy. Originating from Smyrna, he had seen and heard the preaching of Polycarp, who in turn was said to have heard John the Evangelist.",
+    "photo": "no death year in or after 1860"
+  }
+}

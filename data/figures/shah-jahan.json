@@ -1,0 +1,42 @@
+{
+  "id": "Q83672",
+  "slug": "shah-jahan",
+  "name": "Shah Jahan",
+  "wikipedia": "Shah Jahan",
+  "role": "Mughal emperor from 1628 to 1658",
+  "life": "1592–1666",
+  "lifetime": [
+    1592,
+    1666
+  ],
+  "occupation": "Politician",
+  "birth_country": "Pakistan",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [
+    "Portuguese Empire"
+  ],
+  "contribution": "The fifth Mughal Emperor from 1628 until his deposition in 1658.",
+  "image": "images/shah-jahan.jpg",
+  "image_credit": "Bichitr · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Mughal Empire"
+      ],
+      "death": [
+        "Mughal Empire"
+      ],
+      "lead": [
+        "Portuguese Empire"
+      ],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Shah Jahan I (Shahab-ud-Din Muhammad Khurram; 5 January 1592 – 22 January 1666), also called Shah Jahan the Magnificent, was the fifth Mughal Emperor from 1628 until his deposition in 1658. His reign marked the zenith of Mughal architectural and cultural achievements.",
+    "photo": "no death year in or after 1860"
+  }
+}

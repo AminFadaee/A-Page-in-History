@@ -1,0 +1,34 @@
+{
+  "id": "Q187982",
+  "slug": "alcibiades",
+  "name": "Alcibiades",
+  "wikipedia": "Alcibiades",
+  "role": "Athenian general and statesman",
+  "life": "c. 450–404 BC",
+  "lifetime": [
+    -450,
+    -404
+  ],
+  "occupation": "Politician",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Achaemenid Empire"
+  ],
+  "related": [],
+  "contribution": "An Athenian statesman and general.",
+  "image": "images/alcibiades.jpg",
+  "image_credit": "Unknown artistUnknown artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Achaemenid Empire"
+      ],
+      "lead": [
+        "Achaemenid Empire"
+      ]
+    },
+    "lead": "Alcibiades (; Ancient Greek: Ἀλκιβιάδης; c. 450 – 404 BC) was an Athenian statesman and general. The last of the Alcmaeonidae, he played a major role in the second half of the Peloponnesian War as a strategic advisor, military commander, and politician, but subsequently fell from prominence.",
+    "photo": "no death year in or after 1860"
+  }
+}

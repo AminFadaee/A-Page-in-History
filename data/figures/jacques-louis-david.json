@@ -1,0 +1,40 @@
+{
+  "id": "Q83155",
+  "slug": "jacques-louis-david",
+  "name": "Jacques-Louis David",
+  "wikipedia": "Jacques-Louis David",
+  "role": "French painter",
+  "life": "1748–1825",
+  "lifetime": [
+    1748,
+    1825
+  ],
+  "occupation": "Painter",
+  "birth_country": "France",
+  "civilizations": [
+    "French Directory"
+  ],
+  "related": [],
+  "contribution": "A French painter in the Neoclassical style, considered to be the preeminent painter of the era.",
+  "image": "images/jacques-louis-david.jpg",
+  "image_credit": "Jacques-Louis David · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "French Directory"
+      ],
+      "death": [
+        "Netherlands"
+      ],
+      "lead": [
+        "French Directory"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jacques-Louis David (French: [ʒaklwi david]; 30 August 1748 – 29 December 1825) was a French painter in the Neoclassical style, considered to be the preeminent painter of the era. In the 1780s, his cerebral brand of history painting marked a change in taste away from Rococo frivolity toward classical austerity, severity, and heightened feeling, which harmonized with the moral climate of the final years of the Ancien Régime.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "Ottoman Empire"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Ottoman Empire",
         "Republic of Genoa"

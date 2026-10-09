@@ -12,7 +12,6 @@
   "occupation": "Painter",
   "birth_country": "China",
   "civilizations": [
-    "Ming Dynasty",
     "Qing Dynasty"
   ],
   "related": [],
@@ -22,17 +21,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Ming Dynasty",
+      "death": [
         "Qing Dynasty"
       ],
       "lead": [
-        "Ming Dynasty",
         "Qing Dynasty"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Ming Dynasty"
+      "citizenship": [
+        "Qing Dynasty"
       ]
     },
     "lead": "Shitao or Shi Tao (simplified Chinese: 石涛; traditional Chinese: 石濤; pinyin: Shí Tāo; Wade–Giles: Shih-t'ao), otherwise known as Yuan Ji (Chinese: 原濟; Chinese: 原济; pinyin: Yuán Jì) (1642 – 1707), born into the Ming dynasty imperial clan as Zhu Ruoji (朱若極), was a Chinese Buddhist monk, calligrapher, and landscape painter during the early Qing dynasty.",

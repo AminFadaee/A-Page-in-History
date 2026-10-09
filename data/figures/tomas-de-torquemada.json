@@ -1,0 +1,42 @@
+{
+  "id": "Q210735",
+  "slug": "tomas-de-torquemada",
+  "name": "Tomás de Torquemada",
+  "wikipedia": "Tomás de Torquemada",
+  "role": "Grand Inquisitor of Spain",
+  "life": "1420–1498",
+  "lifetime": [
+    1420,
+    1498
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Crown of Castile",
+    "Crown of Aragon"
+  ],
+  "related": [],
+  "contribution": "A Spanish Dominican friar and the first Grand Inquisitor of the Spanish Inquisition.",
+  "image": "images/tomas-de-torquemada.jpg",
+  "image_credit": "Maestro de la Virgen de los Reyes Católicos. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Crown of Aragon"
+      ],
+      "death": [
+        "Crown of Castile"
+      ],
+      "lead": [
+        "Crown of Castile",
+        "Crown of Aragon"
+      ],
+      "birthplace": [
+        "Crown of Castile"
+      ]
+    },
+    "lead": "Tomás de Torquemada  (14 October 1420 – 16 September 1498), anglicized as Thomas of Torquemada, was a Spanish Dominican friar and the first Grand Inquisitor of the Spanish Inquisition. In that role, he led a group of ecclesiastical prelates created in 1478 to uphold Catholic religious orthodoxy within the newly formed union of the crowns of Castile and Aragon, presently known as the Kingdom of Spain.",
+    "photo": "no death year in or after 1860"
+  }
+}

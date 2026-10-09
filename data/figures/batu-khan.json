@@ -24,7 +24,6 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Mongol Empire",
         "Kievan Rus'",

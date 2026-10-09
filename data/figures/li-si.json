@@ -24,15 +24,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Chu",
-        "Qin Dynasty"
-      ],
       "lead": [
         "Qin Dynasty",
         "Qin"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Chu",
+        "Qin Dynasty"
+      ],
       "birthplace": [
         "Chu"
       ]

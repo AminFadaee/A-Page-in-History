@@ -24,7 +24,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Russian Empire"
+      ],
+      "death": [
         "Russian Empire"
       ],
       "lead": [
@@ -32,7 +35,9 @@
         "Qajar Dynasty",
         "Austrian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

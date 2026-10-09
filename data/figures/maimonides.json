@@ -12,11 +12,11 @@
   "occupation": "Religious figure",
   "birth_country": "Spain",
   "civilizations": [
-    "Almoravid Dynasty"
+    "Almoravid Dynasty",
+    "Ayyubid Sultanate"
   ],
   "related": [
-    "Almohad Caliphate",
-    "Ayyubid Sultanate"
+    "Almohad Caliphate"
   ],
   "contribution": "A Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of the Middle Ages.",
   "image": "images/maimonides.jpg",
@@ -24,13 +24,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Ayyubid Sultanate"
+      ],
       "lead": [
         "Almohad Caliphate",
         "Almoravid Dynasty",
         "Ayyubid Sultanate"
       ],
-      "vital_section": [],
       "birthplace": [
         "Almoravid Dynasty"
       ]

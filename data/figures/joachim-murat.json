@@ -25,16 +25,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Grand Duchy of Berg"
-      ],
       "lead": [
         "Kingdom of Naples (Napoleonic)",
         "Grand Duchy of Berg",
         "Kingdom of France",
         "Austrian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Grand Duchy of Berg"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

@@ -12,8 +12,9 @@
   "occupation": "Politician",
   "birth_country": "Estonia",
   "civilizations": [
-    "Russian Empire",
-    "Nazi Germany"
+    "Nazi Germany",
+    "Weimar Republic",
+    "Russian Empire"
   ],
   "related": [],
   "contribution": "A Baltic German Nazi philosopher and convicted war criminal.",
@@ -22,17 +23,23 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "death": [
+        "United States of America"
+      ],
+      "lead": [
+        "Nazi Germany"
+      ],
+      "citizenship": [
         "Russian Empire",
         "Union of Soviet Socialist Republics",
         "German Empire",
         "Weimar Republic",
         "Nazi Germany"
       ],
-      "lead": [
-        "Nazi Germany"
-      ],
-      "vital_section": [],
       "birthplace": [
         "Russian Empire"
       ]

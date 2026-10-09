@@ -1,0 +1,34 @@
+{
+  "id": "Q193344",
+  "slug": "miyamoto-musashi",
+  "name": "Miyamoto Musashi",
+  "wikipedia": "Miyamoto Musashi",
+  "role": "Japanese swordsman, strategist, writer, artist, and rōnin",
+  "life": "1584–1645",
+  "lifetime": [
+    1584,
+    1645
+  ],
+  "occupation": "Writer",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Tokugawa Shogunate"
+  ],
+  "related": [],
+  "contribution": "A Japanese swordsman, strategist, artist, and writer who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels.",
+  "image": "images/miyamoto-musashi.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Tokugawa Shogunate"
+      ],
+      "lead": [
+        "Tokugawa Shogunate"
+      ]
+    },
+    "lead": "Miyamoto Musashi (宮本 武蔵; Japanese pronunciation: [mʲi.ja.mo.to (|) mɯꜜ.sa.ɕi], c. 1583 – 13 June 1645) was a Japanese swordsman, strategist, artist, and writer who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels. Musashi is considered a kensei (sword saint) of Japan. He was the founder of the Niten Ichi-ryū (or Nito Ichi-ryū) style of swordsmanship. In his final years, Musashi authored The Book of Five Rings (五輪の書, Go Rin No Sho) and Dokkōdō (獨行道, The Path of Aloneness).",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -13,7 +13,7 @@
   "birth_country": "Germany",
   "civilizations": [
     "Weimar Republic",
-    "Kingdom of Saxony"
+    "Union of Soviet Socialist Republics"
   ],
   "related": [],
   "contribution": "A German Marxist theorist, communist activist, and advocate for women's rights.",
@@ -22,18 +22,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "German Empire",
-        "Weimar Republic",
-        "Union of Soviet Socialist Republics",
-        "Kingdom of Saxony"
+      "office": [
+        "Weimar Republic"
+      ],
+      "death": [
+        "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Weimar Republic"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Kingdom of Saxony"
+      "citizenship": [
+        "German Empire",
+        "Weimar Republic",
+        "Union of Soviet Socialist Republics"
       ]
     },
     "lead": "Clara Zetkin (; German: [ˈtsɛtkiːn]; née Eißner [ˈaɪsnɐ]; 5 July 1857 – 20 June 1933) was a German Marxist theorist, communist activist, and advocate for women's rights.",

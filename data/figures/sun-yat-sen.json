@@ -24,16 +24,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of China",
-        "Qing Dynasty"
+      "office": [
+        "Republic of China"
       ],
       "lead": [
         "Republic of China",
         "Qing Dynasty",
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of China",
+        "Qing Dynasty"
+      ],
       "birthplace": [
         "Qing Dynasty"
       ]

@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
+    "Kingdom of Spain",
     "Kingdom of France"
   ],
   "related": [
@@ -23,13 +24,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of France"
+      "office": [
+        "Kingdom of Spain"
+      ],
+      "death": [
+        "Kingdom of Spain"
       ],
       "lead": [
         "Spanish Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

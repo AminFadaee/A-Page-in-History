@@ -12,7 +12,6 @@
   "occupation": "Physician",
   "birth_country": "Germany",
   "civilizations": [
-    "German Empire",
     "Nazi Germany"
   ],
   "related": [
@@ -24,19 +23,15 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "German Empire",
-        "Weimar Republic",
-        "Nazi Germany"
-      ],
       "lead": [
         "Federal Republic of Germany"
       ],
-      "vital_section": [
+      "citizenship": [
+        "Weimar Republic",
         "Nazi Germany"
       ],
-      "birthplace": [
-        "German Empire"
+      "vital_section": [
+        "Nazi Germany"
       ]
     },
     "lead": "Josef Mengele (German: [ˈjoːzɛf ˈmɛŋələ] ; 16 March 1911 – 7 February 1979), often dubbed the \"Angel of Death\"   (German: Todesengel), was a German military officer and physician during World War II at the Soviet front and then at Auschwitz during the Holocaust. He conducted research and experiments on prisoners at the Auschwitz II-Birkenau concentration camp, where he was a member of the team of doctors who selected victims to be murdered in the gas chambers.",

@@ -25,13 +25,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of India",
-        "British Raj"
+      "office": [
+        "Republic of India"
+      ],
+      "death": [
+        "Republic of India"
       ],
       "lead": [
         "People's Republic of Bangladesh",
         "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
+        "Republic of India",
+        "British Raj"
       ],
       "vital_section": [
         "Republic of India"

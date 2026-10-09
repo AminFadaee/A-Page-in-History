@@ -1,0 +1,34 @@
+{
+  "id": "Q128538",
+  "slug": "luke-the-evangelist",
+  "name": "Luke the Evangelist",
+  "wikipedia": "Luke the Evangelist",
+  "role": "One of the four traditionally ascribed authors of the canonical gospels",
+  "life": "",
+  "lifetime": [
+    14,
+    84
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "One of the Four Evangelists—the four traditionally ascribed authors of the canonical gospels.",
+  "image": "images/luke-the-evangelist.jpg",
+  "image_credit": "Jean Bourdichon · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Luke the Evangelist was one of the Four Evangelists—the four traditionally ascribed authors of the canonical gospels. The Early Church Fathers ascribed to him authorship of both the Gospel of Luke and the Acts of the Apostles. Prominent figures in early Christianity such as Jerome and Eusebius later reaffirmed his authorship. Scholarly opinion on the tradition is roughly evenly divided near the end of the 20th century.",
+    "photo": "no death year in or after 1860"
+  }
+}

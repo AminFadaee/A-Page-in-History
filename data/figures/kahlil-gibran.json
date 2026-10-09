@@ -21,11 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "Ottoman Empire"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Ottoman Empire"
       ]

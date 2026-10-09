@@ -1,0 +1,42 @@
+{
+  "id": "Q486188",
+  "slug": "humayun",
+  "name": "Humayun",
+  "wikipedia": "Humayun",
+  "role": "Mughal emperor from 1530 to 1540 and from 1555 to 1556",
+  "life": "1508–1556",
+  "lifetime": [
+    1508,
+    1556
+  ],
+  "occupation": "Politician",
+  "birth_country": "Afghanistan",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [
+    "Safavid Dynasty"
+  ],
+  "contribution": "The second Mughal emperor, who ruled much of what is now eastern Afghanistan, Bangladesh, Northern India, and Pakistan from 1530 to 1540 and again from 1555 to his death in 1556.",
+  "image": "images/humayun.jpg",
+  "image_credit": "c.1650 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Mughal Empire"
+      ],
+      "death": [
+        "Mughal Empire"
+      ],
+      "lead": [
+        "Safavid Dynasty"
+      ],
+      "birthplace": [
+        "Timurid Empire"
+      ]
+    },
+    "lead": "Nasir al-Din Muhammad (Persian: نصیرالدین محمد, 6 March 1508 – 27 January 1556), commonly known by his regnal name Humayun (Persian: همایون, Persian pronunciation: [hu.mɑː.juːn]), was the second Mughal emperor, who ruled much of what is now eastern Afghanistan, Bangladesh, Northern India, and Pakistan from 1530 to 1540 and again from 1555 to his death in 1556. At the time of his death, the Mughal Empire spanned almost one million square kilometers.",
+    "photo": "no death year in or after 1860"
+  }
+}

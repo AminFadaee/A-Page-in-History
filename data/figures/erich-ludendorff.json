@@ -1,0 +1,41 @@
+{
+  "id": "Q58579",
+  "slug": "erich-ludendorff",
+  "name": "Erich Ludendorff",
+  "wikipedia": "Erich Ludendorff",
+  "role": "German general and politician",
+  "life": "1865–1937",
+  "lifetime": [
+    1865,
+    1937
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Weimar Republic",
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A Prussian-born German general and politician.",
+  "image": "images/erich-ludendorff.jpg",
+  "image_credit": "Alexander Binder · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Weimar Republic"
+      ],
+      "death": [
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Weimar Republic"
+      ],
+      "citizenship": [
+        "Nazi Germany"
+      ]
+    },
+    "lead": "Erich Friedrich Wilhelm Ludendorff (German: [ˈeːʁɪç ˈfʁiːdʁɪç ˈvɪlhɛlm ˈluːdn̩dɔʁf] ; 9 April 1865 – 20 December 1937) was a Prussian-born German general and politician. He achieved fame during World War I (1914–1918) for his central role in the German victories at Liège and Tannenberg in 1914. After his appointment as First Quartermaster General of the Great General Staff in 1916, Ludendorff oversaw virtually all decisions regarding Germany's strategy and war effort until the country's defeat in 1918. Later during the years of the Weimar Republic, he took part in the failed 1920 Kapp Putsch and Adolf Hitler's 1923 Beer Hall Putsch, thereby contributing significantly to Adolf Hitler's rise to power.",
+    "photo": "captured 1915–1920 (between ca. 1915 and ca. 1920)[1] during their lifetime"
+  }
+}

@@ -25,9 +25,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Macedonian Empire",
+      "office": [
         "Seleucid Empire"
+      ],
+      "death": [
+        "Ptolemaic Kingdom"
       ],
       "lead": [
         "Seleucid Empire",
@@ -35,7 +37,10 @@
         "Macedonian Empire",
         "Maurya Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Macedonian Empire",
+        "Seleucid Empire"
+      ],
       "birthplace": [
         "Macedonian Empire"
       ]

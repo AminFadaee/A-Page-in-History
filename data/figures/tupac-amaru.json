@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Peru",
   "civilizations": [
+    "Spanish Empire",
     "Inca Empire"
   ],
   "related": [],
@@ -21,7 +22,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Spanish Empire"
+      ],
       "lead": [
         "Inca Empire"
       ],

@@ -12,7 +12,7 @@
   "occupation": "Painter",
   "birth_country": "Czechia",
   "civilizations": [
-    "Austrian Empire"
+    "Nazi Germany"
   ],
   "related": [],
   "contribution": "A Czech painter, illustrator, and graphic artist.",
@@ -21,16 +21,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Austrian Empire",
+      "death": [
+        "Nazi Germany"
+      ],
+      "citizenship": [
         "Austria-Hungary",
         "Nazi Germany",
         "Czechoslovakia"
-      ],
-      "lead": [],
-      "vital_section": [],
-      "birthplace": [
-        "Austrian Empire"
       ]
     },
     "lead": "Alfons Maria Mucha (Czech: [ˈalfons ˈmuxa] ; 24 July 1860 – 14 July 1939), known in English as Alphonse Mucha, was a Czech painter, illustrator, and graphic artist. Living in Paris during the Art Nouveau period, he was widely known for his distinctly stylised and decorative theatrical posters, particularly those of Sarah Bernhardt. He produced illustrations, advertisements, decorative panels, as well as designs, which became among the best-known images of the period.",

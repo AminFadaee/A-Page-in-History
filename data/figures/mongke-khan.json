@@ -23,17 +23,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Mongol Empire"
       ],
       "lead": [
         "Mongol Empire",
         "Kingdom of Dali"
       ],
-      "vital_section": [
+      "citizenship": [
         "Mongol Empire"
       ],
-      "birthplace": []
+      "vital_section": [
+        "Mongol Empire"
+      ]
     },
     "lead": "Möngke Khan (also Möngke Khagan or Möngke; 11 January 1209 – 11 August 1259) was the fourth khagan of the Mongol Empire, ruling from 1 July 1251 to 11 August 1259. He was the first Khagan from the Toluid line, and made significant reforms to improve the administration of the Empire during his reign. Under Möngke, the Mongols conquered Iraq and Syria as well as the Dali Kingdom (modern Yunnan).",
     "photo": "no death year in or after 1860"

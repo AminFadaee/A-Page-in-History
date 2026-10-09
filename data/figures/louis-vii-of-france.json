@@ -1,0 +1,41 @@
+{
+  "id": "Q134259",
+  "slug": "louis-vii-of-france",
+  "name": "Louis VII of France",
+  "wikipedia": "Louis VII of France",
+  "role": "King of the Franks from 1137 to 1180",
+  "life": "1120–1180",
+  "lifetime": [
+    1120,
+    1180
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Principality of Antioch",
+    "Angevin Empire"
+  ],
+  "contribution": "King of France from 1137 to 1180.",
+  "image": "images/louis-vii-of-france.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Principality of Antioch",
+        "Angevin Empire"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis VII (1120 – 18 September 1180), was King of France from 1137 to 1180. His first marriage was to Duchess Eleanor of Aquitaine, one of the wealthiest and most powerful women in western Europe. The marriage temporarily extended the Capetian lands to the Pyrenees.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "Q161775",
+  "slug": "saint-stephen",
+  "name": "Saint Stephen",
+  "wikipedia": "Saint Stephen",
+  "role": "Christian martyr and saint",
+  "life": "c. 1–36",
+  "lifetime": [
+    1,
+    36
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Traditionally venerated as the protomartyr or first martyr of Christianity.",
+  "image": "images/saint-stephen.jpg",
+  "image_credit": "Carlo Crivelli · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Stephen (Greek: Στέφανος, romanized: Stéphanos, lit. 'wreath, crown'; c. AD 5 – c. 34) is traditionally venerated as the protomartyr or first martyr of Christianity. According to the Acts of the Apostles, he was a deacon in the early church at Jerusalem who angered members of various synagogues by his teachings. Accused of blasphemy at his trial, he made a speech denouncing the Jewish authorities who were sitting in judgment on him and was then stoned to death. Saul of Tarsus, a Pharisee and Roman citizen who would later become Paul the Apostle, was also involved as a witness in Stephen's execution.",
+    "photo": "no death year in or after 1860"
+  }
+}

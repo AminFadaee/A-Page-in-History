@@ -1,0 +1,39 @@
+{
+  "id": "Q193406",
+  "slug": "pocahontas",
+  "name": "Pocahontas",
+  "wikipedia": "Pocahontas",
+  "role": "Native American woman",
+  "life": "c. 1596–1617",
+  "lifetime": [
+    1596,
+    1617
+  ],
+  "occupation": "Diplomat",
+  "birth_country": "United States",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "English Colonial Empire"
+  ],
+  "contribution": "A Native American woman belonging to the Powhatan people, notable for her association with the colonial settlement at Jamestown, Virginia.",
+  "image": "images/pocahontas.jpg",
+  "image_credit": "Unidentified Artist; copy after Simon van de Passe · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "English Colonial Empire"
+      ],
+      "citizenship": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Pocahontas (US: , UK: ; born Amonute, also known as Matoaka and Rebecca Rolfe; c. 1596 – March 1617) was a Native American woman belonging to the Powhatan people, notable for her association with the colonial settlement at Jamestown, Virginia. She was the daughter of Wahunsenacawh, the Mamanatowick (leader) of a network of tributary tribes in the Powhatan Confederacy, encompassing the Tidewater region of what is today the U.S. state of Virginia.",
+    "photo": "no death year in or after 1860"
+  }
+}

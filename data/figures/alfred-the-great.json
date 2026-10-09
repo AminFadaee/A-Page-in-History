@@ -23,13 +23,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of Wessex"
       ],
       "lead": [
         "Danelaw"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Wessex"
+      ],
       "birthplace": [
         "Kingdom of Wessex"
       ]

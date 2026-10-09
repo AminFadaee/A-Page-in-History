@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "New Kingdom of Egypt"
+      ],
       "lead": [
         "New Kingdom of Egypt"
       ],
-      "vital_section": [],
       "birthplace": [
         "New Kingdom of Egypt"
       ]

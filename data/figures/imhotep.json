@@ -1,0 +1,34 @@
+{
+  "id": "Q131171",
+  "slug": "imhotep",
+  "name": "Imhotep",
+  "wikipedia": "Imhotep",
+  "role": "Egyptian polymath, later deified",
+  "life": "28th century BC – 27th century BC",
+  "lifetime": [
+    -2800,
+    -2601
+  ],
+  "occupation": "Architect",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Early Dynastic Period of Egypt"
+  ],
+  "related": [],
+  "contribution": "An Egyptian chancellor to the King Djoser, possible architect of Djoser's step pyramid, and high priest of the sun god Ra at Heliopolis.",
+  "image": "images/imhotep.jpg",
+  "image_credit": "Rama · CC BY-SA 3.0 fr",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Early Dynastic Period of Egypt"
+      ],
+      "birthplace": [
+        "Early Dynastic Period of Egypt"
+      ]
+    },
+    "lead": "Imhotep (; Ancient Egyptian: ỉỉ-m-ḥtp \"(the one who) comes in peace\"; fl. late 27th century BC) was an Egyptian chancellor to the King Djoser, possible architect of Djoser's step pyramid, and high priest of the sun god Ra at Heliopolis. Very little is known of Imhotep as a historical figure, but in the 3,000 years following his death, he was gradually glorified and deified.",
+    "photo": "no death year in or after 1860"
+  }
+}

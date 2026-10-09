@@ -12,23 +12,23 @@
   "occupation": "Religious figure",
   "birth_country": "Iraq",
   "civilizations": [
-    "Umayyad Caliphate"
-  ],
-  "related": [
+    "Umayyad Caliphate",
     "Abbasid Caliphate"
   ],
+  "related": [],
   "contribution": "A Muslim scholar, jurist, theologian, and ascetic, and the founder and eponym of the Hanafi school of Sunni jurisprudence.",
   "image": "",
   "image_credit": "",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Abbasid Caliphate"
+      ],
       "lead": [
         "Umayyad Caliphate",
         "Abbasid Caliphate"
       ],
-      "vital_section": [],
       "birthplace": [
         "Umayyad Caliphate"
       ]

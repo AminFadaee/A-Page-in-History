@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Dutch Republic"
       ],
       "lead": [
         "Dutch Republic"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Dutch Republic"
+      ],
       "birthplace": [
         "Dutch Republic"
       ]

@@ -21,16 +21,21 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Mongol Empire"
+      ],
+      "death": [
         "Mongol Empire"
       ],
       "lead": [
         "Mongol Empire"
       ],
-      "vital_section": [
+      "citizenship": [
         "Mongol Empire"
       ],
-      "birthplace": []
+      "vital_section": [
+        "Mongol Empire"
+      ]
     },
     "lead": "Ögedei Khan (also Ögedei Khagan or Ogodei; c. 1186  – 11 December 1241) was the second khan of the Mongol Empire. The third son of Genghis Khan, he continued the expansion of the empire that his father had begun.",
     "photo": "no death year in or after 1860"

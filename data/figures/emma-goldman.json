@@ -12,7 +12,8 @@
   "occupation": "Social activist",
   "birth_country": "Lithuania",
   "civilizations": [
-    "Russian Empire"
+    "Russian Empire",
+    "United States of America"
   ],
   "related": [
     "Union of Soviet Socialist Republics"
@@ -23,15 +24,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "category": [
         "United States of America"
       ],
       "lead": [
         "Russian Empire",
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "United States of America"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

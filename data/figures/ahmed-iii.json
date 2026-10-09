@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Ottoman Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "citizenship": [
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Ottoman Empire"
       ]

@@ -1,0 +1,42 @@
+{
+  "id": "Q150586",
+  "slug": "rudolf-ii-holy-roman-emperor",
+  "name": "Rudolf II, Holy Roman Emperor",
+  "wikipedia": "Rudolf II, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1576 to 1612",
+  "life": "1552–1612",
+  "lifetime": [
+    1552,
+    1612
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria.",
+  "image": "images/rudolf-ii-holy-roman-emperor.jpg",
+  "image_credit": "Joseph Heintz the Elder · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "citizenship": [
+        "Habsburg Monarchy"
+      ],
+      "birthplace": [
+        "Kingdom of Spain"
+      ]
+    },
+    "lead": "Rudolf II (18 July 1552 – 20 January 1612) was Holy Roman Emperor (1576–1612), King of Hungary and Croatia (as Rudolf I, 1572–1608), King of Bohemia (1575–1608/1611) and Archduke of Austria (1576–1608). He was a member of the House of Habsburg.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -12,9 +12,9 @@
   "occupation": "Politician",
   "birth_country": "Poland",
   "civilizations": [
-    "Russian Empire",
+    "State of Israel",
     "Ottoman Empire",
-    "State of Israel"
+    "Russian Empire"
   ],
   "related": [
     "Federal Republic of Germany"
@@ -25,9 +25,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
-        "Ottoman Empire",
+      "office": [
+        "State of Israel"
+      ],
+      "death": [
         "State of Israel"
       ],
       "lead": [
@@ -35,7 +36,11 @@
         "Ottoman Empire",
         "Federal Republic of Germany"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Ottoman Empire",
+        "State of Israel"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

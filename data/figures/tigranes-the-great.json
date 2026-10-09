@@ -23,12 +23,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Kingdom of Armenia"
+      ],
       "lead": [
         "Kingdom of Armenia",
         "Roman Republic"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Armenia"
       ]

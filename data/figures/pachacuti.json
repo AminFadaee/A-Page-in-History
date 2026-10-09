@@ -1,0 +1,40 @@
+{
+  "id": "Q213758",
+  "slug": "pachacuti",
+  "name": "Pachacuti",
+  "wikipedia": "Pachacuti",
+  "role": "Sapa Inca of the Inca Empire",
+  "life": "c. 1391–1471",
+  "lifetime": [
+    1391,
+    1471
+  ],
+  "occupation": "Politician",
+  "birth_country": "Peru",
+  "civilizations": [
+    "Inca Empire"
+  ],
+  "related": [
+    "Chimu Empire"
+  ],
+  "contribution": "The ninth Sapa Inca of the Chiefdom of Cusco, which he transformed into the Inca Empire.",
+  "image": "images/pachacuti.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Inca Empire"
+      ],
+      "death": [
+        "Inca Empire"
+      ],
+      "lead": [
+        "Inca Empire",
+        "Chimu Empire"
+      ]
+    },
+    "lead": "Pachacuti Inca Yupanqui, also called Pachacútec (Quechua: Pachakutiy Inka Yupanki, pronounced [ˈpatʃa ˈkuti ˈiŋka juˈpaŋki]), was the ninth Sapa Inca of the Chiefdom of Cusco, which he transformed into the Inca Empire (Tawantinsuyu). Most archaeologists now believe that the famous Inca site of Machu Picchu was built as an estate for Pachacuti.",
+    "photo": "no death year in or after 1860"
+  }
+}

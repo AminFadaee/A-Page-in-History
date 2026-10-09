@@ -1,0 +1,49 @@
+{
+  "id": "Q46696",
+  "slug": "theodosius-i",
+  "name": "Theodosius I",
+  "wikipedia": "Theodosius I",
+  "role": "Roman emperor from 379 to 395",
+  "life": "347–395",
+  "lifetime": [
+    347,
+    395
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Roman Empire",
+    "Eastern Roman Empire",
+    "Western Roman Empire"
+  ],
+  "related": [
+    "Sasanian Empire",
+    "Kingdom of Armenia"
+  ],
+  "contribution": "Roman emperor from 379 to 395.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Roman Empire",
+        "Eastern Roman Empire"
+      ],
+      "death": [
+        "Western Roman Empire"
+      ],
+      "lead": [
+        "Eastern Roman Empire",
+        "Western Roman Empire",
+        "Sasanian Empire",
+        "Kingdom of Armenia"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Theodosius I (Latin: Theodosius, Ancient Greek: Θεοδόσιος Theodósios; 11 January 347 –  17 January 395), also known as Theodosius the Great, was Roman emperor from 379 to 395. He won two civil wars and was instrumental in establishing the Nicene Creed as the orthodox doctrine for Nicene Christianity. Theodosius was the last emperor to rule the entire Roman Empire. After his death, his sons Arcadius and Honorius ruled from separate courts in the east and the west, continuing the late Roman practice of rule by multiple emperors. He ended the Gothic War (376–382), but did so on terms disadvantageous to the empire, with the Goths remaining politically autonomous within Roman territory, albeit as nominal allies.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

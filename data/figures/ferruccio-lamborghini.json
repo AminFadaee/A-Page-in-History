@@ -12,6 +12,7 @@
   "occupation": "Businessperson",
   "birth_country": "Italy",
   "civilizations": [
+    "Republic of Italy",
     "Kingdom of Italy"
   ],
   "related": [],
@@ -21,12 +22,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Republic of Italy"
+      ],
+      "citizenship": [
         "Kingdom of Italy",
         "Republic of Italy"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Italy"
       ]

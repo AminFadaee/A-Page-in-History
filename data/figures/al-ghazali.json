@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Great Seljuk Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "citizenship": [
+        "Great Seljuk Empire"
+      ],
       "birthplace": [
         "Great Seljuk Empire"
       ]

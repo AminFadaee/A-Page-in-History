@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Sweden",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Kingdom of Sweden"
   ],
   "related": [
     "Ottoman Empire"
@@ -23,11 +24,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Polish-Lithuanian Commonwealth",
+        "Kingdom of Sweden"
+      ],
+      "death": [
         "Polish-Lithuanian Commonwealth"
       ],
       "lead": [
         "Ottoman Empire"
+      ],
+      "citizenship": [
+        "Polish-Lithuanian Commonwealth"
       ],
       "vital_section": [
         "Polish-Lithuanian Commonwealth"

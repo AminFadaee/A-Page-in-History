@@ -12,7 +12,8 @@
   "occupation": "Explorer",
   "birth_country": "China",
   "civilizations": [
-    "Sui Dynasty"
+    "Sui Dynasty",
+    "Tang Dynasty"
   ],
   "related": [],
   "contribution": "A 7th-century Chinese Buddhist monk, scholar, traveller, and translator.",
@@ -21,14 +22,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Tang Dynasty",
-        "Sui Dynasty"
+      "death": [
+        "Tang Dynasty"
       ],
       "lead": [
         "Sui Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Tang Dynasty",
+        "Sui Dynasty"
+      ],
       "birthplace": [
         "Sui Dynasty"
       ]

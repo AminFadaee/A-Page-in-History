@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Polish-Lithuanian Commonwealth"
       ],
       "lead": [
         "Polish-Lithuanian Commonwealth"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Polish-Lithuanian Commonwealth"
+      ],
       "birthplace": [
         "Principality of Moldavia"
       ]

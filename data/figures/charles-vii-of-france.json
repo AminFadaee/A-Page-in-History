@@ -23,12 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
       "lead": [
         "Kingdom of France",
         "Kingdom of England"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of France"
       ]

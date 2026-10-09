@@ -1,0 +1,34 @@
+{
+  "id": "Q44024",
+  "slug": "athanasius-of-alexandria",
+  "name": "Athanasius of Alexandria",
+  "wikipedia": "Athanasius of Alexandria",
+  "role": "Pope of Alexandria from 328 to 373",
+  "life": "296–373",
+  "lifetime": [
+    296,
+    373
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Christian theologian and the 20th Patriarch of Alexandria.",
+  "image": "images/athanasius-of-alexandria.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Athanasius I of Alexandria (c. 296–298 – 2 May 373), also called Athanasius the Great, Athanasius the Confessor, or, among Coptic Christians, Athanasius the Apostolic, was a Christian theologian and the 20th Patriarch of Alexandria. His intermittent episcopacy spanned 45 years (328 – 373).",
+    "photo": "no death year in or after 1860"
+  }
+}

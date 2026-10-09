@@ -21,14 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Dutch Republic"
       ],
       "lead": [
         "Dutch Republic"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Dutch Republic"
+      ]
     },
     "lead": "William the Silent or William the Taciturn (Dutch: Willem de Zwijger; 24 April 1533 – 10 July 1584), more commonly known in the Netherlands as William of Orange (Dutch: Willem van Oranje) and in the Dutch national anthem as William of Nassau (Dutch: Willem van Nassau), was the leader of the Dutch revolt against the Spanish Habsburgs that set off the Eighty Years' War (1568–1648) and resulted in the formal independence of the United Provinces in 1648. Born into the House of Nassau, he became Prince of Orange in 1544 and is thereby the founder of the Orange-Nassau branch and the ancestor of the monarchy of the Netherlands.",
     "photo": "no death year in or after 1860"

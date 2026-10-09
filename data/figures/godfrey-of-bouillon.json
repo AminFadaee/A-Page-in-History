@@ -23,15 +23,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Jerusalem",
-        "Holy Roman Empire"
+      "death": [
+        "Kingdom of Jerusalem"
       ],
       "lead": [
         "Kingdom of Jerusalem",
         "Fatimid Caliphate"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Jerusalem",
+        "Holy Roman Empire"
+      ],
       "birthplace": [
         "County of Flanders"
       ]

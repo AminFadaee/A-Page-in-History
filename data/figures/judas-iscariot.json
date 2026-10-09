@@ -1,0 +1,34 @@
+{
+  "id": "Q81018",
+  "slug": "judas-iscariot",
+  "name": "Judas Iscariot",
+  "wikipedia": "Judas Iscariot",
+  "role": "Disciple and betrayer of Jesus",
+  "life": "",
+  "lifetime": [
+    -40,
+    39
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Israel",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "",
+  "image": "images/judas-iscariot.jpg",
+  "image_credit": "José Ferraz de Almeida Júnior · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Judas Iscariot (Biblical Greek: Ἰούδας Ἰσκαριώτης, romanized: Ioúdas Iskariṓtēs; c. 3 AD – c. 30 to 33 AD) was, according to Christianity's four canonical gospels, one of the original Twelve Apostles of Jesus Christ. Judas betrayed Jesus to the Sanhedrin in the Garden of Gethsemane in exchange for thirty pieces of silver, by kissing him on the cheek and addressing him as \"Rabbi\" to reveal his identity to the crowd who had come to arrest him. In modern times, his name is often used synonymously with betrayal, treason, or hatred.",
+    "photo": "no death year in or after 1860"
+  }
+}

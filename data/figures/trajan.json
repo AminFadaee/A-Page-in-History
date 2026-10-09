@@ -23,12 +23,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Roman Empire"
+      ],
       "lead": [
         "Roman Empire",
         "Parthian Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Roman Empire"
       ]

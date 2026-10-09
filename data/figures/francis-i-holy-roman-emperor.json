@@ -1,0 +1,40 @@
+{
+  "id": "Q151075",
+  "slug": "francis-i-holy-roman-emperor",
+  "name": "Francis I, Holy Roman Emperor",
+  "wikipedia": "Francis I, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1745 to 1765",
+  "life": "1708–1765",
+  "lifetime": [
+    1708,
+    1765
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [],
+  "contribution": "Holy Roman Emperor from 1745 to 1765, Archduke of Austria from 1740 to 1765, Duke of Lorraine and Bar from 1729 to 1737, and Grand Duke of Tuscany from 1737 to 1765.",
+  "image": "images/francis-i-holy-roman-emperor.jpg",
+  "image_credit": "Martin van Meytens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Habsburg Monarchy"
+      ],
+      "citizenship": [
+        "Duchy of Lorraine"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Francis I (Francis Stephen; French: François Étienne; German: Franz Stefan; Italian: Francesco Stefano; 8 December 1708 – 18 August 1765) was Holy Roman Emperor from 1745 to 1765, Archduke of Austria from 1740 to 1765, Duke of Lorraine and Bar from 1729 to 1737, and Grand Duke of Tuscany from 1737 to 1765. He became the ruler of the Holy Roman Empire and Tuscany through his marriage to his second cousin Maria Theresa of Austria, daughter of Emperor Charles VI. Francis was the last non-Habsburg monarch of the Empire. The couple were the founders of the House of Habsburg-Lorraine and their marriage produced sixteen children.",
+    "photo": "no death year in or after 1860"
+  }
+}

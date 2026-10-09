@@ -21,10 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Inca Empire"
       ],
-      "lead": [],
+      "death": [
+        "Inca Empire"
+      ],
+      "citizenship": [
+        "Inca Empire"
+      ],
       "vital_section": [
         "Inca Empire"
       ],

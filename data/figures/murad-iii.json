@@ -26,7 +26,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Ottoman Empire"
       ],
       "lead": [
@@ -35,7 +35,9 @@
         "Saadi Sultanate",
         "Spanish Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Ottoman Empire"
       ]

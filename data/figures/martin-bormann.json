@@ -12,8 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Nazi Germany",
-    "German Empire"
+    "Nazi Germany"
   ],
   "related": [],
   "contribution": "A German Nazi Party official, head of the Nazi Party Chancellery, and private secretary to Adolf Hitler.",
@@ -22,17 +21,18 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Nazi Germany",
-        "Weimar Republic",
-        "German Empire"
-      ],
-      "lead": [],
-      "vital_section": [
+      "office": [
         "Nazi Germany"
       ],
-      "birthplace": [
-        "German Empire"
+      "death": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
+        "Nazi Germany",
+        "Weimar Republic"
+      ],
+      "vital_section": [
+        "Nazi Germany"
       ]
     },
     "lead": "Martin Ludwig Bormann (17 June 1900 – 2 May 1945) was a German Nazi Party official, head of the Nazi Party Chancellery, and private secretary to Adolf Hitler. Bormann gained immense power by using his position as Hitler's private secretary to control the flow of information and access to Hitler. He used his position to create an extensive bureaucracy and involve himself as much as possible in decision-making.",

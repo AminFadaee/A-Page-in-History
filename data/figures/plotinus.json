@@ -1,0 +1,34 @@
+{
+  "id": "Q134189",
+  "slug": "plotinus",
+  "name": "Plotinus",
+  "wikipedia": "Plotinus",
+  "role": "Hellenistic Greek philosopher",
+  "life": "205–270",
+  "lifetime": [
+    205,
+    270
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "An ancient Greek philosopher, born and raised in Roman Egypt.",
+  "image": "images/plotinus.jpg",
+  "image_credit": "Paolo Monti · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Plotinus (; Ancient Greek: Πλωτῖνος, Plōtînos; c. 204/5 – 270 AD) was an ancient Greek philosopher, born and raised in Roman Egypt. He is widely regarded by modern scholars as the founder of Neoplatonism.",
+    "photo": "no death year in or after 1860"
+  }
+}

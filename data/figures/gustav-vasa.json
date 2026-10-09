@@ -12,6 +12,7 @@
   "occupation": "Social activist",
   "birth_country": "Sweden",
   "civilizations": [
+    "Kingdom of Sweden",
     "Kalmar Union"
   ],
   "related": [],
@@ -21,13 +22,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of Sweden"
+      ],
+      "death": [
         "Kingdom of Sweden"
       ],
       "lead": [
         "Kalmar Union"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Sweden"
+      ],
       "birthplace": [
         "Kalmar Union"
       ]

@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Golden Horde"
       ],
-      "vital_section": [],
       "birthplace": [
         "Golden Horde"
       ]

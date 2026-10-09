@@ -23,15 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Xiongnu"
       ],
       "lead": [
         "Xiongnu",
         "Qin Dynasty"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Xiongnu"
+      ]
     },
     "lead": "Modu (c. 234–174 BCE) was the son of Touman and the founder of the empire of the Xiongnu. He came to power by ordering his men to kill his father in 209 BCE.",
     "photo": "no image"

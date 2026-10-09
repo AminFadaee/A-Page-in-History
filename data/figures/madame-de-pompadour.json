@@ -1,0 +1,34 @@
+{
+  "id": "Q188965",
+  "slug": "madame-de-pompadour",
+  "name": "Madame de Pompadour",
+  "wikipedia": "Madame de Pompadour",
+  "role": "Chief mistress of Louis XV",
+  "life": "1721–1764",
+  "lifetime": [
+    1721,
+    1764
+  ],
+  "occupation": "Companion",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A member of the French court.",
+  "image": "images/madame-de-pompadour.jpg",
+  "image_credit": "François-Hubert Drouais · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jeanne Antoinette Poisson, Marquise de Pompadour (, French: [pɔ̃paduʁ] ; 29 December 1721 – 15 April 1764), commonly known as Madame de Pompadour, was a member of the French court. She was the official chief mistress of King Louis XV from 1745 to 1751, and remained influential as court favourite until her death.",
+    "photo": "no death year in or after 1860"
+  }
+}

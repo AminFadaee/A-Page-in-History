@@ -12,12 +12,12 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
+    "Kingdom of Portugal",
     "Kingdom of Spain",
-    "Kingdom of Portugal"
+    "Iberian Union"
   ],
   "related": [
     "Spanish Empire",
-    "Iberian Union",
     "Inca Empire",
     "Ottoman Empire"
   ],
@@ -27,9 +27,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Spain",
-        "Kingdom of Portugal"
+      "office": [
+        "Kingdom of Portugal",
+        "Kingdom of England"
+      ],
+      "death": [
+        "Iberian Union"
       ],
       "lead": [
         "Kingdom of Spain",
@@ -39,7 +42,10 @@
         "Inca Empire",
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Spain",
+        "Kingdom of Portugal"
+      ],
       "birthplace": [
         "Kingdom of Spain"
       ]

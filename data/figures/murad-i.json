@@ -1,0 +1,44 @@
+{
+  "id": "Q96261",
+  "slug": "murad-i",
+  "name": "Murad I",
+  "wikipedia": "Murad I",
+  "role": "Sultan of the Ottoman Empire from 1362 to 1389",
+  "life": "1326–1389",
+  "lifetime": [
+    1326,
+    1389
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Serbian Empire",
+    "Second Bulgarian Empire"
+  ],
+  "contribution": "The sultan of the Ottoman Empire from 1362 until his assassination during the Battle of Kosovo in 1389.",
+  "image": "images/murad-i.jpg",
+  "image_credit": "Circle of Paolo Veronese · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "death": [
+        "Serbian Despots"
+      ],
+      "lead": [
+        "Serbian Empire",
+        "Second Bulgarian Empire"
+      ],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Murad I (Ottoman Turkish: مراد اول; Turkish: I. Murad), nicknamed Hüdavendigâr, (from Persian: خداوندگار, romanized: Khodāvandgār, lit. 'the devotee of God' – meaning \"sovereign\" in this context; 29 June 1326 – 15 June 1389) was the sultan of the Ottoman Empire from 1362 until his assassination during the Battle of Kosovo in 1389. He was the son of Orhan Gazi and Nilüfer Hatun. Murad I came to the throne after his elder half-brother Süleyman Pasha's death.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -21,13 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "West Franks"
+      ],
+      "death": [
         "West Franks"
       ],
       "lead": [
         "West Franks"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "West Franks"
+      ],
       "birthplace": [
         "Kingdom of the Franks"
       ]

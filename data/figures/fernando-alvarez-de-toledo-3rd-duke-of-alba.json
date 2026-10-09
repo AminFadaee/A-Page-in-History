@@ -12,9 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Spain",
   "civilizations": [
-    "Kingdom of Spain",
     "Kingdom of Portugal",
-    "Crown of Castile"
+    "Kingdom of Spain"
   ],
   "related": [
     "Kingdom of France",
@@ -27,21 +26,23 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Spain",
-        "Kingdom of Portugal"
+      "office": [
+        "Kingdom of Portugal",
+        "Spanish Empire"
+      ],
+      "death": [
+        "Iberian Union"
       ],
       "lead": [
         "Kingdom of Spain",
         "Kingdom of France",
         "Kingdom of England",
-        "Crown of Castile",
         "Duchy of Milan",
         "Kingdom of Portugal"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Crown of Castile"
+      "citizenship": [
+        "Kingdom of Spain",
+        "Kingdom of Portugal"
       ]
     },
     "lead": "Fernando Álvarez de Toledo y Pimentel, 3rd Duke of Alba (29 October 1507 – 11 December 1582), known as the Grand Duke of Alba (Spanish: Gran Duque de Alba, Portuguese: Grão Duque de Alba) in Spain and Portugal and as the Iron Duke (Dutch: Ĳzeren Hertog) or shortly 'Alva' in the Netherlands and Belgium, was a Spanish military officer, statesman and diplomat.",

@@ -1,0 +1,34 @@
+{
+  "id": "Q307365",
+  "slug": "abdul-qadir-gilani",
+  "name": "Abdul Qadir Gilani",
+  "wikipedia": "Abdul Qadir Gilani",
+  "role": "Muslim preacher, mystic and theologian",
+  "life": "1078–1166",
+  "lifetime": [
+    1078,
+    1166
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Great Seljuk Empire"
+  ],
+  "related": [],
+  "contribution": "A Persian Hanbali jurist, preacher, and Sufi mystic leader based in Baghdad.",
+  "image": "images/abdul-qadir-gilani.jpg",
+  "image_credit": "Christies.com · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Great Seljuk Empire"
+      ],
+      "birthplace": [
+        "Great Seljuk Empire"
+      ]
+    },
+    "lead": "Abd al-Qadir al-Gilani (c. 1077 or 1078 – c. 1166), was a Persian Hanbali jurist, preacher, and Sufi mystic leader based in Baghdad. He is regarded as the eponym and founding figure of the Qadiriyya, one of the oldest Sufi orders. He is also known by the honorific Muhyi al-Dīn (Reviver of the Faith), and in later Sufi tradition, by the titles including Gawth al-Azam (the Greatest Succour) denoting his higher status among the Sufi saints.",
+    "photo": "no death year in or after 1860"
+  }
+}

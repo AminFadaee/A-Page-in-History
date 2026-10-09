@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Electorate of Saxony",
-    "Polish-Lithuanian Commonwealth"
+    "Polish-Lithuanian Commonwealth",
+    "Electorate of Saxony"
   ],
   "related": [
     "Russian Empire"
@@ -24,14 +24,20 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Electorate of Saxony",
+      "office": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "death": [
         "Polish-Lithuanian Commonwealth"
       ],
       "lead": [
         "Electorate of Saxony",
         "Polish-Lithuanian Commonwealth",
         "Russian Empire"
+      ],
+      "citizenship": [
+        "Electorate of Saxony",
+        "Polish-Lithuanian Commonwealth"
       ],
       "vital_section": [
         "Polish-Lithuanian Commonwealth"

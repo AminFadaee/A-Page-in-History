@@ -12,7 +12,8 @@
   "occupation": "Writer",
   "birth_country": "India",
   "civilizations": [
-    "Mughal Empire"
+    "Mughal Empire",
+    "British Raj"
   ],
   "related": [],
   "contribution": "An Indian poet and letter writer of the Mughal Empire.",
@@ -21,14 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Mughal Empire",
+      "death": [
         "British Raj"
       ],
       "lead": [
         "Mughal Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Mughal Empire",
+        "British Raj"
+      ],
       "birthplace": [
         "Mughal Empire"
       ]

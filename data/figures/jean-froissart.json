@@ -24,15 +24,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of France"
+      "death": [
+        "Duchy of Bavaria"
       ],
       "lead": [
         "Kingdom of England",
         "Kingdom of France",
         "Kingdom of Scotland"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Free County of Burgundy"
       ]

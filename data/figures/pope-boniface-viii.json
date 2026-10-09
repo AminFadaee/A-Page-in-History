@@ -21,10 +21,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Papal States"
+      ],
+      "death": [
         "Papal States"
       ],
       "lead": [
+        "Papal States"
+      ],
+      "citizenship": [
         "Papal States"
       ],
       "vital_section": [

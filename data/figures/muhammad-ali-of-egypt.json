@@ -21,14 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Ottoman Empire"
-      ],
       "lead": [
         "Ottoman Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Ottoman Empire"
+      ]
     },
     "lead": "Muhammad Ali (4 March 1769 – 2 August 1849) was an Ottoman viceroy and governor of Albanian origin, who became the de facto ruler of Egypt from 1805 to 1848 and is widely considered the founder of modern Egypt. At the height of his rule in 1840, he controlled Egypt, Sudan, Hejaz, the Levant, Cyprus, Crete and parts of Greece and transformed Cairo from a mere Ottoman provincial capital to the center of an expansive empire.",
     "photo": "no death year in or after 1860"

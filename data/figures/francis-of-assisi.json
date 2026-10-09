@@ -1,0 +1,34 @@
+{
+  "id": "Q676555",
+  "slug": "francis-of-assisi",
+  "name": "Francis of Assisi",
+  "wikipedia": "Francis of Assisi",
+  "role": "Italian Catholic saint",
+  "life": "1182–1226",
+  "lifetime": [
+    1182,
+    1226
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "An Italian mystic, poet and Catholic friar who founded the religious order of the Franciscans.",
+  "image": "images/francis-of-assisi.jpg",
+  "image_credit": "Parzi · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Giovanni di Pietro di Bernardone (c. 19 August 1181 – 3 October 1226), known as Saint Francis of Assisi, was an Italian mystic, poet and Catholic friar who founded the religious order of the Franciscans.",
+    "photo": "no death year in or after 1860"
+  }
+}

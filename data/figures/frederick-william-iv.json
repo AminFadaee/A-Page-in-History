@@ -12,24 +12,28 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of Prussia"
-  ],
-  "related": [
+    "Kingdom of Prussia",
     "German Confederation"
   ],
+  "related": [],
   "contribution": "King of Prussia from 7 June 1840 until his death in 1861.",
   "image": "images/frederick-william-iv.jpg",
   "image_credit": "Hermann Biow · Public domain",
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of Prussia"
+      ],
+      "death": [
+        "German Confederation"
       ],
       "lead": [
         "German Confederation"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "Kingdom of Prussia"
       ]

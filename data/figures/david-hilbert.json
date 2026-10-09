@@ -1,0 +1,36 @@
+{
+  "id": "Q41585",
+  "slug": "david-hilbert",
+  "name": "David Hilbert",
+  "wikipedia": "David Hilbert",
+  "role": "German mathematician",
+  "life": "1862–1943",
+  "lifetime": [
+    1862,
+    1943
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A German mathematician and philosopher of mathematics and one of the most influential mathematicians of all time.",
+  "image": "images/david-hilbert.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Nazi Germany"
+      ],
+      "citizenship": [
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ]
+    },
+    "lead": "David Hilbert  (; German: [ˈdaːvɪt ˈhɪlbɐt]; 23 January 1862 – 14 February 1943) was a German mathematician and philosopher of mathematics and one of the most influential mathematicians of all time.",
+    "photo": "captured before 1912date QS:P,+1912-00-00T00:00:00Z/7,P1326,+1912-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

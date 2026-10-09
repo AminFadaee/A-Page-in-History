@@ -25,13 +25,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Eastern Roman Empire"
       ],
       "lead": [
         "Vandal Kingdom",
         "Ostrogothic Kingdom",
         "Sasanian Empire",
+        "Eastern Roman Empire"
+      ],
+      "citizenship": [
         "Eastern Roman Empire"
       ],
       "vital_section": [

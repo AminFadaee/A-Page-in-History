@@ -24,13 +24,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Neo-Assyrian Empire"
+      ],
       "lead": [
         "Neo-Assyrian Empire",
         "Babylonia",
         "Elam"
       ],
-      "vital_section": [],
       "birthplace": [
         "Neo-Assyrian Empire"
       ]

@@ -1,0 +1,34 @@
+{
+  "id": "Q1523",
+  "slug": "ramesses-ii",
+  "name": "Ramesses II",
+  "wikipedia": "Ramesses II",
+  "role": "Pharaoh of Egypt from 1279 to 1213 BC",
+  "life": "c. 1303–1213 BC",
+  "lifetime": [
+    -1303,
+    -1213
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Israel",
+  "civilizations": [
+    "New Kingdom of Egypt"
+  ],
+  "related": [],
+  "contribution": "The third pharaoh of the Nineteenth Dynasty of Egypt.",
+  "image": "images/ramesses-ii.jpg",
+  "image_credit": "Unknown artistUnknown artist · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "New Kingdom of Egypt"
+      ],
+      "lead": [
+        "New Kingdom of Egypt"
+      ]
+    },
+    "lead": "Ramesses II (; Ancient Egyptian: rꜥ-ms-sw, Rīꜥa-masē-sə, Ancient Egyptian pronunciation: [ɾiːʕamaˈseːsə]; c. 1303 BC – 1213 BC), commonly known as Ramesses the Great, was the third pharaoh of the Nineteenth Dynasty of Egypt. Ramesses II is often regarded as the greatest, most celebrated, and most powerful pharaoh of the New Kingdom, which itself was the most powerful period of ancient Egypt. He is also widely considered one of ancient Egypt's most successful warrior pharaohs, conducting no fewer than 15 military campaigns, all resulting in victories, excluding the Battle of Kadesh, which is generally considered a stalemate. His 66-year rule was also the longest recorded reign of any pharaoh (and one of the longest in history), possibly alongside Pepi II, who lived 1,000 years earlier and is said to have reigned for over 90 years.",
+    "photo": "no death year in or after 1860"
+  }
+}

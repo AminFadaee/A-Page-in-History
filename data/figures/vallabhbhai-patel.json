@@ -24,13 +24,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "British Raj",
+      "office": [
         "Republic of India"
       ],
       "lead": [
         "British Raj",
         "Islamic Republic of Pakistan"
+      ],
+      "citizenship": [
+        "British Raj",
+        "Republic of India"
       ],
       "vital_section": [
         "Republic of India"

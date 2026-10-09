@@ -1,0 +1,34 @@
+{
+  "id": "Q1407",
+  "slug": "tiberius",
+  "name": "Tiberius",
+  "wikipedia": "Tiberius",
+  "role": "Roman emperor from AD 14 to 37",
+  "life": "42 BC – AD 37",
+  "lifetime": [
+    -42,
+    37
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The second Roman emperor from AD 14 until his death, reigning as the second ruler of the Julio-Claudian dynasty.",
+  "image": "images/tiberius.jpg",
+  "image_credit": "Didier Descouens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Roman Empire"
+      ],
+      "lead": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Tiberius Julius Caesar Augustus ( ty-BEER-ee-əs; 16 November 42 BC – 16 March AD 37) was the second Roman emperor from AD 14 until his death, reigning as the second ruler of the Julio-Claudian dynasty. He succeeded his stepfather Augustus, the first Roman emperor. Tiberius was born in Rome in 42 BC to politician Tiberius Claudius Nero and his wife, Livia Drusilla. In 38 BC, Livia divorced Nero and married Augustus. Following the untimely deaths of Augustus's two grandsons and adopted heirs, Gaius and Lucius Caesar, Tiberius was designated Augustus's successor. Prior to this, Tiberius had proved himself an able diplomat and one of the most successful Roman generals. His conquests of Pannonia, Dalmatia, Raetia, and (temporarily) parts of Germania laid the foundations for the empire's northern frontier.",
+    "photo": "no death year in or after 1860"
+  }
+}

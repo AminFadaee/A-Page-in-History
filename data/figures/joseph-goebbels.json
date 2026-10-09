@@ -21,13 +21,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Weimar Republic",
         "Nazi Germany"
+      ],
+      "death": [
+        "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Nazi Germany"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Nazi Germany"
+      ],
       "birthplace": [
         "German Empire"
       ]

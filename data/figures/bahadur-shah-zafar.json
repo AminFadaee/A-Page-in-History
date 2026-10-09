@@ -21,11 +21,15 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Mughal Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "death": [
+        "British Raj"
+      ],
+      "citizenship": [
+        "Mughal Empire"
+      ],
       "birthplace": [
         "Mughal Empire"
       ]

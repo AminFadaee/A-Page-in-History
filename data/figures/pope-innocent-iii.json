@@ -21,7 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Holy Roman Empire"
+      ],
       "lead": [
         "Papal States"
       ],

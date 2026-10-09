@@ -23,12 +23,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Habsburg Monarchy"
+      ],
       "lead": [
         "Ottoman Empire",
         "Habsburg Monarchy"
       ],
-      "vital_section": [],
       "birthplace": [
         "Habsburg Monarchy"
       ]

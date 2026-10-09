@@ -1,0 +1,47 @@
+{
+  "id": "Q216124",
+  "slug": "stonewall-jackson",
+  "name": "Stonewall Jackson",
+  "wikipedia": "Stonewall Jackson",
+  "role": "Confederate States Army general",
+  "life": "1824–1863",
+  "lifetime": [
+    1824,
+    1863
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America",
+    "Confederate States of America"
+  ],
+  "related": [],
+  "contribution": "A Confederate general and military officer who served during the American Civil War.",
+  "image": "images/stonewall-jackson.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "Confederate States of America"
+      ],
+      "lead": [
+        "Confederate States of America"
+      ],
+      "citizenship": [
+        "United States of America"
+      ],
+      "vital_section": [
+        "United States of America"
+      ],
+      "birthplace": [
+        "United States of America"
+      ]
+    },
+    "lead": "Thomas Jonathan \"Stonewall\" Jackson (January 21, 1824 – May 10, 1863) was a Confederate general and military officer who served during the American Civil War. He played a prominent role in nearly all military engagements in the eastern theater of the war until his death. Military historians regard him as one of the most gifted tactical commanders in U.S. history.",
+    "photo": "captured 1863-04-26 during their lifetime"
+  }
+}

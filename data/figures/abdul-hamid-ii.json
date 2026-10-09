@@ -1,0 +1,39 @@
+{
+  "id": "Q134817",
+  "slug": "abdul-hamid-ii",
+  "name": "Abdul Hamid II",
+  "wikipedia": "Abdul Hamid II",
+  "role": "Sultan of the Ottoman Empire from 1876 to 1909",
+  "life": "1842–1918",
+  "lifetime": [
+    1842,
+    1918
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Russian Empire"
+  ],
+  "contribution": "The 34th sultan of the Ottoman Empire, from 1876 to 1909, and the last sultan to exert effective control over the fracturing state.",
+  "image": "images/abdul-hamid-ii.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "citizenship": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Abdülhamid II or Abdul Hamid II (Ottoman Turkish: عبد الحميد ثانی, romanized: Abd ul-Hamid-i s̱ānī; Turkish: II. Abdülhamid; 21 September 1842 – 10 February 1918) was the 34th sultan of the Ottoman Empire, from 1876 to 1909, and the last sultan to exert effective control over the fracturing state. He oversaw a period of decline with rebellions (particularly in the Balkans), and presided over an unsuccessful war with the Russian Empire (1877–78), the loss of Egypt, Cyprus, Bulgaria, Serbia, Montenegro, Tunisia, and Thessaly from Ottoman control (1877–1882), followed by a successful war against Greece in 1897, though Ottoman gains were tempered by subsequent Western European intervention.",
+    "photo": "captured 1899date QS:P571,+1899-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

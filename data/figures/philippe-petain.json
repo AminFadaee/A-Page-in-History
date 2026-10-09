@@ -1,0 +1,41 @@
+{
+  "id": "Q5721",
+  "slug": "philippe-petain",
+  "name": "Philippe Pétain",
+  "wikipedia": "Philippe Pétain",
+  "role": "Leader of Vichy France from 1940 to 1944",
+  "life": "1856–1951",
+  "lifetime": [
+    1856,
+    1951
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Vichy France",
+    "Principality of Andorra"
+  ],
+  "related": [
+    "Nazi Germany",
+    "French Third Republic"
+  ],
+  "contribution": "A French military officer, dictator, and politician who commanded the French Army in World War I and later became the head of the Axis-collaborationist regime of Vichy France, from 1940 to 1944, during World War II.",
+  "image": "images/philippe-petain.jpg",
+  "image_credit": "Imprimerie Draeger à Montrouge en région parisienne · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Vichy France",
+        "Principality of Andorra"
+      ],
+      "lead": [
+        "Vichy France",
+        "Nazi Germany",
+        "French Third Republic"
+      ]
+    },
+    "lead": "Henri Philippe Benoni Omar Joseph Pétain (French: [filip petɛ̃]; 24 April 1856 – 23 July 1951), also known as Marshal Pétain (French: maréchal Pétain, [maʁeʃal petɛ̃]), was a French military officer, dictator, and politician who commanded the French Army in World War I and later became the head of the Axis-collaborationist regime of Vichy France, from 1940 to 1944, during World War II.",
+    "photo": "captured between circa 1941 and circa 1942date QS:P571,+1941-00-00T00:00:00Z/8,P1319,+1941-00-00T00:00:00Z/9,P1326,+1942-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

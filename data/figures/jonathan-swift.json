@@ -1,0 +1,34 @@
+{
+  "id": "Q41166",
+  "slug": "jonathan-swift",
+  "name": "Jonathan Swift",
+  "wikipedia": "Jonathan Swift",
+  "role": "Anglo-Irish satirist and cleric",
+  "life": "1667–1745",
+  "lifetime": [
+    1667,
+    1745
+  ],
+  "occupation": "Writer",
+  "birth_country": "Ireland",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An Anglo-Irish writer, essayist, satirist, and Anglican cleric.",
+  "image": "images/jonathan-swift.jpg",
+  "image_credit": "Charles Jervas · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "Kingdom of England"
+      ],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Jonathan Swift (30 November 1667 – 19 October 1745) was an Anglo-Irish writer, essayist, satirist, and Anglican cleric. He was the author of the satirical prose novel Gulliver's Travels (1726) and the creator of the fictional island of Lilliput. He is regarded by many as the greatest satirist of the Georgian era and one of the foremost prose authors in the history of English and world literature.",
+    "photo": "no death year in or after 1860"
+  }
+}

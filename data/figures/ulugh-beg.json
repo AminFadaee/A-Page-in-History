@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Timurid Empire"
       ],
       "lead": [
         "Timurid Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Timurid Empire"
+      ],
       "birthplace": [
         "Qara Qoyunlu"
       ]

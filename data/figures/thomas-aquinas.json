@@ -1,0 +1,34 @@
+{
+  "id": "Q9438",
+  "slug": "thomas-aquinas",
+  "name": "Thomas Aquinas",
+  "wikipedia": "Thomas Aquinas",
+  "role": "Italian Dominican friar and philosopher",
+  "life": "1225–1274",
+  "lifetime": [
+    1225,
+    1274
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "An Italian Dominican friar and priest, theologian, and philosopher.",
+  "image": "images/thomas-aquinas.jpg",
+  "image_credit": "Carlo Crivelli · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Thomas Aquinas  (  ə-KWY-nəs; Italian: Tommaso d'Aquino, lit. 'Thomas of Aquino'; c. 1225 – 7 March 1274) was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the history of Catholic theology and Western philosophy. He is the father of a school of thought (encompassing both theology and philosophy) known as Thomism.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Scotland",
-    "Kingdom of England"
+    "Kingdom of England",
+    "Kingdom of Scotland"
   ],
   "related": [],
   "contribution": "King of Scotland as James VI from 24 July 1567, and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603, until his death in 1625.",
@@ -22,15 +22,21 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of Scotland",
+        "Kingdom of England"
+      ],
+      "death": [
         "Kingdom of England"
       ],
       "lead": [
         "Kingdom of Scotland",
         "Kingdom of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Scotland",
+        "Kingdom of England"
+      ],
       "birthplace": [
         "Kingdom of Scotland"
       ]

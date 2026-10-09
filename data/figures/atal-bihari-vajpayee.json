@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "British Raj",
-    "Republic of India"
+    "Republic of India",
+    "British Raj"
   ],
   "related": [],
   "contribution": "An Indian statesman and a poet who served as the prime minister of India, from 1998 to 2004, and previously for two weeks in 1996.",
@@ -22,11 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Republic of India"
+      ],
+      "death": [
+        "Republic of India"
+      ],
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],
-      "lead": [],
       "vital_section": [
         "Republic of India"
       ],

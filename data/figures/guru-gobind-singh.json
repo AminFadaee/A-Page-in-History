@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Mughal Empire"
+      ],
       "lead": [
         "Mughal Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Mughal Empire"
       ]

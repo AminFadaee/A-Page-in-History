@@ -21,12 +21,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "British Raj"
       ]

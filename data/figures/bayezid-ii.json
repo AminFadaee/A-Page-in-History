@@ -1,0 +1,39 @@
+{
+  "id": "Q165983",
+  "slug": "bayezid-ii",
+  "name": "Bayezid II",
+  "wikipedia": "Bayezid II",
+  "role": "Sultan of the Ottoman Empire from 1481 to 1512",
+  "life": "1447–1512",
+  "lifetime": [
+    1447,
+    1512
+  ],
+  "occupation": "Politician",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Emirate of Granada"
+  ],
+  "contribution": "The sultan of the Ottoman Empire from 1481 to 1512.",
+  "image": "images/bayezid-ii.jpg",
+  "image_credit": "Darwish Mahmud b. Abdullah nakkash, Istanbul, ca. 1495 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Emirate of Granada"
+      ],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Bayezid II (Ottoman Turkish: بايزيد ثانى, romanized: Bāyezīd-i s̱ānī; Turkish: II. Bayezid; 3 December 1447/1448 – 26 May 1512) was the sultan of the Ottoman Empire from 1481 to 1512. During his reign, Bayezid consolidated the Ottoman Empire, thwarted a pro-Safavid rebellion and finally abdicated his throne to his son, Selim I. Bayezid evacuated Sephardi Jews from Spain following the fall of the Nasrid Kingdom of Granada and the proclamation of the Alhambra Decree and resettled them throughout Ottoman lands, especially in Salonica.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -12,24 +12,28 @@
   "occupation": "Nobleman",
   "birth_country": "France",
   "civilizations": [
+    "Papal States",
     "Holy Roman Empire"
   ],
-  "related": [
-    "Papal States"
-  ],
+  "related": [],
   "contribution": "The Bishop of Rome and ruler of the Papal States from 12 February 1049 to his death in 1054.",
   "image": "images/pope-leo-ix.jpg",
   "image_credit": "Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Holy Roman Empire"
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
       ],
       "lead": [
         "Papal States"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Holy Roman Empire"
+      ],
       "birthplace": [
         "Holy Roman Empire"
       ]

@@ -12,10 +12,10 @@
   "occupation": "Philosopher",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Empire"
+    "Russian Empire",
+    "Swiss Confederation"
   ],
   "related": [
-    "Swiss Confederation",
     "Kingdom of Italy"
   ],
   "contribution": "A Russian revolutionary anarchist and political philosopher.",
@@ -24,15 +24,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire"
+      "death": [
+        "Swiss Confederation"
       ],
       "lead": [
         "Russian Empire",
         "Swiss Confederation",
         "Kingdom of Italy"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

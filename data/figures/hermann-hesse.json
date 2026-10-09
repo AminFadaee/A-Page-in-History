@@ -12,6 +12,7 @@
   "occupation": "Writer",
   "birth_country": "Germany",
   "civilizations": [
+    "Swiss Confederation",
     "German Empire"
   ],
   "related": [],
@@ -21,12 +22,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Swiss Confederation"
+      ],
+      "citizenship": [
         "German Empire",
         "Swiss Confederation"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "German Empire"
       ]

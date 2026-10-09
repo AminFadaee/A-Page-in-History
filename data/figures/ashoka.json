@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Maurya Empire"
       ],
       "lead": [
         "Maurya Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Maurya Empire"
+      ],
       "birthplace": [
         "Maurya Empire"
       ]

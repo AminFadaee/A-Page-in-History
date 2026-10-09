@@ -1,0 +1,34 @@
+{
+  "id": "Q47144",
+  "slug": "pope-linus",
+  "name": "Pope Linus",
+  "wikipedia": "Pope Linus",
+  "role": "Head of the Catholic Church from c. 68 to c. 80",
+  "life": "10–79",
+  "lifetime": [
+    10,
+    79
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The bishop of Rome from c. 68 to his death in 80.",
+  "image": "images/pope-linus.jpg",
+  "image_credit": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]: Pantoleon with Georgios, Michael the Younger, Michael of Blachernae, Symeon, Symeon of Blachernae, Menas, and Nestor (Online on Vatican site) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Pope Linus ( ; Greek: Λῖνος, Linos; died c. 80) was the bishop of Rome from c. 68 to his death in 80. He is generally regarded as the second bishop of Rome, after Saint Peter.  As with nearly all the early popes, he was canonized.",
+    "photo": "no death year in or after 1860"
+  }
+}

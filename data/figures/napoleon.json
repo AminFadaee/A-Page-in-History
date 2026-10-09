@@ -1,0 +1,51 @@
+{
+  "id": "Q517",
+  "slug": "napoleon",
+  "name": "Napoleon",
+  "wikipedia": "Napoleon",
+  "role": "Emperor of the French",
+  "life": "1769–1821",
+  "lifetime": [
+    1769,
+    1821
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "French Consulate",
+    "First French Empire",
+    "Principality of Andorra"
+  ],
+  "related": [
+    "Habsburg Monarchy",
+    "Kingdom of Prussia",
+    "Russian Empire",
+    "Austrian Empire"
+  ],
+  "contribution": "Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815.",
+  "image": "images/napoleon.jpg",
+  "image_credit": "Jacques-Louis David · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "First French Empire",
+        "French Consulate",
+        "Principality of Andorra"
+      ],
+      "lead": [
+        "Habsburg Monarchy",
+        "French Consulate",
+        "Kingdom of Prussia",
+        "Russian Empire",
+        "Austrian Empire"
+      ],
+      "birthplace": [
+        "Kingdom of France",
+        "Republic of Genoa"
+      ]
+    },
+    "lead": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815. He rose to prominence as a general during the French Revolution and led a series of military campaigns across Europe and the Middle East during the French Revolutionary and Napoleonic Wars. As a statesman, he implemented numerous legal and administrative reforms in France and Europe.",
+    "photo": "no death year in or after 1860"
+  }
+}

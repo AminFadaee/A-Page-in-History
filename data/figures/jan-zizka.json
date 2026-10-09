@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of Bohemia"
       ],
       "lead": [
         "Kingdom of Bohemia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Bohemia"
+      ],
       "birthplace": [
         "Kingdom of Bohemia"
       ]

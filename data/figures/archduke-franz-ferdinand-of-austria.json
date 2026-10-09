@@ -12,10 +12,9 @@
   "occupation": "Nobleman",
   "birth_country": "Austria",
   "civilizations": [
-    "Austrian Empire"
+    "Austria-Hungary"
   ],
   "related": [
-    "Austria-Hungary",
     "Kingdom of Serbia"
   ],
   "contribution": "The heir presumptive to the throne of Austria-Hungary.",
@@ -24,16 +23,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Austrian Empire"
+      "death": [
+        "Austria-Hungary"
       ],
       "lead": [
         "Austria-Hungary",
         "Kingdom of Serbia"
-      ],
-      "vital_section": [],
-      "birthplace": [
-        "Austrian Empire"
       ]
     },
     "lead": "Archduke Franz Ferdinand Carl Ludwig Joseph Maria of Austria (Francis Ferdinand, 18 December 1863 – 28 June 1914) was the heir presumptive to the throne of Austria-Hungary. His assassination in Sarajevo was the most immediate cause of World War I.",

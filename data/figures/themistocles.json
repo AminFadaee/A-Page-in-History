@@ -1,0 +1,34 @@
+{
+  "id": "Q179552",
+  "slug": "themistocles",
+  "name": "Themistocles",
+  "wikipedia": "Themistocles",
+  "role": "Athenian politician and general",
+  "life": "524–459 BC",
+  "lifetime": [
+    -524,
+    -459
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Achaemenid Empire"
+  ],
+  "related": [],
+  "contribution": "An Athenian politician and general.",
+  "image": "images/themistocles.jpg",
+  "image_credit": "Evald Hansen · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Achaemenid Empire"
+      ],
+      "citizenship": [
+        "Achaemenid Empire"
+      ]
+    },
+    "lead": "Themistocles (; Ancient Greek: Θεμιστοκλῆς, Themistoklēs; c. 524 – c. 459 BC) was an Athenian politician and general. He was one of a new breed of non-aristocratic politicians who rose to prominence in the early years of the Athenian democracy. As a politician, Themistocles was a populist, having the support of lower-class Athenians, and generally being at odds with the Athenian nobility. Elected archon in 493 BC, he convinced the polis to increase the naval power of Athens, a recurring theme in his political career. During the first Persian invasion of Greece, he fought at the Battle of Marathon (490 BC), and may have been one of the ten Athenian strategoi (generals) in that battle.",
+    "photo": "no death year in or after 1860"
+  }
+}

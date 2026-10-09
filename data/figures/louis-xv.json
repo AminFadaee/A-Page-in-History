@@ -1,0 +1,46 @@
+{
+  "id": "Q7738",
+  "slug": "louis-xv",
+  "name": "Louis XV",
+  "wikipedia": "Louis XV",
+  "role": "King of France from 1715 to 1774",
+  "life": "1710–1774",
+  "lifetime": [
+    1710,
+    1774
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "New France",
+    "Duchy of Lorraine",
+    "Corsican Republic"
+  ],
+  "contribution": "King of France from 1 September 1715 until his death in 1774.",
+  "image": "images/louis-xv.jpg",
+  "image_credit": "Manner of Louis-Michel van Loo · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "New France",
+        "Duchy of Lorraine",
+        "Corsican Republic"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis XV (15 February 1710 – 10 May 1774), known as Louis the Beloved (French: le Bien-Aimé), was King of France from 1 September 1715 until his death in 1774. He succeeded his great-grandfather Louis XIV at the age of five. Until he reached maturity (then defined as his 13th birthday) in 1723, the kingdom was ruled by his grand-uncle Philippe II, Duke of Orléans, as Regent of France. Cardinal Fleury was chief minister from 1726 until his death in 1743, at which time the king took sole control of the kingdom.",
+    "photo": "no death year in or after 1860"
+  }
+}

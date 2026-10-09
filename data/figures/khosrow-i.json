@@ -26,7 +26,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Sasanian Empire"
+      ],
+      "death": [
         "Sasanian Empire"
       ],
       "lead": [
@@ -36,7 +39,9 @@
         "White Huns",
         "Kingdom of Axum"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Sasanian Empire"
+      ],
       "birthplace": [
         "Sasanian Empire"
       ]

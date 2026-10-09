@@ -1,0 +1,39 @@
+{
+  "id": "Q174791",
+  "slug": "mahmud-ii",
+  "name": "Mahmud II",
+  "wikipedia": "Mahmud II",
+  "role": "Sultan of the Ottoman Empire from 1808 to 1839",
+  "life": "1785–1839",
+  "lifetime": [
+    1785,
+    1839
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Regency of Algiers"
+  ],
+  "contribution": "The sultan of the Ottoman Empire from 1808 until his death in 1839.",
+  "image": "images/mahmud-ii.jpg",
+  "image_credit": "Henry Guillaume Schlesinger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Regency of Algiers"
+      ],
+      "citizenship": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Mahmud II (Ottoman Turkish: محمود ثانى Maḥmûd-u s̠ânî; Turkish: II. Mahmud; 20 July 1785 – 1 July 1839) was the sultan of the Ottoman Empire from 1808 until his death in 1839. Often described as the \"Peter the Great of Turkey\", Mahmud instituted extensive administrative, military, and fiscal reforms. His disbandment of the conservative Janissary Corps removed a major obstacle to his and his successors' reforms in the Empire, creating the foundations of the subsequent Tanzimat era. Mahmud's reign was also marked by further Ottoman military defeats and loss of territory as a result of nationalist uprisings and European intervention.",
+    "photo": "no death year in or after 1860"
+  }
+}

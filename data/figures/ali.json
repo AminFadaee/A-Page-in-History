@@ -23,15 +23,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Rashidun Caliphate"
+      ],
+      "death": [
         "Rashidun Caliphate"
       ],
       "lead": [
         "Rashidun Caliphate",
         "Umayyad Caliphate"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Rashidun Caliphate"
+      ]
     },
     "lead": "Ali ibn Abi Talib (Arabic: عليّ بن أبي طالب, romanized: ʿAlī ibn Abī Ṭālib; c. 600 – c. 28 January 661 CE) was the fourth Rashidun caliph who ruled from 656 CE until his assassination in 661, as well as the first Shia Imam. He was the cousin and son-in-law of the Islamic prophet Muhammad. Born to Abu Talib ibn Abd al-Muttalib and Fatima bint Asad, Ali was raised in the household of his cousin Muhammad and was among the first to accept his teachings.",
     "photo": "image is a coin or calligraphy"

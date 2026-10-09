@@ -15,8 +15,6 @@
     "Kingdom of the Franks"
   ],
   "related": [
-    "Kingdom of Neustria",
-    "Kingdom of Alamannia",
     "Papal States",
     "Umayyad Caliphate",
     "Duchy of Gascony"
@@ -27,18 +25,21 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of the Franks"
+      ],
+      "death": [
         "Kingdom of the Franks"
       ],
       "lead": [
         "Kingdom of the Franks",
-        "Kingdom of Neustria",
-        "Kingdom of Alamannia",
         "Papal States",
         "Umayyad Caliphate",
         "Duchy of Gascony"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of the Franks"
+      ],
       "birthplace": [
         "Kingdom of the Franks"
       ]

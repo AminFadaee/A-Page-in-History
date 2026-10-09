@@ -1,0 +1,41 @@
+{
+  "id": "Q101054",
+  "slug": "bahau-llah",
+  "name": "Baháʼu'lláh",
+  "wikipedia": "Baháʼu'lláh",
+  "role": "Founder of the Baháʼí Faith",
+  "life": "1817–1892",
+  "lifetime": [
+    1817,
+    1892
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Ottoman Empire",
+    "Qajar Dynasty"
+  ],
+  "related": [],
+  "contribution": "An Iranian religious leader who founded the Baháʼí Faith.",
+  "image": "images/bahau-llah.jpg",
+  "image_credit": "passport photo taken in Adrianople (present day-Edirne) when He was under house arrest, published in William Miller’s Baha’i Faith (1974). · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "citizenship": [
+        "Qajar Dynasty"
+      ],
+      "birthplace": [
+        "Qajar Dynasty"
+      ]
+    },
+    "lead": "Baháʼu'lláh (Persian: [bæhɒːʔolːɒːh], born Ḥusayn-ʻAlí; 12 November 1817 – 29 May 1892) was an Iranian religious leader who founded the Baháʼí Faith. He was born to an aristocratic family in Iran and was exiled due to his adherence to the messianic Bábism. In 1863, in Ottoman Iraq, he first announced his claim to a revelation from God. He spent the rest of his life in further imprisonment in the Ottoman Empire. His teachings revolved around the principles of unity and religious renewal, ranging from moral and spiritual progress to world governance.",
+    "photo": "captured Taken in 1868 during their lifetime"
+  }
+}

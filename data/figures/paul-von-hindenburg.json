@@ -1,0 +1,40 @@
+{
+  "id": "Q2667",
+  "slug": "paul-von-hindenburg",
+  "name": "Paul von Hindenburg",
+  "wikipedia": "Paul von Hindenburg",
+  "role": "President of Germany from 1925 to 1934",
+  "life": "1847–1934",
+  "lifetime": [
+    1847,
+    1934
+  ],
+  "occupation": "Politician",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Weimar Republic"
+  ],
+  "related": [],
+  "contribution": "A German military officer and statesman who led the Imperial German Army during World War I and later became President of Germany from 1925 until his death in 1934.",
+  "image": "images/paul-von-hindenburg.jpg",
+  "image_credit": "Codexbox1 · CC BY-SA 4.0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Weimar Republic"
+      ],
+      "death": [
+        "Weimar Republic"
+      ],
+      "lead": [
+        "Weimar Republic"
+      ],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Paul Ludwig Hans Anton von Beneckendorff und von Hindenburg (2 October 1847 – 2 August 1934) was a German military officer and statesman who led the Imperial German Army during World War I and later became President of Germany from 1925 until his death in 1934. Though ideologically opposed to Nazism, he played a key role in the Nazi seizure of power in 1933 through his appointment of Adolf Hitler as Chancellor of Germany.",
+    "photo": "captured 1933 during their lifetime"
+  }
+}

@@ -21,10 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Eastern Roman Empire"
       ],
-      "lead": [],
+      "citizenship": [
+        "Eastern Roman Empire"
+      ],
       "vital_section": [
         "Eastern Roman Empire"
       ],

@@ -23,12 +23,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "First Bulgarian Empire"
+      ],
       "lead": [
         "First Bulgarian Empire",
         "Great Moravia"
       ],
-      "vital_section": [],
       "birthplace": [
         "First Bulgarian Empire"
       ]

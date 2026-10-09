@@ -1,0 +1,34 @@
+{
+  "id": "Q213614",
+  "slug": "cyrano-de-bergerac",
+  "name": "Cyrano de Bergerac",
+  "wikipedia": "Cyrano de Bergerac",
+  "role": "French novelist and dramatist",
+  "life": "c. 1619–1655",
+  "lifetime": [
+    1619,
+    1655
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French novelist, playwright, epistolarian, and duelist.",
+  "image": "images/cyrano-de-bergerac.jpg",
+  "image_credit": "ZH, pinxit (Zacharie Heince, 1611-1669)LAH, delin. et Sculpsit · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Savinien de Cyrano de Bergerac ( SIRR-ə-noh də BUR-zhə-rak, – BAIR-, French: [savinjɛ̃ d(ə) siʁano d(ə) bɛʁʒəʁak]; 6 March 1619 – 28 July 1655) was a French novelist, playwright, epistolarian, and duelist.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q1192",
+  "slug": "jean-baptiste-lully",
+  "name": "Jean-Baptiste Lully",
+  "wikipedia": "Jean-Baptiste Lully",
+  "role": "Italian-French composer",
+  "life": "1632–1687",
+  "lifetime": [
+    1632,
+    1687
+  ],
+  "occupation": "Composer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "An Italian-French composer, dancer and instrumentalist, who is considered a master of the French Baroque music style.",
+  "image": "images/jean-baptiste-lully.jpg",
+  "image_credit": "Ducarme · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "citizenship": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Republic of Florence"
+      ]
+    },
+    "lead": "Jean-Baptiste Lully (born Giovanni Battista Lulli; 28 or 29 November [O.S. 18 or 19 November] 1632 – 22 March 1687) was an Italian-French composer, dancer and instrumentalist, who is considered a master of the French Baroque music style. Best known for his operas, he spent most of his life working in the court of Louis XIV and became a French subject in 1661. He was a close friend of the playwright Molière, with whom he collaborated on numerous comédie-ballets, including L'Amour médecin, George Dandin ou le Mari confondu, Monsieur de Pourceaugnac, Psyché and his best known work, Le Bourgeois gentilhomme.",
+    "photo": "no death year in or after 1860"
+  }
+}

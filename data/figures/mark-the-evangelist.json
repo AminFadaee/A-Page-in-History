@@ -1,0 +1,34 @@
+{
+  "id": "Q31966",
+  "slug": "mark-the-evangelist",
+  "name": "Mark the Evangelist",
+  "wikipedia": "Mark the Evangelist",
+  "role": "Apostle of Jesus",
+  "life": "c. 12–68",
+  "lifetime": [
+    12,
+    68
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Libya",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A person, subsequently venerated as a saint, to whom is traditionally ascribed the authorship of the Gospel of Mark.",
+  "image": "images/mark-the-evangelist.jpg",
+  "image_credit": "Ricardo André Frantz (User:Tetraktys) · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Mark the Evangelist (Koinē Greek: Μᾶρκος, romanized: Mârkos), also known as John Mark (Koinē Greek: Ἰωάννης Μᾶρκος, romanized: Iōánnēs Mârkos; Aramaic: ܝܘܚܢܢ, romanized: Yōḥannān) or Saint Mark, was a person, subsequently venerated as a saint, to whom is traditionally ascribed the authorship of the Gospel of Mark. According to Coptic Christian tradition he was a Roman African from Ancient Libya, although this belief is not shared by other denominations. Most modern scholars agree that the Gospel of Mark is anonymous, though the topic remains contentious among experts. Scholarship is inconclusive on authorship; some reject the attribution to Mark while others debate the identity of Mark. According to church tradition, Mark founded the episcopal see of Alexandria, which was one of the five most important sees of early Christianity. His feast day is celebrated on April 25, and his symbol is the winged lion.",
+    "photo": "no death year in or after 1860"
+  }
+}

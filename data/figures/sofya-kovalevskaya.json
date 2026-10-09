@@ -21,11 +21,15 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "category": [
         "Russian Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "death": [
+        "United Kingdoms of Sweden and Norway"
+      ],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

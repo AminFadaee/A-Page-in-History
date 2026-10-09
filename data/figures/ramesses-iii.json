@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "New Kingdom of Egypt"
       ],
-      "vital_section": [],
       "birthplace": [
         "New Kingdom of Egypt"
       ]

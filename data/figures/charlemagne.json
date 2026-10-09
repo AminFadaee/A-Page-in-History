@@ -23,13 +23,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of the Franks"
+      ],
+      "death": [
         "Kingdom of the Franks"
       ],
       "lead": [
         "Abbasid Caliphate"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of the Franks"
+      ],
       "birthplace": [
         "Kingdom of the Franks"
       ]

@@ -26,7 +26,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Safavid Dynasty"
+      ],
+      "death": [
         "Safavid Dynasty"
       ],
       "lead": [
@@ -36,7 +39,9 @@
         "Portuguese Empire",
         "Mughal Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Safavid Dynasty"
+      ],
       "birthplace": [
         "Safavid Dynasty"
       ]

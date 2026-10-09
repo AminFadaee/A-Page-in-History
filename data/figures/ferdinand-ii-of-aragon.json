@@ -26,7 +26,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Crown of Aragon"
       ],
       "lead": [
@@ -36,7 +36,9 @@
         "Emirate of Granada",
         "Kingdom of Naples"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Crown of Aragon"
+      ],
       "birthplace": [
         "Crown of Aragon"
       ]

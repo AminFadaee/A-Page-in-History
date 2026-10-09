@@ -23,12 +23,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Roman Republic",
         "Kingdom of Pontus"
       ],
-      "vital_section": [],
       "birthplace": [
         "Roman Republic"
       ]

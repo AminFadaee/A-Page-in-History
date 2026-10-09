@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Iran",
   "civilizations": [
-    "Safavid Dynasty",
-    "Afsharid Iran"
+    "Afsharid Iran",
+    "Safavid Dynasty"
   ],
   "related": [
     "Hotaki Dynasty",
@@ -26,8 +26,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Safavid Dynasty",
+      "death": [
         "Afsharid Iran"
       ],
       "lead": [
@@ -36,7 +35,10 @@
         "Ottoman Empire",
         "Russian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Safavid Dynasty",
+        "Afsharid Iran"
+      ],
       "birthplace": [
         "Safavid Dynasty"
       ]

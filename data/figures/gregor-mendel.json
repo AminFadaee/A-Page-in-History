@@ -21,13 +21,15 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Austrian Empire"
+      "death": [
+        "Austria-Hungary"
       ],
       "lead": [
         "Austrian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Austrian Empire"
+      ],
       "birthplace": [
         "Austrian Empire"
       ]

@@ -1,0 +1,42 @@
+{
+  "id": "Q177903",
+  "slug": "stephen-i-of-hungary",
+  "name": "Stephen I of Hungary",
+  "wikipedia": "Stephen I of Hungary",
+  "role": "King of Hungary from 1000/1001 to 1038; Catholic saint",
+  "life": "c. 975–1038",
+  "lifetime": [
+    975,
+    1038
+  ],
+  "occupation": "Politician",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Kingdom of Hungary"
+  ],
+  "related": [
+    "Holy Roman Empire"
+  ],
+  "contribution": "The last grand prince of the Hungarians between 997 and 1000 or 1001, and the first king of Hungary from 1000 or 1001 until his death in 1038.",
+  "image": "images/stephen-i-of-hungary.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Hungary"
+      ],
+      "death": [
+        "Kingdom of Hungary"
+      ],
+      "lead": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Principality of Hungary"
+      ]
+    },
+    "lead": "Stephen I, also known as King Saint Stephen (Hungarian: Szent István király [ˌsɛnt ˈiʃtvaːn kiraːj]; Latin: Sanctus Stephanus; Slovak: Štefan I. or Štefan Veľký; c. 975 – 15 August 1038), was the last grand prince of the Hungarians between 997 and 1000 or 1001, and the first king of Hungary from 1000 or 1001 until his death in 1038. The year of his birth is uncertain, but many details of his life suggest that he was born in, or after, 975, in Esztergom. He was given the pagan name Vajk at birth, but the date of his baptism is unknown. He was the only son of Grand Prince Géza and his wife, Sarolt, who was descended from a prominent family of gyulas. Although both of his parents were baptized, Stephen was the first member of his family to become a devout Christian. He married Gisela of Bavaria, a scion of the imperial Ottonian dynasty.",
+    "photo": "no death year in or after 1860"
+  }
+}

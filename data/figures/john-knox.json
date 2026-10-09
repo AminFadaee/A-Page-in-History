@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of Scotland"
       ],
-      "lead": [],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Scotland"
+      ],
       "birthplace": [
         "Kingdom of Scotland"
       ]

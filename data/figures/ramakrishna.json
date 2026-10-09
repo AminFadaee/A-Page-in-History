@@ -1,0 +1,34 @@
+{
+  "id": "Q183126",
+  "slug": "ramakrishna",
+  "name": "Ramakrishna",
+  "wikipedia": "Ramakrishna",
+  "role": "Indian mystic",
+  "life": "1836–1886",
+  "lifetime": [
+    1836,
+    1886
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian Hindu mystic.",
+  "image": "images/ramakrishna.jpg",
+  "image_credit": "Abinash Chandra Dna · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "British Raj"
+      ],
+      "citizenship": [
+        "British Raj"
+      ]
+    },
+    "lead": "Ramakrishna (18 February 1836 – 16 August 1886), also called Ramakrishna Paramahamsa (pronounced [ramɔkriʂno pɔromoɦɔŋʃo] ; IAST: Rāmakṛṣṇa Paramahaṃsa), born Ramakrishna  Chattopadhyay (his childhood nickname was Gadadhar), was an Indian Hindu mystic. He was a devotee of the goddess Kali, but adhered to various religious practices from the Hindu traditions of Vaishnavism, Tantric Shaktism, and Advaita Vedanta, as well as Christianity and Sufi Islam. His parable-based teachings advocated the essential unity of religions and proclaimed that world religions are \"so many paths to reach one and the same goal\". He is regarded by his followers as an avatar (divine incarnation).",
+    "photo": "captured October 1885date QS:P571,+1885-10-00T00:00:00Z/10 during their lifetime"
+  }
+}

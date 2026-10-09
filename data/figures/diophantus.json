@@ -1,0 +1,34 @@
+{
+  "id": "Q178217",
+  "slug": "diophantus",
+  "name": "Diophantus",
+  "wikipedia": "Diophantus",
+  "role": "Greek mathematician",
+  "life": "c. 200–284",
+  "lifetime": [
+    200,
+    284
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Greek mathematician who was the author of the Arithmetica in thirteen books, ten of which are still extant, made up of arithmetical problems that are solved through algebraic equations.",
+  "image": "images/diophantus.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Diophantus of Alexandria (; Ancient Greek: Διόφαντος, romanized: Diophantos; fl. 250 CE) was a Greek mathematician who was the author of the Arithmetica in thirteen books, ten of which are still extant, made up of arithmetical problems that are solved through algebraic equations.",
+    "photo": "no death year in or after 1860"
+  }
+}

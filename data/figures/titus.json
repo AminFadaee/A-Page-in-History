@@ -21,8 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
-      "lead": [],
+      "office": [
+        "Roman Empire"
+      ],
+      "death": [
+        "Roman Empire"
+      ],
       "vital_section": [
         "Roman Empire"
       ],

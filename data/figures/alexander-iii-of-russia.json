@@ -21,11 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Russian Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

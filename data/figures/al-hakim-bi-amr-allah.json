@@ -21,13 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Fatimid Caliphate"
+      ],
+      "death": [
         "Fatimid Caliphate"
       ],
       "lead": [
         "Fatimid Caliphate"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Fatimid Caliphate"
+      ],
       "birthplace": [
         "Fatimid Caliphate"
       ]

@@ -1,0 +1,37 @@
+{
+  "id": "Q5236",
+  "slug": "edward-ii",
+  "name": "Edward II",
+  "wikipedia": "Edward II",
+  "role": "King of England from 1307 to 1327",
+  "life": "1284–1327",
+  "lifetime": [
+    1284,
+    1327
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of England from 1307 until he was deposed in January 1327.",
+  "image": "images/edward-ii.jpg",
+  "image_credit": "Founder of Oriel College, after a painting in the Bodleian Library (colour engraving) by English School (19th century) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of England"
+      ],
+      "death": [
+        "Kingdom of England"
+      ],
+      "citizenship": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edward II (25 April 1284 – 21 September 1327), also known as Edward of Caernarfon or Caernarvon, was King of England from 1307 until he was deposed in January 1327. The fourth son of Edward I, Edward became the heir to the throne following the death of his older brother Alphonso. Beginning in 1300, Edward accompanied his father on campaigns in Scotland, and in 1306 he was knighted in a grand ceremony at Westminster Abbey. Edward succeeded to the throne the next year, following his father's death. In 1308, he married Isabella, daughter of the powerful King Philip IV of France, as part of a long-running effort to resolve the tensions between the English and French crowns.",
+    "photo": "no death year in or after 1860"
+  }
+}

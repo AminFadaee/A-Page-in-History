@@ -1,0 +1,46 @@
+{
+  "id": "Q52934",
+  "slug": "charles-xii-of-sweden",
+  "name": "Charles XII of Sweden",
+  "wikipedia": "Charles XII of Sweden",
+  "role": "King of Sweden from 1697 to 1718",
+  "life": "1682–1718",
+  "lifetime": [
+    1682,
+    1718
+  ],
+  "occupation": "Politician",
+  "birth_country": "Sweden",
+  "civilizations": [
+    "Denmark-Norway",
+    "Swedish Empire"
+  ],
+  "related": [
+    "Polish-Lithuanian Commonwealth",
+    "Tsardom of Russia",
+    "Ottoman Empire"
+  ],
+  "contribution": "King of Sweden from 1697 to 1718.",
+  "image": "images/charles-xii-of-sweden.jpg",
+  "image_credit": "David von Krafft · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Denmark-Norway"
+      ],
+      "lead": [
+        "Denmark-Norway",
+        "Polish-Lithuanian Commonwealth",
+        "Tsardom of Russia",
+        "Swedish Empire",
+        "Ottoman Empire"
+      ],
+      "birthplace": [
+        "Swedish Empire"
+      ]
+    },
+    "lead": "Charles XII, sometimes Carl XII (Swedish: Karl XII; 17 June 1682 – 30 November 1718 O.S.), was King of Sweden from 1697 to 1718. He belonged to the House of Palatinate-Zweibrücken, a branch line of the House of Wittelsbach. Charles was the only surviving son of Charles XI and Ulrika Eleonora the Elder. He assumed power, after a seven-month caretaker government, at the age of fifteen.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Empire",
-    "Union of Soviet Socialist Republics"
+    "Union of Soviet Socialist Republics",
+    "Russian Empire"
   ],
   "related": [],
   "contribution": "A Russian revolutionary, politician, and political theorist.",
@@ -22,14 +22,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "office": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "death": [
         "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

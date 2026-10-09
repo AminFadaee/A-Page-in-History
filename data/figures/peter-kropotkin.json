@@ -23,13 +23,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire"
-      ],
       "lead": [
         "Swiss Confederation"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

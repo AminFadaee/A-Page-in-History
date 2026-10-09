@@ -1,0 +1,36 @@
+{
+  "id": "Q43107",
+  "slug": "diocletian",
+  "name": "Diocletian",
+  "wikipedia": "Diocletian",
+  "role": "Roman emperor from 284 to 305",
+  "life": "3rd century – AD 316",
+  "lifetime": [
+    240,
+    316
+  ],
+  "occupation": "Politician",
+  "birth_country": "Croatia",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [
+    "Sasanian Empire"
+  ],
+  "contribution": "Roman emperor from 284 until his abdication in 305.",
+  "image": "images/diocletian.jpg",
+  "image_credit": "G.dallorto · Attribution",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Roman Empire"
+      ],
+      "lead": [
+        "Sasanian Empire"
+      ]
+    },
+    "lead": "Diocletian ( DY-ə-KLEE-shən; Latin: Gaius Aurelius Valerius Diocletianus; Ancient Greek: Διοκλητιανός, romanized: Diokletianós; 242/245 – 311/312), nicknamed Jovius, was Roman emperor from 284 until his abdication in 305. He was born Diocles to a family of low status in the Roman province of Dalmatia. As with other Illyrian soldiers of the period, Diocles rose through the ranks of the military early in his career, serving under Aurelian and Probus, and eventually becoming a cavalry commander for the army of Emperor Carus. After the deaths of Carus and his son Numerian on a campaign in Persia, Diocles was proclaimed emperor by the troops, taking the name \"Diocletianus\". The title was also claimed by Carus's surviving son, Carinus, but Diocletian defeated him in the Battle of the Margus.",
+    "photo": "no death year in or after 1860"
+  }
+}

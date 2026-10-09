@@ -21,12 +21,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Netherlands"
+      ],
+      "citizenship": [
         "Republic of Italy",
         "Kingdom of Italy"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Italy"
       ]

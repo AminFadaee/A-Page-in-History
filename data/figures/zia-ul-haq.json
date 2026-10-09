@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "British Raj",
-    "Islamic Republic of Pakistan"
+    "Islamic Republic of Pakistan",
+    "British Raj"
   ],
   "related": [
     "Burma",
@@ -29,8 +29,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "British Raj",
+      "office": [
+        "Islamic Republic of Pakistan"
+      ],
+      "death": [
         "Islamic Republic of Pakistan"
       ],
       "lead": [
@@ -40,6 +42,10 @@
         "Kingdom of Saudi Arabia",
         "Union of Soviet Socialist Republics",
         "Republic of India"
+      ],
+      "citizenship": [
+        "British Raj",
+        "Islamic Republic of Pakistan"
       ],
       "vital_section": [
         "Islamic Republic of Pakistan"

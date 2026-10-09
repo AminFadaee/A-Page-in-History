@@ -1,0 +1,35 @@
+{
+  "id": "Q152325",
+  "slug": "isoroku-yamamoto",
+  "name": "Isoroku Yamamoto",
+  "wikipedia": "Isoroku Yamamoto",
+  "role": "Japanese admiral",
+  "life": "1884–1943",
+  "lifetime": [
+    1884,
+    1943
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Empire of Japan"
+  ],
+  "related": [],
+  "contribution": "An admiral of the Imperial Japanese Navy and the commander of the Combined Fleet during World War II. He commanded the fleet from 1939 until his death in 1943, overseeing the start of the Pacific War in 1941 and Japan's initial successes and defeats before his plane was shot down by U.S. fighter aircraft over New Guinea.",
+  "image": "images/isoroku-yamamoto.jpg",
+  "image_credit": "The Advance in Nippon 画報 躍進之日本 (Gaho Yakushin no Nihon) · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "British Colonial Empire",
+        "Empire of Japan"
+      ],
+      "birthplace": [
+        "Empire of Japan"
+      ]
+    },
+    "lead": "Isoroku Yamamoto (山本 五十六, Yamamoto Isoroku; April 4, 1884 – April 18, 1943) was an admiral of the Imperial Japanese Navy (IJN) and the commander of the Combined Fleet during World War II. He commanded the fleet from 1939 until his death in 1943, overseeing the start of the Pacific War in 1941 and Japan's initial successes and defeats before his plane was shot down by U.S. fighter aircraft over New Guinea.",
+    "photo": "captured 1 February 1942 during their lifetime"
+  }
+}

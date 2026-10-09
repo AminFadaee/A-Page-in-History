@@ -12,6 +12,7 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
+    "Republic of Italy",
     "Kingdom of Italy"
   ],
   "related": [],
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Republic of Italy"
+      ],
+      "citizenship": [
         "Republic of Italy",
         "Kingdom of Italy"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Italy"
       ]

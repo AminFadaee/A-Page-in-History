@@ -21,14 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Papal States"
+      ],
+      "death": [
         "Papal States"
       ],
       "lead": [
         "Papal States"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Papal States"
+      ]
     },
     "lead": "Pope Sixtus IV (or Xystus IV, Italian: Sisto IV; born Francesco da Savona later della Rovere; (21 July 1414 – 12 August 1484) was head of the Catholic Church and leader of the Papal States from 9 August 1471 until his death in 1484.",
     "photo": "no death year in or after 1860"

@@ -15,7 +15,6 @@
     "Habsburg Monarchy"
   ],
   "related": [
-    "Electorate of Saxony",
     "Polish-Lithuanian Commonwealth",
     "Dutch Republic",
     "Republic of Venice",
@@ -30,12 +29,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Spain"
+      "death": [
+        "Habsburg Monarchy"
       ],
       "lead": [
         "Habsburg Monarchy",
-        "Electorate of Saxony",
         "Polish-Lithuanian Commonwealth",
         "Dutch Republic",
         "Republic of Venice",
@@ -44,7 +42,9 @@
         "Russian Empire",
         "Denmark-Norway"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Spain"
+      ],
       "birthplace": [
         "Habsburg Monarchy"
       ]

@@ -12,7 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "India",
   "civilizations": [
-    "British Raj"
+    "British Raj",
+    "Republic of India"
   ],
   "related": [
     "United States of America"
@@ -23,14 +24,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of India",
-        "British Raj"
+      "death": [
+        "Republic of India"
       ],
       "lead": [
         "United States of America"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of India",
+        "British Raj"
+      ],
       "birthplace": [
         "British Raj"
       ]

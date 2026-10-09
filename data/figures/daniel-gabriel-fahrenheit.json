@@ -12,25 +12,26 @@
   "occupation": "Physicist",
   "birth_country": "Poland",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth"
-  ],
-  "related": [
+    "Polish-Lithuanian Commonwealth",
     "Dutch Republic"
   ],
+  "related": [],
   "contribution": "A physicist, inventor, and scientific instrument maker.",
   "image": "images/daniel-gabriel-fahrenheit.jpg",
   "image_credit": "AnonymousUnknown author · Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Polish-Lithuanian Commonwealth"
+      "death": [
+        "Dutch Republic"
       ],
       "lead": [
         "Polish-Lithuanian Commonwealth",
         "Dutch Republic"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Polish-Lithuanian Commonwealth"
+      ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
       ]

@@ -12,7 +12,8 @@
   "occupation": "Composer",
   "birth_country": "Italy",
   "civilizations": [
-    "Republic of Venice"
+    "Republic of Venice",
+    "Austrian Empire"
   ],
   "related": [
     "Habsburg Monarchy"
@@ -23,15 +24,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Venice",
+      "death": [
         "Austrian Empire"
       ],
       "lead": [
         "Republic of Venice",
         "Habsburg Monarchy"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Venice",
+        "Austrian Empire"
+      ],
       "birthplace": [
         "Republic of Venice"
       ]

@@ -24,7 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Qing Dynasty"
       ],
       "lead": [
@@ -32,7 +32,9 @@
         "Nepal",
         "Dzungar Khanate"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Qing Dynasty"
+      ],
       "birthplace": [
         "Qing Dynasty"
       ]

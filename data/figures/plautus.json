@@ -1,0 +1,34 @@
+{
+  "id": "Q47160",
+  "slug": "plautus",
+  "name": "Plautus",
+  "wikipedia": "Plautus",
+  "role": "Roman comic playwright",
+  "life": "250–184 BC",
+  "lifetime": [
+    -250,
+    -184
+  ],
+  "occupation": "Writer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [],
+  "contribution": "A Roman playwright of the Old Latin period.",
+  "image": "images/plautus.jpg",
+  "image_credit": "Pierre François Barrois · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Republic"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Titus Maccius Plautus (  PLAW-təs; c. 254 – 184 BC) was a Roman playwright of the Old Latin period. His comedies are the earliest Latin literary works to have survived in their entirety. He wrote Palliata comoedia, the genre devised by Livius Andronicus, the innovator of Latin literature. The word Plautine  (PLAW-tyne) refers to both Plautus's own works and works similar to or influenced by his.",
+    "photo": "no death year in or after 1860"
+  }
+}

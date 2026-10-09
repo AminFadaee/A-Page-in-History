@@ -25,13 +25,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Holy Roman Empire"
+      ],
+      "death": [
+        "Papal States"
       ],
       "lead": [
         "Emirate of Sicily",
         "Duchy of Bohemia",
         "Kingdom of Hungary"
+      ],
+      "citizenship": [
+        "Holy Roman Empire"
       ],
       "vital_section": [
         "Holy Roman Empire"

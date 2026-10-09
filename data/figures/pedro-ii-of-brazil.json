@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Brazil",
   "civilizations": [
-    "Brazilian Republic",
-    "Empire of Brazil"
+    "Empire of Brazil",
+    "Brazilian Republic"
   ],
   "related": [],
   "contribution": "The second and final emperor of the Empire of Brazil.",
@@ -22,11 +22,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Brazilian Republic"
+      "office": [
+        "Empire of Brazil"
+      ],
+      "death": [
+        "French Third Republic"
       ],
       "lead": [
         "Empire of Brazil"
+      ],
+      "citizenship": [
+        "Brazilian Republic"
       ],
       "vital_section": [
         "Brazilian Republic"

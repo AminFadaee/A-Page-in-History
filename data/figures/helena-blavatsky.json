@@ -12,7 +12,8 @@
   "occupation": "Occultist",
   "birth_country": "Ukraine",
   "civilizations": [
-    "Russian Empire"
+    "Russian Empire",
+    "United States of America"
   ],
   "related": [],
   "contribution": "A Russian and American mystic and writer who co-founded the Theosophical Society in 1875.",
@@ -21,14 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "category": [
         "United States of America"
       ],
       "lead": [
         "Russian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "United States of America"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

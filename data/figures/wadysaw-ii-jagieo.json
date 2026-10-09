@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Grand Duchy of Lithuania"
+      "death": [
+        "Kingdom of Poland"
       ],
       "lead": [
         "Grand Duchy of Lithuania"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Grand Duchy of Lithuania"
+      ],
       "birthplace": [
         "Grand Duchy of Lithuania"
       ]

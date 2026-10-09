@@ -1,0 +1,47 @@
+{
+  "id": "Q797848",
+  "slug": "babur",
+  "name": "Babur",
+  "wikipedia": "Babur",
+  "role": "Mughal emperor from 1526 to 1530",
+  "life": "1483–1530",
+  "lifetime": [
+    1483,
+    1530
+  ],
+  "occupation": "Politician",
+  "birth_country": "Uzbekistan",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [
+    "Khanate of Bukhara",
+    "Safavid Dynasty",
+    "Ottoman Empire"
+  ],
+  "contribution": "The founder of the Mughal Empire in South Asia.",
+  "image": "images/babur.jpg",
+  "image_credit": "c.1650 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Mughal Empire"
+      ],
+      "death": [
+        "Mughal Empire"
+      ],
+      "lead": [
+        "Mughal Empire",
+        "Khanate of Bukhara",
+        "Safavid Dynasty",
+        "Ottoman Empire"
+      ],
+      "birthplace": [
+        "Timurid Empire"
+      ]
+    },
+    "lead": "Babur (Persian: ببر, Persian: [bɑː.βuɾ]; 14 February 1483 – 26 December 1530; born Zahīr ud-Dīn Muhammad) was the founder of the Mughal Empire in South Asia. He was a descendant of Timur and Genghis Khan through his father and mother, respectively. He was also given the posthumous name of Firdaws Makani ('Dwelling in Paradise').",
+    "photo": "no death year in or after 1860"
+  }
+}

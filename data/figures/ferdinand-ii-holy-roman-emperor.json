@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
-    "Holy Roman Empire"
+    "Holy Roman Empire",
+    "Habsburg Monarchy"
   ],
   "related": [
     "Ottoman Empire",
@@ -24,15 +25,20 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Holy Roman Empire"
+      ],
+      "death": [
+        "Habsburg Monarchy"
       ],
       "lead": [
         "Ottoman Empire",
         "Republic of Venice",
         "Holy Roman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Holy Roman Empire"
+      ],
       "birthplace": [
         "Habsburg Monarchy"
       ]

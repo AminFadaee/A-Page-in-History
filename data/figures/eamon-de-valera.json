@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United States",
   "civilizations": [
-    "United States of America",
-    "Irish Free State"
+    "Irish Free State",
+    "United States of America"
   ],
   "related": [],
   "contribution": "An Irish statesman.",
@@ -22,14 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "United States of America",
+      "office": [
         "Irish Free State"
       ],
       "lead": [
         "Irish Free State"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "United States of America",
+        "Irish Free State"
+      ],
       "birthplace": [
         "United States of America"
       ]

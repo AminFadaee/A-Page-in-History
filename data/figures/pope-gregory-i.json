@@ -1,0 +1,34 @@
+{
+  "id": "Q42827",
+  "slug": "pope-gregory-i",
+  "name": "Pope Gregory I",
+  "wikipedia": "Pope Gregory I",
+  "role": "64th Bishop of Rome; head of the Roman Catholic Church from AD 590 to 604",
+  "life": "c. 540–604",
+  "lifetime": [
+    540,
+    604
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Eastern Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The 64th Bishop of Rome from 3 September 590 until his death on 12 March 604.",
+  "image": "images/pope-gregory-i.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Eastern Roman Empire"
+      ],
+      "birthplace": [
+        "Eastern Roman Empire"
+      ]
+    },
+    "lead": "Pope Gregory I (Latin: Gregorius I; Gregorio I; c. 540 – 12 March 604), commonly known as Saint Gregory the Great (Latin: Sanctus Gregorius Magnus; Italian: San Gregorio Magno), was the 64th Bishop of Rome from 3 September 590 until his death on 12 March 604.",
+    "photo": "no death year in or after 1860"
+  }
+}

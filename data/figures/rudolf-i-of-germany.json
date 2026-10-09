@@ -21,10 +21,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Holy Roman Empire"
+      "death": [
+        "Duchy of Bavaria"
       ],
       "lead": [
+        "Holy Roman Empire"
+      ],
+      "citizenship": [
         "Holy Roman Empire"
       ],
       "vital_section": [

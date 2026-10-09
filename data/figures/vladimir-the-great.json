@@ -21,11 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kievan Rus'"
       ],
-      "lead": [],
-      "vital_section": [],
+      "death": [
+        "Kievan Rus'"
+      ],
+      "citizenship": [
+        "Kievan Rus'"
+      ],
       "birthplace": [
         "Kievan Rus'"
       ]

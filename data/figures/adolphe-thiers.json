@@ -1,0 +1,41 @@
+{
+  "id": "Q5738",
+  "slug": "adolphe-thiers",
+  "name": "Adolphe Thiers",
+  "wikipedia": "Adolphe Thiers",
+  "role": "President of France from 1871 to 1873",
+  "life": "1797–1877",
+  "lifetime": [
+    1797,
+    1877
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "French Third Republic",
+    "Principality of Andorra"
+  ],
+  "related": [
+    "French Second Republic"
+  ],
+  "contribution": "A French statesman and historian who served as President of France from 1871 to 1873.",
+  "image": "images/adolphe-thiers.jpg",
+  "image_credit": "Nadar · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Principality of Andorra"
+      ],
+      "death": [
+        "French Third Republic"
+      ],
+      "lead": [
+        "French Third Republic",
+        "French Second Republic"
+      ]
+    },
+    "lead": "Marie Joseph Louis Adolphe Thiers ( tee-AIR; French: [maʁi ʒozɛf lwi adɔlf tjɛʁ]; 15 April 1797 – 3 September 1877) was a French statesman and historian who served as President of France from 1871 to 1873. He was the second elected president and the first of the Third French Republic.",
+    "photo": "captured 1870sdate QS:P,+1870-00-00T00:00:00Z/8 during their lifetime"
+  }
+}

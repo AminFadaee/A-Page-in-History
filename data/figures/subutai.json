@@ -21,14 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Mongol Empire"
       ],
       "lead": [
         "Mongol Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Mongol Empire"
+      ]
     },
     "lead": "Subutai (c. 1175–1248) was a Mongol general and the primary military strategist of Genghis Khan and Ögedei Khan. He ultimately directed more than 20 campaigns, during which he conquered more territory than any other commander in history as part of the expansion of the Mongol Empire, the largest contiguous empire in human history. He often gained victory by means of sophisticated strategies and routinely coordinated movements of armies that operated hundreds of kilometers apart from each other. Subutai is regarded as one of the greatest military commanders in history, and the single greatest in Mongolian history. He was instrumental in the conquests of Genghis Khan and Ögedei Khan.",
     "photo": "no death year in or after 1860"

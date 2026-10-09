@@ -21,11 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Kingdom of Bohemia"
+      ],
+      "death": [
+        "Kingdom of Bohemia"
+      ],
       "lead": [
         "Kingdom of Bohemia"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Bohemia"
       ]

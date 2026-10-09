@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "Holy Roman Empire"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Holy Roman Empire"
       ]

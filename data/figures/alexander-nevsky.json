@@ -13,7 +13,8 @@
   "birth_country": "Russia",
   "civilizations": [
     "Kievan Rus'",
-    "Principality of Rostov-Suzdal"
+    "Principality of Rostov-Suzdal",
+    "Novgorod Republic"
   ],
   "related": [],
   "contribution": "Prince of Novgorod and Grand Prince of Vladimir.",
@@ -22,12 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Novgorod Republic"
+      ],
+      "death": [
+        "Mongol Empire"
+      ],
+      "citizenship": [
         "Kievan Rus'",
         "Principality of Rostov-Suzdal"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kievan Rus'",
         "Principality of Rostov-Suzdal"

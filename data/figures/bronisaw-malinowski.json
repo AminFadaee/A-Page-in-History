@@ -21,12 +21,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "Austria-Hungary",
         "Second Polish Republic"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Austria-Hungary"
       ]

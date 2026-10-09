@@ -1,0 +1,34 @@
+{
+  "id": "Q40930",
+  "slug": "nefertiti",
+  "name": "Nefertiti",
+  "wikipedia": "Nefertiti",
+  "role": "Wife of the Egyptian pharaoh Akhenaten",
+  "life": "c. 1370–1330 BC",
+  "lifetime": [
+    -1370,
+    -1330
+  ],
+  "occupation": "Companion",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "New Kingdom of Egypt"
+  ],
+  "related": [],
+  "contribution": "A queen of the 18th Dynasty of Ancient Egypt, the great royal wife of Pharaoh Akhenaten.",
+  "image": "images/nefertiti.jpg",
+  "image_credit": "Philip Pikart · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "New Kingdom of Egypt"
+      ],
+      "birthplace": [
+        "New Kingdom of Egypt"
+      ]
+    },
+    "lead": "Nefertiti (; c. 1370 – c. 1330 BC) was a queen of the 18th Dynasty of Ancient Egypt, the great royal wife of Pharaoh Akhenaten. Nefertiti and her husband were known for their radical overhaul of state religious policy, in which they promoted an exclusivist and possibly even monotheistic religion, Atenism, centred on the sun disc and its direct connection to the royal household. With her husband, she reigned at what was arguably the wealthiest period of ancient Egyptian history.",
+    "photo": "no death year in or after 1860"
+  }
+}

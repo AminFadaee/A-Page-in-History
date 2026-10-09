@@ -23,15 +23,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of Italy"
       ],
       "lead": [
         "French Third Republic",
         "Kingdom of Italy"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Kingdom of Italy"
+      ]
     },
     "lead": "Pope Benedict XV (Latin: Benedictus PP. XV; Italian: Benedetto XV; born Giacomo Paolo Giovanni Battista della Chiesa, Italian: [ˈdʒaːkomo ˈpaːolo dʒoˈvanni batˈtista della ˈkjɛːza]; 21 November 1854 – 22 January 1922) was head of the Catholic Church from 1914 until his death in January 1922. His pontificate was largely focused on World War I and its political, social, and humanitarian consequences in Europe.",
     "photo": "captured 1915date QS:P571,+1915-00-00T00:00:00Z/9 during their lifetime"

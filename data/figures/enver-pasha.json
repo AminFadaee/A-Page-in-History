@@ -23,15 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Ottoman Empire"
       ],
       "lead": [
         "Ottoman Empire",
         "German Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Ottoman Empire"
+      ]
     },
     "lead": "İsmâil Enver Pasha (Ottoman Turkish: اسماعیل انور پاشا; Turkish: İsmail Enver Paşa; 23 November 1881 – 4 August 1922) was a Turkish military officer, revolutionary, and convicted war criminal who served as the Ottoman Empire's Minister of War from 1914 to 1918. Along with Talaat and Djemal, he was one of the Three Pashas that ruled the Ottoman Empire during World War I and one of the principal perpetrators of the Armenian, Greek, and Assyrian genocides.",
     "photo": "capture date '' not within their lifetime and not classified as a photograph"

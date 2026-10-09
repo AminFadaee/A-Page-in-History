@@ -25,7 +25,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Nazi Germany"
+      ],
+      "death": [
+        "United States of America"
+      ],
       "lead": [
         "Nazi Germany",
         "Kingdom of Italy",

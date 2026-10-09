@@ -23,15 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Eastern Roman Empire"
       ],
       "lead": [
         "Eastern Roman Empire",
         "Western Roman Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Eastern Roman Empire"
+      ]
     },
     "lead": "Leo I (Latin: Leo; Ancient Greek: Λέων, romanized: Leōn; c. 401 – 18 January 474), also known as the Thracian (Latin: Thrax; Ancient Greek: ὁ Θρᾷξ, romanized: ō Thrâix), was Eastern Roman emperor from 457 to 474. He was a native of Dacia Aureliana near historic Thrace. He is sometimes surnamed with the epithet the Great (Latin: Magnus; Ancient Greek: ὁ Μέγας, romanized: ō Mégas), probably to distinguish him from his young grandson and co-augustus Leo II (Ancient Greek: ὁ Μικρός, romanized: ō Mikrós, lit. 'the Small').",
     "photo": "no death year in or after 1860"

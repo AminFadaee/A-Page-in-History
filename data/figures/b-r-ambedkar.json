@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "India",
   "civilizations": [
-    "British Raj",
-    "Republic of India"
+    "Republic of India",
+    "British Raj"
   ],
   "related": [],
   "contribution": "An Indian jurist, economist, social reformer and politician who chaired the committee that drafted the Constitution of India based on the debates of the Constituent Assembly of India and the first draft of Sir Benegal Narsing Rau.",
@@ -22,11 +22,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Republic of India"
+      ],
+      "category": [
+        "Republic of India"
+      ],
+      "death": [
+        "Republic of India"
+      ],
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],
-      "lead": [],
       "vital_section": [
         "Republic of India"
       ],

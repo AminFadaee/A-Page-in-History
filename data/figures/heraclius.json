@@ -24,7 +24,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Eastern Roman Empire"
+      ],
       "lead": [
         "Sasanian Empire",
         "Rashidun Caliphate"

@@ -12,9 +12,9 @@
   "occupation": "Military personnel",
   "birth_country": "Germany",
   "civilizations": [
+    "Nazi Germany",
     "German Empire",
-    "Weimar Republic",
-    "Nazi Germany"
+    "Weimar Republic"
   ],
   "related": [],
   "contribution": "A German Generalfeldmarschall during World War II. He served in the Wehrmacht of Nazi Germany, as well as in the Reichswehr of the Weimar Republic, and Imperial German Army of the German Empire.",
@@ -23,9 +23,7 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "German Empire",
-        "Weimar Republic",
+      "death": [
         "Nazi Germany"
       ],
       "lead": [
@@ -33,7 +31,11 @@
         "Weimar Republic",
         "German Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
       "birthplace": [
         "German Empire"
       ]

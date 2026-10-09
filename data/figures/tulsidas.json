@@ -1,0 +1,34 @@
+{
+  "id": "Q312976",
+  "slug": "tulsidas",
+  "name": "Tulsidas",
+  "wikipedia": "Tulsidas",
+  "role": "Hindu saint and poet",
+  "life": "1532–1623",
+  "lifetime": [
+    1511,
+    1623
+  ],
+  "occupation": "Writer",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [],
+  "contribution": "A Vaishnava Hindu saint, devotee and poet, renowned for his devotion to the deity Rama.",
+  "image": "images/tulsidas.jpg",
+  "image_credit": "Mohan, 1949 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Mughal Empire"
+      ],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Rambola Dubey (Hindi pronunciation: [rɑːməboːlɑː d̪ubeː]; 11 August 1511 – 30 July 1623), popularly known as Goswami Tulsīdās (Sanskrit pronunciation: [tʊlsiːdaːsa]), was a Vaishnava (Ramanandi) Hindu saint, devotee (भक्त) and poet, renowned for his devotion to the deity Rama. He wrote several popular works in Sanskrit, Awadhi, and Braj Bhasha, but is best known as the author of the Hanuman Chalisa and of the epic Ramcharitmanas, a retelling of the Sanskrit Ramayana, based on Rama's life, in the vernacular Awadhi language.",
+    "photo": "no death year in or after 1860"
+  }
+}

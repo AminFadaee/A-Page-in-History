@@ -26,9 +26,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
-        "Kingdom of Prussia"
+      "office": [
+        "Russian Empire"
+      ],
+      "death": [
+        "Russian Empire"
       ],
       "lead": [
         "Russian Empire",
@@ -36,7 +38,10 @@
         "Crimean Khanate",
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "Kingdom of Prussia"
       ]

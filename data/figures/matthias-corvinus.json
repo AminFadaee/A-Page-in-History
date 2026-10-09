@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Hungary",
   "civilizations": [
-    "Kingdom of Hungary"
+    "Kingdom of Hungary",
+    "Kingdom of Bohemia"
   ],
   "related": [
     "Ottoman Empire",
@@ -24,13 +25,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Kingdom of Hungary",
+        "Kingdom of Bohemia"
+      ],
+      "death": [
+        "Kingdom of Hungary"
+      ],
       "lead": [
         "Ottoman Empire",
         "Kingdom of Bosnia",
         "Kingdom of Hungary"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Hungary"
       ]

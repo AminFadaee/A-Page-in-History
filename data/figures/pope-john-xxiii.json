@@ -12,7 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
-    "Kingdom of Italy"
+    "Kingdom of Italy",
+    "Republic of Italy"
   ],
   "related": [
     "Kingdom of Bulgaria",
@@ -24,15 +25,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Italy",
-        "Kingdom of Italy"
+      "death": [
+        "Republic of Italy"
       ],
       "lead": [
         "Kingdom of Bulgaria",
         "Kingdom of Greece"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Italy",
+        "Kingdom of Italy"
+      ],
       "birthplace": [
         "Kingdom of Italy"
       ]

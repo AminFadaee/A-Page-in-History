@@ -1,0 +1,38 @@
+{
+  "id": "Q48246",
+  "slug": "ernst-haeckel",
+  "name": "Ernst Haeckel",
+  "wikipedia": "Ernst Haeckel",
+  "role": "German zoologist",
+  "life": "1834–1919",
+  "lifetime": [
+    1834,
+    1919
+  ],
+  "occupation": "Biologist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A German zoologist, naturalist, eugenicist, philosopher, physician, professor, marine biologist and artist.",
+  "image": "images/ernst-haeckel.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "German Empire"
+      ],
+      "citizenship": [
+        "German Empire",
+        "Kingdom of Prussia"
+      ],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Ernst Heinrich Philipp August Haeckel (; German: [ɛʁnst ˈhɛkl̩]; 16 February 1834 – 9 August 1919) was a German zoologist, naturalist, eugenicist, philosopher, physician, professor, marine biologist and artist. He discovered, described and named thousands of new species, mapped a genealogical tree relating all life forms and coined many terms in biology, including ecology, phylum, phylogeny, ontogeny, and Protista. Haeckel promoted and popularised Charles Darwin's work in Germany and developed the disproven but influential recapitulation theory (summed up by the dictum \"ontogeny recapitulates phylogeny\"), later generalizing it into the so called \"Biogenetic Law\". He wrongly claimed that an individual organism's biological development, or ontogeny, parallels and summarizes its species' evolutionary development, or phylogeny, using incorrectly drawn images of human embryonic development to derive the law. Whether they were intentionally falsified, or drawn poorly by accident is a matter of debate.",
+    "photo": "captured 1860 during their lifetime"
+  }
+}

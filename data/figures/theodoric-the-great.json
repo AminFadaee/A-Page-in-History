@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
+    "Ostrogothic Kingdom",
     "Western Roman Empire",
-    "Ostrogothic Kingdom"
+    "Eastern Roman Empire"
   ],
   "related": [
-    "Eastern Roman Empire",
     "Visigothic Kingdom",
     "Burgundian Kingdom",
     "Vandal Kingdom"
@@ -27,9 +27,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Ostrogothic Kingdom",
-        "Western Roman Empire"
+        "Eastern Roman Empire"
       ],
       "lead": [
         "Ostrogothic Kingdom",
@@ -39,7 +39,10 @@
         "Burgundian Kingdom",
         "Vandal Kingdom"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ostrogothic Kingdom",
+        "Western Roman Empire"
+      ],
       "birthplace": [
         "Western Roman Empire"
       ]

@@ -1,0 +1,42 @@
+{
+  "id": "Q8474",
+  "slug": "suleiman-the-magnificent",
+  "name": "Suleiman the Magnificent",
+  "wikipedia": "Suleiman the Magnificent",
+  "role": "Sultan of the Ottoman Empire from 1520 to 1566",
+  "life": "1494–1566",
+  "lifetime": [
+    1494,
+    1566
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Kingdom of Hungary",
+    "Safavid Dynasty"
+  ],
+  "contribution": "The Ottoman sultan from 1520 to 1566.",
+  "image": "images/suleiman-the-magnificent.jpg",
+  "image_credit": "16th century artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "death": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire",
+        "Kingdom of Hungary",
+        "Safavid Dynasty"
+      ]
+    },
+    "lead": "Suleiman I (6 November 1494 – 6 September 1566), commonly known as Suleiman the Magnificent, was the Ottoman sultan from 1520 to 1566.",
+    "photo": "no death year in or after 1860"
+  }
+}

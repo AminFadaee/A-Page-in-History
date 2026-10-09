@@ -1,0 +1,34 @@
+{
+  "id": "Q199894",
+  "slug": "thomas-cranmer",
+  "name": "Thomas Cranmer",
+  "wikipedia": "Thomas Cranmer",
+  "role": "Archbishop of Canterbury from 1533 to 1555",
+  "life": "1489–1556",
+  "lifetime": [
+    1489,
+    1556
+  ],
+  "occupation": "Social activist",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English theologian who was a leader of the English Reformation and served as Archbishop of Canterbury during the reigns of Henry VIII, Edward VI and, for a short time, Mary I. He is honoured as a martyr in the Church of England.",
+  "image": "images/thomas-cranmer.jpg",
+  "image_credit": "Gerlach Flicke · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of England"
+      ],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Thomas Cranmer (2 July 1489 – 21 March 1556) was an English theologian who was a leader of the English Reformation and served as Archbishop of Canterbury during the reigns of Henry VIII, Edward VI and, for a short time, Mary I. He is honoured as a martyr in the Church of England.",
+    "photo": "no death year in or after 1860"
+  }
+}

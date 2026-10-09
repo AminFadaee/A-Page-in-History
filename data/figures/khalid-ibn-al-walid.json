@@ -1,0 +1,37 @@
+{
+  "id": "Q26918",
+  "slug": "khalid-ibn-al-walid",
+  "name": "Khalid ibn al-Walid",
+  "wikipedia": "Khalid ibn al-Walid",
+  "role": "Muslim general",
+  "life": "586–642",
+  "lifetime": [
+    586,
+    642
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Saudi Arabia",
+  "civilizations": [
+    "Rashidun Caliphate"
+  ],
+  "related": [
+    "Sasanian Empire"
+  ],
+  "contribution": "A 7th-century Arab military commander.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Rashidun Caliphate"
+      ],
+      "lead": [
+        "Rashidun Caliphate",
+        "Sasanian Empire"
+      ]
+    },
+    "lead": "Khalid ibn al-Walid ibn al-Mughira al-Makhzumi (died 642) was a 7th-century Arab military commander. He initially led campaigns against Muhammad on behalf of the Quraysh, but later converted to Islam and spent the remainder of his career serving Muhammad and the first two Rashidun caliphs Abu Bakr and Umar as a commander of the Muslim army. Khalid played leading command roles in the Ridda Wars against rebel tribes in Arabia in 632–633, the initial campaigns in Sasanian Iraq in 633–634, and the conquest of Byzantine Syria in 634–638.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

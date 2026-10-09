@@ -1,0 +1,34 @@
+{
+  "id": "Q185856",
+  "slug": "barnabas",
+  "name": "Barnabas",
+  "wikipedia": "Barnabas",
+  "role": "Early Christian disciple and bishop",
+  "life": "1st century BC – AD 61",
+  "lifetime": [
+    -98,
+    61
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A prominent Christian disciple, identified as an apostle in Acts 14:14.",
+  "image": "images/barnabas.jpg",
+  "image_credit": "Anonimo Lombardo · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Barnabas (; Ancient Greek: Βαρναβᾶς; Syriac: ܒܪܢܒܐ), born Joseph (Ἰωσήφ) or Joses (Ἰωσής), was a prominent Christian disciple, identified as an apostle in Acts 14:14. According to Acts 4:36, he was a Cypriot Levite. He undertook missionary journeys as a companion of Paul the Apostle, evangelizing among the \"God-fearing\" Gentiles who attended synagogues in some of the Hellenized cities of Anatolia.  He participated in the Council of Jerusalem (c. 49 AD).",
+    "photo": "no death year in or after 1860"
+  }
+}

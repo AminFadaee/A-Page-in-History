@@ -1,0 +1,42 @@
+{
+  "id": "Q8058",
+  "slug": "louis-xi",
+  "name": "Louis XI",
+  "wikipedia": "Louis XI",
+  "role": "King of France from 1461 to 1483",
+  "life": "1423–1483",
+  "lifetime": [
+    1423,
+    1483
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Duchy of Burgundy"
+  ],
+  "contribution": "King of France from 1461 to 1483.",
+  "image": "images/louis-xi.jpg",
+  "image_credit": "Jacob de Litemont · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Duchy of Burgundy"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis XI (3 July 1423 – 30 August 1483), called the Prudent (French: le Prudent), was King of France from 1461 to 1483. He succeeded his father, Charles VII. Louis entered into open rebellion against his father in a short-lived revolt known as the Praguerie in 1440. The king forgave his rebellious vassals, including Louis, to whom he entrusted the management of the Dauphiné, then a province in southeastern France. Louis's ceaseless intrigues, however, led his father to banish him from court. From the Dauphiné, Louis led his own political establishment and married Charlotte of Savoy, daughter of Louis, Duke of Savoy, against the will of his father. Charles VII sent an army to compel his son to his will, but Louis fled to Burgundy, where he was hosted by Philip the Good, the Duke of Burgundy, Charles's greatest enemy.",
+    "photo": "no death year in or after 1860"
+  }
+}

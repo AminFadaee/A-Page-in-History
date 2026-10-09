@@ -1,0 +1,39 @@
+{
+  "id": "Q271878",
+  "slug": "george-curzon-1st-marquess-curzon-of-kedleston",
+  "name": "George Curzon, 1st Marquess Curzon of Kedleston",
+  "wikipedia": "George Curzon, 1st Marquess Curzon of Kedleston",
+  "role": "Viceroy of India from 1899 to 1905",
+  "life": "1859–1925",
+  "lifetime": [
+    1859,
+    1925
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [
+    "Russian Empire",
+    "Republic of Turkey"
+  ],
+  "contribution": "A British statesman, Conservative politician, explorer and writer who served as Viceroy of India from 1899 to 1905 and Foreign Secretary from 1919 to 1924.",
+  "image": "images/george-curzon-1st-marquess-curzon-of-kedleston.jpg",
+  "image_credit": "George Grantham Bain Collection (Library of Congress) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "British Raj"
+      ],
+      "lead": [
+        "Russian Empire",
+        "British Raj",
+        "Republic of Turkey"
+      ]
+    },
+    "lead": "George Nathaniel Curzon, 1st Marquess Curzon of Kedleston (11 January 1859 – 20 March 1925), known as Lord Curzon (), was a British statesman, Conservative politician, explorer and writer who served as Viceroy of India from 1899 to 1905 and Foreign Secretary from 1919 to 1924.",
+    "photo": "capture date '' not within their lifetime and not classified as a photograph"
+  }
+}

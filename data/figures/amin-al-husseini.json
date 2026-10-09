@@ -26,9 +26,6 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Ottoman Empire"
-      ],
       "lead": [
         "Ottoman Empire",
         "Kingdom of Iraq",
@@ -36,7 +33,9 @@
         "Nazi Germany",
         "Kingdom of Jordan"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Ottoman Empire"
       ]

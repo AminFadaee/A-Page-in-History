@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of Prussia",
-    "German Empire"
+    "German Empire",
+    "Kingdom of Prussia"
   ],
   "related": [],
   "contribution": "King of Prussia from 1861 and German Emperor from 1871 until his death in 1888.",
@@ -22,14 +22,20 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Prussia",
+      "office": [
+        "German Empire",
+        "Kingdom of Prussia"
+      ],
+      "death": [
         "German Empire"
       ],
       "lead": [
         "German Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia",
+        "German Empire"
+      ],
       "birthplace": [
         "Kingdom of Prussia"
       ]

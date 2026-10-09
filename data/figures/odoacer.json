@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Western Roman Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Western Roman Empire"
       ]

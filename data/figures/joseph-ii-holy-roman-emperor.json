@@ -24,13 +24,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Habsburg Monarchy"
+      ],
       "lead": [
         "Habsburg Monarchy",
         "Russian Empire",
         "Kingdom of Prussia"
       ],
-      "vital_section": [],
       "birthplace": [
         "Habsburg Monarchy"
       ]

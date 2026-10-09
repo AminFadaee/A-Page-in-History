@@ -12,6 +12,7 @@
   "occupation": "Writer",
   "birth_country": "Ukraine",
   "civilizations": [
+    "Union of Soviet Socialist Republics",
     "Russian Empire"
   ],
   "related": [],
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
         "Russian Empire",
         "Union of Soviet Socialist Republics"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Russian Empire"
       ]

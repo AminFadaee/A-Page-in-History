@@ -21,13 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Joseon"
+      ],
+      "death": [
         "Joseon"
       ],
       "lead": [
         "Joseon"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Joseon"
+      ],
       "birthplace": [
         "Joseon"
       ]

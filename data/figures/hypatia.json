@@ -12,6 +12,7 @@
   "occupation": "Mathematician",
   "birth_country": "Egypt",
   "civilizations": [
+    "Eastern Roman Empire",
     "Roman Empire"
   ],
   "related": [],
@@ -21,13 +22,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Eastern Roman Empire"
       ],
       "lead": [
         "Roman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Eastern Roman Empire"
+      ],
       "birthplace": [
         "Roman Empire"
       ]

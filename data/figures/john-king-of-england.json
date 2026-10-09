@@ -1,0 +1,42 @@
+{
+  "id": "Q129308",
+  "slug": "john-king-of-england",
+  "name": "John, King of England",
+  "wikipedia": "John, King of England",
+  "role": "King of England from 1199 to 1216",
+  "life": "1166–1216",
+  "lifetime": [
+    1166,
+    1216
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Angevin Empire"
+  ],
+  "contribution": "King of England from 1199 until his death in 1216.",
+  "image": "images/john-king-of-england.jpg",
+  "image_credit": "CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of England"
+      ],
+      "death": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Angevin Empire"
+      ],
+      "citizenship": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "John (Christmastide 1166/7 – 19 October 1216) was King of England from 1199 until his death in 1216. He lost the Duchy of Normandy and most of his other French lands to King Philip II of France, resulting in the collapse of the Angevin Empire and contributing to the subsequent growth in power of the French Capetian dynasty during the 13th century. The baronial revolt at the end of John's reign led to the sealing of Magna Carta, a document considered a foundational milestone in English and later British constitutional history.",
+    "photo": "no death year in or after 1860"
+  }
+}

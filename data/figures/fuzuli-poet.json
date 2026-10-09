@@ -13,8 +13,8 @@
   "birth_country": "Iraq",
   "civilizations": [
     "Aq Qoyunlu",
-    "Safavid Dynasty",
-    "Ottoman Empire"
+    "Ottoman Empire",
+    "Safavid Dynasty"
   ],
   "related": [],
   "contribution": "A 16th-century poet who composed works in his native Azerbaijani, as well as Persian and Arabic.",
@@ -23,17 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Aq Qoyunlu",
-        "Safavid Dynasty",
-        "Ottoman Empire"
-      ],
       "lead": [
         "Aq Qoyunlu",
         "Safavid Dynasty",
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Aq Qoyunlu",
+        "Safavid Dynasty",
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Aq Qoyunlu"
       ]

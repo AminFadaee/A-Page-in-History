@@ -22,14 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of India",
-        "British Raj"
+      "death": [
+        "Republic of India"
       ],
       "lead": [
         "Republic of India"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of India",
+        "British Raj"
+      ],
       "birthplace": [
         "British Raj"
       ]

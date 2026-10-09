@@ -12,11 +12,11 @@
   "occupation": "Military personnel",
   "birth_country": "Germany",
   "civilizations": [
+    "Federal Republic of Germany",
     "Nazi Germany"
   ],
   "related": [
-    "Kingdom of Belgium",
-    "Federal Republic of Germany"
+    "Kingdom of Belgium"
   ],
   "contribution": "A German military officer  who served as a Generalfeldmarschall in the Heer of Nazi Germany during World War II. He was subsequently convicted of war crimes and sentenced to 18 years imprisonment, but served fewer than four years before being released in 1953.",
   "image": "images/erich-von-manstein.jpg",
@@ -24,7 +24,9 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Federal Republic of Germany"
+      ],
       "lead": [
         "Nazi Germany",
         "Kingdom of Belgium",

@@ -12,7 +12,8 @@
   "occupation": "Companion",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of Bavaria"
+    "Kingdom of Bavaria",
+    "Austrian Empire"
   ],
   "related": [
     "Austria-Hungary"
@@ -23,14 +24,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Austrian Empire",
-        "Kingdom of Bavaria"
+      "office": [
+        "Austrian Empire"
+      ],
+      "death": [
+        "French Third Republic"
       ],
       "lead": [
         "Austria-Hungary"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Austrian Empire",
+        "Kingdom of Bavaria"
+      ],
       "birthplace": [
         "Kingdom of Bavaria"
       ]

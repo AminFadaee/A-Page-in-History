@@ -21,13 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Habsburg Monarchy"
-      ],
       "lead": [
         "Habsburg Monarchy"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Habsburg Monarchy"
+      ],
       "birthplace": [
         "Habsburg Monarchy"
       ]

@@ -1,0 +1,34 @@
+{
+  "id": "Q170846",
+  "slug": "elizabeth-bathory",
+  "name": "Elizabeth Báthory",
+  "wikipedia": "Elizabeth Báthory",
+  "role": "Hungarian countess and suspected serial killer",
+  "life": "1560–1614",
+  "lifetime": [
+    1560,
+    1614
+  ],
+  "occupation": "Extremist",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [],
+  "contribution": "A Hungarian noblewoman, aristocrat, and alleged serial killer from the powerful House of Báthory, who owned land in the Kingdom of Hungary.",
+  "image": "images/elizabeth-bathory.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Countess Elizabeth Báthory of Ecsed (Hungarian: Báthory Erzsébet, pronounced [ˈbaːtori ˈɛrʒeːbɛt]; Slovak: Alžbeta Bátoriová; 7 August 1560 – 21 August 1614) was a Hungarian noblewoman, aristocrat, and alleged serial killer from the powerful House of Báthory, who owned land in the Kingdom of Hungary. She was the wife of Hungarian nobleman and influential politician Ferenc Nádasdy of the House of Nádasdy. Báthory and four of her servants were accused of torturing and killing hundreds of girls and women from 1590 to 1610. Bathory and her cohorts were charged for 80 counts of murder and were convicted. Her servants were put on trial and executed, whereas Báthory was imprisoned within the Castle of Csejte, Hungary (now Čachtice, Slovakia) until she died in her sleep in 1614.",
+    "photo": "no death year in or after 1860"
+  }
+}

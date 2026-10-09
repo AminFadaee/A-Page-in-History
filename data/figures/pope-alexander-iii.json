@@ -1,0 +1,40 @@
+{
+  "id": "Q160116",
+  "slug": "pope-alexander-iii",
+  "name": "Pope Alexander III",
+  "wikipedia": "Pope Alexander III",
+  "role": "Head of the Catholic Church from 1159 to 1181",
+  "life": "c. 1100–1181",
+  "lifetime": [
+    1100,
+    1181
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 7 September 1159 until his death in 1181.",
+  "image": "images/pope-alexander-iii.jpg",
+  "image_credit": "Spinello Aretino · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Pope Alexander III (c. 1100/1105 – 30 August 1181), born Roland (Italian: Rolando), was head of the Catholic Church and ruler of the Papal States from 7 September 1159 until his death in 1181.",
+    "photo": "no death year in or after 1860"
+  }
+}

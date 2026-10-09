@@ -1,0 +1,34 @@
+{
+  "id": "Q190944",
+  "slug": "jean-bodin",
+  "name": "Jean Bodin",
+  "wikipedia": "Jean Bodin",
+  "role": "French jurist and political philosopher",
+  "life": "1530–1596",
+  "lifetime": [
+    1530,
+    1596
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French jurist and political philosopher, member of the Parlement of Paris and professor of law at the  University of Toulouse.",
+  "image": "images/jean-bodin.jpg",
+  "image_credit": "François Stuerhelt · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jean Bodin (; French: [ʒɑ̃ bɔdɛ̃]; c. 1530 – 1596) was a French jurist and political philosopher, member of the Parlement of Paris and professor of law at the  University of Toulouse. Bodin lived during the aftermath of the Protestant Reformation and wrote against the background of religious conflict in France. He seemed to be a nominal Catholic throughout his life but was critical of papal authority over governments. Known for his theory of sovereignty, he favoured the strong central control of a national monarchy as an antidote to factional strife.",
+    "photo": "no death year in or after 1860"
+  }
+}

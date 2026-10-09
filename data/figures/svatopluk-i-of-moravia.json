@@ -1,0 +1,37 @@
+{
+  "id": "Q437589",
+  "slug": "svatopluk-i-of-moravia",
+  "name": "Svatopluk I of Moravia",
+  "wikipedia": "Svatopluk I of Moravia",
+  "role": "Ruler of Great Moravia from 870 to 894",
+  "life": "c. 840–894",
+  "lifetime": [
+    840,
+    894
+  ],
+  "occupation": "Politician",
+  "birth_country": "",
+  "civilizations": [
+    "Great Moravia"
+  ],
+  "related": [
+    "East Franks"
+  ],
+  "contribution": "A ruler of Great Moravia, which attained its maximum territorial expansion during his reign.",
+  "image": "images/svatopluk-i-of-moravia.jpg",
+  "image_credit": "Lehotsky · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Great Moravia"
+      ],
+      "lead": [
+        "Great Moravia",
+        "East Franks"
+      ]
+    },
+    "lead": "Svatopluk I or Svätopluk I, also known as Svatopluk the Great, was a ruler of Great Moravia, which attained its maximum territorial expansion during his reign (870–871, 871–894).",
+    "photo": "no death year in or after 1860"
+  }
+}

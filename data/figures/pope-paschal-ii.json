@@ -1,0 +1,40 @@
+{
+  "id": "Q227967",
+  "slug": "pope-paschal-ii",
+  "name": "Pope Paschal II",
+  "wikipedia": "Pope Paschal II",
+  "role": "Head of the Catholic Church from 1099 to 1118",
+  "life": "11th century – 1118",
+  "lifetime": [
+    1050,
+    1118
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 13 August 1099 to his death in 1118.",
+  "image": "images/pope-paschal-ii.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Pope Paschal II (Latin: Paschalis II; 1050 x 1055 – 21 January 1118), born Raniero Raineri di Bleda, was head of the Catholic Church and ruler of the Papal States from 13 August 1099 to his death in 1118. A monk of the Abbey of Cluny, he was created the cardinal-priest of San Clemente by Pope Gregory VII (1073–85) in 1073. He was consecrated as pope in succession to Pope Urban II (1088–99) on 19 August 1099. His reign of almost twenty years was exceptionally long for a medieval pope.",
+    "photo": "no death year in or after 1860"
+  }
+}

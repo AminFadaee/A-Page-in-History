@@ -12,7 +12,6 @@
   "occupation": "Politician",
   "birth_country": "Portugal",
   "civilizations": [
-    "Kingdom of Galicia",
     "Kingdom of Portugal"
   ],
   "related": [
@@ -25,17 +24,20 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Galicia",
+      "office": [
+        "Kingdom of Portugal"
+      ],
+      "death": [
         "Kingdom of Portugal"
       ],
       "lead": [
         "County of Portugal",
-        "Kingdom of Galicia",
         "Kingdom of León",
         "Kingdom of Portugal"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Portugal"
+      ],
       "birthplace": [
         "Kingdom of Castile"
       ]

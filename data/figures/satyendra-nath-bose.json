@@ -12,7 +12,8 @@
   "occupation": "Physicist",
   "birth_country": "India",
   "civilizations": [
-    "British Raj"
+    "British Raj",
+    "Republic of India"
   ],
   "related": [],
   "contribution": "An Indian theoretical physicist and mathematician.",
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Republic of India"
+      ],
+      "citizenship": [
         "British Raj",
         "Republic of India"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "British Raj"
       ]

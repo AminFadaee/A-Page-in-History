@@ -1,0 +1,34 @@
+{
+  "id": "Q184634",
+  "slug": "boudica",
+  "name": "Boudica",
+  "wikipedia": "Boudica",
+  "role": "Queen of the British Iceni tribe",
+  "life": "c. 30–61",
+  "lifetime": [
+    30,
+    62
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A queen of the ancient British Iceni tribe, who led a failed uprising against the conquering forces of the Roman Empire in AD 60 or 61.",
+  "image": "images/boudica.jpg",
+  "image_credit": "Charles Hamilton Smith · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "lead": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Boudica or Boudicca (, from Brythonic *boudi 'victory, win' + *-kā (adjectival suffix), i.e. 'Victorious Woman', known in Latin chronicles as Boadicea or Boudicea, and in Welsh as Buddug, pronounced [ˈbɨðɨɡ]) was a queen of the ancient British Iceni tribe, who led a failed uprising against the conquering forces of the Roman Empire in AD 60 or 61. She is considered a British national heroine and a symbol of the struggle for justice and independence.",
+    "photo": "no death year in or after 1860"
+  }
+}

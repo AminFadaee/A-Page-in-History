@@ -13,7 +13,7 @@
   "birth_country": "Germany",
   "civilizations": [
     "Nazi Germany",
-    "German Empire"
+    "Weimar Republic"
   ],
   "related": [],
   "contribution": "A German Nazi politician, police administrator, and military leader.",
@@ -22,17 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Nazi Germany",
+      "office": [
         "Weimar Republic",
-        "German Empire"
+        "Nazi Germany"
       ],
       "lead": [
         "Nazi Germany"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "German Empire"
+      "citizenship": [
+        "Nazi Germany",
+        "Weimar Republic"
       ]
     },
     "lead": "Heinrich Luitpold Himmler (German: [ˈhaɪnʁɪç ˈluːɪtpɔlt ˈhɪmlɐ] ; 7 October 1900 – 23 May 1945) was a German Nazi politician, police administrator, and military leader. He was the fourth and longest-serving Reichsführer of the Schutzstaffel (Protection Squadron; SS), serving from 1929 to 1945. He was a leading member of the Nazi Party and one of the most powerful figures in Nazi Germany. He was also one of the main architects of the Holocaust, the genocide of European Jews during World War II.",

@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Italy",
   "civilizations": [
+    "Ptolemaic Kingdom",
     "Roman Republic"
   ],
   "related": [
-    "Roman Empire",
-    "Ptolemaic Kingdom"
+    "Roman Empire"
   ],
   "contribution": "A Roman politician and general who played a critical role in the transformation of the Roman Republic from a constitutional republic into the autocratic Roman Empire.",
   "image": "images/mark-antony.jpg",
@@ -24,13 +24,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Ptolemaic Kingdom"
+      ],
       "lead": [
         "Roman Republic",
         "Roman Empire",
         "Ptolemaic Kingdom"
       ],
-      "vital_section": [],
       "birthplace": [
         "Roman Republic"
       ]

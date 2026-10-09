@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Roman Republic"
+      ],
       "lead": [
         "Roman Republic"
       ],
-      "vital_section": [],
       "birthplace": [
         "Roman Republic"
       ]

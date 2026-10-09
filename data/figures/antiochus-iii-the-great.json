@@ -26,7 +26,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Seleucid Empire"
+      ],
+      "death": [
         "Seleucid Empire"
       ],
       "lead": [
@@ -36,7 +39,9 @@
         "Roman Republic",
         "Aetolian League"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Seleucid Empire"
+      ],
       "birthplace": [
         "Seleucid Empire"
       ]

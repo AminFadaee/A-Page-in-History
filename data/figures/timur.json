@@ -12,14 +12,13 @@
   "occupation": "Military personnel",
   "birth_country": "Uzbekistan",
   "civilizations": [
-    "Chagatai Khanate"
+    "Chagatai Khanate",
+    "Timurid Empire"
   ],
   "related": [
-    "Timurid Empire",
     "Golden Horde",
     "Mamluk Sultanate",
     "Ottoman Empire",
-    "Ilkhanate",
     "Yuan Dynasty"
   ],
   "contribution": "A Turco-Mongol conqueror, first ruler of the Timurid dynasty, and the founder of the Timurid Empire, which ruled over modern-day Afghanistan, Iran, and Central Asia.",
@@ -28,17 +27,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Timurid Empire"
+      ],
       "lead": [
         "Timurid Empire",
         "Chagatai Khanate",
         "Golden Horde",
         "Mamluk Sultanate",
         "Ottoman Empire",
-        "Ilkhanate",
         "Yuan Dynasty"
       ],
-      "vital_section": [],
       "birthplace": [
         "Chagatai Khanate"
       ]

@@ -1,0 +1,34 @@
+{
+  "id": "Q150575",
+  "slug": "ferdinand-iii-holy-roman-emperor",
+  "name": "Ferdinand III, Holy Roman Emperor",
+  "wikipedia": "Ferdinand III, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1637 to 1657",
+  "life": "1608–1657",
+  "lifetime": [
+    1608,
+    1657
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [],
+  "contribution": "Archduke of Austria, King of Hungary and Croatia from 1625, King of Bohemia from 1627 and Holy Roman Emperor from 1637 to his death.",
+  "image": "images/ferdinand-iii-holy-roman-emperor.jpg",
+  "image_credit": "Frans Luycx · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Habsburg Monarchy"
+      ],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Ferdinand III (Ferdinand Ernest; 13 July 1608 – 2 April 1657) was Archduke of Austria, King of Hungary and Croatia from 1625, King of Bohemia from 1627 and Holy Roman Emperor from 1637 to his death.",
+    "photo": "no death year in or after 1860"
+  }
+}

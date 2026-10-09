@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "Republic of Venice"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Republic of Venice"
       ]

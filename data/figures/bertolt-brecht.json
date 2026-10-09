@@ -12,8 +12,9 @@
   "occupation": "Writer",
   "birth_country": "Germany",
   "civilizations": [
-    "German Empire",
-    "Weimar Republic"
+    "Weimar Republic",
+    "German Democratic Republic",
+    "German Empire"
   ],
   "related": [],
   "contribution": "A German theatre practitioner, playwright, and poet.",
@@ -22,16 +23,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "French Fourth Republic",
+        "German Democratic Republic"
+      ],
+      "lead": [
+        "Weimar Republic"
+      ],
+      "citizenship": [
         "German Empire",
         "German Democratic Republic",
         "Weimar Republic",
         "Republic of Austria"
       ],
-      "lead": [
-        "Weimar Republic"
-      ],
-      "vital_section": [],
       "birthplace": [
         "German Empire"
       ]

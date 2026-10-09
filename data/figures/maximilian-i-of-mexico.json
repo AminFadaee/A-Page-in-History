@@ -25,8 +25,7 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Austrian Empire",
+      "death": [
         "Second Mexican Empire"
       ],
       "lead": [
@@ -35,7 +34,10 @@
         "Spanish Empire",
         "Second French Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Austrian Empire",
+        "Second Mexican Empire"
+      ],
       "birthplace": [
         "Austrian Empire"
       ]

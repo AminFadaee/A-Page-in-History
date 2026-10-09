@@ -1,0 +1,51 @@
+{
+  "id": "Q539",
+  "slug": "giuseppe-garibaldi",
+  "name": "Giuseppe Garibaldi",
+  "wikipedia": "Giuseppe Garibaldi",
+  "role": "Italian patriot and general",
+  "life": "1807–1882",
+  "lifetime": [
+    1807,
+    1882
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of Italy",
+    "Kingdom of Sardinia",
+    "Riograndense Republic"
+  ],
+  "related": [
+    "Empire of Brazil",
+    "Oriental Republic of Uruguay"
+  ],
+  "contribution": "An Italian general, revolutionary and republican.",
+  "image": "images/giuseppe-garibaldi.jpg",
+  "image_credit": "In album: Cartes-de-visite portraits of U.S. Army officers, children, and others, p. 15, right. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Italy"
+      ],
+      "death": [
+        "Kingdom of Italy"
+      ],
+      "lead": [
+        "Kingdom of Sardinia",
+        "Empire of Brazil",
+        "Riograndense Republic",
+        "Oriental Republic of Uruguay"
+      ],
+      "citizenship": [
+        "Riograndense Republic",
+        "Kingdom of Italy",
+        "Kingdom of Sardinia",
+        "Republic of Peru"
+      ]
+    },
+    "lead": "Giuseppe Maria Garibaldi (Italian: [dʒuˈzɛppe ɡariˈbaldi] ; 4 July 1807 – 2 June 1882) was an Italian general, revolutionary and republican. He contributed to the Unification of Italy (Risorgimento) and the creation of the Kingdom of Italy. He is considered to be one of Italy's \"fathers of the fatherland\", along with Camillo Benso di Cavour, King Victor Emmanuel II and Giuseppe Mazzini. Garibaldi is also known as the \"Hero of the Two Worlds\" because of his military enterprises in South America and Europe.",
+    "photo": "captured 1861 during their lifetime"
+  }
+}

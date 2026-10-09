@@ -1,0 +1,43 @@
+{
+  "id": "Q25351",
+  "slug": "theodor-mommsen",
+  "name": "Theodor Mommsen",
+  "wikipedia": "Theodor Mommsen",
+  "role": "German classical scholar and historian",
+  "life": "1817–1903",
+  "lifetime": [
+    1817,
+    1903
+  ],
+  "occupation": "Archaeologist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A German classical scholar, historian, jurist, journalist, politician and archaeologist.",
+  "image": "images/theodor-mommsen.jpg",
+  "image_credit": "Louis Jacoby · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "German Empire",
+        "Kingdom of Prussia"
+      ],
+      "death": [
+        "German Empire"
+      ],
+      "citizenship": [
+        "Kingdom of Prussia",
+        "German Empire"
+      ],
+      "birthplace": [
+        "Denmark-Norway"
+      ]
+    },
+    "lead": "Christian Matthias Theodor Mommsen (; German: [ˈteːodoːɐ̯ ˈmɔmzn̩] ; 30 November 1817 – 1 November 1903) was a German classical scholar, historian, jurist, journalist, politician and archaeologist. He is widely regarded as one of the greatest classicists of the 19th century.  He received the 1902 Nobel Prize in Literature for his historical writings, including The History of Rome, after having been nominated by 18 members of the Prussian Academy of Sciences. He was also a prominent German politician, as a member of the Prussian and German parliaments. His works on Roman law and on the law of obligations had a significant impact on the German civil code.",
+    "photo": "captured 1863 during their lifetime"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Q167610",
+  "slug": "pope-eugene-iii",
+  "name": "Pope Eugene III",
+  "wikipedia": "Pope Eugene III",
+  "role": "Head of the Catholic Church from 1145 to 1153",
+  "life": "12th century – 1153",
+  "lifetime": [
+    1101,
+    1153
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 15 February 1145 to his death in 1153.",
+  "image": "images/pope-eugene-iii.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Republic of Pisa"
+      ]
+    },
+    "lead": "Pope Eugene III (Latin: Eugenius III; c. 1080 – 8 July 1153), born Bernardo, called Bernardo da Pisa, was head of the Catholic Church and ruler of the Papal States from 15 February 1145 to his death in 1153. He was the first Cistercian to become pope. In response to the fall of Edessa to the Muslims in 1144, Eugene proclaimed the Second Crusade. He was beatified in 1872 by Pope Pius IX.",
+    "photo": "no death year in or after 1860"
+  }
+}

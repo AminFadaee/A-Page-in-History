@@ -12,26 +12,26 @@
   "occupation": "Explorer",
   "birth_country": "Italy",
   "civilizations": [
+    "Crown of Castile",
     "Republic of Genoa"
   ],
-  "related": [
-    "Crown of Castile"
-  ],
+  "related": [],
   "contribution": "An Italian explorer and navigator from the Republic of Genoa who completed four Spanish transatlantic voyages in the name of the Catholic Monarchs, opening the way for the widespread European exploration and colonization of the Americas.",
   "image": "images/christopher-columbus.jpg",
   "image_credit": "Ridolfo del Ghirlandaio · Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Genoa"
+      "death": [
+        "Crown of Castile"
       ],
       "lead": [
         "Republic of Genoa",
         "Crown of Castile"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Republic of Genoa"
+      ]
     },
     "lead": "Christopher Columbus (; between 25 August and 31 October 1451 – 20 May 1506) was an Italian explorer and navigator from the Republic of Genoa who completed four Spanish transatlantic voyages in the name of the Catholic Monarchs, opening the way for the widespread European exploration and colonization of the Americas. His expeditions were the first known European contact with the Caribbean and Central and South America.",
     "photo": "no death year in or after 1860"

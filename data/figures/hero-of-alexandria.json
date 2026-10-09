@@ -1,0 +1,34 @@
+{
+  "id": "Q161853",
+  "slug": "hero-of-alexandria",
+  "name": "Hero of Alexandria",
+  "wikipedia": "Hero of Alexandria",
+  "role": "Hellenistic mathematician and engineer",
+  "life": "c. 10–75",
+  "lifetime": [
+    10,
+    75
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Greek mathematician and engineer who was active in Alexandria during the Roman era.",
+  "image": "images/hero-of-alexandria.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Hero of Alexandria (; Ancient Greek: Ἥρων ὁ Ἀλεξανδρεύς, Hērōn hò Alexandreús, also known as Heron of Alexandria ; fl. probably 1st or 2nd century AD) was a Greek mathematician and engineer who was active in Alexandria during the Roman era. He has been described as the greatest experimentalist of antiquity and a representative of the Hellenistic scientific tradition.",
+    "photo": "no death year in or after 1860"
+  }
+}

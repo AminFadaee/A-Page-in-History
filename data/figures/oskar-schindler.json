@@ -12,8 +12,8 @@
   "occupation": "Businessperson",
   "birth_country": "Czechia",
   "civilizations": [
-    "Nazi Germany",
-    "Federal Republic of Germany"
+    "Federal Republic of Germany",
+    "Nazi Germany"
   ],
   "related": [],
   "contribution": "A German industrialist and humanitarian who is credited with saving the lives of 1,200 Jews during the Holocaust by employing them in his enamelware and ammunitions factories in German-occupied Poland and the Protectorate of Bohemia and Moravia.",
@@ -22,17 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Nazi Germany",
+      "death": [
         "Federal Republic of Germany"
       ],
       "lead": [
         "Nazi Germany",
         "Federal Republic of Germany"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Austria-Hungary"
+      "citizenship": [
+        "Nazi Germany",
+        "Federal Republic of Germany"
       ]
     },
     "lead": "Oskar Schindler (German: [ˈɔskaʁ ˈʃɪndlɐ] ; 28 April 1908 – 9 October 1974) was a German industrialist and humanitarian who is credited with saving the lives of 1,200 Jews during the Holocaust by employing them in his enamelware and ammunitions factories in German-occupied Poland and the Protectorate of Bohemia and Moravia. He is the subject of the 1982 novel Schindler's Ark and its 1993 film adaptation, Schindler's List.",

@@ -12,8 +12,8 @@
   "occupation": "Military personnel",
   "birth_country": "Greece",
   "civilizations": [
-    "Macedonian Empire",
-    "Ptolemaic Kingdom"
+    "Ptolemaic Kingdom",
+    "Macedonian Empire"
   ],
   "related": [],
   "contribution": "A Macedonian Greek general, historian, and successor of Alexander the Great who went on to found the Ptolemaic Kingdom centered in Egypt.",
@@ -22,14 +22,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Macedonian Empire",
+      "death": [
         "Ptolemaic Kingdom"
       ],
       "lead": [
         "Ptolemaic Kingdom"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Macedonian Empire",
+        "Ptolemaic Kingdom"
+      ],
       "birthplace": [
         "Macedonian Empire"
       ]

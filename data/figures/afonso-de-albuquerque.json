@@ -26,8 +26,8 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Portugal"
+      "death": [
+        "Bijapur Sultanate"
       ],
       "lead": [
         "Ayutthaya Kingdom",
@@ -35,7 +35,9 @@
         "Ming Dynasty",
         "Ethiopian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Portugal"
+      ],
       "birthplace": [
         "Kingdom of Portugal"
       ]

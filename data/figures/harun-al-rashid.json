@@ -21,11 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Abbasid Caliphate"
+      ],
+      "death": [
+        "Abbasid Caliphate"
+      ],
       "lead": [
         "Abbasid Caliphate"
       ],
-      "vital_section": [],
       "birthplace": [
         "Abbasid Caliphate"
       ]

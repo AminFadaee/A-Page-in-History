@@ -23,14 +23,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Prussia"
+      "death": [
+        "French Third Republic"
       ],
       "lead": [
         "Kingdom of Prussia",
         "Second French Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "German Confederation"
       ]

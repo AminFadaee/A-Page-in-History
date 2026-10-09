@@ -1,0 +1,34 @@
+{
+  "id": "Q2054",
+  "slug": "seneca-the-younger",
+  "name": "Seneca the Younger",
+  "wikipedia": "Seneca the Younger",
+  "role": "Roman Stoic philosopher, statesman and dramatist",
+  "life": "1st century BC – AD 65",
+  "lifetime": [
+    -13,
+    65
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Stoic philosopher of Ancient Rome, a statesman, a dramatist, and in one work a satirist from the post-Augustan age of Latin literature.",
+  "image": "images/seneca-the-younger.jpg",
+  "image_credit": "Calidius · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Lucius Annaeus Seneca the Younger ( SEN-ik-ə; c. 4 BC – AD 65), usually known mononymously as Seneca, was a Stoic philosopher of Ancient Rome, a statesman, a dramatist, and in one work (Apocolocyntosis) a satirist from the post-Augustan age of Latin literature.",
+    "photo": "no death year in or after 1860"
+  }
+}

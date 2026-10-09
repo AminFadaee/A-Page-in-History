@@ -1,0 +1,34 @@
+{
+  "id": "Q192238",
+  "slug": "guido-of-arezzo",
+  "name": "Guido of Arezzo",
+  "wikipedia": "Guido of Arezzo",
+  "role": "Italian music theorist and pedagogue",
+  "life": "c. 992–1050",
+  "lifetime": [
+    992,
+    1050
+  ],
+  "occupation": "Composer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "An Italian music theorist and pedagogue of High medieval music.",
+  "image": "images/guido-of-arezzo.jpg",
+  "image_credit": "The original uploader was Robbot at Dutch Wikipedia. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Guido of Arezzo (Italian: Guido d'Arezzo; c. 991–992 – after 1033) was an Italian music theorist and pedagogue of High medieval music. A monk from the Order of Saint Benedict, he is regarded as the inventor—or by some, developer—of the modern staff notation that had a massive influence on the development of Western musical notation and practice. Perhaps the most significant European writer on music between Boethius and Johannes Tinctoris, Guido wrote the Micrologus, the most widely distributed medieval treatise on music, after Boethius's De institutione musica.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -21,13 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Austria"
-      ],
       "lead": [
         "Austria-Hungary"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Austria"
+      ],
       "birthplace": [
         "Austria-Hungary"
       ]

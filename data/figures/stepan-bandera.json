@@ -12,12 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Ukraine",
   "civilizations": [
-    "Austria-Hungary",
-    "Second Polish Republic"
+    "Second Polish Republic",
+    "Federal Republic of Germany"
   ],
   "related": [
-    "Nazi Germany",
-    "Federal Republic of Germany"
+    "Nazi Germany"
   ],
   "contribution": "A Ukrainian far-right leader of the radical militant faction of the Organization of Ukrainian Nationalists, the OUN-B.",
   "image": "images/stepan-bandera.jpg",
@@ -25,19 +24,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Second Polish Republic",
-        "Austria-Hungary"
+      "death": [
+        "Federal Republic of Germany",
+        "United States of America"
       ],
       "lead": [
-        "Austria-Hungary",
         "Second Polish Republic",
         "Nazi Germany",
         "Federal Republic of Germany"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Austria-Hungary"
+      "citizenship": [
+        "Second Polish Republic"
       ]
     },
     "lead": "Stepan Andriiovych Bandera (1 January 1909 – 15 October 1959) was a Ukrainian far-right leader of the radical militant faction of the Organization of Ukrainian Nationalists, the OUN-B.",

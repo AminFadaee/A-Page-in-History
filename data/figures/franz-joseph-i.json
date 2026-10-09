@@ -12,12 +12,11 @@
   "occupation": "Politician",
   "birth_country": "Austria",
   "civilizations": [
-    "Austrian Empire"
+    "Austrian Empire",
+    "Austria-Hungary"
   ],
   "related": [
-    "Austria-Hungary",
     "German Confederation",
-    "Grand Duchy of Tuscany",
     "Kingdom of Sardinia",
     "Kingdom of Prussia",
     "Ottoman Empire",
@@ -30,21 +29,26 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Austrian Empire"
+      "office": [
+        "Austrian Empire",
+        "Austria-Hungary"
+      ],
+      "death": [
+        "Austria-Hungary"
       ],
       "lead": [
         "Austrian Empire",
         "Austria-Hungary",
         "German Confederation",
-        "Grand Duchy of Tuscany",
         "Kingdom of Sardinia",
         "Kingdom of Prussia",
         "Ottoman Empire",
         "Russian Empire",
         "Kingdom of Serbia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Austrian Empire"
+      ],
       "birthplace": [
         "Austrian Empire"
       ]

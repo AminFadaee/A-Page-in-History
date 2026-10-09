@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Ming Dynasty"
       ],
       "lead": [
         "Ming Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ming Dynasty"
+      ],
       "birthplace": [
         "Ming Dynasty"
       ]

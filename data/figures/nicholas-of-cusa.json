@@ -1,0 +1,34 @@
+{
+  "id": "Q154751",
+  "slug": "nicholas-of-cusa",
+  "name": "Nicholas of Cusa",
+  "wikipedia": "Nicholas of Cusa",
+  "role": "German cardinal and philosopher",
+  "life": "1401–1464",
+  "lifetime": [
+    1401,
+    1464
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "A German Catholic bishop and polymath active as a philosopher, theologian, jurist, mathematician, and astronomer.",
+  "image": "images/nicholas-of-cusa.jpg",
+  "image_credit": "Master of the Life of the Virgin · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ]
+    },
+    "lead": "Nicholas of Cusa (1401 – 11 August 1464), also referred to as Nicholas of Kues and Nicolaus Cusanus (), was a German Catholic bishop and polymath active as a philosopher, theologian, jurist, mathematician, and astronomer. One of the first German proponents of Renaissance humanism, he made spiritual and political contributions to European culture. A notable example of this is his mystical or spiritual writings on \"learned ignorance\", as well as his participation in power struggles between Rome and the German states of the Holy Roman Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

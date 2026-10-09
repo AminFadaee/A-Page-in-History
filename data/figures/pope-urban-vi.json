@@ -1,0 +1,46 @@
+{
+  "id": "Q171626",
+  "slug": "pope-urban-vi",
+  "name": "Pope Urban VI",
+  "wikipedia": "Pope Urban VI",
+  "role": "Head of the Catholic Church from 1378 to 1389",
+  "life": "c. 1318–1389",
+  "lifetime": [
+    1318,
+    1389
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "France",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [
+    "Crown of Castile",
+    "Crown of Aragon",
+    "Kingdom of Scotland"
+  ],
+  "contribution": "Head of the Catholic Church from 8 April 1378 to his death, in October 1389.",
+  "image": "images/pope-urban-vi.jpg",
+  "image_credit": "Kostisl · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Crown of Castile",
+        "Crown of Aragon",
+        "Kingdom of Scotland"
+      ],
+      "birthplace": [
+        "Comtat Venaissin"
+      ]
+    },
+    "lead": "Pope Urban VI (Latin: Urbanus VI; Italian: Urbano VI; c. 1318 – 15 October 1389), born Bartolomeo Prignano (Italian pronunciation: [bartoloˈmɛːo priɲˈɲaːno]), was head of the Catholic Church from 8 April 1378 to his death, in October 1389. He was the last pope elected from outside the College of Cardinals. His pontificate began shortly after the end of the Avignon Papacy. It was marked by immense conflict between rival factions as a part of the Western Schism, with much of Europe, such as France, the Iberian Kingdoms of Castile and Aragon, and Scotland recognizing Clement VII, based in Avignon, as the true pope.",
+    "photo": "no death year in or after 1860"
+  }
+}

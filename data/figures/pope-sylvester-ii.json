@@ -1,0 +1,40 @@
+{
+  "id": "Q172383",
+  "slug": "pope-sylvester-ii",
+  "name": "Pope Sylvester II",
+  "wikipedia": "Pope Sylvester II",
+  "role": "Head of the Catholic Church from 999 to 1003",
+  "life": "",
+  "lifetime": [
+    933,
+    1003
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "France",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "A scholar and teacher who served as the bishop of Rome and led the Papal States from 999 until his death in 1003.",
+  "image": "images/pope-sylvester-ii.jpg",
+  "image_credit": "Meister der Reichenauer Schule · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "West Franks"
+      ]
+    },
+    "lead": "Pope Sylvester II (Latin: Silvester II; c. 946 – 12 May 1003), originally known as Gerbert of Aurillac, was a scholar and teacher who served as the bishop of Rome and led the Papal States from 999 until his death in 1003. He endorsed and promoted study of Moorish and Greco-Roman arithmetic, mathematics and astronomy, reintroducing to Western Christendom the abacus, armillary sphere, and water organ, which had been lost to Latin Europe since the fall of the Western Roman Empire. He is said to be the first in Christian Europe (outside of Al-Andalus) to introduce the decimal numeral system using the Hindu–Arabic numeral system.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Q280856",
+  "slug": "george-vi",
+  "name": "George VI",
+  "wikipedia": "George VI",
+  "role": "King of the United Kingdom from 1936 to 1952",
+  "life": "1895–1952",
+  "lifetime": [
+    1895,
+    1952
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "British Raj",
+    "Commonwealth of Australia",
+    "Canada",
+    "New Zealand"
+  ],
+  "related": [
+    "British Colonial Empire",
+    "Nazi Germany",
+    "Kingdom of Italy",
+    "Empire of Japan"
+  ],
+  "contribution": "King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death in 1952.",
+  "image": "images/george-vi.jpg",
+  "image_credit": "Matson Photo Service · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Commonwealth of Australia",
+        "New Zealand",
+        "British Raj",
+        "Canada"
+      ],
+      "lead": [
+        "British Raj",
+        "British Colonial Empire",
+        "Nazi Germany",
+        "Kingdom of Italy",
+        "Empire of Japan"
+      ]
+    },
+    "lead": "George VI (Albert Frederick Arthur George; 14 December 1895 – 6 February 1952) was King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death in 1952. He was also the last Emperor of India from 1936 until the British Raj was dissolved in August 1947, though the title was only formally relinquished in June 1948. Following the London Declaration of 1949, he was the first Head of the Commonwealth.",
+    "photo": "captured Original: March 1938; This version: between 1940 and 1946date QS:P571,+1940-00-00T00:00:00Z/8,P1319,+1940-00-00T00:00:00Z/9,P1326,+1946-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

@@ -25,8 +25,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Tsardom of Russia",
+        "Russian Empire"
+      ],
+      "death": [
         "Russian Empire"
       ],
       "lead": [
@@ -35,7 +38,10 @@
         "Tsardom of Russia",
         "Russian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Tsardom of Russia",
+        "Russian Empire"
+      ],
       "birthplace": [
         "Tsardom of Russia"
       ]

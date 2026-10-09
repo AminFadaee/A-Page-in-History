@@ -1,0 +1,34 @@
+{
+  "id": "Q5586",
+  "slug": "hokusai",
+  "name": "Hokusai",
+  "wikipedia": "Hokusai",
+  "role": "Japanese artist",
+  "life": "1760–1849",
+  "lifetime": [
+    1760,
+    1849
+  ],
+  "occupation": "Artist",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Tokugawa Shogunate"
+  ],
+  "related": [],
+  "contribution": "A Japanese ukiyo-e artist of the Edo period, active as a painter and printmaker.",
+  "image": "images/hokusai.jpg",
+  "image_credit": "missing name · CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Tokugawa Shogunate"
+      ],
+      "birthplace": [
+        "Tokugawa Shogunate"
+      ]
+    },
+    "lead": "Katsushika Hokusai (葛飾 北斎; c. 31 October 1760 – 10 May 1849) was a Japanese ukiyo-e artist of the Edo period, active as a painter and printmaker. His woodblock print series Thirty-Six Views of Mount Fuji includes the iconic print The Great Wave off Kanagawa. Hokusai was instrumental in developing ukiyo-e from a style of portraiture largely focused on courtesans and actors into a much broader style of art that focused on landscapes, plants, and animals. His works had a significant influence on Vincent van Gogh and Claude Monet during the wave of Japonisme that spread across Europe in the late 19th century.",
+    "photo": "no death year in or after 1860"
+  }
+}

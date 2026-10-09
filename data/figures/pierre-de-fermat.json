@@ -1,0 +1,34 @@
+{
+  "id": "Q75655",
+  "slug": "pierre-de-fermat",
+  "name": "Pierre de Fermat",
+  "wikipedia": "Pierre de Fermat",
+  "role": "French mathematician and lawyer",
+  "life": "1607–1665",
+  "lifetime": [
+    1607,
+    1665
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French magistrate, polymath, and mathematician credited for early developments that led to infinitesimal calculus, including his technique of adequality.",
+  "image": "images/pierre-de-fermat.jpg",
+  "image_credit": "Rolland Lefebvre · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Pierre de Fermat (;  French: [pjɛʁ də fɛʁma]; 17 August 1601 – 12 January 1665) was a French magistrate, polymath, and mathematician credited for early developments that led to infinitesimal calculus, including his technique of adequality. In particular, he is recognized for his discovery of an original method of finding the greatest and the smallest ordinates of curved lines, which is analogous to that of differential calculus, then unknown, and his research into number theory. He made notable contributions to analytic geometry, probability, and optics. He is best known for his Fermat's principle for light propagation and his Fermat's Last Theorem in number theory, which he described in a note at the margin of a copy of Diophantus' Arithmetica. He was also a lawyer at the parlement of Toulouse, France, a poet, a skilled Latinist, and a Hellenist.",
+    "photo": "no death year in or after 1860"
+  }
+}

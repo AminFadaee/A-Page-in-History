@@ -12,22 +12,24 @@
   "occupation": "Politician",
   "birth_country": "Venezuela",
   "civilizations": [
-    "Bolivia",
     "Gran Colombia",
-    "Spanish Empire"
-  ],
-  "related": [
+    "Bolivia",
+    "Spanish Empire",
     "Republic of Peru"
   ],
+  "related": [],
   "contribution": "A Venezuelan military officer and statesman who led what are currently the countries of Bolivia, Colombia, Ecuador, Panama, Peru, and Venezuela to independence from the Spanish Empire.",
   "image": "images/simon-bolivar.jpg",
   "image_credit": "Ricardo Acevedo Bernal · Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Spain",
+      "office": [
         "Bolivia",
+        "Republic of Peru",
+        "Gran Colombia"
+      ],
+      "death": [
         "Gran Colombia"
       ],
       "lead": [
@@ -36,7 +38,11 @@
         "Spanish Empire",
         "Gran Colombia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Spain",
+        "Bolivia",
+        "Gran Colombia"
+      ],
       "birthplace": [
         "Spanish Empire"
       ]

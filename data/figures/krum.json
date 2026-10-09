@@ -21,14 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "First Bulgarian Empire"
       ],
       "lead": [
         "First Bulgarian Empire"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "First Bulgarian Empire"
+      ]
     },
     "lead": "Krum  (Bulgarian: Крум, Greek: Κροῦμος/Kroumos), often referred to as Krum the Fearsome (c. mid 8th century – 13 April 814), was the Khan of First Bulgarian Empire from sometime between 796 and 803 until his death in 814. During his reign the Bulgarian territory doubled in size, spreading from the middle Danube to the Dnieper and from Odrin to the Tatra Mountains. His able and energetic rule brought law and order to Bulgaria and developed the rudiments of state organization.",
     "photo": "no death year in or after 1860"

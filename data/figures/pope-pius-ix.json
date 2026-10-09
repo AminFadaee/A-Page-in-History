@@ -22,16 +22,20 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Italy",
+      "office": [
         "Papal States"
+      ],
+      "death": [
+        "Kingdom of Italy"
       ],
       "lead": [
         "Papal States",
         "Kingdom of Italy"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Kingdom of Italy",
+        "Papal States"
+      ]
     },
     "lead": "Pope Pius IX (Italian: Pio IX; born Giovanni Maria Battista Pietro Pellegrino Isidoro Mastai-Ferretti; 13 May 1792 – 7 February 1878) was head of the Catholic Church from 16 June 1846 until his death in February 1878.",
     "photo": "captured 13 May 1875 during their lifetime"

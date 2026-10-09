@@ -1,0 +1,37 @@
+{
+  "id": "Q160460",
+  "slug": "al-farabi",
+  "name": "Al-Farabi",
+  "wikipedia": "Al-Farabi",
+  "role": "Islamic philosopher and music theorist",
+  "life": "c. 870–951",
+  "lifetime": [
+    870,
+    951
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Afghanistan",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [],
+  "contribution": "An early Islamic philosopher and music theorist.",
+  "image": "images/al-farabi.jpg",
+  "image_credit": "Iraninhk · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Abbasid Caliphate"
+      ],
+      "citizenship": [
+        "Abbasid Caliphate"
+      ],
+      "birthplace": [
+        "Saffarid Dynasty"
+      ]
+    },
+    "lead": "Abu Nasr Muhammad al-Farabi (Arabic: أبو نصر محمد الفارابي, romanized: Abū Naṣr Muḥammad al-Fārābī; c. 870 – 14 December 950–12 January 951), known in the Latin West as Alpharabius, was an early Islamic philosopher and music theorist. He has been designated as \"Father of Islamic Neoplatonism\", and the \"Founder of Islamic Political Philosophy\".",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of England",
-    "Commonwealth of England"
+    "Commonwealth of England",
+    "Kingdom of England"
   ],
   "related": [],
   "contribution": "An English statesman and soldier, widely regarded as one of the most important figures in British history.",
@@ -22,14 +22,20 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of England",
+        "Commonwealth of England"
+      ],
+      "death": [
         "Commonwealth of England"
       ],
       "lead": [
         "Commonwealth of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of England",
+        "Commonwealth of England"
+      ],
       "birthplace": [
         "Kingdom of England"
       ]

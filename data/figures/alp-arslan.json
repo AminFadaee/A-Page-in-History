@@ -1,0 +1,34 @@
+{
+  "id": "Q200193",
+  "slug": "alp-arslan",
+  "name": "Alp Arslan",
+  "wikipedia": "Alp Arslan",
+  "role": "Sultan of the Seljuk Empire from 1063 to 1072",
+  "life": "1029–1072",
+  "lifetime": [
+    1029,
+    1072
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Great Seljuk Empire"
+  ],
+  "related": [],
+  "contribution": "The second sultan of the Seljuk Empire and great-grandson of Seljuk, the eponymous founder of the dynasty and the empire.",
+  "image": "images/alp-arslan.jpg",
+  "image_credit": "Hafiz-i Abru · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Great Seljuk Empire"
+      ],
+      "citizenship": [
+        "Great Seljuk Empire"
+      ]
+    },
+    "lead": "Alp Arslan (Persian: آلپ ارسلان; full name: Muhammad Alp Arslan bin Dawud Chaghri) was the second sultan of the Seljuk Empire and great-grandson of Seljuk, the eponymous founder of the dynasty and the empire. He reigned from 1063 until his assassination in 1072.",
+    "photo": "no death year in or after 1860"
+  }
+}

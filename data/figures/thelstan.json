@@ -12,26 +12,34 @@
   "occupation": "Politician",
   "birth_country": "United Kingdom",
   "civilizations": [
-    "Kingdom of Wessex"
-  ],
-  "related": [
+    "Kingdom of Wessex",
+    "Kingdom of England",
     "Kingdom of Mercia"
   ],
+  "related": [],
   "contribution": "King of the Anglo-Saxons from 924 to 927 and King of the English from 927 to his death in 939.",
   "image": "images/thelstan.jpg",
   "image_credit": "Arpingstone · Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Wessex",
+      "office": [
+        "Kingdom of England"
+      ],
+      "category": [
+        "Kingdom of Mercia"
+      ],
+      "death": [
         "Kingdom of England"
       ],
       "lead": [
         "Kingdom of Mercia",
         "Kingdom of Wessex"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Wessex",
+        "Kingdom of England"
+      ],
       "birthplace": [
         "Kingdom of Wessex"
       ]

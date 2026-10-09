@@ -12,9 +12,8 @@
   "occupation": "Engineer",
   "birth_country": "Poland",
   "civilizations": [
-    "Nazi Germany",
     "United States of America",
-    "German Empire"
+    "Nazi Germany"
   ],
   "related": [],
   "contribution": "A German American aerospace engineer and space architect.",
@@ -23,20 +22,21 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Nazi Germany",
-        "United States of America",
-        "German Empire",
-        "Weimar Republic",
-        "Federal Republic of Germany"
+      "category": [
+        "United States of America"
+      ],
+      "death": [
+        "United States of America"
       ],
       "lead": [
         "Nazi Germany",
         "United States of America"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "German Empire"
+      "citizenship": [
+        "Nazi Germany",
+        "United States of America",
+        "Weimar Republic",
+        "Federal Republic of Germany"
       ]
     },
     "lead": "Wernher Magnus Maximilian Freiherr von Braun (US:  VUR-nər von BROWN; German: [ˈvɛʁnheːɐ̯ fɔn ˈbʁaʊn]; 23 March 1912 – 16 June 1977) was a German American aerospace engineer and space architect. He led the development of German rocket technology in World War II, during which time he became a member of the Nazi Party and later the Allgemeine SS. Following the war, he relocated to the United States, developing missiles for the US Army and later designing rockets for NASA’s Apollo program.",

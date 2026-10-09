@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "North Korea",
   "civilizations": [
-    "Goryeo",
-    "Joseon"
+    "Joseon",
+    "Goryeo"
   ],
   "related": [
     "Ming Dynasty"
@@ -24,8 +24,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Goryeo",
+      "office": [
+        "Joseon"
+      ],
+      "death": [
         "Joseon"
       ],
       "lead": [
@@ -33,7 +35,10 @@
         "Goryeo",
         "Ming Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Goryeo",
+        "Joseon"
+      ],
       "birthplace": [
         "Yuan Dynasty"
       ]

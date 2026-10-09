@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "China",
   "civilizations": [
-    "Ming Dynasty",
-    "Later Jin Dynasty"
+    "Later Jin Dynasty",
+    "Ming Dynasty"
   ],
   "related": [
     "Joseon"
@@ -24,8 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Ming Dynasty",
+      "death": [
         "Later Jin Dynasty"
       ],
       "lead": [
@@ -33,8 +32,10 @@
         "Ming Dynasty",
         "Joseon"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Ming Dynasty",
+        "Later Jin Dynasty"
+      ]
     },
     "lead": "Nurhaci (14 May 1559 – 30 September 1626), also known by his temple name Emperor Taizu of Qing, was the founding khan of the Jurchen-led Later Jin dynasty.",
     "photo": "no death year in or after 1860"

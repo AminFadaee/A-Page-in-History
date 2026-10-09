@@ -1,0 +1,37 @@
+{
+  "id": "Q1423",
+  "slug": "domitian",
+  "name": "Domitian",
+  "wikipedia": "Domitian",
+  "role": "Roman emperor from AD 81 to 96",
+  "life": "51–96",
+  "lifetime": [
+    51,
+    96
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Roman emperor from 81 to 96.",
+  "image": "images/domitian.jpg",
+  "image_credit": "Castro Pretorio · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Roman Empire"
+      ],
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Domitian (  də-MISH-ən, -⁠ee-ən; Latin: Domitianus; 24 October 51 – 18 September 96) was Roman emperor from 81 to 96. As the son of Vespasian and the younger brother of Titus, his two predecessors on the throne, he was the last member of the Flavian dynasty. Described by the historian Brian W. Jones as \"a ruthless but efficient autocrat\", his authoritarian style of ruling put him at sharp odds with the Senate, whose powers he drastically curtailed.",
+    "photo": "no death year in or after 1860"
+  }
+}

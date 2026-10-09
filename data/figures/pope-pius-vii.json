@@ -23,14 +23,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Papal States"
+      ],
+      "death": [
         "Papal States"
       ],
       "lead": [
         "Papal States",
         "First French Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Papal States"
+      ],
       "birthplace": [
         "Papal States"
       ]

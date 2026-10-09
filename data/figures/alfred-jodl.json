@@ -21,11 +21,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "United States of America"
+      ],
+      "citizenship": [
         "Weimar Republic",
         "Nazi Germany"
       ],
-      "lead": [],
       "vital_section": [
         "Nazi Germany"
       ],

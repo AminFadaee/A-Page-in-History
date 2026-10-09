@@ -1,0 +1,37 @@
+{
+  "id": "Q134309",
+  "slug": "charles-ix-of-france",
+  "name": "Charles IX of France",
+  "wikipedia": "Charles IX of France",
+  "role": "King of France from 1560 to 1574",
+  "life": "1550–1574",
+  "lifetime": [
+    1550,
+    1574
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "King of France from 1560 until his death in 1574.",
+  "image": "images/charles-ix-of-france.jpg",
+  "image_credit": "Didier Descouens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles IX (Charles Maximilien; 27 June 1550 – 30 May 1574) was King of France from 1560 until his death in 1574. He ascended the French throne upon the death of his brother Francis II in 1560, and as such was the penultimate monarch of the House of Valois.",
+    "photo": "no death year in or after 1860"
+  }
+}

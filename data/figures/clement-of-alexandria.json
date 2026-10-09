@@ -1,0 +1,34 @@
+{
+  "id": "Q188883",
+  "slug": "clement-of-alexandria",
+  "name": "Clement of Alexandria",
+  "wikipedia": "Clement of Alexandria",
+  "role": "Christian theologian",
+  "life": "c. 150–215",
+  "lifetime": [
+    150,
+    215
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Christian theologian and philosopher who taught at the Catechetical School of Alexandria.",
+  "image": "images/clement-of-alexandria.jpg",
+  "image_credit": "André Thévet · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Titus Flavius Clemens, also known as Clement of Alexandria (Ancient Greek: Κλήμης ὁ Ἀλεξανδρεύς; c. 147 – c. 215 AD), was a Christian theologian and philosopher who taught at the Catechetical School of Alexandria. Among his pupils were Origen and Alexander of Jerusalem. A convert to Christianity, he was an educated man who was familiar with classical Greek philosophy and literature. As his three major works demonstrate, Clement was influenced by Hellenistic philosophy to a greater extent than any other Christian thinker of his time, and in particular, by Plato and the Stoics. His secret works, which exist only in fragments, suggest that he was familiar with pre-Christian Jewish esotericism and Gnosticism as well. In one of his works he argued that Greek philosophy had its origin among non-Greeks, claiming that both Plato and Pythagoras were taught by Egyptian scholars.",
+    "photo": "no death year in or after 1860"
+  }
+}

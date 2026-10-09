@@ -23,7 +23,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Federal Republic of Germany"
+      ],
       "lead": [
         "Nazi Germany",
         "Malta"

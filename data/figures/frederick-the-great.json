@@ -24,7 +24,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of Prussia"
+      ],
+      "death": [
         "Kingdom of Prussia"
       ],
       "lead": [
@@ -32,9 +35,10 @@
         "Polish-Lithuanian Commonwealth",
         "Habsburg Monarchy"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
-        "Brandenburg-Prussia",
         "Kingdom of Prussia"
       ]
     },

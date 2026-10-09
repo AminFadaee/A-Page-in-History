@@ -1,0 +1,37 @@
+{
+  "id": "Q160609",
+  "slug": "pope-innocent-iv",
+  "name": "Pope Innocent IV",
+  "wikipedia": "Pope Innocent IV",
+  "role": "Head of the Catholic Church from 1243 to 1254",
+  "life": "",
+  "lifetime": [
+    1184,
+    1254
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 25 June 1243 to his death in 1254.",
+  "image": "images/pope-innocent-iv.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "citizenship": [
+        "Republic of Genoa"
+      ]
+    },
+    "lead": "Pope Innocent IV (Latin: Innocentius IV; c. 1195 – 7 December 1254), born Sinibaldo Fieschi, was head of the Catholic Church and ruler of the Papal States from 25 June 1243 to his death in 1254.",
+    "photo": "no death year in or after 1860"
+  }
+}

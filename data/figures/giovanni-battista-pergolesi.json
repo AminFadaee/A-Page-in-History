@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "Papal States"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Papal States"
       ]

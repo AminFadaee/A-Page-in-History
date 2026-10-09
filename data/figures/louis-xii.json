@@ -1,0 +1,44 @@
+{
+  "id": "Q58514",
+  "slug": "louis-xii",
+  "name": "Louis XII",
+  "wikipedia": "Louis XII",
+  "role": "King of France from 1498 to 1515",
+  "life": "1462–1515",
+  "lifetime": [
+    1462,
+    1515
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of Naples",
+    "Duchy of Milan"
+  ],
+  "contribution": "King of France from 1498 to 1515 and King of Naples from 1501 to 1504.",
+  "image": "images/louis-xii.jpg",
+  "image_credit": "Workshop of Jean Perréal · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of Naples",
+        "Duchy of Milan"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis XII (27 June 1462 – 1 January 1515), also known as Louis of Orléans, was King of France from 1498 to 1515 and King of Naples (as Louis III) from 1501 to 1504. The son of Charles I, Duke of Orléans, and Marie of Cleves, he succeeded his second cousin once removed and brother-in-law, Charles VIII, who died childless in 1498.",
+    "photo": "no death year in or after 1860"
+  }
+}

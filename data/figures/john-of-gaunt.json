@@ -1,0 +1,40 @@
+{
+  "id": "Q193752",
+  "slug": "john-of-gaunt",
+  "name": "John of Gaunt",
+  "wikipedia": "John of Gaunt",
+  "role": "English prince and regent",
+  "life": "1340–1399",
+  "lifetime": [
+    1340,
+    1399
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Belgium",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Crown of Castile"
+  ],
+  "contribution": "An English prince, military leader and statesman.",
+  "image": "images/john-of-gaunt.jpg",
+  "image_credit": "Said variously to be attributed to Lucas Cornelisz de Kock (1495–1552) (who however died 41 years before the painting is said (by Oliver Harris, 2010) to have been commissioned, sometimes erroneously ascribed to Luca Cornelli. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Crown of Castile",
+        "Kingdom of England"
+      ],
+      "birthplace": [
+        "County of Flanders"
+      ]
+    },
+    "lead": "John of Gaunt, Duke of Lancaster (6 March 1340 – 3 February 1399), was an English prince, military leader and statesman. He was the fourth son (third surviving) of King Edward III, and the father of King Henry IV. Because of Gaunt's royal origin, advantageous marriages and some generous land grants, he was one of the richest men of his era and an influential figure during the reigns of both his father and his nephew, Richard II. As Duke of Lancaster, he was the founder of the royal House of Lancaster, whose members ascended the throne after his death. His birthplace, Ghent in Flanders, then known in English as Gaunt, was the origin of his name.",
+    "photo": "no death year in or after 1860"
+  }
+}

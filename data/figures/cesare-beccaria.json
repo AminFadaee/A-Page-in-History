@@ -1,0 +1,34 @@
+{
+  "id": "Q223723",
+  "slug": "cesare-beccaria",
+  "name": "Cesare Beccaria",
+  "wikipedia": "Cesare Beccaria",
+  "role": "Italian jurist and criminologist",
+  "life": "1738–1794",
+  "lifetime": [
+    1738,
+    1794
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [],
+  "contribution": "An Italian criminologist, jurist, philosopher, economist, and politician.",
+  "image": "images/cesare-beccaria.jpg",
+  "image_credit": "Eliseo Sala · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Habsburg Monarchy"
+      ],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Cesare Beccaria Bonesana, Marquis of Gualdrasco and Villareggio (Italian: [ˈtʃeːzare bekkaˈriːa, ˈtʃɛː-]; 15 March 1738 – 28 November 1794) was an Italian criminologist, jurist, philosopher, economist, and politician. He is well remembered for his treatise On Crimes and Punishments (1764), which condemned torture and the death penalty, and was a founding work in the field of penology and the classical school of criminology. Beccaria is considered the father of modern criminal law and the father of criminal justice.",
+    "photo": "no death year in or after 1860"
+  }
+}

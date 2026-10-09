@@ -12,8 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "Iraq",
   "civilizations": [
-    "Parthian Empire",
-    "Sasanian Empire"
+    "Sasanian Empire",
+    "Parthian Empire"
   ],
   "related": [],
   "contribution": "An Iranian prophet and the founder of Manichaeism, a religion most prevalent in late antiquity.",
@@ -22,15 +22,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Parthian Empire",
+      "death": [
         "Sasanian Empire"
       ],
       "lead": [
         "Parthian Empire",
         "Sasanian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Parthian Empire",
+        "Sasanian Empire"
+      ],
       "birthplace": [
         "Parthian Empire"
       ]

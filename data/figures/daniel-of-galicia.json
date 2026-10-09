@@ -12,30 +12,33 @@
   "occupation": "Politician",
   "birth_country": "Ukraine",
   "civilizations": [
+    "Kievan Rus'",
     "Halych-Volhynia occupation",
-    "Kievan Rus'"
+    "Principality of Kiev"
   ],
-  "related": [
-    "Principality of Volhynia"
-  ],
+  "related": [],
   "contribution": "Prince of Galicia, Volhynia, Grand Prince of Kiev, and King of Ruthenia.",
   "image": "images/daniel-of-galicia.jpg",
   "image_credit": "Anonymous Russian manuscript illuminators, 1560-1570s Facial Chronicle (Illustrated Chronicle of Ivan the Terrible) (in 10 volumes: pdf, pdf with translation)Public domain image · Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Halych-Volhynia occupation"
+      "office": [
+        "Principality of Kiev",
+        "Kievan Rus'"
+      ],
+      "death": [
+        "Mongol Empire"
       ],
       "lead": [
-        "Principality of Volhynia",
         "Halych-Volhynia occupation",
         "Kievan Rus'"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Halych-Volhynia occupation"
+      ],
       "birthplace": [
-        "Kievan Rus'",
-        "Principality of Halych"
+        "Kievan Rus'"
       ]
     },
     "lead": "Daniel Romanovich (1201–1266) was Prince of Galicia (1205–1207; 1211–1212; 1230–1232; 1233–1234; 1238–1266), Volhynia (1205–1208; 1215–1238), Grand Prince of Kiev (1240), and King of Ruthenia (1253–1266). He was the son of Roman Mstislavich of Volhynia and Anne-Euphrosyne, the daughter of Byzantine emperor Isaac II Angelos.",

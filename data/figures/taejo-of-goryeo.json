@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Goryeo"
       ],
       "lead": [
         "Goryeo"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Goryeo"
+      ],
       "birthplace": [
         "Unified Silla"
       ]

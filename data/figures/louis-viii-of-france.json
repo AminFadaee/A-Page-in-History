@@ -1,0 +1,44 @@
+{
+  "id": "Q165284",
+  "slug": "louis-viii-of-france",
+  "name": "Louis VIII of France",
+  "wikipedia": "Louis VIII of France",
+  "role": "King of France from 1223 to 1226",
+  "life": "1187–1226",
+  "lifetime": [
+    1187,
+    1226
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of England",
+    "Angevin Empire"
+  ],
+  "contribution": "King of France from 1223 to 1226.",
+  "image": "images/louis-viii-of-france.jpg",
+  "image_credit": "Grandes Chroniques de France · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of England",
+        "Angevin Empire"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis VIII (5 September 1187 – 8 November 1226), nicknamed The Lion (French: Le Lion), was King of France from 1223 to 1226. As a prince, he invaded England on 21 May 1216 and was excommunicated by a papal legate on 29 May 1216. On 2 June 1216, Louis was proclaimed \"King of England\" by rebellious barons in London, though never crowned. With the assistance of allies in England and Scotland he gained control of approximately one third of the English kingdom and part of southern Wales. He was eventually defeated by English loyalists and those barons who swapped sides following the death of King John. After the Treaty of Lambeth, he was paid 10,000 marks, pledged never to invade England again, and was absolved of his excommunication.",
+    "photo": "no death year in or after 1860"
+  }
+}

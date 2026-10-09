@@ -1,0 +1,37 @@
+{
+  "id": "Q157052",
+  "slug": "emperor-taisho",
+  "name": "Emperor Taishō",
+  "wikipedia": "Emperor Taishō",
+  "role": "Emperor of Japan from 1912 to 1926",
+  "life": "1879–1926",
+  "lifetime": [
+    1879,
+    1926
+  ],
+  "occupation": "Public worker",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Empire of Japan"
+  ],
+  "related": [],
+  "contribution": "Emperor of Japan from 29 July 1912 until his death in 1926.",
+  "image": "images/emperor-taisho.jpg",
+  "image_credit": "Ministry of the Imperial Household · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Empire of Japan"
+      ],
+      "death": [
+        "Empire of Japan"
+      ],
+      "birthplace": [
+        "Empire of Japan"
+      ]
+    },
+    "lead": "Emperor Taishō (31 August 1879 – 25 December 1926), personal name (imina) Yoshihito, was Emperor of Japan from 29 July 1912 until his death in 1926. His reign was marked by a domestic political shift toward liberal democracy, called Taishō Democracy. He oversaw Japan's participation in World War I on the side of the Allies, the Spanish flu epidemic, and the Great Kantō Earthquake of 1923. His poor health limited his public duties and contributed to his death at age 47.",
+    "photo": "captured 1912 during their lifetime"
+  }
+}

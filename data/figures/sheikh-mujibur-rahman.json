@@ -12,9 +12,9 @@
   "occupation": "Politician",
   "birth_country": "Bangladesh",
   "civilizations": [
+    "People's Republic of Bangladesh",
     "British Raj",
-    "Islamic Republic of Pakistan",
-    "People's Republic of Bangladesh"
+    "Islamic Republic of Pakistan"
   ],
   "related": [
     "Union of Soviet Socialist Republics"
@@ -25,9 +25,10 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "British Raj",
-        "Islamic Republic of Pakistan",
+      "office": [
+        "People's Republic of Bangladesh"
+      ],
+      "death": [
         "People's Republic of Bangladesh"
       ],
       "lead": [
@@ -36,7 +37,11 @@
         "Islamic Republic of Pakistan",
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "British Raj",
+        "Islamic Republic of Pakistan",
+        "People's Republic of Bangladesh"
+      ],
       "birthplace": [
         "British Raj"
       ]

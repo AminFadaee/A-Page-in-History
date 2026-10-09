@@ -23,16 +23,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of Scotland"
+      ],
+      "death": [
         "Kingdom of Scotland"
       ],
       "lead": [
         "Kingdom of Scotland",
         "Kingdom of England"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Kingdom of Alba"
+      "citizenship": [
+        "Kingdom of Scotland"
       ]
     },
     "lead": "Robert I (11 July 1274 – 7 June 1329), popularly known as Robert the Bruce (Scottish Gaelic: Raibeart am Brusach), was King of Scots from 1306 until his death in 1329. Robert led Scotland during the First War of Scottish Independence against England. He fought successfully during his reign to restore Scotland to an independent kingdom and is regarded in Scotland as a national hero. Robert was a fourth-great-grandson of King David I of Scotland, and his grandfather, Robert de Brus, 5th Lord of Annandale, was one of the claimants to the Scottish throne during the \"Great Cause\".",

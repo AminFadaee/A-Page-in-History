@@ -1,0 +1,44 @@
+{
+  "id": "Q134452",
+  "slug": "charles-viii-of-france",
+  "name": "Charles VIII of France",
+  "wikipedia": "Charles VIII of France",
+  "role": "King of France from 1483 to 1498",
+  "life": "1470–1498",
+  "lifetime": [
+    1470,
+    1498
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of Hungary",
+    "Habsburg Monarchy"
+  ],
+  "contribution": "King of France from 1483 to his death in 1498.",
+  "image": "images/charles-viii-of-france.jpg",
+  "image_credit": "After Jean Perréal · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of Hungary",
+        "Habsburg Monarchy"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles VIII (30 June 1470 – 7 April 1498), called the Affable (French: l'Affable), was King of France from 1483 to his death in 1498. He succeeded his father Louis XI at the age of 13. His elder sister Anne acted as regent jointly with her husband Peter II, Duke of Bourbon until 1491, when the young king turned 21 years of age. During Anne's regency, the great lords rebelled against royal centralisation efforts in a conflict known as the Mad War (1485–1488), which resulted in a victory for the royal government.",
+    "photo": "no death year in or after 1860"
+  }
+}

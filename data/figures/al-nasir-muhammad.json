@@ -21,13 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Mamluk Sultanate"
+      ],
+      "death": [
         "Mamluk Sultanate"
       ],
       "lead": [
         "Mamluk Sultanate"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Mamluk Sultanate"
+      ],
       "birthplace": [
         "Mamluk Sultanate"
       ]

@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Akkadian Empire"
+      ],
       "lead": [
         "Akkadian Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Akkadian Empire"
       ]

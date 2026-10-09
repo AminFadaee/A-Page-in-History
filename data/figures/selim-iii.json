@@ -1,0 +1,34 @@
+{
+  "id": "Q199633",
+  "slug": "selim-iii",
+  "name": "Selim III",
+  "wikipedia": "Selim III",
+  "role": "Sultan of the Ottoman Empire from 1789 to 1807",
+  "life": "1761–1808",
+  "lifetime": [
+    1761,
+    1808
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "The sultan of the Ottoman Empire from 1789 to 1807.",
+  "image": "images/selim-iii.jpg",
+  "image_credit": "Konstantin Kapıdağlı · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "citizenship": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Selim III (Ottoman Turkish: سليم ثالث, romanized: Selim-i sâlis; Turkish: III. Selim; 24 December 1761 – 28 July 1808) was the sultan of the Ottoman Empire from 1789 to 1807. Regarded as an enlightened ruler, he was eventually deposed and imprisoned by the Janissaries, who placed his cousin Mustafa on the throne as Mustafa IV (r. 1807–1808). A group of assassins subsequently killed Selim.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Q936976",
+  "slug": "henry-iv-of-france",
+  "name": "Henry IV of France",
+  "wikipedia": "Henry IV of France",
+  "role": "King of France from 1589 to 1610",
+  "life": "1553–1610",
+  "lifetime": [
+    1553,
+    1610
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Dutch Republic"
+  ],
+  "contribution": "King of Navarre from 1572 and King of France from 1589 to 1610.",
+  "image": "images/henry-iv-of-france.jpg",
+  "image_credit": "Frans Pourbus the Younger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Dutch Republic"
+      ],
+      "citizenship": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Henry IV (French: Henri IV; 13 December 1553 – 14 May 1610), also known by the epithets Good King Henry (le Bon Roi Henri) or Henry the Great (Henri le Grand), was King of Navarre (as Henry III) from 1572 and King of France from 1589 to 1610. He was the first monarch of France from the House of Bourbon, a cadet branch of the Capetian dynasty. He pragmatically balanced the interests of the Catholic and Protestant parties in France, as well as among the European states. He was assassinated in Paris in 1610 by a Catholic zealot, and was succeeded by his son Louis XIII.",
+    "photo": "no death year in or after 1860"
+  }
+}

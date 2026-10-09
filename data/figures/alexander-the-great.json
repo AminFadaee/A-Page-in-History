@@ -23,14 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Macedonian Empire"
       ],
       "lead": [
         "Macedonian Empire",
         "Achaemenid Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Macedonian Empire"
+      ],
       "birthplace": [
         "Macedonian Empire"
       ]

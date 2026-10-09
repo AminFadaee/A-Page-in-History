@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of Northumbria"
       ],
       "lead": [
         "Kingdom of Northumbria"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Northumbria"
+      ],
       "birthplace": [
         "Kingdom of Northumbria"
       ]

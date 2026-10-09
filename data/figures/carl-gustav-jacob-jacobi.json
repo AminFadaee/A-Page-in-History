@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "German Confederation"
+      ],
+      "citizenship": [
         "Kingdom of Prussia"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Prussia"
       ]

@@ -21,14 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Dutch Republic"
-      ],
       "lead": [
         "Dutch Republic"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Dutch Republic"
+      ]
     },
     "lead": "Willem Barentsz (Dutch pronunciation: [ˈʋɪləm ˈbaːrənts]; c. 1550 – 20 June 1597), anglicized as William Barents or Barentz, was a Dutch navigator, cartographer, and Arctic explorer.",
     "photo": "no death year in or after 1860"

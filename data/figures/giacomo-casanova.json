@@ -23,15 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Venice"
+      "death": [
+        "Habsburg Monarchy"
       ],
       "lead": [
         "Republic of Venice",
         "Kingdom of France"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Republic of Venice"
+      ]
     },
     "lead": "Giacomo Girolamo Casanova (; Italian: [ˈdʒaːkomo dʒiˈrɔːlamo kazaˈnɔːva, kasa-]; 2 April 1725 – 4 June 1798) was an Italian adventurer and writer who was born in the Republic of Venice and travelled extensively throughout Europe. He is chiefly remembered for his autobiography, written in French and published posthumously as  Histoire de ma vie (\"The Story of My Life\").  That work has come to be regarded as a unique and provocative source of information on the customs and norms of European social life in the 18th century.",
     "photo": "no death year in or after 1860"

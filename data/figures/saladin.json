@@ -1,0 +1,47 @@
+{
+  "id": "Q8581",
+  "slug": "saladin",
+  "name": "Saladin",
+  "wikipedia": "Saladin",
+  "role": "Founder of the Ayyubid dynasty",
+  "life": "1138–1193",
+  "lifetime": [
+    1138,
+    1193
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Ayyubid Sultanate"
+  ],
+  "related": [
+    "Fatimid Caliphate",
+    "Zengid dynasty",
+    "Kingdom of Jerusalem"
+  ],
+  "contribution": "The founder of the Ayyubid dynasty and the first sultan of both Egypt and Syria.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ayyubid Sultanate"
+      ],
+      "death": [
+        "Ayyubid Sultanate"
+      ],
+      "lead": [
+        "Ayyubid Sultanate",
+        "Fatimid Caliphate",
+        "Zengid dynasty",
+        "Kingdom of Jerusalem"
+      ],
+      "birthplace": [
+        "Great Seljuk Empire"
+      ]
+    },
+    "lead": "Salah ad-Din Yusuf ibn Ayyub (c. 1137 – 4 March 1193), commonly known as Saladin, was the founder of the Ayyubid dynasty and the first sultan of both Egypt and Syria. A Sunni Muslim ruler of Kurdish origin, Saladin was an important figure of the Third Crusade and spearheaded the Muslim military effort against the Crusader states in the Levant. At the height of his power, the Ayyubid realm spanned Egypt, Syria, Upper Mesopotamia, the Hejaz, Yemen, and Nubia.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

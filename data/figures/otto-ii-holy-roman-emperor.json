@@ -23,18 +23,21 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Holy Roman Empire"
+      ],
+      "death": [
+        "Papal States"
       ],
       "lead": [
         "Holy Roman Empire",
         "Fatimid Caliphate"
       ],
-      "vital_section": [
+      "citizenship": [
         "Holy Roman Empire"
       ],
-      "birthplace": [
-        "Kingdom of Germany"
+      "vital_section": [
+        "Holy Roman Empire"
       ]
     },
     "lead": "Otto II (955 – 7 December 983), called the Red (German: der Rote), was Holy Roman Emperor from 973 until his death in 983. A member of the Ottonian dynasty, he was the youngest and sole surviving son of Otto the Great and Adelaide of Italy.",

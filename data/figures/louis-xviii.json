@@ -12,13 +12,14 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "Bourbon Kingdom of France",
+    "Principality of Andorra"
   ],
   "related": [
     "First French Empire",
     "Kingdom of Prussia",
-    "Russian Empire",
-    "Bourbon Kingdom of France"
+    "Russian Empire"
   ],
   "contribution": "King of France from 1814 to 1824, except for a brief interruption during the Hundred Days in 1815.",
   "image": "images/louis-xviii.jpg",
@@ -26,8 +27,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of France"
+      "office": [
+        "Principality of Andorra"
+      ],
+      "death": [
+        "Bourbon Kingdom of France"
       ],
       "lead": [
         "First French Empire",
@@ -35,7 +39,9 @@
         "Russian Empire",
         "Bourbon Kingdom of France"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

@@ -1,0 +1,42 @@
+{
+  "id": "Q174964",
+  "slug": "charles-iv-of-france",
+  "name": "Charles IV of France",
+  "wikipedia": "Charles IV of France",
+  "role": "King of France and Navarre from 1322 to 1328",
+  "life": "1294–1328",
+  "lifetime": [
+    1294,
+    1328
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "County of Flanders"
+  ],
+  "contribution": "The last king of the direct line of the House of Capet, King of France and King of Navarre from 1322 to 1328.",
+  "image": "images/charles-iv-of-france.jpg",
+  "image_credit": "Jean de Liège · CC BY 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "County of Flanders"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles IV (18/19 June 1294 – 1 February 1328), called the Fair (le Bel) in France and the Bald (el Calvo) in Navarre, was the last king of the direct line of the House of Capet, King of France and King of Navarre (as Charles I) from 1322 to 1328. Charles was the third son of Philip IV; like his father, he was known as \"the fair\" or \"the handsome\".",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q35149",
+  "slug": "wilhelm-rontgen",
+  "name": "Wilhelm Röntgen",
+  "wikipedia": "Wilhelm Röntgen",
+  "role": "German physicist",
+  "life": "1845–1923",
+  "lifetime": [
+    1845,
+    1923
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Weimar Republic"
+  ],
+  "related": [],
+  "contribution": "A German experimental physicist who produced and detected electromagnetic radiation in a wavelength range known as X-rays.",
+  "image": "images/wilhelm-rontgen.jpg",
+  "image_credit": "Erwin Hanfstaengl · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Weimar Republic"
+      ],
+      "citizenship": [
+        "Weimar Republic",
+        "German Empire"
+      ],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Wilhelm Conrad Röntgen (27 March 1845 – 10 February 1923) was a German experimental physicist who produced and detected electromagnetic radiation in a wavelength range known as X-rays (known as Röntgen rays in many languages). In 1901, Röntgen became the first recipient of the Nobel Prize in Physics \"in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him.\" The element roentgenium is named in his honor.",
+    "photo": "capture date 'from 1888 until 1900date QS:P,+1500-00-00T00:00:00Z/6,P580,+1888-00-00T00:00:00Z/9,P582,+1900-00-00T00:00:00Z/9' not within their lifetime and not classified as a photograph"
+  }
+}

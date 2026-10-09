@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Northern Song"
+      ],
       "lead": [
         "Northern Song"
       ],
-      "vital_section": [],
       "birthplace": [
         "Northern Song"
       ]

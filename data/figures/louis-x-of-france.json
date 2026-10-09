@@ -1,0 +1,37 @@
+{
+  "id": "Q8384",
+  "slug": "louis-x-of-france",
+  "name": "Louis X of France",
+  "wikipedia": "Louis X of France",
+  "role": "King of France and Navarre",
+  "life": "1289–1316",
+  "lifetime": [
+    1289,
+    1316
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "King of France from 1314 and King of Navarre from 1305 until his death.",
+  "image": "images/louis-x-of-france.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of France"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis X (4 October 1289 – 5 June 1316), known as the Quarrelsome (French: le Hutin), was King of France from 1314 and King of Navarre (as Louis I) from 1305 until his death. He emancipated serfs, who could buy their freedom, and readmitted Jews into the kingdom. His short reign in France was marked by tensions with the nobility, due to fiscal and centralisation reforms initiated during the reign of his father by Grand Chamberlain Enguerrand de Marigny.",
+    "photo": "no death year in or after 1860"
+  }
+}

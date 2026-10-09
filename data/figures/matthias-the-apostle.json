@@ -1,0 +1,34 @@
+{
+  "id": "Q44020",
+  "slug": "matthias-the-apostle",
+  "name": "Matthias the Apostle",
+  "wikipedia": "Matthias the Apostle",
+  "role": "Apostle of Jesus",
+  "life": "1st century BC – c. AD 80",
+  "lifetime": [
+    -98,
+    80
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Israel",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "An apostle in Christianity.",
+  "image": "images/matthias-the-apostle.jpg",
+  "image_credit": "Workshop of Simone Martini · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Matthias (; Koine Greek: Μαθθίας, Matthías [maθˈθi.as], from Hebrew מַתִּתְיָהוּ Mattiṯyāhū; Coptic: ⲙⲁⲑⲓⲁⲥ; born c. 1st century AD - died c. AD 80) was an apostle in Christianity. According to the Acts of the Apostles, he was chosen by God through the remaining apostles to replace Judas Iscariot following the latter's betrayal of Jesus and his subsequent death. His calling as an apostle is unique, in that he was, despite having known Jesus throughout the latter's earthly history, selected via the casting of lots following Jesus' ascension to heaven.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -12,8 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "Belarus",
   "civilizations": [
-    "Polish-Lithuanian Commonwealth",
-    "Russian Empire"
+    "Russian Empire",
+    "Polish-Lithuanian Commonwealth"
   ],
   "related": [],
   "contribution": "A Lithuanian Jewish talmudist, halakhist, kabbalist, and the foremost leader of misnagdic Jewry of the past few centuries.",
@@ -22,15 +22,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Polish-Lithuanian Commonwealth",
+      "death": [
         "Russian Empire"
       ],
       "lead": [
         "Polish-Lithuanian Commonwealth",
         "Russian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Polish-Lithuanian Commonwealth",
+        "Russian Empire"
+      ],
       "birthplace": [
         "Polish-Lithuanian Commonwealth"
       ]

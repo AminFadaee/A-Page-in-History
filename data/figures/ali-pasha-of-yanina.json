@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Ottoman Empire"
       ],
       "lead": [
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Ottoman Empire"
       ]

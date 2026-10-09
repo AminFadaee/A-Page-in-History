@@ -23,14 +23,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Safavid Dynasty"
+      ],
+      "death": [
         "Safavid Dynasty"
       ],
       "lead": [
         "Safavid Dynasty",
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Safavid Dynasty"
+      ],
       "birthplace": [
         "Aq Qoyunlu"
       ]

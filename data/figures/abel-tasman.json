@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Sultanate of Banten"
+      ],
+      "citizenship": [
         "Dutch Republic"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Dutch Republic"
       ]

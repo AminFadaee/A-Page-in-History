@@ -23,13 +23,15 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Portugal"
+      "death": [
+        "Estado Novo"
       ],
       "lead": [
         "Republic of India"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Portugal"
+      ],
       "birthplace": [
         "Kingdom of Portugal"
       ]

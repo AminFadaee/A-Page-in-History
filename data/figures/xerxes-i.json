@@ -21,13 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Achaemenid Empire"
+      ],
+      "death": [
         "Achaemenid Empire"
       ],
       "lead": [
         "Achaemenid Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Achaemenid Empire"
+      ],
       "birthplace": [
         "Achaemenid Empire"
       ]

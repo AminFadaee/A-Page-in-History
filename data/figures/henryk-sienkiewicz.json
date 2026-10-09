@@ -23,14 +23,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire"
+      "death": [
+        "Swiss Confederation"
       ],
       "lead": [
         "Russian Empire",
         "United States of America"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

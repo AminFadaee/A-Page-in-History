@@ -1,0 +1,40 @@
+{
+  "id": "Q131579",
+  "slug": "pope-urban-viii",
+  "name": "Pope Urban VIII",
+  "wikipedia": "Pope Urban VIII",
+  "role": "Head of the Catholic Church from 1623 to 1644",
+  "life": "1568–1644",
+  "lifetime": [
+    1568,
+    1644
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 6 August 1623 to his death, in July 1644.",
+  "image": "images/pope-urban-viii.jpg",
+  "image_credit": "Pietro da Cortona · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Republic of Florence"
+      ]
+    },
+    "lead": "Pope Urban VIII (Latin: Urbanus VIII; Italian: Urbano VIII; baptised 5 April 1568 – 29 July 1644), born Maffeo Vincenzo Barberini, was head of the Catholic Church and ruler of the Papal States from 6 August 1623 to his death, in July 1644. As pope, he expanded the papal territory by force of arms and advantageous politicking, and was also a prominent patron of the arts, commissioning works from artists like Gian Lorenzo Bernini, and a reformer of Church missions. His papacy also covered 21 years of the Thirty Years' War.",
+    "photo": "no death year in or after 1860"
+  }
+}

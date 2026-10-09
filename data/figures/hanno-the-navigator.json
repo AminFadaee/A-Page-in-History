@@ -21,14 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "category": [
         "Carthage"
       ],
       "lead": [
         "Carthage"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Carthage"
+      ]
     },
     "lead": "Hanno the Navigator (sometimes \"Hannon\"; Punic: 𐤇‬𐤍‬𐤀‬, Ḥnʾ; Greek: Ἄννων, romanized: Annōn ) was a Carthaginian explorer (sometimes identified as a king) who lived during the fifth century BC, known for his naval expedition along the coast of West Africa.",
     "photo": "no image"

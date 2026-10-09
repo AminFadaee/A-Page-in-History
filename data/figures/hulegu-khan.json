@@ -23,12 +23,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Mongol Empire"
       ],
       "lead": [
         "Mongol Empire",
         "Mamluk Sultanate"
+      ],
+      "citizenship": [
+        "Mongol Empire"
       ],
       "vital_section": [
         "Mongol Empire"

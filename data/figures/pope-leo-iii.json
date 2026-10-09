@@ -21,14 +21,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Papal States"
+      ],
+      "death": [
         "Papal States"
       ],
       "lead": [
         "Papal States"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Papal States"
+      ]
     },
     "lead": "Pope Leo III (Latin: Leo III; died 12 June 816) was bishop of Rome and leader of the Papal States from 26 December 795 to his death on 12 June 816.",
     "photo": "no death year in or after 1860"

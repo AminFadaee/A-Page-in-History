@@ -23,12 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Ottoman Empire"
+      ],
+      "death": [
+        "Ottoman Empire"
+      ],
       "lead": [
         "Mamluk Sultanate",
         "Ottoman Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Ottoman Empire"
       ]

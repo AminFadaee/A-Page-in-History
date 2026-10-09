@@ -1,0 +1,37 @@
+{
+  "id": "Q58720",
+  "slug": "mikhail-lomonosov",
+  "name": "Mikhail Lomonosov",
+  "wikipedia": "Mikhail Lomonosov",
+  "role": "Russian polymath",
+  "life": "1711–1765",
+  "lifetime": [
+    1711,
+    1765
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian polymath, scientist and writer, who made important contributions to literature, education, and science.",
+  "image": "images/mikhail-lomonosov.jpg",
+  "image_credit": "After Georg Caspar Prenner · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "category": [
+        "Russian Empire"
+      ],
+      "death": [
+        "Russian Empire"
+      ],
+      "citizenship": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Mikhail Vasilyevich Lomonosov (; 19 November [O.S. 8 November] 1711 – 15 April [O.S. 4 April] 1765) was a Russian polymath, scientist and writer, who made important contributions to literature, education, and science. Among his discoveries were the atmosphere of Venus, the law of conservation of mass in chemical reactions, the theoretical prediction of Antarctica, and the idea of coaxial rotors. His spheres of science were natural science, chemistry, physics, mineralogy, history, art, philology, optical devices and others. One of the founders of modern geology, Lomonosov was also a poet and influenced the formation of the modern Russian literary language.",
+    "photo": "no death year in or after 1860"
+  }
+}

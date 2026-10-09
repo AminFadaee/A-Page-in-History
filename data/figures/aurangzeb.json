@@ -24,13 +24,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Mughal Empire"
+      ],
+      "death": [
+        "Mughal Empire"
+      ],
       "lead": [
         "Mughal Empire",
         "Safavid Dynasty",
         "Qing Dynasty"
       ],
-      "vital_section": [],
       "birthplace": [
         "Mughal Empire"
       ]

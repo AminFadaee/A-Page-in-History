@@ -26,9 +26,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Turkey",
-        "Ottoman Empire"
+      "office": [
+        "Republic of Turkey"
+      ],
+      "death": [
+        "Nazi Germany"
       ],
       "lead": [
         "Republic of Turkey",
@@ -37,7 +39,10 @@
         "Kingdom of Iraq",
         "Kingdom of Romania"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Turkey",
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Ottoman Empire"
       ]

@@ -24,7 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Kingdom of Portugal"
       ],
       "lead": [
@@ -32,7 +32,9 @@
         "Portuguese Empire",
         "British Colonial Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Portugal"
+      ],
       "birthplace": [
         "Kingdom of Portugal"
       ]

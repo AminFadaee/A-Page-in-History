@@ -1,0 +1,34 @@
+{
+  "id": "Q173196",
+  "slug": "michael-collins-irish-leader",
+  "name": "Michael Collins (Irish leader)",
+  "wikipedia": "Michael Collins (Irish leader)",
+  "role": "Irish revolutionary and politician",
+  "life": "1890–1922",
+  "lifetime": [
+    1890,
+    1922
+  ],
+  "occupation": "Politician",
+  "birth_country": "Ireland",
+  "civilizations": [
+    "Irish Free State"
+  ],
+  "related": [],
+  "contribution": "An Irish revolutionary, soldier and politician who was a leading figure in the early-20th century struggle for Irish independence.",
+  "image": "images/michael-collins-irish-leader.jpg",
+  "image_credit": "Agence de presse Meurisse · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Irish Free State"
+      ],
+      "lead": [
+        "Irish Free State"
+      ]
+    },
+    "lead": "Michael Collins (Irish: Mícheál Ó Coileáin; 16 October 1890 – 22 August 1922) was an Irish revolutionary, soldier and politician who was a leading figure in the early-20th century struggle for Irish independence. During the War of Independence he was Director of Intelligence of the Irish Republican Army (IRA). He served in the government of the Irish Republic as the Minister for Home Affairs and later as the Minister for Finance. Collins was Chairman of the Provisional Government of the Irish Free State from January 1922 and commander-in-chief of the National Army from July until he died in an ambush in August 1922, during the Civil War.",
+    "photo": "captured 1922 during their lifetime"
+  }
+}

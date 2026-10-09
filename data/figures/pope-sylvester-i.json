@@ -1,0 +1,34 @@
+{
+  "id": "Q47149",
+  "slug": "pope-sylvester-i",
+  "name": "Pope Sylvester I",
+  "wikipedia": "Pope Sylvester I",
+  "role": "Head of the Catholic Church from 314 to 335",
+  "life": "3rd century – AD 335",
+  "lifetime": [
+    201,
+    335
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The bishop of Rome from 31 January 314 until his death on 31 December 335.",
+  "image": "images/pope-sylvester-i.jpg",
+  "image_credit": "Sylvester_I_and_Constantine.jpg: User:Alex1011 derivative work: Kostisl (talk) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Pope Sylvester I (also Silvester, before 284 – 31 December 335) was the bishop of Rome from 31 January 314 until his death on 31 December 335. He filled the See of Rome at an important era in the history of the Western Church, though very little is known of his life.",
+    "photo": "no death year in or after 1860"
+  }
+}

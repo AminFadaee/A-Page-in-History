@@ -1,0 +1,37 @@
+{
+  "id": "Q314781",
+  "slug": "amr-ibn-al-as",
+  "name": "Amr ibn al-As",
+  "wikipedia": "Amr ibn al-As",
+  "role": "Arab military commander and governor",
+  "life": "570–664",
+  "lifetime": [
+    570,
+    664
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Saudi Arabia",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [
+    "Eastern Roman Empire"
+  ],
+  "contribution": "An Arab commander and companion of Muhammad who led the Muslim conquest of Egypt and served as its governor in 640–646 and 658–664.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Umayyad Caliphate"
+      ],
+      "lead": [
+        "Eastern Roman Empire",
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Amr ibn al-As ibn Wa'il al-Sahmi (c. 585 – 664) was an Arab commander and companion of Muhammad who led the Muslim conquest of Egypt and served as its governor in 640–646 and 658–664. The son of a wealthy Qurayshite, Amr embraced Islam in c. 629 and was assigned important roles in the nascent Muslim community by the Islamic prophet Muhammad. The first caliph Abu Bakr (r. 632–634) appointed Amr as a commander of what became the conquest of Syria. He conquered most of Palestine, to which he was appointed governor, and helped lead the Arabs to decisive victories over the Byzantines at the battles of Ajnadayn and the Yarmuk in 634 and 636.",
+    "photo": "no image"
+  }
+}

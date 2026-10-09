@@ -24,7 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Achaemenid Empire"
       ],
       "lead": [
@@ -32,7 +32,9 @@
         "Lydia",
         "Neo-Babylonian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Achaemenid Empire"
+      ],
       "birthplace": [
         "Median Kingdom"
       ]

@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "Italy",
   "civilizations": [
+    "Roman Empire",
     "Roman Republic"
   ],
   "related": [
-    "Roman Empire",
     "Ptolemaic Kingdom",
     "Parthian Empire",
     "Kingdom of Kush"
@@ -26,7 +26,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Roman Empire"
+      ],
+      "death": [
+        "Roman Empire"
+      ],
       "lead": [
         "Roman Empire",
         "Roman Republic",
@@ -34,7 +39,6 @@
         "Parthian Empire",
         "Kingdom of Kush"
       ],
-      "vital_section": [],
       "birthplace": [
         "Roman Republic"
       ]

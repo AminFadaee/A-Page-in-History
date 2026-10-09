@@ -1,0 +1,37 @@
+{
+  "id": "Q346",
+  "slug": "louis-ix-of-france",
+  "name": "Louis IX of France",
+  "wikipedia": "Louis IX of France",
+  "role": "King of France from 1226 to 1270",
+  "life": "1214–1270",
+  "lifetime": [
+    1214,
+    1270
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "King of France from 1226 until his death in 1270.",
+  "image": "images/louis-ix-of-france.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
+        "Hafsid Dynasty"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis IX (25 April 1214 – 25 August 1270), also known as Saint Louis, was King of France from 1226 until his death in 1270. He is widely recognized as the most distinguished of the Direct Capetians, is the sole king of France to be canonised as a saint of the Catholic Church, and is also the direct ancestor of all subsequent French kings. Following the death of his father, Louis VIII, he was crowned in Reims at the age of 12. His mother, Blanche of Castile, effectively ruled the kingdom as regent until he came of age, and continued to serve as his trusted adviser until her death.",
+    "photo": "no death year in or after 1860"
+  }
+}

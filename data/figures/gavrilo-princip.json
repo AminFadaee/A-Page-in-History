@@ -23,14 +23,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Austria-Hungary"
       ],
       "lead": [
         "Austria-Hungary",
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Austria-Hungary"
+      ],
       "birthplace": [
         "Austria-Hungary"
       ]

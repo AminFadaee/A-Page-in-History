@@ -12,11 +12,11 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "Kingdom of England"
   ],
   "related": [
-    "Duchy of Brittany",
-    "Kingdom of England"
+    "Duchy of Brittany"
   ],
   "contribution": "King of France from 1380 until his death in 1422.",
   "image": "images/charles-vi-of-france.jpg",
@@ -24,14 +24,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of France"
+      ],
+      "death": [
+        "Kingdom of England"
       ],
       "lead": [
         "Duchy of Brittany",
         "Kingdom of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

@@ -1,0 +1,37 @@
+{
+  "id": "Q312299",
+  "slug": "malik-ibn-anas",
+  "name": "Malik ibn Anas",
+  "wikipedia": "Malik ibn Anas",
+  "role": "Muslim scholar and namesake of the Maliki school",
+  "life": "c. 711–795",
+  "lifetime": [
+    711,
+    795
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Saudi Arabia",
+  "civilizations": [
+    "Abbasid Caliphate"
+  ],
+  "related": [],
+  "contribution": "A Muslim scholar, jurist, muhaddith and traditionalist who is the eponym of the Maliki school, one of the four schools of Islamic jurisprudence in Sunni Islam.",
+  "image": "images/malik-ibn-anas.jpg",
+  "image_credit": "Sun'i · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Abbasid Caliphate"
+      ],
+      "lead": [
+        "Abbasid Caliphate"
+      ],
+      "birthplace": [
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Malik ibn Anas (Arabic: مَالِك بْن أَنَس, romanized: Mālik ibn ʾAnas; c. 711–795) was a Muslim scholar, jurist, muhaddith and traditionalist who is the eponym of the Maliki school, one of the four schools of Islamic jurisprudence in Sunni Islam.",
+    "photo": "no death year in or after 1860"
+  }
+}

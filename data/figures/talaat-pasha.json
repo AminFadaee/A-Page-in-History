@@ -21,13 +21,18 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Ottoman Empire"
+      ],
+      "death": [
+        "Weimar Republic"
       ],
       "lead": [
         "Ottoman Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Ottoman Empire"
+      ],
       "birthplace": [
         "Ottoman Empire"
       ]

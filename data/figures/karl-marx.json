@@ -21,13 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Prussia"
-      ],
       "lead": [
         "Kingdom of Prussia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "German Confederation"
       ]

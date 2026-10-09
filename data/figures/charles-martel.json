@@ -24,14 +24,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of the Franks"
+      ],
+      "death": [
         "Kingdom of the Franks"
       ],
       "lead": [
         "Umayyad Caliphate",
         "Aquitaine"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of the Franks"
+      ],
       "birthplace": [
         "Kingdom of the Franks"
       ]

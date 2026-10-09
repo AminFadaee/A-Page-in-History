@@ -1,0 +1,34 @@
+{
+  "id": "Q34503",
+  "slug": "mehmed-ii",
+  "name": "Mehmed II",
+  "wikipedia": "Mehmed II",
+  "role": "Sultan of the Ottoman Empire",
+  "life": "1432–1481",
+  "lifetime": [
+    1432,
+    1481
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "The sultan of the Ottoman Empire twice, from August 1444 to September 1446 and again from February 1451 to May 1481.",
+  "image": "images/mehmed-ii.jpg",
+  "image_credit": "16th century artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Ottoman Empire"
+      ],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Mehmed II  (Ottoman Turkish: محمد ثانى, romanized: Meḥemmed-i s̱ānī; Turkish: II. Mehmed, pronounced [icinˈdʒi ˈmehmet]; 30 March 1432 – 3 May 1481), commonly known as Mehmed the Conqueror (Ottoman Turkish: ابو الفتح, romanized: Ebū'l-fetḥ, lit. 'the Father of Conquest'; Turkish: Fâtih Sultan Mehmed), was the sultan of the Ottoman Empire twice, from August 1444 to September 1446 and again from February 1451 to May 1481.",
+    "photo": "no death year in or after 1860"
+  }
+}

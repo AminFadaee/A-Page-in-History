@@ -16,7 +16,6 @@
   ],
   "related": [
     "Holy Roman Empire",
-    "Kingdom of Sweden",
     "Polish-Lithuanian Commonwealth"
   ],
   "contribution": "A Moravian philosopher, pedagogue and theologian who is considered the father of modern education.",
@@ -25,15 +24,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Habsburg Monarchy"
+      "death": [
+        "Dutch Republic"
       ],
       "lead": [
         "Holy Roman Empire",
-        "Kingdom of Sweden",
         "Polish-Lithuanian Commonwealth"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Habsburg Monarchy"
+      ],
       "birthplace": [
         "Habsburg Monarchy"
       ]

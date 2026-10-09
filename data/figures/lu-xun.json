@@ -12,6 +12,7 @@
   "occupation": "Writer",
   "birth_country": "China",
   "civilizations": [
+    "Republic of China",
     "Qing Dynasty"
   ],
   "related": [],
@@ -21,12 +22,13 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Republic of China"
+      ],
+      "citizenship": [
         "Qing Dynasty",
         "Republic of China"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Qing Dynasty"
       ]

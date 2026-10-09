@@ -1,0 +1,43 @@
+{
+  "id": "Q150712",
+  "slug": "charles-the-fat",
+  "name": "Charles the Fat",
+  "wikipedia": "Charles the Fat",
+  "role": "Carolingian emperor from 881 to 887",
+  "life": "839–888",
+  "lifetime": [
+    832,
+    888
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "East Franks",
+    "West Franks"
+  ],
+  "related": [
+    "Middle Franks"
+  ],
+  "contribution": "The emperor of the Carolingian Empire from 881 to 887.",
+  "image": "images/charles-the-fat.jpg",
+  "image_credit": "Wikimedia Commons · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "West Franks",
+        "East Franks"
+      ],
+      "death": [
+        "East Franks"
+      ],
+      "lead": [
+        "East Franks",
+        "West Franks",
+        "Middle Franks"
+      ]
+    },
+    "lead": "Charles the Fat (839 – 13 January 888) was the emperor of the Carolingian Empire from 881 to 887. A member of the Carolingian dynasty, Charles was the youngest son of Louis the German and Hemma, and a great-grandson of Charlemagne. He was the last Carolingian emperor of legitimate birth and the last to rule a united kingdom of the Franks.",
+    "photo": "no death year in or after 1860"
+  }
+}

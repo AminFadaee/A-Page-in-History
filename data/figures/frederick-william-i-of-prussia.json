@@ -1,0 +1,40 @@
+{
+  "id": "Q105013",
+  "slug": "frederick-william-i-of-prussia",
+  "name": "Frederick William I of Prussia",
+  "wikipedia": "Frederick William I of Prussia",
+  "role": "King in Prussia from 1713 to 1740",
+  "life": "1688–1740",
+  "lifetime": [
+    1688,
+    1740
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "King in Prussia and Elector of Brandenburg from 1713 until his death in 1740, as well as Prince of Neuchâtel.",
+  "image": "images/frederick-william-i-of-prussia.jpg",
+  "image_credit": "Antoine Pesne · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Prussia"
+      ],
+      "death": [
+        "Kingdom of Prussia"
+      ],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
+      "birthplace": [
+        "Brandenburg-Prussia"
+      ]
+    },
+    "lead": "Frederick William I (German: Friedrich Wilhelm I.; 14 August 1688 – 31 May 1740), known as the Soldier King (German: Soldatenkönig), was King in Prussia and Elector of Brandenburg from 1713 until his death in 1740, as well as Prince of Neuchâtel.",
+    "photo": "no death year in or after 1860"
+  }
+}

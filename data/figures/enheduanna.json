@@ -21,11 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "citizenship": [
         "Akkadian Empire"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Akkadian Empire"
       ]

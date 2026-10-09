@@ -21,11 +21,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Western Jin"
+      ],
       "lead": [
         "Western Jin"
       ],
-      "vital_section": [],
       "birthplace": [
         "Western Jin"
       ]

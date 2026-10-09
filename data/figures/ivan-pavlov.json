@@ -12,7 +12,8 @@
   "occupation": "Biologist",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Empire"
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
   ],
   "related": [],
   "contribution": "A Russian and Soviet experimental neurologist and physiologist known for his discovery of classical conditioning through his experiments with dogs.",
@@ -21,12 +22,13 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "citizenship": [
         "Russian Empire",
         "Union of Soviet Socialist Republics"
       ],
-      "lead": [],
-      "vital_section": [],
       "birthplace": [
         "Russian Empire"
       ]

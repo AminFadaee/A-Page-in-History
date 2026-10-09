@@ -21,8 +21,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
-      "lead": [],
+      "death": [
+        "Roman Republic"
+      ],
       "vital_section": [
         "Roman Republic"
       ],

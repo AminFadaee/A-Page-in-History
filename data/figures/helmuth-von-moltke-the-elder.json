@@ -12,7 +12,8 @@
   "occupation": "Military personnel",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of Prussia"
+    "Kingdom of Prussia",
+    "German Empire"
   ],
   "related": [],
   "contribution": "A Prussian Generalfeldmarschall.",
@@ -21,13 +22,18 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Prussia"
+      "office": [
+        "German Empire"
+      ],
+      "death": [
+        "German Empire"
       ],
       "lead": [
         "Kingdom of Prussia"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Prussia"
+      ],
       "birthplace": [
         "Kingdom of Prussia"
       ]

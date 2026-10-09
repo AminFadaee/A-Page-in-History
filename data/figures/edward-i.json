@@ -23,13 +23,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of England"
+      ],
+      "death": [
         "Kingdom of England"
       ],
       "lead": [
         "Kingdom of Scotland"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of England"
+      ],
       "birthplace": [
         "Kingdom of England"
       ]

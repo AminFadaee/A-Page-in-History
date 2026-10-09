@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Empire",
-    "Union of Soviet Socialist Republics"
+    "Union of Soviet Socialist Republics",
+    "Russian Empire"
   ],
   "related": [],
   "contribution": "The First Secretary of the Communist Party of the Soviet Union from 1953 to 1964 and the Chairman of the Council of Ministers from 1958 to 1964.",
@@ -22,14 +22,22 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "office": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "category": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "death": [
         "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Union of Soviet Socialist Republics"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

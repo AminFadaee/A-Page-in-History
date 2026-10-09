@@ -21,14 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Babylonia"
       ],
       "lead": [
         "Babylonia"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Babylonia"
+      ]
     },
     "lead": "Hammurabi (; Old Babylonian Akkadian: 𒄩𒄠𒈬𒊏𒁉, romanized: Ḫammu-rāpi; Akkadian: [xammuˈraːpʰi]; c. 1810 BC – c. 1750 BC), also spelled Hammurapi, was the sixth Amorite king of Babylon, reigning from c. 1792 BC to c. 1750 BC. He was preceded by his father, Sin-muballit.",
     "photo": "no death year in or after 1860"

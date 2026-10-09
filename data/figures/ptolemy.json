@@ -1,0 +1,34 @@
+{
+  "id": "Q34943",
+  "slug": "ptolemy",
+  "name": "Ptolemy",
+  "wikipedia": "Ptolemy",
+  "role": "Greco-Roman astronomer and geographer",
+  "life": "c. 100–170",
+  "lifetime": [
+    100,
+    170
+  ],
+  "occupation": "Astronomer",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A Greco-Roman who wrote about a dozen scientific treatises, three of which were important to later Byzantine, Islamic, and Western European science.",
+  "image": "images/ptolemy.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "Claudius Ptolemy (; Ancient Greek: Πτολεμαῖος, Ptolemaios; Latin: Claudius Ptolemaeus; c. 100 – 160s/170s AD), better known mononymously as Ptolemy, was a Greco-Roman who wrote about a dozen scientific treatises, three of which were important to later Byzantine, Islamic, and Western European science. The first was his astronomical treatise now known as the Almagest, originally entitled Mathēmatikḗ Syntaxis (Μαθηματικὴ Σύνταξις, 'Mathematical Treatise'). The second is the Geography, which is a thorough discussion on maps and the geographic knowledge of the Greco-Roman world. The third is the astrological treatise in which he attempted to adapt horoscopic astrology to the Aristotelian natural philosophy of his day. This is sometimes known as the Apotelesmatika (Αποτελεσματικά, 'On the Effects') but more commonly known as the Tetrábiblos (from the Koine Greek meaning 'four books'; Latin: Quadripartitum).",
+    "photo": "no death year in or after 1860"
+  }
+}

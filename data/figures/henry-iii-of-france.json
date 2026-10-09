@@ -12,10 +12,10 @@
   "occupation": "Politician",
   "birth_country": "France",
   "civilizations": [
-    "Kingdom of France"
+    "Kingdom of France",
+    "Polish-Lithuanian Commonwealth"
   ],
   "related": [
-    "Polish-Lithuanian Commonwealth",
     "Spanish Empire",
     "Kingdom of England",
     "Dutch Republic"
@@ -26,7 +26,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of France",
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "death": [
         "Kingdom of France"
       ],
       "lead": [
@@ -36,7 +40,9 @@
         "Kingdom of England",
         "Dutch Republic"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

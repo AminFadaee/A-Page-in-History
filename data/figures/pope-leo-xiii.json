@@ -12,7 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "Italy",
   "civilizations": [
-    "Papal States"
+    "Papal States",
+    "Kingdom of Italy"
   ],
   "related": [],
   "contribution": "Head of the Catholic Church from 1878 until his death in 1903.",
@@ -21,16 +22,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Papal States",
+      "death": [
         "Kingdom of Italy"
       ],
       "lead": [
         "Papal States"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Papal States",
+        "Kingdom of Italy"
+      ],
       "birthplace": [
-        "First French Empire",
         "Papal States"
       ]
     },

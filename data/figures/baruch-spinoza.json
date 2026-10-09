@@ -23,14 +23,16 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Dutch Republic"
       ],
       "lead": [
         "Dutch Republic",
         "Kingdom of Portugal"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Dutch Republic"
+      ],
       "birthplace": [
         "Dutch Republic"
       ]

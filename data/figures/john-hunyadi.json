@@ -24,13 +24,11 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Kingdom of Hungary",
         "Principality of Wallachia",
         "Ottoman Empire"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Hungary"
       ]

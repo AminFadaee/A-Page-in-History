@@ -12,7 +12,8 @@
   "occupation": "Writer",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Empire"
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
   ],
   "related": [],
   "contribution": "A Russian and Soviet writer, journalist, and proponent of socialism.",
@@ -21,14 +22,16 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire",
+      "death": [
         "Union of Soviet Socialist Republics"
       ],
       "lead": [
         "Russian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

@@ -22,14 +22,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Italy",
-        "Kingdom of Italy"
+      "category": [
+        "Republic of Italy"
+      ],
+      "death": [
+        "Republic of Italy"
       ],
       "lead": [
         "Republic of Italy"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Italy",
+        "Kingdom of Italy"
+      ],
       "birthplace": [
         "Kingdom of Italy"
       ]

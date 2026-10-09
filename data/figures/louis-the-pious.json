@@ -1,0 +1,42 @@
+{
+  "id": "Q43974",
+  "slug": "louis-the-pious",
+  "name": "Louis the Pious",
+  "wikipedia": "Louis the Pious",
+  "role": "Emperor of the Carolingian Empire from 813 to 840",
+  "life": "778–840",
+  "lifetime": [
+    778,
+    840
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of the Franks"
+  ],
+  "related": [
+    "Emirate of Córdoba"
+  ],
+  "contribution": "King of the Franks and co-emperor with his father, Charlemagne, from 813.",
+  "image": "images/louis-the-pious.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of the Franks"
+      ],
+      "death": [
+        "Kingdom of the Franks"
+      ],
+      "lead": [
+        "Emirate of Córdoba"
+      ],
+      "birthplace": [
+        "Kingdom of the Franks"
+      ]
+    },
+    "lead": "Louis the Pious (Latin: Ludovicus Pius; French: Louis le Pieux; German: Ludwig der Fromme; 778 – 20 June 840), also called the Fair and the Debonaire, was King of the Franks and co-emperor with his father, Charlemagne, from 813. He was also King of Aquitaine from 781. As the only surviving son of Charlemagne and Hildegard, he became the sole ruler of the Franks after his father's death in 814. He held this position until his death in 840, save for November 833 to March 834 when Louis was deposed.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Q202266",
+  "slug": "margaret-i-of-denmark",
+  "name": "Margaret I of Denmark",
+  "wikipedia": "Margaret I of Denmark",
+  "role": "Scandinavian queen and founder of the Kalmar Union",
+  "life": "1353–1412",
+  "lifetime": [
+    1353,
+    1412
+  ],
+  "occupation": "Politician",
+  "birth_country": "Denmark",
+  "civilizations": [
+    "Kingdom of Denmark",
+    "Kalmar Union",
+    "Kingdom of Sweden"
+  ],
+  "related": [],
+  "contribution": "Queen regnant of Denmark, Norway, and Sweden from the late 1380s until her death, and the founder of the Kalmar Union that joined the Scandinavian kingdoms together for over a century.",
+  "image": "images/margaret-i-of-denmark.jpg",
+  "image_credit": "Jacob Truedson Demitz assisted by Emil Eikner for Ristesson · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Kingdom of Denmark",
+        "Kingdom of Sweden"
+      ],
+      "category": [
+        "Kingdom of Denmark"
+      ],
+      "death": [
+        "Kalmar Union"
+      ],
+      "lead": [
+        "Kalmar Union"
+      ],
+      "birthplace": [
+        "Kingdom of Denmark"
+      ]
+    },
+    "lead": "Margaret I (Danish: Margrete Valdemarsdatter; March 1353 – 28 October 1412) was queen regnant of Denmark, Norway, and Sweden from the late 1380s until her death, and the founder of the Kalmar Union that joined the Scandinavian kingdoms together for over a century. She had been queen consort of Norway from 1363 to 1380 and of Sweden from 1363 to 1364 by marriage to Haakon VI. Margaret was known as a wise, energetic and capable leader, who governed with \"farsighted tact and caution\", earning the nickname \"Semiramis of the North\". Also known famously and derisively as \"King Breechless\", one of several derogatory nicknames once thought to have been invented by her rival Albert, King of Sweden, she was also called \"Lady King\" by her subjects, widely used in recognition of her capabilities. Knut Gjerset calls her \"the first great ruling queen in European history\".",
+    "photo": "no death year in or after 1860"
+  }
+}

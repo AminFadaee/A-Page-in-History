@@ -23,7 +23,9 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Roman Kingdom"
+      ],
       "lead": [
         "Roman Republic",
         "Roman Kingdom"

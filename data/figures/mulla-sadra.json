@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Safavid Dynasty"
+      "death": [
+        "Ottoman Empire"
       ],
       "lead": [
         "Safavid Dynasty"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Safavid Dynasty"
+      ],
       "birthplace": [
         "Safavid Dynasty"
       ]

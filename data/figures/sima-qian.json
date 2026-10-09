@@ -23,12 +23,10 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
       "lead": [
         "Han Dynasty",
         "Xiongnu"
       ],
-      "vital_section": [],
       "birthplace": [
         "Han Dynasty"
       ]

@@ -1,0 +1,47 @@
+{
+  "id": "Q7758",
+  "slug": "charles-x-of-france",
+  "name": "Charles X of France",
+  "wikipedia": "Charles X of France",
+  "role": "King of France from 1824 to 1830",
+  "life": "1757–1836",
+  "lifetime": [
+    1757,
+    1836
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Austrian Empire",
+    "Principality of Andorra"
+  ],
+  "related": [
+    "Bourbon Kingdom of France"
+  ],
+  "contribution": "King of France from 16 September 1824 until 2 August 1830.",
+  "image": "images/charles-x-of-france.jpg",
+  "image_credit": "Thomas Lawrence · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Principality of Andorra"
+      ],
+      "death": [
+        "Austrian Empire"
+      ],
+      "lead": [
+        "Bourbon Kingdom of France",
+        "Austrian Empire"
+      ],
+      "citizenship": [
+        "Kingdom of Spain"
+      ],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles X (Charles Philippe; 9 October 1757 – 6 November 1836) was King of France from 16 September 1824 until 2 August 1830. An uncle of the uncrowned Louis XVII and younger brother to former reigning kings Louis XVI and Louis XVIII, he supported the latter in exile. After the Bourbon Restoration in 1814, Charles (as heir presumptive) became the leader of the ultra-royalists, a radical monarchist faction within the French court that affirmed absolute monarchy by divine right and opposed the constitutional monarchy, republicanism, any concessions towards liberals, and the guarantees of civil liberties granted by the Charter of 1814. Charles gained influence within the French court after the assassination of his son Charles Ferdinand, Duke of Berry, in 1820 and succeeded his brother Louis XVIII in 1824.",
+    "photo": "no death year in or after 1860"
+  }
+}

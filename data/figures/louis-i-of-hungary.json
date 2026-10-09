@@ -1,0 +1,55 @@
+{
+  "id": "Q53998",
+  "slug": "louis-i-of-hungary",
+  "name": "Louis I of Hungary",
+  "wikipedia": "Louis I of Hungary",
+  "role": "King of Hungary and Croatia from 1342 to 1382",
+  "life": "1326–1382",
+  "lifetime": [
+    1326,
+    1382
+  ],
+  "occupation": "Politician",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Kingdom of Hungary"
+  ],
+  "related": [
+    "Kingdom of Poland",
+    "Kingdom of Naples",
+    "Serbian Empire",
+    "Golden Horde",
+    "Republic of Venice",
+    "Banate of Bosnia",
+    "Principality of Moldavia",
+    "Principality of Wallachia",
+    "Second Bulgarian Empire"
+  ],
+  "contribution": "King of Hungary and Croatia from 1342 and King of Poland from 1370 until his death in 1382.",
+  "image": "images/louis-i-of-hungary.jpg",
+  "image_credit": "János Thuróczy · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Kingdom of Hungary"
+      ],
+      "lead": [
+        "Kingdom of Poland",
+        "Kingdom of Naples",
+        "Serbian Empire",
+        "Golden Horde",
+        "Republic of Venice",
+        "Banate of Bosnia",
+        "Principality of Moldavia",
+        "Principality of Wallachia",
+        "Second Bulgarian Empire"
+      ],
+      "birthplace": [
+        "Kingdom of Hungary"
+      ]
+    },
+    "lead": "Louis I of Hungary, also known as Louis the Great (Hungarian: Nagy Lajos; Croatian: Ludovik Veliki; Slovak: Ľudovít Veľký) or Louis the Hungarian (Polish: Ludwik Węgierski, Italian: Luigi l'ungherese; 5 March 1326 – 10 September 1382), was King of Hungary and Croatia from 1342 and King of Poland from 1370 until his death in 1382. He was the first child of Charles I of Hungary and his wife, Elizabeth of Poland, to survive infancy. A 1338 treaty between his father and Casimir III of Poland, Louis's maternal uncle, confirmed Louis's right to inherit the Kingdom of Poland if his uncle died without a son. In exchange, Louis was obliged to assist his uncle in reoccupying the lands that Poland had lost in previous decades. He bore the title Duke of Transylvania between 1339 and 1342 but did not administer the province.",
+    "photo": "no death year in or after 1860"
+  }
+}

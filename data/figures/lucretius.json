@@ -1,0 +1,34 @@
+{
+  "id": "Q47154",
+  "slug": "lucretius",
+  "name": "Lucretius",
+  "wikipedia": "Lucretius",
+  "role": "Roman poet and philosopher",
+  "life": "94–55 BC",
+  "lifetime": [
+    -94,
+    -55
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [],
+  "contribution": "A Roman poet and philosopher.",
+  "image": "images/lucretius.jpg",
+  "image_credit": "Unknown authorUnknown author · CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Republic"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Titus Lucretius Carus (  TY-tuhs loo-KREE-shuhs; Latin: [ˈtitʊs lʊˈkreːtɪ.ʊs ˈkaːrʊs]; c. 99 – October 15, 55 BC) was a Roman poet and philosopher. His only known work is the philosophical poem De rerum natura, a didactic work about the tenets and philosophy of Epicureanism, which usually is translated into English as On the Nature of Things—and somewhat less often as On the Nature of the Universe.",
+    "photo": "no death year in or after 1860"
+  }
+}

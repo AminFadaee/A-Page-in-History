@@ -12,24 +12,28 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Kingdom of Bavaria"
-  ],
-  "related": [
+    "Kingdom of Bavaria",
     "German Empire"
   ],
+  "related": [],
   "contribution": "King of Bavaria from 1864 until his death in 1886.",
   "image": "images/ludwig-ii-of-bavaria.jpg",
   "image_credit": "Josef Albert · Public domain",
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Kingdom of Bavaria"
+      ],
+      "death": [
+        "German Empire"
       ],
       "lead": [
         "German Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Bavaria"
+      ],
       "birthplace": [
         "Kingdom of Bavaria"
       ]

@@ -12,8 +12,8 @@
   "occupation": "Religious figure",
   "birth_country": "Spain",
   "civilizations": [
-    "Crown of Aragon",
-    "Papal States"
+    "Papal States",
+    "Crown of Aragon"
   ],
   "related": [],
   "contribution": "Head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
@@ -22,11 +22,17 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Crown of Aragon"
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
       ],
       "lead": [
         "Papal States",
+        "Crown of Aragon"
+      ],
+      "citizenship": [
         "Crown of Aragon"
       ],
       "vital_section": [

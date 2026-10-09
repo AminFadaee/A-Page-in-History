@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Netherlands",
   "civilizations": [
-    "Dutch Republic",
-    "Kingdom of England"
+    "Kingdom of England",
+    "Dutch Republic"
   ],
   "related": [],
   "contribution": "The sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from 1672, and King of England, Scotland, and Ireland from 1689 until his death in 1702.",
@@ -22,15 +22,20 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Dutch Republic",
+      "office": [
+        "Kingdom of England"
+      ],
+      "death": [
         "Kingdom of England"
       ],
       "lead": [
         "Dutch Republic",
         "Kingdom of England"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Dutch Republic",
+        "Kingdom of England"
+      ],
       "birthplace": [
         "Dutch Republic"
       ]

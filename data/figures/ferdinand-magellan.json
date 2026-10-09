@@ -24,16 +24,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Kingdom of Portugal",
-        "Crown of Castile"
+      "death": [
+        "Rajahnate of Cebu"
       ],
       "lead": [
         "Portuguese Empire",
         "Spanish Empire",
         "Kingdom of Portugal"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of Portugal",
+        "Crown of Castile"
+      ],
       "birthplace": [
         "Kingdom of Portugal"
       ]

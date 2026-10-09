@@ -24,16 +24,14 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Polish-Lithuanian Commonwealth"
-      ],
       "lead": [
         "Polish-Lithuanian Commonwealth",
         "Crimean Khanate",
         "Tsardom of Russia"
       ],
-      "vital_section": [],
-      "birthplace": []
+      "citizenship": [
+        "Polish-Lithuanian Commonwealth"
+      ]
     },
     "lead": "Zynoviy Bohdan Mykhailovych Khmelnytsky of the Abdank coat of arms (c. 1595 – 6 August 1657) was a Ruthenian nobleman and military commander of Zaporozhian Cossacks as Hetman of the Zaporozhian Host, which was then under the suzerainty of the Polish–Lithuanian Commonwealth. He led the Cossacks to victory in a successful uprising against the Commonwealth and its magnates (1648–1654) that resulted in the creation of an independent Cossack state in Dnieper Ukraine.",
     "photo": "no death year in or after 1860"

@@ -23,18 +23,21 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Polish-Lithuanian Commonwealth",
-        "Principality of Transylvania"
+      "office": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "death": [
+        "Polish-Lithuanian Commonwealth"
       ],
       "lead": [
         "Tsardom of Russia"
       ],
+      "citizenship": [
+        "Polish-Lithuanian Commonwealth",
+        "Principality of Transylvania"
+      ],
       "vital_section": [
         "Polish-Lithuanian Commonwealth"
-      ],
-      "birthplace": [
-        "Kingdom of Hungary"
       ]
     },
     "lead": "Stephen Báthory (Hungarian: Báthory István; Polish: Stefan Batory; Lithuanian: ; 27 September 1533 – 12 December 1586) was King of Poland and Grand Duke of Lithuania as well as Prince of Transylvania (1576–1586), after previously being Voivode of Transylvania (1571–1576).",

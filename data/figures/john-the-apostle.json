@@ -1,0 +1,34 @@
+{
+  "id": "Q44015",
+  "slug": "john-the-apostle",
+  "name": "John the Apostle",
+  "wikipedia": "John the Apostle",
+  "role": "Apostle of Jesus",
+  "life": "c. 11–99",
+  "lifetime": [
+    11,
+    99
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "",
+  "civilizations": [
+    "Roman Empire"
+  ],
+  "related": [],
+  "contribution": "One of the Twelve Apostles of Jesus according to the New Testament.",
+  "image": "images/john-the-apostle.jpg",
+  "image_credit": "Peter Paul Rubens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Roman Empire"
+      ],
+      "birthplace": [
+        "Roman Empire"
+      ]
+    },
+    "lead": "John the Apostle (Ancient Greek: Ἰωάννης; Latin: Ioannes; c. 6 AD – c. 100 AD), also known as Saint John the Beloved and, in Eastern Orthodox Christianity, Saint John the Theologian, was one of the Twelve Apostles of Jesus according to the New Testament. Generally listed as the youngest apostle, he was the son of Zebedee and Salome. His brother James was another of the Twelve Apostles. The Church Fathers identify him as John the Evangelist, John of Patmos, John the Elder, and the Beloved Disciple, and claim that he outlived the remaining apostles and was the only one to die of natural causes, although modern scholars are divided on the veracity of these claims.",
+    "photo": "no death year in or after 1860"
+  }
+}

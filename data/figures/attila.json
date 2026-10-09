@@ -1,0 +1,40 @@
+{
+  "id": "Q36724",
+  "slug": "attila",
+  "name": "Attila",
+  "wikipedia": "Attila",
+  "role": "Ruler of the Hunnic Empire from 434 to 453",
+  "life": "5th century BC – AD 453",
+  "lifetime": [
+    -499,
+    453
+  ],
+  "occupation": "Politician",
+  "birth_country": "Georgia",
+  "civilizations": [
+    "Western Roman Empire"
+  ],
+  "related": [
+    "Eastern Roman Empire"
+  ],
+  "contribution": "The ruler of the Huns from 434 until his death in early 453.",
+  "image": "images/attila.jpg",
+  "image_credit": "Julio Strozza · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Western Roman Empire"
+      ],
+      "lead": [
+        "Western Roman Empire",
+        "Eastern Roman Empire"
+      ],
+      "birthplace": [
+        "Caucasian Iberia"
+      ]
+    },
+    "lead": "Attila (  ə-TIL-ə or  AT-il-ə; c. 406 – 453), frequently called Attila the Hun and also known by his nickname The Scourge of God, was the ruler of the Huns from 434 until his death in early 453. He was also the leader of an empire consisting of Huns, Ostrogoths, Alans, and Gepids, among others, in Central and Eastern Europe.",
+    "photo": "no death year in or after 1860"
+  }
+}

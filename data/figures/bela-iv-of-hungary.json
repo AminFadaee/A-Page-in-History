@@ -25,14 +25,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Kingdom of Hungary"
+      ],
+      "death": [
+        "Kingdom of Hungary"
+      ],
       "lead": [
         "Duchy of Styria",
         "Holy Roman Empire",
         "Banate of Bosnia",
         "Kingdom of Hungary"
       ],
-      "vital_section": [],
       "birthplace": [
         "Kingdom of Hungary"
       ]

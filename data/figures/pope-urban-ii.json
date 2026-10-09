@@ -23,7 +23,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "office": [
+        "Papal States"
+      ],
+      "death": [
+        "Papal States"
+      ],
       "lead": [
         "Papal States",
         "Fatimid Caliphate"

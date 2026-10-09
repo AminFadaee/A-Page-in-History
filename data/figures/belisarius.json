@@ -24,7 +24,7 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
         "Eastern Roman Empire"
       ],
       "lead": [
@@ -32,7 +32,9 @@
         "Vandal Kingdom",
         "Sasanian Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Eastern Roman Empire"
+      ],
       "birthplace": [
         "Eastern Roman Empire"
       ]

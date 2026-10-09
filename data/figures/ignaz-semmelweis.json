@@ -21,11 +21,12 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Austrian Empire"
       ],
-      "lead": [],
-      "vital_section": [],
+      "citizenship": [
+        "Austrian Empire"
+      ],
       "birthplace": [
         "Austrian Empire"
       ]

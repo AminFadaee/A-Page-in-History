@@ -12,23 +12,23 @@
   "occupation": "Military personnel",
   "birth_country": "Turkmenistan",
   "civilizations": [
-    "Umayyad Caliphate"
-  ],
-  "related": [
+    "Umayyad Caliphate",
     "Abbasid Caliphate"
   ],
+  "related": [],
   "contribution": "A Persian revolutionary and military commander who was a central figure in the Abbasid Revolution that brought down the Umayyad Caliphate and established the Abbasid Caliphate.",
   "image": "images/abu-muslim.jpg",
   "image_credit": "1598 author · Public domain",
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [],
+      "death": [
+        "Abbasid Caliphate"
+      ],
       "lead": [
         "Umayyad Caliphate",
         "Abbasid Caliphate"
       ],
-      "vital_section": [],
       "birthplace": [
         "Umayyad Caliphate"
       ]

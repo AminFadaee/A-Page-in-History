@@ -21,13 +21,15 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "death": [
         "Khmer Empire"
       ],
       "lead": [
         "Khmer Empire"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Khmer Empire"
+      ],
       "birthplace": [
         "Khmer Empire"
       ]

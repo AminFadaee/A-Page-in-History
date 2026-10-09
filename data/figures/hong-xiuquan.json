@@ -22,15 +22,17 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Qing Dynasty",
+      "death": [
         "Taiping Heavenly Kingdom"
       ],
       "lead": [
         "Qing Dynasty",
         "Taiping Heavenly Kingdom"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Qing Dynasty",
+        "Taiping Heavenly Kingdom"
+      ],
       "birthplace": [
         "Qing Dynasty"
       ]

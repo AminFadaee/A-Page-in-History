@@ -1,0 +1,34 @@
+{
+  "id": "Q146029",
+  "slug": "ay-pharaoh",
+  "name": "Ay (pharaoh)",
+  "wikipedia": "Ay (pharaoh)",
+  "role": "Egyptian pharaoh of the late 18th Dynasty",
+  "life": "14th century BC – 14th century BC",
+  "lifetime": [
+    -1400,
+    -1301
+  ],
+  "occupation": "Politician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "New Kingdom of Egypt"
+  ],
+  "related": [],
+  "contribution": "The penultimate pharaoh of ancient Egypt's 18th Dynasty.",
+  "image": "images/ay-pharaoh.jpg",
+  "image_credit": "Rama · CC BY-SA 3.0 fr",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "New Kingdom of Egypt"
+      ],
+      "birthplace": [
+        "New Kingdom of Egypt"
+      ]
+    },
+    "lead": "Ay was the penultimate pharaoh of ancient Egypt's 18th Dynasty. He reigned for about four years in the late 14th century BC. Before becoming king, he was a prominent official and close advisor during the late 18th Dynasty. Following Tutankhamun's death, Ay succeeded him as pharaoh. His prenomen Kheperkheperure means \"Everlasting are the Manifestations of Ra\", while his nomen Ay it-netjer reads as \"Ay, Father of the God\". His successor, Horemheb, later erased and usurped monuments associated with Ay, part of a campaign of damnatio memoriae against him and the other pharaohs associated with the Amarna Period.",
+    "photo": "no death year in or after 1860"
+  }
+}

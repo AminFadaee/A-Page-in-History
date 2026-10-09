@@ -1,0 +1,34 @@
+{
+  "id": "Q231693",
+  "slug": "mumtaz-mahal",
+  "name": "Mumtaz Mahal",
+  "wikipedia": "Mumtaz Mahal",
+  "role": "Empress of the Mughal Empire from 1628 to 1631",
+  "life": "1593–1631",
+  "lifetime": [
+    1593,
+    1631
+  ],
+  "occupation": "Companion",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [],
+  "contribution": "The empress of the Mughal Empire from 1628 to 1631 as the chief consort of the fifth Mughal emperor, Shah Jahan.",
+  "image": "images/mumtaz-mahal.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "death": [
+        "Mughal Empire"
+      ],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Mumtaz Mahal (Persian pronunciation: [mum.ˈtɑːz ma.ˈhal]; lit. 'The Exalted One of the Palace'; born Arjumand Banu Begum; 27 April 1593 – 17 June 1631) was the empress of the Mughal Empire from 1628 to 1631 as the chief consort of the fifth Mughal emperor, Shah Jahan. The Taj Mahal in Agra, often cited as one of the Wonders of the World, was commissioned by her husband to act as her tomb.",
+    "photo": "no death year in or after 1860"
+  }
+}

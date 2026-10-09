@@ -23,13 +23,18 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Kingdom of France"
+      ],
+      "death": [
         "Kingdom of France"
       ],
       "lead": [
         "Habsburg Monarchy"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Kingdom of France"
+      ],
       "birthplace": [
         "Kingdom of France"
       ]

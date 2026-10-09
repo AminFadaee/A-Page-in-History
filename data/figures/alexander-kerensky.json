@@ -12,8 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Russia",
   "civilizations": [
-    "Russian Republic",
-    "Russian Empire"
+    "Russian Empire",
+    "Russian Republic"
   ],
   "related": [],
   "contribution": "A Russian politician, lawyer and revolutionary who led the Russian Provisional Government and the short-lived Russian Republic for three months from late July to early November 1917.",
@@ -22,14 +22,19 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Republic",
+      "office": [
         "Russian Empire"
+      ],
+      "death": [
+        "United States of America"
       ],
       "lead": [
         "Russian Republic"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Russian Republic",
+        "Russian Empire"
+      ],
       "birthplace": [
         "Russian Empire"
       ]

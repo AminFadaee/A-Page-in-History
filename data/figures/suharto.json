@@ -12,6 +12,7 @@
   "occupation": "Politician",
   "birth_country": "Indonesia",
   "civilizations": [
+    "Republic of Indonesia",
     "Dutch East Indies"
   ],
   "related": [
@@ -23,15 +24,23 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Republic of Indonesia",
-        "Dutch East Indies"
+      "office": [
+        "Republic of Indonesia"
+      ],
+      "category": [
+        "Republic of Indonesia"
+      ],
+      "death": [
+        "Republic of Indonesia"
       ],
       "lead": [
         "Dutch East Indies",
         "United States of America"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Republic of Indonesia",
+        "Dutch East Indies"
+      ],
       "birthplace": [
         "Dutch East Indies"
       ]

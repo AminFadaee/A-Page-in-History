@@ -23,16 +23,12 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "Russian Empire"
-      ],
       "lead": [
         "Russian Empire",
         "Ottoman Empire"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "Habsburg Monarchy"
+      "citizenship": [
+        "Russian Empire"
       ]
     },
     "lead": "Adam Bernard Mickiewicz (24 December 1798 – 26 November 1855) was a Polish poet, dramatist, essayist, publicist, translator and political activist. He is regarded as a national poet in Poland, Lithuania and Belarus. He also largely influenced Ukrainian literature and affected Russian literature. A principal figure in Polish Romanticism, he is one of Poland's \"Three Bards\" (Polish: trzej wieszcze) and is widely regarded as Poland's greatest poet. He is also considered one of the greatest Slavic and European poets and has been dubbed a \"Slavic bard\".",

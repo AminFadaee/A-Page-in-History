@@ -22,14 +22,19 @@
   "photo": false,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
+      "office": [
+        "Papal States"
+      ],
+      "death": [
         "Papal States"
       ],
       "lead": [
         "Papal States",
         "Republic of Florence"
       ],
-      "vital_section": [],
+      "citizenship": [
+        "Papal States"
+      ],
       "birthplace": [
         "Republic of Florence"
       ]

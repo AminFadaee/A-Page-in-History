@@ -1,0 +1,37 @@
+{
+  "id": "Q36788",
+  "slug": "abd-al-malik-ibn-marwan",
+  "name": "Abd al-Malik ibn Marwan",
+  "wikipedia": "Abd al-Malik ibn Marwan",
+  "role": "Umayyad caliph from 685 to 705",
+  "life": "c. 646–705",
+  "lifetime": [
+    646,
+    705
+  ],
+  "occupation": "Politician",
+  "birth_country": "Saudi Arabia",
+  "civilizations": [
+    "Umayyad Caliphate"
+  ],
+  "related": [],
+  "contribution": "The fifth Umayyad caliph, ruling from April 685 until his death in October 705.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "office": [
+        "Umayyad Caliphate"
+      ],
+      "death": [
+        "Umayyad Caliphate"
+      ],
+      "lead": [
+        "Umayyad Caliphate"
+      ]
+    },
+    "lead": "Abd al-Malik ibn Marwan ibn al-Hakam (July/August 644 or June/July 647 – 9 October 705), was the fifth Umayyad caliph, ruling from April 685 until his death in October 705. A member of the first generation of born Muslims, his early life in Medina was occupied with religious pursuits. He held administrative and military posts under Caliph Mu'awiya I (r. 661–680), founder of the Umayyad Caliphate, and his own father, Caliph Marwan I (r. 684–685). By the time of Abd al-Malik's accession, Umayyad authority had collapsed across the Caliphate as a result of the Second Fitna and had been reconstituted in Syria and Egypt during his father's reign.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

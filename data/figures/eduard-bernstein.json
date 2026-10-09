@@ -12,7 +12,8 @@
   "occupation": "Politician",
   "birth_country": "Germany",
   "civilizations": [
-    "Weimar Republic"
+    "Weimar Republic",
+    "German Empire"
   ],
   "related": [
     "Swiss Confederation"
@@ -23,17 +24,20 @@
   "photo": true,
   "checks": {
     "civilization_votes": {
-      "wikidata": [
-        "German Empire",
+      "office": [
+        "Weimar Republic",
+        "German Empire"
+      ],
+      "death": [
         "Weimar Republic"
       ],
       "lead": [
         "Swiss Confederation",
         "Weimar Republic"
       ],
-      "vital_section": [],
-      "birthplace": [
-        "German Confederation"
+      "citizenship": [
+        "German Empire",
+        "Weimar Republic"
       ]
     },
     "lead": "Eduard Bernstein (German: [ˈeːduaʁt ˈbɛʁnʃtaɪn]; 6 January 1850 – 18 December 1932) was a German social democratic politician and socialist theorist. A member of the Social Democratic Party (SPD), Bernstein is best known for his reformist challenge to Marxism known as evolutionary socialism or revisionism, in which he questioned the revolutionary predictions of Karl Marx and advocated for a gradual, parliamentary path to socialism. His political and theoretical work played a significant role in the development of social democracy and democratic socialism.",
