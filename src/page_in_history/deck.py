@@ -283,8 +283,8 @@ def civilization_tags(document: dict) -> list[str]:
     return tags + [tag("Country", country) for country in countries if country]
 
 
-def figure_tags(document: dict) -> list[str]:
-    tags = [tag("Civilization", name) for name in document["civilizations"]]
+def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
+    tags = [tag("Civilization", name) for name in civilizations]
     tags += [century_tag(number) for number in centuries(*document["lifetime"])]
     tags += [tag("Country", document["birth_country"])] if document["birth_country"] else []
     tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
@@ -361,22 +361,23 @@ class DeckBuilder:
                   civilization_tags(document), document["id"])
 
     def add_figure(self, document: dict, maps: dict[str, str]) -> None:
-        civilization = document["civilizations"][0] if document["civilizations"] else ""
+        """Only civilizations in the deck are shown, so each one named has its own map and cards."""
+        civilizations = [name for name in document["civilizations"] if name in maps]
         values = {
             "Id": document["id"],
             "Name": escaped(document["name"]),
             "Role": escaped(document["role"]),
             "Life": escaped(document["life"]),
-            "Civilization": joined(document["civilizations"]),
-            "CivilizationMap": self.media.image(maps.get(civilization, "")),
+            "Civilization": joined(civilizations),
+            "CivilizationMap": self.media.image(maps[civilizations[0]]) if civilizations else "",
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
             "ImageKind": "Photograph" if document["photo"] else "Depiction",
             "Photo": "yes" if document["photo"] else "",
-            "Related": joined(document["related"]),
+            "Related": joined([name for name in document["related"] if name in maps]),
         }
-        tags = figure_tags(document)
+        tags = figure_tags(document, civilizations)
         self._add(self.figure_model, FIGURE_FIELDS, FIGURE_TEMPLATES, values, tags, document["id"])
 
     def write(self, output: pathlib.Path) -> None:

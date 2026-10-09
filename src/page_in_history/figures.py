@@ -10,7 +10,7 @@ from page_in_history.naming import slugify
 from page_in_history.polities import PolityCatalog
 from page_in_history.sources import vital
 from page_in_history.sources.pantheon import Person
-from page_in_history.sources.wikidata import Entity, Year
+from page_in_history.sources.wikidata import Entity, Year, qualifier_year
 from page_in_history.sources.wikipedia import lead_links
 
 EXCLUDED_SECTIONS = ("Entertainers", "Sports figures", "Directors, producers", "Musicians", "Businesspeople",
@@ -32,6 +32,9 @@ MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
 HUMAN_YEAR = re.compile(r"\b(\d{3,4})\b")
 NOT_A_PORTRAIT = re.compile(r"\bcoins?\b|coinage|\bdinars?\b|\baure(?:us|i)\b|siliqua|calligraph", re.IGNORECASE)
 MIN_VOTES = 2
+ADULT_AGE = 20
+HEAD_OFFICES = ("P1906", "P1313")
+MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
 DATES_IN_PARENTHESES = re.compile(r"\s*\([^()]*\d[^()]*\)")
 TRAILING_YEAR = re.compile(r",\s*(?:c\.\s*)?\d{1,4}\s*(?:BCE?|AD|CE)?\s*$")
@@ -101,6 +104,19 @@ def predicate(paragraph: str) -> str:
     return text[:1].upper() + text[1:]
 
 
+@dataclass(frozen=True)
+class Candidate:
+    title: str
+    person: Entity
+    lifetime: tuple[int, int]
+    section: list[str]
+
+    @property
+    def adulthood(self) -> tuple[int, int]:
+        start, end = self.lifetime
+        return (start + ADULT_AGE, end) if start + ADULT_AGE <= end else self.lifetime
+
+
 class FigureBuilder:
     def __init__(self, catalog: PolityCatalog, pantheon: dict[str, Person], http):
         self.catalog = catalog
@@ -109,13 +125,36 @@ class FigureBuilder:
         self.wikidata = catalog.wikidata
         self.pantheon = pantheon
         self.http = http
+        self.head_offices: dict[str, set[str]] = {}
+        for state in catalog.by_qid:
+            for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
+                self.head_offices.setdefault(office, set()).add(state)
 
     def build(self, polity_names: set[str], start: int, end: int) -> list[Figure]:
+        candidates = [candidate for candidate in self._candidates(start, end)
+                      if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
+        titles = [candidate.title for candidate in candidates]
+        self.headings = self.wikipedia.resolve(list({heading for candidate in candidates for heading in candidate.section}))
+        self.offices = self.wikidata.entities([qid for candidate in candidates
+                                               for qid in candidate.person.ids("P39", preferred_only=False)])
+        self.places = self.wikidata.entities([qid for candidate in candidates for qid in candidate.person.ids("P20")])
+        self.categories = self._category_states(self.wikipedia.categories(titles))
+        texts = self.wikipedia.wikitext(titles)
+        links = {title: lead_links(texts.get(title, "")) for title in titles}
+        self.linked = self.wikipedia.resolve([link for found in links.values() for link in found])
+        figures = []
+        for candidate in candidates:
+            civilizations, related, votes = self._civilizations(candidate, links[candidate.title])
+            if set(civilizations) & polity_names:
+                figures.append((candidate, civilizations, related, votes))
+        logger.info("%d figures link to the selected civilizations", len(figures))
+        return self._assemble(figures)
+
+    def _candidates(self, start: int, end: int) -> list[Candidate]:
         entries = [entry for entry in vital.people(self.http, self.wikipedia)
                    if not entry.top_section.startswith(EXCLUDED_SECTIONS)]
         pages = self.wikipedia.resolve([entry.title for entry in entries])
-        people = self.wikidata.entities([page.qid for page in pages.values()
-                                         if page.qid and self._maybe_alive(page.qid, start, end)])
+        people = self.wikidata.entities([page.qid for page in pages.values() if page.qid and self._maybe_alive(page.qid, start, end)])
         candidates = []
         for entry in entries:
             page = pages.get(entry.title)
@@ -123,23 +162,9 @@ class FigureBuilder:
             if not person or self._excluded(person) or not self._notable(person, entry):
                 continue
             span = lifetime(person.years("P569"), person.years("P570"))
-            if span and span[1] >= start and span[0] <= end:
-                candidates.append((page.title, person, span, entry.section.split(" > ")))
-        headings = self.wikipedia.resolve(list({heading for *_, section in candidates for heading in section}))
-        selected = {qid for qid, identity in self.catalog.by_qid.items() if identity.name in polity_names}
-        candidates = [(title, person, span, self._polities(section, headings)) for title, person, span, section in candidates]
-        candidates = [candidate for candidate in candidates if self._other_votes(*candidate[1:]) & selected]
-        texts = self.wikipedia.wikitext([title for title, *_ in candidates])
-        links = {title: lead_links(texts.get(title, "")) for title, *_ in candidates}
-        linked = self.wikipedia.resolve([link for found in links.values() for link in found])
-        figures = []
-        for title, person, span, section_polities in candidates:
-            lead_polities = self._polities(links[title], linked)
-            civilizations, related, votes = self._civilizations(person, span, lead_polities, section_polities)
-            if set(civilizations) & polity_names:
-                figures.append((title, person, span, civilizations, related, votes))
-        logger.info("%d figures link to the selected civilizations", len(figures))
-        return self._assemble(figures)
+            if span:
+                candidates.append(Candidate(page.title, person, span, entry.section.split(" > ")))
+        return candidates
 
     def _maybe_alive(self, qid: str, start: int, end: int) -> bool:
         """Skips fetching people whose Pantheon birth year puts them clearly outside the window."""
@@ -159,52 +184,104 @@ class FigureBuilder:
         found = self.pantheon.get(person.id)
         return found is not None and found.occupation in EXCLUDED_OCCUPATIONS
 
-    def _active(self, qid: str, span: tuple[int, int]) -> bool:
+    def _active(self, qid: str, years: tuple[int, int]) -> bool:
         rows = self.cliopatria.rows(self.catalog.by_qid[qid].name)
-        return bool(((rows.ToYear >= span[0]) & (rows.FromYear <= span[1])).any())
+        return bool(((rows.ToYear >= years[0]) & (rows.FromYear <= years[1])).any())
 
-    def _other_votes(self, person: Entity, span: tuple[int, int], section_polities: list[str]) -> set[str]:
-        """Civilizations voted for without the article's opening links. Since a civilization needs two votes and the
-        opening can add only one, people with none of these cannot qualify and their articles need not be read."""
-        votes = [qid for qid in person.ids("P27", preferred_only=False) if qid in self.catalog.by_qid]
-        votes += section_polities + self._birthplace(person)
-        return {qid for qid in votes if self._active(qid, span)}
+    def _years_within(self, qid: str, years: tuple[int, int]) -> int:
+        rows = self.cliopatria.rows(self.catalog.by_qid[qid].name)
+        return max(0, min(years[1], int(rows.ToYear.max())) - max(years[0], int(rows.FromYear.min())))
 
     def _polities(self, titles: list[str], pages: dict) -> list[str]:
         return [pages[title].qid for title in titles if title in pages and pages[title].qid in self.catalog.by_qid]
 
-    def _civilizations(self, person: Entity, span: tuple[int, int], lead_polities: list[str],
-                       section_polities: list[str]):
-        """A civilization counts when at least two sources agree: Wikidata citizenship, a link in the article's
-        opening, the Vital Articles section the person is filed under, or the birthplace on the Cliopatria map."""
+    def _category_states(self, categories: dict[str, list[str]]) -> dict[str, list[str]]:
+        """Each article's states named by its 'people of a state' categories: those that Wikidata describes as
+        containing citizens, subjects or office holders of the state, not categories about relations with it."""
+        pages = self.wikipedia.resolve([title for titles in categories.values() for title in titles])
+        items = self.wikidata.entities([page.qid for page in pages.values() if page.qid])
+        states = {title: [qid for qid in items[page.qid].qualifier_ids("P4224", MEMBERSHIP_QUALIFIERS)
+                          if qid in self.catalog.by_qid]
+                  for title, page in pages.items() if page.qid in items}
+        return {article: [qid for title in titles for qid in states.get(title, [])]
+                for article, titles in categories.items()}
+
+    def _civilizations(self, candidate: Candidate, links: list[str]):
+        """A civilization counts when it existed during the person's adult life and at least two sources agree:
+        offices held, 'people of' categories, the place of death and the birthplace on the Cliopatria map, links
+        in the article's opening, Wikidata citizenship and the Vital Articles section. Holding a state's own
+        head-of-state or head-of-government office confirms that state alone. The best supported come first, and
+        among equals the one the person lived in longest as an adult."""
+        person, adulthood = candidate.person, candidate.adulthood
         sources = {
-            "wikidata": [qid for qid in person.ids("P27", preferred_only=False) if qid in self.catalog.by_qid],
-            "lead": lead_polities,
-            "vital_section": section_polities,
+            "office": self._offices(candidate),
+            "category": self.categories.get(candidate.title, []),
+            "death": self._located(person, "P20"),
+            "lead": self._polities(links, self.linked),
+            "citizenship": [qid for qid in person.ids("P27", preferred_only=False) if qid in self.catalog.by_qid],
+            "vital_section": self._polities(candidate.section, self.headings),
             "birthplace": self._birthplace(person),
         }
-        sources = {source: list(dict.fromkeys(qid for qid in qids if self._active(qid, span)))
+        sources = {source: list(dict.fromkeys(qid for qid in qids if self._active(qid, adulthood)))
                    for source, qids in sources.items()}
         votes = Counter(qid for qids in sources.values() for qid in qids)
-        confirmed = [qid for qid, count in votes.most_common() if count >= MIN_VOTES]
+        headed = self._headed(candidate)
+        confirmed = sorted((qid for qid, count in votes.items() if count >= MIN_VOTES or qid in headed),
+                           key=lambda qid: (-votes[qid], -self._years_within(qid, adulthood)))
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
-        readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items()}
+        readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
         return [names[qid].name for qid in confirmed], [names[qid].name for qid in related], readable
+
+    def _terms(self, candidate: Candidate):
+        """Each office the person held, with its term, or their adult life when Wikidata gives no dates."""
+        for claim in candidate.person.statements("P39", preferred_only=False):
+            start, end = qualifier_year(claim, "P580"), qualifier_year(claim, "P582")
+            term = (start if start is not None else candidate.adulthood[0],
+                    end if end is not None else start if start is not None else candidate.adulthood[1])
+            yield claim["mainsnak"]["datavalue"]["value"]["id"], term
+
+    def _offices(self, candidate: Candidate) -> list[str]:
+        """States an office governs: its jurisdiction, or the state whose head-of-state or head-of-government office
+        it is, as long as the state existed during the term."""
+        found = []
+        for qid, term in self._terms(candidate):
+            office = self.offices.get(qid)
+            states = {state for state in office.ids("P1001", preferred_only=False) if state in self.catalog.by_qid} \
+                if office else set()
+            found += [state for state in states | self.head_offices.get(qid, set()) if self._active(state, term)]
+        return found
+
+    def _headed(self, candidate: Candidate) -> set[str]:
+        return {state for qid, term in self._terms(candidate)
+                for state in self.head_offices.get(qid, ()) if self._active(state, term)}
+
+    def _located(self, person: Entity, prop: str) -> list[str]:
+        """The states whose Cliopatria territory held the place of death in the year of death."""
+        deaths = person.years("P570")
+        for qid in person.ids(prop):
+            place = self.places.get(qid)
+            location = place.coordinates() if place else None
+            if location and deaths:
+                return self._states_at(location, deaths[0].latest)
+        return []
 
     def _birthplace(self, person: Entity) -> list[str]:
         found = self.pantheon.get(person.id)
         if not found or not found.birthplace or found.birth_year is None:
             return []
-        rows = self.cliopatria.at(found.birth_year)
-        rows = rows[rows.geometry.contains(Point(found.birthplace))]
+        return self._states_at(found.birthplace, found.birth_year)
+
+    def _states_at(self, location: tuple[float, float], year: int) -> list[str]:
+        rows = self.cliopatria.at(year)
+        rows = rows[rows.geometry.contains(Point(location))]
         return [self.catalog.identities[name].qid for name in rows.Name if name in self.catalog.identities]
 
     def _assemble(self, figures: list) -> list[Figure]:
-        titles = [title for title, *_ in figures]
-        introductions = self.wikipedia.introductions(titles)
+        introductions = self.wikipedia.introductions([candidate.title for candidate, *_ in figures])
         assembled = []
-        for title, person, span, civilizations, related, votes in figures:
+        for candidate, civilizations, related, votes in figures:
+            title, person, span = candidate.title, candidate.person, candidate.lifetime
             extract, short_description = introductions.get(title, ("", None))
             paragraph = first_paragraph(extract)
             contribution = predicate(paragraph)
