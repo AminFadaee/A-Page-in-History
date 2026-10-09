@@ -18,7 +18,8 @@ def report(paths: DataPaths) -> str:
     total = len(civilizations)
     lines += [
         coverage("Map card", sum(bool(c["map"]) for c in civilizations), total),
-        coverage("Succession card", sum(bool(c["succession"]) for c in civilizations), total),
+        coverage("Ruled before card", sum(bool(c["before"]) for c in civilizations), total),
+        coverage("Ruled after card", sum(bool(c["after"]) for c in civilizations), total),
         coverage("Capital (context)", sum(bool(c["capitals"]) for c in civilizations), total),
         coverage("Period card (2 of 3 sources agree)", sum(c["period"]["confirmed"] for c in civilizations), total),
         coverage("Notable rulers", sum(bool(c["rulers"]) for c in civilizations), total),
@@ -26,7 +27,7 @@ def report(paths: DataPaths) -> str:
     for civilization in civilizations:
         missing = [name for name, present in (
             ("period", civilization["period"]["confirmed"]), ("capital", civilization["capitals"]),
-            ("predecessor", civilization["predecessors"]), ("successor", civilization["successors"]),
+            ("before", civilization["before"]), ("after", civilization["after"]),
             ("rulers", civilization["rulers"]),
         ) if not present]
         if missing:

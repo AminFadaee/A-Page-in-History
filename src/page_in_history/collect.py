@@ -7,7 +7,6 @@ from urllib.parse import quote
 
 from PIL import Image
 
-from page_in_history.diagrams import SuccessionDiagram
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.maps import MapRenderer
@@ -50,10 +49,6 @@ class DataPaths:
         return self.root / "maps"
 
     @property
-    def successions(self) -> pathlib.Path:
-        return self.root / "successions"
-
-    @property
     def images(self) -> pathlib.Path:
         return self.root / "images"
 
@@ -78,21 +73,19 @@ class Collector:
                     else builder.select_notable())
         polities = builder.build(selected)
         logger.info("Selected %d civilizations: %s", len(polities), ", ".join(polity.name for polity in polities))
-        for directory in (self.paths.civilizations, self.paths.figures, self.paths.maps, self.paths.successions,
-                          self.paths.images):
+        for directory in (self.paths.civilizations, self.paths.figures, self.paths.maps, self.paths.images):
             shutil.rmtree(directory, ignore_errors=True)
             directory.mkdir(parents=True)
         font = fonts.inter(self.http)
         renderer = MapRenderer(cliopatria, countries, naturalearth.rivers(self.http), font)
-        diagram = SuccessionDiagram(font)
         self.failures: list[str] = []
         for polity in polities:
             try:
-                self._draw(polity, renderer, diagram)
+                self._draw(polity, renderer)
             except Exception:
                 logger.exception("Could not draw %s", polity.name)
                 self.failures.append(f"drawing {polity.name}")
-                polity.map, polity.succession = "", {}
+                polity.map = ""
         figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http)
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         for figure in figures:
@@ -105,14 +98,10 @@ class Collector:
         self._write(polities, figures)
         self._report(scope, catalog, cliopatria, polities, figures)
 
-    def _draw(self, polity: Polity, renderer: MapRenderer, diagram: SuccessionDiagram) -> None:
+    def _draw(self, polity: Polity, renderer: MapRenderer) -> None:
         polity.map = f"maps/{polity.slug}.png"
         capitals = [capital["location"] for capital in polity.capitals if capital["location"]]
         polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals, self.paths.root / polity.map)
-        if polity.succession:
-            for side, reveal in (("question", False), ("answer", True)):
-                polity.succession[side] = f"successions/{polity.slug}-{side}.png"
-                diagram.render(polity.succession, polity.id, reveal, self.paths.root / polity.succession[side])
 
     def _image(self, figure: Figure) -> str:
         if not figure.image:

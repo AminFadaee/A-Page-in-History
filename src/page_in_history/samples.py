@@ -41,8 +41,8 @@ class Sample:
 
 SAMPLES = (
     Sample("Page in History civilization", "Map", "Parthian Empire", "civilization-map.webp"),
-    Sample("Page in History civilization", "Succession", "Sasanian Empire", "civilization-succession.webp"),
-    Sample("Page in History civilization", "Succession", "Seleucid Empire", "civilization-succession-one-side.webp"),
+    Sample("Page in History civilization", "Before", "Sasanian Empire", "civilization-before.webp"),
+    Sample("Page in History civilization", "After", "Abbasid Caliphate", "civilization-after.webp"),
     Sample("Page in History civilization", "Period", "Achaemenid Empire", "civilization-period.webp"),
     Sample("Page in History figure", "Who", "Cyrus the Great", "figure-who.webp"),
     Sample("Page in History figure", "Photo", "Albert Einstein", "figure-photo.webp"),

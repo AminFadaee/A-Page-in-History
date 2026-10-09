@@ -107,27 +107,33 @@ def info(*lines: tuple[str, str]) -> str:
 
 
 CIVILIZATION_TITLE = '{{Name}}<div class="subtitle">{{Period}}</div>'
-CIVILIZATION_INFO = info(("Capital", "Capital"), ("Notable rulers", "Rulers"), ("Before", "Predecessor"),
-                         ("After", "Successor"), ("Today", "ModernCountries"))
+CIVILIZATION_INFO = info(("Capital", "Capital"), ("Notable rulers", "Rulers"), ("Before", "Before"),
+                         ("After", "After"), ("Today", "ModernCountries"))
 MAP_IMAGE = '<div class="image map">{{Map}}</div>'
 MAP_THUMBNAIL = '<div class="thumbnail map">{{Map}}</div>'
-SUCCESSION_QUESTION = '<div class="image diagram">{{SuccessionQuestion}}</div>'
-SUCCESSION_ANSWER = '<div class="image diagram">{{SuccessionAnswer}}</div>'
+
+
+def neighbour_template(side: str) -> Template:
+    """Who ruled the civilization's home region right before or after it, e.g. 'Before it in Iraq'."""
+    label = f"{side} it in {{{{{side}Region}}}}"
+    return Template(side, Subdeck.SUCCESSION, (side,),
+                    face(entity(CIVILIZATION_TITLE), label, UNKNOWN_VALUE),
+                    face(entity(CIVILIZATION_TITLE), label, value(f"{{{{{side}}}}}", answered=True)) + MAP_THUMBNAIL)
+
 
 CIVILIZATION_TEMPLATES = (
     Template("Map", Subdeck.CIVILIZATIONS, ("Map",),
              face(UNKNOWN_ENTITY, "Map", MAP_IMAGE),
              face(entity(CIVILIZATION_TITLE, answered=True), "Map", MAP_IMAGE) + CIVILIZATION_INFO),
-    Template("Succession", Subdeck.SUCCESSION, ("SuccessionQuestion",),
-             face(UNKNOWN_ENTITY, "Succession", SUCCESSION_QUESTION),
-             face(entity(CIVILIZATION_TITLE, answered=True), "Succession", SUCCESSION_ANSWER) + MAP_THUMBNAIL),
+    neighbour_template("Before"),
+    neighbour_template("After"),
     Template("Period", Subdeck.PERIODS, ("AskPeriod",),
              face(entity("{{Name}}"), "When", UNKNOWN_VALUE),
              face(entity("{{Name}}"), "When", value("{{Period}}", answered=True)) + MAP_THUMBNAIL),
 )
 
-CIVILIZATION_FIELDS = ("Id", "Name", "Map", "Period", "AskPeriod", "Capital", "Predecessor", "Successor",
-                       "SuccessionQuestion", "SuccessionAnswer", "Rulers", "ModernCountries")
+CIVILIZATION_FIELDS = ("Id", "Name", "Map", "Period", "AskPeriod", "Capital", "Before", "BeforeRegion", "After",
+                       "AfterRegion", "Rulers", "ModernCountries")
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
@@ -166,7 +172,6 @@ CSS = """
 .unknown { color: var(--faint); font-weight: 600; }
 .answer { color: var(--accent); font-weight: 700; }
 .image img { width: 100%; max-width: 900px; height: auto; max-height: 60vh; object-fit: contain; }
-.diagram img { max-width: 720px; }
 .thumbnail { margin-top: 14px; }
 .thumbnail img { width: 100%; max-width: 360px; height: auto; }
 .info { font-size: 16px; line-height: 1.5; color: var(--info); margin: 14px auto 0; max-width: 40em; text-align: left; }
@@ -274,9 +279,7 @@ def civilization_tags(document: dict) -> list[str]:
     if period["confirmed"]:
         tags += [century_tag(number) for number in centuries(period["start"]["earliest"], period["end"]["latest"])]
     countries = document["modern_countries"][:MAX_COUNTRY_TAGS]
-    for first, last, anchor in document["succession"].get("edges", []):
-        if document["id"] in (first, last):
-            countries += anchor.split(", ")
+    countries += [document[side].get("region", "") for side in ("before", "after")]
     return tags + [tag("Country", country) for country in countries if country]
 
 
@@ -347,10 +350,10 @@ class DeckBuilder:
             "Period": escaped(period_label(Span(**period["start"]), Span(**period["end"]))) if period["confirmed"] else "",
             "AskPeriod": "yes" if period["confirmed"] else "",
             "Capital": joined([capital["name"] for capital in document["capitals"]]),
-            "Predecessor": joined(document["predecessors"], " / "),
-            "Successor": joined(document["successors"], " / "),
-            "SuccessionQuestion": self.media.image(document["succession"].get("question", "")),
-            "SuccessionAnswer": self.media.image(document["succession"].get("answer", "")),
+            "Before": escaped(document["before"].get("name")),
+            "BeforeRegion": escaped(document["before"].get("region")),
+            "After": escaped(document["after"].get("name")),
+            "AfterRegion": escaped(document["after"].get("region")),
             "Rulers": joined([ruler["name"] for ruler in document["rulers"]]),
             "ModernCountries": countries(document["modern_countries"]),
         }
