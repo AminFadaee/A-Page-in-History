@@ -79,6 +79,22 @@ class Wikipedia:
                     found[page["title"]] = page["revisions"][0]["slots"]["main"]["content"]
         return found
 
+    def categories(self, titles: list[str]) -> dict[str, list[str]]:
+        """The visible categories of each article, following continuation since one batch can exceed the limit."""
+        unique = sorted(set(titles))
+        found: dict[str, list[str]] = {}
+        for start in range(0, len(unique), BATCH):
+            params = {"action": "query", "titles": "|".join(unique[start : start + BATCH]), "prop": "categories",
+                      "clshow": "!hidden", "cllimit": "max", "format": "json", "formatversion": 2}
+            while True:
+                data = self.http.json(API, params, namespace="wikipedia")
+                for page in data["query"]["pages"]:
+                    found.setdefault(page["title"], []).extend(category["title"] for category in page.get("categories", []))
+                if "continue" not in data:
+                    break
+                params = {**params, **data["continue"]}
+        return found
+
     def introductions(self, titles: list[str]) -> dict[str, tuple[str, str | None]]:
         """Plain-text opening section and the short description of each article."""
         unique = sorted(set(titles))

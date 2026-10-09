@@ -76,6 +76,16 @@ class Entity:
             if isinstance(claim["mainsnak"]["datavalue"]["value"], dict) and "id" in claim["mainsnak"]["datavalue"]["value"]
         ))
 
+    def qualifier_ids(self, prop: str, qualifiers: set[str]) -> list[str]:
+        """Items named by the given qualifiers on any of the property's statements."""
+        return list(dict.fromkeys(
+            qualifier["datavalue"]["value"]["id"]
+            for claim in self.statements(prop, preferred_only=False)
+            for name, values in claim.get("qualifiers", {}).items() if name in qualifiers
+            for qualifier in values
+            if isinstance(qualifier.get("datavalue", {}).get("value"), dict) and "id" in qualifier["datavalue"]["value"]
+        ))
+
     def coordinates(self) -> tuple[float, float] | None:
         """Longitude and latitude of the item's first coordinate location (P625)."""
         for claim in self.statements("P625"):
@@ -96,6 +106,14 @@ class Entity:
             ]
             found.append(Year(parse_year(value["time"]), value["precision"], CIRCA in circumstances))
         return found
+
+
+def qualifier_year(claim: dict, prop: str) -> int | None:
+    for qualifier in claim.get("qualifiers", {}).get(prop, []):
+        value = qualifier.get("datavalue", {}).get("value")
+        if isinstance(value, dict) and "time" in value:
+            return parse_year(value["time"])
+    return None
 
 
 def parse_year(time: str) -> int:
