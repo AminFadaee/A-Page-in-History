@@ -125,14 +125,16 @@ class FigureBuilder:
             span = lifetime(person.years("P569"), person.years("P570"))
             if span and span[1] >= start and span[0] <= end:
                 candidates.append((page.title, person, span, entry.section.split(" > ")))
+        headings = self.wikipedia.resolve(list({heading for *_, section in candidates for heading in section}))
+        selected = {qid for qid, identity in self.catalog.by_qid.items() if identity.name in polity_names}
+        candidates = [(title, person, span, self._polities(section, headings)) for title, person, span, section in candidates]
+        candidates = [candidate for candidate in candidates if self._other_votes(*candidate[1:]) & selected]
         texts = self.wikipedia.wikitext([title for title, *_ in candidates])
         links = {title: lead_links(texts.get(title, "")) for title, *_ in candidates}
-        headings = {heading for *_, section in candidates for heading in section}
-        linked = self.wikipedia.resolve([link for found in links.values() for link in found] + list(headings))
+        linked = self.wikipedia.resolve([link for found in links.values() for link in found])
         figures = []
-        for title, person, span, section in candidates:
+        for title, person, span, section_polities in candidates:
             lead_polities = self._polities(links[title], linked)
-            section_polities = self._polities(section, linked)
             civilizations, related, votes = self._civilizations(person, span, lead_polities, section_polities)
             if set(civilizations) & polity_names:
                 figures.append((title, person, span, civilizations, related, votes))
@@ -160,6 +162,13 @@ class FigureBuilder:
     def _active(self, qid: str, span: tuple[int, int]) -> bool:
         rows = self.cliopatria.rows(self.catalog.by_qid[qid].name)
         return bool(((rows.ToYear >= span[0]) & (rows.FromYear <= span[1])).any())
+
+    def _other_votes(self, person: Entity, span: tuple[int, int], section_polities: list[str]) -> set[str]:
+        """Civilizations voted for without the article's opening links. Since a civilization needs two votes and the
+        opening can add only one, people with none of these cannot qualify and their articles need not be read."""
+        votes = [qid for qid in person.ids("P27", preferred_only=False) if qid in self.catalog.by_qid]
+        votes += section_polities + self._birthplace(person)
+        return {qid for qid in votes if self._active(qid, span)}
 
     def _polities(self, titles: list[str], pages: dict) -> list[str]:
         return [pages[title].qid for title in titles if title in pages and pages[title].qid in self.catalog.by_qid]
