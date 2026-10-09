@@ -6,6 +6,7 @@ import geopandas as gpd
 
 from page_in_history.dates import Span
 from page_in_history.naming import slugify
+from page_in_history.sources import vital
 from page_in_history.sources.cliopatria import EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id
 from page_in_history.sources.wikipedia import Infobox, Wikipedia, country_infobox, display_name, place_name
@@ -22,15 +23,27 @@ MIN_REGION_SHARE = 0.05
 MIN_INSIDE_SHARE = 0.25
 MIN_PEAK_AREA_KM2 = 50_000
 MIN_LANGUAGE_EDITIONS = 60
-ENDED_BY = 1950
-HISTORICAL_CLASSES = {
-    "Q3024240",  # historical country
-    "Q4204501",  # historical ethnic group
-    "Q1620908",  # historical region
-    "Q8432",  # civilization
-    "Q28171280",  # ancient civilization
+MAX_VITAL_LEVEL = 4
+LEVEL_5_LANGUAGES = 45
+LEVEL_5_PEAK_KM2 = 1_000_000
+LARGE_PEAK_KM2 = 2_000_000
+LIVING_ON_MAP_BEFORE = 1900
+LIVING_PEAK_KM2 = 2_000_000
+KINDS = {
+    "Q3624078": "sovereign state",
+    "Q133442": "city-state",
+    "Q486972": "settlement",
+    "Q10864048": "subdivision",  # first-level administrative country subdivision
+    "Q107390": "subdivision",  # federated state
+    "Q133156": "colony",
+    "Q164142": "colony",  # protectorate
+    "Q161243": "colony",  # dependent territory
+    "Q3024240": "historical",  # historical country
+    "Q4204501": "historical",  # historical ethnic group
+    "Q1620908": "historical",  # historical region
+    "Q8432": "historical",  # civilization
+    "Q28171280": "historical",  # ancient civilization
 }
-HUMAN_SETTLEMENT = "Q486972"
 INFOBOX_TOLERANCE_YEARS = 1
 CLIOPATRIA_TOLERANCE_YEARS = 25
 MODERN_SHARE_OF_POLITY = 0.05
@@ -86,9 +99,10 @@ def equal_area_shape(geometry, crs):
 
 
 def years_overlap(entity: Entity, start: int, end: int) -> bool:
+    """The item's dates overlap the years given; an item with a start but no end still exists."""
     inception = [year.earliest for year in entity.years("P571") + entity.years("P580")]
     dissolution = [year.latest for year in entity.years("P576") + entity.years("P582")]
-    return bool(inception and dissolution) and min(inception) <= end and max(dissolution) >= start
+    return bool(inception) and min(inception) <= end and (not dissolution or max(dissolution) >= start)
 
 
 def vote(candidates: dict[str, Span | None], tolerances: dict[frozenset, int]) -> Span | None:
@@ -125,19 +139,41 @@ class PolityCatalog:
         self.infoboxes = {title: country_infobox(text) for title, text in wikipedia.wikitext(others).items()}
         self.unresolved: dict[str, str] = {}
         candidates: dict[str, Identity] = {}
+        years = {name: (int(group.FromYear.min()), int(group.ToYear.max())) for name, group in rows.groupby("Name")}
         for name, (title, cliopatria_qid) in links.items():
-            group = rows[rows.Name == name]
             page = pages.get(title)
             entity = self.entities.get(page.qid) if page and page.qid else None
-            found = self._identify(name, page.title if page else title, entity, cliopatria_qid,
-                                   int(group.FromYear.min()), int(group.ToYear.max()))
+            found = self._identify(name, page.title if page else title, entity, cliopatria_qid, *years[name])
             if isinstance(found, Identity):
                 candidates[name] = found
             else:
                 self.unresolved[name] = found
+        candidates |= self._by_name({name: (links[name][1], *years[name]) for name in self.unresolved})
+        for name in candidates:
+            self.unresolved.pop(name, None)
         self.qids = {name: identity.qid for name, identity in candidates.items()}
         self.identities = self._without_duplicates(candidates)
         self.by_qid = {identity.qid: identity for identity in self.identities.values()}
+
+    def _by_name(self, failed: dict[str, tuple[str, int, int]]) -> dict[str, Identity]:
+        """Cliopatria's link sometimes points at the wrong article, such as the island for the Kingdom of Great
+        Britain. Then its own Wikidata id, or a Wikidata state named exactly like the Cliopatria polity (by label or
+        alias), stands in when its dates overlap and it is the only such state."""
+        options = {name: [cliopatria_qid] + self.wikidata.exact_matches(name)
+                   for name, (cliopatria_qid, _, _) in failed.items()}
+        entities = self.wikidata.entities([qid for qids in options.values() for qid in qids])
+        classes = {qid for entity in entities.values() for qid in entity.ids("P31", preferred_only=False)}
+        self.polity_classes |= self.wikidata.subclass_of(sorted(classes - self.polity_classes), POLITY_ROOTS)
+        found = {}
+        for name, qids in options.items():
+            _, start, end = failed[name]
+            states = {qid: entities[qid] for qid in qids if qid in entities and self.is_polity(entities[qid])
+                      and entities[qid].enwiki and years_overlap(entities[qid], start, end)}
+            if len(states) == 1:
+                entity = next(iter(states.values()))
+                self.entities[entity.id] = entity
+                found[name] = Identity(name, entity.enwiki, entity.id, "Wikidata state named like the Cliopatria polity")
+        return found
 
     def is_polity(self, entity: Entity) -> bool:
         return bool(set(entity.ids("P31", preferred_only=False)) & self.polity_classes)
@@ -208,25 +244,48 @@ class PolityBuilder:
         return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
 
     def select_notable(self) -> list[Identity]:
-        """Civilizations covered by Wikipedia in at least 60 languages that ended by 1950: importance rather than size,
-        so small early civilizations stay in and today's countries are left to a geography deck."""
-        editions = self.wikidata.language_editions([identity.qid for identity in self.catalog.identities.values()])
-        popular = [identity for identity in self.catalog.identities.values()
-                   if editions.get(identity.qid, 0) >= MIN_LANGUAGE_EDITIONS]
-        classes = {qid for identity in popular for qid in self.catalog.entities[identity.qid].ids("P31", preferred_only=False)}
-        self.settlement_classes = self.wikidata.subclass_of(sorted(classes), {HUMAN_SETTLEMENT})
-        selected = [identity for identity in popular if self._ended(self.catalog.entities[identity.qid])]
+        """Civilizations that Wikipedia's editors list as vital, that Wikipedia covers in many languages, or that ruled
+        a vast territory. Any one is enough, so small early civilizations and large regional empires both qualify."""
+        identities = list(self.catalog.identities.values())
+        qids = [identity.qid for identity in identities]
+        editions = self.wikidata.language_editions(qids)
+        levels = self._vital_levels()
+        kinds = self.wikidata.kinds(qids, KINDS)
+        selected = [identity for identity in identities
+                    if self._notable(identity, editions.get(identity.qid, 0), levels.get(identity.qid), kinds[identity.qid])]
         return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
 
-    def _ended(self, entity: Entity) -> bool:
-        """The item itself ended by 1950; or, when Wikidata gives no end date, it files the item as a historical
-        country, people, region or civilization and not as a settlement. Cliopatria's own dates are not enough: it
-        sometimes links a historical polity to today's place, such as San Marino or the city of Kathmandu."""
-        ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
-        if ends:
-            return max(ends) <= ENDED_BY
-        classes = set(entity.ids("P31", preferred_only=False))
-        return bool(classes & HISTORICAL_CLASSES) and not classes & self.settlement_classes
+    def _vital_levels(self) -> dict[str, int]:
+        levels = vital.article_levels(self.wikipedia.http, self.wikipedia)
+        pages = self.wikipedia.resolve(list(levels))
+        found: dict[str, int] = {}
+        for title, level in levels.items():
+            page = pages.get(title)
+            if page and page.qid:
+                found[page.qid] = min(level, found.get(page.qid, level))
+        return found
+
+    def _notable(self, identity: Identity, languages: int, level: int | None, kinds: set[str]) -> bool:
+        """Listed as vital at level 4 or above, in at least 60 languages, at level 5 with 45 languages or a peak of
+        1 million km², or at a peak of 2 million km² without being a colony. A sovereign state that still exists
+        qualifies only if it was on the maps before 1900 and reached 2 million km², as the United States did. Any
+        other polity without an end date must be filed as historical, since Cliopatria sometimes links an old polity
+        to today's place, such as the island of Rhodes, and today's provinces and towns never qualify."""
+        entity = self.catalog.entities[identity.qid]
+        rows = self.cliopatria.rows(identity.name)
+        peak = rows.Area.max()
+        if not entity.years("P576") + entity.years("P582"):
+            if "subdivision" in kinds or ("settlement" in kinds and "city-state" not in kinds):
+                return False
+            if "sovereign state" in kinds:
+                if rows.FromYear.min() >= LIVING_ON_MAP_BEFORE or peak < LIVING_PEAK_KM2:
+                    return False
+            elif "historical" not in kinds:
+                return False
+        level = level or MAX_VITAL_LEVEL + 2
+        return (level <= MAX_VITAL_LEVEL or languages >= MIN_LANGUAGE_EDITIONS
+                or (level == MAX_VITAL_LEVEL + 1 and (languages >= LEVEL_5_LANGUAGES or peak >= LEVEL_5_PEAK_KM2))
+                or (peak >= LARGE_PEAK_KM2 and "colony" not in kinds))
 
     def build(self, identities: list[Identity]) -> list[Polity]:
         """Notes for the selected civilizations. A civilization before or after one of them may come from outside

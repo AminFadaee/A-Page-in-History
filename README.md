@@ -2,10 +2,11 @@
 
 An Anki deck of civilizations and the people who shaped them, and the pipeline that builds it.
 
-It covers the civilizations that Wikipedia writes about in at least 60 languages and that ended by 1950, from
-Akkad and Old Kingdom Egypt to the Ottoman and Qing empires, and the historical figures linked to them. Importance is
-measured by that reach rather than by size, so small early civilizations like Phoenicia stay in, and today's
-countries are left to a geography deck.
+It covers the civilizations that Wikipedia's editors list as vital, that Wikipedia writes about in many languages, or
+that ruled a vast territory, from Akkad and Old Kingdom Egypt to the Samanids, the Ottoman and Qing empires and the
+United States, and the historical figures linked to them. Any one of these is enough, so small early civilizations
+like Phoenicia and large regional empires like the Samanids both qualify, while most of today's countries are left to a
+geography deck.
 
 Every value comes from public sources through code. There are no hand-written overrides: a field is filled only when
 independent sources agree, and is left empty otherwise.
@@ -68,8 +69,8 @@ update.
 
 | Field | Sources | Rule |
 |---|---|---|
-| Civilizations, borders, neighbours | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), Wikidata | Polities with a Wikipedia article in at least 60 languages whose Wikidata item ended by 1950, or has no end date but is classed as a historical country, people, region or civilization and not as a settlement. With `--region`: polities with at least 5% of the region, or 25% of their own territory inside it, and a peak of 50,000 km² or more |
-| Identity of a civilization | Cliopatria's Wikipedia link, Wikidata | The article's Wikidata item must be a state; Cliopatria's own Wikidata ids are often wrong and only count when they match |
+| Civilizations, borders, neighbours | [Cliopatria](https://github.com/Seshat-Global-History-Databank/cliopatria), Wikipedia Vital Articles (history and geography, levels 3–5), Wikidata | Polities Cliopatria draws that meet any of: Vital Articles level 4 or above; a Wikipedia article in at least 60 languages; Vital Articles level 5 with 45 languages or a peak of 1 million km²; a peak of 2 million km² without being a colony. A sovereign state that still exists qualifies only if Cliopatria draws it before 1900 and it reached 2 million km² (the United States, Mexico, Brazil). Any other polity without an end date must be classed as historical in Wikidata, and today's provinces and towns never qualify. With `--region`: polities with at least 5% of the region, or 25% of their own territory inside it, and a peak of 50,000 km² or more |
+| Identity of a civilization | Cliopatria's Wikipedia link, Wikidata | The article's Wikidata item must be a state; Cliopatria's own Wikidata ids are often wrong and only count when they match. When the link fails, Cliopatria's own id or a Wikidata state named exactly like the polity stands in, if its dates overlap and it is the only one |
 | Period | Wikipedia infobox (start and end years, or the life span), Wikidata, Cliopatria | Each end needs two sources to agree: within a year, or 25 years against Cliopatria's time steps. Centuries count as their whole range, and the most precise of the agreeing dates is shown |
 | Capital | Wikidata, Wikipedia infobox | Capitals both list |
 | Before and after in its home region | Cliopatria shapes, Wikidata, Wikipedia infobox | The next holder of the home on Cliopatria's maps within 30 years, which Wikidata or either civilization's infobox must also name as predecessor or successor. Holders that stayed under 5 years, such as wartime occupations, are passed over; Cliopatria names that share a Wikidata item count as one civilization; and an empire whose last territory went in large parts (15% or more each) to three or more states has no single successor |
