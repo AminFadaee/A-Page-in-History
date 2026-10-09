@@ -164,12 +164,19 @@ def infobox_years(fields: dict[str, Wikicode]) -> tuple[Span | None, Span | None
 
 
 def numbered(fields: dict[str, Wikicode], prefix: str) -> list[str]:
+    """Numbered fields such as p1, p2: each holds a link, or the bare article title that the infobox links itself."""
     keys = sorted((key for key in fields if re.fullmatch(rf"{prefix}\d+", key)), key=lambda key: int(key[len(prefix):]))
     found: list[str] = []
     for key in keys:
         if str(fields[key]).strip():
-            found.extend(link_targets(fields[key]))
+            found.extend(link_targets(fields[key]) or bare_title(fields[key]))
     return list(dict.fromkeys(found))
+
+
+def bare_title(value: Wikicode) -> list[str]:
+    """'Kingdom of France (1791–92){{!}}Kingdom of France' names the article before the escaped pipe."""
+    title = mw.parse(str(value).split("{{!}}")[0]).strip_code().strip()
+    return [title] if title else []
 
 
 def country_infobox(wikitext: str) -> Infobox | None:
