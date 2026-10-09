@@ -36,7 +36,11 @@ modern country around it. So a conquest counts (Babylon, then the Achaemenids, i
 not, and the answer may be a civilization that is not in the deck itself.
 
 Each map shows the civilization in red at its largest extent within its confirmed period, with the year in a corner
-and a small world map for orientation. Neighbouring civilizations of that year are coloured so that touching ones
+and a small world map showing the whole civilization in red. The main map is framed on its home region, the land
+around its capital, so a few distant colonies do not shrink it to a speck; other regions holding at least a tenth of
+its territory, such as Portugal's Angola and Mozambique, get up to three panels beside it. A region spanning a third of
+the globe is drawn on the Equal Earth projection, and a civilization too small to spot at its map's scale, such as a
+city-state, is circled. Neighbouring civilizations of that year are coloured so that touching ones
 never share a colour, and labelled when their name fits inside them. Today's borders are drawn in the same thin line
 as the historical ones, light over the civilization and grey elsewhere, so you can see which modern countries it
 covered. Capitals are marked with stars and major rivers are drawn. Historical borders are smoothed by about a pixel

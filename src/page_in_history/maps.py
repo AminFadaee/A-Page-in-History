@@ -16,19 +16,28 @@ matplotlib.rcParams["hatch.linewidth"] = 2.0
 import matplotlib.pyplot as plt
 from matplotlib import colors as mcolors
 from matplotlib import font_manager, patheffects
-from PIL import Image
+from matplotlib.patches import Circle
+from PIL import Image, ImageDraw
 from pyproj import Transformer
 from shapely import MultiLineString, MultiPolygon, Polygon, make_valid
 from shapely.geometry import Point, box
 from shapely.ops import polylabel
 
 from page_in_history.naming import year_label
-from page_in_history.sources.cliopatria import Cliopatria
+from page_in_history.sources.cliopatria import EQUAL_AREA, Cliopatria
 
 FIGURE_SIZE = (10, 5.625)
 DPI = 160
 PADDING = 0.35
-MIN_SPAN_METERS = 1_800_000
+MIN_SPAN_METERS = 900_000
+REGION_GAP_METERS = 800_000
+MIN_PANEL_SHARE = 0.10
+MAX_PANELS = 3
+WORLD_SCALE_DEGREES = 120
+RING_SHARE = 0.005
+RING_PIXELS = 12
+RING_WIDTH = 1.6
+PANEL_GAP = 6
 CLIP_LONGITUDE = 170
 CLIP_LATITUDE = 89
 PALETTE_COLORS = 128
@@ -160,17 +169,50 @@ def frame_around(bounds):
     return box(center_x - half_width, center_y - half_height, center_x + half_width, center_y + half_height)
 
 
-class Scene:
-    """One map's layers, projected around the civilization, smoothed and cut to the coastline."""
+@dataclass(frozen=True)
+class Region:
+    geometry: object
+    share: float
 
-    def __init__(self, renderer: "MapRenderer", name: str, year: int):
+
+def regions(territory) -> list[Region]:
+    """The civilization's pieces grouped into regions of land lying within 800 km of each other, largest first, each
+    with its share of the territory."""
+    pieces = gpd.GeoSeries(list(getattr(territory, "geoms", [territory])), crs="EPSG:4326")
+    projected = pieces.to_crs(EQUAL_AREA)
+    clusters = projected.buffer(REGION_GAP_METERS / 2).union_all()
+    total = projected.area.sum()
+    found = []
+    for cluster in getattr(clusters, "geoms", [clusters]):
+        inside = projected.intersects(cluster)
+        found.append(Region(pieces[inside].union_all(), float(projected[inside].area.sum() / total)))
+    return sorted(found, key=lambda region: -region.share)
+
+
+def home(found: list[Region], capitals: list[tuple[float, float]]) -> Region:
+    """The region holding a capital, or the largest when none does: Cliopatria draws some colonial empires without
+    their homeland, which is a state of its own."""
+    return next((region for region in found for capital in capitals if region.geometry.buffer(0.1).contains(Point(capital))),
+                found[0])
+
+
+class Scene:
+    """One map's layers, projected around a region of the civilization, smoothed and cut to the coastline. A region
+    spanning a third of the globe is drawn on the Equal Earth world projection, anything smaller on a projection
+    centred on it."""
+
+    def __init__(self, renderer: "MapRenderer", name: str, year: int, region, territory):
         polities = renderer.cliopatria.at(year)
-        center = polities[polities.Name == name].geometry.union_all().representative_point()
-        self.crs = f"+proj=laea +lat_0={center.y:.4f} +lon_0={center.x:.4f} +datum=WGS84 +units=m"
+        center = region.representative_point()
+        west, south, east, north = region.bounds
+        world = east - west > WORLD_SCALE_DEGREES or north - south > WORLD_SCALE_DEGREES * 0.75
+        self.crs = (f"+proj=eqearth +lon_0={center.x:.4f} +datum=WGS84 +units=m" if world
+                    else f"+proj=laea +lat_0={center.y:.4f} +lon_0={center.x:.4f} +datum=WGS84 +units=m")
         self.clip = box(center.x - CLIP_LONGITUDE, -CLIP_LATITUDE, center.x + CLIP_LONGITUDE, CLIP_LATITUDE)
         self.land = self.project(renderer.land).geometry.union_all()
         projected = self.project(polities)
-        self.frame = frame_around(projected[projected.Name == name].total_bounds)
+        self.frame = frame_around(self.project(gpd.GeoDataFrame(geometry=[region], crs="EPSG:4326")).total_bounds)
+        self.territory = territory
         pixel = (self.frame.bounds[2] - self.frame.bounds[0]) / (FIGURE_SIZE[0] * DPI)
         projected = projected.set_geometry(
             projected.geometry.apply(lambda shape: smooth(shape, SMOOTHING_PIXELS * pixel).intersection(self.land)))
@@ -202,8 +244,21 @@ class MapRenderer:
         self.font = font_manager.FontProperties(fname=font).get_name()
 
     def render(self, name: str, year: int, capitals: list[tuple[float, float]], output: pathlib.Path) -> list[str]:
-        """Draws the civilization at its year; returns the polities that got a label."""
-        scene = Scene(self, name, year)
+        """Draws the civilization at its year around its home region, with up to three other large regions as panels
+        beside it; returns the polities that got a label on the main map."""
+        territory = self.cliopatria.at(year)
+        territory = territory[territory.Name == name].geometry.union_all()
+        found = regions(territory)
+        main = home(found, capitals)
+        panels = [region for region in found if region is not main and region.share >= MIN_PANEL_SHARE][:MAX_PANELS]
+        image, labelled = self._draw(Scene(self, name, year, main.geometry, territory), year, capitals, panel=False)
+        images = [self._draw(Scene(self, name, year, region.geometry, territory), year, capitals, panel=True)[0]
+                  for region in panels]
+        save(beside(image, images), output)
+        return labelled
+
+    def _draw(self, scene: "Scene", year: int, capitals: list[tuple[float, float]], panel: bool) -> tuple[Image.Image, list[str]]:
+        """One map; the main one gets the world inset, the year and labels, a panel only the land and its neighbours."""
         figure, axes = plt.subplots(figsize=FIGURE_SIZE, dpi=DPI)
         figure.subplots_adjust(0, 0, 1, 1)
         figure.patch.set_facecolor(Color.OCEAN)
@@ -222,14 +277,27 @@ class MapRenderer:
                              (scene.lines.intersection(inner), Color.LINE_ON_FOCUS)):
             gpd.GeoSeries([lines], crs=scene.crs).plot(ax=axes, color=color, linewidth=LINE_WIDTH, zorder=3)
         self._capitals(axes, scene, capitals)
+        self._ring(axes, scene)
         left, bottom, right, top = scene.frame.bounds
         axes.set_xlim(left, right)
         axes.set_ylim(bottom, top)
-        corners = sorted(CORNERS, key=lambda corner: crowding(scene, corner))
-        reserved = [self._inset(figure, scene, corners[0]), self._caption(figure, axes, year, corners[1])]
-        labelled = self._labels(figure, axes, scene, colors, reserved)
-        save(figure, output)
-        return labelled
+        labelled = []
+        if not panel:
+            corners = sorted(CORNERS, key=lambda corner: crowding(scene, corner))
+            reserved = [self._inset(figure, scene, corners[0]), self._caption(figure, axes, year, corners[1])]
+            labelled = self._labels(figure, axes, scene, colors, reserved)
+        return rendered(figure), labelled
+
+    @staticmethod
+    def _ring(axes, scene: "Scene") -> None:
+        """A circle around a civilization too small to spot at the map's scale, such as a city-state."""
+        if scene.focus.is_empty or scene.focus.area / scene.frame.area >= RING_SHARE:
+            return
+        west, south, east, north = scene.focus.bounds
+        radius = max(east - west, north - south) / 2 + RING_PIXELS * scene.pixel
+        center = scene.focus.centroid
+        axes.add_patch(Circle((center.x, center.y), radius, fill=False, edgecolor=Color.HIGHLIGHT, linewidth=RING_WIDTH,
+                              zorder=6))
 
     @staticmethod
     def _overlaps(axes, scene: Scene, colors: dict[str, str]) -> None:
@@ -257,7 +325,7 @@ class MapRenderer:
                      edgecolors=Color.LINE, linewidths=0.6, zorder=5)
 
     def _inset(self, figure, scene: Scene, corner: Corner):
-        """A small world map with the frame outlined, in the least crowded corner."""
+        """A small world map with the whole civilization in red and the frame outlined, in the least crowded corner."""
         x0, y0, x1, y1 = corner_box(scene, corner).bounds
         left, bottom, right, top = scene.frame.bounds
         inset = figure.add_axes([(x0 - left) / (right - left), (y0 - bottom) / (top - bottom),
@@ -270,6 +338,8 @@ class MapRenderer:
             spine.set_edgecolor(Color.LINE)
             spine.set_linewidth(0.6)
         self.world.plot(ax=inset, color=Color.INSET_LAND, linewidth=0)
+        gpd.GeoSeries([scene.territory], crs="EPSG:4326").to_crs(WORLD_PROJECTION).plot(
+            ax=inset, color=Color.HIGHLIGHT, linewidth=0, zorder=2)
         outline = gpd.GeoSeries([frame_outline(scene)], crs="EPSG:4326").to_crs(WORLD_PROJECTION)
         outline.plot(ax=inset, color=Color.INSET_FRAME, linewidth=1)
         world_left, world_bottom, world_right, world_top = self.world.total_bounds
@@ -378,9 +448,30 @@ def crowding(scene: Scene, corner: Corner) -> float:
     return 10 * area.intersection(scene.focus).area + area.intersection(scene.others.union_all()).area
 
 
-def save(figure, output: pathlib.Path) -> None:
+def rendered(figure) -> Image.Image:
     buffer = io.BytesIO()
     figure.savefig(buffer, format="png", dpi=DPI, facecolor=figure.get_facecolor())
     plt.close(figure)
+    return Image.open(buffer).convert("RGB")
+
+
+def beside(main: Image.Image, panels: list[Image.Image]) -> Image.Image:
+    """The main map with the panels stacked to its right, each a third of its height."""
+    if not panels:
+        return main
+    height = (main.height - PANEL_GAP * (MAX_PANELS - 1)) // MAX_PANELS
+    width = round(main.width * height / main.height)
+    sheet = Image.new("RGB", (main.width + PANEL_GAP + width, main.height), Color.OCEAN)
+    sheet.paste(main, (0, 0))
+    draw = ImageDraw.Draw(sheet)
+    draw.rectangle((main.width, 0, main.width + PANEL_GAP - 1, main.height), fill=Color.HALO)
+    for index, panel in enumerate(panels):
+        top = index * (height + PANEL_GAP)
+        sheet.paste(panel.resize((width, height), Image.LANCZOS), (main.width + PANEL_GAP, top))
+        draw.rectangle((main.width + PANEL_GAP, top + height, sheet.width, top + height + PANEL_GAP - 1), fill=Color.HALO)
+    return sheet
+
+
+def save(image: Image.Image, output: pathlib.Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
-    Image.open(buffer).convert("RGB").quantize(PALETTE_COLORS).save(output, optimize=True)
+    image.quantize(PALETTE_COLORS).save(output, optimize=True)
