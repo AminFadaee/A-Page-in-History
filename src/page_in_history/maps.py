@@ -17,7 +17,8 @@ import matplotlib.pyplot as plt
 from matplotlib import colors as mcolors
 from matplotlib import font_manager, patheffects
 from PIL import Image
-from shapely import MultiPolygon, Polygon, make_valid
+from pyproj import Transformer
+from shapely import MultiLineString, MultiPolygon, Polygon, make_valid
 from shapely.geometry import Point, box
 from shapely.ops import polylabel
 
@@ -28,8 +29,8 @@ FIGURE_SIZE = (10, 5.625)
 DPI = 160
 PADDING = 0.35
 MIN_SPAN_METERS = 1_800_000
-CLIP_LONGITUDE = 75
-CLIP_LATITUDE = 55
+CLIP_LONGITUDE = 170
+CLIP_LATITUDE = 89
 PALETTE_COLORS = 128
 WORLD_PROJECTION = "ESRI:54030"
 
@@ -166,8 +167,7 @@ class Scene:
         polities = renderer.cliopatria.at(year)
         center = polities[polities.Name == name].geometry.union_all().representative_point()
         self.crs = f"+proj=laea +lat_0={center.y:.4f} +lon_0={center.x:.4f} +datum=WGS84 +units=m"
-        self.clip = box(center.x - CLIP_LONGITUDE, max(center.y - CLIP_LATITUDE, -89), center.x + CLIP_LONGITUDE,
-                        min(center.y + CLIP_LATITUDE, 89))
+        self.clip = box(center.x - CLIP_LONGITUDE, -CLIP_LATITUDE, center.x + CLIP_LONGITUDE, CLIP_LATITUDE)
         self.land = self.project(renderer.land).geometry.union_all()
         projected = self.project(polities)
         self.frame = frame_around(projected[projected.Name == name].total_bounds)
@@ -270,8 +270,8 @@ class MapRenderer:
             spine.set_edgecolor(Color.LINE)
             spine.set_linewidth(0.6)
         self.world.plot(ax=inset, color=Color.INSET_LAND, linewidth=0)
-        outline = gpd.GeoSeries([scene.frame.segmentize(50_000)], crs=scene.crs).to_crs(WORLD_PROJECTION)
-        outline.boundary.plot(ax=inset, color=Color.INSET_FRAME, linewidth=1)
+        outline = gpd.GeoSeries([frame_outline(scene)], crs="EPSG:4326").to_crs(WORLD_PROJECTION)
+        outline.plot(ax=inset, color=Color.INSET_FRAME, linewidth=1)
         world_left, world_bottom, world_right, world_top = self.world.total_bounds
         inset.set_xlim(world_left, world_right)
         inset.set_ylim(world_bottom, world_top)
@@ -346,6 +346,21 @@ def merged(points: list[tuple[float, float]], distance: float) -> list[tuple[flo
         else:
             group.append(point)
     return [(sum(x for x, _ in group) / len(group), sum(y for _, y in group) / len(group)) for group in groups]
+
+
+def frame_outline(scene: Scene) -> MultiLineString:
+    """The map's frame in longitude and latitude, split where it crosses the 180th meridian so the world inset does
+    not draw a line straight across the globe."""
+    edge = scene.frame.exterior.segmentize(20_000)
+    longitudes, latitudes = Transformer.from_crs(scene.crs, "EPSG:4326", always_xy=True).transform(*edge.xy)
+    lines, current = [], [(longitudes[0], latitudes[0])]
+    for point in zip(longitudes[1:], latitudes[1:]):
+        if abs(point[0] - current[-1][0]) > 180:
+            lines.append(current)
+            current = []
+        current.append(point)
+    lines.append(current)
+    return MultiLineString([line for line in lines if len(line) > 1])
 
 
 def corner_box(scene: Scene, corner: Corner):
