@@ -10,6 +10,7 @@ from PIL import Image
 from page_in_history.figures import Figure, FigureBuilder
 from page_in_history.http import Http
 from page_in_history.maps import MapRenderer
+from page_in_history.photos import COMMONS_FILE, PhotoClassifier, PhotoMode, PortraitFinder, digest
 from page_in_history.polities import Polity, PolityBuilder, PolityCatalog
 from page_in_history.sources import fonts, naturalearth, pantheon
 from page_in_history.sources.cliopatria import Cliopatria
@@ -18,7 +19,6 @@ from page_in_history.sources.wikipedia import Wikipedia
 
 IMAGE_WIDTH = 480
 IMAGE_QUALITY = 85
-COMMONS_FILE = "https://commons.wikimedia.org/wiki/Special:FilePath/{}?width={}"
 
 logger = logging.getLogger(__name__)
 
@@ -58,10 +58,11 @@ class DataPaths:
 
 
 class Collector:
-    def __init__(self, paths: DataPaths, cache_dir: pathlib.Path):
+    def __init__(self, paths: DataPaths, cache_dir: pathlib.Path, photos: PhotoMode = PhotoMode.MODEL):
         self.paths = paths
         self.cache_dir = cache_dir
         self.http = Http(cache_dir)
+        self.photos = photos
 
     def run(self, scope: Slice) -> None:
         cliopatria = Cliopatria.load(self.http)
@@ -86,15 +87,17 @@ class Collector:
                 logger.exception("Could not draw %s", polity.name)
                 self.failures.append(f"drawing {polity.name}")
                 polity.map = ""
-        figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http)
+        classifier = PhotoClassifier(self.http) if self.photos is PhotoMode.MODEL else None
+        figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
         figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         for figure in figures:
             try:
-                figure.image = self._image(figure)
+                figure.image = self._image(figure.image, figure.slug)
+                figure.photo = self._image(figure.photo, f"{figure.slug}-photo")
             except Exception:
-                logger.exception("Could not fetch the image of %s", figure.name)
-                self.failures.append(f"image of {figure.name}")
-                figure.image, figure.photo = "", False
+                logger.exception("Could not fetch the images of %s", figure.name)
+                self.failures.append(f"images of {figure.name}")
+                figure.image, figure.photo = "", ""
         self._write(polities, figures)
         self._report(scope, catalog, cliopatria, polities, figures)
 
@@ -103,12 +106,12 @@ class Collector:
         capitals = [capital["location"] for capital in polity.capitals if capital["location"]]
         polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals, self.paths.root / polity.map)
 
-    def _image(self, figure: Figure) -> str:
-        if not figure.image:
+    def _image(self, file: str, name: str) -> str:
+        if not file:
             return ""
-        url = COMMONS_FILE.format(quote(figure.image), IMAGE_WIDTH)
-        source = self.http.download(url, f"commons-{figure.slug}-{IMAGE_WIDTH}")
-        target = self.paths.images / f"{figure.slug}.jpg"
+        url = COMMONS_FILE.format(quote(file), IMAGE_WIDTH)
+        source = self.http.download(url, f"commons-{digest(file)}-{IMAGE_WIDTH}")
+        target = self.paths.images / f"{name}.jpg"
         Image.open(source).convert("RGB").save(target, quality=IMAGE_QUALITY)
         return f"images/{target.name}"
 

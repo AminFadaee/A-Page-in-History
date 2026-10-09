@@ -137,7 +137,8 @@ CIVILIZATION_FIELDS = ("Id", "Name", "Map", "Period", "AskPeriod", "Capital", "B
 
 FIGURE_TITLE = '{{Name}}<div class="subtitle">{{Life}}</div>'
 PORTRAIT = conditional("Image", '<div class="portrait">{{Image}}<div class="credit">{{ImageKind}} · {{ImageCredit}}</div></div>')
-PHOTO = '<div class="value image photo">{{Image}}</div>'
+PHOTO = '<div class="value image photo">{{Photo}}</div>'
+PHOTO_CREDITED = '<div class="value image photo">{{Photo}}<div class="credit">{{PhotoCredit}}</div></div>'
 FIGURE_INFO = info(("Civilization", "Civilization"), ("Known for", "Contribution"), ("Related", "Related"))
 
 FIGURE_TEMPLATES = (
@@ -145,13 +146,13 @@ FIGURE_TEMPLATES = (
              face(entity("{{Name}}"), "Who", UNKNOWN_VALUE),
              face(entity(FIGURE_TITLE), "Who", value("{{Role}}", answered=True)) + FIGURE_INFO + PORTRAIT
              + conditional("CivilizationMap", '<div class="thumbnail map">{{CivilizationMap}}</div>')),
-    Template("Photo", Subdeck.PHOTOS, ("Photo", "Image"),
+    Template("Photo", Subdeck.PHOTOS, ("Photo",),
              face(UNKNOWN_ENTITY, "Photo", PHOTO),
-             face(entity(FIGURE_TITLE, answered=True), "Photo", PHOTO) + FIGURE_INFO),
+             face(entity(FIGURE_TITLE, answered=True), "Photo", PHOTO_CREDITED) + FIGURE_INFO),
 )
 
 FIGURE_FIELDS = ("Id", "Name", "Role", "Life", "Civilization", "CivilizationMap", "Contribution", "Image", "ImageCredit",
-                 "ImageKind", "Photo", "Related")
+                 "ImageKind", "Photo", "PhotoCredit", "Related")
 
 CSS = """
 .card {
@@ -373,8 +374,9 @@ class DeckBuilder:
             "Contribution": escaped(document["contribution"]),
             "Image": self.media.image(document["image"]),
             "ImageCredit": escaped(document["image_credit"]),
-            "ImageKind": "Photograph" if document["photo"] else "Depiction",
-            "Photo": "yes" if document["photo"] else "",
+            "ImageKind": "Photograph" if document["image_is_photo"] else "Depiction",
+            "Photo": self.media.image(document["photo"]),
+            "PhotoCredit": escaped(document["photo_credit"]),
             "Related": joined([name for name in document["related"] if name in maps]),
         }
         tags = figure_tags(document, civilizations)

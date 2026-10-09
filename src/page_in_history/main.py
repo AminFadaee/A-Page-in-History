@@ -5,6 +5,7 @@ import pathlib
 from page_in_history import quality
 from page_in_history.collect import Collector, DataPaths, Slice, load_documents
 from page_in_history.deck import build_deck
+from page_in_history.photos import PhotoMode
 from page_in_history.samples import render_samples
 
 DATA_DIR = pathlib.Path("data")
@@ -32,6 +33,9 @@ def parse_args() -> argparse.Namespace:
     collect.add_argument("--region", help="limit to a modern country, as named by Natural Earth; the whole world if left out")
     collect.add_argument("--start", type=int, default=-3400, help="first year, negative for BC")
     collect.add_argument("--end", type=int, default=2024, help="last year")
+    collect.add_argument("--photos", type=PhotoMode, choices=list(PhotoMode), default=PhotoMode.MODEL,
+                         help="how photographs are recognised: an image model and Commons metadata (needs "
+                              "'uv sync --extra ml'), or Commons metadata only")
 
     check = commands.add_parser("check", help="report what was confirmed, left out and why")
     check.add_argument("--data-dir", type=pathlib.Path, default=DATA_DIR)
@@ -53,7 +57,7 @@ def main() -> None:
 
     match args.command:
         case "collect":
-            Collector(DataPaths(args.data_dir), CACHE_DIR).run(Slice(args.region, args.start, args.end))
+            Collector(DataPaths(args.data_dir), CACHE_DIR, args.photos).run(Slice(args.region, args.start, args.end))
         case "check":
             print(quality.report(DataPaths(args.data_dir)))
         case "deck":

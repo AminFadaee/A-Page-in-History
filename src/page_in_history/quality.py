@@ -36,7 +36,7 @@ def report(paths: DataPaths) -> str:
     lines += ["", f"Figures ({total})",
               coverage("Who card", sum(bool(f["role"]) for f in figures), total),
               coverage("Image", sum(bool(f["image"]) for f in figures), total),
-              coverage("Photo card (photograph, died 1860 or later)", sum(f["photo"] for f in figures), total)]
+              coverage("Photo card (photograph, died 1860 or later)", sum(bool(f["photo"]) for f in figures), total)]
     lines += ["", f"Failures: {len(summary['failures'])}"] + [f"    {failure}" for failure in summary["failures"]]
     unresolved = summary["unresolved_polities"]
     lines += ["", f"Cliopatria polities around the slice left unresolved: {len(unresolved)}"]
