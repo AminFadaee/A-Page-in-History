@@ -6,6 +6,7 @@ from page_in_history.http import Http
 API = "https://www.wikidata.org/w/api.php"
 SPARQL = "https://query.wikidata.org/sparql"
 BATCH = 20
+KIND_BATCH = 150
 CIRCA = "Q5727902"
 SOURCING_CIRCUMSTANCES = "P1480"
 YEAR_PRECISION = 9
@@ -144,6 +145,14 @@ class Wikidata:
                     found[qid] = Entity(entity)
         return found
 
+    def exact_matches(self, name: str) -> list[str]:
+        """Items whose English label or alias is exactly the name, ignoring case."""
+        params = {"action": "wbsearchentities", "search": name, "language": "en", "type": "item", "limit": 20,
+                  "format": "json"}
+        results = self.http.json(API, params, namespace="wikidata").get("search", [])
+        return [result["id"] for result in results
+                if result.get("match", {}).get("text", "").casefold() == name.casefold()]
+
     def language_editions(self, ids: list[str]) -> dict[str, int]:
         """How many Wikipedia language editions have an article on each item."""
         unique = sorted(set(ids))
@@ -171,6 +180,19 @@ class Wikidata:
             if seen & roots:
                 matching.add(start)
         return matching
+
+    def kinds(self, ids: list[str], roots: dict[str, str]) -> dict[str, set[str]]:
+        """Which of the named root classes each item is an instance of, through any chain of subclasses."""
+        unique = sorted(set(ids))
+        found: dict[str, set[str]] = {qid: set() for qid in unique}
+        values = " ".join(f"wd:{root}" for root in sorted(roots))
+        for start in range(0, len(unique), KIND_BATCH):
+            items = " ".join(f"wd:{qid}" for qid in unique[start : start + KIND_BATCH])
+            rows = self.query(f"SELECT DISTINCT ?item ?root WHERE {{ VALUES ?item {{ {items} }} VALUES ?root {{ {values} }} "
+                              "?item wdt:P31/wdt:P279* ?root }")
+            for row in rows:
+                found[entity_id(row["item"])].add(roots[entity_id(row["root"])])
+        return found
 
     def query(self, sparql: str) -> list[dict]:
         data = self.http.json(SPARQL, {"query": sparql, "format": "json"}, namespace="sparql")

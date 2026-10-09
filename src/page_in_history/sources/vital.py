@@ -5,6 +5,8 @@ from page_in_history.http import Http
 from page_in_history.sources.wikipedia import API, Wikipedia
 
 PAGE_PREFIXES = ("Vital articles/Level 4/People", "Vital articles/Level 5/People")
+STATE_PAGE_PREFIXES = ("Vital articles/Level 3", "Vital articles/Level 4/History", "Vital articles/Level 4/Geography",
+                       "Vital articles/Level 5/History", "Vital articles/Level 5/Geography")
 PROJECT_NAMESPACE = 4
 HEADING = re.compile(r"^(=+)\s*(.*?)\s*=+\s*$")
 ENTRY = re.compile(r"^#\s*(?:\{\{Icon\|[^}]*\}\}\s*)*'*\[\[([^\]|#]+)")
@@ -52,3 +54,14 @@ def people(http: Http, wikipedia: Wikipedia) -> list[Entry]:
             for entry in entries(wikipedia.page_wikitext(title), level, page_section):
                 found.setdefault(entry.title, entry)
     return list(found.values())
+
+
+def article_levels(http: Http, wikipedia: Wikipedia) -> dict[str, int]:
+    """The most selective level of every article on the history and geography lists, where states are filed."""
+    found: dict[str, int] = {}
+    for prefix in STATE_PAGE_PREFIXES:
+        level = int(prefix.split("Level ")[1][0])
+        for title in page_titles(http, prefix):
+            for entry in entries(wikipedia.page_wikitext(title), level, ""):
+                found[entry.title] = min(level, found.get(entry.title, level))
+    return found
