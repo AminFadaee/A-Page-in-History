@@ -1,0 +1,39 @@
+{
+  "id": "Q107000",
+  "slug": "ghalib",
+  "name": "Ghalib",
+  "wikipedia": "Ghalib",
+  "role": "Indian poet",
+  "life": "1797–1869",
+  "lifetime": [
+    1797,
+    1869
+  ],
+  "occupation": "Writer",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [],
+  "contribution": "An Indian poet and letter writer of the Mughal Empire.",
+  "image": "images/ghalib.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mughal Empire",
+        "British Raj"
+      ],
+      "lead": [
+        "Mughal Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Mirza Asadullah Beg Khan (27 December 1797 – 15 February 1869), commonly known as Mirza Ghalib, was an Indian poet and letter writer of the Mughal Empire. Writing in Persian and Urdu during the final years of the Mughal Empire and the rise of British colonial rule, his poetry often addressed themes of love, loss, philosophy, the human condition, and socio-political disturbances with a depth and complexity that influenced the literary traditions of his time. His ghazals, noted for their intricate imagery and layered meanings, form a significant part of Urdu literature. He spent most of his life in poverty.",
+    "photo": "captured before 1869date QS:P,+1869-00-00T00:00:00Z/7,P1326,+1869-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

@@ -20,6 +20,7 @@
   "contribution": "The king of Macedon from 359 BC until his death in 336 BC.",
   "image": "images/philip-ii-of-macedon.jpg",
   "image_credit": "Richard Mortel from Riyadh, Saudi Arabia · CC BY 2.0",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -34,6 +35,7 @@
         "Macedonian Empire"
       ]
     },
-    "lead": "Philip II of Macedon (Ancient Greek: Φίλιππος, romanized: Phílippos; 382 BC – October 336 BC) was the king (basileus) of Macedon from 359 BC until his death in 336 BC."
+    "lead": "Philip II of Macedon (Ancient Greek: Φίλιππος, romanized: Phílippos; 382 BC – October 336 BC) was the king (basileus) of Macedon from 359 BC until his death in 336 BC.",
+    "photo": "no death year in or after 1860"
   }
 }

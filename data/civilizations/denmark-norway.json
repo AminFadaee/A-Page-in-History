@@ -1,0 +1,92 @@
+{
+  "id": "Q62651",
+  "slug": "denmark-norway",
+  "name": "Denmark-Norway",
+  "wikipedia": "Denmark–Norway",
+  "map_year": 1626,
+  "period": {
+    "start": {
+      "earliest": 1537,
+      "latest": 1537,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1814,
+      "latest": 1814,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Copenhagen",
+      "location": [
+        12.568888888889,
+        55.676111111111
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kalmar Union"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q62651",
+        "layer": 1,
+        "name": "Denmark-Norway"
+      },
+      {
+        "id": "Q62623",
+        "layer": 0,
+        "name": "Kalmar Union"
+      }
+    ],
+    "edges": [
+      [
+        "Q62623",
+        "Q62651",
+        "Norway, Iceland, Sweden"
+      ]
+    ],
+    "question": "successions/denmark-norway-question.png",
+    "answer": "successions/denmark-norway-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Norway",
+    "Iceland",
+    "Sweden",
+    "Denmark",
+    "Faroe Islands"
+  ],
+  "map": "maps/denmark-norway.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Copenhagen",
+        "Oslo"
+      ],
+      "infobox": [
+        "Copenhagen"
+      ]
+    },
+    "cliopatria_years": [
+      1526,
+      1940
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Tsardom of Russia",
+      "Swedish Empire",
+      "Holy Roman Empire Minor States",
+      "Polish-Lithuanian Commonwealth",
+      "Habsburg Monarchy",
+      "Kingdom of England",
+      "Kingdom of France",
+      "Small Horde"
+    ]
+  }
+}

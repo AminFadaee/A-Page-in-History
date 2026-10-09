@@ -1,0 +1,65 @@
+{
+  "id": "Q170604",
+  "slug": "new-france",
+  "name": "New France",
+  "wikipedia": "New France",
+  "map_year": 1757,
+  "period": {
+    "start": {
+      "earliest": 1534,
+      "latest": 1534,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1763,
+      "latest": 1763,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Quebec City",
+      "location": [
+        -71.224167,
+        46.816111
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Canada",
+    "United States of America",
+    "Haiti",
+    "France",
+    "Dominica",
+    "Saint Lucia",
+    "Grenada",
+    "Saint Vincent and the Grenadines"
+  ],
+  "map": "maps/new-france.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Quebec City"
+      ],
+      "infobox": [
+        "Quebec City"
+      ]
+    },
+    "cliopatria_years": [
+      1609,
+      1791
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Portuguese Empire",
+      "Russian Empire",
+      "Zand Dynasty"
+    ]
+  }
+}

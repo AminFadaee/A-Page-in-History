@@ -1,0 +1,134 @@
+{
+  "id": "Q204920",
+  "slug": "crown-of-aragon",
+  "name": "Crown of Aragon",
+  "wikipedia": "Crown of Aragon",
+  "map_year": 1450,
+  "period": {
+    "start": {
+      "earliest": 1162,
+      "latest": 1162,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1715,
+      "latest": 1715,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "County of Ampuria",
+    "Kingdom of Aragon"
+  ],
+  "successors": [
+    "Kingdom of Spain"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q204920",
+        "layer": 1,
+        "name": "Crown of Aragon"
+      },
+      {
+        "id": "Q199442",
+        "layer": 0,
+        "name": "Kingdom of Aragon"
+      },
+      {
+        "id": "Q29",
+        "layer": 2,
+        "name": "Kingdom of Spain"
+      },
+      {
+        "id": "Q497777",
+        "layer": 1,
+        "name": "First Spanish Republic"
+      },
+      {
+        "id": "Q80702",
+        "layer": 1,
+        "name": "Spanish Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q199442",
+        "Q204920",
+        "Spain"
+      ],
+      [
+        "Q204920",
+        "Q29",
+        "Italy, Spain"
+      ],
+      [
+        "Q497777",
+        "Q29",
+        "Spain, Philippines, Cuba"
+      ],
+      [
+        "Q80702",
+        "Q29",
+        "Philippines, Cuba"
+      ]
+    ],
+    "question": "successions/crown-of-aragon-question.png",
+    "answer": "successions/crown-of-aragon-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q299156",
+      "name": "Alfonso II of Aragon"
+    },
+    {
+      "id": "Q12860",
+      "name": "Ferdinand II of Aragon"
+    },
+    {
+      "id": "Q170467",
+      "name": "Philip V of Spain"
+    },
+    {
+      "id": "Q150665",
+      "name": "Charles VI, Holy Roman Emperor"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "Spain",
+    "Malta"
+  ],
+  "map": "maps/crown-of-aragon.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1169,
+      1515
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ottoman Empire",
+      "Crown of Castile",
+      "Kingdom of France",
+      "Papal States",
+      "House of Habsburg",
+      "Marinid Sultanate",
+      "Hafsid Dynasty",
+      "Zayyanid dynasty",
+      "Kingdom of Portugal",
+      "Principality of Wallachia",
+      "Kingdom of Bosnia",
+      "Beylik of Isfendiyar",
+      "Duchy of Bavaria",
+      "County of Savoy",
+      "House of Bourbon"
+    ]
+  }
+}

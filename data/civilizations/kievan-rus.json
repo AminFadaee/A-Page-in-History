@@ -1,0 +1,78 @@
+{
+  "id": "Q1108445",
+  "slug": "kievan-rus",
+  "name": "Kievan Rus'",
+  "wikipedia": "Kievan Rus'",
+  "map_year": 1034,
+  "period": {
+    "start": {
+      "earliest": 880,
+      "latest": 880,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1240,
+      "latest": 1240,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kyiv",
+      "location": [
+        30.523611111111,
+        50.45
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q6131983",
+      "name": "Oleg the Wise"
+    }
+  ],
+  "modern_countries": [
+    "Russia",
+    "Ukraine",
+    "Belarus"
+  ],
+  "map": "maps/kievan-rus.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kyiv"
+      ],
+      "infobox": [
+        "Kyiv"
+      ]
+    },
+    "cliopatria_years": [
+      882,
+      1240
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Hungary",
+      "Kingdom of Poland",
+      "Kimek-Kipchak confederation",
+      "Holy Roman Empire",
+      "Seljuk Dynasty",
+      "Byzantine Empire",
+      "North Sea Empire",
+      "Oghuz Turks",
+      "Kingdom of Sweden",
+      "Hammadid Dynasty",
+      "Duchy of Aquitaine",
+      "Kingdom of Croatia",
+      "Kingdom of Georgia",
+      "Kingdom of Alba",
+      "Volga Bulgaria",
+      "Shirvan"
+    ]
+  }
+}

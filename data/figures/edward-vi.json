@@ -1,0 +1,40 @@
+{
+  "id": "Q83229",
+  "slug": "edward-vi",
+  "name": "Edward VI",
+  "wikipedia": "Edward VI",
+  "role": "King of England and Ireland from 1547 to 1553",
+  "life": "1537–1553",
+  "lifetime": [
+    1537,
+    1553
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Kingdom of Scotland"
+  ],
+  "contribution": "King of England and Ireland from 28 January 1547 until his death in 1553.",
+  "image": "images/edward-vi.jpg",
+  "image_credit": "Attributed to William Scrots (active 1537-1553) [1] · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of Scotland"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edward VI (12 October 1537 – 6 July 1553) was King of England and Ireland from 28 January 1547 until his death in 1553. He was crowned on 20 February 1547 at the age of nine. The only surviving son of Henry VIII by his third wife, Jane Seymour, Edward was the first English monarch to be raised as a Protestant. During his reign, the realm was governed by a regency council because Edward never reached maturity. The council was first led by his uncle Edward Seymour, Duke of Somerset (1547–1549), and then by John Dudley, Duke of Northumberland (1550–1553).",
+    "photo": "no death year in or after 1860"
+  }
+}

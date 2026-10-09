@@ -1,0 +1,36 @@
+{
+  "id": "Q47737",
+  "slug": "kahlil-gibran",
+  "name": "Kahlil Gibran",
+  "wikipedia": "Kahlil Gibran",
+  "role": "Lebanese American artist, poet, and writer",
+  "life": "1883–1931",
+  "lifetime": [
+    1883,
+    1931
+  ],
+  "occupation": "Writer",
+  "birth_country": "Lebanon",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "A Lebanese-American writer, poet and visual artist.",
+  "image": "images/kahlil-gibran.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Jubrān Khalīl Jubrān (Arabic: جُبْرَان خَلِيل جُبْرَان; January 6, 1883 – April 10, 1931), usually referred to in English as Kahlil Gibran, was a Lebanese-American writer, poet and visual artist. He was also considered a philosopher, although he himself rejected the title. He is best known as the author of The Prophet, which was first published in the United States in 1923 and has since become one of the best-selling books of all time, having been translated into more than 100 languages.",
+    "photo": "captured 1913-04 during their lifetime"
+  }
+}

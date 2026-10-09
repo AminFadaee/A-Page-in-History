@@ -1,0 +1,38 @@
+{
+  "id": "Q202703",
+  "slug": "nicolas-louis-de-lacaille",
+  "name": "Nicolas-Louis de Lacaille",
+  "wikipedia": "Nicolas-Louis de Lacaille",
+  "role": "French astronomer and geodesist",
+  "life": "1713–1762",
+  "lifetime": [
+    1713,
+    1762
+  ],
+  "occupation": "Astronomer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French astronomer and geodesist who named 14 out of the 88 constellations.",
+  "image": "images/nicolas-louis-de-lacaille.jpg",
+  "image_credit": "Melle Le Jeuneux · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of France"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Abbé Nicolas-Louis de Lacaille (French: [nikɔla lwi də lakaj]; 15 March 1713 – 21 March 1762), formerly sometimes spelled de la Caille, was a French astronomer and geodesist who named 14 out of the 88 constellations. From 1750 to 1754, he studied the sky at the Cape of Good Hope in present-day South Africa. Lacaille observed over 10,000 stars using a refracting telescope.",
+    "photo": "no death year in or after 1860"
+  }
+}

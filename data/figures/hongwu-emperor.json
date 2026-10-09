@@ -1,0 +1,41 @@
+{
+  "id": "Q9957",
+  "slug": "hongwu-emperor",
+  "name": "Hongwu Emperor",
+  "wikipedia": "Hongwu Emperor",
+  "role": "Emperor of China from 1368 to 1398",
+  "life": "1328–1398",
+  "lifetime": [
+    1328,
+    1398
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Yuan Dynasty",
+    "Ming Dynasty"
+  ],
+  "related": [],
+  "contribution": "The founding emperor of the Ming dynasty of China, reigning from 1368 to 1398.",
+  "image": "images/hongwu-emperor.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ming Dynasty",
+        "Yuan Dynasty"
+      ],
+      "lead": [
+        "Ming Dynasty",
+        "Yuan Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Yuan Dynasty"
+      ]
+    },
+    "lead": "The Hongwu Emperor (21 October 1328 – 24 June 1398), personal name Zhu Yuanzhang, was the founding emperor of the Ming dynasty of China, reigning from 1368 to 1398.",
+    "photo": "no death year in or after 1860"
+  }
+}

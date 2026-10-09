@@ -1,0 +1,36 @@
+{
+  "id": "Q129967",
+  "slug": "pope-clement-xi",
+  "name": "Pope Clement XI",
+  "wikipedia": "Pope Clement XI",
+  "role": "Head of the Catholic Church from 1700 to 1721",
+  "life": "1649–1721",
+  "lifetime": [
+    1649,
+    1721
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 23 November 1700 to his death in March 1721.",
+  "image": "images/pope-clement-xi.jpg",
+  "image_credit": "Pier Leone Ghezzi · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Clement XI (Latin: Clemens XI; Italian: Clemente XI; Albanian: Klementi XI; 23 July 1649 – 19 March 1721), born Giovanni Francesco Albani, was head of the Catholic Church and leader of the Papal States from 23 November 1700 to his death in March 1721.",
+    "photo": "no death year in or after 1860"
+  }
+}

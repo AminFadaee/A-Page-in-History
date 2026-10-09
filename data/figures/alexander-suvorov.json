@@ -1,0 +1,43 @@
+{
+  "id": "Q154232",
+  "slug": "alexander-suvorov",
+  "name": "Alexander Suvorov",
+  "wikipedia": "Alexander Suvorov",
+  "role": "Russian military commander",
+  "life": "1730–1800",
+  "lifetime": [
+    1730,
+    1800
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "Ottoman Empire",
+    "French Directory"
+  ],
+  "contribution": "A Russian general and military theorist in the service of the Russian Empire.",
+  "image": "images/alexander-suvorov.jpg",
+  "image_credit": "Nicolas Sébastien Frosté · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire",
+        "Ottoman Empire",
+        "French Directory"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Count Alexander Vasilyevich Suvorov-Rymniksky, Prince of Italy (24 November [O.S. 13 November] 1729 or 1730 – 18 May [O.S. 6 May] 1800) was a Russian general and military theorist in the service of the Russian Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "Q46370",
+  "slug": "west-franks",
+  "name": "West Franks",
+  "wikipedia": "West Francia",
+  "map_year": 886,
+  "period": {
+    "start": {
+      "earliest": 843,
+      "latest": 843,
+      "circa": false
+    },
+    "end": {
+      "earliest": 987,
+      "latest": 987,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Kingdom of the Franks"
+  ],
+  "successors": [
+    "Kingdom of France"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q46370",
+        "layer": 1,
+        "name": "West Franks"
+      },
+      {
+        "id": "Q146246",
+        "layer": 0,
+        "name": "Kingdom of the Franks"
+      },
+      {
+        "id": "Q153080",
+        "layer": 1,
+        "name": "East Franks"
+      },
+      {
+        "id": "Q70972",
+        "layer": 2,
+        "name": "Kingdom of France"
+      }
+    ],
+    "edges": [
+      [
+        "Q146246",
+        "Q153080",
+        "Germany, Austria"
+      ],
+      [
+        "Q146246",
+        "Q46370",
+        "France, Italy"
+      ],
+      [
+        "Q46370",
+        "Q70972",
+        "France"
+      ]
+    ],
+    "question": "successions/west-franks-question.png",
+    "answer": "successions/west-franks-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q71231",
+      "name": "Charles the Bald"
+    },
+    {
+      "id": "Q205289",
+      "name": "Louis V of France"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Germany",
+    "Italy",
+    "Austria",
+    "Switzerland",
+    "Netherlands",
+    "Croatia",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg",
+    "Liechtenstein",
+    "San Marino"
+  ],
+  "map": "maps/west-franks.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Laon"
+      ]
+    },
+    "cliopatria_years": [
+      850,
+      989
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "First Bulgarian Empire",
+      "Great Moravia",
+      "Abbasid Caliphate",
+      "Kimek-Kipchak confederation",
+      "Kievan Rus'",
+      "Khazaria",
+      "Byzantine Empire",
+      "Tulunids",
+      "Oghuz Turks",
+      "Emirate of Córdoba",
+      "Magyars",
+      "Rustamid dynasty",
+      "Idrisids"
+    ]
+  }
+}

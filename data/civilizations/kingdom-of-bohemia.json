@@ -1,0 +1,88 @@
+{
+  "id": "Q42585",
+  "slug": "kingdom-of-bohemia",
+  "name": "Kingdom of Bohemia",
+  "wikipedia": "Kingdom of Bohemia",
+  "map_year": 1375,
+  "period": {
+    "start": {
+      "earliest": 1198,
+      "latest": 1198,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Prague",
+      "location": [
+        14.421388888888888,
+        50.0875
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q312938",
+      "name": "Ottokar I of Bohemia"
+    },
+    {
+      "id": "Q51068",
+      "name": "Charles I of Austria"
+    }
+  ],
+  "modern_countries": [
+    "Czech Republic",
+    "Poland",
+    "Germany"
+  ],
+  "map": "maps/kingdom-of-bohemia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Prague"
+      ],
+      "infobox": [
+        "Prague"
+      ]
+    },
+    "cliopatria_years": [
+      1202,
+      1528
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Holy Roman Empire Minor States",
+      "Kingdom of Hungary",
+      "Kingdom of Poland",
+      "House of Habsburg",
+      "Duchy of Bavaria",
+      "Kingdom of Sweden",
+      "Grand Duchy of Lithuania",
+      "Kingdom of France",
+      "Kingdom of England",
+      "Teutonic Order",
+      "Principality of Moldavia",
+      "Principality of Smolensk",
+      "Principality of Wallachia",
+      "Kingdom of Denmark",
+      "Banate of Bosnia",
+      "Serbian Empire",
+      "Duchy of Brittany",
+      "Capetian House of Anjou",
+      "County of Armagnac",
+      "Kingdom of Arles",
+      "County of Auvergne",
+      "Pskov Republic"
+    ]
+  }
+}

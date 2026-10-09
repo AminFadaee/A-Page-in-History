@@ -1,0 +1,40 @@
+{
+  "id": "Q48211",
+  "slug": "alexander-kerensky",
+  "name": "Alexander Kerensky",
+  "wikipedia": "Alexander Kerensky",
+  "role": "Russian politician",
+  "life": "1881–1970",
+  "lifetime": [
+    1881,
+    1970
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Republic",
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian politician, lawyer and revolutionary who led the Russian Provisional Government and the short-lived Russian Republic for three months from late July to early November 1917.",
+  "image": "images/alexander-kerensky.jpg",
+  "image_credit": "Wide World Photos · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Republic",
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Alexander Fyodorovich Kerensky (4 May [O.S. 22 April] 1881 – 11 June 1970) was a Russian politician, lawyer and revolutionary who led the Russian Provisional Government and the short-lived Russian Republic for three months from late July to early November 1917 (N.S.).",
+    "photo": "captured 1943-05-23 during their lifetime"
+  }
+}

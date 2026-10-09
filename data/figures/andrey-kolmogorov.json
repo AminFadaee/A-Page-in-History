@@ -1,0 +1,37 @@
+{
+  "id": "Q153224",
+  "slug": "andrey-kolmogorov",
+  "name": "Andrey Kolmogorov",
+  "wikipedia": "Andrey Kolmogorov",
+  "role": "Soviet mathematician",
+  "life": "1903–1987",
+  "lifetime": [
+    1903,
+    1987
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Soviet mathematician who played a central role in the creation of modern probability theory.",
+  "image": "images/andrey-kolmogorov.jpg",
+  "image_credit": "Konrad Jacobs · CC BY-SA 2.0 de",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Andrey Nikolaevich Kolmogorov (Russian: Андре́й Никола́евич Колмого́ров, IPA: [ɐnˈdrʲej nʲɪkɐˈlajɪvʲɪtɕ kəlmɐˈɡorəf] , 25 April 1903 – 20 October 1987) was a Soviet mathematician who played a central role in the creation of modern probability theory. He also gave fundamental contributions to the mathematics of topology, intuitionistic logic, turbulence, classical mechanics, functional analysis, algorithmic information theory and computational complexity.",
+    "photo": "capture date '17 April 2008 (original upload date)' not within their lifetime and not classified as a photograph"
+  }
+}

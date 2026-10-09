@@ -1,0 +1,41 @@
+{
+  "id": "Q60699",
+  "slug": "zog-i",
+  "name": "Zog I",
+  "wikipedia": "Zog I",
+  "role": "Leader of Albania from 1922 to 1939",
+  "life": "1895–1961",
+  "lifetime": [
+    1895,
+    1961
+  ],
+  "occupation": "Politician",
+  "birth_country": "Albania",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Austria-Hungary"
+  ],
+  "contribution": "An Albanian statesman and aristocrat who served as the leader of Albania from 1922 to 1939.",
+  "image": "images/zog-i.jpg",
+  "image_credit": "The original uploader was J.J. at English Wikipedia. (see en:Wikipedia:Upload log archive/April 2003); Tonysmith at zh.wikipedia · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire",
+        "Albania"
+      ],
+      "lead": [
+        "Austria-Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Zog I (born Ahmed Muhtar Bey Zogolli; 8 October 1895 – 9 April 1961) was an Albanian statesman and aristocrat who served as the leader of Albania from 1922 to 1939. At age 27, he first served as Albania's youngest ever prime minister (1922–1924), then as president (1925–1928), and finally as king (1928–1939).",
+    "photo": "captured 1939-04-08 during their lifetime"
+  }
+}

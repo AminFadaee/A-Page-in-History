@@ -1,0 +1,47 @@
+{
+  "id": "Q720",
+  "slug": "genghis-khan",
+  "name": "Genghis Khan",
+  "wikipedia": "Genghis Khan",
+  "role": "Khan of the Mongol Empire from 1206 to 1227",
+  "life": "1162–1227",
+  "lifetime": [
+    1162,
+    1227
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Mongolia",
+  "civilizations": [
+    "Mongol Empire"
+  ],
+  "related": [
+    "Great Jin",
+    "Western Xia",
+    "Kara-Khitans",
+    "Khwarezmid Empire"
+  ],
+  "contribution": "The founder and first khan of the Mongol Empire.",
+  "image": "images/genghis-khan.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mongol Empire"
+      ],
+      "lead": [
+        "Mongol Empire",
+        "Great Jin",
+        "Western Xia",
+        "Kara-Khitans",
+        "Khwarezmid Empire"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": []
+    },
+    "lead": "Genghis Khan (born Temüjin; c. 1162 – 18 or 25 August 1227), also known as Chinggis Khan, was the founder and first khan of the Mongol Empire. After spending most of his life uniting the Mongol tribes, he launched a series of military campaigns, conquering large parts of China and Central Asia.",
+    "photo": "no death year in or after 1860"
+  }
+}

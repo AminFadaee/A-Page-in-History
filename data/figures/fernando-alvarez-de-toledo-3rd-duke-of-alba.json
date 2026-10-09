@@ -1,0 +1,50 @@
+{
+  "id": "Q80847",
+  "slug": "fernando-alvarez-de-toledo-3rd-duke-of-alba",
+  "name": "Fernando Álvarez de Toledo, 3rd Duke of Alba",
+  "wikipedia": "Fernando Álvarez de Toledo, 3rd Duke of Alba",
+  "role": "Spanish military officer, statesman and diplomat",
+  "life": "1507–1582",
+  "lifetime": [
+    1507,
+    1582
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of Spain",
+    "Kingdom of Portugal",
+    "Crown of Castile"
+  ],
+  "related": [
+    "Kingdom of France",
+    "Kingdom of England",
+    "Duchy of Milan"
+  ],
+  "contribution": "A Spanish military officer, statesman and diplomat.",
+  "image": "images/fernando-alvarez-de-toledo-3rd-duke-of-alba.jpg",
+  "image_credit": "Antonis Mor · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Spain",
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "Kingdom of Spain",
+        "Kingdom of France",
+        "Kingdom of England",
+        "Crown of Castile",
+        "Duchy of Milan",
+        "Kingdom of Portugal"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Crown of Castile"
+      ]
+    },
+    "lead": "Fernando Álvarez de Toledo y Pimentel, 3rd Duke of Alba (29 October 1507 – 11 December 1582), known as the Grand Duke of Alba (Spanish: Gran Duque de Alba, Portuguese: Grão Duque de Alba) in Spain and Portugal and as the Iron Duke (Dutch: Ĳzeren Hertog) or shortly 'Alva' in the Netherlands and Belgium, was a Spanish military officer, statesman and diplomat.",
+    "photo": "no death year in or after 1860"
+  }
+}

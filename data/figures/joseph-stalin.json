@@ -1,0 +1,44 @@
+{
+  "id": "Q855",
+  "slug": "joseph-stalin",
+  "name": "Joseph Stalin",
+  "wikipedia": "Joseph Stalin",
+  "role": "Leader of the Soviet Union from 1924 to 1953",
+  "life": "1878–1953",
+  "lifetime": [
+    1878,
+    1953
+  ],
+  "occupation": "Politician",
+  "birth_country": "Georgia",
+  "civilizations": [
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
+  ],
+  "related": [
+    "Nazi Germany"
+  ],
+  "contribution": "A Soviet politician and revolutionary who ruled the Soviet Union from 1922 until his death in 1953, holding the titles of General Secretary of the Communist Party of the Soviet Union from 1922 to 1952 and the nation's Premier from 1941 to 1953.",
+  "image": "images/joseph-stalin.jpg",
+  "image_credit": "Franklin D. Roosevelt Library Public Domain Photographs · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [
+        "Union of Soviet Socialist Republics",
+        "Russian Empire",
+        "Nazi Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Joseph Vissarionovich Stalin (born Ioseb Besarionis dze Jughashvili; 18 December 1878 – 5 March 1953) was a Soviet politician and revolutionary who ruled the Soviet Union from 1922 until his death in 1953, holding the titles of General Secretary of the Communist Party of the Soviet Union from 1922 to 1952 and the nation's Premier from 1941 to 1953. Initially presiding over an oligarchic one-party system that governed by plurality, he ultimately became the de facto dictator of the Soviet Union by the 1930s. Ideologically committed to the Leninist interpretation of Marxism, Stalin helped to formalise these ideas as Marxism–Leninism, while his own policies became known as Stalinism.",
+    "photo": "captured 1943-11-28 during their lifetime"
+  }
+}

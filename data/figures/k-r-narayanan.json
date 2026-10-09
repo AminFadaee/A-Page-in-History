@@ -1,0 +1,37 @@
+{
+  "id": "Q235454",
+  "slug": "k-r-narayanan",
+  "name": "K. R. Narayanan",
+  "wikipedia": "K. R. Narayanan",
+  "role": "President of India from 1997 to 2002",
+  "life": "1920–2005",
+  "lifetime": [
+    1920,
+    2005
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian diplomat, academician, and statesman who served as the  president of India from 1997 to 2002 and vice president of India from 1992 to 1997.",
+  "image": "images/k-r-narayanan.jpg",
+  "image_credit": "US EMBASSY NEW DELHI · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Kocheril Raman Narayanan  (27 October 1920 – 9 November 2005) was an Indian diplomat, academician, and statesman who served as the  president of India from 1997 to 2002 and vice president of India from 1992 to 1997.",
+    "photo": "captured 2000-03 during their lifetime"
+  }
+}

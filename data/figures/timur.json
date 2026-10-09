@@ -1,0 +1,49 @@
+{
+  "id": "Q8462",
+  "slug": "timur",
+  "name": "Timur",
+  "wikipedia": "Timur",
+  "role": "Turco-Mongol conqueror",
+  "life": "1336–1405",
+  "lifetime": [
+    1336,
+    1405
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Uzbekistan",
+  "civilizations": [
+    "Chagatai Khanate"
+  ],
+  "related": [
+    "Timurid Empire",
+    "Golden Horde",
+    "Mamluk Sultanate",
+    "Ottoman Empire",
+    "Ilkhanate",
+    "Yuan Dynasty"
+  ],
+  "contribution": "A Turco-Mongol conqueror, first ruler of the Timurid dynasty, and the founder of the Timurid Empire, which ruled over modern-day Afghanistan, Iran, and Central Asia.",
+  "image": "images/timur.jpg",
+  "image_credit": "1405-1409 artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Timurid Empire",
+        "Chagatai Khanate",
+        "Golden Horde",
+        "Mamluk Sultanate",
+        "Ottoman Empire",
+        "Ilkhanate",
+        "Yuan Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Chagatai Khanate"
+      ]
+    },
+    "lead": "Timur (1320s – 17/18 February 1405), also known as Tamerlane, was a Turco-Mongol conqueror, first ruler of the Timurid dynasty, and the founder of the Timurid Empire, which ruled over modern-day Afghanistan, Iran, and Central Asia. He was undefeated in battle and is widely regarded as one of the greatest military leaders and tacticians in history, as well as one of the most brutal and deadly. Timur is also considered a great patron of the arts, for he interacted with scholars and poets such as ibn Khaldun, Hafez, and Hafiz-i Abru. His reign led to the Timurid Renaissance.",
+    "photo": "no death year in or after 1860"
+  }
+}

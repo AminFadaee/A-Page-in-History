@@ -1,0 +1,36 @@
+{
+  "id": "Q167654",
+  "slug": "frans-hals",
+  "name": "Frans Hals",
+  "wikipedia": "Frans Hals",
+  "role": "Painter from the Northern Netherlands",
+  "life": "16th century – 1666",
+  "lifetime": [
+    1582,
+    1666
+  ],
+  "occupation": "Painter",
+  "birth_country": "Belgium",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch Golden Age painter.",
+  "image": "images/frans-hals.jpg",
+  "image_credit": "After Frans Hals · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "Frans Hals the Elder (UK: , US: ; Dutch: [frɑns ˈɦɑls]; c. 1582 – 26 August 1666) was a Dutch Golden Age painter. He lived and worked in Haarlem, a city in which the local authority of the day frowned on religious painting in places of worship but citizens liked to decorate their homes with works of art. Hals was highly sought after by wealthy burgher commissioners of individual, married-couple, family, and institutional-group portraits. He also painted tronies for the general market.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q154240",
+  "slug": "yemelyan-pugachev",
+  "name": "Yemelyan Pugachev",
+  "wikipedia": "Yemelyan Pugachev",
+  "role": "Russian Cossack rebel leader",
+  "life": "1742–1775",
+  "lifetime": [
+    1742,
+    1775
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "An ataman of the Yaik Cossacks and the leader of the Pugachev's Rebellion, a major popular uprising in the Russian Empire during the reign of Catherine the Great.",
+  "image": "images/yemelyan-pugachev.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kalmyk Khanate"
+      ]
+    },
+    "lead": "Yemelyan Ivanovich Pugachev (also spelled Pugachyov; Russian: Емельян Иванович Пугачёв; c. 1742 – 21 January [O.S. 10 January] 1775) was an ataman of the Yaik Cossacks and the leader of the Pugachev's Rebellion, a major popular uprising in the Russian Empire during the reign of Catherine the Great.",
+    "photo": "no death year in or after 1860"
+  }
+}

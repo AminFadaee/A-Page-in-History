@@ -1,0 +1,37 @@
+{
+  "id": "Q180819",
+  "slug": "lev-vygotsky",
+  "name": "Lev Vygotsky",
+  "wikipedia": "Lev Vygotsky",
+  "role": "Soviet psychologist",
+  "life": "1896–1934",
+  "lifetime": [
+    1896,
+    1934
+  ],
+  "occupation": "Psychologist",
+  "birth_country": "Belarus",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian and Soviet psychologist, best known for his work on psychological development in children and creating the framework known as cultural-historical activity theory.",
+  "image": "images/lev-vygotsky.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Lev Semyonovich Vygotsky (Russian: Лев Семёнович Выготский, IPA: [vɨˈɡotskʲɪj]; Belarusian: Леў Сямёнавіч Выгоцкі; 17 November [O.S. 5 November] 1896 – June 11, 1934) was a Russian and Soviet psychologist, best known for his work on psychological development in children and creating the framework known as cultural-historical activity theory. After his early death, his books and research were banned in the Soviet Union until Joseph Stalin's death in 1953, with a first collection of major texts published in 1956. A Review of General Psychology survey, published in 2002, ranked Vygotsky as the 83rd most cited psychologist of the 20th century.",
+    "photo": "captured cc 1925 during their lifetime"
+  }
+}

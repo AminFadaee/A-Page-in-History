@@ -1,0 +1,39 @@
+{
+  "id": "Q12706",
+  "slug": "maxim-gorky",
+  "name": "Maxim Gorky",
+  "wikipedia": "Maxim Gorky",
+  "role": "Russian and Soviet writer",
+  "life": "1868–1936",
+  "lifetime": [
+    1868,
+    1936
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian and Soviet writer, journalist, and proponent of socialism.",
+  "image": "images/maxim-gorky.jpg",
+  "image_credit": "Herman Mishkin · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Alexei Maximovich Peshkov (Russian: Алексей Максимович Пешков; 28 March [O.S. 16 March] 1868 – 18 June 1936), popularly known as Maxim Gorky (; Максим Горький), was a Russian and Soviet writer, journalist, and proponent of socialism. He was nominated five times for the Nobel Prize in Literature. Before his success as an author, he travelled widely across the Russian Empire, changing jobs frequently; these experiences would later influence his writing. He associated with fellow Russian writers Leo Tolstoy and Anton Chekhov, both mentioned by Gorky in his memoirs.",
+    "photo": "captured circa 1906date QS:P,+1906-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "Q139377",
+  "slug": "kingdom-of-axum",
+  "name": "Kingdom of Axum",
+  "wikipedia": "Kingdom of Aksum",
+  "map_year": 238,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 960,
+      "latest": 960,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Axum",
+      "location": [
+        38.733333333333334,
+        14.116666666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q2919812",
+      "name": "Dil Na'od"
+    }
+  ],
+  "modern_countries": [
+    "Ethiopia",
+    "Eritrea",
+    "Yemen",
+    "Saudi Arabia"
+  ],
+  "map": "maps/kingdom-of-axum.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Axum"
+      ],
+      "infobox": [
+        "Axum",
+        "Kubar"
+      ]
+    },
+    "cliopatria_years": [
+      -50,
+      946
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Himyarite Kingdom",
+      "Kingdom of Kush",
+      "Hadhramaut"
+    ]
+  }
+}

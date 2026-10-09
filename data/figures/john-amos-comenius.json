@@ -1,0 +1,44 @@
+{
+  "id": "Q12735",
+  "slug": "john-amos-comenius",
+  "name": "John Amos Comenius",
+  "wikipedia": "John Amos Comenius",
+  "role": "Czech teacher, educator, philosopher and writer",
+  "life": "1592–1670",
+  "lifetime": [
+    1592,
+    1670
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [
+    "Holy Roman Empire",
+    "Kingdom of Sweden",
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "contribution": "A Moravian philosopher, pedagogue and theologian who is considered the father of modern education.",
+  "image": "images/john-amos-comenius.jpg",
+  "image_credit": "Jürgen Ovens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Holy Roman Empire",
+        "Kingdom of Sweden",
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "John Amos Comenius (; Czech: Jan Amos Komenský; German: Johann Amos Comenius; Polish: Jan Amos Komeński; Latinized: Ioannes Amos Comenius; 28 March 1592 – 15 November 1670) was a Moravian philosopher, pedagogue and theologian who is considered the father of modern education. He served as the last bishop of the Unity of the Brethren (direct predecessor of the Moravian Church) before becoming a religious refugee and one of the earliest champions of universal education, a concept eventually set forth in his book Didactica Magna. As an educator and theologian, he led schools and advised governments across Protestant Europe through the middle of the seventeenth century and proposed the pedagogical concept of pansophism.",
+    "photo": "no death year in or after 1860"
+  }
+}

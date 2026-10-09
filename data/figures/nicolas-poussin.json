@@ -1,0 +1,36 @@
+{
+  "id": "Q41554",
+  "slug": "nicolas-poussin",
+  "name": "Nicolas Poussin",
+  "wikipedia": "Nicolas Poussin",
+  "role": "French Baroque painter",
+  "life": "1594–1665",
+  "lifetime": [
+    1594,
+    1665
+  ],
+  "occupation": "Painter",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A leading painter of the classical French Baroque style, although he spent most of his working life in Rome.",
+  "image": "images/nicolas-poussin.jpg",
+  "image_credit": "Nicolas Poussin · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Nicolas Poussin (UK: , US: , French: [nikɔla pusɛ̃]; June 1594 – 19 November 1665) was a leading painter of the classical French Baroque style, although he spent most of his working life in Rome. Most of his works were on religious and mythological subjects painted for a small group of Italian and French collectors. He returned to Paris for a brief period to serve as First Painter to the King under Louis XIII and Cardinal Richelieu, but soon returned to Rome and resumed his more traditional themes. In his later years he gave growing prominence to the landscape in his paintings. His work is characterized by clarity, logic, and order, and favors line over color. Until the 20th century he remained a major inspiration for such classically-oriented artists as Jacques-Louis David, Jean-Auguste-Dominique Ingres and Paul Cézanne.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q335273",
+  "slug": "jayavarman-vii",
+  "name": "Jayavarman VII",
+  "wikipedia": "Jayavarman VII",
+  "role": "Khmer king",
+  "life": "1122–1218",
+  "lifetime": [
+    1122,
+    1219
+  ],
+  "occupation": "Politician",
+  "birth_country": "Cambodia",
+  "civilizations": [
+    "Khmer Empire"
+  ],
+  "related": [],
+  "contribution": "King of the Khmer Empire.",
+  "image": "images/jayavarman-vii.jpg",
+  "image_credit": "Suzan Black · CC BY 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Khmer Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Khmer Empire"
+      ]
+    },
+    "lead": "Jayavarman VII (Khmer: ព្រះបាទជ័យវរ្ម័នទី៧, lit. 'victory armor'), known posthumously as Mahaparamasaugata (1122–1218), was king of the Khmer Empire. He was the son of King Dharanindravarman II (r. 1150–1160) and Queen Sri Jayarajacudamani. He was the first Khmer king devoted to Buddhism; only one other had been a Buddhist. He built the Bayon as a monument to Buddhism. Historians generally consider Jayavarman VII the most powerful of the Khmer monarchs. His government built many projects, including hospitals, highways, rest houses, and temples. With Buddhism as his motivation, Jayavarman VII is credited with introducing a welfare state that served the Khmer people's physical and spiritual needs.",
+    "photo": "no death year in or after 1860"
+  }
+}

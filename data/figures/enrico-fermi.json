@@ -1,0 +1,38 @@
+{
+  "id": "Q8753",
+  "slug": "enrico-fermi",
+  "name": "Enrico Fermi",
+  "wikipedia": "Enrico Fermi",
+  "role": "Italian-American physicist",
+  "life": "1901–1954",
+  "lifetime": [
+    1901,
+    1954
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "An Italian and naturalized-American physicist, renowned for being the creator of the world's first artificial nuclear reactor, Chicago Pile-1, and a member of the Manhattan Project.",
+  "image": "images/enrico-fermi.jpg",
+  "image_credit": "Department of Energy-Office of Public Affairs, restored by Yann · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy",
+        "Republic of Italy",
+        "United States of America"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Enrico Fermi (Italian: [enˈriːko ˈfermi]; 29 September 1901 – 28 November 1954) was an Italian and naturalized-American physicist, renowned for being the creator of the world's first artificial nuclear reactor, Chicago Pile-1, and a member of the Manhattan Project. He won the 1938 Nobel Prize in Physics \"for his demonstrations of the existence of new radioactive elements produced by neutron irradiation, and for his related discovery of nuclear reactions brought about by slow neutrons\". He has been called the \"architect of the nuclear age\" and the \"architect of the atomic bomb\". He was one of very few physicists to excel in both theoretical and experimental physics. With his colleagues, Fermi filed several patents related to the use of nuclear power, all of which were taken over by the US government. He made significant contributions to the development of statistical mechanics, quantum theory, and nuclear and particle physics.",
+    "photo": "captured between 1943 and 1949date QS:P,+1943-00-00T00:00:00Z/8,P1319,+1943-00-00T00:00:00Z/9,P1326,+1949-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

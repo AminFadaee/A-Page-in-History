@@ -1,0 +1,45 @@
+{
+  "id": "Q9455",
+  "slug": "vallabhbhai-patel",
+  "name": "Vallabhbhai Patel",
+  "wikipedia": "Vallabhbhai Patel",
+  "role": "Indian independence activist",
+  "life": "1875–1950",
+  "lifetime": [
+    1875,
+    1950
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj",
+    "Republic of India"
+  ],
+  "related": [
+    "Islamic Republic of Pakistan"
+  ],
+  "contribution": "A Gandhian Indian independence activist, lawyer and statesman who served as the first Deputy Prime Minister and Home Minister of India from 1947 to 1950.",
+  "image": "images/vallabhbhai-patel.jpg",
+  "image_credit": "Government of India work · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [
+        "British Raj",
+        "Islamic Republic of Pakistan"
+      ],
+      "vital_section": [
+        "Republic of India"
+      ],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Vallabhbhai Patel (31 October 1875 – 15 December 1950), commonly known as Sardar Patel, was a Gandhian Indian independence activist, lawyer and statesman who served as the first Deputy Prime Minister and Home Minister of India from 1947 to 1950. He was a senior leader of the Indian National Congress, who played a significant role in the Indian independence movement and India's political integration. In India and elsewhere, he was often called Sardar meaning \"chief\". He acted as the Home Minister during the political integration of India and the Indo-Pakistani War of 1947.",
+    "photo": "captured 1949-10-31 during their lifetime"
+  }
+}

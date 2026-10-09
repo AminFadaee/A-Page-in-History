@@ -1,0 +1,36 @@
+{
+  "id": "Q212657",
+  "slug": "artemisia-gentileschi",
+  "name": "Artemisia Gentileschi",
+  "wikipedia": "Artemisia Gentileschi",
+  "role": "Italian painter",
+  "life": "1593–1653",
+  "lifetime": [
+    1593,
+    1653
+  ],
+  "occupation": "Painter",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "An Italian Baroque painter.",
+  "image": "images/artemisia-gentileschi.jpg",
+  "image_credit": "Artemisia Gentileschi · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Artemisia Lomi Gentileschi (US:  JEN-til-ESK-ee, -⁠teel-; Italian: [arteˈmiːzja ˈlɔːmi dʒentiˈleski]; 8 July 1593 – after January 1654) was an Italian Baroque painter. Gentileschi is considered among the most accomplished 17th-century artists, initially working in the style of Caravaggio. She was producing professional work by the age of 15. In an era when women had few opportunities to pursue artistic training or work as professional artists, Gentileschi was the first woman to become a member of the Accademia di Arte del Disegno in Florence and she had an international clientele. Gentileschi worked as an expatriate painter in the court of Charles I of England from 1638 to 1642, but she is thought to have fled the country in the early phases of the English Civil War. Her whereabouts over the following years are unknown, but she resurfaced in Naples during 1649. Her last known letter to one of her mentors was dated to 1650 and it indicates that she was still working as an artist. Her time of death is disputed, but her last known commission was in January 1654.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "Q75613",
+  "slug": "almoravid-dynasty",
+  "name": "Almoravid Dynasty",
+  "wikipedia": "Almoravid dynasty",
+  "map_year": 1111,
+  "period": {
+    "start": {
+      "earliest": 1040,
+      "latest": 1040,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1147,
+      "latest": 1147,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Azougui",
+      "location": [
+        -13.105472222222222,
+        20.566194444444445
+      ]
+    },
+    {
+      "name": "Aghmat",
+      "location": [
+        -7.8011111111111,
+        31.4225
+      ]
+    },
+    {
+      "name": "Marrakesh",
+      "location": [
+        -7.98108,
+        31.62947
+      ]
+    }
+  ],
+  "predecessors": [
+    "Taifa of Granada",
+    "Taifa of Ceuta",
+    "Taifa of Alpuente"
+  ],
+  "successors": [
+    "Almohad Caliphate"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q75613",
+        "layer": 1,
+        "name": "Almoravid Dynasty"
+      },
+      {
+        "id": "Q205708",
+        "layer": 0,
+        "name": "Taifa of Granada"
+      },
+      {
+        "id": "Q199688",
+        "layer": 2,
+        "name": "Almohad Caliphate"
+      },
+      {
+        "id": "Q588672",
+        "layer": 1,
+        "name": "Hammadid Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q205708",
+        "Q75613",
+        "Spain"
+      ],
+      [
+        "Q75613",
+        "Q199688",
+        "Morocco, Spain"
+      ],
+      [
+        "Q588672",
+        "Q199688",
+        "Algeria"
+      ]
+    ],
+    "question": "successions/almoravid-dynasty-question.png",
+    "answer": "successions/almoravid-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Mauritania",
+    "Morocco",
+    "Spain",
+    "Algeria",
+    "Western Sahara"
+  ],
+  "map": "maps/almoravid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Azougui",
+        "Aghmat",
+        "Marrakesh"
+      ],
+      "infobox": [
+        "Azougui",
+        "Aghmat",
+        "Marrakesh"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1205
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Takrur",
+      "Fatimid Caliphate",
+      "Byzantine Empire",
+      "Holy Roman Empire",
+      "Kingdom of Hungary",
+      "Ghana Empire",
+      "Duchy of Aquitaine"
+    ]
+  }
+}

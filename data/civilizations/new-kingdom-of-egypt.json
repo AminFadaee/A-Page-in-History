@@ -1,0 +1,88 @@
+{
+  "id": "Q180568",
+  "slug": "new-kingdom-of-egypt",
+  "name": "New Kingdom of Egypt",
+  "wikipedia": "New Kingdom of Egypt",
+  "map_year": -1400,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Memphis",
+      "location": [
+        31.250917,
+        29.844667
+      ]
+    },
+    {
+      "name": "Pi-Ramesses",
+      "location": [
+        31.834217,
+        30.79937
+      ]
+    },
+    {
+      "name": "Thebes",
+      "location": [
+        32.610277777777775,
+        25.720555555555556
+      ]
+    },
+    {
+      "name": "Amarna",
+      "location": [
+        30.905555555556,
+        27.661666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Egypt",
+    "Sudan",
+    "Israel",
+    "Lebanon",
+    "Palestine"
+  ],
+  "map": "maps/new-kingdom-of-egypt.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Memphis, Egypt",
+        "Pi-Ramesses",
+        "Thebes, Egypt",
+        "Amarna"
+      ],
+      "infobox": [
+        "Thebes, Egypt",
+        "Seventeenth Dynasty of Egypt",
+        "Eighteenth Dynasty of Egypt",
+        "Akhenaten",
+        "Amarna",
+        "Nineteenth Dynasty of Egypt",
+        "Ramesses II",
+        "Pi-Ramesses",
+        "Memphis, Egypt",
+        "Merneptah",
+        "Twentieth Dynasty of Egypt"
+      ]
+    },
+    "cliopatria_years": [
+      -1500,
+      -801
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mitanni",
+      "Babylonia",
+      "Hittites"
+    ]
+  }
+}

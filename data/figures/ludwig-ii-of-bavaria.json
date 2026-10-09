@@ -1,0 +1,40 @@
+{
+  "id": "Q44039",
+  "slug": "ludwig-ii-of-bavaria",
+  "name": "Ludwig II of Bavaria",
+  "wikipedia": "Ludwig II of Bavaria",
+  "role": "King of Bavaria from 1864 to 1886",
+  "life": "1845–1886",
+  "lifetime": [
+    1845,
+    1886
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Bavaria"
+  ],
+  "related": [
+    "German Empire"
+  ],
+  "contribution": "King of Bavaria from 1864 until his death in 1886.",
+  "image": "images/ludwig-ii-of-bavaria.jpg",
+  "image_credit": "Josef Albert · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Bavaria"
+      ],
+      "lead": [
+        "German Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Bavaria"
+      ]
+    },
+    "lead": "Ludwig II (Louis II;Ludwig Otto Friedrich Wilhelm; German: [ˈluːtvɪç ˈɔto ˈfʁiː.dʁɪç ˈvɪlˌhɛlm]; 25 August 1845 – 13 June 1886), also called the Swan King or the Fairy Tale King (der Märchenkönig), was King of Bavaria from 1864 until his death in 1886.",
+    "photo": "captured circa 1864date QS:P571,+1864-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

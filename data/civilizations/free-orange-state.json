@@ -1,0 +1,84 @@
+{
+  "id": "Q218023",
+  "slug": "free-orange-state",
+  "name": "Free Orange State",
+  "wikipedia": "Orange Free State",
+  "map_year": 1871,
+  "period": {
+    "start": {
+      "earliest": 1854,
+      "latest": 1854,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1902,
+      "latest": 1902,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bloemfontein",
+      "location": [
+        26.216666666667,
+        -29.1
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q3545445",
+      "name": "Josias Philip Hoffman"
+    },
+    {
+      "id": "Q3643403",
+      "name": "Jacobus Nicolaas Boshoff"
+    },
+    {
+      "id": "Q440141",
+      "name": "Marthinus Wessel Pretorius"
+    },
+    {
+      "id": "Q1390594",
+      "name": "Johannes Brand"
+    },
+    {
+      "id": "Q726327",
+      "name": "Francis William Reitz"
+    },
+    {
+      "id": "Q2355196",
+      "name": "Martinus Theunis Steyn"
+    }
+  ],
+  "modern_countries": [
+    "South Africa"
+  ],
+  "map": "maps/free-orange-state.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bloemfontein"
+      ],
+      "infobox": [
+        "Bloemfontein"
+      ]
+    },
+    "cliopatria_years": [
+      1856,
+      1899
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "British Cape Colony",
+      "South African Republic",
+      "Natalia Republic",
+      "Zululand"
+    ]
+  }
+}

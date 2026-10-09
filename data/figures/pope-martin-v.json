@@ -1,0 +1,38 @@
+{
+  "id": "Q169612",
+  "slug": "pope-martin-v",
+  "name": "Pope Martin V",
+  "wikipedia": "Pope Martin V",
+  "role": "Head of the Catholic Church from 1417 to 1431",
+  "life": "1369–1431",
+  "lifetime": [
+    1368,
+    1431
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "The head of the Catholic Church and ruler of the Papal States from 11 November 1417 to his death in February 1431.",
+  "image": "images/pope-martin-v.jpg",
+  "image_credit": "Sailko (photographer); Lorenzo di Bicci (artist) · CC BY 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Martin V (Latin: Martinus V; Italian: Martino V; January/February 1369 – 20 February 1431), born Oddone Colonna, was the head of the Catholic Church and ruler of the Papal States from 11 November 1417 to his death in February 1431. His election effectively ended the Western Schism of 1378–1417. As of 2026, he remains the last pope to have taken the pontifical name \"Martin\".",
+    "photo": "no death year in or after 1860"
+  }
+}

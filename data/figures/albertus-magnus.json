@@ -1,0 +1,36 @@
+{
+  "id": "Q60059",
+  "slug": "albertus-magnus",
+  "name": "Albertus Magnus",
+  "wikipedia": "Albertus Magnus",
+  "role": "German Dominican friar and saint",
+  "life": "c. 1200–1280",
+  "lifetime": [
+    1200,
+    1280
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A German Dominican friar, philosopher, scientist, and bishop.",
+  "image": "images/albertus-magnus.jpg",
+  "image_credit": "Tommaso da Modena · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Albertus Magnus (c. 1200 – 15 November 1280), also known as Saint Albert the Great, Albert of Swabia, Albert von Bollstadt, or Albert of Cologne, was a German Dominican friar, philosopher, scientist, and bishop. He is considered one of the greatest medieval philosophers and thinkers.",
+    "photo": "no death year in or after 1860"
+  }
+}

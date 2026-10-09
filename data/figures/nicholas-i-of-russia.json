@@ -1,0 +1,43 @@
+{
+  "id": "Q130734",
+  "slug": "nicholas-i-of-russia",
+  "name": "Nicholas I of Russia",
+  "wikipedia": "Nicholas I of Russia",
+  "role": "Emperor of Russia from 1825 to 1855",
+  "life": "1796–1855",
+  "lifetime": [
+    1796,
+    1855
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "Qajar Dynasty",
+    "Austrian Empire"
+  ],
+  "contribution": "Emperor of Russia, King of Poland, and Grand Duke of Finland from 1825 to 1855.",
+  "image": "images/nicholas-i-of-russia.jpg",
+  "image_credit": "Franz Krüger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire",
+        "Qajar Dynasty",
+        "Austrian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Nicholas I (6 July [O.S. 25 June] 1796 – 2 March [O.S. 18 February] 1855) was Emperor of Russia, King of Poland, and Grand Duke of Finland from 1825 to 1855. He was the third son of Paul I and younger brother of his predecessor, Alexander I. Nicholas's 29-year reign began with the failed Decembrist revolt. He is mainly remembered as a reactionary whose controversial reign was marked by geographical expansion, centralisation of administrative policies, and repression of dissent both in Russia and among its neighbors. Nicholas had a happy marriage that produced a large family, with all of their seven children surviving childhood.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -18,6 +18,7 @@
   "contribution": "Roman emperor from 218 to 222, while he was still a teenager.",
   "image": "images/elagabalus.jpg",
   "image_credit": "José Luiz · CC BY-SA 4.0",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Marcus Aurelius Antoninus (born Varius Avitus Bassianus; c. 204 – 13 March 222), known as Elagabalus ( EL-ə-GAB-ə-ləs), was Roman emperor from 218 to 222, while he was still a teenager. His short reign was notorious for religious controversy and alleged sexual debauchery. A close relative to the Severan dynasty, he came from a prominent Syrian Arab family in Emesa (Homs), Syria, where he served as the head priest of the sun god Elagabal from a young age. After the death of his cousin, the emperor Caracalla, Elagabalus was raised to the Principate at 14 years of age in an army revolt instigated by his grandmother Julia Maesa against Caracalla's short-lived successor, Macrinus. He only posthumously became known by the Latinised name of his god."
+    "lead": "Marcus Aurelius Antoninus (born Varius Avitus Bassianus; c. 204 – 13 March 222), known as Elagabalus ( EL-ə-GAB-ə-ləs), was Roman emperor from 218 to 222, while he was still a teenager. His short reign was notorious for religious controversy and alleged sexual debauchery. A close relative to the Severan dynasty, he came from a prominent Syrian Arab family in Emesa (Homs), Syria, where he served as the head priest of the sun god Elagabal from a young age. After the death of his cousin, the emperor Caracalla, Elagabalus was raised to the Principate at 14 years of age in an army revolt instigated by his grandmother Julia Maesa against Caracalla's short-lived successor, Macrinus. He only posthumously became known by the Latinised name of his god.",
+    "photo": "no death year in or after 1860"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "Q184854",
+  "slug": "edward-the-black-prince",
+  "name": "Edward the Black Prince",
+  "wikipedia": "Edward the Black Prince",
+  "role": "Heir apparent of Edward III of England",
+  "life": "1330–1376",
+  "lifetime": [
+    1330,
+    1376
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "County of Auvergne",
+    "Kingdom of Navarre"
+  ],
+  "contribution": "The eldest son and heir apparent of King Edward III of England.",
+  "image": "images/edward-the-black-prince.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "County of Auvergne",
+        "Kingdom of Navarre"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edward of Woodstock (15 June 1330 – 8 June 1376), known as the Black Prince, was the eldest son and heir apparent of King Edward III of England. He died before his father, and his son Richard II therefore succeeded to the throne instead. Edward was one of the most successful English commanders of the Hundred Years' War (1337–1453). He was regarded by English contemporaries as a model of chivalry and one of the greatest knights of his era, while French sources remember him for his brutality.",
+    "photo": "no death year in or after 1860"
+  }
+}

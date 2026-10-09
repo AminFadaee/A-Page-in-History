@@ -1,0 +1,141 @@
+{
+  "id": "Q7209",
+  "slug": "han-dynasty",
+  "name": "Han Dynasty",
+  "wikipedia": "Han dynasty",
+  "map_year": 91,
+  "period": {
+    "start": {
+      "earliest": -202,
+      "latest": -202,
+      "circa": false
+    },
+    "end": {
+      "earliest": 220,
+      "latest": 220,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ]
+    },
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ]
+    },
+    {
+      "name": "Xuchang",
+      "location": [
+        113.82014,
+        34.02444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Qin Dynasty"
+  ],
+  "successors": [
+    "Eastern Wu",
+    "Shu Han"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q7209",
+        "layer": 1,
+        "name": "Han Dynasty"
+      },
+      {
+        "id": "Q7183",
+        "layer": 0,
+        "name": "Qin Dynasty"
+      },
+      {
+        "id": "Q827040",
+        "layer": 1,
+        "name": "Nanyue"
+      },
+      {
+        "id": "Q274488",
+        "layer": 2,
+        "name": "Eastern Wu"
+      },
+      {
+        "id": "Q320925",
+        "layer": 2,
+        "name": "Shu Han"
+      }
+    ],
+    "edges": [
+      [
+        "Q7183",
+        "Q7209",
+        "People's Republic of China"
+      ],
+      [
+        "Q7183",
+        "Q827040",
+        "People's Republic of China"
+      ],
+      [
+        "Q7209",
+        "Q274488",
+        "People's Republic of China, Vietnam"
+      ],
+      [
+        "Q7209",
+        "Q320925",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/han-dynasty-question.png",
+    "answer": "successions/han-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/han-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chang'an",
+        "Luoyang",
+        "Xuchang"
+      ],
+      "infobox": [
+        "Chang'an",
+        "Luoyang",
+        "Xuchang"
+      ]
+    },
+    "cliopatria_years": [
+      -202,
+      237
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Kushan Empire",
+      "Xiongnu",
+      "Xianbei",
+      "Southern Xiongnu",
+      "Goguryeo",
+      "Parthian Empire",
+      "Satavahana Dynasty",
+      "Western Satraps",
+      "Funan"
+    ]
+  }
+}

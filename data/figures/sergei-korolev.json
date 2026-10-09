@@ -1,0 +1,37 @@
+{
+  "id": "Q170842",
+  "slug": "sergei-korolev",
+  "name": "Sergei Korolev",
+  "wikipedia": "Sergei Korolev",
+  "role": "Soviet aerospace engineer",
+  "life": "1906–1966",
+  "lifetime": [
+    1906,
+    1966
+  ],
+  "occupation": "Engineer",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Soviet rocket engineer and spacecraft designer who led the development of the Soviet space program during the early years of the Space Race.",
+  "image": "images/sergei-korolev.jpg",
+  "image_credit": "Unknown authorUnknown author · CC BY 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Sergei Pavlovich Korolev (12 January 1907 [O.S. 30 December 1906] – 14 January 1966) was a Soviet rocket engineer and spacecraft designer who led the development of the Soviet space program during the early years of the Space Race.",
+    "photo": "capture date '' not within their lifetime and not classified as a photograph"
+  }
+}

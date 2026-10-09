@@ -1,0 +1,50 @@
+{
+  "id": "Q34417",
+  "slug": "philip-ii-of-spain",
+  "name": "Philip II of Spain",
+  "wikipedia": "Philip II of Spain",
+  "role": "King of Spain and Portugal",
+  "life": "1527–1598",
+  "lifetime": [
+    1527,
+    1598
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of Spain",
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "Spanish Empire",
+    "Iberian Union",
+    "Inca Empire",
+    "Ottoman Empire"
+  ],
+  "contribution": "King of Spain from 1556, King of Portugal from 1580, and King of Naples and Sicily from 1554 until his death in 1598.",
+  "image": "images/philip-ii-of-spain.jpg",
+  "image_credit": "Sofonisba Anguissola · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Spain",
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "Kingdom of Spain",
+        "Spanish Empire",
+        "Kingdom of Portugal",
+        "Iberian Union",
+        "Inca Empire",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Spain"
+      ]
+    },
+    "lead": "Philip II (21 May 1527 – 13 September 1598), sometimes known in Spain as Philip the Prudent (Spanish: Felipe el Prudente), was King of Spain from 1556, King of Portugal from 1580, and King of Naples and Sicily from 1554 until his death in 1598. He was also jure uxoris King of England and Ireland from his marriage to Queen Mary I in 1554 until her death in 1558. Further, he was Duke of Milan from 1540. From 1555, he was Lord of the Seventeen Provinces of the Netherlands.",
+    "photo": "no death year in or after 1860"
+  }
+}

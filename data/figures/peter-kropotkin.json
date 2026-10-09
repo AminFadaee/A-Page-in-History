@@ -1,0 +1,40 @@
+{
+  "id": "Q5752",
+  "slug": "peter-kropotkin",
+  "name": "Peter Kropotkin",
+  "wikipedia": "Peter Kropotkin",
+  "role": "Russian anarchist",
+  "life": "1842–1921",
+  "lifetime": [
+    1842,
+    1921
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "Swiss Confederation"
+  ],
+  "contribution": "A Russian anarchist political philosopher and geographer known as a proponent of anarchist communism.",
+  "image": "images/peter-kropotkin.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Swiss Confederation"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Pyotr Alexeyevich Kropotkin (9 December [O.S. 27 November] 1842 – 8 February 1921) was a Russian anarchist political philosopher and geographer known as a proponent of anarchist communism.",
+    "photo": "captured circa 1900date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

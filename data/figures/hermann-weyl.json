@@ -1,0 +1,42 @@
+{
+  "id": "Q71029",
+  "slug": "hermann-weyl",
+  "name": "Hermann Weyl",
+  "wikipedia": "Hermann Weyl",
+  "role": "German mathematician",
+  "life": "1885–1955",
+  "lifetime": [
+    1885,
+    1955
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Swiss Confederation"
+  ],
+  "related": [],
+  "contribution": "A German mathematician, theoretical physicist, logician and philosopher.",
+  "image": "images/hermann-weyl.jpg",
+  "image_credit": "ETH Zürich · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic",
+        "United States of America",
+        "Swiss Confederation"
+      ],
+      "lead": [
+        "Swiss Confederation"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Hermann Klaus Hugo Weyl ( VILE; German: [vaɪl]; 9 November 1885 – 8 December 1955) was a German mathematician, theoretical physicist, logician and philosopher. Although much of his working life was spent in Zürich, Switzerland, and then Princeton, New Jersey, he is associated with the University of Göttingen tradition of mathematics, represented by Carl Friedrich Gauss, David Hilbert and Hermann Minkowski.",
+    "photo": "capture date 'Unknown date' not within their lifetime and not classified as a photograph"
+  }
+}

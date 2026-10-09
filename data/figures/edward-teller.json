@@ -1,0 +1,39 @@
+{
+  "id": "Q6733",
+  "slug": "edward-teller",
+  "name": "Edward Teller",
+  "wikipedia": "Edward Teller",
+  "role": "Hungarian-American physicist",
+  "life": "1908–2003",
+  "lifetime": [
+    1908,
+    2003
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Austria-Hungary"
+  ],
+  "related": [],
+  "contribution": "A Hungarian-American theoretical physicist and chemical engineer who is known colloquially as \"the father of the hydrogen bomb\" and one of the creators of the Teller–Ulam design inspired by Stanisław Ulam.",
+  "image": "images/edward-teller.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Hungarian Republic",
+        "United States of America"
+      ],
+      "lead": [
+        "Austria-Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Edward Teller (Hungarian: Teller Ede; 15 January 1908 – 9 September 2003) was a Hungarian-American theoretical physicist and chemical engineer who is known colloquially as \"the father of the hydrogen bomb\" and one of the creators of the Teller–Ulam design inspired by Stanisław Ulam.",
+    "photo": "capture date '' not within their lifetime and not classified as a photograph"
+  }
+}

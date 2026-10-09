@@ -1,0 +1,108 @@
+{
+  "id": "Q153136",
+  "slug": "habsburg-monarchy",
+  "name": "Habsburg Monarchy",
+  "wikipedia": "Habsburg monarchy",
+  "map_year": 1721,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Vienna",
+      "location": [
+        16.3725,
+        48.208333333333336
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Austrian Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q153136",
+        "layer": 1,
+        "name": "Habsburg Monarchy"
+      },
+      {
+        "id": "Q131964",
+        "layer": 2,
+        "name": "Austrian Empire"
+      },
+      {
+        "id": "Q4948",
+        "layer": 1,
+        "name": "Republic of Venice"
+      }
+    ],
+    "edges": [
+      [
+        "Q153136",
+        "Q131964",
+        "Romania, Hungary, Poland"
+      ],
+      [
+        "Q4948",
+        "Q131964",
+        "Italy, Croatia"
+      ]
+    ],
+    "question": "successions/habsburg-monarchy-question.png",
+    "answer": "successions/habsburg-monarchy-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Romania",
+    "Italy",
+    "Hungary",
+    "Czech Republic",
+    "Austria",
+    "Serbia",
+    "Slovakia",
+    "Croatia",
+    "Poland",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg"
+  ],
+  "map": "maps/habsburg-monarchy.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Vienna"
+      ],
+      "infobox": [
+        "Vienna"
+      ]
+    },
+    "cliopatria_years": [
+      1487,
+      1805
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Ottoman Empire",
+      "Polish-Lithuanian Commonwealth",
+      "Kingdom of France",
+      "Holy Roman Empire Minor States",
+      "Morocco",
+      "Kingdom of Great Britain",
+      "Regency of Algiers",
+      "Kalmyk Khanate",
+      "Astrakhan Khanate",
+      "Zaporozhian Cossacks",
+      "Small Horde",
+      "Beylik of Tunis"
+    ]
+  }
+}

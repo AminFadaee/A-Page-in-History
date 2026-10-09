@@ -1,0 +1,36 @@
+{
+  "id": "Q7186",
+  "slug": "marie-curie",
+  "name": "Marie Curie",
+  "wikipedia": "Marie Curie",
+  "role": "Polish-French physicist and chemist",
+  "life": "1867–1934",
+  "lifetime": [
+    1867,
+    1934
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Polish and naturalised-French physicist and chemist.",
+  "image": "images/marie-curie.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Maria Salomea Skłodowska Curie  (née Skłodowska; 7 November 1867 – 4 July 1934), better known as Marie Curie, was a Polish and naturalised-French physicist and chemist. She shared the 1903 Nobel Prize in Physics with her husband, Pierre Curie, \"for their joint researches on the  radioactivity phenomena discovered by Professor Henri Becquerel\". She won the 1911 Nobel Prize in Chemistry \"[for] the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element\".",
+    "photo": "captured circa 1900date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

@@ -18,6 +18,7 @@
   "contribution": "A Roman emperor, ruling from AD 41 until his death in AD 54.",
   "image": "images/claudius.jpg",
   "image_credit": "Coyau · CC BY-SA 3.0",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Tiberius Claudius Caesar Augustus Germanicus ( KLAW-dee-əs; Classical Latin: [tɪˈbɛri.ʊs ˈkɫau̯di.ʊs ˈkae̯sar au̯ˈɡʊstʊs ɡɛrˈmaːnɪkʊs]; 1 August 10 BC – 13 October AD 54), or simply Claudius, was a Roman emperor, ruling from AD 41 until his death in AD 54. The fourth ruler of the Julio-Claudian dynasty, Claudius was born to Drusus the Elder, the brother of Emperor Tiberius, and Antonia Minor at Lugdunum in Roman Gaul, where his father was stationed as a military legate. He was the first Roman emperor to be born outside Italy."
+    "lead": "Tiberius Claudius Caesar Augustus Germanicus ( KLAW-dee-əs; Classical Latin: [tɪˈbɛri.ʊs ˈkɫau̯di.ʊs ˈkae̯sar au̯ˈɡʊstʊs ɡɛrˈmaːnɪkʊs]; 1 August 10 BC – 13 October AD 54), or simply Claudius, was a Roman emperor, ruling from AD 41 until his death in AD 54. The fourth ruler of the Julio-Claudian dynasty, Claudius was born to Drusus the Elder, the brother of Emperor Tiberius, and Antonia Minor at Lugdunum in Roman Gaul, where his father was stationed as a military legate. He was the first Roman emperor to be born outside Italy.",
+    "photo": "no death year in or after 1860"
   }
 }

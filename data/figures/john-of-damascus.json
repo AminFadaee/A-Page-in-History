@@ -18,6 +18,7 @@
   "contribution": "A Christian monk, priest, hymnographer, and apologist.",
   "image": "images/john-of-damascus.jpg",
   "image_credit": "Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -29,6 +30,7 @@
         "Umayyad Caliphate"
       ]
     },
-    "lead": "John of Damascus or John Damascene, born Yūḥana ibn Manṣūr ibn Sarjūn, was a Christian monk, priest, hymnographer, and apologist. He was born and raised in Damascus c. AD 675 or AD 676; the precise date and place of his death is not known, though tradition places it at his monastery, Mar Saba, near Jerusalem, on 4 December AD 749. A polymath whose fields of interest and contribution included law, theology, philosophy, and music, he was given the by-name of Chrysorroas (Χρυσορρόας, literally \"streaming with gold\", i.e. \"the golden speaker\"). He wrote works expounding the Christian faith, and composed hymns which are still used both liturgically in Eastern Christian practice throughout the world as well as in western Lutheranism at Easter."
+    "lead": "John of Damascus or John Damascene, born Yūḥana ibn Manṣūr ibn Sarjūn, was a Christian monk, priest, hymnographer, and apologist. He was born and raised in Damascus c. AD 675 or AD 676; the precise date and place of his death is not known, though tradition places it at his monastery, Mar Saba, near Jerusalem, on 4 December AD 749. A polymath whose fields of interest and contribution included law, theology, philosophy, and music, he was given the by-name of Chrysorroas (Χρυσορρόας, literally \"streaming with gold\", i.e. \"the golden speaker\"). He wrote works expounding the Christian faith, and composed hymns which are still used both liturgically in Eastern Christian practice throughout the world as well as in western Lutheranism at Easter.",
+    "photo": "no death year in or after 1860"
   }
 }

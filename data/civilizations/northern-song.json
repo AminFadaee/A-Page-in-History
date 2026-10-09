@@ -1,0 +1,104 @@
+{
+  "id": "Q7462",
+  "slug": "northern-song",
+  "name": "Northern Song",
+  "wikipedia": "Song dynasty",
+  "map_year": 1056,
+  "period": {
+    "start": {
+      "earliest": 960,
+      "latest": 960,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1279,
+      "latest": 1279,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Lin'an Prefecture",
+      "location": [
+        120.16666666666667,
+        30.266666666666666
+      ]
+    }
+  ],
+  "predecessors": [
+    "Later Zhou"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q7462",
+        "layer": 1,
+        "name": "Northern Song"
+      },
+      {
+        "id": "Q1154556",
+        "layer": 0,
+        "name": "Later Zhou"
+      }
+    ],
+    "edges": [
+      [
+        "Q1154556",
+        "Q7462",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/northern-song-question.png",
+    "answer": "successions/northern-song-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/northern-song.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bianliang",
+        "Lin'an Prefecture"
+      ],
+      "infobox": [
+        "Kaifeng",
+        "Shangqiu",
+        "Yangzhou",
+        "Lin'an Prefecture",
+        "Nanjing"
+      ]
+    },
+    "cliopatria_years": [
+      961,
+      1138
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Tibetans",
+      "Liao Dynasty",
+      "Western Xia",
+      "Kingdom of Dali",
+      "Ngô Dynasty",
+      "Qocho Kingdom",
+      "Eastern Kara-Khanids",
+      "Khmer Empire",
+      "Pala Empire",
+      "Pagan Kingdom",
+      "Heian Japan",
+      "Lohara Dynasty",
+      "Kamarupa Kingdom",
+      "Eastern Ganga Kingdom",
+      "Haripuñjaya",
+      "Lavo Kingdom",
+      "Goryeo",
+      "Chandela Kingdom"
+    ]
+  }
+}

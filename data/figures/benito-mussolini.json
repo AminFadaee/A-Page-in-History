@@ -1,0 +1,43 @@
+{
+  "id": "Q23559",
+  "slug": "benito-mussolini",
+  "name": "Benito Mussolini",
+  "wikipedia": "Benito Mussolini",
+  "role": "Dictator of Italy from 1922 to 1943",
+  "life": "1883–1945",
+  "lifetime": [
+    1883,
+    1945
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [
+    "Nazi Germany",
+    "French Third Republic"
+  ],
+  "contribution": "A fascist dictator who was the prime minister of Italy from 1922 until his deposition in 1943.",
+  "image": "images/benito-mussolini.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy"
+      ],
+      "lead": [
+        "Kingdom of Italy",
+        "Nazi Germany",
+        "French Third Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Benito Amilcare Andrea Mussolini (29 July 1883 – 28 April 1945) was a fascist dictator who was the prime minister of Italy from 1922 until his deposition in 1943. Known as Il Duce during his rule, he established a totalitarian dictatorship led by the National Fascist Party (PNF) in the Kingdom of Italy.",
+    "photo": "capture date '10 January 2009 (original upload date)' not within their lifetime and not classified as a photograph"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Q191375",
+  "slug": "sheikh-mujibur-rahman",
+  "name": "Sheikh Mujibur Rahman",
+  "wikipedia": "Sheikh Mujibur Rahman",
+  "role": "Bangladeshi revolutionary and statesman",
+  "life": "1920–1975",
+  "lifetime": [
+    1920,
+    1975
+  ],
+  "occupation": "Politician",
+  "birth_country": "Bangladesh",
+  "civilizations": [
+    "British Raj",
+    "Islamic Republic of Pakistan",
+    "People's Republic of Bangladesh"
+  ],
+  "related": [
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "A Bangladeshi politician, revolutionary, statesman, activist, and diarist who was the founding president of Bangladesh.",
+  "image": "images/sheikh-mujibur-rahman.jpg",
+  "image_credit": "Prime Minister's Office of Bangladesh · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Islamic Republic of Pakistan",
+        "People's Republic of Bangladesh"
+      ],
+      "lead": [
+        "People's Republic of Bangladesh",
+        "British Raj",
+        "Islamic Republic of Pakistan",
+        "Union of Soviet Socialist Republics"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Sheikh Mujibur Rahman (17 March 1920 – 15 August 1975) was a Bangladeshi politician, revolutionary, statesman, activist, and diarist who was the founding president of Bangladesh. As the leader of Bangladesh, he led the country as its president and prime minister from 1972 until his assassination in a coup d'état in 1975.",
+    "photo": "captured before 1973date QS:P,+1973-00-00T00:00:00Z/7,P1326,+1973-00-00T00:00:00Z/9Published on: 1 January 2020, 16:53 during their lifetime"
+  }
+}

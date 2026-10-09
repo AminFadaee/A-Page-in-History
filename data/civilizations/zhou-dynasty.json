@@ -1,0 +1,72 @@
+{
+  "id": "Q35216",
+  "slug": "zhou-dynasty",
+  "name": "Zhou Dynasty",
+  "wikipedia": "Zhou dynasty",
+  "map_year": -1000,
+  "period": {
+    "start": {
+      "earliest": -1046,
+      "latest": -1046,
+      "circa": true
+    },
+    "end": {
+      "earliest": -256,
+      "latest": -256,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Shang Dynasty"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q35216",
+        "layer": 1,
+        "name": "Zhou Dynasty"
+      },
+      {
+        "id": "Q128938",
+        "layer": 0,
+        "name": "Shang Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q128938",
+        "Q35216",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/zhou-dynasty-question.png",
+    "answer": "successions/zhou-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China"
+  ],
+  "map": "maps/zhou-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Fenghao",
+        "Haojing",
+        "Wangcheng",
+        "King Jing of Zhou",
+        "Luoyang"
+      ]
+    },
+    "cliopatria_years": [
+      -1000,
+      -751
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Q58559",
+  "slug": "pope-leo-ix",
+  "name": "Pope Leo IX",
+  "wikipedia": "Pope Leo IX",
+  "role": "Head of the Catholic Church from 1049 to 1054",
+  "life": "1002–1054",
+  "lifetime": [
+    1002,
+    1054
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "France",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [
+    "Papal States"
+  ],
+  "contribution": "The Bishop of Rome and ruler of the Papal States from 12 February 1049 to his death in 1054.",
+  "image": "images/pope-leo-ix.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Pope Leo IX (Italian: Leone IX, German: Leo IX.; born Bruno von Egisheim-Dagsburg; 21 June 1002 – 19 April 1054) was the Bishop of Rome and ruler of the Papal States from 12 February 1049 to his death in 1054. Leo IX is considered to be one of the most historically significant popes of the Middle Ages; he was instrumental in the precipitation of the Great Schism of 1054, considered the turning point in which the Catholic and Eastern Orthodox Churches formally separated.",
+    "photo": "no death year in or after 1860"
+  }
+}

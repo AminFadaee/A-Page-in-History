@@ -1,0 +1,44 @@
+{
+  "id": "Q9161",
+  "slug": "josip-broz-tito",
+  "name": "Josip Broz Tito",
+  "wikipedia": "Josip Broz Tito",
+  "role": "Leader of Yugoslavia from 1943 to 1980",
+  "life": "1892–1980",
+  "lifetime": [
+    1892,
+    1980
+  ],
+  "occupation": "Politician",
+  "birth_country": "Croatia",
+  "civilizations": [
+    "Socialist Federal Republic of Yugoslavia",
+    "Austria-Hungary"
+  ],
+  "related": [
+    "Yugoslavia"
+  ],
+  "contribution": "A Yugoslav communist revolutionary and politician who led Yugoslavia as prime minister from 1943 to 1963 and as president from 1953 until his death in 1980.",
+  "image": "images/josip-broz-tito.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Hungarian Republic",
+        "Socialist Federal Republic of Yugoslavia"
+      ],
+      "lead": [
+        "Yugoslavia",
+        "Austria-Hungary",
+        "Socialist Federal Republic of Yugoslavia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Josip Broz (7 May 1892 – 4 May 1980), commonly known as Tito, was a Yugoslav communist revolutionary and politician who led Yugoslavia as prime minister from 1943 to 1963 and as president from 1953 until his death in 1980. He was the longtime leader of the League of Communists of Yugoslavia, supreme commander of the Yugoslav Partisans during World War II, and one of the founders of the Non-Aligned Movement. The political ideology and policies associated with his rule are known as Titoism.",
+    "photo": "captured 1961 during their lifetime"
+  }
+}

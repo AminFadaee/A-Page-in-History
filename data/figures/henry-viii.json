@@ -1,0 +1,36 @@
+{
+  "id": "Q38370",
+  "slug": "henry-viii",
+  "name": "Henry VIII",
+  "wikipedia": "Henry VIII",
+  "role": "King of England from 1509 to 1547",
+  "life": "1491–1547",
+  "lifetime": [
+    1491,
+    1547
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of England and Ireland from 22 April 1509 until his death in 1547.",
+  "image": "images/henry-viii.jpg",
+  "image_credit": "Hans Holbein the Younger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Henry VIII (28 June 1491 – 28 January 1547) was King of England and Ireland from 22 April 1509 until his death in 1547.",
+    "photo": "no death year in or after 1860"
+  }
+}

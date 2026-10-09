@@ -1,0 +1,184 @@
+{
+  "id": "Q160307",
+  "slug": "fatimid-caliphate",
+  "name": "Fatimid Caliphate",
+  "wikipedia": "Fatimid Caliphate",
+  "map_year": 980,
+  "period": {
+    "start": {
+      "earliest": 909,
+      "latest": 909,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1171,
+      "latest": 1171,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mahdia",
+      "location": [
+        11.062222222222,
+        35.504722222222
+      ]
+    },
+    {
+      "name": "Mansouria",
+      "location": [
+        10.113888888889,
+        35.658055555556
+      ]
+    },
+    {
+      "name": "Cairo",
+      "location": [
+        31.235833333333332,
+        30.044444444444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Aghlabid Dynasty",
+    "Rustamid dynasty"
+  ],
+  "successors": [
+    "Ayyubid Sultanate",
+    "Zirid dynasty",
+    "Kingdom of Jerusalem",
+    "Hammadid Dynasty"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q160307",
+        "layer": 1,
+        "name": "Fatimid Caliphate"
+      },
+      {
+        "id": "Q207600",
+        "layer": 0,
+        "name": "Aghlabid Dynasty"
+      },
+      {
+        "id": "Q940123",
+        "layer": 0,
+        "name": "Rustamid dynasty"
+      },
+      {
+        "id": "Q180114",
+        "layer": 2,
+        "name": "Ayyubid Sultanate"
+      },
+      {
+        "id": "Q205718",
+        "layer": 2,
+        "name": "Zirid dynasty"
+      },
+      {
+        "id": "Q55502",
+        "layer": 2,
+        "name": "Kingdom of Jerusalem"
+      },
+      {
+        "id": "Q588672",
+        "layer": 2,
+        "name": "Hammadid Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q207600",
+        "Q160307",
+        "Tunisia, Libya, Algeria"
+      ],
+      [
+        "Q940123",
+        "Q160307",
+        "Algeria"
+      ],
+      [
+        "Q160307",
+        "Q180114",
+        "Egypt, Libya"
+      ],
+      [
+        "Q160307",
+        "Q205718",
+        "Tunisia, Algeria"
+      ],
+      [
+        "Q160307",
+        "Q55502",
+        "Jordan, Israel, Palestine"
+      ],
+      [
+        "Q160307",
+        "Q588672",
+        "Algeria"
+      ]
+    ],
+    "question": "successions/fatimid-caliphate-question.png",
+    "answer": "successions/fatimid-caliphate-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q307629",
+      "name": "Abd Allah al-Mahdi Billah"
+    },
+    {
+      "id": "Q286460",
+      "name": "Al-Adid"
+    }
+  ],
+  "modern_countries": [
+    "Egypt",
+    "Saudi Arabia",
+    "Libya",
+    "Algeria",
+    "Tunisia",
+    "Jordan",
+    "Israel",
+    "Lebanon",
+    "Palestine",
+    "Malta"
+  ],
+  "map": "maps/fatimid-caliphate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mahdia",
+        "Mansouria, Tunisia",
+        "Cairo"
+      ],
+      "infobox": [
+        "Raqqada",
+        "Mahdia",
+        "Mansouria, Tunisia",
+        "Cairo"
+      ]
+    },
+    "cliopatria_years": [
+      911,
+      1176
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Buyid Dynasty",
+      "Byzantine Empire",
+      "Caliphate of Córdoba",
+      "Hamdanid Emirates",
+      "Makuria",
+      "Ziyadid dynasty",
+      "Samanid Empire",
+      "Ghana Empire",
+      "First Bulgarian Empire",
+      "Alodia",
+      "Kingdom of León",
+      "Georgia"
+    ]
+  }
+}

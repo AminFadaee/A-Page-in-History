@@ -1,0 +1,36 @@
+{
+  "id": "Q60094",
+  "slug": "henry-iv-holy-roman-emperor",
+  "name": "Henry IV, Holy Roman Emperor",
+  "wikipedia": "Henry IV, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1084 to 1105",
+  "life": "1050–1106",
+  "lifetime": [
+    1050,
+    1106
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Holy Roman Emperor, King of Germany, and King of Italy and Burgundy.",
+  "image": "images/henry-iv-holy-roman-emperor.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Henry IV (German: Heinrich IV; 11 November 1050 – 7 August 1106) was Holy Roman Emperor (1084–1105), King of Germany (1054–1105), and King of Italy and Burgundy (1056–1105). A Salian ruler, he was the son of Henry III and Agnes of Poitou. After his father's death in 1056, his mother acted as regent, granting lands to secure aristocratic support. Unable to control papal elections, she witnessed the growing assertion of the \"liberty of the Church\", a principle central to the emerging Gregorian Reform. In 1062, Archbishop Anno II of Cologne kidnapped Henry and governed until he came of age in 1065.",
+    "photo": "no death year in or after 1860"
+  }
+}

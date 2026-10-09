@@ -1,0 +1,124 @@
+{
+  "id": "Q7318",
+  "slug": "nazi-germany",
+  "name": "Nazi Germany",
+  "wikipedia": "Nazi Germany",
+  "map_year": 1943,
+  "period": {
+    "start": {
+      "earliest": 1933,
+      "latest": 1933,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1945,
+      "latest": 1945,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "Free City of Danzig",
+    "Weimar Republic"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q7318",
+        "layer": 1,
+        "name": "Nazi Germany"
+      },
+      {
+        "id": "Q41304",
+        "layer": 0,
+        "name": "Weimar Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q41304",
+        "Q7318",
+        "Germany, Poland"
+      ]
+    ],
+    "question": "successions/nazi-germany-question.png",
+    "answer": "successions/nazi-germany-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q2667",
+      "name": "Paul von Hindenburg"
+    },
+    {
+      "id": "Q352",
+      "name": "Adolf Hitler"
+    },
+    {
+      "id": "Q76437",
+      "name": "Karl Dönitz"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Ukraine",
+    "Russia",
+    "Germany",
+    "Poland",
+    "Norway",
+    "Belarus",
+    "Austria",
+    "Czech Republic",
+    "Lithuania",
+    "Latvia",
+    "Serbia",
+    "Estonia",
+    "Denmark",
+    "Netherlands",
+    "Slovakia",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg"
+  ],
+  "map": "maps/nazi-germany.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Berlin"
+      ],
+      "infobox": [
+        "Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1936,
+      1944
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Union of Soviet Socialist Republics",
+      "French Africa",
+      "Italian Africa",
+      "British Africa",
+      "Francoist Spain",
+      "Republic of Turkey",
+      "British Raj",
+      "Republic of China",
+      "Kingdom of Saudi Arabia",
+      "Mongolian People's Republic",
+      "Pahlavi Dynasty",
+      "Tibet",
+      "Nepal"
+    ]
+  }
+}

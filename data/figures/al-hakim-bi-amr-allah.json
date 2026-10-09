@@ -1,0 +1,38 @@
+{
+  "id": "Q342137",
+  "slug": "al-hakim-bi-amr-allah",
+  "name": "Al-Hakim bi-Amr Allah",
+  "wikipedia": "Al-Hakim bi-Amr Allah",
+  "role": "6th Fatimid caliph and 16th Ismaili Imam",
+  "life": "985–1021",
+  "lifetime": [
+    985,
+    1021
+  ],
+  "occupation": "Politician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Fatimid Caliphate"
+  ],
+  "related": [],
+  "contribution": "The sixth Fatimid caliph and 16th Ismaili imam.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Fatimid Caliphate"
+      ],
+      "lead": [
+        "Fatimid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Fatimid Caliphate"
+      ]
+    },
+    "lead": "Abu Ali al-Mansur (Arabic: أبو علي المنصور, romanized: Abū ʿAlī al-Manṣūr; 13 August 985 – 13 February 1021), better known by his regnal name al-Hakim bi-Amr Allah (Arabic: الحاكم بأمر الله, romanized: al-Ḥākim bi-Amr Allāh, lit. 'The Ruler by the Order of God'), was the sixth Fatimid caliph and 16th Ismaili imam (996–1021). Al-Hakim is an important figure in a number of Shia Ismaili sects, such as the world's 15 million Nizaris and 1–2 million Musta'lis, in addition to 2 million Druze.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

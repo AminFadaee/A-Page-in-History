@@ -1,0 +1,40 @@
+{
+  "id": "Q133063",
+  "slug": "pope-gregory-vii",
+  "name": "Pope Gregory VII",
+  "wikipedia": "Pope Gregory VII",
+  "role": "Head of the Catholic Church from 1073 to 1085",
+  "life": "10th century – 1085",
+  "lifetime": [
+    921,
+    1085
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States",
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 22 April 1073 to his death in 1085.",
+  "image": "images/pope-gregory-vii.jpg",
+  "image_credit": "Paul von Bernried, creatorArmin P., original uploader · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Papal States",
+        "Holy Roman Empire"
+      ],
+      "vital_section": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Pope Gregory VII (Latin: Gregorius VII; c. 1015 – 25 May 1085), born Hildebrand of Sovana (Italian: Ildebrando di Soana), was head of the Catholic Church and ruler of the Papal States from 22 April 1073 to his death in 1085. He is venerated as a saint in the Catholic Church.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q76555",
+  "slug": "joseph-ii-holy-roman-emperor",
+  "name": "Joseph II, Holy Roman Emperor",
+  "wikipedia": "Joseph II, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1765 to 1790",
+  "life": "1741–1790",
+  "lifetime": [
+    1741,
+    1790
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [
+    "Russian Empire",
+    "Kingdom of Prussia"
+  ],
+  "contribution": "Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg monarchy from 29 November 1780 until his death.",
+  "image": "images/joseph-ii-holy-roman-emperor.jpg",
+  "image_credit": "Anton von Maron · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Habsburg Monarchy",
+        "Russian Empire",
+        "Kingdom of Prussia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Joseph II (13 March 1741 – 20 February 1790) was Holy Roman Emperor from 18 August 1765 and sole ruler of the Habsburg monarchy from 29 November 1780 until his death. He was the eldest son of Empress Maria Theresa and her husband, Emperor Francis I, and the brother of Marie Antoinette, Leopold II, Maria Carolina of Austria, and Maria Amalia, Duchess of Parma. He was thus the first ruler in the Austrian dominions of the union of the Houses of Habsburg and Lorraine, styled Habsburg-Lorraine.",
+    "photo": "no death year in or after 1860"
+  }
+}

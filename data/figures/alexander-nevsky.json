@@ -1,0 +1,39 @@
+{
+  "id": "Q174044",
+  "slug": "alexander-nevsky",
+  "name": "Alexander Nevsky",
+  "wikipedia": "Alexander Nevsky",
+  "role": "Grand Prince of Vladimir from 1252 to 1263",
+  "life": "1220–1263",
+  "lifetime": [
+    1220,
+    1263
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Kievan Rus'",
+    "Principality of Rostov-Suzdal"
+  ],
+  "related": [],
+  "contribution": "Prince of Novgorod and Grand Prince of Vladimir.",
+  "image": "images/alexander-nevsky.jpg",
+  "image_credit": "Collective of Kremlin Armory artists · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kievan Rus'",
+        "Principality of Rostov-Suzdal"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kievan Rus'",
+        "Principality of Rostov-Suzdal"
+      ]
+    },
+    "lead": "Alexander Yaroslavich Nevsky (Russian: Александр Ярославич Невский; IPA: [ɐlʲɪˈksandr jɪrɐˈsɫavʲɪtɕ ˈnʲɛfskʲɪj] ; monastic name: Aleksiy; 13 May 1221 – 14 November 1263) was Prince of Novgorod (1236–1240; 1241–1256; 1258–1259) and Grand Prince of Vladimir (1252–1263).",
+    "photo": "no death year in or after 1860"
+  }
+}

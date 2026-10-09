@@ -1,0 +1,38 @@
+{
+  "id": "Q7519",
+  "slug": "ogedei-khan",
+  "name": "Ögedei Khan",
+  "wikipedia": "Ögedei Khan",
+  "role": "Khan of the Mongol Empire from 1229 to 1241",
+  "life": "1186–1241",
+  "lifetime": [
+    1186,
+    1241
+  ],
+  "occupation": "Politician",
+  "birth_country": "",
+  "civilizations": [
+    "Mongol Empire"
+  ],
+  "related": [],
+  "contribution": "The second khan of the Mongol Empire.",
+  "image": "images/ogedei-khan.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mongol Empire"
+      ],
+      "lead": [
+        "Mongol Empire"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": []
+    },
+    "lead": "Ögedei Khan (also Ögedei Khagan or Ogodei; c. 1186  – 11 December 1241) was the second khan of the Mongol Empire. The third son of Genghis Khan, he continued the expansion of the empire that his father had begun.",
+    "photo": "no death year in or after 1860"
+  }
+}

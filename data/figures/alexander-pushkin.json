@@ -1,0 +1,36 @@
+{
+  "id": "Q7200",
+  "slug": "alexander-pushkin",
+  "name": "Alexander Pushkin",
+  "wikipedia": "Alexander Pushkin",
+  "role": "Russian writer",
+  "life": "1799–1837",
+  "lifetime": [
+    1799,
+    1837
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian poet, playwright, and novelist of the Romantic era.",
+  "image": "images/alexander-pushkin.jpg",
+  "image_credit": "Orest Kiprensky · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Alexander Sergeyevich Pushkin (6 June [O.S. 26 May] 1799 – 10 February [O.S. 29 January] 1837) was a Russian poet, playwright, and novelist of the Romantic era. He is considered by many to be the greatest Russian poet, as well as the founder of modern Russian literature.",
+    "photo": "no death year in or after 1860"
+  }
+}

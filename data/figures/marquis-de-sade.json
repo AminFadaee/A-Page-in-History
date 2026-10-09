@@ -1,0 +1,36 @@
+{
+  "id": "Q123867",
+  "slug": "marquis-de-sade",
+  "name": "Marquis de Sade",
+  "wikipedia": "Marquis de Sade",
+  "role": "French writer and nobleman",
+  "life": "1740–1814",
+  "lifetime": [
+    1740,
+    1814
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French writer, libertine, political activist, and nobleman best known for his libertine novels and imprisonment for sex crimes, blasphemy, and pornography.",
+  "image": "images/marquis-de-sade.jpg",
+  "image_credit": "Charles-Amédée-Philippe van Loo · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Donatien Alphonse François, Marquis de Sade ( SA(H)D; French: [dɔnasjɛ̃ alfɔ̃s fʁɑ̃swa maʁki də sad]; 2 June 1740 – 2 December 1814) was a French writer, libertine, political activist, and nobleman best known for his libertine novels and imprisonment for sex crimes, blasphemy, and pornography. His works include novels, short stories, plays, dialogues, and political tracts. Some of these were published under his own name during his lifetime, but most appeared anonymously or posthumously.",
+    "photo": "no death year in or after 1860"
+  }
+}

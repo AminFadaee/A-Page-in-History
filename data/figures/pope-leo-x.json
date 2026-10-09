@@ -1,0 +1,40 @@
+{
+  "id": "Q49237",
+  "slug": "pope-leo-x",
+  "name": "Pope Leo X",
+  "wikipedia": "Pope Leo X",
+  "role": "Head of the Catholic Church from 1513 to 1521",
+  "life": "1475–1521",
+  "lifetime": [
+    1475,
+    1521
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States",
+    "Republic of Florence"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 9 March 1513 to his death in December 1521.",
+  "image": "images/pope-leo-x.jpg",
+  "image_credit": "Francesco Bini · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States",
+        "Republic of Florence"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Republic of Florence"
+      ]
+    },
+    "lead": "Pope Leo X (Italian: Leone X; born Giovanni di Lorenzo de' Medici, 11 December 1475 – 1 December 1521) was head of the Catholic Church and leader of the Papal States from 9 March 1513 to his death in December 1521.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q51673",
+  "slug": "mark-antony",
+  "name": "Mark Antony",
+  "wikipedia": "Mark Antony",
+  "role": "Roman politician and general",
+  "life": "83–30 BC",
+  "lifetime": [
+    -83,
+    -30
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [
+    "Roman Empire",
+    "Ptolemaic Kingdom"
+  ],
+  "contribution": "A Roman politician and general who played a critical role in the transformation of the Roman Republic from a constitutional republic into the autocratic Roman Empire.",
+  "image": "images/mark-antony.jpg",
+  "image_credit": "Commons member Amadscientist created the file from the book by William Smith, Abel Hendy Jones Greenidge, Andrew Dickson White · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Republic",
+        "Roman Empire",
+        "Ptolemaic Kingdom"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Marcus Antonius (14 January 83 BC – 1 August 30 BC), commonly known in English as Mark Antony, was a Roman politician and general who played a critical role in the transformation of the Roman Republic from a constitutional republic into the autocratic Roman Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

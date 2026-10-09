@@ -1,0 +1,41 @@
+{
+  "id": "Q187312",
+  "slug": "robert-the-bruce",
+  "name": "Robert the Bruce",
+  "wikipedia": "Robert the Bruce",
+  "role": "King of Scotland from 1306 to 1329",
+  "life": "1274–1329",
+  "lifetime": [
+    1274,
+    1329
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Scotland"
+  ],
+  "related": [
+    "Kingdom of England"
+  ],
+  "contribution": "King of Scots from 1306 until his death in 1329.",
+  "image": "images/robert-the-bruce.jpg",
+  "image_credit": "S.A.Farabi · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Scotland"
+      ],
+      "lead": [
+        "Kingdom of Scotland",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Alba"
+      ]
+    },
+    "lead": "Robert I (11 July 1274 – 7 June 1329), popularly known as Robert the Bruce (Scottish Gaelic: Raibeart am Brusach), was King of Scots from 1306 until his death in 1329. Robert led Scotland during the First War of Scottish Independence against England. He fought successfully during his reign to restore Scotland to an independent kingdom and is regarded in Scotland as a national hero. Robert was a fourth-great-grandson of King David I of Scotland, and his grandfather, Robert de Brus, 5th Lord of Annandale, was one of the claimants to the Scottish throne during the \"Great Cause\".",
+    "photo": "no death year in or after 1860"
+  }
+}

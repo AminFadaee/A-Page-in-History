@@ -1,0 +1,64 @@
+{
+  "id": "Q31747",
+  "slug": "irish-free-state",
+  "name": "Irish Free State",
+  "wikipedia": "Irish Free State",
+  "map_year": 1922,
+  "period": {
+    "start": {
+      "earliest": 1922,
+      "latest": 1922,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1937,
+      "latest": 1937,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Dublin",
+      "location": [
+        -6.260277777777778,
+        53.34972222222222
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q269412",
+      "name": "George V"
+    }
+  ],
+  "modern_countries": [
+    "Ireland"
+  ],
+  "map": "maps/irish-free-state.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Dublin"
+      ],
+      "infobox": [
+        "Dublin"
+      ]
+    },
+    "cliopatria_years": [
+      1922,
+      1937
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Great Britain",
+      "French Third Republic",
+      "Weimar Republic",
+      "Kingdom of Belgium"
+    ]
+  }
+}

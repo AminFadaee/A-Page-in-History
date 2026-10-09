@@ -1,0 +1,118 @@
+{
+  "id": "Q172107",
+  "slug": "polish-lithuanian-commonwealth",
+  "name": "Polish-Lithuanian Commonwealth",
+  "wikipedia": "Polish–Lithuanian Commonwealth",
+  "map_year": 1612,
+  "period": {
+    "start": {
+      "earliest": 1569,
+      "latest": 1569,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kraków",
+      "location": [
+        19.937222222222,
+        50.061388888889
+      ]
+    },
+    {
+      "name": "Warsaw",
+      "location": [
+        21.011111111111113,
+        52.23
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Duchy of Warsaw"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q172107",
+        "layer": 1,
+        "name": "Polish-Lithuanian Commonwealth"
+      },
+      {
+        "id": "Q152115",
+        "layer": 2,
+        "name": "Duchy of Warsaw"
+      }
+    ],
+    "edges": [
+      [
+        "Q172107",
+        "Q152115",
+        "Poland"
+      ]
+    ],
+    "question": "successions/polish-lithuanian-commonwealth-question.png",
+    "answer": "successions/polish-lithuanian-commonwealth-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q54058",
+      "name": "Sigismund II Augustus"
+    },
+    {
+      "id": "Q54019",
+      "name": "Stanisław August Poniatowski"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Poland",
+    "Belarus",
+    "Russia",
+    "Latvia",
+    "Lithuania",
+    "Estonia"
+  ],
+  "map": "maps/polish-lithuanian-commonwealth.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kraków",
+        "Warsaw",
+        "Vilnius"
+      ],
+      "infobox": [
+        "Kraków",
+        "Warsaw"
+      ]
+    },
+    "cliopatria_years": [
+      1572,
+      1793
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Tsardom of Russia",
+      "Swedish Empire",
+      "Habsburg Monarchy",
+      "Holy Roman Empire Minor States",
+      "Principality of Transylvania",
+      "Kingdom of France",
+      "Kingdom of England",
+      "Small Horde",
+      "Principality of Wallachia",
+      "Don Cossacks",
+      "Crimean Khanate",
+      "House of Savoy",
+      "Duchy of Bavaria",
+      "Papal States"
+    ]
+  }
+}

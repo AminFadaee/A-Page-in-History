@@ -1,0 +1,111 @@
+{
+  "id": "Q186096",
+  "slug": "tsardom-of-russia",
+  "name": "Tsardom of Russia",
+  "wikipedia": "Tsardom of Russia",
+  "map_year": 1718,
+  "period": {
+    "start": {
+      "earliest": 1547,
+      "latest": 1547,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1721,
+      "latest": 1721,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Moscow",
+      "location": [
+        37.6175,
+        55.75055555555556
+      ]
+    },
+    {
+      "name": "Saint Petersburg",
+      "location": [
+        30.316666666667,
+        59.95
+      ]
+    }
+  ],
+  "predecessors": [
+    "Grand Principality of Moscow"
+  ],
+  "successors": [
+    "Russian Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q186096",
+        "layer": 1,
+        "name": "Tsardom of Russia"
+      },
+      {
+        "id": "Q170770",
+        "layer": 0,
+        "name": "Grand Principality of Moscow"
+      }
+    ],
+    "edges": [
+      [
+        "Q170770",
+        "Q186096",
+        "Russia"
+      ]
+    ],
+    "question": "successions/tsardom-of-russia-question.png",
+    "answer": "successions/tsardom-of-russia-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q7996",
+      "name": "Ivan the Terrible"
+    },
+    {
+      "id": "Q8479",
+      "name": "Peter the Great"
+    }
+  ],
+  "modern_countries": [
+    "Russia",
+    "Finland",
+    "Latvia",
+    "Estonia"
+  ],
+  "map": "maps/tsardom-of-russia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Moscow",
+        "Saint Petersburg"
+      ],
+      "infobox": [
+        "Moscow",
+        "Saint Petersburg"
+      ]
+    },
+    "cliopatria_years": [
+      1547,
+      1720
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Qing Dynasty",
+      "Kazakh Khanate",
+      "Swedish Empire",
+      "Ottoman Empire",
+      "Dzungar Khanate",
+      "Safavid Dynasty",
+      "Habsburg Monarchy",
+      "Kingdom of Spain",
+      "Kingdom of France"
+    ]
+  }
+}

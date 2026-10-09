@@ -1,0 +1,38 @@
+{
+  "id": "Q9061",
+  "slug": "karl-marx",
+  "name": "Karl Marx",
+  "wikipedia": "Karl Marx",
+  "role": "German philosopher and socialist",
+  "life": "1818–1883",
+  "lifetime": [
+    1818,
+    1883
+  ],
+  "occupation": "Economist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A German philosopher, social and political theorist, and revolutionary socialist.",
+  "image": "images/karl-marx.jpg",
+  "image_credit": "John Jabez Edwin Mayall · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Karl Marx (German: [ˈkaʁl ˈmaʁks]; 5 May 1818 – 14 March 1883) was a German philosopher, social and political theorist, and revolutionary socialist. He developed the theory of historical materialism, analysing societal structure and change, particularly class struggle under capitalism, and predicting the system's ultimate replacement by communism. Marx co-authored The Communist Manifesto (1848) with Friedrich Engels, and undertook a critique of classical political economy in his magnum opus, Das Kapital (1867–1894). His ideas and their later development, collectively known as Marxism, have had enormous influence on intellectual, political, and social history, and have inspired revolutionary movements in many countries.",
+    "photo": "captured before 24th August 1875 during their lifetime"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q82674",
+  "slug": "mary-i",
+  "name": "Mary I",
+  "wikipedia": "Mary I",
+  "role": "Queen of England and Ireland from 1553 to 1558",
+  "life": "1516–1558",
+  "lifetime": [
+    1516,
+    1558
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "Queen of England and Ireland from July 1553 and Queen of Spain as the wife of King Philip II from January 1556 until her death in 1558.",
+  "image": "images/mary-i.jpg",
+  "image_credit": "Antonis Mor · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Mary I (18 February 1516 – 17 November 1558) was Queen of England and Ireland from July 1553 and Queen of Spain as the wife of King Philip II from January 1556 until her death in 1558. She made vigorous attempts to reverse the English Reformation, which had begun during the reign of her father, King Henry VIII. Her attempt to restore to the Church the property confiscated in the previous two reigns was largely thwarted by Parliament but, during her five-year reign, more than 280 religious dissenters were burned at the stake, in what became known as the Marian persecutions, leading later commentators to label her \"Bloody Mary\".",
+    "photo": "no death year in or after 1860"
+  }
+}

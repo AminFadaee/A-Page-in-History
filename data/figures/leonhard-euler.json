@@ -1,0 +1,37 @@
+{
+  "id": "Q7604",
+  "slug": "leonhard-euler",
+  "name": "Leonhard Euler",
+  "wikipedia": "Leonhard Euler",
+  "role": "Swiss mathematician",
+  "life": "1707–1783",
+  "lifetime": [
+    1707,
+    1783
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Switzerland",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A Swiss polymath who was active as a mathematician, physicist, astronomer, logician, geographer, music theorist and engineer.",
+  "image": "images/leonhard-euler.jpg",
+  "image_credit": "Jakob Emanuel Handmann · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Leonhard Euler ( OY-lər; 15 April 1707 – 18 September 1783) was a Swiss polymath who was active as a mathematician, physicist, astronomer, logician, geographer, music theorist and engineer. He founded the studies of graph theory and topology and made influential discoveries in many other branches of mathematics, such as analytic number theory, complex analysis, and infinitesimal calculus. He also introduced much of modern mathematical terminology and notation, including the notion of a mathematical function. He is known for his work in mechanics, fluid dynamics, optics, astronomy, and music theory. Euler has been called a \"universal genius\" who \"was fully equipped with almost unlimited powers of imagination, intellectual gifts and extraordinary memory\". He spent most of his adult life in Saint Petersburg, Russia, and in Berlin, then the capital of Prussia.",
+    "photo": "no death year in or after 1860"
+  }
+}

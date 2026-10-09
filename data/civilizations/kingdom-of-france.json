@@ -1,0 +1,95 @@
+{
+  "id": "Q70972",
+  "slug": "kingdom-of-france",
+  "name": "Kingdom of France",
+  "wikipedia": "Kingdom of France",
+  "map_year": 1791,
+  "period": {
+    "start": {
+      "earliest": 987,
+      "latest": 987,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1791,
+      "latest": 1791,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Versailles",
+      "location": [
+        2.135,
+        48.805
+      ]
+    }
+  ],
+  "predecessors": [
+    "West Franks"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q70972",
+        "layer": 1,
+        "name": "Kingdom of France"
+      },
+      {
+        "id": "Q46370",
+        "layer": 0,
+        "name": "West Franks"
+      }
+    ],
+    "edges": [
+      [
+        "Q46370",
+        "Q70972",
+        "France"
+      ]
+    ],
+    "question": "successions/kingdom-of-france-question.png",
+    "answer": "successions/kingdom-of-france-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q7758",
+      "name": "Charles X of France"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Haiti",
+    "Mauritius"
+  ],
+  "map": "maps/kingdom-of-france.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris",
+        "Versailles, Yvelines"
+      ],
+      "infobox": [
+        "Versailles, Yvelines"
+      ]
+    },
+    "cliopatria_years": [
+      990,
+      1791
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Spanish Empire",
+      "Russian Empire",
+      "Qing Dynasty",
+      "Portuguese Empire",
+      "Ottoman Empire",
+      "Kazakh Khanate",
+      "Durrani Empire",
+      "Tibet"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Q241790",
+  "slug": "kingdom-of-kush",
+  "name": "Kingdom of Kush",
+  "wikipedia": "Kingdom of Kush",
+  "map_year": -700,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 350,
+      "latest": 350,
+      "circa": true
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Napata",
+      "location": [
+        31.81666667,
+        18.53333333
+      ]
+    },
+    {
+      "name": "Meroë",
+      "location": [
+        33.75075,
+        16.935138888889
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Egypt",
+    "Sudan"
+  ],
+  "map": "maps/kingdom-of-kush.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Napata",
+        "Meroë"
+      ],
+      "infobox": [
+        "Kerma",
+        "Napata",
+        "Meroë"
+      ]
+    },
+    "cliopatria_years": [
+      -1000,
+      346
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Neo-Assyrian Empire",
+      "Hadhramaut",
+      "Elam"
+    ]
+  }
+}

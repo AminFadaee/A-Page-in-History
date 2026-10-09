@@ -1,0 +1,89 @@
+{
+  "id": "Q160440",
+  "slug": "crimean-khanate",
+  "name": "Crimean Khanate",
+  "wikipedia": "Crimean Khanate",
+  "map_year": 1450,
+  "period": {
+    "start": {
+      "earliest": 1441,
+      "latest": 1441,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1783,
+      "latest": 1783,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bakhchysarai",
+      "location": [
+        33.860833333333,
+        44.752777777778
+      ]
+    },
+    {
+      "name": "Chufut-Kale",
+      "location": [
+        33.92446667,
+        44.74102778
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q379718",
+      "name": "Haji I Giray"
+    },
+    {
+      "id": "Q2947626",
+      "name": "Şahin Giray"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Russia"
+  ],
+  "map": "maps/crimean-khanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bakhchysarai",
+        "Chufut-Kale",
+        "Staroselye"
+      ],
+      "infobox": [
+        "Chufut-Kale",
+        "Staryi Krym",
+        "Bakhchysarai"
+      ]
+    },
+    "cliopatria_years": [
+      1450,
+      1782
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "House of Jagiellon",
+      "Golden Horde",
+      "Principality of Moldavia",
+      "Nogai Horde",
+      "Ottoman Empire",
+      "House of Habsburg",
+      "Kingdom of Georgia",
+      "Kingdom of Bohemia",
+      "Principality of Wallachia",
+      "Serbian Empire",
+      "Beylik of Isfendiyar",
+      "Kingdom of Bosnia",
+      "Empire of Trebizond"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q9738",
+  "slug": "wu-zetian",
+  "name": "Wu Zetian",
+  "wikipedia": "Wu Zetian",
+  "role": "Empress Regnant of China from 690 to 705",
+  "life": "624–705",
+  "lifetime": [
+    624,
+    705
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Tang Dynasty"
+  ],
+  "related": [
+    "Tibetan Empire"
+  ],
+  "contribution": "The only undisputed female sovereign in the history of China.",
+  "image": "images/wu-zetian.jpg",
+  "image_credit": "Likely to be Zhang Xuan (张萱) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Tang Dynasty"
+      ],
+      "lead": [
+        "Tang Dynasty",
+        "Tibetan Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Tang Dynasty"
+      ]
+    },
+    "lead": "Empress Zetian (17 February 624 – 16 December 705), personal name Wu Zhao, was the only undisputed female sovereign in the history of China. She had previously held power as the empress consort of Emperor Gaozong of the Tang dynasty from 660 to 683 and as empress dowager during the reigns of her sons, Emperors Zhongzong and Ruizong, between 683 and 690. She was the sole ruler of the self-styled Zhou dynasty from 690 to 705.",
+    "photo": "no death year in or after 1860"
+  }
+}

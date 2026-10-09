@@ -1,0 +1,40 @@
+{
+  "id": "Q174432",
+  "slug": "pedro-alvares-cabral",
+  "name": "Pedro Álvares Cabral",
+  "wikipedia": "Pedro Álvares Cabral",
+  "role": "Portuguese explorer",
+  "life": "c. 1467–1520",
+  "lifetime": [
+    1467,
+    1520
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "Portuguese Empire"
+  ],
+  "contribution": "A Portuguese nobleman, colonizer, military commander, navigator and explorer regarded as the European discoverer of Brazil.",
+  "image": "images/pedro-alvares-cabral.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "Portuguese Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Pedro Álvares Cabral (European Portuguese: [ˈpeðɾu ˈalvɐɾɨʃ kɐˈβɾal], Brazilian Portuguese: [ˈpedɾu ˈawvɐɾɨʃ, ˈawvɐɾɨs kɐˈbɾal]; born Pedro Álvares de Gouveia; c. 1467 or 1468 – c. 1520) was a Portuguese nobleman, colonizer, military commander, navigator and explorer regarded as the European discoverer of Brazil. He was the first human in history to ever be on four continents, uniting all of them in his famous voyage of 1500, where he also conducted the first substantial exploration of the northeast coast of South America and claimed it for Portugal. While details of Cabral's early life remain unclear, it is known that he came from a minor noble family and received a good education. He was appointed to head an expedition to India in 1500, following Vasco da Gama's newly opened route around Africa. The undertaking had the aim of returning with valuable spices and of establishing trade relations in India—bypassing the monopoly on the spice trade then in the hands of Arab, Turkish and Italian merchants. Although the previous expedition of Vasco da Gama to India, on its sea route, had recorded signs of land west of the southern Atlantic Ocean (in 1497), Cabral led the first known expedition to have touched four continents: Europe, Africa, South America, and Asia.",
+    "photo": "no death year in or after 1860"
+  }
+}

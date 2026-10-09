@@ -1,0 +1,43 @@
+{
+  "id": "Q54030",
+  "slug": "stephen-bathory",
+  "name": "Stephen Báthory",
+  "wikipedia": "Stephen Báthory",
+  "role": "Ruler of the Polish-Lithuanian Commonwealth from 1576 to 1586",
+  "life": "1533–1586",
+  "lifetime": [
+    1533,
+    1586
+  ],
+  "occupation": "Politician",
+  "birth_country": "Romania",
+  "civilizations": [
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "related": [
+    "Tsardom of Russia"
+  ],
+  "contribution": "King of Poland and Grand Duke of Lithuania as well as Prince of Transylvania, after previously being Voivode of Transylvania.",
+  "image": "images/stephen-bathory.jpg",
+  "image_credit": "Creator:Wojciech Stefanowski · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Polish-Lithuanian Commonwealth",
+        "Principality of Transylvania"
+      ],
+      "lead": [
+        "Tsardom of Russia"
+      ],
+      "vital_section": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "birthplace": [
+        "Kingdom of Hungary"
+      ]
+    },
+    "lead": "Stephen Báthory (Hungarian: Báthory István; Polish: Stefan Batory; Lithuanian: ; 27 September 1533 – 12 December 1586) was King of Poland and Grand Duke of Lithuania as well as Prince of Transylvania (1576–1586), after previously being Voivode of Transylvania (1571–1576).",
+    "photo": "no death year in or after 1860"
+  }
+}

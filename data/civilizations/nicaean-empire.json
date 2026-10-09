@@ -1,0 +1,82 @@
+{
+  "id": "Q181254",
+  "slug": "nicaean-empire",
+  "name": "Nicaean Empire",
+  "wikipedia": "Empire of Nicaea",
+  "map_year": 1260,
+  "period": {
+    "start": {
+      "earliest": 1204,
+      "latest": 1204,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1261,
+      "latest": 1261,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Nicaea",
+      "location": [
+        29.7195,
+        40.429
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q37086",
+      "name": "Theodore I Laskaris"
+    },
+    {
+      "id": "Q37072",
+      "name": "John III Doukas Vatatzes"
+    },
+    {
+      "id": "Q37082",
+      "name": "Theodore II Laskaris"
+    }
+  ],
+  "modern_countries": [
+    "Turkey",
+    "Greece",
+    "Bulgaria",
+    "North Macedonia"
+  ],
+  "map": "maps/nicaean-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Nicaea"
+      ],
+      "infobox": [
+        "Nicaea",
+        "İznik",
+        "De facto and de jure",
+        "Kemalpaşa"
+      ]
+    },
+    "cliopatria_years": [
+      1206,
+      1278
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mongol Empire",
+      "Second Bulgarian Empire",
+      "Kingdom of Serbia",
+      "Despotate of Epirus",
+      "Kingdom of Hungary",
+      "Kingdom of Sicily",
+      "Armenian Kingdom of Cilicia",
+      "Banate of Bosnia"
+    ]
+  }
+}

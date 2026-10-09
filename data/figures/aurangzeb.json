@@ -1,0 +1,41 @@
+{
+  "id": "Q485547",
+  "slug": "aurangzeb",
+  "name": "Aurangzeb",
+  "wikipedia": "Aurangzeb",
+  "role": "Mughal emperor from 1658 to 1707",
+  "life": "1618–1707",
+  "lifetime": [
+    1618,
+    1707
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [
+    "Safavid Dynasty",
+    "Qing Dynasty"
+  ],
+  "contribution": "The sixth Mughal emperor, reigning from 1658 until his death in 1707.",
+  "image": "images/aurangzeb.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Mughal Empire",
+        "Safavid Dynasty",
+        "Qing Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Alamgir I (Muhi al-Din Muhammad; 3 November 1618 – 3 March 1707), commonly known by the title Aurangzeb, was the sixth Mughal emperor, reigning from 1658 until his death in 1707. Under his reign, the Mughal Empire reached its greatest extent, with territory spanning nearly the entirety of the Indian subcontinent.",
+    "photo": "no death year in or after 1860"
+  }
+}

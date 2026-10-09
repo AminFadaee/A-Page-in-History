@@ -1,0 +1,36 @@
+{
+  "id": "Q201484",
+  "slug": "john-dee",
+  "name": "John Dee",
+  "wikipedia": "John Dee",
+  "role": "English scientist and occultist",
+  "life": "1527–1609",
+  "lifetime": [
+    1527,
+    1609
+  ],
+  "occupation": "Occultist",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English mathematician, astronomer, teacher, astrologer, occultist, and alchemist.",
+  "image": "images/john-dee.jpg",
+  "image_credit": "Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "John Dee (13 July 1527 – December 1608 or March 1609) was an English mathematician, astronomer, teacher, astrologer, occultist, and alchemist. He was the court astronomer for, and advisor to, Elizabeth I, and spent much of his time on alchemy, divination, and Hermetic philosophy. As an antiquarian, he had one of the largest libraries in England at the time. As a political advisor, he advocated the foundation of English colonies in the New World to form a \"British Empire\", a term he is credited with coining.",
+    "photo": "no death year in or after 1860"
+  }
+}

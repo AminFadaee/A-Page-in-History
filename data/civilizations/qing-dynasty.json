@@ -1,0 +1,145 @@
+{
+  "id": "Q8733",
+  "slug": "qing-dynasty",
+  "name": "Qing Dynasty",
+  "wikipedia": "Qing dynasty",
+  "map_year": 1794,
+  "period": {
+    "start": {
+      "earliest": 1644,
+      "latest": 1644,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1911,
+      "latest": 1911,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Dzungar Khanate",
+    "Later Jin Dynasty",
+    "Southern Ming",
+    "Taiping Heavenly Kingdom"
+  ],
+  "successors": [
+    "Republic of China"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q8733",
+        "layer": 1,
+        "name": "Qing Dynasty"
+      },
+      {
+        "id": "Q1923401",
+        "layer": 0,
+        "name": "Dzungar Khanate"
+      },
+      {
+        "id": "Q1062546",
+        "layer": 0,
+        "name": "Later Jin Dynasty"
+      },
+      {
+        "id": "Q1198163",
+        "layer": 0,
+        "name": "Southern Ming"
+      },
+      {
+        "id": "Q3486676",
+        "layer": 0,
+        "name": "Taiping Heavenly Kingdom"
+      },
+      {
+        "id": "Q13426199",
+        "layer": 2,
+        "name": "Republic of China"
+      },
+      {
+        "id": "Q175379",
+        "layer": 1,
+        "name": "Empire of China"
+      }
+    ],
+    "edges": [
+      [
+        "Q1923401",
+        "Q8733",
+        "People's Republic of China, Kazakhstan"
+      ],
+      [
+        "Q1062546",
+        "Q8733",
+        "People's Republic of China, Russia"
+      ],
+      [
+        "Q1198163",
+        "Q8733",
+        "People's Republic of China"
+      ],
+      [
+        "Q3486676",
+        "Q8733",
+        "People's Republic of China"
+      ],
+      [
+        "Q175379",
+        "Q13426199",
+        "People's Republic of China"
+      ],
+      [
+        "Q8733",
+        "Q13426199",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/qing-dynasty-question.png",
+    "answer": "successions/qing-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Mongolia",
+    "Russia",
+    "Kyrgyzstan",
+    "Taiwan",
+    "Hong Kong"
+  ],
+  "map": "maps/qing-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Shuntian Prefecture",
+        "Fengtian Fu"
+      ],
+      "infobox": [
+        "Beijing"
+      ]
+    },
+    "cliopatria_years": [
+      1645,
+      1911
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Kazakh Khanate",
+      "Durrani Empire",
+      "Konbaung Dynasty",
+      "Emirate of Bukhara",
+      "Ottoman Empire",
+      "Qajar Dynasty",
+      "Maratha Empire",
+      "Khanate of Khiva",
+      "Habsburg Monarchy",
+      "Emirate of Diriyah",
+      "Mughal Empire",
+      "Khmer Empire"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Q233289",
+  "slug": "atal-bihari-vajpayee",
+  "name": "Atal Bihari Vajpayee",
+  "wikipedia": "Atal Bihari Vajpayee",
+  "role": "Prime Minister of India",
+  "life": "1924–2018",
+  "lifetime": [
+    1924,
+    2018
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj",
+    "Republic of India"
+  ],
+  "related": [],
+  "contribution": "An Indian statesman and a poet who served as the prime minister of India, from 1998 to 2004, and previously for two weeks in 1996.",
+  "image": "images/atal-bihari-vajpayee.jpg",
+  "image_credit": "Government of India · GODL-India",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [],
+      "vital_section": [
+        "Republic of India"
+      ],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Atal Bihari Vajpayee (25 December 1924 – 16 August 2018) was an Indian statesman and a poet who served as the prime minister of India, from 1998 to 2004, and previously for two weeks in 1996. He was the first non-Congress prime minister to serve a full term in the office. Vajpayee was one of the co-founders and a senior leader of the Bharatiya Janata Party (BJP). He was a volunteer and full-time functionary (pracharak) of the Rashtriya Swayamsevak Sangh (RSS), a right-wing Hindutva paramilitary volunteer organisation. Vajpayee combined cultural nationalism with political moderation, shaping a distinctive strand of post-Independence Indian conservatism rooted in civilisational identity. Vajpayee represented a current in Hindu nationalism that sought to harmonise cultural identity with democratic pluralism.",
+    "photo": "captured 2018-08-17 during their lifetime"
+  }
+}

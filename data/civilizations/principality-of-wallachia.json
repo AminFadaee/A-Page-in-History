@@ -1,0 +1,83 @@
+{
+  "id": "Q171393",
+  "slug": "principality-of-wallachia",
+  "name": "Principality of Wallachia",
+  "wikipedia": "Wallachia",
+  "map_year": 1395,
+  "period": {
+    "start": {
+      "earliest": 1330,
+      "latest": 1330,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1862,
+      "latest": 1862,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Câmpulung",
+      "location": [
+        25.05,
+        45.275
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Romania"
+  ],
+  "map": "maps/principality-of-wallachia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Câmpulung"
+      ],
+      "infobox": [
+        "Câmpulung",
+        "Curtea de Argeș",
+        "Târgoviște",
+        "Bucharest"
+      ]
+    },
+    "cliopatria_years": [
+      1314,
+      1858
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "labelled": [
+      "Ottoman Empire",
+      "Kingdom of Hungary",
+      "Principality of Moldavia",
+      "Serbian Empire",
+      "Grand Duchy of Lithuania",
+      "Holy Roman Empire Minor States",
+      "Kingdom of Poland",
+      "Germiyanids",
+      "Kingdom of Bohemia",
+      "House of Habsburg",
+      "Beylik of Karaman",
+      "Qara Qoyunlu",
+      "Kingdom of Naples",
+      "Kingdom of Bosnia",
+      "Beylik of Isfendiyar",
+      "Papal States",
+      "Duchy of Bavaria",
+      "Kingdom of Georgia",
+      "Beylik of Dulkadir",
+      "House of Ascania",
+      "Serbian Despots",
+      "Empire of Trebizond",
+      "County of Savoy",
+      "Beylik of Teke",
+      "Margraviate of Moravia"
+    ]
+  }
+}

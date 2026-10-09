@@ -1,0 +1,40 @@
+{
+  "id": "Q298427",
+  "slug": "nizam-al-mulk",
+  "name": "Nizam al-Mulk",
+  "wikipedia": "Nizam al-Mulk",
+  "role": "Persian scholar and vizier of the Seljuk Empire",
+  "life": "1018–1092",
+  "lifetime": [
+    1018,
+    1092
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Ghaznavid Empire",
+    "Great Seljuk Empire"
+  ],
+  "related": [],
+  "contribution": "A Persian Sunni scholar, jurist, and vizier of the Seljuk Empire.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ghaznavid Empire",
+        "Great Seljuk Empire"
+      ],
+      "lead": [
+        "Great Seljuk Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ghaznavid Empire"
+      ]
+    },
+    "lead": "Abū ʿAlī al-Ḥasan ibn ʿAlī Ṭūsī (Persian: ابوعلی حسن بن علی طوسی) (1018 – 1092), better known by his honorific title of Niẓām al-Mulk (Persian: نظام‌الملک, lit. 'Orderer of the Realm'), was a Persian Sunni scholar, jurist, and vizier of the Seljuk Empire. Rising from a low position within the empire, he became the de facto ruler of the realm for 20 years after the assassination of Sultan Alp Arslan in 1072, and is often portrayed in Persianate historical traditions as the archetypal \"good vizier\". Widely regarded as one of the most influential statesmen in medieval Islamic history, the administrative policies and bureaucratic frameworks formalized by Nizam al-Mulk deeply influenced Perso-Islamic statecraft for centuries.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

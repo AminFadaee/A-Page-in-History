@@ -1,0 +1,38 @@
+{
+  "id": "Q154959",
+  "slug": "hugo-grotius",
+  "name": "Hugo Grotius",
+  "wikipedia": "Hugo Grotius",
+  "role": "Dutch philosopher and jurist",
+  "life": "1583–1645",
+  "lifetime": [
+    1583,
+    1645
+  ],
+  "occupation": "Lawyer",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch humanist, diplomat, lawyer, theologian, jurist, statesman, poet and playwright.",
+  "image": "images/hugo-grotius.jpg",
+  "image_credit": "Workshop of Michiel Jansz. van Mierevelt · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "Hugo Grotius ( GROH-shee-əss; 10 April 1583 – 28 August 1645), also known as Hugo de Groot (Dutch: [ˈɦyɣoː də ˈɣroːt]) or Huig de Groot (Dutch: [ˈɦœyɣ də ˈɣroːt]), was a Dutch humanist, diplomat, lawyer, theologian, jurist, statesman, poet and playwright. A teenage prodigy, he was born in Delft and studied at Leiden University. He was imprisoned in Loevestein Castle for his involvement in the controversies over religious policy of the Dutch Republic, but escaped hidden in a chest of books that was regularly brought to him and was transported to Gorinchem. Grotius wrote most of his major works in exile in France.",
+    "photo": "no death year in or after 1860"
+  }
+}

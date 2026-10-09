@@ -1,0 +1,38 @@
+{
+  "id": "Q714113",
+  "slug": "huang-chao",
+  "name": "Huang Chao",
+  "wikipedia": "Huang Chao",
+  "role": "Chinese rebel leader",
+  "life": "8th century – AD 884",
+  "lifetime": [
+    702,
+    884
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Tang Dynasty"
+  ],
+  "related": [],
+  "contribution": "A wealthy Chinese salt trader and soldier who is primarily known for instigating the Huang Chao Rebellion, which severely weakened the Tang dynasty.",
+  "image": "images/huang-chao.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Tang Dynasty"
+      ],
+      "lead": [
+        "Tang Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Tang Dynasty"
+      ]
+    },
+    "lead": "Huang Chao (835 – July 13, 884) was a wealthy Chinese salt trader and soldier who is primarily known for instigating the Huang Chao Rebellion, which severely weakened the Tang dynasty. In 881, he proclaimed himself emperor of the newly established Qi dynasty, and held the title until his death in 884.",
+    "photo": "no death year in or after 1860"
+  }
+}

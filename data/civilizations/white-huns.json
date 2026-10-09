@@ -1,0 +1,82 @@
+{
+  "id": "Q26576",
+  "slug": "white-huns",
+  "name": "White Huns",
+  "wikipedia": "Hephthalites",
+  "map_year": 490,
+  "period": {
+    "start": {
+      "earliest": 408,
+      "latest": 408,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Kunduz",
+      "location": [
+        68.856944444444,
+        36.728888888889
+      ]
+    },
+    {
+      "name": "Balkh",
+      "location": [
+        66.898888888889,
+        36.758055555556
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Pakistan",
+    "Afghanistan",
+    "Turkmenistan",
+    "India",
+    "Uzbekistan",
+    "Kazakhstan",
+    "Kyrgyzstan",
+    "Tajikistan"
+  ],
+  "map": "maps/white-huns.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kunduz",
+        "Balkh"
+      ],
+      "infobox": [
+        "Kunduz",
+        "Balkh",
+        "Bactria"
+      ]
+    },
+    "cliopatria_years": [
+      410,
+      560
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Rouran Khaganate",
+      "Sasanian Empire",
+      "Gupta Empire",
+      "Vakataka Kingdom",
+      "Eastern Roman Empire",
+      "Tuyuhun",
+      "Himyarite Kingdom",
+      "Lakhmid Kingdom",
+      "Nobatia",
+      "Kamarupa Kingdom",
+      "Kadamba Empire",
+      "Alodia",
+      "Kingdom of Axum",
+      "Makuria"
+    ]
+  }
+}

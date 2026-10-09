@@ -1,0 +1,62 @@
+{
+  "id": "Q184536",
+  "slug": "mali-empire",
+  "name": "Mali Empire",
+  "wikipedia": "Mali Empire",
+  "map_year": 1415,
+  "period": {
+    "start": {
+      "earliest": 1235,
+      "latest": 1235,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1610,
+      "latest": 1610,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q175772",
+      "name": "Sundiata Keita"
+    },
+    {
+      "id": "Q309333",
+      "name": "Mansa Musa"
+    },
+    {
+      "id": "Q6734486",
+      "name": "Mahmud IV"
+    }
+  ],
+  "modern_countries": [
+    "Mali",
+    "Mauritania",
+    "Senegal",
+    "Guinea",
+    "Guinea-Bissau",
+    "The Gambia"
+  ],
+  "map": "maps/mali-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kangaba"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      1236,
+      1611
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

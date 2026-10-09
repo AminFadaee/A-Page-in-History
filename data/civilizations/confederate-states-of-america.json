@@ -1,0 +1,84 @@
+{
+  "id": "Q81931",
+  "slug": "confederate-states-of-america",
+  "name": "Confederate States of America",
+  "wikipedia": "Confederate States of America",
+  "map_year": 1861,
+  "period": {
+    "start": {
+      "earliest": 1861,
+      "latest": 1861,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1865,
+      "latest": 1865,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Montgomery",
+      "location": [
+        -86.3,
+        32.3675
+      ]
+    },
+    {
+      "name": "Richmond",
+      "location": [
+        -77.43666666666667,
+        37.54083333333333
+      ]
+    },
+    {
+      "name": "Danville",
+      "location": [
+        -79.404404,
+        36.587238
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "United States of America"
+  ],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q162269",
+      "name": "Jefferson Davis"
+    }
+  ],
+  "modern_countries": [
+    "United States of America"
+  ],
+  "map": "maps/confederate-states-of-america.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Montgomery, Alabama",
+        "Richmond, Virginia",
+        "Danville, Virginia"
+      ],
+      "infobox": [
+        "Montgomery, Alabama",
+        "Richmond, Virginia",
+        "Danville, Virginia",
+        "Greensboro, North Carolina"
+      ]
+    },
+    "cliopatria_years": [
+      1861,
+      1865
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "United States of America",
+      "Federated Republic of Mexico",
+      "Spanish Empire"
+    ]
+  }
+}

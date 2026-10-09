@@ -1,0 +1,37 @@
+{
+  "id": "Q11104",
+  "slug": "ibn-al-haytham",
+  "name": "Ibn al-Haytham",
+  "wikipedia": "Ibn al-Haytham",
+  "role": "Arab physicist, mathematician and astronomer",
+  "life": "c. 965–1039",
+  "lifetime": [
+    965,
+    1039
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Fatimid Caliphate"
+  ],
+  "related": [],
+  "contribution": "A mathematician, astronomer, and physicist of the Islamic Golden Age from Iraq.",
+  "image": "images/ibn-al-haytham.jpg",
+  "image_credit": "Michel Bakni · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Abbasid Caliphate",
+        "Fatimid Caliphate"
+      ],
+      "lead": [
+        "Fatimid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Ibn al-Haytham, Latinized as Alhazen (c. 965 – c. 1040), was a mathematician, astronomer, and physicist of the Islamic Golden Age from Iraq. Referred to as \"the father of modern optics\", he made significant contributions to the principles of optics and visual perception in particular. His most influential work is titled Kitāb al-Manāẓir (Arabic: كتاب المناظر, 'Book of Optics'), written during 1011–1021, which survived in a Latin edition. The works of Alhazen were frequently cited during the Scientific Revolution by Galileo Galilei, René Descartes, Johannes Kepler, and Christiaan Huygens.",
+    "photo": "no death year in or after 1860"
+  }
+}

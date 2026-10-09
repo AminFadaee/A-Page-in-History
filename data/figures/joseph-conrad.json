@@ -1,0 +1,41 @@
+{
+  "id": "Q82925",
+  "slug": "joseph-conrad",
+  "name": "Joseph Conrad",
+  "wikipedia": "Joseph Conrad",
+  "role": "Polish-British writer",
+  "life": "1857–1924",
+  "lifetime": [
+    1857,
+    1924
+  ],
+  "occupation": "Writer",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "British Colonial Empire"
+  ],
+  "contribution": "A Polish-British novelist and story writer.",
+  "image": "images/joseph-conrad.jpg",
+  "image_credit": "George Charles Beresford · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Second Polish Republic"
+      ],
+      "lead": [
+        "British Colonial Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Joseph Conrad (born Józef Teodor Konrad Korzeniowski, Polish: [ˈjuzɛf tɛˈɔdɔr ˈkɔnrat kɔʐɛˈɲɔfskʲi] ; 3 December 1857 – 3 August 1924) was a Polish-British novelist and story writer. He is regarded as one of the greatest writers in the English language and – though he did not speak English fluently until his twenties (always with a strong foreign accent) – he became a master prose stylist who brought a non-English sensibility into English literature.",
+    "photo": "captured 1904 during their lifetime"
+  }
+}

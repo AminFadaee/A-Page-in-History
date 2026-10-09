@@ -1,0 +1,71 @@
+{
+  "id": "Q230791",
+  "slug": "kingdom-of-scotland",
+  "name": "Kingdom of Scotland",
+  "wikipedia": "Kingdom of Scotland",
+  "map_year": 1579,
+  "period": {
+    "start": {
+      "earliest": 801,
+      "latest": 900,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1707,
+      "latest": 1707,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Edinburgh",
+      "location": [
+        -3.1891666666666665,
+        55.95333333333333
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q298263",
+      "name": "Kenneth MacAlpin"
+    },
+    {
+      "id": "Q119702",
+      "name": "Anne, Queen of Great Britain"
+    }
+  ],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "map": "maps/kingdom-of-scotland.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Edinburgh"
+      ],
+      "infobox": [
+        "Scone, Perth and Kinross",
+        "Dunfermline",
+        "Edinburgh"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1608
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of England",
+      "Denmark-Norway",
+      "Holy Roman Empire Minor States",
+      "Electorate of Brandenburg",
+      "Union of Utrecht"
+    ]
+  }
+}

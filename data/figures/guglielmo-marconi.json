@@ -1,0 +1,36 @@
+{
+  "id": "Q36488",
+  "slug": "guglielmo-marconi",
+  "name": "Guglielmo Marconi",
+  "wikipedia": "Guglielmo Marconi",
+  "role": "Italian electrical engineer and inventor",
+  "life": "1874–1937",
+  "lifetime": [
+    1874,
+    1937
+  ],
+  "occupation": "Inventor",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "An Italian electrical engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system.",
+  "image": "images/guglielmo-marconi.jpg",
+  "image_credit": "Pach Brothers · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Guglielmo Giovanni Maria Marconi, 1st Marquess of Marconi (25 April 1874 – 20 July 1937), was an Italian electrical engineer, inventor, and politician known for his creation of a practical radio wave-based wireless telegraph system. This led to his being largely credited as the inventor of radio and sharing the 1909 Nobel Prize in Physics with Ferdinand Braun \"in recognition of their contributions to the development of wireless telegraphy.\"",
+    "photo": "captured 1908 during their lifetime"
+  }
+}

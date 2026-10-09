@@ -1,0 +1,36 @@
+{
+  "id": "Q11758",
+  "slug": "l-l-zamenhof",
+  "name": "L. L. Zamenhof",
+  "wikipedia": "L. L. Zamenhof",
+  "role": "Creator of Esperanto",
+  "life": "1859–1917",
+  "lifetime": [
+    1859,
+    1917
+  ],
+  "occupation": "Physician",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "The creator of Esperanto, the most widely used constructed international auxiliary language.",
+  "image": "images/l-l-zamenhof.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "L. L. Zamenhof (15 December 1859 – 14 April 1917) was the creator of Esperanto, the most widely used constructed international auxiliary language.",
+    "photo": "captured circa 1895date QS:P,+1895-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

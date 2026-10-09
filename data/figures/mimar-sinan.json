@@ -1,0 +1,36 @@
+{
+  "id": "Q5600",
+  "slug": "mimar-sinan",
+  "name": "Mimar Sinan",
+  "wikipedia": "Mimar Sinan",
+  "role": "Ottoman chief architect and civil engineer",
+  "life": "c. 1490–1588",
+  "lifetime": [
+    1490,
+    1588
+  ],
+  "occupation": "Architect",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "The chief Ottoman architect, engineer and mathematician for sultans Suleiman the Magnificent, Selim II and Murad III. He was responsible for the construction of more than 300 major structures, including the Selimiye Mosque in Edirne, the Kanuni Sultan Suleiman Bridge in Büyükçekmece, and the Mehmed Paša Sokolović Bridge in Višegrad, as well as other more modest projects such as madrasas, külliyes, and bridges.",
+  "image": "images/mimar-sinan.jpg",
+  "image_credit": "Drawn by Hazan Riza · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Mimar Sinan (Ottoman Turkish: معمار سينان, romanized: Mi'mâr Sinân; Turkish: Mimar Sinan, pronounced [miːˈmaːɾ siˈnan]; c. 1488/1490 – 17 July 1588) also known as Koca Mi'mâr Sinân Âğâ, (\"Sinan Agha the Grand Architect\" or \"Grand Sinan\") was the chief Ottoman architect, engineer and mathematician for sultans Suleiman the Magnificent, Selim II and Murad III. He was responsible for the construction of more than 300 major structures, including the Selimiye Mosque in Edirne, the Kanuni Sultan Suleiman Bridge in Büyükçekmece, and the Mehmed Paša Sokolović Bridge in Višegrad, as well as other more modest projects such as madrasas, külliyes, and bridges. His apprentices would later design the Sultan Ahmed Mosque in Istanbul and the Stari Most bridge in Mostar.",
+    "photo": "no death year in or after 1860"
+  }
+}

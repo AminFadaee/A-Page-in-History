@@ -1,0 +1,36 @@
+{
+  "id": "Q39599",
+  "slug": "christiaan-huygens",
+  "name": "Christiaan Huygens",
+  "wikipedia": "Christiaan Huygens",
+  "role": "Dutch mathematician and physicist",
+  "life": "1629–1695",
+  "lifetime": [
+    1629,
+    1695
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch mathematician, physicist, engineer, astronomer, and inventor who is regarded as a key figure in the Scientific Revolution.",
+  "image": "images/christiaan-huygens.jpg",
+  "image_credit": "Bernard Vaillant · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "Christiaan Huygens, Lord of Zeelhem (14 April 1629 – 8 July 1695) was a Dutch mathematician, physicist, engineer, astronomer, and inventor who is regarded as a key figure in the Scientific Revolution. In physics, Huygens made seminal contributions to optics and mechanics, while as an astronomer he studied the rings of Saturn and discovered its largest moon, Titan. As an engineer and inventor, he improved the design of telescopes and invented the pendulum clock, the most accurate timekeeper for almost 300 years. A talented mathematician and physicist, Huygens authored the first modern treatise where a physical problem was idealized using mathematical parameters, while his work on light contains the first mathematical and mechanistic explanation of an unobservable physical phenomenon.",
+    "photo": "no death year in or after 1860"
+  }
+}

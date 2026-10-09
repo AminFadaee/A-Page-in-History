@@ -1,0 +1,38 @@
+{
+  "id": "Q8666",
+  "slug": "toghon-temur",
+  "name": "Toghon Temür",
+  "wikipedia": "Toghon Temür",
+  "role": "Emperor of Yuan dynasty from 1333 to 1368",
+  "life": "1320–1370",
+  "lifetime": [
+    1320,
+    1370
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Yuan Dynasty"
+  ],
+  "related": [],
+  "contribution": "The last emperor of the Yuan dynasty and the first emperor of the Northern Yuan dynasty.",
+  "image": "images/toghon-temur.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Yuan Dynasty"
+      ],
+      "lead": [
+        "Yuan Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Yuan Dynasty"
+      ]
+    },
+    "lead": "Toghon Temür (Mongolian: Тогоон Төмөр, romanized: Togoon Tömör; simplified Chinese: 妥懽帖睦尔; traditional Chinese: 妥懽帖睦爾; pinyin: Tuǒhuān Tiēmù'ěr; 25 May 1320 – 23 May 1370), also known by his temple name as Emperor Huizong of Yuan and by his posthumous name as Emperor Shun of Yuan, was the last emperor of the Yuan dynasty and the first emperor of the Northern Yuan dynasty. He was a son of Kusala (Emperor Mingzong).",
+    "photo": "no death year in or after 1860"
+  }
+}

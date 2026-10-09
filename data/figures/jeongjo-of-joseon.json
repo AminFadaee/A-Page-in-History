@@ -1,0 +1,38 @@
+{
+  "id": "Q26530",
+  "slug": "jeongjo-of-joseon",
+  "name": "Jeongjo of Joseon",
+  "wikipedia": "Jeongjo of Joseon",
+  "role": "King of Joseon from 1776 to 1800",
+  "life": "1752–1800",
+  "lifetime": [
+    1752,
+    1800
+  ],
+  "occupation": "Politician",
+  "birth_country": "South Korea",
+  "civilizations": [
+    "Joseon"
+  ],
+  "related": [],
+  "contribution": "The 22nd monarch of Joseon.",
+  "image": "images/jeongjo-of-joseon.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Joseon"
+      ],
+      "lead": [
+        "Joseon"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Joseon"
+      ]
+    },
+    "lead": "Jeongjo (Korean: 정조; Hanja: 正祖; 28 October 1752 – 18 August 1800), personal name Yi San, sometimes known as Jeongjo the Great, was the 22nd monarch of Joseon. He was the second son of the ill-fated Crown Prince Sado and Lady Hyegyŏng, and ascended to the throne upon the death of his grandfather, King Yeongjo. Despite the persistence of factional struggles, his reign marked a cultural and political renaissance, and is considered one of the high points of the Joseon period. Today, he is generally regarded to be among the greatest leaders in Korean history. Following the establishment of the Korean Empire, he was honored as Emperor Seon.",
+    "photo": "no death year in or after 1860"
+  }
+}

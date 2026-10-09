@@ -1,0 +1,38 @@
+{
+  "id": "Q486088",
+  "slug": "ulugh-beg",
+  "name": "Ulugh Beg",
+  "wikipedia": "Ulugh Beg",
+  "role": "Timurid sultan, astronomer and mathematician",
+  "life": "1394–1449",
+  "lifetime": [
+    1394,
+    1449
+  ],
+  "occupation": "Astronomer",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Timurid Empire"
+  ],
+  "related": [],
+  "contribution": "A Timurid sultan, as well as an astronomer and mathematician.",
+  "image": "images/ulugh-beg.jpg",
+  "image_credit": "Unknown artistUnknown artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Timurid Empire"
+      ],
+      "lead": [
+        "Timurid Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Qara Qoyunlu"
+      ]
+    },
+    "lead": "Mīrzā Muhammad Tarāghāy bin Shāhrukh (Chagatay: میرزا محمد تراغای بن شاهرخ; Persian: میرزا محمد طارق بن شاهرخ), better known as Ulugh Beg (Persian: الغ‌بیگ; 22 March 1394 – 27 October 1449), was a Timurid sultan, as well as an astronomer and mathematician.",
+    "photo": "no death year in or after 1860"
+  }
+}

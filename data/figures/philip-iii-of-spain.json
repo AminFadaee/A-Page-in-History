@@ -1,0 +1,45 @@
+{
+  "id": "Q34464",
+  "slug": "philip-iii-of-spain",
+  "name": "Philip III of Spain",
+  "wikipedia": "Philip III of Spain",
+  "role": "King of Spain and Portugal from 1598 to 1621",
+  "life": "1578–1621",
+  "lifetime": [
+    1578,
+    1621
+  ],
+  "occupation": "Politician",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of Spain",
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "Iberian Union",
+    "Spanish Empire"
+  ],
+  "contribution": "King of Spain and Portugal during the period known as the Iberian Union, reigning from 1598 until his death in 1621.",
+  "image": "images/philip-iii-of-spain.jpg",
+  "image_credit": "Pedro Antonio Vidal · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Spain",
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "Kingdom of Portugal",
+        "Iberian Union",
+        "Spanish Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Spain"
+      ]
+    },
+    "lead": "Philip III (Spanish: Felipe III, Portuguese: Filipe II; 14 April 1578 – 31 March 1621) was King of Spain and Portugal (as Philip II) during the period known as the Iberian Union, reigning from 1598 until his death in 1621. He was also King of Naples and Sicily, Duke of Milan, and Lord of the Seventeen Provinces. A member of the House of Habsburg, he was born in Madrid to King Philip II of Spain and his fourth wife, Anna of Austria. The family was heavily inbred; Philip II and Anna were uncle and niece, as well as cousins.",
+    "photo": "no death year in or after 1860"
+  }
+}

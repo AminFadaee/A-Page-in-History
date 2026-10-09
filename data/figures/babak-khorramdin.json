@@ -3,7 +3,7 @@
   "slug": "babak-khorramdin",
   "name": "Babak Khorramdin",
   "wikipedia": "Babak Khorramdin",
-  "role": "",
+  "role": "Iranian revolutionary leader",
   "life": "798–838",
   "lifetime": [
     798,
@@ -18,6 +18,7 @@
   "contribution": "One of the main Iranian revolutionary leaders of the Iranian Khorram-Dinān, which was a local rebellion against the Abbasid Caliphate.",
   "image": "images/babak-khorramdin.jpg",
   "image_credit": "16th century artist · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Abbasid Caliphate"
       ]
     },
-    "lead": "Bābak Khorramdin (Persian: بابک خرمدین, romanized: Bābak-e Khorramdīn; 795 or 798 – January 838) was one of the main Iranian revolutionary leaders of the Iranian Khorram-Dinān (\"Those of the joyous religion\"), which was a local rebellion against the Abbasid Caliphate. Khorramdin appears to be a compound analogous to durustdin \"orthodoxy\" and Behdin \"Good Religion\" (Zoroastrianism), and are considered an offshoot of neo-Mazdakism.  Babak's Iranianizing rebellion, from its base in Azerbaijan in northwestern Iran, called for a return of the political glories of the Iranian past. The Khorramdin rebellion of Babak spread to the western and central parts of Iran and lasted more than twenty years before it was defeated when Babak was betrayed. Babak's uprising showed the continuing strength of ancestral Iranian local feelings in the region."
+    "lead": "Bābak Khorramdin (Persian: بابک خرمدین, romanized: Bābak-e Khorramdīn; 795 or 798 – January 838) was one of the main Iranian revolutionary leaders of the Iranian Khorram-Dinān (\"Those of the joyous religion\"), which was a local rebellion against the Abbasid Caliphate. Khorramdin appears to be a compound analogous to durustdin \"orthodoxy\" and Behdin \"Good Religion\" (Zoroastrianism), and are considered an offshoot of neo-Mazdakism.  Babak's Iranianizing rebellion, from its base in Azerbaijan in northwestern Iran, called for a return of the political glories of the Iranian past. The Khorramdin rebellion of Babak spread to the western and central parts of Iran and lasted more than twenty years before it was defeated when Babak was betrayed. Babak's uprising showed the continuing strength of ancestral Iranian local feelings in the region.",
+    "photo": "no death year in or after 1860"
   }
 }

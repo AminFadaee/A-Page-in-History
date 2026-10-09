@@ -1,0 +1,39 @@
+{
+  "id": "Q43720",
+  "slug": "pope-pius-ix",
+  "name": "Pope Pius IX",
+  "wikipedia": "Pope Pius IX",
+  "role": "Head of the Catholic Church from 1846 to 1878",
+  "life": "1792–1878",
+  "lifetime": [
+    1792,
+    1878
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy",
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church from 16 June 1846 until his death in February 1878.",
+  "image": "images/pope-pius-ix.jpg",
+  "image_credit": "Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy",
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States",
+        "Kingdom of Italy"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Pope Pius IX (Italian: Pio IX; born Giovanni Maria Battista Pietro Pellegrino Isidoro Mastai-Ferretti; 13 May 1792 – 7 February 1878) was head of the Catholic Church from 16 June 1846 until his death in February 1878.",
+    "photo": "captured 13 May 1875 during their lifetime"
+  }
+}

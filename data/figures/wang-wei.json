@@ -1,0 +1,38 @@
+{
+  "id": "Q313605",
+  "slug": "wang-wei",
+  "name": "Wang Wei",
+  "wikipedia": "Wang Wei",
+  "role": "Tang-dynasty Chinese poet, musician, painter, and statesman",
+  "life": "699–759",
+  "lifetime": [
+    699,
+    761
+  ],
+  "occupation": "Writer",
+  "birth_country": "China",
+  "civilizations": [
+    "Tang Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese musician, painter, poet, and politician of the middle Tang dynasty.",
+  "image": "images/wang-wei.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Tang Dynasty"
+      ],
+      "lead": [
+        "Tang Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Tang Dynasty"
+      ]
+    },
+    "lead": "Wang Wei (simplified Chinese: 王维; traditional Chinese: 王維; pinyin: Wáng Wéi; 699–761), courtesy name Mojie, was a Chinese musician, painter, poet, and politician of the middle Tang dynasty. He is regarded as one of the most distinguished men of arts and letters of his era.  About 400 of his poems survived and 29 of them are included in the 18th-century anthology Three Hundred Tang Poems. A large portion of his finest poems drew inspirations from the local landscape.",
+    "photo": "no death year in or after 1860"
+  }
+}

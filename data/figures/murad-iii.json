@@ -1,0 +1,46 @@
+{
+  "id": "Q159934",
+  "slug": "murad-iii",
+  "name": "Murad III",
+  "wikipedia": "Murad III",
+  "role": "Sultan of the Ottoman Empire from 1574 to 1595",
+  "life": "1546–1595",
+  "lifetime": [
+    1546,
+    1595
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Habsburg Monarchy",
+    "Safavid Dynasty",
+    "Saadi Sultanate",
+    "Spanish Empire"
+  ],
+  "contribution": "The sultan of the Ottoman Empire from 1574 until his death in 1595.",
+  "image": "images/murad-iii.jpg",
+  "image_credit": "16th century artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Habsburg Monarchy",
+        "Safavid Dynasty",
+        "Saadi Sultanate",
+        "Spanish Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Murad III (Ottoman Turkish: مراد ثالث, romanized: Murād-i sālis; Turkish: III. Murad; 4 July 1546 – 16 January 1595) was the sultan of the Ottoman Empire from 1574 until his death in 1595.",
+    "photo": "no death year in or after 1860"
+  }
+}

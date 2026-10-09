@@ -1,0 +1,37 @@
+{
+  "id": "Q184992",
+  "slug": "bronisaw-malinowski",
+  "name": "Bronisław Malinowski",
+  "wikipedia": "Bronisław Malinowski",
+  "role": "Polish anthropologist and ethnographer",
+  "life": "1884–1942",
+  "lifetime": [
+    1884,
+    1942
+  ],
+  "occupation": "Anthropologist",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Austria-Hungary"
+  ],
+  "related": [],
+  "contribution": "A Polish anthropologist and ethnologist whose writings on ethnography, social theory, and field research have exerted a lasting influence on the discipline of anthropology.",
+  "image": "images/bronisaw-malinowski.jpg",
+  "image_credit": "No restrictions",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austria-Hungary",
+        "Second Polish Republic"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Bronisław Kasper Malinowski (Polish: [brɔˈɲiswaf maliˈnɔfskʲi]; 7 April 1884 – 16 May 1942) was a Polish anthropologist and ethnologist whose writings on ethnography, social theory, and field research have exerted a lasting influence on the discipline of anthropology.",
+    "photo": "captured circa 1930date QS:P571,+1930-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q1058572",
+  "slug": "sviatoslav-i",
+  "name": "Sviatoslav I",
+  "wikipedia": "Sviatoslav I",
+  "role": "Prince of Kiev from 945 to 972",
+  "life": "c. 942–972",
+  "lifetime": [
+    942,
+    972
+  ],
+  "occupation": "Politician",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Kievan Rus'"
+  ],
+  "related": [
+    "Khazaria",
+    "First Bulgarian Empire",
+    "Volga Bulgaria"
+  ],
+  "contribution": "Prince of Kiev from 945 until his death in 972.",
+  "image": "images/sviatoslav-i.jpg",
+  "image_credit": "Chestnut ah · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kievan Rus'"
+      ],
+      "lead": [
+        "Khazaria",
+        "First Bulgarian Empire",
+        "Volga Bulgaria",
+        "Kievan Rus'"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kievan Rus'"
+      ]
+    },
+    "lead": "Sviatoslav I or Svyatoslav I Igorevich (Old East Slavic: Свѧтославъ Игорєвичь, romanised: Svętoslavŭ Igorevičǐ; Old Norse: Sveinald; c. 943 – 972) was Prince of Kiev from 945 until his death in 972. He is known for his persistent campaigns in the east and south, which precipitated the collapse of two great powers in Eastern Europe, Khazaria and the First Bulgarian Empire. He conquered numerous East Slavic tribes, defeated the Alans and attacked the Volga Bulgars, and at times was allied with the Pechenegs and Magyars (Hungarians).",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q182897",
+  "slug": "prince-henry-the-navigator",
+  "name": "Prince Henry the Navigator",
+  "wikipedia": "Prince Henry the Navigator",
+  "role": "Portuguese prince and governor",
+  "life": "1394–1460",
+  "lifetime": [
+    1394,
+    1460
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [],
+  "contribution": "A Portuguese prince, a central figure in the early days of the Portuguese Empire and often credited as one of the main initiators of the Age of Discovery.",
+  "image": "images/prince-henry-the-navigator.jpg",
+  "image_credit": "Nuno Gonçalves · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Prince Henry the Navigator (4 March 1394 – 13 November 1460), was a Portuguese prince, a central figure in the early days of the Portuguese Empire and often credited as one of the main initiators of the Age of Discovery. Henry was the third child of King John I of Portugal, who founded the House of Aviz.",
+    "photo": "no death year in or after 1860"
+  }
+}

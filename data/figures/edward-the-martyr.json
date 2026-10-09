@@ -1,0 +1,36 @@
+{
+  "id": "Q192920",
+  "slug": "edward-the-martyr",
+  "name": "Edward the Martyr",
+  "wikipedia": "Edward the Martyr",
+  "role": "King of the English from 975 to 978",
+  "life": "963–978",
+  "lifetime": [
+    963,
+    978
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of the English from 8 July 975 until he was killed in 978.",
+  "image": "images/edward-the-martyr.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edward the Martyr (c. 962 – 18 March 978) was King of the English from 8 July 975 until he was killed in 978. He was the eldest son of King Edgar (r. 959–975). On Edgar's death, the succession to the throne was contested between Edward's supporters and those of his younger half-brother, the future King Æthelred the Unready. As they were both children, it is unlikely that they played an active role in the dispute, which was probably between rival family alliances. Edward's principal supporters were Dunstan, Archbishop of Canterbury, and Æthelwine, Ealdorman of East Anglia, while Æthelred was backed by his mother Queen Ælfthryth and her friend Æthelwold, Bishop of Winchester. The dispute was quickly settled. Edward was chosen as king and Æthelred received the lands traditionally allocated to the king's eldest son in compensation.",
+    "photo": "no death year in or after 1860"
+  }
+}

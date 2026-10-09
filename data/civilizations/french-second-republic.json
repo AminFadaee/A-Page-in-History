@@ -1,0 +1,89 @@
+{
+  "id": "Q58326",
+  "slug": "french-second-republic",
+  "name": "French Second Republic",
+  "wikipedia": "French Second Republic",
+  "map_year": 1849,
+  "period": {
+    "start": {
+      "earliest": 1848,
+      "latest": 1848,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1852,
+      "latest": 1852,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Second French Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q58326",
+        "layer": 1,
+        "name": "French Second Republic"
+      },
+      {
+        "id": "Q71092",
+        "layer": 2,
+        "name": "Second French Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q58326",
+        "Q71092",
+        "France"
+      ]
+    ],
+    "question": "successions/french-second-republic-question.png",
+    "answer": "successions/french-second-republic-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "France"
+  ],
+  "map": "maps/french-second-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1848,
+      1852
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Empire of Brazil",
+      "British Empire",
+      "Russian Empire",
+      "Qing Dynasty",
+      "United States of America",
+      "Ottoman Empire",
+      "Bolivia",
+      "Qajar Dynasty",
+      "Khanate of Khiva",
+      "Sokoto Caliphate"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q37388",
+  "slug": "francis-bacon",
+  "name": "Francis Bacon",
+  "wikipedia": "Francis Bacon",
+  "role": "English philosopher and statesman",
+  "life": "1561–1626",
+  "lifetime": [
+    1561,
+    1626
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English philosopher and statesman who served as Attorney General and Lord Chancellor of England under King James I. Bacon argued for the importance of natural philosophy, guided by the scientific method, and his works remained influential throughout the Scientific Revolution.",
+  "image": "images/francis-bacon.jpg",
+  "image_credit": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Francis Bacon, 1st Viscount St Alban (; 22 January 1561 – 9 April 1626) was an English philosopher and statesman who served as Attorney General and Lord Chancellor of England under King James I. Bacon argued for the importance of natural philosophy, guided by the scientific method, and his works remained influential throughout the Scientific Revolution.",
+    "photo": "no death year in or after 1860"
+  }
+}

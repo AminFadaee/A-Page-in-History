@@ -1,0 +1,42 @@
+{
+  "id": "Q108316",
+  "slug": "pope-alexander-vi",
+  "name": "Pope Alexander VI",
+  "wikipedia": "Pope Alexander VI",
+  "role": "Head of the Catholic Church from 1492 to 1503",
+  "life": "1431–1503",
+  "lifetime": [
+    1431,
+    1503
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Crown of Aragon",
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
+  "image": "images/pope-alexander-vi.jpg",
+  "image_credit": "Attributed to Pedro Berruguete · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Crown of Aragon"
+      ],
+      "lead": [
+        "Papal States",
+        "Crown of Aragon"
+      ],
+      "vital_section": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Crown of Aragon"
+      ]
+    },
+    "lead": "Pope Alexander VI (born Roderic de Borja y Llançol; c. 1431 – 18 August 1503) was head of the Catholic Church and sovereign of the Papal States from 11 August 1492 until his death in 1503.",
+    "photo": "no death year in or after 1860"
+  }
+}

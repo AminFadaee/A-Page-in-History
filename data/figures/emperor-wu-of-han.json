@@ -1,0 +1,39 @@
+{
+  "id": "Q7225",
+  "slug": "emperor-wu-of-han",
+  "name": "Emperor Wu of Han",
+  "wikipedia": "Emperor Wu of Han",
+  "role": "Emperor of China from 141 to 87 BC",
+  "life": "156–87 BC",
+  "lifetime": [
+    -156,
+    -87
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [
+    "Xiongnu"
+  ],
+  "contribution": "The seventh emperor of the Han dynasty from 141 to 87 BC. His reign lasted 54 years – a record not broken until the reign of the Kangxi Emperor more than 1,800 years later – and remains the record for ethnic Han emperors.",
+  "image": "images/emperor-wu-of-han.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Han Dynasty",
+        "Xiongnu"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Emperor Wu of Han (156 – 29 March 87 BC) (Chinese: 漢武帝; pinyin: Hàn Wŭdì), personal name Liu Che (Chinese: 劉徹; pinyin: Liú Chè) and courtesy name Tong (Chinese: 通; pinyin: Tōng), was the seventh emperor of the Han dynasty from 141 to 87 BC. His reign lasted 54 years – a record not broken until the reign of the Kangxi Emperor more than 1,800 years later – and remains the record for ethnic Han emperors. His reign resulted in a vast expansion of geopolitical influence for the Chinese civilization, and the development of a strong centralized state via governmental policies, economical reorganization and promotion of a hybrid Legalist–Confucian doctrine. In the field of historical social and cultural studies, Emperor Wu is known for his religious innovations and patronage of the poetic and musical arts, including the development of the Imperial Music Bureau into a prestigious entity. It was also during his reign that cultural contact with western Eurasia was greatly increased, directly and indirectly.",
+    "photo": "no death year in or after 1860"
+  }
+}

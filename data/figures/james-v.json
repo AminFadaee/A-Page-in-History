@@ -1,0 +1,43 @@
+{
+  "id": "Q137814",
+  "slug": "james-v",
+  "name": "James V",
+  "wikipedia": "James V",
+  "role": "King of Scotland from 1513 to 1542",
+  "life": "1512–1542",
+  "lifetime": [
+    1512,
+    1542
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Scotland"
+  ],
+  "related": [
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "contribution": "King of Scotland from 9 September 1513 until his death in 1542.",
+  "image": "images/james-v.jpg",
+  "image_credit": "Corneille de Lyon · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Scotland"
+      ],
+      "lead": [
+        "Kingdom of Scotland",
+        "Kingdom of France",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Scotland"
+      ]
+    },
+    "lead": "James V (10 April 1512 – 14 December 1542) was King of Scotland from 9 September 1513 until his death in 1542. He was crowned on 21 September 1513 at the age of seventeen months. James was the son of King James IV and Margaret Tudor, daughter of Henry VII of England. During his childhood, Scotland was governed by regents, firstly by his mother until she remarried, and then by his first cousin once removed, John Stewart, Duke of Albany. James's personal rule began in 1528, when he finally escaped the custody of his stepfather, Archibald Douglas, 6th Earl of Angus. His first action was to exile Angus and confiscate the lands of the Douglases.",
+    "photo": "no death year in or after 1860"
+  }
+}

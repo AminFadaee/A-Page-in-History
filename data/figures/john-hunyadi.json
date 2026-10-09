@@ -1,0 +1,41 @@
+{
+  "id": "Q242688",
+  "slug": "john-hunyadi",
+  "name": "John Hunyadi",
+  "wikipedia": "John Hunyadi",
+  "role": "Hungarian military and political figure",
+  "life": "1407–1456",
+  "lifetime": [
+    1407,
+    1456
+  ],
+  "occupation": "Politician",
+  "birth_country": "Romania",
+  "civilizations": [
+    "Kingdom of Hungary"
+  ],
+  "related": [
+    "Principality of Wallachia",
+    "Ottoman Empire"
+  ],
+  "contribution": "A leading Hungarian military and political figure during the 15th century, who served as regent of the Kingdom of Hungary from 1446 to 1453, under the minor Ladislaus V.",
+  "image": "images/john-hunyadi.jpg",
+  "image_credit": "Unknown painterUnknown painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Kingdom of Hungary",
+        "Principality of Wallachia",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Hungary"
+      ]
+    },
+    "lead": "John Hunyadi (Hungarian: Hunyadi János; Romanian: Ioan de Hunedoara; Croatian: Janko Hunjadi; Serbian: Сибињанин Јанко, romanized: Sibinjanin Janko; Ottoman Turkish: حونیادی یانوش, romanized: Hünyadi Yanoş; c. 1406 – 11 August 1456) was a leading Hungarian military and political figure during the 15th century, who served as regent of the Kingdom of Hungary from 1446 to 1453, under the minor Ladislaus V.",
+    "photo": "no death year in or after 1860"
+  }
+}

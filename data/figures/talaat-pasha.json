@@ -1,0 +1,38 @@
+{
+  "id": "Q315888",
+  "slug": "talaat-pasha",
+  "name": "Talaat Pasha",
+  "wikipedia": "Talaat Pasha",
+  "role": "Turkish Ottoman politician",
+  "life": "1874–1921",
+  "lifetime": [
+    1874,
+    1921
+  ],
+  "occupation": "Politician",
+  "birth_country": "Bulgaria",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "A Turkish activist, revolutionary, politician, and convicted war criminal who served as the de facto leader of the Ottoman Empire from 1913 to 1918.",
+  "image": "images/talaat-pasha.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Mehmed Talât Pasha (1 September 1874 – 15 March 1921), commonly known as Talaat Pasha or Talat Pasha, was a Turkish activist, revolutionary, politician, and convicted war criminal who served as the de facto leader of the Ottoman Empire from 1913 to 1918. He was chairman of the Union and Progress Party, which operated a one-party dictatorship in the Empire; during World War I he became Grand Vizier (prime minister). He has been called the architect of the Armenian genocide, and was responsible for other ethnic cleansings during his time as Minister of Interior Affairs.",
+    "photo": "captured 1916 during their lifetime"
+  }
+}

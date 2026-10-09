@@ -1,0 +1,48 @@
+{
+  "id": "Q23148",
+  "slug": "cornwall",
+  "name": "Cornwall",
+  "wikipedia": "Cornwall",
+  "map_year": 710,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "map": "maps/cornwall.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [
+        "Truro"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      710,
+      946
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Wessex",
+      "Kingdom of the Franks",
+      "Aquitaine",
+      "Kingdom of Italy",
+      "Saxons",
+      "Bavarians",
+      "Kingdom of Mercia",
+      "Kingdom of Northumbria",
+      "Duchy of Thuringia",
+      "Merovingian Empire",
+      "Breton Kingdoms"
+    ]
+  }
+}

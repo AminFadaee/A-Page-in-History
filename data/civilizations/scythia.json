@@ -1,0 +1,46 @@
+{
+  "id": "Q131802",
+  "slug": "scythia",
+  "name": "Scythia",
+  "wikipedia": "Scythians",
+  "map_year": -650,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -300,
+      "latest": -201,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Russia",
+    "Ukraine",
+    "Kazakhstan",
+    "Romania",
+    "Moldova"
+  ],
+  "map": "maps/scythia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Kamianka-Dniprovska"
+      ]
+    },
+    "cliopatria_years": [
+      -650,
+      -224
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "labelled": [
+      "Lydia"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q128019",
+  "slug": "pope-pius-vi",
+  "name": "Pope Pius VI",
+  "wikipedia": "Pope Pius VI",
+  "role": "Head of the Catholic Church from 1775 to 1799",
+  "life": "1717–1799",
+  "lifetime": [
+    1717,
+    1799
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 15 February 1775 to his death in August 1799.",
+  "image": "images/pope-pius-vi.jpg",
+  "image_credit": "Pompeo Batoni · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Pius VI (Italian: Pio VI; born Count Angelo Onofrio Melchiorre Natale Giovanni Antonio called Giovanni Angelo or Giannangelo Braschi, 25 December 1717 – 29 August 1799) was head of the Catholic Church and leader of the Papal States from 15 February 1775 to his death in August 1799.",
+    "photo": "no death year in or after 1860"
+  }
+}

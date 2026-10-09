@@ -1,0 +1,121 @@
+{
+  "id": "Q45670",
+  "slug": "kingdom-of-portugal",
+  "name": "Kingdom of Portugal",
+  "wikipedia": "Kingdom of Portugal",
+  "map_year": 1900,
+  "period": {
+    "start": {
+      "earliest": 1139,
+      "latest": 1139,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Coimbra",
+      "location": [
+        -8.428888888888888,
+        40.21111111111111
+      ]
+    },
+    {
+      "name": "Lisbon",
+      "location": [
+        -9.139016,
+        38.708042
+      ]
+    }
+  ],
+  "predecessors": [
+    "County of Portugal"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q45670",
+        "layer": 1,
+        "name": "Kingdom of Portugal"
+      },
+      {
+        "id": "Q1139807",
+        "layer": 0,
+        "name": "County of Portugal"
+      }
+    ],
+    "edges": [
+      [
+        "Q1139807",
+        "Q45670",
+        "Portugal"
+      ]
+    ],
+    "question": "successions/kingdom-of-portugal-question.png",
+    "answer": "successions/kingdom-of-portugal-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q587697",
+      "name": "Afonso I of Portugal"
+    },
+    {
+      "id": "Q201575",
+      "name": "John I of Portugal"
+    },
+    {
+      "id": "Q154308",
+      "name": "Manuel II of Portugal"
+    }
+  ],
+  "modern_countries": [
+    "Angola",
+    "Mozambique",
+    "Portugal",
+    "Guinea-Bissau",
+    "Cape Verde",
+    "São Tomé and Príncipe"
+  ],
+  "map": "maps/kingdom-of-portugal.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Guimarães",
+        "Coimbra",
+        "Lisbon",
+        "Rio de Janeiro"
+      ],
+      "infobox": [
+        "Coimbra",
+        "Lisbon"
+      ]
+    },
+    "cliopatria_years": [
+      1147,
+      1911
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "British Africa",
+      "French Africa",
+      "Belgian Congo",
+      "Russian Empire",
+      "Qing Dynasty",
+      "Brazilian Republic",
+      "United States of America",
+      "British Raj",
+      "Ottoman Empire",
+      "Qajar Dynasty",
+      "Bolivia",
+      "Ethiopian Empire",
+      "Sokoto Caliphate"
+    ]
+  }
+}

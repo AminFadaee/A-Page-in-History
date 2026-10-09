@@ -1,0 +1,36 @@
+{
+  "id": "Q312544",
+  "slug": "kanishka",
+  "name": "Kanishka",
+  "wikipedia": "Kanishka",
+  "role": "Kushan emperor from 127 to 150",
+  "life": "78–144",
+  "lifetime": [
+    78,
+    144
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Kushan Empire"
+  ],
+  "related": [],
+  "contribution": "An emperor of the Kushan dynasty, under whose reign the empire reached its zenith.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kushan Empire"
+      ],
+      "lead": [
+        "Kushan Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Kanishka I, also known as Kanishka the Great, was an emperor of the Kushan dynasty, under whose reign (c. 127–150 CE) the empire reached its zenith. He is famous for his military, political, and spiritual achievements. A descendant of Kujula Kadphises, founder of the Kushan Empire, Kanishka came to rule an empire extending from Central Asia and Gandhara to Pataliputra in the Gangetic plains. The main capital of his empire was located at Puruṣapura (Peshawar) in Gandhara, with another major capital at Mathura. Coins of Kanishka were found at Tripuri (present-day Jabalpur).",
+    "photo": "image is a coin or calligraphy"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "Q71092",
+  "slug": "second-french-empire",
+  "name": "Second French Empire",
+  "wikipedia": "Second French Empire",
+  "map_year": 1863,
+  "period": {
+    "start": {
+      "earliest": 1852,
+      "latest": 1852,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1870,
+      "latest": 1870,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "French Second Republic"
+  ],
+  "successors": [
+    "French Third Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q71092",
+        "layer": 1,
+        "name": "Second French Empire"
+      },
+      {
+        "id": "Q58326",
+        "layer": 0,
+        "name": "French Second Republic"
+      },
+      {
+        "id": "Q70802",
+        "layer": 2,
+        "name": "French Third Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q58326",
+        "Q71092",
+        "France"
+      ],
+      [
+        "Q71092",
+        "Q70802",
+        "France"
+      ]
+    ],
+    "question": "successions/second-french-empire-question.png",
+    "answer": "successions/second-french-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q7721",
+      "name": "Napoleon III"
+    }
+  ],
+  "modern_countries": [
+    "France"
+  ],
+  "map": "maps/second-french-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1853,
+      1870
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Empire of Brazil",
+      "Russian Empire",
+      "United States of America",
+      "Ottoman Empire",
+      "Muhammad Ali dynasty",
+      "Qajar Dynasty",
+      "Republic of Peru",
+      "Emirate of Nejd",
+      "Khanate of Khiva",
+      "Sokoto Caliphate",
+      "Austrian Empire"
+    ]
+  }
+}

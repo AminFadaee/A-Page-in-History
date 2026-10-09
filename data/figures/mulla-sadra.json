@@ -1,0 +1,38 @@
+{
+  "id": "Q2010955",
+  "slug": "mulla-sadra",
+  "name": "Mulla Sadra",
+  "wikipedia": "Mulla Sadra",
+  "role": "Iranian Shia philosopher and theologian",
+  "life": "1571–1641",
+  "lifetime": [
+    1571,
+    1641
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Safavid Dynasty"
+  ],
+  "related": [],
+  "contribution": "An Iranian Twelver Shi'i Islamic mystic, philosopher, theologian, and ‘Ālim who led the cultural renaissance in the country during the 17th century.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Safavid Dynasty"
+      ],
+      "lead": [
+        "Safavid Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Safavid Dynasty"
+      ]
+    },
+    "lead": "Ṣadr ad-Dīn Muḥammad Shīrāzī, more commonly known as Mullā Ṣadrā (Persian: ملا صدرا; Arabic: صدر المتألهین; c. 1571/2 – c. 1635/40), was an Iranian Twelver Shi'i Islamic mystic, philosopher, theologian, and ‘Ālim who led the cultural renaissance in the country during the 17th century. According to Oliver Leaman, Mulla Sadra is arguably the single most important and influential philosopher in the Muslim world in the last four hundred years. Though not its founder, he is considered the master of the Illuminationist (or, Ishraghi or Ishraqi) school of Philosophy, a seminal figure who synthesized the many tracts of the Islamic Golden Age philosophies into what he called the Transcendent Theosophy or al-hikmah al-muta’āliyah.",
+    "photo": "no image"
+  }
+}

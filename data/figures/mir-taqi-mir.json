@@ -1,0 +1,38 @@
+{
+  "id": "Q1771132",
+  "slug": "mir-taqi-mir",
+  "name": "Mir Taqi Mir",
+  "wikipedia": "Mir Taqi Mir",
+  "role": "Indian poet",
+  "life": "1723–1810",
+  "lifetime": [
+    1723,
+    1810
+  ],
+  "occupation": "Writer",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [],
+  "contribution": "An Urdu poet of the 18th-century Mughal India and one of the pioneers who gave shape to the Urdu language itself.",
+  "image": "images/mir-taqi-mir.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mughal Empire"
+      ],
+      "lead": [
+        "Mughal Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Mir Muhammad Taqi (February 1723 – 20 September 1810), known as Mir Taqi Mir (Urdu pronunciation: [miːɾ t̪əqiː miːɾ]), was an Urdu poet of the 18th-century Mughal India and one of the pioneers who gave shape to the Urdu language itself. He was one of the principal poets of the Delhi School of the Urdu ghazal and is often remembered as one of the best poets of the Urdu language. His pen name (takhallus) was Mir. He spent the latter part of his life in the court of Asaf-ud-Daulah in Lucknow.",
+    "photo": "no death year in or after 1860"
+  }
+}

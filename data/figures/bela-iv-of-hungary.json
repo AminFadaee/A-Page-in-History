@@ -1,0 +1,43 @@
+{
+  "id": "Q152370",
+  "slug": "bela-iv-of-hungary",
+  "name": "Béla IV of Hungary",
+  "wikipedia": "Béla IV of Hungary",
+  "role": "King of Hungary and Croatia from 1235 to 1270",
+  "life": "1206–1270",
+  "lifetime": [
+    1206,
+    1270
+  ],
+  "occupation": "Politician",
+  "birth_country": "Romania",
+  "civilizations": [
+    "Kingdom of Hungary"
+  ],
+  "related": [
+    "Duchy of Styria",
+    "Holy Roman Empire",
+    "Banate of Bosnia"
+  ],
+  "contribution": "King of Hungary and Croatia between 1235 and 1270, and Duke of Styria from 1254 to 1258.",
+  "image": "images/bela-iv-of-hungary.jpg",
+  "image_credit": "Johannes de Thurocz · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Duchy of Styria",
+        "Holy Roman Empire",
+        "Banate of Bosnia",
+        "Kingdom of Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Hungary"
+      ]
+    },
+    "lead": "Béla IV (1206 – 3 May 1270) was King of Hungary and Croatia between 1235 and 1270, and Duke of Styria from 1254 to 1258. As the oldest son of King Andrew II, he was crowned upon the initiative of a group of influential noblemen in his father's lifetime in 1214. His father, who strongly opposed Béla's coronation, refused to give him a province to rule until 1220. In this year, Béla was appointed Duke of Slavonia, also with jurisdiction in Croatia and Dalmatia. Around the same time, Béla married Maria, a daughter of Theodore I Laskaris, Emperor of Nicaea. From 1226, he governed Transylvania as duke. He supported Christian missions among the pagan Cumans who dwelled in the plains to the east of his province. Some Cuman chieftains acknowledged his suzerainty and he adopted the title of King of Cumania in 1233. King Andrew died on 21 September 1235 and Béla succeeded him. He attempted to restore royal authority, which had diminished under his father. For this purpose, he revised his predecessors' land grants and reclaimed former royal estates, causing discontent among the noblemen and the prelates.",
+    "photo": "no death year in or after 1860"
+  }
+}

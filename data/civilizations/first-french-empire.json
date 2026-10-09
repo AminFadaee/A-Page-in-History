@@ -1,0 +1,141 @@
+{
+  "id": "Q71084",
+  "slug": "first-french-empire",
+  "name": "First French Empire",
+  "wikipedia": "First French Empire",
+  "map_year": 1811,
+  "period": {
+    "start": {
+      "earliest": 1804,
+      "latest": 1804,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1815,
+      "latest": 1815,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "French Directory",
+    "French Consulate"
+  ],
+  "successors": [
+    "Bourbon Kingdom of France",
+    "Sovereign Principality of the United Netherlands"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q71084",
+        "layer": 1,
+        "name": "First French Empire"
+      },
+      {
+        "id": "Q58296",
+        "layer": 0,
+        "name": "French Directory"
+      },
+      {
+        "id": "Q877619",
+        "layer": 0,
+        "name": "French Consulate"
+      },
+      {
+        "id": "Q207162",
+        "layer": 2,
+        "name": "Bourbon Kingdom of France"
+      },
+      {
+        "id": "Q774783",
+        "layer": 2,
+        "name": "Sovereign Principality of the United Netherlands"
+      }
+    ],
+    "edges": [
+      [
+        "Q58296",
+        "Q71084",
+        "France"
+      ],
+      [
+        "Q877619",
+        "Q71084",
+        "France"
+      ],
+      [
+        "Q71084",
+        "Q207162",
+        "France"
+      ],
+      [
+        "Q71084",
+        "Q774783",
+        "Netherlands"
+      ]
+    ],
+    "question": "successions/first-french-empire-question.png",
+    "answer": "successions/first-french-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q517",
+      "name": "Napoleon"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Spain",
+    "Italy",
+    "Germany",
+    "Netherlands",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg",
+    "Andorra",
+    "Vatican City"
+  ],
+  "map": "maps/first-french-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1805,
+      1814
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ottoman Empire",
+      "Austrian Empire",
+      "Portuguese Empire",
+      "Spanish Empire",
+      "Emirate of Diriyah",
+      "Kazakh Khanate",
+      "Durrani Empire",
+      "Río de la Plata",
+      "Maratha Empire",
+      "United States of America",
+      "Khanate of Khiva",
+      "Funj Sultanate",
+      "Sokoto Caliphate",
+      "Wadai Empire"
+    ]
+  }
+}

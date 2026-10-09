@@ -1,0 +1,42 @@
+{
+  "id": "Q7207",
+  "slug": "elizabeth-i",
+  "name": "Elizabeth I",
+  "wikipedia": "Elizabeth I",
+  "role": "Queen of England and Ireland from 1558 to 1603",
+  "life": "1533–1603",
+  "lifetime": [
+    1533,
+    1603
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Kingdom of France",
+    "Dutch Republic"
+  ],
+  "contribution": "Queen of England and Ireland from 17 November 1558 until her death in 1603.",
+  "image": "images/elizabeth-i.jpg",
+  "image_credit": "Attributed to William Segar / Attributed to George Gower / Formerly attributed to Nicholas Hilliard · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of France",
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Elizabeth I (7 September 1533 – 24 March 1603) was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era.",
+    "photo": "no death year in or after 1860"
+  }
+}

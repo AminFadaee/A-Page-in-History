@@ -1,0 +1,41 @@
+{
+  "id": "Q171191",
+  "slug": "ashurbanipal",
+  "name": "Ashurbanipal",
+  "wikipedia": "Ashurbanipal",
+  "role": "Assyrian ruler",
+  "life": "685–631 BC",
+  "lifetime": [
+    -685,
+    -631
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Neo-Assyrian Empire"
+  ],
+  "related": [
+    "Babylonia",
+    "Elam"
+  ],
+  "contribution": "The king of the Neo-Assyrian Empire from 669 BC to his death in 631.",
+  "image": "images/ashurbanipal.jpg",
+  "image_credit": "Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Neo-Assyrian Empire",
+        "Babylonia",
+        "Elam"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Neo-Assyrian Empire"
+      ]
+    },
+    "lead": "Ashurbanipal (Neo-Assyrian Akkadian: 𒀸𒋩𒆕𒀀, romanized: Aššur-bāni-apli, meaning \"Ashur is the creator of the heir\") was the king of the Neo-Assyrian Empire from 669 BC to his death in 631. He is generally remembered as the last great king of Assyria. Ashurbanipal inherited the throne as his father Esarhaddon‘s favored heir; his 38-year reign was among the longest of any Assyrian king. Though sometimes regarded as the apogee of ancient Assyria, his reign also marked the last time Assyrian armies waged war throughout the ancient Near East and the beginning of the end of Assyrian dominion over the region.",
+    "photo": "no death year in or after 1860"
+  }
+}

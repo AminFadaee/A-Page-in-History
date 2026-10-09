@@ -1,0 +1,38 @@
+{
+  "id": "Q215502",
+  "slug": "henry-morgan",
+  "name": "Henry Morgan",
+  "wikipedia": "Henry Morgan",
+  "role": "Welsh privateer, politician in Jamaica",
+  "life": "1631–1688",
+  "lifetime": [
+    1631,
+    1688
+  ],
+  "occupation": "Pirate",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "A Welsh privateer, plantation owner and, later, the lieutenant governor of Jamaica.",
+  "image": "images/henry-morgan.jpg",
+  "image_credit": "Alexandre Exquemelin, Piratas de la America (1681) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Sir Henry Morgan (Welsh: Harri Morgan; c. 1635 – 25 August 1688) was a Welsh privateer, plantation owner and, later, the lieutenant governor of Jamaica. From his base in Port Royal, Jamaica, he and those under his command raided settlements and shipping on the Spanish Main, from which he profited. With the prize money and plunder from these raids, Morgan purchased three large sugar plantations in Jamaica.",
+    "photo": "no death year in or after 1860"
+  }
+}

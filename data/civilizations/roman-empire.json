@@ -44,10 +44,52 @@
     "Roman Republic"
   ],
   "successors": [
-    "Western Roman Empire",
-    "Eastern Roman Empire"
+    "Eastern Roman Empire",
+    "Western Roman Empire"
   ],
-  "succession": {},
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q2277",
+        "layer": 1,
+        "name": "Roman Empire"
+      },
+      {
+        "id": "Q17167",
+        "layer": 0,
+        "name": "Roman Republic"
+      },
+      {
+        "id": "Q12544",
+        "layer": 2,
+        "name": "Eastern Roman Empire"
+      },
+      {
+        "id": "Q42834",
+        "layer": 2,
+        "name": "Western Roman Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q17167",
+        "Q2277",
+        "France, Spain, Turkey"
+      ],
+      [
+        "Q2277",
+        "Q12544",
+        "Turkey, Egypt"
+      ],
+      [
+        "Q2277",
+        "Q42834",
+        "France, Spain, Italy"
+      ]
+    ],
+    "question": "successions/roman-empire-question.png",
+    "answer": "successions/roman-empire-answer.png"
+  },
   "rulers": [],
   "modern_countries": [
     "Turkey",
@@ -120,8 +162,8 @@
     "identity": "Wikipedia item with overlapping dates",
     "labelled": [
       "Parthian Empire",
-      "Kushan Empire",
       "Xianbei",
+      "Kushan Empire",
       "Satavahana Dynasty",
       "Xiongnu"
     ]

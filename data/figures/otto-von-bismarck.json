@@ -1,0 +1,49 @@
+{
+  "id": "Q8442",
+  "slug": "otto-von-bismarck",
+  "name": "Otto von Bismarck",
+  "wikipedia": "Otto von Bismarck",
+  "role": "Chancellor of Germany from 1871 to 1890",
+  "life": "1815–1898",
+  "lifetime": [
+    1815,
+    1898
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Confederation"
+  ],
+  "related": [
+    "German Empire",
+    "Russian Empire",
+    "Second French Empire",
+    "Austrian Empire",
+    "North German Confederation"
+  ],
+  "contribution": "A German statesman and diplomat who oversaw the unification of Germany and served as its first chancellor from 1871 to 1890.",
+  "image": "images/otto-von-bismarck.jpg",
+  "image_credit": "Jacques Pilartz · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "German Empire",
+        "Russian Empire",
+        "Second French Empire",
+        "Austrian Empire",
+        "German Confederation",
+        "North German Confederation"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Otto Eduard Leopold, Prince of Bismarck, Count of Bismarck-Schönhausen, Duke of Lauenburg (1 April 1815 – 30 July 1898), was a German statesman and diplomat who oversaw the unification of Germany and served as its first chancellor from 1871 to 1890. Bismarck's Realpolitik and firm governance earned him the nickname Iron Chancellor (Eiserner Kanzler).",
+    "photo": "captured 31 August 1890date QS:P571,+1890-08-31T00:00:00Z/11 during their lifetime"
+  }
+}

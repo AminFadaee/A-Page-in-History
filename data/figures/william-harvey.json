@@ -1,0 +1,36 @@
+{
+  "id": "Q93128",
+  "slug": "william-harvey",
+  "name": "William Harvey",
+  "wikipedia": "William Harvey",
+  "role": "English physician",
+  "life": "1578–1657",
+  "lifetime": [
+    1578,
+    1657
+  ],
+  "occupation": "Physician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English physician who made influential contributions to anatomy and physiology.",
+  "image": "images/william-harvey.jpg",
+  "image_credit": "After Daniël Mijtens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "William Harvey (1 April 1578 – 3 June 1657) was an English physician who made influential contributions to anatomy and physiology. He was the first known physician to describe completely, and in detail, pulmonary and systemic circulation as well as the specific process of blood being pumped to the brain and the rest of the body by the heart (though earlier writers, such as Realdo Colombo, Michael Servetus, and Jacques Dubois, had provided precursors to some of his theories).",
+    "photo": "no death year in or after 1860"
+  }
+}

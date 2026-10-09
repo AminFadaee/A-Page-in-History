@@ -1,0 +1,36 @@
+{
+  "id": "Q104190",
+  "slug": "robert-walpole",
+  "name": "Robert Walpole",
+  "wikipedia": "Robert Walpole",
+  "role": "Prime Minister of Great Britain from 1721 to 1742",
+  "life": "1676–1745",
+  "lifetime": [
+    1676,
+    1745
+  ],
+  "occupation": "Public worker",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "A British Whig statesman who is generally regarded as the de facto first Prime Minister of Great Britain, serving from 1721 to 1742.",
+  "image": "images/robert-walpole.jpg",
+  "image_credit": "Jean-Baptiste van Loo · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Robert Walpole, 1st Earl of Orford (; 26 August 1676 – 18 March 1745), known between 1725 and 1742 as Sir Robert Walpole, was a British Whig statesman who is generally regarded as the de facto first Prime Minister of Great Britain, serving from 1721 to 1742. His formal titles included First Lord of the Treasury, Chancellor of the Exchequer, and Leader of the House of Commons. He is the longest serving prime minister in UK history, with a tenure of over 20 years.",
+    "photo": "no death year in or after 1860"
+  }
+}

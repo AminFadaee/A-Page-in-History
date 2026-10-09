@@ -1,0 +1,38 @@
+{
+  "id": "Q1145",
+  "slug": "jean-philippe-rameau",
+  "name": "Jean-Philippe Rameau",
+  "wikipedia": "Jean-Philippe Rameau",
+  "role": "French composer and music theorist",
+  "life": "1683–1764",
+  "lifetime": [
+    1683,
+    1764
+  ],
+  "occupation": "Composer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French composer and music theorist of the late Baroque era.",
+  "image": "images/jean-philippe-rameau.jpg",
+  "image_credit": "Attributed to Joseph Aved / Formerly attributed to Jean-Baptiste-Siméon Chardin · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of France"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jean-Philippe Rameau (; French: [ʒɑ̃filip ʁamo]; (1683-09-25)25 September 1683 – (1764-09-12)12 September 1764) was a French composer and music theorist of the late Baroque era. Regarded as one of the most important French composers and music theorists of the 18th century, he replaced Jean-Baptiste Lully as the dominant composer of French opera and is also considered the leading French composer of his time for the harpsichord, alongside François Couperin.",
+    "photo": "no death year in or after 1860"
+  }
+}

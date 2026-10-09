@@ -1,0 +1,51 @@
+{
+  "id": "Q83171",
+  "slug": "alexander-ii-of-russia",
+  "name": "Alexander II of Russia",
+  "wikipedia": "Alexander II of Russia",
+  "role": "Emperor of Russia from 1855 to 1881",
+  "life": "1818–1881",
+  "lifetime": [
+    1818,
+    1881
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [
+    "Second French Empire",
+    "German Empire",
+    "Austria-Hungary",
+    "Principality of Bulgaria",
+    "United Principalities of Moldavia and Wallachia",
+    "Ottoman Empire"
+  ],
+  "contribution": "Emperor of Russia, King of Poland, and Grand Duke of Finland from 2 March 1855 until his assassination on 13 March 1881.",
+  "image": "images/alexander-ii-of-russia.jpg",
+  "image_credit": "Attributed to W. &amp; D. Downey · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire",
+        "Second French Empire",
+        "German Empire",
+        "Austria-Hungary",
+        "Principality of Bulgaria",
+        "United Principalities of Moldavia and Wallachia",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Alexander II (29 April 1818 – 13 March 1881) was Emperor of Russia, King of Poland, and Grand Duke of Finland from 2 March 1855 until his assassination on 13 March 1881. He is also known as Alexander the Liberator because of his historic Edict of Emancipation, which officially abolished Russian serfdom in 1861. Crowned on 7 September 1856, he succeeded his father Nicholas I and was succeeded by his son Alexander III.",
+    "photo": "captured circa 18 May 1874date QS:P571,+1874-05-18T00:00:00Z/11,P1480,Q5727902 during their lifetime"
+  }
+}

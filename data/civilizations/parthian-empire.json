@@ -59,12 +59,22 @@
         "name": "Seleucid Empire"
       },
       {
+        "id": "Q29654286",
+        "layer": 1,
+        "name": "Kingdom of Cappadocia"
+      },
+      {
         "id": "Q83891",
         "layer": 2,
         "name": "Sasanian Empire"
       }
     ],
     "edges": [
+      [
+        "Q93180",
+        "Q29654286",
+        "Turkey"
+      ],
       [
         "Q93180",
         "Q1986139",

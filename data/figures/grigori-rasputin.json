@@ -1,0 +1,36 @@
+{
+  "id": "Q43989",
+  "slug": "grigori-rasputin",
+  "name": "Grigori Rasputin",
+  "wikipedia": "Grigori Rasputin",
+  "role": "Russian mystic",
+  "life": "1869–1916",
+  "lifetime": [
+    1869,
+    1916
+  ],
+  "occupation": "Occultist",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian mystic and faith healer.",
+  "image": "images/grigori-rasputin.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Grigori Yefimovich Rasputin (21 January [O.S. 9 January] 1869 – 30 December [O.S. 17 December] 1916) was a Russian mystic and faith healer. He is best known for having befriended the imperial family of Nicholas II, the last Emperor of Russia, through whom he gained considerable influence in the final years of the Russian Empire.",
+    "photo": "capture date 'Unknown date' not within their lifetime and not classified as a photograph"
+  }
+}

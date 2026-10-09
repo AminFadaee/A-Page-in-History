@@ -1,0 +1,36 @@
+{
+  "id": "Q9546",
+  "slug": "al-ghazali",
+  "name": "Al-Ghazali",
+  "wikipedia": "Al-Ghazali",
+  "role": "Sunni Muslim polymath",
+  "life": "1058–1111",
+  "lifetime": [
+    1056,
+    1111
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Great Seljuk Empire"
+  ],
+  "related": [],
+  "contribution": "A Shafi'i Ash'ari Sunni Muslim scholar and polymath.",
+  "image": "images/al-ghazali.jpg",
+  "image_credit": "Kahlil Gibran · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Great Seljuk Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Great Seljuk Empire"
+      ]
+    },
+    "lead": "Al-Ghazali (Persian: ابو حامد محمد ابن محمد غزالی طوسی, romanized: Abū Ḥāmid Muḥammad ibn Muḥammad Ghazālī Ṭūsi; c. 1058 – 19 December 1111), latinized as Algazelus, was a Shafi'i Ash'ari Sunni Muslim scholar and polymath. He is known as one of the most prominent and influential jurisconsults, legal theoreticians, muftis, philosophers, theologians, logicians and mystics in Islamic history.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -21,6 +21,7 @@
   "contribution": "Roman emperor from 161 to 180 and a Stoic philosopher.",
   "image": "images/marcus-aurelius.jpg",
   "image_credit": "CC BY 2.5",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -34,6 +35,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Marcus Aurelius Antoninus ( or-EE-lee-əs; Latin: [ˈmaːrkʊs au̯ˈreːli.us antoːˈniːnʊs]; 26 April 121 – 17 March 180) was Roman emperor from 161 to 180 and a Stoic philosopher. He was a member of the Nerva–Antonine dynasty, the last of the rulers later known as the Five Good Emperors and the last emperor of the Pax Romana, an age of relative peace, calm, and stability for the Roman Empire lasting from 27 BC to 180 AD. He served as Roman consul in 140, 145, and 161."
+    "lead": "Marcus Aurelius Antoninus ( or-EE-lee-əs; Latin: [ˈmaːrkʊs au̯ˈreːli.us antoːˈniːnʊs]; 26 April 121 – 17 March 180) was Roman emperor from 161 to 180 and a Stoic philosopher. He was a member of the Nerva–Antonine dynasty, the last of the rulers later known as the Five Good Emperors and the last emperor of the Pax Romana, an age of relative peace, calm, and stability for the Roman Empire lasting from 27 BC to 180 AD. He served as Roman consul in 140, 145, and 161.",
+    "photo": "no death year in or after 1860"
   }
 }

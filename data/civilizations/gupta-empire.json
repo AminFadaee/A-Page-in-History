@@ -1,0 +1,79 @@
+{
+  "id": "Q11774",
+  "slug": "gupta-empire",
+  "name": "Gupta Empire",
+  "wikipedia": "Gupta Empire",
+  "map_year": 410,
+  "period": {
+    "start": {
+      "earliest": 320,
+      "latest": 320,
+      "circa": false
+    },
+    "end": {
+      "earliest": 579,
+      "latest": 579,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pataliputra",
+      "location": [
+        85.144,
+        25.611
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q4664626",
+      "name": "Gupta"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Bangladesh"
+  ],
+  "map": "maps/gupta-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pataliputra"
+      ],
+      "infobox": [
+        "Pataliputra",
+        "Ayodhya"
+      ]
+    },
+    "cliopatria_years": [
+      324,
+      554
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Sasanian Empire",
+      "Kidarites",
+      "Vakataka Kingdom",
+      "Kalabhra Dynasty",
+      "Kamarupa Kingdom",
+      "Western Jin",
+      "Protectorate of the Western Regions",
+      "White Huns",
+      "Later Qin",
+      "Tuyuhun",
+      "Lakhmid Kingdom",
+      "Funan",
+      "Himyarite Kingdom",
+      "Kadamba Empire",
+      "Northern Liang",
+      "Xia"
+    ]
+  }
+}

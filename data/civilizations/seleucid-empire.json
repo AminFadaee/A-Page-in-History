@@ -42,6 +42,7 @@
   ],
   "predecessors": [],
   "successors": [
+    "Kingdom of Cappadocia",
     "Parthian Empire"
   ],
   "succession": {
@@ -52,12 +53,22 @@
         "name": "Seleucid Empire"
       },
       {
+        "id": "Q29654286",
+        "layer": 2,
+        "name": "Kingdom of Cappadocia"
+      },
+      {
         "id": "Q1986139",
         "layer": 2,
         "name": "Parthian Empire"
       }
     ],
     "edges": [
+      [
+        "Q93180",
+        "Q29654286",
+        "Turkey"
+      ],
       [
         "Q93180",
         "Q1986139",

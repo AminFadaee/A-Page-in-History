@@ -1,0 +1,89 @@
+{
+  "id": "Q201038",
+  "slug": "roman-kingdom",
+  "name": "Roman Kingdom",
+  "wikipedia": "Roman Kingdom",
+  "map_year": -750,
+  "period": {
+    "start": {
+      "earliest": -753,
+      "latest": -753,
+      "circa": false
+    },
+    "end": {
+      "earliest": -509,
+      "latest": -509,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Rome",
+      "location": [
+        12.482777777778,
+        41.893055555556
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Roman Republic"
+  ],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q2186",
+      "name": "Romulus"
+    },
+    {
+      "id": "Q200031",
+      "name": "Numa Pompilius"
+    },
+    {
+      "id": "Q200859",
+      "name": "Tullus Hostilius"
+    },
+    {
+      "id": "Q206741",
+      "name": "Ancus Marcius"
+    },
+    {
+      "id": "Q212671",
+      "name": "Lucius Tarquinius Priscus"
+    },
+    {
+      "id": "Q192998",
+      "name": "Servius Tullius"
+    },
+    {
+      "id": "Q193047",
+      "name": "Lucius Tarquinius Superbus"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "Vatican City"
+  ],
+  "map": "maps/roman-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rome",
+        "Roma"
+      ],
+      "infobox": [
+        "Rome"
+      ]
+    },
+    "cliopatria_years": [
+      -750,
+      -481
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Etruscans"
+    ]
+  }
+}

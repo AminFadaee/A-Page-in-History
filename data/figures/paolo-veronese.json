@@ -1,0 +1,36 @@
+{
+  "id": "Q9440",
+  "slug": "paolo-veronese",
+  "name": "Paolo Veronese",
+  "wikipedia": "Paolo Veronese",
+  "role": "Italian Renaissance painter",
+  "life": "1528–1588",
+  "lifetime": [
+    1528,
+    1588
+  ],
+  "occupation": "Painter",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Republic of Venice"
+  ],
+  "related": [],
+  "contribution": "An Italian Renaissance painter based in Venice, known for extremely large history paintings of religion and mythology, such as The Wedding at Cana and The Feast in the House of Levi.",
+  "image": "images/paolo-veronese.jpg",
+  "image_credit": "Paolo Veronese · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Venice"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Republic of Venice"
+      ]
+    },
+    "lead": "Paolo Caliari (1528 – 19 April 1588), known as Paolo Veronese ( VERR-ə-NAY-zay, -⁠zee, US also  -⁠see; Italian: [ˈpaːolo veroˈneːze, -eːse]), was an Italian Renaissance painter based in Venice, known for extremely large history paintings of religion and mythology, such as The Wedding at Cana (1563) and The Feast in the House of Levi (1573). Included with Titian, a generation older, and Tintoretto, a decade senior, Veronese is one of the \"great trio that dominated Venetian painting of the cinquecento\" and the Late Renaissance in the 16th century. Known as a supreme colorist, and after an early period with Mannerism, Paolo Veronese developed a naturalist style of painting, influenced by Titian.",
+    "photo": "no death year in or after 1860"
+  }
+}

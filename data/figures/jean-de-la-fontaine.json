@@ -1,0 +1,36 @@
+{
+  "id": "Q49496",
+  "slug": "jean-de-la-fontaine",
+  "name": "Jean de La Fontaine",
+  "wikipedia": "Jean de La Fontaine",
+  "role": "French fabulist and poet",
+  "life": "1621–1695",
+  "lifetime": [
+    1621,
+    1695
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French fabulist and one of the most widely read French poets of the 17th century.",
+  "image": "images/jean-de-la-fontaine.jpg",
+  "image_credit": "Henri Millot · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jean de La Fontaine (UK: , US: ; French: [ʒɑ̃ d(ə) la fɔ̃tɛn]; 8 July 1621 – 13 April 1695) was a French fabulist and one of the most widely read French poets of the 17th century. He is known above all for his Fables, which provided a model for subsequent fabulists across Europe and numerous alternative versions in France, as well as in French regional languages.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "Q152115",
+  "slug": "duchy-of-warsaw",
+  "name": "Duchy of Warsaw",
+  "wikipedia": "Duchy of Warsaw",
+  "map_year": 1812,
+  "period": {
+    "start": {
+      "earliest": 1807,
+      "latest": 1807,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1815,
+      "latest": 1815,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Warsaw",
+      "location": [
+        21.011111111111113,
+        52.23
+      ]
+    }
+  ],
+  "predecessors": [
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q152115",
+        "layer": 1,
+        "name": "Duchy of Warsaw"
+      },
+      {
+        "id": "Q172107",
+        "layer": 0,
+        "name": "Polish-Lithuanian Commonwealth"
+      }
+    ],
+    "edges": [
+      [
+        "Q172107",
+        "Q152115",
+        "Poland"
+      ]
+    ],
+    "question": "successions/duchy-of-warsaw-question.png",
+    "answer": "successions/duchy-of-warsaw-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Poland"
+  ],
+  "map": "maps/duchy-of-warsaw.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Warsaw"
+      ],
+      "infobox": [
+        "Warsaw",
+        "Toruń"
+      ]
+    },
+    "cliopatria_years": [
+      1809,
+      1813
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "First French Empire",
+      "Austrian Empire",
+      "Kingdom of Great Britain",
+      "Kingdom of Bavaria",
+      "Italian Republic",
+      "Bessarabia",
+      "Principality of Wallachia",
+      "Kingdom of Westphalia",
+      "Helvetic Republic",
+      "Kingdom of Saxony"
+    ]
+  }
+}

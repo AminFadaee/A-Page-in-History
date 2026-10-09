@@ -1,0 +1,38 @@
+{
+  "id": "Q93284",
+  "slug": "marc-chagall",
+  "name": "Marc Chagall",
+  "wikipedia": "Marc Chagall",
+  "role": "Russian and French artist",
+  "life": "1887–1985",
+  "lifetime": [
+    1887,
+    1985
+  ],
+  "occupation": "Painter",
+  "birth_country": "Belarus",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian and French artist of Jewish ancestry.",
+  "image": "images/marc-chagall.jpg",
+  "image_credit": "Pierre Choumoff · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Marc Chagall (born Moishe Shagal; 6 July [O.S. 24 June] 1887 – 28 March 1985) was a Russian and French artist of Jewish ancestry. An early modernist, he was associated with the École de Paris, as well as several major artistic styles and created works in a wide range of artistic formats, including painting, drawings, book illustrations, stained glass, stage sets, ceramics, tapestries and fine art prints.",
+    "photo": "captured 1920sdate QS:P,+1920-00-00T00:00:00Z/8 during their lifetime"
+  }
+}

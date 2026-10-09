@@ -1,0 +1,38 @@
+{
+  "id": "Q80516",
+  "slug": "pope-julius-ii",
+  "name": "Pope Julius II",
+  "wikipedia": "Pope Julius II",
+  "role": "Head of the Catholic Church from 1503 to 1513",
+  "life": "1443–1513",
+  "lifetime": [
+    1443,
+    1513
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 1503 to his death, in February 1513.",
+  "image": "images/pope-julius-ii.jpg",
+  "image_credit": "Raphael · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Genoa"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [
+        "Papal States"
+      ],
+      "birthplace": []
+    },
+    "lead": "Pope Julius II (Latin: Iulius II; Italian: Giulio II; born Giuliano della Rovere; 5 December 1443 – 21 February 1513) was head of the Catholic Church and leader of the Papal States from 1503 to his death, in February 1513.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q60039",
+  "slug": "reinhard-heydrich",
+  "name": "Reinhard Heydrich",
+  "wikipedia": "Reinhard Heydrich",
+  "role": "German high-ranking Nazi official",
+  "life": "1904–1942",
+  "lifetime": [
+    1904,
+    1942
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany",
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A high-ranking SS and police official in Nazi Germany as well as one of the principal architects of the Holocaust.",
+  "image": "images/reinhard-heydrich.jpg",
+  "image_credit": "Heinrich Hoffmann · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Nazi Germany",
+        "Weimar Republic",
+        "German Empire"
+      ],
+      "lead": [
+        "Nazi Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Reinhard Tristan Eugen Heydrich (; German: [ˈʁaɪnhaʁt ˈtʁɪstan ˈʔɔʏɡn̩ ˈhaɪdʁɪç] ; 7 March 1904 – 4 June 1942) was a high-ranking SS and police official in Nazi Germany as well as one of the principal architects of the Holocaust. He held the rank of SS-Obergruppenführer und General der Polizei. Many historians regard Heydrich as one of the most sinister figures within the Nazi regime. Adolf Hitler described him as \"the man with the iron heart\".",
+    "photo": "captured 1940date QS:P571,+1940-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

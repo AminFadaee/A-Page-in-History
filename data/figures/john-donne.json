@@ -1,0 +1,36 @@
+{
+  "id": "Q140412",
+  "slug": "john-donne",
+  "name": "John Donne",
+  "wikipedia": "John Donne",
+  "role": "English poet and cleric",
+  "life": "1572–1631",
+  "lifetime": [
+    1572,
+    1631
+  ],
+  "occupation": "Writer",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English poet, scholar, soldier and secretary born into a recusant family, who later became a cleric in the Church of England.",
+  "image": "images/john-donne.jpg",
+  "image_credit": "After Isaac Oliver · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "John Donne ( DUN; 1571 or 1572 – 31 March 1631) was an English poet, scholar, soldier and secretary born into a recusant family, who later became a cleric in the Church of England. Under royal patronage, he was made Dean of St Paul's Cathedral in London (1621–1631). He is considered the preeminent representative of the metaphysical poets. His poetical works are noted for their metaphorical and sensual style and include sonnets, love poems, religious poems, Latin translations, epigrams, elegies, songs and satires. He is also known for his sermons.",
+    "photo": "no death year in or after 1860"
+  }
+}

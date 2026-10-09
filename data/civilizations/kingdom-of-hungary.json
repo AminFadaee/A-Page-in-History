@@ -1,0 +1,124 @@
+{
+  "id": "Q171150",
+  "slug": "kingdom-of-hungary",
+  "name": "Kingdom of Hungary",
+  "wikipedia": "Kingdom of Hungary",
+  "map_year": 1487,
+  "period": {
+    "start": {
+      "earliest": 1000,
+      "latest": 1000,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1946,
+      "latest": 1946,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Budapest",
+      "location": [
+        19.040833333333,
+        47.498333333333
+      ]
+    }
+  ],
+  "predecessors": [
+    "Principality of Hungary"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q171150",
+        "layer": 1,
+        "name": "Kingdom of Hungary"
+      },
+      {
+        "id": "Q2899771",
+        "layer": 0,
+        "name": "Principality of Hungary"
+      }
+    ],
+    "edges": [
+      [
+        "Q2899771",
+        "Q171150",
+        "Hungary, Romania, Slovakia"
+      ]
+    ],
+    "question": "successions/kingdom-of-hungary-question.png",
+    "answer": "successions/kingdom-of-hungary-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q177903",
+      "name": "Stephen I of Hungary"
+    },
+    {
+      "id": "Q51068",
+      "name": "Charles I of Austria"
+    }
+  ],
+  "modern_countries": [
+    "Romania",
+    "Hungary",
+    "Austria",
+    "Slovakia",
+    "Croatia",
+    "Poland",
+    "Czech Republic",
+    "Serbia"
+  ],
+  "map": "maps/kingdom-of-hungary.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Budapest"
+      ],
+      "infobox": [
+        "Budapest",
+        "List of historical capitals of Hungary",
+        "Esztergom",
+        "Timișoara",
+        "Visegrád, Hungary",
+        "Buda",
+        "Vienna",
+        "Bratislava",
+        "Debrecen",
+        "Székesfehérvár",
+        "Diet of Hungary"
+      ]
+    },
+    "cliopatria_years": [
+      1000,
+      1546
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "House of Jagiellon",
+      "Ottoman Empire",
+      "Principality of Moldavia",
+      "Principality of Wallachia",
+      "Kingdom of Bohemia",
+      "House of Habsburg",
+      "Electorate of Brandenburg",
+      "Republic of Venice",
+      "Duchy of Bavaria",
+      "Kingdom of France",
+      "Crimean Khanate",
+      "Kingdom of England",
+      "Habsburg Monarchy",
+      "Kingdom of Naples",
+      "Papal States",
+      "Teutonic Order",
+      "County of Savoy",
+      "House of Bourbon",
+      "Duchy of Milan"
+    ]
+  }
+}

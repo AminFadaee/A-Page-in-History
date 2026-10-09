@@ -1,0 +1,142 @@
+{
+  "id": "Q33296",
+  "slug": "mughal-empire",
+  "name": "Mughal Empire",
+  "wikipedia": "Mughal Empire",
+  "map_year": 1700,
+  "period": {
+    "start": {
+      "earliest": 1526,
+      "latest": 1526,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1857,
+      "latest": 1857,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Agra",
+      "location": [
+        78.02,
+        27.18
+      ]
+    },
+    {
+      "name": "Fatehpur Sikri",
+      "location": [
+        77.661111111111,
+        27.091111111111
+      ]
+    },
+    {
+      "name": "Lahore",
+      "location": [
+        74.343611111111,
+        31.549722222222
+      ]
+    },
+    {
+      "name": "Delhi",
+      "location": [
+        77.216666666667,
+        28.666666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Durrani Empire",
+    "British Raj"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q33296",
+        "layer": 1,
+        "name": "Mughal Empire"
+      },
+      {
+        "id": "Q467627",
+        "layer": 2,
+        "name": "Durrani Empire"
+      },
+      {
+        "id": "Q129286",
+        "layer": 2,
+        "name": "British Raj"
+      }
+    ],
+    "edges": [
+      [
+        "Q33296",
+        "Q467627",
+        "Pakistan, India, Afghanistan"
+      ],
+      [
+        "Q33296",
+        "Q129286",
+        "India"
+      ]
+    ],
+    "question": "successions/mughal-empire-question.png",
+    "answer": "successions/mughal-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q797848",
+      "name": "Babur"
+    },
+    {
+      "id": "Q127369",
+      "name": "Bahadur Shah Zafar"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Afghanistan",
+    "Bangladesh",
+    "Siachen Glacier"
+  ],
+  "map": "maps/mughal-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Agra",
+        "Fatehpur Sikri",
+        "Shahjahanabad",
+        "Lahore",
+        "Delhi"
+      ],
+      "infobox": [
+        "Agra",
+        "Delhi",
+        "Fatehpur Sikri",
+        "Lahore"
+      ]
+    },
+    "cliopatria_years": [
+      1529,
+      1858
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Safavid Dynasty",
+      "Dzungar Khanate",
+      "Tibet",
+      "Khanate of Bukhara",
+      "Qing Dynasty",
+      "Ottoman Empire",
+      "First Toungoo Empire",
+      "Ethiopian Empire",
+      "Ayutthaya Kingdom",
+      "Khanate of Khiva",
+      "Trịnh lords"
+    ]
+  }
+}

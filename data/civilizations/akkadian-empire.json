@@ -1,0 +1,56 @@
+{
+  "id": "Q4461035",
+  "slug": "akkadian-empire",
+  "name": "Akkadian Empire",
+  "wikipedia": "Akkadian Empire",
+  "map_year": -2250,
+  "period": {
+    "start": {
+      "earliest": -2334,
+      "latest": -2334,
+      "circa": true
+    },
+    "end": {
+      "earliest": -2083,
+      "latest": -2083,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Akkad",
+      "location": null
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iraq",
+    "Syria",
+    "Iran",
+    "Turkey"
+  ],
+  "map": "maps/akkadian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Akkad"
+      ],
+      "infobox": [
+        "Akkad"
+      ]
+    },
+    "cliopatria_years": [
+      -2300,
+      -2101
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Old Kingdom of Egypt"
+    ]
+  }
+}

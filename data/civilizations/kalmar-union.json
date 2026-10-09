@@ -1,0 +1,100 @@
+{
+  "id": "Q62623",
+  "slug": "kalmar-union",
+  "name": "Kalmar Union",
+  "wikipedia": "Kalmar Union",
+  "map_year": 1482,
+  "period": {
+    "start": {
+      "earliest": 1397,
+      "latest": 1397,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1523,
+      "latest": 1523,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Copenhagen",
+      "location": [
+        12.568888888889,
+        55.676111111111
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Denmark-Norway"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q62623",
+        "layer": 1,
+        "name": "Kalmar Union"
+      },
+      {
+        "id": "Q62651",
+        "layer": 2,
+        "name": "Denmark-Norway"
+      }
+    ],
+    "edges": [
+      [
+        "Q62623",
+        "Q62651",
+        "Norway, Iceland, Sweden"
+      ]
+    ],
+    "question": "successions/kalmar-union-question.png",
+    "answer": "successions/kalmar-union-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Sweden",
+    "Norway",
+    "Finland",
+    "Iceland",
+    "Denmark",
+    "Faroe Islands",
+    "Åland"
+  ],
+  "map": "maps/kalmar-union.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Copenhagen",
+        "Roskilde",
+        "Stockholm",
+        "Uppsala",
+        "Oslo"
+      ],
+      "infobox": [
+        "De facto and de jure",
+        "Copenhagen"
+      ]
+    },
+    "cliopatria_years": [
+      1402,
+      1525
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Grand Principality of Moscow",
+      "Holy Roman Empire Minor States",
+      "Kingdom of England",
+      "House of Jagiellon",
+      "Golden Horde",
+      "Kingdom of Hungary",
+      "Kingdom of France",
+      "Khanate of Kazan",
+      "Astrakhan Khanate",
+      "Crimean Khanate"
+    ]
+  }
+}

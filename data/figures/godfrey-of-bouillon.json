@@ -1,0 +1,42 @@
+{
+  "id": "Q76721",
+  "slug": "godfrey-of-bouillon",
+  "name": "Godfrey of Bouillon",
+  "wikipedia": "Godfrey of Bouillon",
+  "role": "Ruler of Jerusalem from 1099 to 1100",
+  "life": "1060–1100",
+  "lifetime": [
+    1060,
+    1100
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of Jerusalem"
+  ],
+  "related": [
+    "Fatimid Caliphate"
+  ],
+  "contribution": "A preeminent leader of the First Crusade, and the first ruler of the Kingdom of Jerusalem from 1099 to 1100.",
+  "image": "images/godfrey-of-bouillon.jpg",
+  "image_credit": "Maître de Fauvel · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Jerusalem",
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Kingdom of Jerusalem",
+        "Fatimid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "County of Flanders"
+      ]
+    },
+    "lead": "Godfrey of Bouillon (c. 1060 – 18 July 1100) was a preeminent leader of the First Crusade, and the first ruler of the Kingdom of Jerusalem from 1099 to 1100. Although initially reluctant to take the title of king, he agreed to rule as prince (princeps) under the title Advocatus Sancti Sepulchri, or Advocate of the Holy Sepulchre.",
+    "photo": "no death year in or after 1860"
+  }
+}

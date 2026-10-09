@@ -1,0 +1,48 @@
+{
+  "id": "Q2677",
+  "slug": "wilhelm-ii",
+  "name": "Wilhelm II",
+  "wikipedia": "Wilhelm II",
+  "role": "German Emperor from 1888 to 1918",
+  "life": "1859–1941",
+  "lifetime": [
+    1859,
+    1941
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire"
+  ],
+  "related": [
+    "Austria-Hungary",
+    "Ottoman Empire",
+    "Russian Empire",
+    "Weimar Republic"
+  ],
+  "contribution": "The last German Emperor from 1888 until his abdication in 1918.",
+  "image": "images/wilhelm-ii.jpg",
+  "image_credit": "Studio of Thomas Heinrich Voigt · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia",
+        "German Empire"
+      ],
+      "lead": [
+        "German Empire",
+        "Austria-Hungary",
+        "Ottoman Empire",
+        "Russian Empire",
+        "Weimar Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Wilhelm II (Friedrich Wilhelm Viktor Albert; 27 January 1859 – 4 June 1941) was the last German Emperor from 1888 until his abdication in 1918. His fall from power marked the end of the German Empire as well as the Hohenzollern dynasty's 400-year rule over Prussia.",
+    "photo": "captured 1902date QS:P571,+1902-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

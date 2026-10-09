@@ -1,0 +1,41 @@
+{
+  "id": "Q126711",
+  "slug": "pope-benedict-xiv",
+  "name": "Pope Benedict XIV",
+  "wikipedia": "Pope Benedict XIV",
+  "role": "Head of the Catholic Church from 1740 to 1758",
+  "life": "1675–1758",
+  "lifetime": [
+    1675,
+    1758
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [
+    "Kingdom of Portugal"
+  ],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 17 August 1740 to his death on 3 May 1758.",
+  "image": "images/pope-benedict-xiv.jpg",
+  "image_credit": "Pierre Subleyras · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States",
+        "Kingdom of Portugal"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Benedict XIV (Latin: Benedictus XIV; Italian: Benedetto XIV; 31 March 1675 – 3 May 1758), born Prospero Lorenzo Lambertini, was head of the Catholic Church and leader of the Papal States from 17 August 1740 to his death on 3 May 1758. His intellectualism and advocacy of science education earned him the nickname \"the Enlightenment Pope\".",
+    "photo": "no death year in or after 1860"
+  }
+}

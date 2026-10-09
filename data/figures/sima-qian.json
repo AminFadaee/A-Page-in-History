@@ -1,0 +1,39 @@
+{
+  "id": "Q9372",
+  "slug": "sima-qian",
+  "name": "Sima Qian",
+  "wikipedia": "Sima Qian",
+  "role": "Chinese historian",
+  "life": "145–86 BC",
+  "lifetime": [
+    -145,
+    -86
+  ],
+  "occupation": "Historian",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [
+    "Xiongnu"
+  ],
+  "contribution": "A Chinese historian during the early Han dynasty.",
+  "image": "images/sima-qian.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Han Dynasty",
+        "Xiongnu"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Sima Qian (c. 145 BC – c. 86 BC) was a Chinese historian during the early Han dynasty. He is considered the father of Chinese historiography for the Shiji (sometimes translated into English as Records of the Grand Historian), a general history of China covering more than two thousand years from the rise of the legendary Yellow Emperor and formation of the first Chinese polity to the reign of Emperor Wu of Han, during which Sima wrote. As the first universal history of the world as it was known to the ancient Chinese, the Shiji served as a model for official histories for subsequent dynasties across the Sinosphere until the 20th century.",
+    "photo": "no death year in or after 1860"
+  }
+}

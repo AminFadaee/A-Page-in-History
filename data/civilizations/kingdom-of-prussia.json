@@ -1,0 +1,126 @@
+{
+  "id": "Q27306",
+  "slug": "kingdom-of-prussia",
+  "name": "Kingdom of Prussia",
+  "wikipedia": "Kingdom of Prussia",
+  "map_year": 1806,
+  "period": {
+    "start": {
+      "earliest": 1701,
+      "latest": 1701,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "Brandenburg-Prussia"
+  ],
+  "successors": [
+    "German Confederation"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q27306",
+        "layer": 1,
+        "name": "Kingdom of Prussia"
+      },
+      {
+        "id": "Q157367",
+        "layer": 0,
+        "name": "Brandenburg-Prussia"
+      },
+      {
+        "id": "Q151624",
+        "layer": 2,
+        "name": "German Confederation"
+      },
+      {
+        "id": "Q154741",
+        "layer": 1,
+        "name": "Confederation of the Rhine"
+      }
+    ],
+    "edges": [
+      [
+        "Q157367",
+        "Q27306",
+        "Poland, Germany, Russia"
+      ],
+      [
+        "Q154741",
+        "Q151624",
+        "Poland, Germany"
+      ],
+      [
+        "Q27306",
+        "Q151624",
+        "Poland, Germany"
+      ]
+    ],
+    "question": "successions/kingdom-of-prussia-question.png",
+    "answer": "successions/kingdom-of-prussia-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q151826",
+      "name": "Frederick I of Prussia"
+    },
+    {
+      "id": "Q2677",
+      "name": "Wilhelm II"
+    }
+  ],
+  "modern_countries": [
+    "Poland",
+    "Germany"
+  ],
+  "map": "maps/kingdom-of-prussia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Berlin"
+      ],
+      "infobox": [
+        "Berlin",
+        "Königsberg"
+      ]
+    },
+    "cliopatria_years": [
+      1702,
+      1863
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Austrian Empire",
+      "First French Empire",
+      "Swedish Empire",
+      "Denmark-Norway",
+      "Kingdom of Bavaria",
+      "Kingdom of Saxony",
+      "Batavian Republic",
+      "Grand Duchy of Hesse",
+      "Kingdom of Great Britain",
+      "Principality of Moldavia",
+      "Principality of Wallachia",
+      "Helvetic Republic",
+      "Italian Republic"
+    ]
+  }
+}

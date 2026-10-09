@@ -1,0 +1,40 @@
+{
+  "id": "Q35314",
+  "slug": "nikita-khrushchev",
+  "name": "Nikita Khrushchev",
+  "wikipedia": "Nikita Khrushchev",
+  "role": "Leader of the Soviet Union from 1953 to 1964",
+  "life": "1894–1971",
+  "lifetime": [
+    1894,
+    1971
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
+  ],
+  "related": [],
+  "contribution": "The First Secretary of the Communist Party of the Soviet Union from 1953 to 1964 and the Chairman of the Council of Ministers from 1958 to 1964.",
+  "image": "images/nikita-khrushchev.jpg",
+  "image_credit": "TASS / distributed by Associated Press · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Nikita Sergeyevich Khrushchev (15 April [O.S. 3 April] 1894 – 11 September 1971) was the First Secretary of the Communist Party of the Soviet Union from 1953 to 1964 and the Chairman of the Council of Ministers from 1958 to 1964. As leader of the Soviet Union, he shocked the world by denouncing his predecessor Joseph Stalin, embarking on a campaign of de-Stalinization, and presiding over the Cuban Missile Crisis in 1962.",
+    "photo": "captured 1959-09-14 during their lifetime"
+  }
+}

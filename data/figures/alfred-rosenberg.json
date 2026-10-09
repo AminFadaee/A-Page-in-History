@@ -1,0 +1,43 @@
+{
+  "id": "Q75849",
+  "slug": "alfred-rosenberg",
+  "name": "Alfred Rosenberg",
+  "wikipedia": "Alfred Rosenberg",
+  "role": "Baltic German Nazi theorist and war criminal",
+  "life": "1893–1946",
+  "lifetime": [
+    1893,
+    1946
+  ],
+  "occupation": "Politician",
+  "birth_country": "Estonia",
+  "civilizations": [
+    "Russian Empire",
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A Baltic German Nazi philosopher and convicted war criminal.",
+  "image": "images/alfred-rosenberg.jpg",
+  "image_credit": "United States Army Signal Corps photographer · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics",
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Nazi Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Alfred Ernst Rosenberg (12 January 1893 [O.S. 31 December 1892] – 16 October 1946) was a Baltic German Nazi philosopher and convicted war criminal.",
+    "photo": "captured 1945-11-24 during their lifetime"
+  }
+}

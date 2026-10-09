@@ -1,0 +1,47 @@
+{
+  "id": "Q8468",
+  "slug": "temur-khan",
+  "name": "Temür Khan",
+  "wikipedia": "Temür Khan",
+  "role": "Emperor of Yuan China from 1294 to 1307",
+  "life": "1265–1307",
+  "lifetime": [
+    1265,
+    1307
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Mongol Empire",
+    "Yuan Dynasty"
+  ],
+  "related": [
+    "Pagan Kingdom",
+    "Kamakura Shogunate"
+  ],
+  "contribution": "The second emperor of the Yuan dynasty of China, ruling from 10 May 1294 to 10 February 1307.",
+  "image": "images/temur-khan.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Yuan Dynasty"
+      ],
+      "lead": [
+        "Yuan Dynasty",
+        "Mongol Empire",
+        "Pagan Kingdom",
+        "Kamakura Shogunate"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": [
+        "Mongol Empire"
+      ]
+    },
+    "lead": "Öljeyitü Khan (Mongolian: Өлзийт Хаан; Mongolian script: ᠥᠯᠵᠡᠶᠢᠲᠦ Öljeyitü; Chinese: 完澤篤汗), born Temür (Mongolian: Төмөр ᠲᠡᠮᠦᠷ; Chinese: 鐵穆耳; 15 October 1265 – 10 February 1307), also known by his temple name as the Emperor Chengzong of Yuan (Chinese: 元成宗; pinyin: Yuán Chéngzōng; Wade–Giles: Yüan2 Ch'eng2-tsung1), was the second emperor of the Yuan dynasty of China, ruling from 10 May 1294 to 10 February 1307. Apart from being the Emperor of China, he is considered as the sixth Great Khan of the Mongol Empire, although it was only nominal due to the division of the empire. He was an able ruler of the Yuan dynasty, and his reign established the patterns of power for the next few decades.",
+    "photo": "no death year in or after 1860"
+  }
+}

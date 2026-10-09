@@ -1,0 +1,37 @@
+{
+  "id": "Q148285",
+  "slug": "osho",
+  "name": "Osho",
+  "wikipedia": "Osho",
+  "role": "Indian mystic",
+  "life": "1931–1990",
+  "lifetime": [
+    1931,
+    1990
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian godman, and founder of the new religious movement, the Rajneesh movement.",
+  "image": "images/osho.jpg",
+  "image_credit": "Sjakkelien Vollebregt · CC0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of India",
+        "British Raj"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Osho (pronounced [ˈoːʃoː] ; born Chandra Mohan Jain; 11 December 1931 – 19 January 1990), also known as Bhagwan Shree Rajneesh, Acharya Rajneesh, and simply Rajneesh, was an Indian godman, and founder of the new religious movement, the Rajneesh movement. He rejected institutional religions, insisting that spiritual experience could not be organized into any one system of religious dogma. As a guru, he advocated meditation and taught a unique form called dynamic meditation. Rejecting traditional ascetic practices, he encouraged his followers to embrace life fully while remaining unattached to worldly desires.",
+    "photo": "captured 1984-09-11 during their lifetime"
+  }
+}

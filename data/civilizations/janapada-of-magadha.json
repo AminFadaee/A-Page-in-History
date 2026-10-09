@@ -1,0 +1,48 @@
+{
+  "id": "Q234009",
+  "slug": "janapada-of-magadha",
+  "name": "Janapada of Magadha",
+  "wikipedia": "Magadha",
+  "map_year": -600,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Rajgir",
+      "location": [
+        85.42,
+        25.03
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "map": "maps/janapada-of-magadha.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rajgir"
+      ],
+      "infobox": [
+        "Rajgir",
+        "Pataliputra",
+        "Patna"
+      ]
+    },
+    "cliopatria_years": [
+      -600,
+      -501
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

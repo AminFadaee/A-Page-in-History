@@ -1,0 +1,111 @@
+{
+  "id": "Q41304",
+  "slug": "weimar-republic",
+  "name": "Weimar Republic",
+  "wikipedia": "Weimar Republic",
+  "map_year": 1932,
+  "period": {
+    "start": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1933,
+      "latest": 1933,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "German Empire"
+  ],
+  "successors": [
+    "Nazi Germany"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q41304",
+        "layer": 1,
+        "name": "Weimar Republic"
+      },
+      {
+        "id": "Q43287",
+        "layer": 0,
+        "name": "German Empire"
+      },
+      {
+        "id": "Q207272",
+        "layer": 1,
+        "name": "Second Polish Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q43287",
+        "Q41304",
+        "Germany, Poland"
+      ],
+      [
+        "Q43287",
+        "Q207272",
+        "Poland, Belarus, Ukraine"
+      ]
+    ],
+    "question": "successions/weimar-republic-question.png",
+    "answer": "successions/weimar-republic-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q2646",
+      "name": "Friedrich Ebert"
+    },
+    {
+      "id": "Q2667",
+      "name": "Paul von Hindenburg"
+    }
+  ],
+  "modern_countries": [
+    "Germany",
+    "Poland"
+  ],
+  "map": "maps/weimar-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Berlin"
+      ],
+      "infobox": [
+        "Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1920,
+      1935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "French Third Republic",
+      "Second Polish Republic",
+      "Republic of Austria",
+      "Kingdom of Lithuania",
+      "Kingdom of Belgium",
+      "Kingdom of Romania",
+      "Yugoslavia",
+      "Hungarian Republic",
+      "Republic of Latvia",
+      "Irish Free State"
+    ]
+  }
+}

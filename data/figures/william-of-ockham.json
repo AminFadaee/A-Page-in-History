@@ -1,0 +1,36 @@
+{
+  "id": "Q43936",
+  "slug": "william-of-ockham",
+  "name": "William of Ockham",
+  "wikipedia": "William of Ockham",
+  "role": "English Franciscan friar and theologian",
+  "life": "c. 1287–1349",
+  "lifetime": [
+    1287,
+    1349
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English Franciscan friar, scholastic philosopher and theologian.",
+  "image": "images/william-of-ockham.jpg",
+  "image_credit": "self-created (Moscarlop) · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "William of Ockham or Occam ( OK-əm; Latin: Guillelmus de Ockham; c. 1287 – 9/10 April 1347) was an English Franciscan friar, scholastic philosopher and theologian. He is considered to be one of the major figures of medieval thought and was at the centre of the major intellectual and political controversies of the 14th century. The nominalists of the fifteenth century regarded him as one of the founders of their movement. He is widely known for Occam's razor, the methodological principle that bears his name. He produced significant works on logic, physics and theology. Ockham is remembered in the Church of England with a commemoration corresponding to the commonly ascribed date of his death on 10 April.",
+    "photo": "no death year in or after 1860"
+  }
+}

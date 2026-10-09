@@ -1,0 +1,47 @@
+{
+  "id": "Q164745",
+  "slug": "amin-al-husseini",
+  "name": "Amin al-Husseini",
+  "wikipedia": "Amin al-Husseini",
+  "role": "Palestinian Arab nationalist",
+  "life": "1895–1974",
+  "lifetime": [
+    1895,
+    1974
+  ],
+  "occupation": "Politician",
+  "birth_country": "Israel",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Kingdom of Iraq",
+    "Kingdom of Italy",
+    "Nazi Germany",
+    "Kingdom of Jordan"
+  ],
+  "contribution": "A Palestinian Arab nationalist and Muslim leader in Mandatory Palestine.",
+  "image": "images/amin-al-husseini.jpg",
+  "image_credit": "American Colony (Jerusalem), Photo Dept., photographer · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire",
+        "Kingdom of Iraq",
+        "Kingdom of Italy",
+        "Nazi Germany",
+        "Kingdom of Jordan"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Mohammed Amin al-Husseini (Arabic: محمد أمين الحسيني; c. 1897 – 4 July 1974) was a Palestinian Arab nationalist and Muslim leader in Mandatory Palestine. He was the scion of the al-Husayni family of Jerusalemite Arab nobles, who trace their origins to the Islamic prophet Muhammad.",
+    "photo": "captured circa 1929date QS:P,+1929-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

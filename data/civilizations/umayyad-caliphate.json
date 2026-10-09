@@ -34,8 +34,7 @@
     }
   ],
   "predecessors": [
-    "Rashidun Caliphate",
-    "Eastern Roman Empire"
+    "Rashidun Caliphate"
   ],
   "successors": [
     "Abbasid Caliphate",
@@ -54,11 +53,6 @@
         "name": "Rashidun Caliphate"
       },
       {
-        "id": "Q12544",
-        "layer": 0,
-        "name": "Eastern Roman Empire"
-      },
-      {
         "id": "Q12536",
         "layer": 2,
         "name": "Abbasid Caliphate"
@@ -74,11 +68,6 @@
         "Q12490507",
         "Q8575586",
         "Saudi Arabia, Iran"
-      ],
-      [
-        "Q12544",
-        "Q8575586",
-        "Egypt, Turkey, Libya"
       ],
       [
         "Q8575586",

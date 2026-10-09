@@ -1,0 +1,38 @@
+{
+  "id": "Q47842",
+  "slug": "empress-dowager-cixi",
+  "name": "Empress Dowager Cixi",
+  "wikipedia": "Empress Dowager Cixi",
+  "role": "Regent of China from 1861 to 1908",
+  "life": "1835–1908",
+  "lifetime": [
+    1835,
+    1908
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Manchu noblewoman of the Yehe Nara clan who periodically controlled the government of the late Qing dynasty as empress dowager and regent from 1861 until her death in 1908.",
+  "image": "images/empress-dowager-cixi.jpg",
+  "image_credit": "John Yu Shuinling · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty"
+      ],
+      "lead": [
+        "Qing Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Empress Dowager Cixi (Mandarin pronunciation: [tsʰɹ̩̌.ɕì]; 29 November 1835 – 15 November 1908) was a Manchu noblewoman of the Yehe Nara clan who periodically controlled the government of the late Qing dynasty as empress dowager and regent from 1861 until her death in 1908.",
+    "photo": "captured 1902date QS:P571,+1902-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "Q4948",
+  "slug": "republic-of-venice",
+  "name": "Republic of Venice",
+  "wikipedia": "Republic of Venice",
+  "map_year": 1687,
+  "period": {
+    "start": {
+      "earliest": 697,
+      "latest": 697,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1797,
+      "latest": 1797,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Venice",
+      "location": [
+        12.331944444444,
+        45.439722222222
+      ]
+    },
+    {
+      "name": "Eraclea",
+      "location": [
+        12.683333333333,
+        45.583333333333
+      ]
+    },
+    {
+      "name": "Malamocco",
+      "location": [
+        12.3383,
+        45.3717
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Austrian Empire",
+    "Cisalpine Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q4948",
+        "layer": 1,
+        "name": "Republic of Venice"
+      },
+      {
+        "id": "Q131964",
+        "layer": 2,
+        "name": "Austrian Empire"
+      },
+      {
+        "id": "Q153136",
+        "layer": 1,
+        "name": "Habsburg Monarchy"
+      }
+    ],
+    "edges": [
+      [
+        "Q153136",
+        "Q131964",
+        "Romania, Hungary, Poland"
+      ],
+      [
+        "Q4948",
+        "Q131964",
+        "Italy, Croatia"
+      ]
+    ],
+    "question": "successions/republic-of-venice-question.png",
+    "answer": "successions/republic-of-venice-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q336023",
+      "name": "Paolo Lucio Anafesto"
+    },
+    {
+      "id": "Q458677",
+      "name": "Ludovico Manin"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "Greece",
+    "Croatia"
+  ],
+  "map": "maps/republic-of-venice.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Venice",
+        "Eraclea",
+        "Malamocco"
+      ],
+      "infobox": [
+        "Eraclea",
+        "Malamocco",
+        "Venice"
+      ]
+    },
+    "cliopatria_years": [
+      705,
+      1796
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ottoman Empire",
+      "Habsburg Monarchy",
+      "Kingdom of Spain",
+      "Holy Roman Empire Minor States",
+      "Swiss Confederation",
+      "Papal States",
+      "Kingdom of France",
+      "Principality of Transylvania",
+      "Principality of Moldavia",
+      "Principality of Wallachia",
+      "Crimean Khanate",
+      "Small Horde",
+      "House of Savoy"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q42606",
+  "slug": "amenhotep-iii",
+  "name": "Amenhotep III",
+  "wikipedia": "Amenhotep III",
+  "role": "Ninth Pharaoh of the Eighteenth dynasty of Egypt",
+  "life": "c. 1400–1351 BC",
+  "lifetime": [
+    -1400,
+    -1351
+  ],
+  "occupation": "Politician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "New Kingdom of Egypt"
+  ],
+  "related": [],
+  "contribution": "The ninth pharaoh of the Eighteenth Dynasty.",
+  "image": "images/amenhotep-iii.jpg",
+  "image_credit": "Jon Bodsworth · Copyrighted free use",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "New Kingdom of Egypt"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "New Kingdom of Egypt"
+      ]
+    },
+    "lead": "Amenhotep III (lit. '\"Amun is satisfied\"'), also known as Amenhotep the Magnificent or Amenhotep the Great and Hellenized as Amenophis III, was the ninth pharaoh of the Eighteenth Dynasty. According to different authors following the \"Low Chronology\", he ruled Ancient Egypt from June 1386 to 1349 BC, or from June 1388 BC to December 1351 BC/1350 BC, after his father Thutmose IV died. Amenhotep was Thutmose's son by a minor wife, Mutemwiya.",
+    "photo": "no death year in or after 1860"
+  }
+}

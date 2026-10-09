@@ -1,0 +1,125 @@
+{
+  "id": "Q203817",
+  "slug": "first-bulgarian-empire",
+  "name": "First Bulgarian Empire",
+  "wikipedia": "First Bulgarian Empire",
+  "map_year": 850,
+  "period": {
+    "start": {
+      "earliest": 681,
+      "latest": 681,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1018,
+      "latest": 1018,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pliska",
+      "location": [
+        27.125411,
+        43.362015
+      ]
+    },
+    {
+      "name": "Veliki Preslav",
+      "location": [
+        26.811977,
+        43.160509
+      ]
+    },
+    {
+      "name": "Skopje",
+      "location": [
+        21.431666666666665,
+        41.99611111111111
+      ]
+    },
+    {
+      "name": "Ohrid",
+      "location": [
+        20.801944444444,
+        41.116944444444
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q189450",
+      "name": "Asparuh of Bulgaria"
+    },
+    {
+      "id": "Q311506",
+      "name": "Tervel of Bulgaria"
+    },
+    {
+      "id": "Q438637",
+      "name": "Kardam of Bulgaria"
+    },
+    {
+      "id": "Q192104",
+      "name": "Krum"
+    },
+    {
+      "id": "Q276527",
+      "name": "Omurtag of Bulgaria"
+    },
+    {
+      "id": "Q311057",
+      "name": "Boris I of Bulgaria"
+    }
+  ],
+  "modern_countries": [
+    "Romania",
+    "Bulgaria",
+    "Serbia",
+    "Ukraine",
+    "Hungary",
+    "North Macedonia",
+    "Kosovo"
+  ],
+  "map": "maps/first-bulgarian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pliska",
+        "Veliki Preslav",
+        "Skopje",
+        "Ohrid"
+      ],
+      "infobox": [
+        "Pliska",
+        "Veliki Preslav",
+        "Skopje",
+        "Ohrid",
+        "Bitola"
+      ]
+    },
+    "cliopatria_years": [
+      682,
+      1017
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Byzantine Empire",
+      "Khazaria",
+      "Magyars",
+      "East Franks",
+      "Great Moravia",
+      "Principality of Serbia",
+      "Middle Franks",
+      "Kingdom of the Iberians",
+      "Georgia",
+      "Duchy of Benevento",
+      "Duchy of Croatia"
+    ]
+  }
+}

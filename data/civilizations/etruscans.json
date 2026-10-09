@@ -1,0 +1,37 @@
+{
+  "id": "Q17161",
+  "slug": "etruscans",
+  "name": "Etruscans",
+  "wikipedia": "Etruscan civilization",
+  "map_year": -530,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Italy",
+    "France"
+  ],
+  "map": "maps/etruscans.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -750,
+      -265
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "labelled": [
+      "Greek City-States"
+    ]
+  }
+}

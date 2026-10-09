@@ -1,0 +1,38 @@
+{
+  "id": "Q132964",
+  "slug": "vladimir-mayakovsky",
+  "name": "Vladimir Mayakovsky",
+  "wikipedia": "Vladimir Mayakovsky",
+  "role": "Russian poet",
+  "life": "1893–1930",
+  "lifetime": [
+    1893,
+    1930
+  ],
+  "occupation": "Writer",
+  "birth_country": "Georgia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian poet, playwright, artist, and actor.",
+  "image": "images/vladimir-mayakovsky.jpg",
+  "image_credit": "Unidentified photographer · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics",
+        "Russian Republic"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Vladimir Vladimirovich Mayakovsky (19 July [O.S. 7 July] 1893 – 14 April 1930) was a Russian poet, playwright, artist, and actor. During his early, pre-Revolution period leading into 1917, Mayakovsky became renowned as a prominent figure of the Russian Futurist movement. He co-signed the Futurist manifesto, A Slap in the Face of Public Taste (1913), and wrote such poems as A Cloud in Trousers (1915) and Backbone Flute (1916). Mayakovsky produced a large and diverse body of work during the course of his career: he wrote poems, wrote and directed plays, appeared in films, edited the art journal LEF, and produced agitprop posters in support of the Communist Party during the Russian Civil War of 1917–1922.",
+    "photo": "captured circa 1920date QS:P571,+1920-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

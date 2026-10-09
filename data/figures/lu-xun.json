@@ -1,0 +1,37 @@
+{
+  "id": "Q23114",
+  "slug": "lu-xun",
+  "name": "Lu Xun",
+  "wikipedia": "Lu Xun",
+  "role": "Chinese novelist and essayist",
+  "life": "1881–1936",
+  "lifetime": [
+    1881,
+    1936
+  ],
+  "occupation": "Writer",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese writer.",
+  "image": "images/lu-xun.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty",
+        "Republic of China"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Lu Xun (Chinese: 魯迅; pinyin: Lǔ Xùn, [lù ɕŷn]; 25 September 1881 – 19 October 1936), pen name of Zhou Shuren, born Zhou Zhangshou, was a Chinese writer. A leading figure of modern Chinese literature, he wrote in both vernacular and literary Chinese as a novelist, literary critic, essayist, poet, translator and political commentator, known for his sharp, satirical style and critical reflections on Chinese history and culture.",
+    "photo": "captured 1930 during their lifetime"
+  }
+}

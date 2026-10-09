@@ -1,0 +1,37 @@
+{
+  "id": "Q312549",
+  "slug": "paramahansa-yogananda",
+  "name": "Paramahansa Yogananda",
+  "wikipedia": "Paramahansa Yogananda",
+  "role": "Indian and American yogi and guru",
+  "life": "1893–1952",
+  "lifetime": [
+    1893,
+    1952
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian and American Hindu monk, yogi, and guru who founded the Self-Realization Fellowship/Yogoda Satsanga Society of India, a religious meditation and Kriya Yoga organization, to disseminate his teachings.",
+  "image": "images/paramahansa-yogananda.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Paramahansa Yogananda (; born Mukunda Lal Ghosh; January 5, 1893 – March 7, 1952) was an Indian and American Hindu monk, yogi, and guru who founded the Self-Realization Fellowship (SRF)/Yogoda Satsanga Society of India (YSS), a religious meditation and Kriya Yoga organization, to disseminate his teachings. A chief disciple of the yoga guru Swami Sri Yukteswar Giri, he was sent by his lineage to spread  yogic teachings to the West. He immigrated to the US at the age of 27, intending to demonstrate a unity between Eastern and Western religions and advocate for a balance between Western material growth and Indian spirituality. His longstanding influence on the American yoga movement, and especially the yoga culture of Los Angeles, led yoga experts to consider him the \"Father of Yoga in the West\". He lived his final 32 years in the US.",
+    "photo": "captured 1946 during their lifetime"
+  }
+}

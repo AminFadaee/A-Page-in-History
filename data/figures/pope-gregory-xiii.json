@@ -1,0 +1,38 @@
+{
+  "id": "Q83029",
+  "slug": "pope-gregory-xiii",
+  "name": "Pope Gregory XIII",
+  "wikipedia": "Pope Gregory XIII",
+  "role": "Head of the Catholic Church from 1572 to 1585",
+  "life": "1502–1585",
+  "lifetime": [
+    1502,
+    1585
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 13 May 1572 to his death in April 1585.",
+  "image": "images/pope-gregory-xiii.jpg",
+  "image_credit": "Lavinia Fontana · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Gregory XIII (Latin: Gregorius XIII, Italian: Gregorio XIII, born Ugo Boncompagni; 7 January 1502 – 10 April 1585) was head of the Catholic Church and ruler of the Papal States from 13 May 1572 to his death in April 1585. He is best known for commissioning and being the namesake for the Gregorian calendar, which remains the internationally accepted civil calendar to this day.",
+    "photo": "no death year in or after 1860"
+  }
+}

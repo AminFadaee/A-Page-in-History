@@ -1,0 +1,178 @@
+{
+  "id": "Q42834",
+  "slug": "western-roman-empire",
+  "name": "Western Roman Empire",
+  "wikipedia": "Western Roman Empire",
+  "map_year": 396,
+  "period": {
+    "start": {
+      "earliest": 395,
+      "latest": 395,
+      "circa": false
+    },
+    "end": {
+      "earliest": 476,
+      "latest": 476,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Mediolanum",
+      "location": [
+        9.185321,
+        45.462907
+      ]
+    },
+    {
+      "name": "Ravenna",
+      "location": [
+        12.201666666666666,
+        44.416111111111114
+      ]
+    }
+  ],
+  "predecessors": [
+    "Roman Empire"
+  ],
+  "successors": [
+    "Burgundian Kingdom",
+    "Kingdom of Alamannia",
+    "Kingdom of Soissons",
+    "Kingdom of the Suebi",
+    "Vandal Kingdom"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q42834",
+        "layer": 1,
+        "name": "Western Roman Empire"
+      },
+      {
+        "id": "Q2277",
+        "layer": 0,
+        "name": "Roman Empire"
+      },
+      {
+        "id": "Q12544",
+        "layer": 1,
+        "name": "Eastern Roman Empire"
+      },
+      {
+        "id": "Q13590051",
+        "layer": 2,
+        "name": "Burgundian Kingdom"
+      },
+      {
+        "id": "Q2208978",
+        "layer": 2,
+        "name": "Kingdom of Alamannia"
+      },
+      {
+        "id": "Q1247508",
+        "layer": 2,
+        "name": "Kingdom of Soissons"
+      },
+      {
+        "id": "Q1048918",
+        "layer": 2,
+        "name": "Kingdom of the Suebi"
+      },
+      {
+        "id": "Q10416611",
+        "layer": 2,
+        "name": "Vandal Kingdom"
+      }
+    ],
+    "edges": [
+      [
+        "Q2277",
+        "Q12544",
+        "Turkey, Egypt"
+      ],
+      [
+        "Q2277",
+        "Q42834",
+        "France, Spain, Italy"
+      ],
+      [
+        "Q42834",
+        "Q13590051",
+        "France, Switzerland"
+      ],
+      [
+        "Q42834",
+        "Q2208978",
+        "France, Germany, Switzerland"
+      ],
+      [
+        "Q42834",
+        "Q1247508",
+        "France"
+      ],
+      [
+        "Q42834",
+        "Q1048918",
+        "Spain, Portugal"
+      ],
+      [
+        "Q42834",
+        "Q10416611",
+        "Tunisia, Italy, Libya"
+      ]
+    ],
+    "question": "successions/western-roman-empire-question.png",
+    "answer": "successions/western-roman-empire-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "France",
+    "Spain",
+    "Italy",
+    "Portugal",
+    "Tunisia",
+    "Austria",
+    "Bosnia and Herzegovina",
+    "Croatia",
+    "Switzerland",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg",
+    "Andorra",
+    "Liechtenstein",
+    "San Marino",
+    "Vatican City"
+  ],
+  "map": "maps/western-roman-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Mediolanum",
+        "Ravenna",
+        "Ravenna"
+      ],
+      "infobox": [
+        "Mediolanum",
+        "Ravenna",
+        "Rome",
+        "Salona",
+        "Split, Croatia"
+      ]
+    },
+    "cliopatria_years": [
+      395,
+      475
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Eastern Roman Empire",
+      "Huns",
+      "Lakhmid Kingdom",
+      "Nobatia",
+      "Makuria"
+    ]
+  }
+}

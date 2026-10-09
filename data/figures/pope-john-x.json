@@ -1,0 +1,38 @@
+{
+  "id": "Q227976",
+  "slug": "pope-john-x",
+  "name": "Pope John X",
+  "wikipedia": "Pope John X",
+  "role": "Head of the Catholic Church from 914 to 928",
+  "life": "c. 860–929",
+  "lifetime": [
+    860,
+    929
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "The bishop of Rome and nominal ruler of the Papal States from March 914 to his death.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope John X (Latin: Ioannes X; died 28 May 928) was the bishop of Rome and nominal ruler of the Papal States from March 914 to his death. A candidate of the counts of Tusculum, he attempted to unify Italy under the leadership of Berengar of Friuli, and was instrumental in the defeat of the Saracens at the Battle of Garigliano. He eventually fell out with Marozia, who had him deposed, imprisoned, and finally murdered. John’s pontificate occurred during the period known as the Saeculum obscurum.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

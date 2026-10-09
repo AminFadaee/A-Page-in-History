@@ -1,0 +1,43 @@
+{
+  "id": "Q1047",
+  "slug": "jawaharlal-nehru",
+  "name": "Jawaharlal Nehru",
+  "wikipedia": "Jawaharlal Nehru",
+  "role": "Prime Minister of India from 1947 to 1964",
+  "life": "1889–1964",
+  "lifetime": [
+    1889,
+    1964
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj",
+    "Republic of India"
+  ],
+  "related": [],
+  "contribution": "An Indian lawyer, anti-colonial nationalist, secular humanist, social democrat, and statesman who was a central figure in India during the middle of the 20th century.",
+  "image": "images/jawaharlal-nehru.jpg",
+  "image_credit": "Keystone View Company/FPG · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "vital_section": [
+        "Republic of India"
+      ],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian lawyer, anti-colonial nationalist, secular humanist, social democrat, and statesman who was a central figure in India during the middle of the 20th century. Nehru was a principal leader of the Indian nationalist movement in the 1930s and 1940s. Upon India's independence in 1947, he served as the country's first prime minister, holding office for 16 years 286 days. Nehru promoted parliamentary democracy, secularism, and science and technology during the 1950s, powerfully influencing India's arc as a modern nation. In international affairs, he steered India clear of the two blocs of the Cold War.  A well-regarded author, he wrote books such as Letters from a Father to His Daughter (1929), An Autobiography (1936) and The Discovery of India (1946), that have been read around the world.",
+    "photo": "captured 1926-01-01 during their lifetime"
+  }
+}

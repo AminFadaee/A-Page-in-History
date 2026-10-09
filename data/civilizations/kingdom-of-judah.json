@@ -1,0 +1,73 @@
+{
+  "id": "Q48685",
+  "slug": "kingdom-of-judah",
+  "name": "Kingdom of Judah",
+  "wikipedia": "Kingdom of Judah",
+  "map_year": -800,
+  "period": {
+    "start": {
+      "earliest": -930,
+      "latest": -930,
+      "circa": false
+    },
+    "end": {
+      "earliest": -587,
+      "latest": -587,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jerusalem",
+      "location": [
+        35.234156,
+        31.776679
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kingdom of Israel"
+  ],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q211663",
+      "name": "Rehoboam"
+    },
+    {
+      "id": "Q184273",
+      "name": "Zedekiah"
+    }
+  ],
+  "modern_countries": [
+    "Palestine",
+    "Israel",
+    "Jordan"
+  ],
+  "map": "maps/kingdom-of-judah.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jerusalem"
+      ],
+      "infobox": [
+        "Jerusalem"
+      ]
+    },
+    "cliopatria_years": [
+      -900,
+      -701
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Neo-Assyrian Empire",
+      "Twenty-second Dynasty of Egypt",
+      "Twenty-third Dynasty of Egypt",
+      "Elam",
+      "Tabal Kingdom"
+    ]
+  }
+}

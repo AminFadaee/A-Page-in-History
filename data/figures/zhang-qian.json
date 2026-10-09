@@ -1,0 +1,43 @@
+{
+  "id": "Q197276",
+  "slug": "zhang-qian",
+  "name": "Zhang Qian",
+  "wikipedia": "Zhang Qian",
+  "role": "Imperial envoy to the world outside of China in the 2nd century BC",
+  "life": "c. 200–114 BC",
+  "lifetime": [
+    -200,
+    -114
+  ],
+  "occupation": "Explorer",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [
+    "Greco-Bactrian Kingdom",
+    "Parthian Empire"
+  ],
+  "contribution": "A Chinese diplomat, explorer, and politician who served as an imperial envoy to the world outside of China in the late 2nd century BC during the Western Han dynasty.",
+  "image": "images/zhang-qian.jpg",
+  "image_credit": "PHG · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Han Dynasty"
+      ],
+      "lead": [
+        "Han Dynasty",
+        "Greco-Bactrian Kingdom",
+        "Parthian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Zhang Qian (Chinese: 張騫; died c. 114 BC) was a Chinese diplomat, explorer, and politician who served as an imperial envoy to the world outside of China in the late 2nd century BC during the Western Han dynasty. He was one of the first official diplomats to bring back valuable information about Central Asia, including the Greco-Bactrian remains of the Macedonian Empire as well as the Parthian Empire, to the Han dynasty imperial court, then ruled by Emperor Wu of Han.",
+    "photo": "no death year in or after 1860"
+  }
+}

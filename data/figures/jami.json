@@ -1,0 +1,36 @@
+{
+  "id": "Q312458",
+  "slug": "jami",
+  "name": "Jami",
+  "wikipedia": "Jami",
+  "role": "Persian poet",
+  "life": "1414–1492",
+  "lifetime": [
+    1414,
+    1492
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Timurid Empire"
+  ],
+  "related": [],
+  "contribution": "A Sunni poet who is known for his achievements as a prolific scholar and writer of mystical Sufi literature.",
+  "image": "images/jami.jpg",
+  "image_credit": "Herat artist, 1494-1495 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Timurid Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Timurid Empire"
+      ]
+    },
+    "lead": "Nūr ad-Dīn 'Abd ar-Rahmān Jāmī (Persian: نورالدین عبدالرحمن جامی; 7 November 1414 – 9 November 1492), also known as Mawlanā Nūr al-Dīn 'Abd al-Rahmān or Abd-Al-Rahmān Nur-Al-Din Muhammad Dashti, or simply as Jami or Djāmī and in Turkey as Molla Cami, was a Sunni poet who is known for his achievements as a prolific scholar and writer of mystical Sufi literature. He was primarily a prominent poet-theologian of the school of Ibn Arabi and a Khwājagānī Sũfī, recognized for his eloquence and for his analysis of the metaphysics of mercy. His most famous poetic works are Haft Awrang, Tuhfat al-Ahrar, Layla wa Majnun, Fatihat al-Shabab, Lawa'ih, Al-Durrah al-Fakhirah. Jami belonged to the Naqshbandi Sufi order.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "Q70802",
+  "slug": "french-third-republic",
+  "name": "French Third Republic",
+  "wikipedia": "French Third Republic",
+  "map_year": 1919,
+  "period": {
+    "start": {
+      "earliest": 1870,
+      "latest": 1870,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1940,
+      "latest": 1940,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "Second French Empire"
+  ],
+  "successors": [
+    "Vichy France"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q70802",
+        "layer": 1,
+        "name": "French Third Republic"
+      },
+      {
+        "id": "Q71092",
+        "layer": 0,
+        "name": "Second French Empire"
+      },
+      {
+        "id": "Q69808",
+        "layer": 2,
+        "name": "Vichy France"
+      }
+    ],
+    "edges": [
+      [
+        "Q71092",
+        "Q70802",
+        "France"
+      ],
+      [
+        "Q70802",
+        "Q69808",
+        "France"
+      ]
+    ],
+    "question": "successions/french-third-republic-question.png",
+    "answer": "successions/french-third-republic-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "France"
+  ],
+  "map": "maps/french-third-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1871,
+      1939
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Brazilian Republic",
+      "British Africa",
+      "Kingdom of Spain",
+      "Ottoman Empire",
+      "German Empire",
+      "French Africa",
+      "Qajar Dynasty",
+      "Italian Africa",
+      "Belgian Congo",
+      "Republic of Peru",
+      "British Gold Coast",
+      "Republic of Colombia",
+      "Ethiopian Empire",
+      "Venezuela",
+      "Ukrainian People's Republic",
+      "Emirate of Nejd",
+      "Khanate of Khiva"
+    ]
+  }
+}

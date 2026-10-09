@@ -1,0 +1,59 @@
+{
+  "id": "Q202687",
+  "slug": "songhai-empire",
+  "name": "Songhai Empire",
+  "wikipedia": "Songhai Empire",
+  "map_year": 1564,
+  "period": {
+    "start": {
+      "earliest": 1464,
+      "latest": 1464,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1599,
+      "latest": 1599,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Gao",
+      "location": [
+        -0.05,
+        16.266666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mali",
+    "Mauritania",
+    "Senegal",
+    "The Gambia"
+  ],
+  "map": "maps/songhai-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Gao"
+      ],
+      "infobox": [
+        "Gao"
+      ]
+    },
+    "cliopatria_years": [
+      1463,
+      1608
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mali Empire"
+    ]
+  }
+}

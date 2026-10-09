@@ -1,0 +1,103 @@
+{
+  "id": "Q193152",
+  "slug": "great-moravia",
+  "name": "Great Moravia",
+  "wikipedia": "Great Moravia",
+  "map_year": 875,
+  "period": {
+    "start": {
+      "earliest": 833,
+      "latest": 833,
+      "circa": true
+    },
+    "end": {
+      "earliest": 907,
+      "latest": 907,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Principality of Nitra"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q193152",
+        "layer": 1,
+        "name": "Great Moravia"
+      },
+      {
+        "id": "Q837326",
+        "layer": 0,
+        "name": "Principality of Nitra"
+      }
+    ],
+    "edges": [
+      [
+        "Q837326",
+        "Q193152",
+        "Slovakia"
+      ]
+    ],
+    "question": "successions/great-moravia-question.png",
+    "answer": "successions/great-moravia-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q433975",
+      "name": "Mojmir I of Moravia"
+    },
+    {
+      "id": "Q347148",
+      "name": "Rastislav of Moravia"
+    },
+    {
+      "id": "Q437589",
+      "name": "Svatopluk I of Moravia"
+    },
+    {
+      "id": "Q551716",
+      "name": "Mojmir II of Moravia"
+    }
+  ],
+  "modern_countries": [
+    "Czech Republic",
+    "Poland",
+    "Slovakia",
+    "Germany",
+    "Hungary"
+  ],
+  "map": "maps/great-moravia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Veligrad"
+      ],
+      "infobox": [
+        "Mikulčice",
+        "Czech Republic"
+      ]
+    },
+    "cliopatria_years": [
+      814,
+      910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "East Franks",
+      "Magyars",
+      "First Bulgarian Empire",
+      "West Franks",
+      "Principality of Serbia",
+      "Kingdom of Brittany",
+      "Kingdom of Wessex",
+      "Kingdom of Mercia",
+      "Duchy of Croatia",
+      "Duchy of Spoleto"
+    ]
+  }
+}

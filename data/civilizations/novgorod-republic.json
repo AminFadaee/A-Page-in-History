@@ -1,0 +1,62 @@
+{
+  "id": "Q151536",
+  "slug": "novgorod-republic",
+  "name": "Novgorod Republic",
+  "wikipedia": "Novgorod Republic",
+  "map_year": 1468,
+  "period": {
+    "start": {
+      "earliest": 1136,
+      "latest": 1136,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1478,
+      "latest": 1478,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Veliky Novgorod",
+      "location": [
+        31.27579,
+        58.52099
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Russia"
+  ],
+  "map": "maps/novgorod-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Veliky Novgorod"
+      ],
+      "infobox": [
+        "Veliky Novgorod"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1481
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Khanate of Sibir",
+      "Kalmar Union",
+      "House of Jagiellon",
+      "Grand Principality of Moscow",
+      "Livonian Conference",
+      "Khanate of Kazan",
+      "Kingdom of Bohemia"
+    ]
+  }
+}

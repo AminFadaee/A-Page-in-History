@@ -1,0 +1,84 @@
+{
+  "id": "Q2429397",
+  "slug": "carthage",
+  "name": "Carthage",
+  "wikipedia": "Ancient Carthage",
+  "map_year": -218,
+  "period": {
+    "start": {
+      "earliest": -814,
+      "latest": -814,
+      "circa": true
+    },
+    "end": {
+      "earliest": -146,
+      "latest": -146,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Carthage",
+      "location": [
+        10.323461,
+        36.852558
+      ]
+    }
+  ],
+  "predecessors": [
+    "Phoenicia"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q2429397",
+        "layer": 1,
+        "name": "Carthage"
+      },
+      {
+        "id": "Q41642",
+        "layer": 0,
+        "name": "Phoenicia"
+      }
+    ],
+    "edges": [
+      [
+        "Q41642",
+        "Q2429397",
+        "Italy, Spain, Libya"
+      ]
+    ],
+    "question": "successions/carthage-question.png",
+    "answer": "successions/carthage-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Spain",
+    "Tunisia",
+    "Algeria",
+    "Malta"
+  ],
+  "map": "maps/carthage.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Carthage"
+      ],
+      "infobox": [
+        "Carthage"
+      ]
+    },
+    "cliopatria_years": [
+      -650,
+      -145
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Roman Republic",
+      "Antigonid Macedonia"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q188541",
+  "slug": "chandragupta-maurya",
+  "name": "Chandragupta Maurya",
+  "wikipedia": "Chandragupta Maurya",
+  "role": "Founder of the Maurya Empire",
+  "life": "340–297 BC",
+  "lifetime": [
+    -340,
+    -297
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "Maurya Empire"
+  ],
+  "related": [
+    "Nanda Empire"
+  ],
+  "contribution": "The founder and the first emperor of the Maurya Empire, based in Magadha in the Indian subcontinent.",
+  "image": "images/chandragupta-maurya.jpg",
+  "image_credit": "आशीष भटनागर at Hindi Wikipedia · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Maurya Empire"
+      ],
+      "lead": [
+        "Maurya Empire",
+        "Nanda Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Magadha - Shaishunaga dynasty"
+      ]
+    },
+    "lead": "Chandragupta Maurya (reigned c. 320 BCE – c. 298 BCE) was the founder and the first emperor of the Maurya Empire, based in Magadha (present-day Bihar) in the Indian subcontinent.",
+    "photo": "no death year in or after 1860"
+  }
+}

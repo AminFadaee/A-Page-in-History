@@ -1,0 +1,36 @@
+{
+  "id": "Q163079",
+  "slug": "catullus",
+  "name": "Catullus",
+  "wikipedia": "Catullus",
+  "role": "Roman poet",
+  "life": "c. 84–54 BC",
+  "lifetime": [
+    -84,
+    -54
+  ],
+  "occupation": "Writer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [],
+  "contribution": "A Latin neoteric poet of the late Roman Republic.",
+  "image": "images/catullus.jpg",
+  "image_credit": "Schorle · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Gaius Valerius Catullus (Classical Latin: [ˈɡaːius waˈlɛrius kaˈtullus]; c. 84 – c. 54 BC), known as Catullus (  kə-TUL-əs), was a Latin neoteric poet of the late Roman Republic. His surviving works remain widely read due to their popularity as teaching tools and because of their personal or sexual themes.",
+    "photo": "no death year in or after 1860"
+  }
+}

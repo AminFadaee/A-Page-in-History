@@ -1,0 +1,36 @@
+{
+  "id": "Q128460",
+  "slug": "charles-perrault",
+  "name": "Charles Perrault",
+  "wikipedia": "Charles Perrault",
+  "role": "French author",
+  "life": "1628–1703",
+  "lifetime": [
+    1628,
+    1703
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French author and member of the Académie Française.",
+  "image": "images/charles-perrault.jpg",
+  "image_credit": "Charles Le Brun · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles Perrault ( perr-OH, US also  pə-ROH, French: [ʃaʁl pɛʁo]; 12 January 1628 – 16 May 1703) was a French author and member of the Académie Française. He laid the foundations for a new literary genre, the fairy tale, with his works derived from earlier folk tales, published in his 1697 book Histoires ou contes du temps passé. The best known of his tales include \"Little Red Riding Hood\", \"Cinderella\", \"Puss in Boots\", \"Sleeping Beauty\", and \"Bluebeard\".",
+    "photo": "no death year in or after 1860"
+  }
+}

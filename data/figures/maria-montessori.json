@@ -1,0 +1,37 @@
+{
+  "id": "Q131117",
+  "slug": "maria-montessori",
+  "name": "Maria Montessori",
+  "wikipedia": "Maria Montessori",
+  "role": "Italian physician and educator",
+  "life": "1870–1952",
+  "lifetime": [
+    1870,
+    1952
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "An Italian physician and educator best known for her philosophy of education and her writing on scientific pedagogy.",
+  "image": "images/maria-montessori.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Italy",
+        "Kingdom of Italy"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Maria Tecla Artemisia Montessori ( MON-tiss-OR-ee; Italian: [maˈriːa montesˈsɔːri]; 31 August 1870 – 6 May 1952) was an Italian physician and educator best known for her philosophy of education (the Montessori method) and her writing on scientific pedagogy. At an early age, Montessori enrolled in classes at an all-boys technical school, with hopes of becoming an engineer. She soon had a change of heart and began medical school at the Sapienza University of Rome, becoming one of the first women to attend medical school in Italy; she graduated with honors in 1896. Her educational method is in use globally in many public and private schools.",
+    "photo": "capture date 'Unknown date' not within their lifetime and not classified as a photograph"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q71231",
+  "slug": "charles-the-bald",
+  "name": "Charles the Bald",
+  "wikipedia": "Charles the Bald",
+  "role": "King of West Francia from 843 to 877 and Carolingian Emperor from 875 to 877",
+  "life": "823–877",
+  "lifetime": [
+    823,
+    877
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "West Franks"
+  ],
+  "related": [],
+  "contribution": "King of West Francia, king of Italy and emperor of the Carolingian Empire.",
+  "image": "images/charles-the-bald.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "West Franks"
+      ],
+      "lead": [
+        "West Franks"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of the Franks"
+      ]
+    },
+    "lead": "Charles the Bald (French: Charles le Chauve; 13 June 823 – 6 October 877) was king of West Francia (843–77), king of Italy (875–77) and emperor of the Carolingian Empire (875–77). After a series of civil wars during the reign of his father, Louis the Pious, Charles succeeded, by the Treaty of Verdun (843), in acquiring the western third of the empire. He was a grandson of Charlemagne and the youngest son of Louis the Pious by his second wife, Judith.",
+    "photo": "no death year in or after 1860"
+  }
+}

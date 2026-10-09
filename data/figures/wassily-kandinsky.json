@@ -1,0 +1,37 @@
+{
+  "id": "Q61064",
+  "slug": "wassily-kandinsky",
+  "name": "Wassily Kandinsky",
+  "wikipedia": "Wassily Kandinsky",
+  "role": "Russian painter and art theorist",
+  "life": "1866–1944",
+  "lifetime": [
+    1866,
+    1944
+  ],
+  "occupation": "Painter",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian painter and art theorist active in Germany during the late Belle Époque and Interwar eras.",
+  "image": "images/wassily-kandinsky.jpg",
+  "image_credit": "未知上傳者 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Wassily Wassilyevich Kandinsky (16 December [O.S. 4 December] 1866 – 13 December 1944) was a Russian painter and art theorist active in Germany during the late Belle Époque and Interwar eras. Kandinsky is generally credited as one of the pioneers of abstraction in Western art. Born in Moscow, he began painting studies (life-drawing, sketching, and anatomy) at the age of 30.",
+    "photo": "capture date '2016-11-19' not within their lifetime and not classified as a photograph"
+  }
+}

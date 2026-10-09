@@ -1,0 +1,100 @@
+{
+  "id": "Q150981",
+  "slug": "north-german-confederation",
+  "name": "North German Confederation",
+  "wikipedia": "North German Confederation",
+  "map_year": 1870,
+  "period": {
+    "start": {
+      "earliest": 1866,
+      "latest": 1866,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1871,
+      "latest": 1871,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "German Confederation"
+  ],
+  "successors": [
+    "German Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q150981",
+        "layer": 1,
+        "name": "North German Confederation"
+      },
+      {
+        "id": "Q151624",
+        "layer": 0,
+        "name": "German Confederation"
+      },
+      {
+        "id": "Q43287",
+        "layer": 2,
+        "name": "German Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q151624",
+        "Q150981",
+        "Germany, Poland"
+      ],
+      [
+        "Q150981",
+        "Q43287",
+        "Germany, Poland, France"
+      ]
+    ],
+    "question": "successions/north-german-confederation-question.png",
+    "answer": "successions/north-german-confederation-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Germany",
+    "Poland",
+    "France"
+  ],
+  "map": "maps/north-german-confederation.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Berlin"
+      ],
+      "infobox": [
+        "Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1868,
+      1870
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Austria-Hungary",
+      "Second French Empire",
+      "Kingdom of Bavaria",
+      "Kingdom of Belgium",
+      "Kingdom of Great Britain",
+      "United Principalities of Moldavia and Wallachia"
+    ]
+  }
+}

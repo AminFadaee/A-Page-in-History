@@ -1,0 +1,43 @@
+{
+  "id": "Q937",
+  "slug": "albert-einstein",
+  "name": "Albert Einstein",
+  "wikipedia": "Albert Einstein",
+  "role": "German-born theoretical physicist",
+  "life": "1879–1955",
+  "lifetime": [
+    1879,
+    1955
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire"
+  ],
+  "related": [
+    "Nazi Germany"
+  ],
+  "contribution": "A German-born theoretical physicist best known for developing the theory of relativity.",
+  "image": "images/albert-einstein.jpg",
+  "image_credit": "Oren Jack Turner · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Swiss Confederation",
+        "Weimar Republic",
+        "United States of America"
+      ],
+      "lead": [
+        "German Empire",
+        "Nazi Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called \"the world's most famous equation\". He received the 1921 Nobel Prize in Physics for \"his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect\".",
+    "photo": "captured 1947 during their lifetime"
+  }
+}

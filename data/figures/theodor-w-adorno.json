@@ -1,0 +1,39 @@
+{
+  "id": "Q152388",
+  "slug": "theodor-w-adorno",
+  "name": "Theodor W. Adorno",
+  "wikipedia": "Theodor W. Adorno",
+  "role": "German philosopher, sociologist, and theorist",
+  "life": "1903–1969",
+  "lifetime": [
+    1903,
+    1969
+  ],
+  "occupation": "Sociologist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A German philosopher, cultural, and music critic.",
+  "image": "images/theodor-w-adorno.jpg",
+  "image_credit": "Jeremy J. Shapiro · CC BY-SA 3.0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "United States of America",
+        "German Empire",
+        "Republic of Austria",
+        "Swiss Confederation"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Theodor W. Adorno (; German: [ˈteːodoːɐ̯ aˈdɔʁno] ; born Theodor Ludwig Wiesengrund; 11 September 1903 – 6 August 1969) was a German philosopher, cultural, and music critic. He was a leading member of the Frankfurt School of critical theory, whose work has come to be associated with thinkers such as Ernst Bloch, Walter Benjamin, Max Horkheimer, Erich Fromm, and Herbert Marcuse, for whom the works of Sigmund Freud, Karl Marx, and G. W. F. Hegel were essential to a critique of modern society. As a critic of both fascism and what he called the culture industry, he authored numerous works—such as Dialectic of Enlightenment (1947), Minima Moralia (1951), and Negative Dialectics (1966)—that strongly influenced the European New Left.",
+    "photo": "captured 1964 during their lifetime"
+  }
+}

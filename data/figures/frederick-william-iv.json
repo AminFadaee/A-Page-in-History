@@ -1,0 +1,40 @@
+{
+  "id": "Q57180",
+  "slug": "frederick-william-iv",
+  "name": "Frederick William IV",
+  "wikipedia": "Frederick William IV",
+  "role": "King of Prussia from 1840 to 1861",
+  "life": "1795–1861",
+  "lifetime": [
+    1795,
+    1861
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [
+    "German Confederation"
+  ],
+  "contribution": "King of Prussia from 7 June 1840 until his death in 1861.",
+  "image": "images/frederick-william-iv.jpg",
+  "image_credit": "Hermann Biow · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "German Confederation"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Frederick William IV (German: Friedrich Wilhelm IV.; 15 October 1795 – 2 January 1861) was King of Prussia from 7 June 1840 until his death in 1861. Also referred to as the \"romanticist on the throne\", he was deeply religious and believed that he ruled by divine right. He feared revolutions, and his ideal state was one governed by the Christian estates of the realm rather than a constitutional monarchy.",
+    "photo": "captured 1847 during their lifetime"
+  }
+}

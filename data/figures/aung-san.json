@@ -1,0 +1,36 @@
+{
+  "id": "Q194161",
+  "slug": "aung-san",
+  "name": "Aung San",
+  "wikipedia": "Aung San",
+  "role": "Burmese independence activist",
+  "life": "1915–1947",
+  "lifetime": [
+    1915,
+    1947
+  ],
+  "occupation": "Politician",
+  "birth_country": "Myanmar (Burma)",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "A Burmese politician, independence activist and revolutionary.",
+  "image": "images/aung-san.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "British Raj"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Aung San (Burmese: အောင်ဆန်း, MLCTS: aung hcan:, pronounced [àʊɰ̃ sʰáɰ̃]; 13 February 1915 – 19 July 1947) was a Burmese politician, independence activist and revolutionary. He was instrumental in Myanmar's struggle for independence from British rule, but he was assassinated just six months before his goal was realized. Aung San is considered to be the founder of modern-day Myanmar and the Tatmadaw (the country's armed forces), and is commonly referred to by the titles \"Father of the Nation\", \"Father of Independence\", and \"Father of the Tatmadaw\".",
+    "photo": "captured 1940sdate QS:P,+1940-00-00T00:00:00Z/8 during their lifetime"
+  }
+}

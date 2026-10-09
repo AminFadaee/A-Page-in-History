@@ -1,0 +1,45 @@
+{
+  "id": "Q45662",
+  "slug": "klemens-von-metternich",
+  "name": "Klemens von Metternich",
+  "wikipedia": "Klemens von Metternich",
+  "role": "Austrian statesman",
+  "life": "1773–1859",
+  "lifetime": [
+    1773,
+    1859
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [
+    "Kingdom of Saxony",
+    "Kingdom of Prussia",
+    "Russian Empire",
+    "Ottoman Empire"
+  ],
+  "contribution": "A German statesman and diplomat in the service of the Austrian Empire.",
+  "image": "images/klemens-von-metternich.jpg",
+  "image_credit": "Thomas Lawrence · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire"
+      ],
+      "lead": [
+        "Austrian Empire",
+        "Kingdom of Saxony",
+        "Kingdom of Prussia",
+        "Russian Empire",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Klemens Wenzel Nepomuk Lothar, Prince of Metternich-Winneburg zu Beilstein (15 May 1773 – 11 June 1859), known as Klemens von Metternich ( MET-ər-nikh, German: [ˈkleːmɛns fɔn ˈmɛtɐnɪç]) or Prince Metternich, was a German statesman and diplomat in the service of the Austrian Empire. Metternich was at the center of the European balance of power known as the Concert of Europe for three decades as Austrian foreign minister from 1809 and chancellor from 1821 until the Revolutions of 1848 forced his resignation.",
+    "photo": "no death year in or after 1860"
+  }
+}

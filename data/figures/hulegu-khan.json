@@ -1,0 +1,43 @@
+{
+  "id": "Q177320",
+  "slug": "hulegu-khan",
+  "name": "Hulegu Khan",
+  "wikipedia": "Hulegu Khan",
+  "role": "Western Asian Mongol ruler",
+  "life": "1217–1265",
+  "lifetime": [
+    1217,
+    1265
+  ],
+  "occupation": "Politician",
+  "birth_country": "Mongolia",
+  "civilizations": [
+    "Mongol Empire"
+  ],
+  "related": [
+    "Mamluk Sultanate"
+  ],
+  "contribution": "A Mongol ruler who conquered much of West Asia.",
+  "image": "images/hulegu-khan.jpg",
+  "image_credit": "Circa 1340 artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mongol Empire"
+      ],
+      "lead": [
+        "Mongol Empire",
+        "Mamluk Sultanate"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": [
+        "Mongol Empire"
+      ]
+    },
+    "lead": "Hulegu Khan, also known as Hülegü or Hulagu (c. 1217 – 8 February 1265), was a Mongol ruler who conquered much of West Asia. As a son of Tolui and the Keraite princess Sorghaghtani Beki, he was a grandson of Genghis Khan and brother of Ariq Böke, Möngke Khan, and Kublai Khan.",
+    "photo": "no death year in or after 1860"
+  }
+}

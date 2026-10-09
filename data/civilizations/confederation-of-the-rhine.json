@@ -1,0 +1,104 @@
+{
+  "id": "Q154741",
+  "slug": "confederation-of-the-rhine",
+  "name": "Confederation of the Rhine",
+  "wikipedia": "Confederation of the Rhine",
+  "map_year": 1809,
+  "period": {
+    "start": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1813,
+      "latest": 1813,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Free City of Frankfurt",
+      "location": [
+        8.68222222,
+        50.11027778
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "German Confederation"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q154741",
+        "layer": 1,
+        "name": "Confederation of the Rhine"
+      },
+      {
+        "id": "Q151624",
+        "layer": 2,
+        "name": "German Confederation"
+      },
+      {
+        "id": "Q27306",
+        "layer": 1,
+        "name": "Kingdom of Prussia"
+      }
+    ],
+    "edges": [
+      [
+        "Q154741",
+        "Q151624",
+        "Poland, Germany"
+      ],
+      [
+        "Q27306",
+        "Q151624",
+        "Poland, Germany"
+      ]
+    ],
+    "question": "successions/confederation-of-the-rhine-question.png",
+    "answer": "successions/confederation-of-the-rhine-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Poland",
+    "Germany",
+    "Russia"
+  ],
+  "map": "maps/confederation-of-the-rhine.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Free City of Frankfurt",
+        "Frankfurt"
+      ],
+      "infobox": [
+        "Free City of Frankfurt"
+      ]
+    },
+    "cliopatria_years": [
+      1809,
+      1814
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Austrian Empire",
+      "First French Empire",
+      "Swedish Empire",
+      "Duchy of Warsaw",
+      "Kingdom of Westphalia",
+      "Kingdom of Saxony",
+      "Kingdom of Great Britain",
+      "Kingdom of Bavaria",
+      "Helvetic Republic",
+      "Batavian Republic",
+      "Italian Republic"
+    ]
+  }
+}

@@ -19,8 +19,9 @@
     "Gallic Empire"
   ],
   "contribution": "A Roman emperor  from 270 to 275 during the Crisis of the Third Century.",
-  "image": "images/aurelian.jpg",
-  "image_credit": "АНО «Международный нумизматический клуб» · CC BY-SA 4.0",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -36,6 +37,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Aurelian (; Latin: Lucius Domitius Aurelianus; 9 September c. 214 – c. November 275) was a Roman emperor  from 270 to 275 during the Crisis of the Third Century. During his reign, he won an unprecedented series of military victories which reunited the Roman Empire after it had nearly disintegrated under the pressure of barbarian invasions and internal revolts. For his success in restoring the Empire's territorial integrity, Aurelian was honored with the title Restitutor Orbis (\"Restorer of the World\")."
+    "lead": "Aurelian (; Latin: Lucius Domitius Aurelianus; 9 September c. 214 – c. November 275) was a Roman emperor  from 270 to 275 during the Crisis of the Third Century. During his reign, he won an unprecedented series of military victories which reunited the Roman Empire after it had nearly disintegrated under the pressure of barbarian invasions and internal revolts. For his success in restoring the Empire's territorial integrity, Aurelian was honored with the title Restitutor Orbis (\"Restorer of the World\").",
+    "photo": "image is a coin or calligraphy"
   }
 }

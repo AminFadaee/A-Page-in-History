@@ -1,0 +1,41 @@
+{
+  "id": "Q203808",
+  "slug": "bohdan-khmelnytsky",
+  "name": "Bohdan Khmelnytsky",
+  "wikipedia": "Bohdan Khmelnytsky",
+  "role": "Hetman of the Zaporozhian Host from 1648 to 1657",
+  "life": "1595–1657",
+  "lifetime": [
+    1595,
+    1657
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "related": [
+    "Crimean Khanate",
+    "Tsardom of Russia"
+  ],
+  "contribution": "A Ruthenian nobleman and military commander of Zaporozhian Cossacks as Hetman of the Zaporozhian Host, which was then under the suzerainty of the Polish–Lithuanian Commonwealth.",
+  "image": "images/bohdan-khmelnytsky.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "lead": [
+        "Polish-Lithuanian Commonwealth",
+        "Crimean Khanate",
+        "Tsardom of Russia"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Zynoviy Bohdan Mykhailovych Khmelnytsky of the Abdank coat of arms (c. 1595 – 6 August 1657) was a Ruthenian nobleman and military commander of Zaporozhian Cossacks as Hetman of the Zaporozhian Host, which was then under the suzerainty of the Polish–Lithuanian Commonwealth. He led the Cossacks to victory in a successful uprising against the Commonwealth and its magnates (1648–1654) that resulted in the creation of an independent Cossack state in Dnieper Ukraine.",
+    "photo": "no death year in or after 1860"
+  }
+}

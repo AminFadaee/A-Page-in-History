@@ -1,0 +1,42 @@
+{
+  "id": "Q57065",
+  "slug": "otto-hahn",
+  "name": "Otto Hahn",
+  "wikipedia": "Otto Hahn",
+  "role": "German nuclear chemist and Nobel laureate",
+  "life": "1879–1968",
+  "lifetime": [
+    1879,
+    1968
+  ],
+  "occupation": "Chemist",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Federal Republic of Germany",
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A German chemist who was a pioneer in the field of radiochemistry.",
+  "image": "images/otto-hahn.jpg",
+  "image_credit": "Nobel Foundation · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Federal Republic of Germany",
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Federal Republic of Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Otto Hahn (German: [ˈɔtoː ˈhaːn] ; 8 March 1879 – 28 July 1968) was a German chemist who was a pioneer in the field of radiochemistry. He is referred to as the father of nuclear chemistry and discoverer of nuclear fission, the science behind nuclear reactors and nuclear weapons. Hahn and Lise Meitner discovered isotopes of the radioactive elements radium, thorium, protactinium and uranium. He also discovered the phenomena of atomic recoil and nuclear isomerism, and pioneered rubidium–strontium dating. In 1938, Hahn, Meitner and Fritz Strassmann discovered nuclear fission, for which Hahn alone was awarded the 1944 Nobel Prize in Chemistry.",
+    "photo": "captured 1944 during their lifetime"
+  }
+}

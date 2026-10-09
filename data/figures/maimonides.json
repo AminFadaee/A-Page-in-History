@@ -1,0 +1,41 @@
+{
+  "id": "Q127398",
+  "slug": "maimonides",
+  "name": "Maimonides",
+  "wikipedia": "Maimonides",
+  "role": "Medieval Jewish philosopher",
+  "life": "1138–1204",
+  "lifetime": [
+    1135,
+    1204
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Almoravid Dynasty"
+  ],
+  "related": [
+    "Almohad Caliphate",
+    "Ayyubid Sultanate"
+  ],
+  "contribution": "A Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of the Middle Ages.",
+  "image": "images/maimonides.jpg",
+  "image_credit": "No machine-readable author provided. Makinal~commonswiki assumed (based on copyright claims). · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Almohad Caliphate",
+        "Almoravid Dynasty",
+        "Ayyubid Sultanate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Almoravid Dynasty"
+      ]
+    },
+    "lead": "Moses ben Maimon (died 12 December 1204), commonly known as Maimonides and also referred to by the Hebrew acronym Rambam, was a Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of the Middle Ages.",
+    "photo": "no death year in or after 1860"
+  }
+}

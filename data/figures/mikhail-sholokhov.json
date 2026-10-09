@@ -1,0 +1,37 @@
+{
+  "id": "Q42398",
+  "slug": "mikhail-sholokhov",
+  "name": "Mikhail Sholokhov",
+  "wikipedia": "Mikhail Sholokhov",
+  "role": "Russian writer",
+  "life": "1905–1984",
+  "lifetime": [
+    1905,
+    1984
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian novelist and winner of the 1965 Nobel Prize in Literature.",
+  "image": "images/mikhail-sholokhov.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Mikhail Aleksandrovich Sholokhov (Russian: Михаил Александрович Шолохов, IPA: [ˈʂoləxəf]; 24 May [O.S. 11 May] 1905 – 21 February 1984) was a Russian novelist and winner of the 1965 Nobel Prize in Literature. He is known for writing about life and fate of Don Cossacks during the Russian Revolution, the civil war and the period of collectivization, primarily in his most famous novel, And Quiet Flows the Don.",
+    "photo": "captured 1938 during their lifetime"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q7751",
+  "slug": "giuseppe-arcimboldo",
+  "name": "Giuseppe Arcimboldo",
+  "wikipedia": "Giuseppe Arcimboldo",
+  "role": "Italian painter",
+  "life": "1527–1593",
+  "lifetime": [
+    1527,
+    1593
+  ],
+  "occupation": "Painter",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Duchy of Milan"
+  ],
+  "related": [],
+  "contribution": "An Italian Mannerist painter best known for creating imaginative portraits in the shapes of human heads, though composed entirely of objects such as fruits, vegetables, flowers, fish and books.",
+  "image": "images/giuseppe-arcimboldo.jpg",
+  "image_credit": "Giuseppe Arcimboldo · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Duchy of Milan"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Duchy of Milan"
+      ]
+    },
+    "lead": "Giuseppe Arcimboldo, also spelled Arcimboldi (Italian: [dʒuˈzɛppe artʃimˈbɔldo]; 5 April 1527 – 11 July 1593), was an Italian Mannerist painter best known for creating imaginative portraits in the shapes of human heads, though composed entirely of objects such as fruits, vegetables, flowers, fish and books.",
+    "photo": "no death year in or after 1860"
+  }
+}

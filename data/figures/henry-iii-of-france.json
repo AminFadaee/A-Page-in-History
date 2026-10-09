@@ -1,0 +1,47 @@
+{
+  "id": "Q53448",
+  "slug": "henry-iii-of-france",
+  "name": "Henry III of France",
+  "wikipedia": "Henry III of France",
+  "role": "King of France from 1574 to 1589",
+  "life": "1551–1589",
+  "lifetime": [
+    1551,
+    1589
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Polish-Lithuanian Commonwealth",
+    "Spanish Empire",
+    "Kingdom of England",
+    "Dutch Republic"
+  ],
+  "contribution": "King of France from 1574 until his assassination in 1589 and, as Henry of Valois, King of Poland and Grand Duke of Lithuania from 1573 to 1575.",
+  "image": "images/henry-iii-of-france.jpg",
+  "image_credit": "Attributed to Étienne Dumonstier · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of France",
+        "Polish-Lithuanian Commonwealth",
+        "Spanish Empire",
+        "Kingdom of England",
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Henry III of France (French: Henri III, né Alexandre Édouard; 19 September 1551 – 2 August 1589) was King of France from 1574 until his assassination in 1589 and, as Henry of Valois (Polish: Henryk Walezy; Lithuanian: Henrikas Valua), King of Poland and Grand Duke of Lithuania from 1573 to 1575. Before he came to these thrones, he was known as the Duke of Angoulême and Duke of Orléans from 1560, then as Duke of Anjou from 1566.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "Q173282",
+  "slug": "khazaria",
+  "name": "Khazaria",
+  "wikipedia": "Khazars",
+  "map_year": 763,
+  "period": {
+    "start": {
+      "earliest": 650,
+      "latest": 650,
+      "circa": true
+    },
+    "end": {
+      "earliest": 969,
+      "latest": 969,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Balanjar",
+      "location": null
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Russia",
+    "Ukraine",
+    "Kazakhstan"
+  ],
+  "map": "maps/khazaria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Balanjar"
+      ],
+      "infobox": [
+        "Balanjar",
+        "Samandar",
+        "Atil"
+      ]
+    },
+    "cliopatria_years": [
+      630,
+      979
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "labelled": [
+      "Abbasid Caliphate",
+      "Byzantine Empire",
+      "Kimek-Kipchak confederation",
+      "Oghuz Turks",
+      "First Bulgarian Empire"
+    ]
+  }
+}

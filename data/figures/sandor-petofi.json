@@ -1,0 +1,36 @@
+{
+  "id": "Q81219",
+  "slug": "sandor-petofi",
+  "name": "Sándor Petőfi",
+  "wikipedia": "Sándor Petőfi",
+  "role": "Hungarian poet and liberal revolutionary",
+  "life": "1823–1849",
+  "lifetime": [
+    1823,
+    1849
+  ],
+  "occupation": "Writer",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "A Hungarian poet and liberal revolutionary.",
+  "image": "images/sandor-petofi.jpg",
+  "image_credit": "Soma Orlai Petrich · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Austrian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Sándor Petőfi (né Petrovics; Slovak: Alexander Petrovič; Serbian: Александар Петровић; 1 January 1823 – most likely 31 July 1849) was a Hungarian poet and liberal revolutionary. He is considered Hungary's national poet, and was one of the key figures of the Hungarian Revolution of 1848. He is the author of the Nemzeti dal (National Song), which is said to have inspired the revolution in the Kingdom of Hungary that grew into a war for independence from the Austrian Empire. It is most likely, albeit unknown, that he died in the Battle of Segesvár, one of the last battles of the war.",
+    "photo": "no death year in or after 1860"
+  }
+}

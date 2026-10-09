@@ -1,0 +1,45 @@
+{
+  "id": "Q131706",
+  "slug": "maria-theresa",
+  "name": "Maria Theresa",
+  "wikipedia": "Maria Theresa",
+  "role": "Habsburg monarch from 1740 to 1780",
+  "life": "1717–1780",
+  "lifetime": [
+    1717,
+    1780
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [
+    "Electorate of Saxony",
+    "Kingdom of Prussia",
+    "Kingdom of France"
+  ],
+  "contribution": "The ruler of the Habsburg monarchy from 1740 until her death in 1780, and the only woman to hold the position in her own right.",
+  "image": "images/maria-theresa.jpg",
+  "image_credit": "Martin van Meytens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Habsburg Monarchy",
+        "Electorate of Saxony",
+        "Kingdom of Prussia",
+        "Kingdom of France"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Maria Theresa (Maria Theresia Walburga Amalia Christina; 13 May 1717 – 29 November 1780) was the ruler of the Habsburg monarchy from 1740 until her death in 1780, and the only woman to hold the position in her own right. She was the sovereign of Austria, Hungary, Croatia, Bohemia, Transylvania, Slavonia, Mantua, Milan, Moravia, Galicia and Lodomeria, Dalmatia, Austrian Netherlands, Carinthia, Carniola, Gorizia and Gradisca, Austrian Silesia, Tyrol, Styria, and Parma. By marriage, she was Duchess of Lorraine, Grand Duchess of Tuscany, and Holy Roman Empress.",
+    "photo": "no death year in or after 1860"
+  }
+}

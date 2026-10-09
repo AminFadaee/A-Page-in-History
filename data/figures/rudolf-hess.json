@@ -1,0 +1,39 @@
+{
+  "id": "Q75866",
+  "slug": "rudolf-hess",
+  "name": "Rudolf Hess",
+  "wikipedia": "Rudolf Hess",
+  "role": "German Nazi politician",
+  "life": "1894–1987",
+  "lifetime": [
+    1894,
+    1987
+  ],
+  "occupation": "Politician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "A German politician, convicted war criminal, and a leading member of the Nazi Party in Germany.",
+  "image": "images/rudolf-hess.jpg",
+  "image_credit": "Unknown authorUnknown author · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Nazi Germany",
+        "Union of Soviet Socialist Republics"
+      ],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": []
+    },
+    "lead": "Rudolf Walter Richard Hess (Heß in German; 26 April 1894 – 17 August 1987) was a German politician, convicted war criminal, and a leading member of the Nazi Party in Germany. Appointed Deputy to the Führer (Stellvertreter des Führers) in 1933, Hess held that position until 1941, when he flew solo to Scotland in an attempt to negotiate the United Kingdom's exit from the Second World War. He was taken prisoner and eventually convicted of crimes against peace. He was still serving his life sentence at age 93 when he committed suicide in 1987.",
+    "photo": "captured 1933date QS:P571,+1933-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

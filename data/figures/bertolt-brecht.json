@@ -1,0 +1,42 @@
+{
+  "id": "Q38757",
+  "slug": "bertolt-brecht",
+  "name": "Bertolt Brecht",
+  "wikipedia": "Bertolt Brecht",
+  "role": "German playwright and poet",
+  "life": "1898–1956",
+  "lifetime": [
+    1898,
+    1956
+  ],
+  "occupation": "Writer",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Weimar Republic"
+  ],
+  "related": [],
+  "contribution": "A German theatre practitioner, playwright, and poet.",
+  "image": "images/bertolt-brecht.jpg",
+  "image_credit": "Kolbe, Jörg · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "German Democratic Republic",
+        "Weimar Republic",
+        "Republic of Austria"
+      ],
+      "lead": [
+        "Weimar Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Eugen Berthold Friedrich Brecht (10 February 1898 – 14 August 1956), known as Bertolt Brecht and Bert Brecht, was a German theatre practitioner, playwright, and poet. Coming of age during the Weimar Republic, he had his first successes as a playwright in Munich and moved to Berlin in 1924, where he wrote The Threepenny Opera with Elisabeth Hauptmann and Kurt Weill and began a lifelong collaboration with the composer Hanns Eisler. Immersed in Marxist thought during this period, Brecht wrote didactic Lehrstücke and became a leading theoretician of epic theatre (which he later preferred to call \"dialectical theatre\") and the Verfremdungseffekt.",
+    "photo": "captured 1954date QS:P571,+1954-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

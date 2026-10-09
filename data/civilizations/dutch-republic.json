@@ -1,0 +1,90 @@
+{
+  "id": "Q170072",
+  "slug": "dutch-republic",
+  "name": "Dutch Republic",
+  "wikipedia": "Dutch Republic",
+  "map_year": 1769,
+  "period": {
+    "start": {
+      "earliest": 1588,
+      "latest": 1588,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "The Hague",
+      "location": [
+        4.31,
+        52.08
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Batavian Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q170072",
+        "layer": 1,
+        "name": "Dutch Republic"
+      },
+      {
+        "id": "Q188553",
+        "layer": 2,
+        "name": "Batavian Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q170072",
+        "Q188553",
+        "Indonesia, Netherlands"
+      ]
+    ],
+    "question": "successions/dutch-republic-question.png",
+    "answer": "successions/dutch-republic-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Indonesia",
+    "Sri Lanka",
+    "Netherlands"
+  ],
+  "map": "maps/dutch-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "The Hague"
+      ],
+      "infobox": [
+        "De facto and de jure",
+        "The Hague"
+      ]
+    },
+    "cliopatria_years": [
+      1582,
+      1795
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Qing Dynasty",
+      "Ottoman Empire",
+      "Durrani Empire",
+      "Kazakh Khanate",
+      "Zand Dynasty",
+      "Tibet",
+      "Maratha Empire"
+    ]
+  }
+}

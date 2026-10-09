@@ -1,0 +1,80 @@
+{
+  "id": "Q41642",
+  "slug": "phoenicia",
+  "name": "Phoenicia",
+  "wikipedia": "Phoenicia",
+  "map_year": -615,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -64,
+      "latest": -64,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [
+    "Carthage"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q41642",
+        "layer": 1,
+        "name": "Phoenicia"
+      },
+      {
+        "id": "Q2429397",
+        "layer": 2,
+        "name": "Carthage"
+      }
+    ],
+    "edges": [
+      [
+        "Q41642",
+        "Q2429397",
+        "Italy, Spain, Libya"
+      ]
+    ],
+    "question": "successions/phoenicia-question.png",
+    "answer": "successions/phoenicia-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Lebanon",
+    "Italy",
+    "Libya",
+    "Spain",
+    "Syria",
+    "Morocco",
+    "Malta"
+  ],
+  "map": "maps/phoenicia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Byblos",
+        "Sidon",
+        "Tyre, Lebanon"
+      ]
+    },
+    "cliopatria_years": [
+      -1150,
+      -501
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Neo-Assyrian Empire",
+      "Twenty-sixth Dynasty of Egypt",
+      "Kingdom of Kush",
+      "Lydia",
+      "Kingdom of Urartu",
+      "Babylonia",
+      "Elam"
+    ]
+  }
+}

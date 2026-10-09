@@ -1,0 +1,38 @@
+{
+  "id": "Q52947",
+  "slug": "gustav-vasa",
+  "name": "Gustav Vasa",
+  "wikipedia": "Gustav Vasa",
+  "role": "King of Sweden from 1523 to 1560",
+  "life": "1496–1560",
+  "lifetime": [
+    1496,
+    1560
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Sweden",
+  "civilizations": [
+    "Kalmar Union"
+  ],
+  "related": [],
+  "contribution": "King of Sweden from 1523 until his death in 1560.",
+  "image": "images/gustav-vasa.jpg",
+  "image_credit": "Jacob Binck · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Sweden"
+      ],
+      "lead": [
+        "Kalmar Union"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kalmar Union"
+      ]
+    },
+    "lead": "Gustav Eriksson Vasa (12 May 1496 – 29 September 1560), also known as Gustav I, was King of Sweden from 1523 until his death in 1560. He was previously self-recognised Protector of the Realm (Riksföreståndare) from 1521, during the Swedish War of Liberation against King Christian II of Denmark, Norway and Sweden. Gustav rose to lead this war following the Stockholm Bloodbath, where his father was executed. Gustav's election as king on 6 June 1523 (the future National Day of Sweden) and his triumphant entry into Stockholm eleven days later marked Sweden's final secession from the Kalmar Union.",
+    "photo": "no death year in or after 1860"
+  }
+}

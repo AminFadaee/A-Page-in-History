@@ -1,0 +1,65 @@
+{
+  "id": "Q185488",
+  "slug": "volga-bulgaria",
+  "name": "Volga Bulgaria",
+  "wikipedia": "Volga Bulgaria",
+  "map_year": 682,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1240,
+      "latest": 1240,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Bolghar",
+      "location": [
+        49.054257,
+        54.977391
+      ]
+    },
+    {
+      "name": "Bilär",
+      "location": [
+        50.40348,
+        54.97203
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q657805",
+      "name": "Almış"
+    }
+  ],
+  "modern_countries": [
+    "Russia"
+  ],
+  "map": "maps/volga-bulgaria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bolghar",
+        "Bilär",
+        "Bolgar, Spassky District, Republic of Tatarstan"
+      ],
+      "infobox": [
+        "Bolghar",
+        "Bilär"
+      ]
+    },
+    "cliopatria_years": [
+      674,
+      1235
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

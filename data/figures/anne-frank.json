@@ -1,0 +1,37 @@
+{
+  "id": "Q4583",
+  "slug": "anne-frank",
+  "name": "Anne Frank",
+  "wikipedia": "Anne Frank",
+  "role": "German-born diarist and Holocaust victim",
+  "life": "1929–1945",
+  "lifetime": [
+    1929,
+    1945
+  ],
+  "occupation": "Writer",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Weimar Republic"
+  ],
+  "related": [],
+  "contribution": "A German-born Jewish diarist and Holocaust victim.",
+  "image": "images/anne-frank.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Nazi Germany",
+        "Weimar Republic"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Weimar Republic"
+      ]
+    },
+    "lead": "Annelies Marie Frank (12 June 1929 – c. February or March 1945) was a German-born Jewish diarist and Holocaust victim. She gained worldwide notability posthumously for keeping a diary documenting her life in hiding during the German occupation of the Netherlands. In the diary, she regularly described her family's everyday life in their hiding place in a secret annex in Amsterdam from 1942 until their arrest in 1944.",
+    "photo": "captured 1941-12 during their lifetime"
+  }
+}

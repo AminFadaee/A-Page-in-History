@@ -1,0 +1,47 @@
+{
+  "id": "Q171349",
+  "slug": "abbas-the-great",
+  "name": "Abbas the Great",
+  "wikipedia": "Abbas the Great",
+  "role": "Shah of Safavid Iran from 1587 to 1629",
+  "life": "1571–1629",
+  "lifetime": [
+    1571,
+    1629
+  ],
+  "occupation": "Politician",
+  "birth_country": "Afghanistan",
+  "civilizations": [
+    "Safavid Dynasty"
+  ],
+  "related": [
+    "Ottoman Empire",
+    "Khanate of Bukhara",
+    "Portuguese Empire",
+    "Mughal Empire"
+  ],
+  "contribution": "The fifth Safavid shah of Iran from 1588 to 1629.",
+  "image": "images/abbas-the-great.jpg",
+  "image_credit": "1647 artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Safavid Dynasty"
+      ],
+      "lead": [
+        "Safavid Dynasty",
+        "Ottoman Empire",
+        "Khanate of Bukhara",
+        "Portuguese Empire",
+        "Mughal Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Safavid Dynasty"
+      ]
+    },
+    "lead": "Abbas I (Persian: عباس یکم, romanized: Abbâs-e Yekom; 27 January 1571 – 19 January 1629), commonly known as Abbas the Great (Persian: عباس بزرگ, romanized: Abbâs-e Bozorg), was the fifth Safavid shah of Iran from 1588 to 1629. The third son of Shah Mohammad Khodabanda, he is generally considered one of the most important rulers in Iranian history and the greatest ruler of the Safavid dynasty.",
+    "photo": "no death year in or after 1860"
+  }
+}

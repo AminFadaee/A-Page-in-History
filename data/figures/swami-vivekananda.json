@@ -1,0 +1,40 @@
+{
+  "id": "Q47478",
+  "slug": "swami-vivekananda",
+  "name": "Swami Vivekananda",
+  "wikipedia": "Swami Vivekananda",
+  "role": "Indian monk and philosopher",
+  "life": "1863–1902",
+  "lifetime": [
+    1863,
+    1902
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [
+    "United States of America"
+  ],
+  "contribution": "An Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.",
+  "image": "images/swami-vivekananda.jpg",
+  "image_credit": "The original uploader was Dziewa at English Wikipedia. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj"
+      ],
+      "lead": [
+        "United States of America"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Swami Vivekananda () (12 January 1863 – 4 July 1902), born Narendranath Datta, was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna. Vivekananda was a major figure in the introduction of Vedanta and Yoga to the Western world during the late 19th century, and is credited with raising interfaith awareness and elevating Hinduism to the status of a major world religion.",
+    "photo": "capture date '7 January 2008 (original upload date)' not within their lifetime and not classified as a photograph"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q130377",
+  "slug": "bartolomeu-dias",
+  "name": "Bartolomeu Dias",
+  "wikipedia": "Bartolomeu Dias",
+  "role": "Portuguese maritime explorer",
+  "life": "c. 1467–1500",
+  "lifetime": [
+    1467,
+    1500
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [],
+  "contribution": "A Portuguese mariner and explorer.",
+  "image": "images/bartolomeu-dias.jpg",
+  "image_credit": "Bartolomeu_Dias,_South_Africa_House.JPG: RedCoat (en:User:RedCoat10) derivative work: Biser Todorov (talk) · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Bartolomeu Dias (d. 29 May 1500) was a Portuguese mariner and explorer. In February 1488, he became the first European navigator to round the southern tip of Africa and to demonstrate that the most effective southward route for ships is to go diagonally southwest in the open ocean, well to the west of the African coast. His discoveries were later used by Vasco da Gama to establish a sea route between Europe and Asia.",
+    "photo": "no death year in or after 1860"
+  }
+}

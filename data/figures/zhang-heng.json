@@ -1,0 +1,36 @@
+{
+  "id": "Q197206",
+  "slug": "zhang-heng",
+  "name": "Zhang Heng",
+  "wikipedia": "Zhang Heng",
+  "role": "Chinese scientist and statesman",
+  "life": "78–139",
+  "lifetime": [
+    78,
+    139
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese polymathic scientist and statesman who lived during the Eastern Han dynasty.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Han Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Zhang Heng (Chinese: 張衡; AD 78 – 139), courtesy name Pingzi, formerly romanized Chang Heng, was a Chinese polymathic scientist and statesman who lived during the Eastern Han dynasty. Educated in the capital cities of Luoyang and Chang'an, he achieved success as an astronomer, mathematician, seismologist, hydraulic engineer, inventor, geographer, cartographer, ethnographer, artist, poet, philosopher, politician, and literary scholar.",
+    "photo": "no image"
+  }
+}

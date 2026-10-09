@@ -1,0 +1,42 @@
+{
+  "id": "Q43063",
+  "slug": "archduke-franz-ferdinand-of-austria",
+  "name": "Archduke Franz Ferdinand of Austria",
+  "wikipedia": "Archduke Franz Ferdinand of Austria",
+  "role": "Heir to the Austrian throne",
+  "life": "1863–1914",
+  "lifetime": [
+    1863,
+    1914
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [
+    "Austria-Hungary",
+    "Kingdom of Serbia"
+  ],
+  "contribution": "The heir presumptive to the throne of Austria-Hungary.",
+  "image": "images/archduke-franz-ferdinand-of-austria.jpg",
+  "image_credit": "Ferdinand Schmutzer · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire"
+      ],
+      "lead": [
+        "Austria-Hungary",
+        "Kingdom of Serbia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Archduke Franz Ferdinand Carl Ludwig Joseph Maria of Austria (Francis Ferdinand, 18 December 1863 – 28 June 1914) was the heir presumptive to the throne of Austria-Hungary. His assassination in Sarajevo was the most immediate cause of World War I.",
+    "photo": "captured circa 1914date QS:P,+1914-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

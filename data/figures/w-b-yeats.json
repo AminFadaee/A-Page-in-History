@@ -1,0 +1,36 @@
+{
+  "id": "Q40213",
+  "slug": "w-b-yeats",
+  "name": "W. B. Yeats",
+  "wikipedia": "W. B. Yeats",
+  "role": "Irish poet and playwright",
+  "life": "1865–1939",
+  "lifetime": [
+    1865,
+    1939
+  ],
+  "occupation": "Writer",
+  "birth_country": "Ireland",
+  "civilizations": [
+    "Irish Free State"
+  ],
+  "related": [],
+  "contribution": "An Irish poet, dramatist, writer and literary critic who was one of the foremost figures of 20th-century literature.",
+  "image": "images/w-b-yeats.jpg",
+  "image_credit": "George Charles Beresford · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Irish Free State"
+      ],
+      "lead": [
+        "Irish Free State"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "William Butler Yeats ( YAYTS; 13 June 1865 – 28 January 1939) was an Irish poet, dramatist, writer and literary critic who was one of the foremost figures of 20th-century literature. He was a driving force behind the Irish Literary Revival and, along with John Millington Synge and Lady Gregory, founded the Abbey Theatre, serving as its chief during its early years. He was awarded the 1923 Nobel Prize in Literature and later served two terms as a Senator of the Irish Free State.",
+    "photo": "captured 1911-07-15 during their lifetime"
+  }
+}

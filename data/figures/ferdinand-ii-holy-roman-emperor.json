@@ -1,0 +1,43 @@
+{
+  "id": "Q150599",
+  "slug": "ferdinand-ii-holy-roman-emperor",
+  "name": "Ferdinand II, Holy Roman Emperor",
+  "wikipedia": "Ferdinand II, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1619 to 1637",
+  "life": "1578–1637",
+  "lifetime": [
+    1578,
+    1637
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [
+    "Ottoman Empire",
+    "Republic of Venice"
+  ],
+  "contribution": "Holy Roman Emperor, King of Bohemia, Hungary, and Croatia from 1619 until his death in 1637.",
+  "image": "images/ferdinand-ii-holy-roman-emperor.jpg",
+  "image_credit": "Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire",
+        "Republic of Venice",
+        "Holy Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Ferdinand II (9 July 1578 – 15 February 1637) was Holy Roman Emperor, King of Bohemia, Hungary, and Croatia from 1619 until his death in 1637. He was the son of Archduke Charles II of Inner Austria and Maria of Bavaria, who were devout Catholics. In 1590, when Ferdinand was 11 years old, they sent him to study at the Jesuits' college in Ingolstadt because they wanted to isolate him from the Lutheran nobles. A few months later, his father died, and he inherited Inner Austria–Styria, Carinthia, Carniola and smaller provinces. His cousin, Rudolf II, Holy Roman Emperor, who was the head of the Habsburg family, appointed regents to administer these lands.",
+    "photo": "no death year in or after 1860"
+  }
+}

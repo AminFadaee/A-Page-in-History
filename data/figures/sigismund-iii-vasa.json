@@ -1,0 +1,42 @@
+{
+  "id": "Q52940",
+  "slug": "sigismund-iii-vasa",
+  "name": "Sigismund III Vasa",
+  "wikipedia": "Sigismund III Vasa",
+  "role": "Ruler of Poland–Lithuania, King of Sweden",
+  "life": "1566–1632",
+  "lifetime": [
+    1566,
+    1632
+  ],
+  "occupation": "Politician",
+  "birth_country": "Sweden",
+  "civilizations": [
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "",
+  "image": "images/sigismund-iii-vasa.jpg",
+  "image_credit": "Pieter Soutman · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "vital_section": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "birthplace": [
+        "Kingdom of Sweden"
+      ]
+    },
+    "lead": "Sigismund III Vasa (Polish: Zygmunt III Waza, Lithuanian: Žygimantas Vaza; 20 June 1566 – 30 April 1632",
+    "photo": "no death year in or after 1860"
+  }
+}

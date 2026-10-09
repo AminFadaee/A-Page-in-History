@@ -1,0 +1,41 @@
+{
+  "id": "Q35802",
+  "slug": "baruch-spinoza",
+  "name": "Baruch Spinoza",
+  "wikipedia": "Baruch Spinoza",
+  "role": "Portuguese-Dutch philosopher",
+  "life": "1632–1677",
+  "lifetime": [
+    1632,
+    1677
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [
+    "Kingdom of Portugal"
+  ],
+  "contribution": "A philosopher of Portuguese-Jewish origin who was born and lived in the Dutch Republic.",
+  "image": "images/baruch-spinoza.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [
+        "Dutch Republic",
+        "Kingdom of Portugal"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "Baruch (de) Spinoza (24 November 1632 – 21 February 1677), also known under his Latinized pen name Benedictus de Spinoza, was a philosopher of Portuguese-Jewish origin who was born and lived in the Dutch Republic. A forerunner of the Enlightenment, Spinoza significantly influenced modern biblical criticism, 17th-century rationalism, and Dutch intellectual culture, establishing himself as one of the most important and radical philosophers of the early modern period. Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians, Spinoza was a leading philosopher of the Dutch Golden Age.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q2604",
+  "slug": "pope-pius-xii",
+  "name": "Pope Pius XII",
+  "wikipedia": "Pope Pius XII",
+  "role": "Head of the Catholic Church from 1939 to 1958",
+  "life": "1876–1958",
+  "lifetime": [
+    1876,
+    1958
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and sovereign of Vatican City from 2 March 1939 until his death on 9 October 1958.",
+  "image": "images/pope-pius-xii.jpg",
+  "image_credit": "Michael Pitcairn · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy",
+        "Republic of Italy"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Pope Pius XII (Italian: Pio XII; born Eugenio Maria Giuseppe Giovanni Pacelli; 2 March 1876 – 9 October 1958) was head of the Catholic Church and sovereign of Vatican City from 2 March 1939 until his death on 9 October 1958. Pius reigned as pope during a highly consequential 19 years that included the Second World War, the Holocaust and the beginning of the Cold War.",
+    "photo": "captured circa 1951date QS:P571,+1951-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

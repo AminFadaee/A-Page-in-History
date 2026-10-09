@@ -1,0 +1,56 @@
+{
+  "id": "Q107299",
+  "slug": "kingdom-of-northumbria",
+  "name": "Kingdom of Northumbria",
+  "wikipedia": "Northumbria",
+  "map_year": 656,
+  "period": {
+    "start": {
+      "earliest": 654,
+      "latest": 654,
+      "circa": false
+    },
+    "end": {
+      "earliest": 954,
+      "latest": 954,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Kingdom of Bernicia",
+    "Kingdom of Deira",
+    "Kingdom of Rheged"
+  ],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "map": "maps/kingdom-of-northumbria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      612,
+      935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Burgundian Kingdom",
+      "Scandinavian minor kingdoms",
+      "Samo's Empire",
+      "Kingdom of the Franks",
+      "Saxons",
+      "Bavarians",
+      "Frisia Kingdom",
+      "Duchy of Thuringia",
+      "Breton Kingdoms"
+    ]
+  }
+}

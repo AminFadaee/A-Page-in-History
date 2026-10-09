@@ -1,0 +1,36 @@
+{
+  "id": "Q692",
+  "slug": "william-shakespeare",
+  "name": "William Shakespeare",
+  "wikipedia": "William Shakespeare",
+  "role": "English playwright and poet",
+  "life": "1564–1616",
+  "lifetime": [
+    1564,
+    1616
+  ],
+  "occupation": "Writer",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English playwright, poet and actor.",
+  "image": "images/william-shakespeare.jpg",
+  "image_credit": "Attributed to John Taylor · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the \"Bard of Avon\" or simply \"the Bard\". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, 3 long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted.",
+    "photo": "no death year in or after 1860"
+  }
+}

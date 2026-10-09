@@ -1,0 +1,36 @@
+{
+  "id": "Q183221",
+  "slug": "antoine-watteau",
+  "name": "Antoine Watteau",
+  "wikipedia": "Antoine Watteau",
+  "role": "French painter",
+  "life": "1684–1721",
+  "lifetime": [
+    1684,
+    1721
+  ],
+  "occupation": "Painter",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French painter and draughtsman whose brief career spurred the revival of interest in colour and movement, as seen in the tradition of Correggio and Rubens.",
+  "image": "images/antoine-watteau.jpg",
+  "image_credit": "Rosalba Carriera · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jean-Antoine Watteau (UK: , US: , French: [ʒɑ̃ ɑ̃twan vato];Picard: [ʒɑ̃ ton wato]; baptised 10 October 1684 – died 18 July 1721) was a French painter and draughtsman whose brief career spurred the revival of interest in colour and movement, as seen in the tradition of Correggio and Rubens. He revitalized the waning Baroque style, shifting it to the less severe, more naturalistic, less formally classical, Rococo. Watteau is credited with inventing the genre of fêtes galantes, scenes of bucolic and idyllic charm, suffused with a theatrical air. Some of his best known subjects were drawn from the world of Italian comedy and ballet.",
+    "photo": "no death year in or after 1860"
+  }
+}

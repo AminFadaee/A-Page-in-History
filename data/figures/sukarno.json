@@ -1,0 +1,46 @@
+{
+  "id": "Q76127",
+  "slug": "sukarno",
+  "name": "Sukarno",
+  "wikipedia": "Sukarno",
+  "role": "President of Indonesia from 1945 to 1967",
+  "life": "1901–1970",
+  "lifetime": [
+    1901,
+    1970
+  ],
+  "occupation": "Politician",
+  "birth_country": "Indonesia",
+  "civilizations": [
+    "Republic of Indonesia",
+    "Dutch East Indies"
+  ],
+  "related": [
+    "Empire of Japan",
+    "Union of Soviet Socialist Republics",
+    "United States of America"
+  ],
+  "contribution": "An Indonesian statesman, activist, and revolutionary who served as the first president of Indonesia from 1945 to 1967.",
+  "image": "images/sukarno.jpg",
+  "image_credit": "Onbekend/Anonymous · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Indonesia",
+        "Dutch East Indies"
+      ],
+      "lead": [
+        "Republic of Indonesia",
+        "Dutch East Indies",
+        "Empire of Japan",
+        "Union of Soviet Socialist Republics",
+        "United States of America"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Sukarno (born Koesno Sosrodihardjo; 6 June 1901 – 21 June 1970) was an Indonesian statesman, activist, and revolutionary who served as the first president of Indonesia from 1945 to 1967.",
+    "photo": "captured circa 1949date QS:P571,+1949-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

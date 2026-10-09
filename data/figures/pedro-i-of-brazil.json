@@ -1,0 +1,40 @@
+{
+  "id": "Q939",
+  "slug": "pedro-i-of-brazil",
+  "name": "Pedro I of Brazil",
+  "wikipedia": "Pedro I of Brazil",
+  "role": "Emperor of Brazil and King of Portugal",
+  "life": "1798–1834",
+  "lifetime": [
+    1798,
+    1834
+  ],
+  "occupation": "Politician",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal",
+    "Empire of Brazil"
+  ],
+  "related": [],
+  "contribution": "The founder and first ruler of the Empire of Brazil from 1822 to 1831 and King of Portugal in 1826.",
+  "image": "images/pedro-i-of-brazil.jpg",
+  "image_credit": "Simplício Rodrigues de Sá · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal",
+        "Empire of Brazil"
+      ],
+      "lead": [
+        "Empire of Brazil"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Dom Pedro I (12 October 1798 – 24 September 1834), known in Brazil and in Portugal as \"the Liberator\" (Portuguese: o Libertador) or \"the Soldier King\" (o Rei Soldado) in Portugal, was the founder and first ruler of the Empire of Brazil from 1822 to 1831 (under the name of Pedro I) and King of Portugal in 1826 (under the name of Pedro IV).",
+    "photo": "no death year in or after 1860"
+  }
+}

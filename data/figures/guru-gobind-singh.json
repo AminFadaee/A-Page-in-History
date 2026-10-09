@@ -1,0 +1,36 @@
+{
+  "id": "Q312967",
+  "slug": "guru-gobind-singh",
+  "name": "Guru Gobind Singh",
+  "wikipedia": "Guru Gobind Singh",
+  "role": "Tenth Sikh guru from 1675 to 1708",
+  "life": "1666–1708",
+  "lifetime": [
+    1666,
+    1708
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [],
+  "contribution": "The tenth and last human Sikh Guru.",
+  "image": "images/guru-gobind-singh.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Mughal Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Guru Gobind Singh (Punjabi pronunciation: [gʊɾuː goːbɪn̪d̪ᵊ sɪ́ŋgᵊ]; born Gobind Das; 22 December 1666 – 7 October 1708) was the tenth and last human Sikh Guru. He was a warrior, poet, and philosopher. In 1675, at the age of nine, he was formally made the leader of the Sikhs after his father Guru Tegh Bahadur—the ninth Sikh Guru—was executed by the emperor Aurangzeb. His four biological sons died during his lifetime—two in battle and two executed by the Mughal administrator Wazir Khan.",
+    "photo": "no death year in or after 1860"
+  }
+}

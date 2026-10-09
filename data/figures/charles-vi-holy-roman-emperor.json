@@ -1,0 +1,55 @@
+{
+  "id": "Q150665",
+  "slug": "charles-vi-holy-roman-emperor",
+  "name": "Charles VI, Holy Roman Emperor",
+  "wikipedia": "Charles VI, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1711 to 1740",
+  "life": "1685–1740",
+  "lifetime": [
+    1685,
+    1740
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [
+    "Electorate of Saxony",
+    "Polish-Lithuanian Commonwealth",
+    "Dutch Republic",
+    "Republic of Venice",
+    "Papal States",
+    "Kingdom of Prussia",
+    "Russian Empire",
+    "Denmark-Norway"
+  ],
+  "contribution": "Holy Roman Emperor and ruler of the Austrian Habsburg monarchy from 1711 until his death, succeeding his elder brother, Joseph I. He unsuccessfully claimed the throne of Spain following the death of his relative Charles II of Spain.",
+  "image": "images/charles-vi-holy-roman-emperor.jpg",
+  "image_credit": "Attributed to Martin van Meytens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Spain"
+      ],
+      "lead": [
+        "Habsburg Monarchy",
+        "Electorate of Saxony",
+        "Polish-Lithuanian Commonwealth",
+        "Dutch Republic",
+        "Republic of Venice",
+        "Papal States",
+        "Kingdom of Prussia",
+        "Russian Empire",
+        "Denmark-Norway"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Charles VI (German: Karl; Latin: Carolus; 1 October 1685 – 20 October 1740) was Holy Roman Emperor and ruler of the Austrian Habsburg monarchy from 1711 until his death, succeeding his elder brother, Joseph I. He unsuccessfully claimed the throne of Spain following the death of his relative Charles II of Spain. In 1708, he married Elisabeth Christine of Brunswick-Wolfenbüttel, by whom he had his four children: Leopold Johann (who died in infancy), Maria Theresa, Maria Anna (Governess of the Austrian Netherlands), and Maria Amalia (who also died in infancy).",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q4352055",
+  "slug": "edmund-spenser",
+  "name": "Edmund Spenser",
+  "wikipedia": "Edmund Spenser",
+  "role": "English poet",
+  "life": "c. 1552–1599",
+  "lifetime": [
+    1552,
+    1599
+  ],
+  "occupation": "Writer",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English poet who is best known for having written The Faerie Queene, an epic poem and fantastical allegory that celebrates the Tudor dynasty and Elizabeth I. He is recognized as being one of the premier craftsmen of nascent Modern English verse, and he is considered to be one of the great poets in the English language.",
+  "image": "images/edmund-spenser.jpg",
+  "image_credit": "English School / Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edmund Spenser (c. 1552 – 13 January 1599 O.S.) was an English poet who is best known for having written The Faerie Queene, an epic poem and fantastical allegory that celebrates the Tudor dynasty and Elizabeth I. He is recognized as being one of the premier craftsmen of nascent Modern English verse, and he is considered to be one of the great poets in the English language.",
+    "photo": "no death year in or after 1860"
+  }
+}

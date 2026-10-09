@@ -1,0 +1,36 @@
+{
+  "id": "Q378564",
+  "slug": "wang-xizhi",
+  "name": "Wang Xizhi",
+  "wikipedia": "Wang Xizhi",
+  "role": "Chinese calligrapher",
+  "life": "321–361",
+  "lifetime": [
+    303,
+    361
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Western Jin"
+  ],
+  "related": [],
+  "contribution": "A Chinese politician, general, and calligrapher from the Jin dynasty known for his mastery of Chinese calligraphy.",
+  "image": "images/wang-xizhi.jpg",
+  "image_credit": "Unknown Chinese artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Western Jin"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Western Jin"
+      ]
+    },
+    "lead": "Wang Xizhi (Chinese: 王羲之; courtesy name: Yishao (逸少); c. 303 – c. 361) was a Chinese politician, general, and calligrapher from the Jin dynasty (266–420) known for his mastery of Chinese calligraphy. He is often regarded as the greatest calligrapher in Chinese history. His most famous work, composed in 353, is the Lantingji xu (蘭亭集序; \"Preface to the Poems Composed at the Orchid Pavilion\").",
+    "photo": "no death year in or after 1860"
+  }
+}

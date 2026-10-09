@@ -1,0 +1,38 @@
+{
+  "id": "Q172911",
+  "slug": "ilya-repin",
+  "name": "Ilya Repin",
+  "wikipedia": "Ilya Repin",
+  "role": "Ukrainian-born Russian painter",
+  "life": "1844–1930",
+  "lifetime": [
+    1844,
+    1930
+  ],
+  "occupation": "Painter",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Ukrainian-born Russian painter.",
+  "image": "images/ilya-repin.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Ilya Yefimovich Repin (5 August [O.S. 24 July] 1844 – 29 September 1930) was a Ukrainian-born Russian painter. He became one of the most renowned artists in Russia in the 19th century. His major works include Barge Haulers on the Volga (1873), Religious Procession in Kursk Province (1880–1883), Ivan the Terrible and His Son Ivan (1885), and Reply of the Zaporozhian Cossacks (1880–1891). Repin is also known for the revealing portraits he made of the leading Russian literary and artistic figures of his time, including Mikhail Glinka, Modest Mussorgsky, Pavel Tretyakov, and especially Leo Tolstoy, with whom he had a long friendship.",
+    "photo": "captured 1909 during their lifetime"
+  }
+}

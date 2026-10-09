@@ -1,0 +1,39 @@
+{
+  "id": "Q133372",
+  "slug": "charles-vii-of-france",
+  "name": "Charles VII of France",
+  "wikipedia": "Charles VII of France",
+  "role": "King of France from 1422 to 1461",
+  "life": "1403–1461",
+  "lifetime": [
+    1403,
+    1461
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of England"
+  ],
+  "contribution": "King of France from 1422 to his death in 1461.",
+  "image": "images/charles-vii-of-france.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Kingdom of France",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles VII (22 February 1403 – 22 July 1461), called the Victorious (French: le Victorieux) or the Well-Served (le Bien-Servi), was King of France from 1422 to his death in 1461. His reign saw the end of the Hundred Years' War and a de facto end of the English claims to the French throne.",
+    "photo": "no death year in or after 1860"
+  }
+}

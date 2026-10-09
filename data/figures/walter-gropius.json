@@ -1,0 +1,38 @@
+{
+  "id": "Q61071",
+  "slug": "walter-gropius",
+  "name": "Walter Gropius",
+  "wikipedia": "Walter Gropius",
+  "role": "German-American architect",
+  "life": "1883–1969",
+  "lifetime": [
+    1883,
+    1969
+  ],
+  "occupation": "Architect",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A German-American architect and founder of the Bauhaus School, who is widely regarded as one of the pioneering masters of modernist architecture.",
+  "image": "images/walter-gropius.jpg",
+  "image_credit": "Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Walter Adolph Georg Gropius (German: [ˈvaltɐ ˈadɔlf ˈɡeːɔʁk ˈɡʁoːpiʊs]; 18 May 1883 – 5 July 1969) was a German-American architect and founder of the Bauhaus School, who is widely regarded as one of the pioneering masters of modernist architecture. He was a founder of Bauhaus in Weimar and taught there for several years, becoming known as a leading proponent of the International Style. Gropius emigrated from Germany to England in 1934 and from England to the United States in 1937, where he spent much of the rest of his life teaching at the Harvard Graduate School of Design. In the United States he worked on several projects with Marcel Breuer and with the firm The Architects Collaborative, of which he was a founding partner. In 1959, he won the AIA Gold Medal, one of the most prestigious awards in architecture.",
+    "photo": "captured 1919 during their lifetime"
+  }
+}

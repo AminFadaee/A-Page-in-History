@@ -1,0 +1,44 @@
+{
+  "id": "Q378483",
+  "slug": "taejo-of-joseon",
+  "name": "Taejo of Joseon",
+  "wikipedia": "Taejo of Joseon",
+  "role": "King of Joseon from 1392 to 1398",
+  "life": "1335–1408",
+  "lifetime": [
+    1335,
+    1408
+  ],
+  "occupation": "Politician",
+  "birth_country": "North Korea",
+  "civilizations": [
+    "Goryeo",
+    "Joseon"
+  ],
+  "related": [
+    "Ming Dynasty"
+  ],
+  "contribution": "The founder and first monarch of Joseon.",
+  "image": "images/taejo-of-joseon.jpg",
+  "image_credit": "Jo Jung-muk(?-?), Pak Gijun(?-?), Baek Eunbae(1820-?), Yu Suk(1827-1873) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Goryeo",
+        "Joseon"
+      ],
+      "lead": [
+        "Joseon",
+        "Goryeo",
+        "Ming Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Yuan Dynasty"
+      ]
+    },
+    "lead": "Taejo (Korean: 태조; Hanja: 太祖; 4 November 1335 – 27 June 1408), personal name Yi Sŏnggye, later changed to Yi Tan, was the founder and first monarch of Joseon. He ascended to the throne in 1392 after overthrowing the Goryeo regime, but abdicated just six years later during a strife between his sons. Following the establishment of the Korean Empire, he was honored as Emperor Ko.",
+    "photo": "no death year in or after 1860"
+  }
+}

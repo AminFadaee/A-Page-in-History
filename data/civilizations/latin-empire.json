@@ -1,0 +1,70 @@
+{
+  "id": "Q178897",
+  "slug": "latin-empire",
+  "name": "Latin Empire",
+  "wikipedia": "Latin Empire",
+  "map_year": 1220,
+  "period": {
+    "start": {
+      "earliest": 1204,
+      "latest": 1204,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1261,
+      "latest": 1261,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Constantinople",
+      "location": [
+        28.976018,
+        41.01224
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkey",
+    "Bulgaria",
+    "Greece"
+  ],
+  "map": "maps/latin-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Constantinople"
+      ],
+      "infobox": [
+        "Constantinople"
+      ]
+    },
+    "cliopatria_years": [
+      1206,
+      1278
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Second Bulgarian Empire",
+      "Nicaean Empire",
+      "Despotate of Epirus",
+      "Kingdom of Serbia",
+      "Sultanate of Rum",
+      "Kingdom of Hungary",
+      "Halych-Volhynia occupation",
+      "Kingdom of Georgia",
+      "Kingdom of Sicily",
+      "Zengid dynasty",
+      "Armenian Kingdom of Cilicia",
+      "Banate of Bosnia",
+      "Papal States"
+    ]
+  }
+}

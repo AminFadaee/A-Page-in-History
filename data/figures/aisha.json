@@ -18,6 +18,7 @@
   "contribution": "The third and youngest wife of Islamic prophet Muhammad.",
   "image": "images/aisha.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -30,6 +31,7 @@
       "vital_section": [],
       "birthplace": []
     },
-    "lead": "Aisha bint Abi Bakr (c. 614 CE – July 678) was the third and youngest wife of Islamic prophet Muhammad. After Muhammad's death, she was politically active during the Rashidun Caliphate and stands out as a prominent female figure of the period."
+    "lead": "Aisha bint Abi Bakr (c. 614 CE – July 678) was the third and youngest wife of Islamic prophet Muhammad. After Muhammad's death, she was politically active during the Rashidun Caliphate and stands out as a prominent female figure of the period.",
+    "photo": "no death year in or after 1860"
   }
 }

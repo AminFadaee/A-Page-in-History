@@ -1,0 +1,46 @@
+{
+  "id": "Q26702",
+  "slug": "cardinal-richelieu",
+  "name": "Cardinal Richelieu",
+  "wikipedia": "Cardinal Richelieu",
+  "role": "French statesman and clergyman",
+  "life": "1585–1642",
+  "lifetime": [
+    1585,
+    1642
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Habsburg Monarchy",
+    "Swedish Empire",
+    "Dutch Republic",
+    "New France"
+  ],
+  "contribution": "A French Catholic prelate and statesman who had an outsized influence in civil and religious affairs.",
+  "image": "images/cardinal-richelieu.jpg",
+  "image_credit": "Philippe de Champaigne · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Habsburg Monarchy",
+        "Swedish Empire",
+        "Dutch Republic",
+        "New France"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Armand Jean du Plessis, 1st Duke of Richelieu (9 September 1585 – 4 December 1642), commonly known as Cardinal Richelieu, was a French Catholic prelate and statesman who had an outsized influence in civil and religious affairs. He became known as the Red Eminence (French: l'Éminence Rouge), a term derived from the style of Eminence applied to cardinals and their customary red robes.",
+    "photo": "no death year in or after 1860"
+  }
+}

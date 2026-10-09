@@ -1,0 +1,36 @@
+{
+  "id": "Q163514",
+  "slug": "pope-sixtus-iv",
+  "name": "Pope Sixtus IV",
+  "wikipedia": "Pope Sixtus IV",
+  "role": "Head of the Catholic Church from 1471 to 1484",
+  "life": "1414–1484",
+  "lifetime": [
+    1414,
+    1484
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 9 August 1471 until his death in 1484.",
+  "image": "images/pope-sixtus-iv.jpg",
+  "image_credit": "Pedro Berruguete · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Pope Sixtus IV (or Xystus IV, Italian: Sisto IV; born Francesco da Savona later della Rovere; (21 July 1414 – 12 August 1484) was head of the Catholic Church and leader of the Papal States from 9 August 1471 until his death in 1484.",
+    "photo": "no death year in or after 1860"
+  }
+}

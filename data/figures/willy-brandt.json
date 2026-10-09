@@ -1,0 +1,47 @@
+{
+  "id": "Q2514",
+  "slug": "willy-brandt",
+  "name": "Willy Brandt",
+  "wikipedia": "Willy Brandt",
+  "role": "Chancellor of West Germany from 1969 to 1974",
+  "life": "1913–1992",
+  "lifetime": [
+    1913,
+    1992
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Federated Republic of Germany"
+  ],
+  "related": [
+    "United States of America",
+    "German Democratic Republic"
+  ],
+  "contribution": "A German politician and statesman who was leader of the Social Democratic Party of Germany from 1964 to 1987 and concurrently served as the chancellor of West Germany from 1969 to 1974.",
+  "image": "images/willy-brandt.jpg",
+  "image_credit": "Engelbert Reineke · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Kingdom of Norway",
+        "Federated Republic of Germany"
+      ],
+      "lead": [
+        "United States of America",
+        "German Democratic Republic"
+      ],
+      "vital_section": [
+        "Federated Republic of Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Willy Brandt (German: [ˈvɪliː ˈbʁant] ; born Herbert Ernst Karl Frahm; 18 December 1913 – 8 October 1992) was a German politician and statesman who was leader of the Social Democratic Party of Germany (SPD) from 1964 to 1987 and concurrently served as the chancellor of West Germany from 1969 to 1974. He was awarded the Nobel Peace Prize in 1971 for his efforts to strengthen cooperation in Western Europe through the EEC and to achieve reconciliation between West Germany and the countries of Eastern Europe. He was the first Social Democratic chancellor since 1930.",
+    "photo": "captured 5 March 1980date QS:P571,+1980-03-05T00:00:00Z/11 during their lifetime"
+  }
+}

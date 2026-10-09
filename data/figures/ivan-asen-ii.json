@@ -1,0 +1,41 @@
+{
+  "id": "Q313427",
+  "slug": "ivan-asen-ii",
+  "name": "Ivan Asen II",
+  "wikipedia": "Ivan Asen II",
+  "role": "Emperor of Bulgaria from 1218 to 1241",
+  "life": "1190–1241",
+  "lifetime": [
+    1190,
+    1241
+  ],
+  "occupation": "Politician",
+  "birth_country": "Bulgaria",
+  "civilizations": [
+    "Second Bulgarian Empire"
+  ],
+  "related": [
+    "Latin Empire",
+    "Empire of Thessalonica"
+  ],
+  "contribution": "Emperor of Bulgaria from 1218 to 1241.",
+  "image": "images/ivan-asen-ii.jpg",
+  "image_credit": "Георги Данчов · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Second Bulgarian Empire"
+      ],
+      "lead": [
+        "Second Bulgarian Empire",
+        "Latin Empire",
+        "Empire of Thessalonica"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Ivan Asen II, also known as John Asen II (Bulgarian: Иван Асен II, [iˈvan ɐˈsɛn ˈftɔri]; 1190s – May/June 1241), was Emperor (Tsar) of Bulgaria from 1218 to 1241. He was still a child when his father Ivan Asen I – one of the founders of the Second Bulgarian Empire – was killed in 1196. His supporters tried to secure the throne for him after his uncle, Kaloyan, was murdered in 1207, but Kaloyan's other nephew, Boril, overcame them. Ivan Asen fled from Bulgaria and settled in the Rus' principalities.",
+    "photo": "no death year in or after 1860"
+  }
+}

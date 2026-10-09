@@ -1,0 +1,36 @@
+{
+  "id": "Q133060",
+  "slug": "willem-barentsz",
+  "name": "Willem Barentsz",
+  "wikipedia": "Willem Barentsz",
+  "role": "Dutch navigator, cartographer, and Arctic explorer",
+  "life": "1550–1597",
+  "lifetime": [
+    1550,
+    1597
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch navigator, cartographer, and Arctic explorer.",
+  "image": "images/willem-barentsz.jpg",
+  "image_credit": "Unidentified engraver · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Willem Barentsz (Dutch pronunciation: [ˈʋɪləm ˈbaːrənts]; c. 1550 – 20 June 1597), anglicized as William Barents or Barentz, was a Dutch navigator, cartographer, and Arctic explorer.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Q177076",
+  "slug": "caucasian-albania",
+  "name": "Caucasian Albania",
+  "wikipedia": "Caucasian Albania",
+  "map_year": 439,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Azerbaijan",
+    "Georgia"
+  ],
+  "map": "maps/caucasian-albania.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Qabala castle",
+        "Partav"
+      ],
+      "infobox": [
+        "Qabala",
+        "Barda, Azerbaijan"
+      ]
+    },
+    "cliopatria_years": [
+      -63,
+      509
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Sasanian Empire",
+      "Caucasian Iberia"
+    ]
+  }
+}

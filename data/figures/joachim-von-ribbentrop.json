@@ -1,0 +1,45 @@
+{
+  "id": "Q101886",
+  "slug": "joachim-von-ribbentrop",
+  "name": "Joachim von Ribbentrop",
+  "wikipedia": "Joachim von Ribbentrop",
+  "role": "German politician and diplomat",
+  "life": "1893–1946",
+  "lifetime": [
+    1893,
+    1946
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [
+    "Kingdom of Italy",
+    "Union of Soviet Socialist Republics",
+    "Empire of Japan"
+  ],
+  "contribution": "A German politician, diplomat, and war criminal who served as Minister of Foreign Affairs of Nazi Germany from 1938 to 1945.",
+  "image": "images/joachim-von-ribbentrop.jpg",
+  "image_credit": "UnknownUnknown · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Nazi Germany",
+        "Kingdom of Italy",
+        "Union of Soviet Socialist Republics",
+        "Empire of Japan"
+      ],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Ulrich Friedrich-Wilhelm Joachim von Ribbentrop (German: [joˈʔaxɪm fɔn ˈʁɪbəntʁɔp]; 30 April 1893 – 16 October 1946) was a German politician, diplomat, and war criminal who served as Minister of Foreign Affairs of Nazi Germany from 1938 to 1945.",
+    "photo": "captured April 1938date QS:P571,+1938-04-00T00:00:00Z/10 during their lifetime"
+  }
+}

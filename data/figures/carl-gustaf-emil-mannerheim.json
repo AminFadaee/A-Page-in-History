@@ -1,0 +1,49 @@
+{
+  "id": "Q152306",
+  "slug": "carl-gustaf-emil-mannerheim",
+  "name": "Carl Gustaf Emil Mannerheim",
+  "wikipedia": "Carl Gustaf Emil Mannerheim",
+  "role": "Finnish military leader and statesman",
+  "life": "1867–1951",
+  "lifetime": [
+    1867,
+    1951
+  ],
+  "occupation": "Politician",
+  "birth_country": "Finland",
+  "civilizations": [
+    "Russian Empire",
+    "Republic of Finland"
+  ],
+  "related": [
+    "German Empire",
+    "Union of Soviet Socialist Republics",
+    "Nazi Germany",
+    "Swiss Confederation"
+  ],
+  "contribution": "A Finnish military commander and statesman.",
+  "image": "images/carl-gustaf-emil-mannerheim.jpg",
+  "image_credit": "sa-kuva · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Republic of Finland"
+      ],
+      "lead": [
+        "Republic of Finland",
+        "German Empire",
+        "Union of Soviet Socialist Republics",
+        "Nazi Germany",
+        "Swiss Confederation"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Baron Carl Gustaf Emil Mannerheim (Finland Swedish: [kɑːrl ˈɡʉstɑv ˈeːmil ˈmɑnːærhejm] , 4 June 1867 – 27 January 1951) was a Finnish military commander and statesman. He served as the military leader of the Whites in the Finnish Civil War (1918), as regent of Finland (1918–1919), as commander-in-chief of the Finnish Defence Forces during World War II (1939–1945), and as the president of Finland (1944–1946). He became Finland's only field marshal in 1933 and was appointed honorary Marshal of Finland in 1942.",
+    "photo": "captured 1940 during their lifetime"
+  }
+}

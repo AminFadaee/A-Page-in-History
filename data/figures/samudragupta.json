@@ -1,0 +1,39 @@
+{
+  "id": "Q1133363",
+  "slug": "samudragupta",
+  "name": "Samudragupta",
+  "wikipedia": "Samudragupta",
+  "role": "Gupta emperor from 335 to 375",
+  "life": "335–380",
+  "lifetime": [
+    335,
+    380
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "Gupta Empire"
+  ],
+  "related": [
+    "Late Pallava Empire"
+  ],
+  "contribution": "The second emperor of the Gupta Empire of ancient India.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Gupta Empire"
+      ],
+      "lead": [
+        "Gupta Empire",
+        "Late Pallava Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Samudragupta (Gupta script:  Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient India. As a son of the Gupta emperor Chandragupta I and the Licchavi princess Kumaradevi, he inherited the kingdom and transformed it into a vast empire through his military campaigns.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

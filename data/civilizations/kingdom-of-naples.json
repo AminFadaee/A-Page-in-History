@@ -1,0 +1,65 @@
+{
+  "id": "Q173065",
+  "slug": "kingdom-of-naples",
+  "name": "Kingdom of Naples",
+  "wikipedia": "Kingdom of Naples",
+  "map_year": 1285,
+  "period": {
+    "start": {
+      "earliest": 1282,
+      "latest": 1282,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Naples",
+      "location": [
+        14.248611111111112,
+        40.83583333333333
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Italy"
+  ],
+  "map": "maps/kingdom-of-naples.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Naples"
+      ],
+      "infobox": [
+        "Naples"
+      ]
+    },
+    "cliopatria_years": [
+      1285,
+      1501
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Crown of Aragon",
+      "Papal States",
+      "Kingdom of Hungary",
+      "Byzantine Empire",
+      "Hafsid Dynasty",
+      "Kingdom of France",
+      "Zayyanid dynasty",
+      "Second Bulgarian Empire",
+      "Kingdom of Serbia",
+      "House of Habsburg",
+      "Capetian House of Anjou",
+      "Kingdom of Syrmia",
+      "Kingdom of Arles",
+      "County of Auvergne"
+    ]
+  }
+}

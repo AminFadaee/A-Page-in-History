@@ -1,0 +1,41 @@
+{
+  "id": "Q80492",
+  "slug": "gavrilo-princip",
+  "name": "Gavrilo Princip",
+  "wikipedia": "Gavrilo Princip",
+  "role": "Assassin of Archduke Franz Ferdinand",
+  "life": "1894–1918",
+  "lifetime": [
+    1894,
+    1918
+  ],
+  "occupation": "Extremist",
+  "birth_country": "Bosnia and Herzegovina",
+  "civilizations": [
+    "Austria-Hungary"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "A Bosnian Serb student who assassinated Archduke Franz Ferdinand, heir presumptive to the throne of Austria-Hungary, and his wife Sophie, Duchess of Hohenberg, in Sarajevo on 28 June 1914.",
+  "image": "images/gavrilo-princip.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austria-Hungary"
+      ],
+      "lead": [
+        "Austria-Hungary",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Gavrilo Princip (Serbian Cyrillic: Гаврило Принцип, pronounced [ɡǎʋrilo prǐnt͡sip]; 25 July 1894 – 28 April 1918) was a Bosnian Serb student who assassinated Archduke Franz Ferdinand, heir presumptive to the throne of Austria-Hungary, and his wife Sophie, Duchess of Hohenberg, in Sarajevo on 28 June 1914. The assassination set off the July Crisis, a series of events that within one month led to the outbreak of World War I.",
+    "photo": "captured Taken on 2 July 1914 during their lifetime"
+  }
+}

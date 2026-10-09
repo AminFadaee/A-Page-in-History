@@ -1,0 +1,36 @@
+{
+  "id": "Q46602",
+  "slug": "ivan-bunin",
+  "name": "Ivan Bunin",
+  "wikipedia": "Ivan Bunin",
+  "role": "Russian author",
+  "life": "1870–1953",
+  "lifetime": [
+    1870,
+    1953
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian writer.",
+  "image": "images/ivan-bunin.jpg",
+  "image_credit": "Georgi Vasilievich Trunov · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Ivan Alekseyevich Bunin ( BOO-neen or  BOO-nin; Russian: Ива́н Алексе́евич Бу́нин, IPA: [ɪˈvan‿əlʲɪkˈsʲejɪvʲɪdʑ‿ˈbunʲɪn] ; 22 October [O.S. 10 October] 1870 – 8 November 1953) was a Russian writer. He became the first Russian writer awarded the Nobel Prize in Literature, in 1933.  He was noted for the strict artistry with which he carried on the classical Russian traditions in the writing of prose and poetry. The texture of his poems and stories, sometimes referred to as \"Bunin brocade\", is considered to be one of the richest in the language.",
+    "photo": "captured circa 1900date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

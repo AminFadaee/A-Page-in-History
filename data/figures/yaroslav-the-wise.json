@@ -1,0 +1,36 @@
+{
+  "id": "Q188943",
+  "slug": "yaroslav-the-wise",
+  "name": "Yaroslav the Wise",
+  "wikipedia": "Yaroslav the Wise",
+  "role": "Grand Prince of Kiev from 1019 to 1054",
+  "life": "978–1054",
+  "lifetime": [
+    978,
+    1054
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Kievan Rus'"
+  ],
+  "related": [],
+  "contribution": "Grand Prince of Kiev from 1019 until his death in 1054.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kievan Rus'"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kievan Rus'"
+      ]
+    },
+    "lead": "Yaroslav I Vladimirovich (c. 978 – 20 February 1054), better known as Yaroslav the Wise, was Grand Prince of Kiev from 1019 until his death in 1054. He was also earlier Prince of Novgorod from 1010 to 1034 and Prince of Rostov from 987 to 1010, uniting the principalities for a time. Yaroslav's baptismal name was George after Saint George.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Q3044",
+  "slug": "charlemagne",
+  "name": "Charlemagne",
+  "wikipedia": "Charlemagne",
+  "role": "Carolingian emperor from 800 to 814",
+  "life": "748–814",
+  "lifetime": [
+    742,
+    814
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of the Franks"
+  ],
+  "related": [
+    "Abbasid Caliphate"
+  ],
+  "contribution": "King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of the Franks"
+      ],
+      "lead": [
+        "Abbasid Caliphate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of the Franks"
+      ]
+    },
+    "lead": "Charlemagne ( SHAR-lə-mayn; 2 April 748 – 28 January 814) was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and was the first recognised emperor to rule from the west after the fall of the Western Roman Empire approximately three centuries earlier. Charlemagne's reign was marked by political and social changes that had lasting influence on Europe throughout the Middle Ages.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Q25979",
+  "slug": "kushan-empire",
+  "name": "Kushan Empire",
+  "wikipedia": "Kushan Empire",
+  "map_year": 127,
+  "period": {
+    "start": {
+      "earliest": 30,
+      "latest": 30,
+      "circa": false
+    },
+    "end": {
+      "earliest": 375,
+      "latest": 375,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Afghanistan",
+    "People's Republic of China",
+    "Uzbekistan",
+    "Tajikistan"
+  ],
+  "map": "maps/kushan-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bagram"
+      ],
+      "infobox": [
+        "Kingdom of Kapisa",
+        "Pushkalavati",
+        "History of Peshawar",
+        "Mathura",
+        "Taxila"
+      ]
+    },
+    "cliopatria_years": [
+      43,
+      237
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Parthian Empire",
+      "Xianbei",
+      "Western Satraps",
+      "Satavahana Dynasty",
+      "Xiongnu",
+      "Wusun",
+      "Han Dynasty",
+      "Hadhramaut",
+      "Huns"
+    ]
+  }
+}

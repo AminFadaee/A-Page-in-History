@@ -1,0 +1,36 @@
+{
+  "id": "Q14974",
+  "slug": "vladimir-the-great",
+  "name": "Vladimir the Great",
+  "wikipedia": "Vladimir the Great",
+  "role": "Grand Prince of Kiev from 978 to 1015",
+  "life": "c. 956–1015",
+  "lifetime": [
+    956,
+    1015
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Kievan Rus'"
+  ],
+  "related": [],
+  "contribution": "Prince of Novgorod from 970 and Grand Prince of Kiev from 978 until his death in 1015.",
+  "image": "images/vladimir-the-great.jpg",
+  "image_credit": "Anonymous illumination · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kievan Rus'"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kievan Rus'"
+      ]
+    },
+    "lead": "Vladimir I Sviatoslavich or Volodymyr I Sviatoslavych (Old East Slavic: Володимѣръ Свѧтославичь, romanized: Volodiměr Svętoslavič; Christian name: Basil; c. 958 – 15 July 1015), given the epithet \"the Great\", was Prince of Novgorod from 970 and Grand Prince of Kiev from 978 until his death in 1015. The Catholic Church and the Eastern Orthodox Church both canonised him as Saint Vladimir.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q129987",
+  "slug": "william-iii-of-england",
+  "name": "William III of England",
+  "wikipedia": "William III of England",
+  "role": "King of England, Scotland, and Ireland from 1689 to 1702",
+  "life": "1650–1702",
+  "lifetime": [
+    1650,
+    1702
+  ],
+  "occupation": "Politician",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic",
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "The sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from 1672, and King of England, Scotland, and Ireland from 1689 until his death in 1702.",
+  "image": "images/william-iii-of-england.jpg",
+  "image_credit": "Godfrey Kneller · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic",
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Dutch Republic",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "William III and II (William Henry; Dutch: Willem Hendrik; 4 November 1650 – 8 March 1702), also known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from 1672, and King of England, Scotland, and Ireland from 1689 until his death in 1702. He ruled England, Scotland, and Ireland with his wife, Queen Mary II, until her death in 1694; their joint reign is known as that of William and Mary.",
+    "photo": "no death year in or after 1860"
+  }
+}

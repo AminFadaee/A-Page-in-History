@@ -1,0 +1,45 @@
+{
+  "id": "Q12591",
+  "slug": "nebuchadnezzar-ii",
+  "name": "Nebuchadnezzar II",
+  "wikipedia": "Nebuchadnezzar II",
+  "role": "King of Babylon from 605 to 562 BC",
+  "life": "c. 642–561 BC",
+  "lifetime": [
+    -642,
+    -561
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Neo-Babylonian Empire",
+    "Neo-Assyrian Empire"
+  ],
+  "related": [
+    "Twenty-sixth Dynasty of Egypt",
+    "Phoenicia"
+  ],
+  "contribution": "The second king of the Neo-Babylonian Empire, ruling from the death of his father Nabopolassar in 605 BC to his own death in 562 BC. Often titled Nebuchadnezzar the Great, he is regarded as the empire's greatest king, famous for his military campaigns in the Levant and their role in Jewish history, and for his construction projects in his capital of Babylon.",
+  "image": "images/nebuchadnezzar-ii.jpg",
+  "image_credit": "User Hedning on sv.wikipedia · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Neo-Babylonian Empire"
+      ],
+      "lead": [
+        "Neo-Babylonian Empire",
+        "Twenty-sixth Dynasty of Egypt",
+        "Neo-Assyrian Empire",
+        "Phoenicia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Neo-Assyrian Empire"
+      ]
+    },
+    "lead": "Nebuchadnezzar II, more correctly spelled Nebuchadrezzar II, meaning \"Nabu, watch over my heir\", was the second king of the Neo-Babylonian Empire, ruling from the death of his father Nabopolassar in 605 BC to his own death in 562 BC. Often titled Nebuchadnezzar the Great, he is regarded as the empire's greatest king, famous for his military campaigns in the Levant and their role in Jewish history, and for his construction projects in his capital of Babylon. Ruling for 43 years, Nebuchadnezzar was the longest-reigning king of the Neo-Babylonian dynasty. By the time of his death, he was among the most powerful rulers in the world.",
+    "photo": "no death year in or after 1860"
+  }
+}

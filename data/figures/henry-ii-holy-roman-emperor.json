@@ -1,0 +1,41 @@
+{
+  "id": "Q103556",
+  "slug": "henry-ii-holy-roman-emperor",
+  "name": "Henry II, Holy Roman Emperor",
+  "wikipedia": "Henry II, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1014 to 1024",
+  "life": "973–1024",
+  "lifetime": [
+    973,
+    1024
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [
+    "Duchy of Bohemia"
+  ],
+  "contribution": "",
+  "image": "images/henry-ii-holy-roman-emperor.jpg",
+  "image_credit": "Photo: Andreas Praefcke · CC BY 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Duchy of Bohemia",
+        "Holy Roman Empire"
+      ],
+      "vital_section": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Henry II (German: Heinrich II.; Italian: Enrico II; Latin: Henricus; 6 May 973 – 13 July 1024), also known as Saint Henry, Obl. S. B., was Holy Roman Emperor (Latin: Romanorum Imperator) from 1014. He died without an heir in 1024 and was the last ruler of the Ottonian line. As Duke of Bavaria, appointed in 995, Henry became King of the Romans (Latin: Rex Romanorum) following the sudden death of his second cousin, Emperor Otto III in 1002, was made King of Italy (Latin: Rex Italiae) in 1004, and crowned emperor by Pope Benedict VIII in 1014.",
+    "photo": "no death year in or after 1860"
+  }
+}

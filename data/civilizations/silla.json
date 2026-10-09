@@ -1,0 +1,105 @@
+{
+  "id": "Q28456",
+  "slug": "silla",
+  "name": "Silla",
+  "wikipedia": "Silla",
+  "map_year": 567,
+  "period": {
+    "start": {
+      "earliest": -57,
+      "latest": -57,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [
+    "Byeonhan",
+    "Jinhan"
+  ],
+  "successors": [
+    "Unified Silla"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q28456",
+        "layer": 1,
+        "name": "Silla"
+      },
+      {
+        "id": "Q701273",
+        "layer": 0,
+        "name": "Jinhan"
+      },
+      {
+        "id": "Q715257",
+        "layer": 2,
+        "name": "Unified Silla"
+      },
+      {
+        "id": "Q28428",
+        "layer": 1,
+        "name": "Baekje"
+      },
+      {
+        "id": "Q28370",
+        "layer": 1,
+        "name": "Goguryeo"
+      }
+    ],
+    "edges": [
+      [
+        "Q701273",
+        "Q28456",
+        "South Korea"
+      ],
+      [
+        "Q28428",
+        "Q715257",
+        "South Korea"
+      ],
+      [
+        "Q28370",
+        "Q715257",
+        "North Korea"
+      ],
+      [
+        "Q28456",
+        "Q715257",
+        "South Korea, North Korea"
+      ]
+    ],
+    "question": "successions/silla-question.png",
+    "answer": "successions/silla-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "South Korea",
+    "North Korea"
+  ],
+  "map": "maps/silla.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Gyeongju"
+      ],
+      "infobox": [
+        "History of Gyeongju"
+      ]
+    },
+    "cliopatria_years": [
+      378,
+      681
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Goguryeo",
+      "Baekje",
+      "Northern Qi",
+      "Asuka Japan"
+    ]
+  }
+}

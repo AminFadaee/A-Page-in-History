@@ -1,0 +1,67 @@
+{
+  "id": "Q487829",
+  "slug": "chagatai-khanate",
+  "name": "Chagatai Khanate",
+  "wikipedia": "Chagatai Khanate",
+  "map_year": 1294,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Almaliq",
+      "location": [
+        80.53305556,
+        44.24
+      ]
+    },
+    {
+      "name": "Qarshi",
+      "location": [
+        65.8,
+        38.866666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Kazakhstan",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Pakistan",
+    "Afghanistan"
+  ],
+  "map": "maps/chagatai-khanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Almaliq, Xinjiang",
+        "Qarshi"
+      ],
+      "infobox": [
+        "Almaliq, Xinjiang",
+        "Qarshi"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1462
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Yuan Dynasty",
+      "Ilkhanate",
+      "Golden Horde",
+      "Khalji Dynasty",
+      "Kashmir"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "Q193901",
+  "slug": "roger-ii-of-sicily",
+  "name": "Roger II of Sicily",
+  "wikipedia": "Roger II of Sicily",
+  "role": "King of Sicily from 1130 to 1154",
+  "life": "1095–1154",
+  "lifetime": [
+    1095,
+    1154
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Sicily"
+  ],
+  "related": [
+    "Kingdom of Africa"
+  ],
+  "contribution": "King of Sicily and Africa, son of Roger I of Sicily and successor to his brother Simon.",
+  "image": "images/roger-ii-of-sicily.jpg",
+  "image_credit": "Matthias Süßen · CC BY-SA 2.5",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Sicily"
+      ],
+      "lead": [
+        "Kingdom of Sicily",
+        "Kingdom of Africa"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Roger II or Roger the Great (Italian: Ruggero II, Sicilian: Ruggeru II, Greek: Ρογέριος; 22 December 1095 - 26 February 1154) was King of Sicily and Africa, son of Roger I of Sicily and successor to his brother Simon. He began his rule as Count of Sicily in 1105, became Duke of Apulia and Calabria in 1127, then King of Sicily in 1130 and King of Africa in 1148.",
+    "photo": "no death year in or after 1860"
+  }
+}

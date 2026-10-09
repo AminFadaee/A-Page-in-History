@@ -1,0 +1,90 @@
+{
+  "id": "Q79965",
+  "slug": "golden-horde",
+  "name": "Golden Horde",
+  "wikipedia": "Golden Horde",
+  "map_year": 1294,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1502,
+      "latest": 1502,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Sarai",
+      "location": null
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Principality of Moldavia"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q79965",
+        "layer": 1,
+        "name": "Golden Horde"
+      },
+      {
+        "id": "Q10957559",
+        "layer": 2,
+        "name": "Principality of Moldavia"
+      }
+    ],
+    "edges": [
+      [
+        "Q79965",
+        "Q10957559",
+        "Romania, Moldova, Ukraine"
+      ]
+    ],
+    "question": "successions/golden-horde-question.png",
+    "answer": "successions/golden-horde-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Kazakhstan",
+    "Russia",
+    "Ukraine",
+    "Georgia",
+    "Moldova"
+  ],
+  "map": "maps/golden-horde.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Sarai",
+        "Sarai Berke",
+        "Bolgar, Spassky District, Republic of Tatarstan"
+      ],
+      "infobox": [
+        "Sarai",
+        "Sighnaq"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1695
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Yuan Dynasty",
+      "Ilkhanate",
+      "Chagatai Khanate",
+      "Kingdom of Hungary",
+      "Khalji Dynasty",
+      "Holy Roman Empire Minor States",
+      "Novgorod Republic",
+      "Byzantine Empire",
+      "Kashmir",
+      "Kingdom of Sweden",
+      "Kingdom of France"
+    ]
+  }
+}

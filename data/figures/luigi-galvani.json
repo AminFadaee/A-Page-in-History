@@ -1,0 +1,36 @@
+{
+  "id": "Q1589",
+  "slug": "luigi-galvani",
+  "name": "Luigi Galvani",
+  "wikipedia": "Luigi Galvani",
+  "role": "Italian scientist",
+  "life": "1737–1798",
+  "lifetime": [
+    1737,
+    1798
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "An Italian physician, physicist, biologist and philosopher who studied animal electricity.",
+  "image": "images/luigi-galvani.jpg",
+  "image_credit": "Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Luigi Galvani ( gal-VAH-nee, US also  gahl-; Italian: [luˈiːdʒi ɡalˈvaːni]; Latin: Aloysius Galvanus; 9 September 1737 – 4 December 1798) was an Italian physician, physicist, biologist and philosopher who studied animal electricity. In 1780, using a frog, he discovered that the muscles of dead frogs' legs twitched when struck by an electrical spark. This was an early study of bioelectricity, following experiments by John Walsh and Hugh Williamson.",
+    "photo": "no death year in or after 1860"
+  }
+}

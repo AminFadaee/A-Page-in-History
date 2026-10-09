@@ -1,0 +1,60 @@
+{
+  "id": "Q188836",
+  "slug": "xiongnu",
+  "name": "Xiongnu",
+  "wikipedia": "Xiongnu",
+  "map_year": -144,
+  "period": {
+    "start": {
+      "earliest": -300,
+      "latest": -201,
+      "circa": false
+    },
+    "end": {
+      "earliest": 101,
+      "latest": 200,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q382816",
+      "name": "Modu Chanyu"
+    }
+  ],
+  "modern_countries": [
+    "People's Republic of China",
+    "Mongolia",
+    "Russia",
+    "Kazakhstan"
+  ],
+  "map": "maps/xiongnu.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chanyu Ting"
+      ],
+      "infobox": [
+        "Longcheng, Mongolia"
+      ]
+    },
+    "cliopatria_years": [
+      -208,
+      153
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Han Dynasty",
+      "Yuezhi",
+      "Greco-Bactrian Kingdom",
+      "Shunga Empire",
+      "Korean Jin"
+    ]
+  }
+}

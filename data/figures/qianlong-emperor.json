@@ -1,0 +1,43 @@
+{
+  "id": "Q19133",
+  "slug": "qianlong-emperor",
+  "name": "Qianlong Emperor",
+  "wikipedia": "Qianlong Emperor",
+  "role": "Emperor of China from 1735 to 1796",
+  "life": "1711–1799",
+  "lifetime": [
+    1711,
+    1799
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty"
+  ],
+  "related": [
+    "Nepal",
+    "Dzungar Khanate"
+  ],
+  "contribution": "The fifth emperor of the Qing dynasty and the fourth Qing emperor to rule over China proper.",
+  "image": "images/qianlong-emperor.jpg",
+  "image_credit": "Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty"
+      ],
+      "lead": [
+        "Qing Dynasty",
+        "Nepal",
+        "Dzungar Khanate"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "The Qianlong Emperor (25 September 1711 – 7 February 1799), also known by his temple name Emperor Gaozong of Qing, personal name Hongli, was the fifth emperor of the Qing dynasty and the fourth Qing emperor to rule over China proper. He reigned officially from 1735 until his abdication and retirement in 1796, but retained ultimate power subsequently until his death in 1799, making him one of history's longest-reigning and longest-lived monarchs.",
+    "photo": "no death year in or after 1860"
+  }
+}

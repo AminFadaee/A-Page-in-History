@@ -1,0 +1,49 @@
+{
+  "id": "Q81212",
+  "slug": "pepin-the-short",
+  "name": "Pepin the Short",
+  "wikipedia": "Pepin the Short",
+  "role": "King of the Franks from 751 to 768",
+  "life": "c. 715–768",
+  "lifetime": [
+    714,
+    768
+  ],
+  "occupation": "Politician",
+  "birth_country": "Belgium",
+  "civilizations": [
+    "Kingdom of the Franks"
+  ],
+  "related": [
+    "Kingdom of Neustria",
+    "Kingdom of Alamannia",
+    "Papal States",
+    "Umayyad Caliphate",
+    "Duchy of Gascony"
+  ],
+  "contribution": "King of the Franks from 751 until his death in 768.",
+  "image": "images/pepin-the-short.jpg",
+  "image_credit": "Louis-Félix Amiel · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of the Franks"
+      ],
+      "lead": [
+        "Kingdom of the Franks",
+        "Kingdom of Neustria",
+        "Kingdom of Alamannia",
+        "Papal States",
+        "Umayyad Caliphate",
+        "Duchy of Gascony"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of the Franks"
+      ]
+    },
+    "lead": "Pepin the Short (Latin: Pipinus; French: Pépin le Bref; German: Pippin der Kurze; c. 714 – 24 September 768) was King of the Franks from 751 until his death in 768. He was the first Carolingian to become king.",
+    "photo": "no death year in or after 1860"
+  }
+}

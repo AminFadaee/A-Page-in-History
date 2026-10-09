@@ -1,0 +1,42 @@
+{
+  "id": "Q75823",
+  "slug": "clara-zetkin",
+  "name": "Clara Zetkin",
+  "wikipedia": "Clara Zetkin",
+  "role": "German politician",
+  "life": "1857–1933",
+  "lifetime": [
+    1857,
+    1933
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Weimar Republic",
+    "Kingdom of Saxony"
+  ],
+  "related": [],
+  "contribution": "A German Marxist theorist, communist activist, and advocate for women's rights.",
+  "image": "images/clara-zetkin.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic",
+        "Union of Soviet Socialist Republics",
+        "Kingdom of Saxony"
+      ],
+      "lead": [
+        "Weimar Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Saxony"
+      ]
+    },
+    "lead": "Clara Zetkin (; German: [ˈtsɛtkiːn]; née Eißner [ˈaɪsnɐ]; 5 July 1857 – 20 June 1933) was a German Marxist theorist, communist activist, and advocate for women's rights.",
+    "photo": "captured 1923 during their lifetime"
+  }
+}

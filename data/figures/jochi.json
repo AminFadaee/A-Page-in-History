@@ -1,0 +1,38 @@
+{
+  "id": "Q186581",
+  "slug": "jochi",
+  "name": "Jochi",
+  "wikipedia": "Jochi",
+  "role": "Mongol prince and general",
+  "life": "1182–1227",
+  "lifetime": [
+    1182,
+    1227
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Mongolia",
+  "civilizations": [
+    "Mongol Empire"
+  ],
+  "related": [],
+  "contribution": "A prince of the early Mongol Empire.",
+  "image": "images/jochi.jpg",
+  "image_credit": "Me · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mongol Empire"
+      ],
+      "lead": [
+        "Mongol Empire"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": []
+    },
+    "lead": "Jochi (Mongolian: ᠵᠦᠴᠢ; c. 1182 – c. 1225), also spelled Jüchi, was a prince of the early Mongol Empire. His life was marked by controversy over the circumstances of his birth and culminated in his estrangement from his family. He was nevertheless a prominent military commander and the progenitor of the family who ruled over the khanate of the Golden Horde.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q60429",
+  "slug": "c-v-raman",
+  "name": "C. V. Raman",
+  "wikipedia": "C. V. Raman",
+  "role": "Indian physicist",
+  "life": "1888–1970",
+  "lifetime": [
+    1888,
+    1970
+  ],
+  "occupation": "Physicist",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian physicist known for his work in the field of light scattering.",
+  "image": "images/c-v-raman.jpg",
+  "image_credit": "Nobel Foundation · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Chandrasekhara Venkata Raman ( RAH-muhn; IAST: Candraśēkhara Veṅkaṭarāmaṉ; 7 November 1888 – 21 November 1970) was an Indian physicist known for his work in the field of light scattering. Using a spectrograph that he developed, he and his student K. S. Krishnan discovered that when light traverses a transparent material, the deflected light changes its wavelength. This phenomenon, a hitherto unknown type of scattering of light they called modified scattering, was subsequently termed the Raman effect or Raman scattering. In 1930, Raman received the Nobel Prize in Physics \"for his work on the scattering of light and for the discovery of the effect named after him\" and became the first Asian and non-White person to receive a Nobel Prize in Physics.",
+    "photo": "captured 1930 during their lifetime"
+  }
+}

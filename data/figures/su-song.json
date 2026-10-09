@@ -1,0 +1,38 @@
+{
+  "id": "Q1265657",
+  "slug": "su-song",
+  "name": "Su Song",
+  "wikipedia": "Su Song",
+  "role": "Polymath",
+  "life": "1020–1101",
+  "lifetime": [
+    1020,
+    1101
+  ],
+  "occupation": "Engineer",
+  "birth_country": "China",
+  "civilizations": [
+    "Northern Song"
+  ],
+  "related": [],
+  "contribution": "A Chinese polymathic scientist and statesman who lived during the Song dynasty.",
+  "image": "images/su-song.jpg",
+  "image_credit": "不詳 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Northern Song"
+      ],
+      "lead": [
+        "Northern Song"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Northern Song"
+      ]
+    },
+    "lead": "Su Song (Chinese: 蘇頌; Pe̍h-ōe-jī: So͘ Siōng, Hanyu Pinyin: Sū Sòng, 1020–1101), courtesy name Zirong (Chinese: 子容; Pe̍h-ōe-jī: Chú-iông), was a Chinese polymathic scientist and statesman who lived during the Song dynasty (960–1279). He excelled in numerous fields including but not limited to mathematics, astronomy, cartography, geography, metallurgy, mechanical engineering, hydraulic engineering, poetry, and statesmanship.",
+    "photo": "no death year in or after 1860"
+  }
+}

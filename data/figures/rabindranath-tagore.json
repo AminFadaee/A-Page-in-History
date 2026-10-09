@@ -1,0 +1,38 @@
+{
+  "id": "Q7241",
+  "slug": "rabindranath-tagore",
+  "name": "Rabindranath Tagore",
+  "wikipedia": "Rabindranath Tagore",
+  "role": "Indian polymath",
+  "life": "1861–1941",
+  "lifetime": [
+    1861,
+    1941
+  ],
+  "occupation": "Writer",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "A Bengali poet, author, playwright, musician, composer, philosopher, social reformer, painter, and one of the foremost figures of the Bengal Renaissance.",
+  "image": "images/rabindranath-tagore.jpg",
+  "image_credit": "Generalstabens litografiska anstalt · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj"
+      ],
+      "lead": [
+        "British Raj"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Rabindranath Tagore  (Bengali: [ˈrobind̪ɾonat̪ʰ ˈʈʰakuɾ] ; 7 May 1861 – 7 August 1941) was a Bengali poet, author, playwright, musician, composer, philosopher, social reformer, painter, and one of the foremost figures of the Bengal Renaissance. In 1913, Tagore became the first Indian and non-European to win a Nobel Prize in any category, and also the first lyricist to win the Nobel Prize in Literature. A significant moulder of culture within Bengal and the Indian subcontinent, he wrote and composed the national anthems of India and Bangladesh.",
+    "photo": "captured 1909 during their lifetime"
+  }
+}

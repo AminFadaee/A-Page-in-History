@@ -1,0 +1,42 @@
+{
+  "id": "Q75786",
+  "slug": "eduard-bernstein",
+  "name": "Eduard Bernstein",
+  "wikipedia": "Eduard Bernstein",
+  "role": "German politician and theorist",
+  "life": "1850–1932",
+  "lifetime": [
+    1850,
+    1932
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Weimar Republic"
+  ],
+  "related": [
+    "Swiss Confederation"
+  ],
+  "contribution": "A German social democratic politician and socialist theorist.",
+  "image": "images/eduard-bernstein.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic"
+      ],
+      "lead": [
+        "Swiss Confederation",
+        "Weimar Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Eduard Bernstein (German: [ˈeːduaʁt ˈbɛʁnʃtaɪn]; 6 January 1850 – 18 December 1932) was a German social democratic politician and socialist theorist. A member of the Social Democratic Party (SPD), Bernstein is best known for his reformist challenge to Marxism known as evolutionary socialism or revisionism, in which he questioned the revolutionary predictions of Karl Marx and advocated for a gradual, parliamentary path to socialism. His political and theoretical work played a significant role in the development of social democracy and democratic socialism.",
+    "photo": "captured 19th centurydate QS:P,+1850-00-00T00:00:00Z/7 during their lifetime"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "Q382816",
+  "slug": "modu-chanyu",
+  "name": "Modu Chanyu",
+  "wikipedia": "Modu Chanyu",
+  "role": "Chanyu of the Xiongnu Empire from 209 to 174 BCE",
+  "life": "234–174 BC",
+  "lifetime": [
+    -234,
+    -174
+  ],
+  "occupation": "Politician",
+  "birth_country": "Mongolia",
+  "civilizations": [
+    "Xiongnu"
+  ],
+  "related": [
+    "Qin Dynasty"
+  ],
+  "contribution": "The son of Touman and the founder of the empire of the Xiongnu.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Xiongnu"
+      ],
+      "lead": [
+        "Xiongnu",
+        "Qin Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Modu (c. 234–174 BCE) was the son of Touman and the founder of the empire of the Xiongnu. He came to power by ordering his men to kill his father in 209 BCE.",
+    "photo": "no image"
+  }
+}

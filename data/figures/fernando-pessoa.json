@@ -1,0 +1,36 @@
+{
+  "id": "Q173481",
+  "slug": "fernando-pessoa",
+  "name": "Fernando Pessoa",
+  "wikipedia": "Fernando Pessoa",
+  "role": "Portuguese poet, writer, and philosopher",
+  "life": "1888–1935",
+  "lifetime": [
+    1888,
+    1935
+  ],
+  "occupation": "Writer",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [],
+  "contribution": "A Portuguese poet, writer, literary critic, translator, and publisher.",
+  "image": "images/fernando-pessoa.jpg",
+  "image_credit": "S.A. e Maria José de Lencastre · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Fernando António Nogueira de Seabra Pessoa (; Portuguese: [fɨɾˈnɐ̃du pɨˈsoɐ]; 13 June 1888 – 30 November 1935) was a Portuguese poet, writer, literary critic, translator, and publisher. He has been described as one of the most significant literary figures of the 20th century and one of the greatest poets in the Portuguese literature. He also wrote in and translated from English and French.",
+    "photo": "captured 1914 during their lifetime"
+  }
+}

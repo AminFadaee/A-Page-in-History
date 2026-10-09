@@ -1,0 +1,72 @@
+{
+  "id": "Q83618",
+  "slug": "maratha-empire",
+  "name": "Maratha Empire",
+  "wikipedia": "Maratha Empire",
+  "map_year": 1772,
+  "period": {
+    "start": {
+      "earliest": 1674,
+      "latest": 1674,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1818,
+      "latest": 1818,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Raigad Fort",
+      "location": [
+        73.445463,
+        18.235352
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "India"
+  ],
+  "map": "maps/maratha-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Raigad Fort"
+      ],
+      "infobox": [
+        "Rajgad",
+        "Raigad Fort",
+        "Gingee Fort",
+        "Satara",
+        "Pune"
+      ]
+    },
+    "cliopatria_years": [
+      1677,
+      1845
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "British Empire",
+      "Mughal Empire",
+      "Nawab of Awadh",
+      "Kingdom of Mysore",
+      "Durrani Empire",
+      "Tibet",
+      "Zand Dynasty",
+      "Konbaung Dynasty",
+      "Thonburi Kingdom",
+      "Khmer Empire",
+      "Vientiane",
+      "Kingdom of Luang Phrabang",
+      "Gorkha Kingdom"
+    ]
+  }
+}

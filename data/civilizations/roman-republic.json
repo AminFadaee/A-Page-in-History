@@ -1,0 +1,105 @@
+{
+  "id": "Q17167",
+  "slug": "roman-republic",
+  "name": "Roman Republic",
+  "wikipedia": "Roman Republic",
+  "map_year": -44,
+  "period": {
+    "start": {
+      "earliest": -509,
+      "latest": -509,
+      "circa": true
+    },
+    "end": {
+      "earliest": -27,
+      "latest": -27,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Rome",
+      "location": [
+        12.482777777778,
+        41.893055555556
+      ]
+    }
+  ],
+  "predecessors": [
+    "Roman Kingdom"
+  ],
+  "successors": [
+    "Roman Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q17167",
+        "layer": 1,
+        "name": "Roman Republic"
+      },
+      {
+        "id": "Q2277",
+        "layer": 2,
+        "name": "Roman Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q17167",
+        "Q2277",
+        "France, Spain, Turkey"
+      ]
+    ],
+    "question": "successions/roman-republic-question.png",
+    "answer": "successions/roman-republic-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "France",
+    "Spain",
+    "Turkey",
+    "Italy",
+    "Libya",
+    "Greece",
+    "Syria",
+    "Tunisia",
+    "Portugal",
+    "Belgium",
+    "Albania",
+    "North Macedonia",
+    "Montenegro",
+    "Lebanon",
+    "Cyprus",
+    "Turkish Republic of Northern Cyprus",
+    "Luxembourg",
+    "Malta",
+    "San Marino",
+    "Vatican City"
+  ],
+  "map": "maps/roman-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rome"
+      ],
+      "infobox": [
+        "Rome"
+      ]
+    },
+    "cliopatria_years": [
+      -500,
+      -32
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Parthian Empire",
+      "Ptolemaic Kingdom",
+      "Himyarite Kingdom",
+      "Kingdom of Kush",
+      "Kingdom of Armenia"
+    ]
+  }
+}

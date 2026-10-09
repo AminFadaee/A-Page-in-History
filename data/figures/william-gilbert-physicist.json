@@ -1,0 +1,36 @@
+{
+  "id": "Q192706",
+  "slug": "william-gilbert-physicist",
+  "name": "William Gilbert (physicist)",
+  "wikipedia": "William Gilbert (physicist)",
+  "role": "English physician and natural philosopher",
+  "life": "1544–1603",
+  "lifetime": [
+    1544,
+    1603
+  ],
+  "occupation": "Physicist",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English physician, physicist and natural philosopher.",
+  "image": "images/william-gilbert-physicist.jpg",
+  "image_credit": "Granger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "William Gilbert (; 24 May 1544? – 30 November 1603), also known as Gilberd, was an English physician, physicist and natural philosopher. He passionately rejected both the prevailing Aristotelian philosophy and the Scholastic method of university teaching.  He is remembered today largely for his book De Magnete (1600).",
+    "photo": "no death year in or after 1860"
+  }
+}

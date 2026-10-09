@@ -1,0 +1,48 @@
+{
+  "id": "Q5152",
+  "slug": "mustafa-kemal-ataturk",
+  "name": "Mustafa Kemal Atatürk",
+  "wikipedia": "Mustafa Kemal Atatürk",
+  "role": "President of Turkey from 1923 to 1938",
+  "life": "1881–1938",
+  "lifetime": [
+    1881,
+    1938
+  ],
+  "occupation": "Politician",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Ottoman Empire",
+    "Republic of Turkey"
+  ],
+  "related": [
+    "Pahlavi Dynasty",
+    "Kingdom of Iraq",
+    "Kingdom of Romania"
+  ],
+  "contribution": "A Turkish field marshal and statesman who was the founder of the Republic of Turkey and served as its first president from 1923 until his death in 1938.",
+  "image": "images/mustafa-kemal-ataturk.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Turkey",
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Republic of Turkey",
+        "Ottoman Empire",
+        "Pahlavi Dynasty",
+        "Kingdom of Iraq",
+        "Kingdom of Romania"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Mustafa Kemal Atatürk (c. 1881 – 10 November 1938) was a Turkish field marshal and statesman who was the founder of the Republic of Turkey and served as its first president from 1923 until his death in 1938. He led sweeping reforms, turning Turkey into an industrialising nation. Ideologically a republican, secularist, and nationalist, his policies and socio-political theories became known as Kemalism. Atatürk's personality cult and the Kemalist historiography developed around it have had significant and ongoing influences on Turkey's political culture and historical narrative.",
+    "photo": "capture date 'Unknown date' not within their lifetime and not classified as a photograph"
+  }
+}

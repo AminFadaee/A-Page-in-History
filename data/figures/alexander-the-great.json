@@ -20,6 +20,7 @@
   "contribution": "King of the ancient Greek kingdom of Macedon from 336 BC until his death.",
   "image": "images/alexander-the-great.jpg",
   "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -34,6 +35,7 @@
         "Macedonian Empire"
       ]
     },
-    "lead": "Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323 BC), most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon from 336 BC until his death. He was the son of Philip II, born to him by his fourth wife, Olympias, and ascended to the throne at the age of 20 after Philip was assassinated. Alexander spent most of his reign conducting a lengthy military campaign throughout Asia and Egypt, and by the age of 30, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders."
+    "lead": "Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323 BC), most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon from 336 BC until his death. He was the son of Philip II, born to him by his fourth wife, Olympias, and ascended to the throne at the age of 20 after Philip was assassinated. Alexander spent most of his reign conducting a lengthy military campaign throughout Asia and Egypt, and by the age of 30, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
+    "photo": "no death year in or after 1860"
   }
 }

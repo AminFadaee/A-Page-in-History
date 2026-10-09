@@ -1,0 +1,78 @@
+{
+  "id": "Q19083",
+  "slug": "caucasian-iberia",
+  "name": "Caucasian Iberia",
+  "wikipedia": "Kingdom of Iberia",
+  "map_year": -63,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 580,
+      "latest": 580,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Armazi",
+      "location": [
+        44.72166,
+        41.83763
+      ]
+    },
+    {
+      "name": "Tbilisi",
+      "location": [
+        44.7925,
+        41.7225
+      ]
+    },
+    {
+      "name": "Mtskheta",
+      "location": [
+        44.71944444444444,
+        41.84305555555556
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Georgia",
+    "Russia"
+  ],
+  "map": "maps/caucasian-iberia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Armazi",
+        "Tbilisi",
+        "Mtskheta"
+      ],
+      "infobox": [
+        "Armazi",
+        "Mtskheta",
+        "Tbilisi"
+      ]
+    },
+    "cliopatria_years": [
+      -63,
+      533
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Armenia",
+      "Caucasian Albania",
+      "Kingdom of Cappadocia",
+      "Galatia",
+      "Kingdom of Pontus",
+      "Thracian Kingdom",
+      "Kingdom of Osroene",
+      "Kingdom of Gordyene"
+    ]
+  }
+}

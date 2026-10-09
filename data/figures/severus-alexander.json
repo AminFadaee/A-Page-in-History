@@ -20,6 +20,7 @@
   "contribution": "Roman emperor from 222 until 235 AD. He was the last emperor from the Severan dynasty and, at the age of 13, became the youngest sole emperor of the united Roman Empire.",
   "image": "images/severus-alexander.jpg",
   "image_credit": "Jean-Pol GRANDMONT · CC BY 4.0",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -34,6 +35,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Marcus Aurelius Severus Alexander (1 October 208 AD – March 235 AD), also known as Alexander Severus, was Roman emperor from 222 until 235 AD. He was the last emperor from the Severan dynasty and, at the age of 13, became the youngest sole emperor of the united Roman Empire."
+    "lead": "Marcus Aurelius Severus Alexander (1 October 208 AD – March 235 AD), also known as Alexander Severus, was Roman emperor from 222 until 235 AD. He was the last emperor from the Severan dynasty and, at the age of 13, became the youngest sole emperor of the united Roman Empire.",
+    "photo": "no death year in or after 1860"
   }
 }

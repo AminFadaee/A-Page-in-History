@@ -1,0 +1,38 @@
+{
+  "id": "Q50184",
+  "slug": "yi-sun-sin",
+  "name": "Yi Sun-sin",
+  "wikipedia": "Yi Sun-sin",
+  "role": "Korean naval commander",
+  "life": "1545–1598",
+  "lifetime": [
+    1545,
+    1598
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "South Korea",
+  "civilizations": [
+    "Joseon"
+  ],
+  "related": [],
+  "contribution": "A Korean admiral and military general known for his victories against the Japanese navy during the Imjin War in the Joseon period.",
+  "image": "images/yi-sun-sin.jpg",
+  "image_credit": "Unknown, War Memorial of Korea · KOGL Type 1",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Joseon"
+      ],
+      "lead": [
+        "Joseon"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Joseon"
+      ]
+    },
+    "lead": "Yi Sun-sin (Korean: 이순신; Hanja: 李舜臣; Korean pronunciation: [i.sʰun.ɕin]; April 28, 1545 – December 16, 1598) was a Korean admiral and military general known for his victories against the Japanese navy during the Imjin War in the Joseon period. Yi's courtesy name was Yŏhae (여해), and he was posthumously honored with the title Lord of Loyal Valor (충무공; 忠武公).",
+    "photo": "no death year in or after 1860"
+  }
+}

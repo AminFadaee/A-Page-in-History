@@ -1,0 +1,40 @@
+{
+  "id": "Q193754",
+  "slug": "padre-pio",
+  "name": "Padre Pio",
+  "wikipedia": "Padre Pio",
+  "role": "Italian saint, priest, stigmatist and mystic",
+  "life": "1887–1968",
+  "lifetime": [
+    1887,
+    1968
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Republic of Italy",
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "An Italian friar of the Order of Friars Minor Capuchin, priest, stigmatist and mystic.",
+  "image": "images/padre-pio.jpg",
+  "image_credit": "The original uploader was Manfredonia at Italian Wikipedia. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Italy",
+        "Kingdom of Italy"
+      ],
+      "lead": [
+        "Republic of Italy"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Pio of Pietrelcina (born Francesco Forgione; 25 May 1887 – 23 September 1968), widely known as Padre Pio (\"Father Pio\"), Latin: Pater Pius) was an Italian friar of the Order of Friars Minor Capuchin, priest, stigmatist and mystic. He is venerated as a saint in the Catholic Church; his feast day is celebrated on 23 September.",
+    "photo": "captured from circa 1947date QS:P571,+1947-00-00T00:00:00Z/9,P1480,Q5727902 until 23 September 1968, probably between late 1950s and early 1960s during their lifetime"
+  }
+}

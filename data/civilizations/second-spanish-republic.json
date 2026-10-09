@@ -1,0 +1,112 @@
+{
+  "id": "Q178038",
+  "slug": "second-spanish-republic",
+  "name": "Second Spanish Republic",
+  "wikipedia": "Second Spanish Republic",
+  "map_year": 1932,
+  "period": {
+    "start": {
+      "earliest": 1931,
+      "latest": 1931,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1939,
+      "latest": 1939,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Madrid",
+      "location": [
+        -3.703333333333333,
+        40.41694444444445
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Francoist Spain"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q178038",
+        "layer": 1,
+        "name": "Second Spanish Republic"
+      },
+      {
+        "id": "Q13474305",
+        "layer": 2,
+        "name": "Francoist Spain"
+      }
+    ],
+    "edges": [
+      [
+        "Q178038",
+        "Q13474305",
+        "Spain, Morocco, Western Sahara"
+      ]
+    ],
+    "question": "successions/second-spanish-republic-question.png",
+    "answer": "successions/second-spanish-republic-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q313785",
+      "name": "Niceto Alcalá-Zamora"
+    },
+    {
+      "id": "Q518982",
+      "name": "Diego Martínez Barrio"
+    },
+    {
+      "id": "Q203708",
+      "name": "Manuel Azaña"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Morocco",
+    "Western Sahara",
+    "Equatorial Guinea"
+  ],
+  "map": "maps/second-spanish-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "infobox": [
+        "Madrid"
+      ]
+    },
+    "cliopatria_years": [
+      1932,
+      1938
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "French Africa",
+      "Estado Novo",
+      "French Third Republic",
+      "Unitary State of Brazil",
+      "British Africa",
+      "Belgian Congo",
+      "Italian Africa",
+      "Kingdom of Hejaz and Nejd",
+      "Pahlavi Dynasty",
+      "British Gold Coast",
+      "Ethiopian Empire",
+      "Kingdom of Egypt",
+      "Republic of Turkey",
+      "Weimar Republic",
+      "Kingdom of Iraq",
+      "Second Polish Republic"
+    ]
+  }
+}

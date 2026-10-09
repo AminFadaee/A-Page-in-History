@@ -1,0 +1,40 @@
+{
+  "id": "Q150652",
+  "slug": "wilhelm-i",
+  "name": "Wilhelm I",
+  "wikipedia": "Wilhelm I",
+  "role": "German Emperor from 1871 to 1888",
+  "life": "1797–1888",
+  "lifetime": [
+    1797,
+    1888
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia",
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "King of Prussia from 1861 and German Emperor from 1871 until his death in 1888.",
+  "image": "images/wilhelm-i.jpg",
+  "image_credit": "Wilhelm Kuntzemüller · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia",
+        "German Empire"
+      ],
+      "lead": [
+        "German Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Wilhelm I (also known in English as William I; German: Wilhelm Friedrich Ludwig; 22 March 1797 – 9 March 1888) was King of Prussia from 1861 and German Emperor from 1871 until his death in 1888. A member of the House of Hohenzollern, he was the first head of state of a united Germany. He was regent of Prussia from 1858 to 1861 for his elder brother, King Frederick William IV. During the reign of his grandson Wilhelm II, he was known as Emperor Wilhelm the Great (German: Kaiser Wilhelm der Große).",
+    "photo": "captured 1884 during their lifetime"
+  }
+}

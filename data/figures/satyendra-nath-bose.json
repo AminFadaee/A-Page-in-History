@@ -1,0 +1,37 @@
+{
+  "id": "Q45789",
+  "slug": "satyendra-nath-bose",
+  "name": "Satyendra Nath Bose",
+  "wikipedia": "Satyendra Nath Bose",
+  "role": "Indian theoretical physicist",
+  "life": "1894–1974",
+  "lifetime": [
+    1894,
+    1974
+  ],
+  "occupation": "Physicist",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian theoretical physicist and mathematician.",
+  "image": "images/satyendra-nath-bose.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Satyendra Nath Bose (; 1 January 1894 – 4 February 1974) was an Indian theoretical physicist and mathematician. He is best known for his work on quantum mechanics in the early 1920s, in developing the foundation for Bose–Einstein statistics, and the theory of the Bose–Einstein condensate. A Fellow of the Royal Society, he was awarded India's second highest civilian award, the Padma Vibhushan, in 1954 by the Government of India.",
+    "photo": "captured 1925 during their lifetime"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q301",
+  "slug": "el-greco",
+  "name": "El Greco",
+  "wikipedia": "El Greco",
+  "role": "Greek painter of the Spanish Renaissance",
+  "life": "1541–1614",
+  "lifetime": [
+    1541,
+    1614
+  ],
+  "occupation": "Painter",
+  "birth_country": "Greece",
+  "civilizations": [
+    "Republic of Venice"
+  ],
+  "related": [],
+  "contribution": "A Greek painter, sculptor and architect of the Spanish Renaissance, regarded as one of the greatest artists of all time.",
+  "image": "images/el-greco.jpg",
+  "image_credit": "El Greco · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Venice"
+      ],
+      "lead": [
+        "Republic of Venice"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Republic of Venice"
+      ]
+    },
+    "lead": "Doménikos Theotokópoulos (Greek: Δομήνικος Θεοτοκόπουλος, pronounced [ðoˈminikos θeotoˈkopulos]; 1 October 1541 –  7 April 1614), most widely known as El Greco (Spanish pronunciation: [el ˈɣɾeko]; \"The Greek\"), was a Greek painter, sculptor and architect of the Spanish Renaissance, regarded as one of the greatest artists of all time. El Greco was a nickname, and the artist normally signed his paintings with his full birth name in Greek letters often adding the word Κρής (Krḗs), which means \"Cretan\" in Ancient Greek.",
+    "photo": "no death year in or after 1860"
+  }
+}

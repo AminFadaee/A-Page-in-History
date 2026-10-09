@@ -1,0 +1,36 @@
+{
+  "id": "Q217771",
+  "slug": "george-gurdjieff",
+  "name": "George Gurdjieff",
+  "wikipedia": "George Gurdjieff",
+  "role": "Russian Empire mystic and writer",
+  "life": "1866–1949",
+  "lifetime": [
+    1866,
+    1949
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Armenia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A philosopher, mystic, spiritual teacher, composer, and movements teacher.",
+  "image": "images/george-gurdjieff.jpg",
+  "image_credit": "Janet Flanner-Solita Solano papers. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "George Ivanovich Gurdjieff (c. 1866–1877 – 29 October 1949) was a philosopher, mystic, spiritual teacher, composer, and movements teacher.",
+    "photo": "captured 1925 during their lifetime"
+  }
+}

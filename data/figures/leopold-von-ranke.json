@@ -1,0 +1,40 @@
+{
+  "id": "Q77184",
+  "slug": "leopold-von-ranke",
+  "name": "Leopold von Ranke",
+  "wikipedia": "Leopold von Ranke",
+  "role": "German historian",
+  "life": "1795–1886",
+  "lifetime": [
+    1795,
+    1886
+  ],
+  "occupation": "Historian",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [
+    "German Empire"
+  ],
+  "contribution": "A German historian and a founder of modern source-based history.",
+  "image": "images/leopold-von-ranke.jpg",
+  "image_credit": "After Julius Schrader / Adolf Jebens · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "German Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Leopold von Ranke (21 December 1795 – 23 May 1886) was a German historian and a founder of modern source-based history. He was able to implement the seminar teaching method in his classroom and focused on archival research and the analysis of historical documents. Building on the methods of the Göttingen school of history, he was the first to establish a historical seminar. Ranke set the standards for much of later historical writing, introducing such ideas as reliance on primary sources (empiricism), an emphasis on narrative history and especially international politics (Außenpolitik). He was ennobled in 1865, with the addition of a \"von\" to his name.",
+    "photo": "captured 1875date QS:P571,+1875-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

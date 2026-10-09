@@ -1,0 +1,92 @@
+{
+  "id": "Q188553",
+  "slug": "batavian-republic",
+  "name": "Batavian Republic",
+  "wikipedia": "Batavian Republic",
+  "map_year": 1796,
+  "period": {
+    "start": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "The Hague",
+      "location": [
+        4.31,
+        52.08
+      ]
+    }
+  ],
+  "predecessors": [
+    "Dutch Republic"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q188553",
+        "layer": 1,
+        "name": "Batavian Republic"
+      },
+      {
+        "id": "Q170072",
+        "layer": 0,
+        "name": "Dutch Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q170072",
+        "Q188553",
+        "Indonesia, Netherlands"
+      ]
+    ],
+    "question": "successions/batavian-republic-question.png",
+    "answer": "successions/batavian-republic-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Indonesia",
+    "Netherlands"
+  ],
+  "map": "maps/batavian-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "The Hague"
+      ],
+      "infobox": [
+        "The Hague"
+      ]
+    },
+    "cliopatria_years": [
+      1796,
+      1810
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "French Directory",
+      "Russian Empire",
+      "Qing Dynasty",
+      "Ottoman Empire",
+      "Kazakh Khanate",
+      "Durrani Empire",
+      "Qajar Dynasty",
+      "Maratha Empire",
+      "Khanate of Khiva",
+      "Habsburg Monarchy",
+      "British Empire",
+      "Emirate of Diriyah"
+    ]
+  }
+}

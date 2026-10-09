@@ -1,0 +1,43 @@
+{
+  "id": "Q131412",
+  "slug": "mary-queen-of-scots",
+  "name": "Mary, Queen of Scots",
+  "wikipedia": "Mary, Queen of Scots",
+  "role": "Queen of Scotland from 1542 to 1567",
+  "life": "1542–1587",
+  "lifetime": [
+    1542,
+    1587
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Scotland"
+  ],
+  "related": [
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "contribution": "Queen of Scotland from 14 December 1542 until her forced abdication on 24 July 1567.",
+  "image": "images/mary-queen-of-scots.jpg",
+  "image_credit": "Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Scotland"
+      ],
+      "lead": [
+        "Kingdom of Scotland",
+        "Kingdom of France",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Scotland"
+      ]
+    },
+    "lead": "Mary, Queen of Scots (8 December 1542 – 8 February 1587), also known as Mary Stuart or Mary I of Scotland, was Queen of Scotland from 14 December 1542 until her forced abdication on 24 July 1567.",
+    "photo": "no death year in or after 1860"
+  }
+}

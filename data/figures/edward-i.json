@@ -1,0 +1,40 @@
+{
+  "id": "Q57798",
+  "slug": "edward-i",
+  "name": "Edward I",
+  "wikipedia": "Edward I",
+  "role": "King of England from 1272 to 1307",
+  "life": "1239–1307",
+  "lifetime": [
+    1239,
+    1307
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Kingdom of Scotland"
+  ],
+  "contribution": "King of England from 1272 to 1307.",
+  "image": "images/edward-i.jpg",
+  "image_credit": "Remiguis Goebel · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of Scotland"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edward I (17/18 June 1239 – 7 July 1307), also known as Edward Longshanks and the Hammer of the Scots (Latin: Malleus Scotorum), was King of England from 1272 to 1307. Concurrently, he was Lord of Ireland, and from 1254 to 1306 ruled Gascony as Duke of Aquitaine in his capacity as a vassal of the French king. Before his accession to the throne, he was commonly referred to as the Lord Edward.",
+    "photo": "no death year in or after 1860"
+  }
+}

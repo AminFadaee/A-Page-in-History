@@ -1,0 +1,55 @@
+{
+  "id": "Q68962",
+  "slug": "avar-khaganate",
+  "name": "Avar Khaganate",
+  "wikipedia": "Pannonian Avars",
+  "map_year": 617,
+  "period": {
+    "start": {
+      "earliest": 567,
+      "latest": 567,
+      "circa": false
+    },
+    "end": {
+      "earliest": 822,
+      "latest": 822,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Ukraine",
+    "Romania",
+    "Hungary",
+    "Serbia",
+    "Bosnia and Herzegovina",
+    "Moldova",
+    "Croatia",
+    "Slovenia"
+  ],
+  "map": "maps/avar-khaganate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      561,
+      805
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "labelled": [
+      "Eastern Roman Empire",
+      "Kingdom of Italy",
+      "Bavarians",
+      "Saxons",
+      "Duchy of Thuringia"
+    ]
+  }
+}

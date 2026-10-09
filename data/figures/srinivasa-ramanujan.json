@@ -1,0 +1,36 @@
+{
+  "id": "Q83163",
+  "slug": "srinivasa-ramanujan",
+  "name": "Srinivasa Ramanujan",
+  "wikipedia": "Srinivasa Ramanujan",
+  "role": "Indian mathematician",
+  "life": "1887–1920",
+  "lifetime": [
+    1887,
+    1920
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian mathematician who worked during the early 20th century.",
+  "image": "images/srinivasa-ramanujan.jpg",
+  "image_credit": "Konrad Jacobs · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Srinivasa Ramanujan Iyengar (22 December 1887 – 26 April 1920) was an Indian mathematician who worked during the early 20th century. He made substantial contributions to mathematical analysis, number theory, infinite series, and continued fractions, including solutions to mathematical problems then considered unsolvable.",
+    "photo": "capture date 'Unknown date' not within their lifetime and not classified as a photograph"
+  }
+}

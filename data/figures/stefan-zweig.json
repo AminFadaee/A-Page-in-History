@@ -1,0 +1,38 @@
+{
+  "id": "Q78491",
+  "slug": "stefan-zweig",
+  "name": "Stefan Zweig",
+  "wikipedia": "Stefan Zweig",
+  "role": "Austrian writer",
+  "life": "1881–1942",
+  "lifetime": [
+    1881,
+    1942
+  ],
+  "occupation": "Writer",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Austria-Hungary"
+  ],
+  "related": [],
+  "contribution": "An Austrian writer.",
+  "image": "images/stefan-zweig.jpg",
+  "image_credit": "Franz Xaver Setzer (1886-1939) · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Austria"
+      ],
+      "lead": [
+        "Austria-Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Stefan Zweig ( ZWYGHE, SWYGHE; German: [ˈʃtɛfan t͡svaɪ̯k]  or Austrian German: [t͡svaɪ̯g]; 28 November 1881 – 22 February 1942) was an Austrian writer. At the height of his literary career in the 1920s and 1930s, he was one of the most widely translated and popular writers in the world.",
+    "photo": "captured 1927 during their lifetime"
+  }
+}

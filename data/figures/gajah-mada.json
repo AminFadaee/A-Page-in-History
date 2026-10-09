@@ -1,0 +1,36 @@
+{
+  "id": "Q49329",
+  "slug": "gajah-mada",
+  "name": "Gajah Mada",
+  "wikipedia": "Gajah Mada",
+  "role": "Political leader of the Majapahit Empire",
+  "life": "1290–1364",
+  "lifetime": [
+    1290,
+    1364
+  ],
+  "occupation": "Politician",
+  "birth_country": "Indonesia",
+  "civilizations": [
+    "Majapahit"
+  ],
+  "related": [],
+  "contribution": "A mahapatih and prominent general of the Javanese Majapahit Empire.",
+  "image": "images/gajah-mada.jpg",
+  "image_credit": "Gunawan Kartapranata (talk) · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Majapahit"
+      ],
+      "lead": [
+        "Majapahit"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Gajah Mada (c. 1290 – c. 1364, also known as Jirnnodhara) was a mahapatih and prominent general of the Javanese Majapahit Empire. He is known for unifying the Nusantara archipelago, bringing the empire to its peak of glory. According to legend, he even went as far as delivering an oath called Sumpah Palapa, in which he vowed not to rest until he had accomplished his goal of unification. His accomplishments had been heavily credited in Old Javanese manuscripts, poems and inscriptions.",
+    "photo": "no death year in or after 1860"
+  }
+}

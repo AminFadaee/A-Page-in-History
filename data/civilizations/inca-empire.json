@@ -1,0 +1,103 @@
+{
+  "id": "Q28573",
+  "slug": "inca-empire",
+  "name": "Inca Empire",
+  "wikipedia": "Inca Empire",
+  "map_year": 1497,
+  "period": {
+    "start": {
+      "earliest": 1438,
+      "latest": 1438,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1533,
+      "latest": 1533,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cusco",
+      "location": [
+        -71.9786111111111,
+        -13.516944444444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Chimu Empire"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q28573",
+        "layer": 1,
+        "name": "Inca Empire"
+      },
+      {
+        "id": "Q581741",
+        "layer": 0,
+        "name": "Chimu Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q581741",
+        "Q28573",
+        "Peru"
+      ]
+    ],
+    "question": "successions/inca-empire-question.png",
+    "answer": "successions/inca-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q213758",
+      "name": "Pachacuti"
+    },
+    {
+      "id": "Q311415",
+      "name": "Topa Inca Yupanqui"
+    },
+    {
+      "id": "Q311433",
+      "name": "Huayna Capac"
+    },
+    {
+      "id": "Q213749",
+      "name": "Huáscar"
+    },
+    {
+      "id": "Q179577",
+      "name": "Atahualpa"
+    }
+  ],
+  "modern_countries": [
+    "Peru",
+    "Bolivia",
+    "Argentina",
+    "Chile",
+    "Ecuador"
+  ],
+  "map": "maps/inca-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cusco"
+      ],
+      "infobox": [
+        "Cusco"
+      ]
+    },
+    "cliopatria_years": [
+      1440,
+      1571
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

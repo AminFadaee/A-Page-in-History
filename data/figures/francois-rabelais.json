@@ -1,0 +1,36 @@
+{
+  "id": "Q131018",
+  "slug": "francois-rabelais",
+  "name": "François Rabelais",
+  "wikipedia": "François Rabelais",
+  "role": "French writer and humanist",
+  "life": "1494–1553",
+  "lifetime": [
+    1494,
+    1553
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French writer who has been called the first great French prose author.",
+  "image": "images/francois-rabelais.jpg",
+  "image_credit": "anonymous / Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "François Rabelais (UK: , US: ; French: [fʁɑ̃swa ʁablɛ]; born between 1483 and 1494; died 1553) was a French writer who has been called the first great French prose author. A humanist of the French Renaissance and Greek scholar, he attracted opposition from both Protestant theologian John Calvin and from the hierarchy of the Catholic Church. Though in his day he was best known as a physician, scholar, diplomat, and Catholic priest, later he became better known as a satirist for his depictions of the grotesque, and for his larger-than-life characters.",
+    "photo": "no death year in or after 1860"
+  }
+}

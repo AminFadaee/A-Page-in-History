@@ -1,0 +1,52 @@
+{
+  "id": "Q183150",
+  "slug": "colchis",
+  "name": "Colchis",
+  "wikipedia": "Colchis",
+  "map_year": -301,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Kutaisi",
+      "location": [
+        42.705555555555556,
+        42.27166666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Georgia",
+    "Turkey"
+  ],
+  "map": "maps/colchis.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kutaisi"
+      ],
+      "infobox": [
+        "Kutaisi"
+      ]
+    },
+    "cliopatria_years": [
+      -301,
+      -231
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Armenia",
+      "Kingdom of Lysimachus",
+      "Scythia",
+      "Atropatene"
+    ]
+  }
+}

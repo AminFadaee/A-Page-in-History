@@ -1,0 +1,44 @@
+{
+  "id": "Q41914",
+  "slug": "manmohan-singh",
+  "name": "Manmohan Singh",
+  "wikipedia": "Manmohan Singh",
+  "role": "Prime Minister of India from 2004 to 2014",
+  "life": "1932–2024",
+  "lifetime": [
+    1932,
+    2024
+  ],
+  "occupation": "Politician",
+  "birth_country": "Pakistan",
+  "civilizations": [
+    "British Raj",
+    "Republic of India"
+  ],
+  "related": [
+    "Islamic Republic of Pakistan"
+  ],
+  "contribution": "An Indian economist, bureaucrat, academician and politician who served as the prime minister of India from 2004 to 2014.",
+  "image": "images/manmohan-singh.jpg",
+  "image_credit": "Prime Minister's Office · GODL-India",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [
+        "Islamic Republic of Pakistan"
+      ],
+      "vital_section": [
+        "Republic of India"
+      ],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Manmohan Singh (26 September 1932 – 26 December 2024) was an Indian economist, bureaucrat, academician and politician who served as the prime minister of India from 2004 to 2014. He was the fourth longest-serving prime minister after Jawaharlal Nehru, Indira Gandhi, and Narendra Modi. A member of the Indian National Congress, Singh was the first and remains the only Sikh prime minister of India. He was also the first prime minister since Nehru to be re-appointed after completing a full five-year term.",
+    "photo": "captured 2004-07-21 during their lifetime"
+  }
+}

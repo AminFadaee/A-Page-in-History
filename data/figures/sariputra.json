@@ -1,0 +1,36 @@
+{
+  "id": "Q320142",
+  "slug": "sariputra",
+  "name": "Śāriputra",
+  "wikipedia": "Śāriputra",
+  "role": "Prominent and leading disciple of the Buddha",
+  "life": "568–484 BC",
+  "lifetime": [
+    -568,
+    -484
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "Janapada of Magadha"
+  ],
+  "related": [],
+  "contribution": "One of the top disciples of the Buddha.",
+  "image": "images/sariputra.jpg",
+  "image_credit": "SadahamYathra · CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Janapada of Magadha"
+      ],
+      "lead": [
+        "Janapada of Magadha"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Śāriputra (Sanskrit: शारिपुत्र; Tibetan: ཤཱ་རིའི་བུ་, Pali: Sāriputta, lit. \"the son of Śāri\", born Upatiṣya, Pali: Upatissa) was one of the top disciples of the Buddha. He is considered the first of the Buddha's two chief male disciples, together with Maudgalyāyana (Pali: Moggallāna). Śāriputra had a key leadership role in the ministry of the Buddha and is considered in many Buddhist schools to have been important in the development of the Buddhist Abhidharma. He frequently appears in Mahayana sutras, and in some sutras, is used as a counterpoint to represent the Hinayana school of Buddhism.",
+    "photo": "no death year in or after 1860"
+  }
+}

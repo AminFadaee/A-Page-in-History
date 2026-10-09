@@ -1,0 +1,161 @@
+{
+  "id": "Q62943",
+  "slug": "maurya-empire",
+  "name": "Maurya Empire",
+  "wikipedia": "Maurya Empire",
+  "map_year": -256,
+  "period": {
+    "start": {
+      "earliest": -321,
+      "latest": -321,
+      "circa": true
+    },
+    "end": {
+      "earliest": -185,
+      "latest": -185,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pataliputra",
+      "location": [
+        85.144,
+        25.611
+      ]
+    },
+    {
+      "name": "Patna",
+      "location": [
+        85.141388888889,
+        25.61
+      ]
+    }
+  ],
+  "predecessors": [
+    "Nanda Empire"
+  ],
+  "successors": [
+    "Shunga Empire",
+    "Satavahana Dynasty"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q62943",
+        "layer": 1,
+        "name": "Maurya Empire"
+      },
+      {
+        "id": "Q949268",
+        "layer": 0,
+        "name": "Nanda Empire"
+      },
+      {
+        "id": "Q651377",
+        "layer": 2,
+        "name": "Shunga Empire"
+      },
+      {
+        "id": "Q5257",
+        "layer": 2,
+        "name": "Satavahana Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q949268",
+        "Q62943",
+        "India, Pakistan"
+      ],
+      [
+        "Q62943",
+        "Q651377",
+        "India, Nepal"
+      ],
+      [
+        "Q62943",
+        "Q5257",
+        "India"
+      ]
+    ],
+    "question": "successions/maurya-empire-question.png",
+    "answer": "successions/maurya-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q188541",
+      "name": "Chandragupta Maurya"
+    },
+    {
+      "id": "Q315526",
+      "name": "Bindusara"
+    },
+    {
+      "id": "Q8589",
+      "name": "Ashoka"
+    },
+    {
+      "id": "Q538082",
+      "name": "Dasharatha Maurya"
+    },
+    {
+      "id": "Q12455672",
+      "name": "Samprati"
+    },
+    {
+      "id": "Q911425",
+      "name": "Shalishuka"
+    },
+    {
+      "id": "Q1563766",
+      "name": "Devavarman"
+    },
+    {
+      "id": "Q1563790",
+      "name": "Shatadhanvan"
+    },
+    {
+      "id": "Q24405",
+      "name": "Brihadratha Maurya"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Nepal",
+    "Bangladesh"
+  ],
+  "map": "maps/maurya-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pataliputra",
+        "Patna"
+      ],
+      "infobox": [
+        "Pataliputra",
+        "Patna"
+      ]
+    },
+    "cliopatria_years": [
+      -318,
+      -171
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Seleucid Empire",
+      "Yuezhi",
+      "Qin",
+      "Chu",
+      "Minyue",
+      "Kingdom of Armenia",
+      "Âu Lạc",
+      "Qi",
+      "Wei",
+      "Yan"
+    ]
+  }
+}

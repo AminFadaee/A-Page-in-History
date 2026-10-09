@@ -1,0 +1,41 @@
+{
+  "id": "Q170395",
+  "slug": "pope-clement-viii",
+  "name": "Pope Clement VIII",
+  "wikipedia": "Pope Clement VIII",
+  "role": "Head of the Catholic Church from 1592 to 1605",
+  "life": "1536–1605",
+  "lifetime": [
+    1536,
+    1605
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "Head of the Catholic Church and ruler of the Papal States from 30 January 1592 to his death in March 1605.",
+  "image": "images/pope-clement-viii.jpg",
+  "image_credit": "Giuseppe Cesari · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Clement VIII (Latin: Clemens VIII; Italian: Clemente VIII; 24 February 1536 – 3 March 1605), born Ippolito Aldobrandini, was head of the Catholic Church and ruler of the Papal States from 30 January 1592 to his death in March 1605.",
+    "photo": "no death year in or after 1860"
+  }
+}

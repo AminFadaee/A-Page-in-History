@@ -1,0 +1,36 @@
+{
+  "id": "Q12658",
+  "slug": "wilhelm-ostwald",
+  "name": "Wilhelm Ostwald",
+  "wikipedia": "Wilhelm Ostwald",
+  "role": "German chemist and philosopher",
+  "life": "1853–1932",
+  "lifetime": [
+    1853,
+    1932
+  ],
+  "occupation": "Chemist",
+  "birth_country": "Latvia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Baltic German chemist and philosopher.",
+  "image": "images/wilhelm-ostwald.jpg",
+  "image_credit": "Nobel Foundation · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Wilhelm Friedrich Ostwald (German: [ˈvɪlhɛlm ˈɔstvalt] ; 2 September [O.S. 21 August] 1853 – 4 April 1932) was a Baltic German chemist and philosopher.  Ostwald is credited with being one of the founders of the field of physical chemistry, with Jacobus Henricus van 't Hoff, Walther Nernst and Svante Arrhenius.",
+    "photo": "captured 1909 during their lifetime"
+  }
+}

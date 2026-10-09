@@ -1,0 +1,38 @@
+{
+  "id": "Q44205",
+  "slug": "helmuth-von-moltke-the-elder",
+  "name": "Helmuth von Moltke the Elder",
+  "wikipedia": "Helmuth von Moltke the Elder",
+  "role": "German field marshal",
+  "life": "1800–1891",
+  "lifetime": [
+    1800,
+    1891
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A Prussian Generalfeldmarschall.",
+  "image": "images/helmuth-von-moltke-the-elder.jpg",
+  "image_credit": "Kunstverlag der Photographischen Gesellschaft Berlin · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Graf Helmuth Karl Bernhard von Moltke (German: [ˈhɛlmuːt fɔn ˈmɔltkə]; 26 October 1800 – 24 April 1891) was a Prussian Generalfeldmarschall. The chief of staff of the Prussian Army for thirty years, he is regarded as the creator of a new, more modern method of directing armies in the field and one of the finest military minds of his generation. He commanded troops in the Middle-East and then in Europe during the Second Schleswig War, Austro-Prussian War, and Franco-Prussian War. He is described as embodying \"Prussian military organization and tactical genius\". He was fascinated with railways and pioneered their military use.",
+    "photo": "captured 19th centurydate QS:P,+1850-00-00T00:00:00Z/7 during their lifetime"
+  }
+}

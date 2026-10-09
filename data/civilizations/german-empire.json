@@ -1,0 +1,133 @@
+{
+  "id": "Q43287",
+  "slug": "german-empire",
+  "name": "German Empire",
+  "wikipedia": "German Empire",
+  "map_year": 1918,
+  "period": {
+    "start": {
+      "earliest": 1871,
+      "latest": 1871,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Berlin",
+      "location": [
+        13.383333333333,
+        52.516666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "North German Confederation"
+  ],
+  "successors": [
+    "Weimar Republic",
+    "Second Polish Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q43287",
+        "layer": 1,
+        "name": "German Empire"
+      },
+      {
+        "id": "Q150981",
+        "layer": 0,
+        "name": "North German Confederation"
+      },
+      {
+        "id": "Q41304",
+        "layer": 2,
+        "name": "Weimar Republic"
+      },
+      {
+        "id": "Q207272",
+        "layer": 2,
+        "name": "Second Polish Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q150981",
+        "Q43287",
+        "Germany, Poland, France"
+      ],
+      [
+        "Q43287",
+        "Q41304",
+        "Germany, Poland"
+      ],
+      [
+        "Q43287",
+        "Q207272",
+        "Poland, Belarus, Ukraine"
+      ]
+    ],
+    "question": "successions/german-empire-question.png",
+    "answer": "successions/german-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q150652",
+      "name": "Wilhelm I"
+    },
+    {
+      "id": "Q58600",
+      "name": "Frederick III, German Emperor"
+    },
+    {
+      "id": "Q2677",
+      "name": "Wilhelm II"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Germany",
+    "Poland",
+    "Belarus",
+    "Lithuania",
+    "Latvia",
+    "Estonia",
+    "Belgium",
+    "Luxembourg"
+  ],
+  "map": "maps/german-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Berlin"
+      ],
+      "infobox": [
+        "Berlin"
+      ]
+    },
+    "cliopatria_years": [
+      1871,
+      1919
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Republic",
+      "Austria-Hungary",
+      "French Third Republic",
+      "Kingdom of Great Britain",
+      "Kingdom of Sweden",
+      "Republic of Finland",
+      "Kingdom of Norway",
+      "Kingdom of Italy",
+      "Principality of Bulgaria",
+      "Georgia"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "Q144565",
+  "slug": "tughril-i",
+  "name": "Tughril I",
+  "wikipedia": "Tughril I",
+  "role": "Sultan of the Seljuk Empire from 1037 to 1063",
+  "life": "c. 990–1063",
+  "lifetime": [
+    990,
+    1063
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Great Seljuk Empire"
+  ],
+  "related": [
+    "Buyid Dynasty",
+    "Fatimid Caliphate",
+    "Ghaznavid Empire"
+  ],
+  "contribution": "A Turkoman chieftain, who founded the Seljuk Empire, ruling from 1037 to 1063.",
+  "image": "images/tughril-i.jpg",
+  "image_credit": "1314 artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Great Seljuk Empire"
+      ],
+      "lead": [
+        "Great Seljuk Empire",
+        "Buyid Dynasty",
+        "Fatimid Caliphate",
+        "Ghaznavid Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Abu Talib Muhammad Tughril ibn Mika'il (Persian: ابوطالبْ محمد طغرل بن میکائیل), better known as Tughril (طغرل / طغریل; also spelled Toghril / Tughrul), was a Turkoman chieftain, who founded the Seljuk Empire, ruling from 1037 to 1063.",
+    "photo": "no death year in or after 1860"
+  }
+}

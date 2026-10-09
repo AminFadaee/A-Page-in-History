@@ -1,0 +1,39 @@
+{
+  "id": "Q146691",
+  "slug": "alphonse-mucha",
+  "name": "Alphonse Mucha",
+  "wikipedia": "Alphonse Mucha",
+  "role": "Czech painter, illustrator and graphic artist",
+  "life": "1860–1939",
+  "lifetime": [
+    1860,
+    1939
+  ],
+  "occupation": "Painter",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "A Czech painter, illustrator, and graphic artist.",
+  "image": "images/alphonse-mucha.jpg",
+  "image_credit": "George R. Lawrence Co., Chicago. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire",
+        "Austria-Hungary",
+        "Nazi Germany",
+        "Czechoslovakia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Alfons Maria Mucha (Czech: [ˈalfons ˈmuxa] ; 24 July 1860 – 14 July 1939), known in English as Alphonse Mucha, was a Czech painter, illustrator, and graphic artist. Living in Paris during the Art Nouveau period, he was widely known for his distinctly stylised and decorative theatrical posters, particularly those of Sarah Bernhardt. He produced illustrations, advertisements, decorative panels, as well as designs, which became among the best-known images of the period.",
+    "photo": "captured Copyrighted 1906. during their lifetime"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q16975",
+  "slug": "pope-paul-vi",
+  "name": "Pope Paul VI",
+  "wikipedia": "Pope Paul VI",
+  "role": "Head of the Catholic Church from 1963 to 1978",
+  "life": "1897–1978",
+  "lifetime": [
+    1897,
+    1978
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and sovereign of Vatican City from 21 June 1963 until his death on 6 August 1978.",
+  "image": "images/pope-paul-vi.jpg",
+  "image_credit": "Fotografia Felici · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Italy",
+        "Kingdom of Italy"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Pope Paul VI (born Giovanni Battista Enrico Antonio Maria Montini; 26 September 1897 – 6 August 1978) was head of the Catholic Church and sovereign of Vatican City from 21 June 1963 until his death on 6 August 1978. Succeeding John XXIII, he continued the Second Vatican Council, which he closed in 1965, implementing its numerous reforms. He fostered improved ecumenical relations with Eastern Orthodox and Protestant churches, which resulted in many historic meetings and agreements.",
+    "photo": "captured early 1969date QS:P571,+1969-00-00T00:00:00Z/9,P4241,Q40719727 during their lifetime"
+  }
+}

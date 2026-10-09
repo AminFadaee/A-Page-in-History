@@ -1,0 +1,44 @@
+{
+  "id": "Q1496",
+  "slug": "ferdinand-magellan",
+  "name": "Ferdinand Magellan",
+  "wikipedia": "Ferdinand Magellan",
+  "role": "Portuguese explorer",
+  "life": "c. 1480–1521",
+  "lifetime": [
+    1480,
+    1521
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "Portuguese Empire",
+    "Spanish Empire"
+  ],
+  "contribution": "A Portuguese explorer best known for planning and leading the 1519–1522 Spanish expedition to the East Indies.",
+  "image": "images/ferdinand-magellan.jpg",
+  "image_credit": "Unknown artistUnknown artist · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal",
+        "Crown of Castile"
+      ],
+      "lead": [
+        "Portuguese Empire",
+        "Spanish Empire",
+        "Kingdom of Portugal"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Ferdinand Magellan (c. 1480 – 27 April 1521) was a Portuguese explorer best known for planning and leading the 1519–1522 Spanish expedition to the East Indies. During this expedition, he became the first European to encounter the Strait of Magellan, performed the first European crossing of the Pacific Ocean, and made the first known European contact with the Philippines. Magellan was killed in battle in the Philippines in 1521, but his crew, commanded by Spanish navigator Juan Sebastián Elcano, completed the return trip to Spain in 1522, achieving the first circumnavigation of Earth in history.",
+    "photo": "no death year in or after 1860"
+  }
+}

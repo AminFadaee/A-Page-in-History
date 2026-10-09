@@ -1,0 +1,36 @@
+{
+  "id": "Q150471",
+  "slug": "e-t-a-hoffmann",
+  "name": "E. T. A. Hoffmann",
+  "wikipedia": "E. T. A. Hoffmann",
+  "role": "German author",
+  "life": "1776–1822",
+  "lifetime": [
+    1776,
+    1822
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A German Romantic author of fantasy and gothic horror, a jurist, composer, music critic and artist.",
+  "image": "images/e-t-a-hoffmann.jpg",
+  "image_credit": "E. T. A. Hoffmann · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Ernst Theodor Amadeus Hoffmann (born Ernst Theodor Wilhelm Hoffmann; 24 January 1776 – 25 June 1822) was a German Romantic author of fantasy and gothic horror, a jurist, composer, music critic and artist. His short story \"The Sandman\" is seen as a pioneering work of horror fiction, while his novella Mademoiselle de Scuderi is regarded as one of the earliest examples of crime fiction.",
+    "photo": "no death year in or after 1860"
+  }
+}

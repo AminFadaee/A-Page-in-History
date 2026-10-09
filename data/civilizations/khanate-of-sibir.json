@@ -1,0 +1,77 @@
+{
+  "id": "Q190513",
+  "slug": "khanate-of-sibir",
+  "name": "Khanate of Sibir",
+  "wikipedia": "Khanate of Sibir",
+  "map_year": 1475,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1598,
+      "latest": 1598,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Qashliq",
+      "location": [
+        68.52048,
+        58.14942
+      ]
+    },
+    {
+      "name": "Chimgi-Tura",
+      "location": [
+        65.51555555555555,
+        57.153333333333336
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Russia",
+    "Kazakhstan"
+  ],
+  "map": "maps/khanate-of-sibir.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Qashliq",
+        "Chimgi-Tura"
+      ],
+      "infobox": [
+        "Chimgi-Tura",
+        "Qashliq"
+      ]
+    },
+    "cliopatria_years": [
+      1429,
+      1587
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mongol Khanate",
+      "Grand Principality of Moscow",
+      "Moghulistan",
+      "Kazakh Khanate",
+      "Nogai Horde",
+      "Ming Dynasty",
+      "Aq Qoyunlu",
+      "Mamluk Sultanate",
+      "Kalmar Union",
+      "House of Jagiellon",
+      "Timurid Empire",
+      "Ottoman Empire",
+      "Tibet",
+      "Golden Horde",
+      "Khanate of Kazan",
+      "Kapisa"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q188634",
+  "slug": "matthias-corvinus",
+  "name": "Matthias Corvinus",
+  "wikipedia": "Matthias Corvinus",
+  "role": "King of Hungary and Croatia from 1458 to 1490",
+  "life": "1443–1490",
+  "lifetime": [
+    1443,
+    1490
+  ],
+  "occupation": "Politician",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Kingdom of Hungary"
+  ],
+  "related": [
+    "Ottoman Empire",
+    "Kingdom of Bosnia"
+  ],
+  "contribution": "King of Hungary and Croatia from 1458 to 1490, as Matthias I. He is often given the epithet \"the Just\". After conducting several military campaigns, he was elected King of Bohemia in 1469 and adopted the title Duke of Austria in 1487.",
+  "image": "images/matthias-corvinus.jpg",
+  "image_credit": "Andrea Mantegna · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Ottoman Empire",
+        "Kingdom of Bosnia",
+        "Kingdom of Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Hungary"
+      ]
+    },
+    "lead": "Matthias Corvinus (Hungarian: Hunyadi Mátyás; Romanian: Matia/Matei Corvin; Croatian: Matija/Matijaš Korvin; Slovene: Matija Korvin/Kralj Matjaž; Slovak: Matej Korvín; Czech: Matyáš Korvín; 23 February  1443 – 6 April  1490) was King of Hungary and Croatia from 1458 to 1490, as Matthias I. He is often given the epithet \"the Just\". After conducting several military campaigns, he was elected King of Bohemia in 1469 and adopted the title Duke of Austria in 1487. He was the son of John Hunyadi, Regent of Hungary, who died in 1456. In 1457, Matthias was imprisoned along with his older brother, Ladislaus Hunyadi, on the orders of King Ladislaus the Posthumous. Ladislaus Hunyadi was executed, causing a rebellion that forced King Ladislaus to flee Hungary. After the King died unexpectedly, Matthias's uncle Michael Szilágyi persuaded the Estates to unanimously proclaim the 14-year-old Matthias as king on 24 January 1458. He began his rule under his uncle's guardianship, but he took effective control of government within two weeks.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Q157280",
+  "slug": "stepan-bandera",
+  "name": "Stepan Bandera",
+  "wikipedia": "Stepan Bandera",
+  "role": "Ukrainian nationalist leader",
+  "life": "1909–1959",
+  "lifetime": [
+    1909,
+    1959
+  ],
+  "occupation": "Politician",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Austria-Hungary",
+    "Second Polish Republic"
+  ],
+  "related": [
+    "Nazi Germany",
+    "Federal Republic of Germany"
+  ],
+  "contribution": "A Ukrainian far-right leader of the radical militant faction of the Organization of Ukrainian Nationalists, the OUN-B.",
+  "image": "images/stepan-bandera.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Second Polish Republic",
+        "Austria-Hungary"
+      ],
+      "lead": [
+        "Austria-Hungary",
+        "Second Polish Republic",
+        "Nazi Germany",
+        "Federal Republic of Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Stepan Andriiovych Bandera (1 January 1909 – 15 October 1959) was a Ukrainian far-right leader of the radical militant faction of the Organization of Ukrainian Nationalists, the OUN-B.",
+    "photo": "captured 1930sdate QS:P,+1930-00-00T00:00:00Z/8 during their lifetime"
+  }
+}

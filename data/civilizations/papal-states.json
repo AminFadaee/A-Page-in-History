@@ -1,0 +1,114 @@
+{
+  "id": "Q170174",
+  "slug": "papal-states",
+  "name": "Papal States",
+  "wikipedia": "Papal States",
+  "map_year": 1709,
+  "period": {
+    "start": {
+      "earliest": 756,
+      "latest": 756,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1870,
+      "latest": 1870,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Rome",
+      "location": [
+        12.482777777778,
+        41.893055555556
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Kingdom of Italy"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q170174",
+        "layer": 1,
+        "name": "Papal States"
+      },
+      {
+        "id": "Q172579",
+        "layer": 2,
+        "name": "Kingdom of Italy"
+      },
+      {
+        "id": "Q180393",
+        "layer": 1,
+        "name": "Kingdom of the Two Sicilies"
+      },
+      {
+        "id": "Q2577303",
+        "layer": 1,
+        "name": "Kingdom of Sardinia"
+      }
+    ],
+    "edges": [
+      [
+        "Q180393",
+        "Q172579",
+        "Italy"
+      ],
+      [
+        "Q2577303",
+        "Q172579",
+        "Italy"
+      ],
+      [
+        "Q170174",
+        "Q172579",
+        "Italy"
+      ]
+    ],
+    "question": "successions/papal-states-question.png",
+    "answer": "successions/papal-states-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Italy",
+    "San Marino",
+    "Vatican City"
+  ],
+  "map": "maps/papal-states.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rome"
+      ],
+      "infobox": [
+        "Rome",
+        "Avignon Papacy"
+      ]
+    },
+    "cliopatria_years": [
+      755,
+      1870
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Spain",
+      "Holy Roman Empire Minor States",
+      "Republic of Venice",
+      "Habsburg Monarchy",
+      "Kingdom of France",
+      "Regency of Algiers",
+      "Principality of Moldavia",
+      "Principality of Wallachia",
+      "Duchy of Bavaria",
+      "Swiss Confederation",
+      "House of Savoy",
+      "Beylik of Tunis"
+    ]
+  }
+}

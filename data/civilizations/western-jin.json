@@ -1,0 +1,90 @@
+{
+  "id": "Q7352",
+  "slug": "western-jin",
+  "name": "Western Jin",
+  "wikipedia": "Jin dynasty (266–420)",
+  "map_year": 283,
+  "period": {
+    "start": {
+      "earliest": 266,
+      "latest": 266,
+      "circa": false
+    },
+    "end": {
+      "earliest": 420,
+      "latest": 420,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Luoyang",
+      "location": [
+        112.42447,
+        34.65867
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Liu Song Dynasty"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q7352",
+        "layer": 1,
+        "name": "Western Jin"
+      },
+      {
+        "id": "Q49697",
+        "layer": 2,
+        "name": "Liu Song Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q7352",
+        "Q49697",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/western-jin-question.png",
+    "answer": "successions/western-jin-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/western-jin.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Luoyang"
+      ],
+      "infobox": [
+        "Luoyang",
+        "Chang'an",
+        "Jiankang"
+      ]
+    },
+    "cliopatria_years": [
+      265,
+      425
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Indo-Sasanian Empire",
+      "Goguryeo",
+      "Sasanian Empire",
+      "Western Satraps",
+      "Vakataka Kingdom",
+      "Eastern Kushans",
+      "Funan"
+    ]
+  }
+}

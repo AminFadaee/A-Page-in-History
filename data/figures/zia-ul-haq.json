@@ -1,0 +1,54 @@
+{
+  "id": "Q200499",
+  "slug": "zia-ul-haq",
+  "name": "Zia-ul-Haq",
+  "wikipedia": "Zia-ul-Haq",
+  "role": "6th President of Pakistan from 1978 to 1988",
+  "life": "1924–1988",
+  "lifetime": [
+    1924,
+    1988
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj",
+    "Islamic Republic of Pakistan"
+  ],
+  "related": [
+    "Burma",
+    "Kingdom of Jordan",
+    "United States of America",
+    "Kingdom of Saudi Arabia",
+    "Union of Soviet Socialist Republics",
+    "Republic of India"
+  ],
+  "contribution": "A Pakistani general who ruled Pakistan from his coup in 1977 until his death in an airplane crash in 1988.",
+  "image": "images/zia-ul-haq.jpg",
+  "image_credit": "Series: Reagan White House Photographs, 1/20/1981 - 1/20/1989 Collection: White House Photographic Collection, 1/20/1981 - 1/20/1989 · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Islamic Republic of Pakistan"
+      ],
+      "lead": [
+        "Burma",
+        "Kingdom of Jordan",
+        "United States of America",
+        "Kingdom of Saudi Arabia",
+        "Union of Soviet Socialist Republics",
+        "Republic of India"
+      ],
+      "vital_section": [
+        "Islamic Republic of Pakistan"
+      ],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Muhammad Zia-ul-Haq (12 August 1924 – 17 August 1988) was a Pakistani general who ruled Pakistan from his coup in 1977 until his death in an airplane crash in 1988. He served as the chief martial law administrator from 1977 to 1985, and as the president of Pakistan from 1978 until his death. Zia was also the chief of the army staff of the Pakistan Army from 1976. He remains Pakistan's longest-serving de-facto ruler to date, and his political ideology is known as Ziaism.",
+    "photo": "captured 1982-12-07 during their lifetime"
+  }
+}

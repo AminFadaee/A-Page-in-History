@@ -1,0 +1,49 @@
+{
+  "id": "Q7996",
+  "slug": "ivan-the-terrible",
+  "name": "Ivan the Terrible",
+  "wikipedia": "Ivan the Terrible",
+  "role": "Tsar of Russia from 1547 to 1584",
+  "life": "1530–1584",
+  "lifetime": [
+    1530,
+    1584
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Grand Principality of Moscow"
+  ],
+  "related": [
+    "Khanate of Kazan",
+    "Astrakhan Khanate",
+    "Crimean Khanate",
+    "Kingdom of England",
+    "Ottoman Empire"
+  ],
+  "contribution": "Grand Prince of Moscow and all Russia from 1533 to 1547 and the first Tsar and Grand Prince of all Russia from 1547 until his death in 1584.",
+  "image": "images/ivan-the-terrible.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Grand Principality of Moscow",
+        "Tsardom of Russia"
+      ],
+      "lead": [
+        "Khanate of Kazan",
+        "Astrakhan Khanate",
+        "Crimean Khanate",
+        "Kingdom of England",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Grand Principality of Moscow"
+      ]
+    },
+    "lead": "Ivan IV Vasilyevich (Russian: Иван IV Васильевич; 25 August 1530 – 28 March [O.S. 18 March] 1584), commonly known as Ivan the Terrible, was Grand Prince of Moscow and all Russia from 1533 to 1547 and the first Tsar and Grand Prince of all Russia from 1547 until his death in 1584. Ivan's reign was characterised by Russia's transformation from a medieval state to a fledgling empire, but at an immense cost to its people and long-term economy.",
+    "photo": "no death year in or after 1860"
+  }
+}

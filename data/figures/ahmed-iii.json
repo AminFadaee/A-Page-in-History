@@ -1,0 +1,36 @@
+{
+  "id": "Q199482",
+  "slug": "ahmed-iii",
+  "name": "Ahmed III",
+  "wikipedia": "Ahmed III",
+  "role": "Sultan of the Ottoman Empire from 1703 to 1730",
+  "life": "1673–1736",
+  "lifetime": [
+    1673,
+    1736
+  ],
+  "occupation": "Politician",
+  "birth_country": "Bulgaria",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "Sultan of the Ottoman Empire and a son of sultan Mehmed IV. His mother was Gülnuş Sultan, originally named Evmania Voria, who was an ethnic Greek.",
+  "image": "images/ahmed-iii.jpg",
+  "image_credit": "Levni · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Ahmed III (Ottoman Turkish: احمد ثالث, Aḥmed-i sālis; Turkish: III. Ahmed; 30 December 1673 – 1 July 1736) was sultan of the Ottoman Empire and a son of sultan Mehmed IV (r. 1648–1687). His mother was Gülnuş Sultan, originally named Evmania Voria, who was an ethnic Greek. He was born at Hacıoğlu Pazarcık, in Dobruja. He succeeded to the throne in 1703 on the abdication of his brother Mustafa II (1695–1703). Nevşehirli Damat İbrahim Pasha and the Sultan's daughter, Fatma Sultan (wife of the former) directed the government from 1718 to 1730, a period referred to as the Tulip Era.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q229235",
+  "slug": "cai-lun",
+  "name": "Cai Lun",
+  "wikipedia": "Cai Lun",
+  "role": "Chinese Han dynasty official and paper innovator",
+  "life": "c. 48–121",
+  "lifetime": [
+    48,
+    121
+  ],
+  "occupation": "Inventor",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese eunuch court official of the Eastern Han dynasty.",
+  "image": "images/cai-lun.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Han Dynasty"
+      ],
+      "lead": [
+        "Han Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Cai Lun (Chinese: 蔡伦; courtesy name: Jingzhong (敬仲); c. 50–62 – 121 CE), formerly romanized as Ts'ai Lun, was a Chinese eunuch court official of the Eastern Han dynasty. He occupies a pivotal place in the history of paper due to his addition of pulp via tree bark and hemp ends which resulted in the large-scale manufacture and worldwide spread of paper. Although Cai is traditionally regarded as the inventor of paper, earlier forms of paper have existed since the 3rd century BCE, so his contributions were an innovation, rather than an invention.",
+    "photo": "no death year in or after 1860"
+  }
+}

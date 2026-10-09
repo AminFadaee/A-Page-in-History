@@ -1,0 +1,42 @@
+{
+  "id": "Q51088",
+  "slug": "antonio-salieri",
+  "name": "Antonio Salieri",
+  "wikipedia": "Antonio Salieri",
+  "role": "Italian composer and teacher",
+  "life": "1750–1825",
+  "lifetime": [
+    1750,
+    1825
+  ],
+  "occupation": "Composer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Republic of Venice"
+  ],
+  "related": [
+    "Habsburg Monarchy"
+  ],
+  "contribution": "An Italian composer and teacher of the classical period.",
+  "image": "images/antonio-salieri.jpg",
+  "image_credit": "Joseph Willibrord Mähler · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Venice",
+        "Austrian Empire"
+      ],
+      "lead": [
+        "Republic of Venice",
+        "Habsburg Monarchy"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Republic of Venice"
+      ]
+    },
+    "lead": "Antonio Salieri (18 August 1750 – 7 May 1825) was an Italian composer and teacher of the classical period.",
+    "photo": "no death year in or after 1860"
+  }
+}

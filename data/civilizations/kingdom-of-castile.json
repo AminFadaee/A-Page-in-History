@@ -1,0 +1,97 @@
+{
+  "id": "Q179293",
+  "slug": "kingdom-of-castile",
+  "name": "Kingdom of Castile",
+  "wikipedia": "Kingdom of Castile",
+  "map_year": 1099,
+  "period": {
+    "start": {
+      "earliest": 1065,
+      "latest": 1065,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1833,
+      "latest": 1833,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [
+    "Crown of Castile"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q179293",
+        "layer": 1,
+        "name": "Kingdom of Castile"
+      },
+      {
+        "id": "Q217196",
+        "layer": 2,
+        "name": "Crown of Castile"
+      },
+      {
+        "id": "Q175276",
+        "layer": 1,
+        "name": "Kingdom of León"
+      }
+    ],
+    "edges": [
+      [
+        "Q175276",
+        "Q217196",
+        "Spain"
+      ],
+      [
+        "Q179293",
+        "Q217196",
+        "Spain"
+      ]
+    ],
+    "question": "successions/kingdom-of-castile-question.png",
+    "answer": "successions/kingdom-of-castile-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q317905",
+      "name": "Sancho II of Castile and León"
+    },
+    {
+      "id": "Q243122",
+      "name": "Ferdinand III of Castile"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Portugal"
+  ],
+  "map": "maps/kingdom-of-castile.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Burgos"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      961,
+      1235
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Almoravid Dynasty",
+      "Duchy of Aquitaine",
+      "County of Toulouse",
+      "Duchy of Brittany",
+      "Hammadid Dynasty",
+      "County of Blôis",
+      "Kingdom of Arles",
+      "Papal States"
+    ]
+  }
+}

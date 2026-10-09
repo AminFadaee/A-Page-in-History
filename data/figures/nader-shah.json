@@ -1,0 +1,47 @@
+{
+  "id": "Q192868",
+  "slug": "nader-shah",
+  "name": "Nader Shah",
+  "wikipedia": "Nader Shah",
+  "role": "Shah of Iran from 1736 to 1747",
+  "life": "1688–1747",
+  "lifetime": [
+    1688,
+    1747
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Safavid Dynasty",
+    "Afsharid Iran"
+  ],
+  "related": [
+    "Hotaki Dynasty",
+    "Ottoman Empire",
+    "Russian Empire"
+  ],
+  "contribution": "The founder of the Afsharid dynasty of Iran and one of the most powerful rulers in Iranian history, ruling as the emperor of Iran from 1736 to 1747, when he was assassinated during a rebellion.",
+  "image": "images/nader-shah.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Safavid Dynasty",
+        "Afsharid Iran"
+      ],
+      "lead": [
+        "Afsharid Iran",
+        "Hotaki Dynasty",
+        "Ottoman Empire",
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Safavid Dynasty"
+      ]
+    },
+    "lead": "Nader Shah Afshar (born Nadr Qoli; Persian: نادرشاه افشار; 6 August 1698 or 22 October 1688 – 20 June 1747) was the founder of the Afsharid dynasty of Iran and one of the most powerful rulers in Iranian history, ruling as the emperor of Iran (Persia) from 1736 to 1747, when he was assassinated during a rebellion. He fought numerous campaigns throughout West Asia, the Caucasus, Central Asia, and South Asia, emerging victorious from the battles of Herat, Mihmandust, Murche-Khort, Kirkuk, Yeghevārd, Khyber Pass, Karnal, and Kars. Nader belonged to the Turkoman Afshars, one of the seven Qizilbash tribes that helped the Safavid dynasty establish their power in Iran.",
+    "photo": "no death year in or after 1860"
+  }
+}

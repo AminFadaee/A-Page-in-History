@@ -1,0 +1,36 @@
+{
+  "id": "Q37621",
+  "slug": "thomas-hobbes",
+  "name": "Thomas Hobbes",
+  "wikipedia": "Thomas Hobbes",
+  "role": "English philosopher and political theorist",
+  "life": "1588–1679",
+  "lifetime": [
+    1588,
+    1679
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English philosopher and political theorist, best known for his 1651 book Leviathan, in which he expounds an influential formulation of social contract theory.",
+  "image": "images/thomas-hobbes.jpg",
+  "image_credit": "John Michael Wright · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Thomas Hobbes ( HOBZ; 5 April 1588 – 4 December 1679) was an English philosopher and political theorist, best known for his 1651 book Leviathan, in which he expounds an influential formulation of social contract theory. He is considered to be one of the founders of modern political philosophy.",
+    "photo": "no death year in or after 1860"
+  }
+}

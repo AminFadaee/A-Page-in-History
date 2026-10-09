@@ -1,0 +1,40 @@
+{
+  "id": "Q83476",
+  "slug": "alfred-the-great",
+  "name": "Alfred the Great",
+  "wikipedia": "Alfred the Great",
+  "role": "King of Wessex; King of the Anglo-Saxons",
+  "life": "c. 849–899",
+  "lifetime": [
+    849,
+    899
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Wessex"
+  ],
+  "related": [
+    "Danelaw"
+  ],
+  "contribution": "King of the West Saxons from 871 to 886, and King of the Anglo-Saxons from 886 until his death in 899.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Wessex"
+      ],
+      "lead": [
+        "Danelaw"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Wessex"
+      ]
+    },
+    "lead": "Alfred the Great (Old English: Ælfrǣd [ˈæɫvˌræːd]; c. 849 – 26 October 899) was King of the West Saxons from 871 to 886, and King of the Anglo-Saxons from 886 until his death in 899. He was the youngest son of King Æthelwulf and Æthelwulf's first wife Osburh, who both died when Alfred was young. Three of Alfred's brothers, Æthelbald, Æthelberht and Æthelred, reigned in turn before him. Under Alfred's rule, considerable administrative and military reforms were introduced, prompting lasting change in England.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

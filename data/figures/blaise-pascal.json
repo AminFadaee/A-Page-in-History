@@ -1,0 +1,36 @@
+{
+  "id": "Q1290",
+  "slug": "blaise-pascal",
+  "name": "Blaise Pascal",
+  "wikipedia": "Blaise Pascal",
+  "role": "French polymath",
+  "life": "1623–1662",
+  "lifetime": [
+    1623,
+    1662
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French mathematician, physicist, inventor, philosopher, and Catholic writer.",
+  "image": "images/blaise-pascal.jpg",
+  "image_credit": "unknown; a copy of the painting of François II Quesnel, which was made for Gérard Edelinck en 1691[réf. nécessaire]. · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Blaise Pascal (19 June 1623 – 19 August 1662) was a French mathematician, physicist, inventor, philosopher, and Catholic writer.",
+    "photo": "no death year in or after 1860"
+  }
+}

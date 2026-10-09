@@ -1,0 +1,46 @@
+{
+  "id": "Q587697",
+  "slug": "afonso-i-of-portugal",
+  "name": "Afonso I of Portugal",
+  "wikipedia": "Afonso I of Portugal",
+  "role": "King of Portugal from 1139 to 1185",
+  "life": "c. 1109–1185",
+  "lifetime": [
+    1109,
+    1185
+  ],
+  "occupation": "Politician",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Galicia",
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "County of Portugal",
+    "Kingdom of León"
+  ],
+  "contribution": "The first king of Portugal, from 26 July 1139 until his death on 6 December 1185.",
+  "image": "images/afonso-i-of-portugal.jpg",
+  "image_credit": "António de Holanda · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Galicia",
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "County of Portugal",
+        "Kingdom of Galicia",
+        "Kingdom of León",
+        "Kingdom of Portugal"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Castile"
+      ]
+    },
+    "lead": "Dom Afonso I (born Afonso Henriques; 1106/1109/1111 – 6 December 1185) nicknamed \"the Conqueror\" (Portuguese: O Conquistador), \"the Founder\" (O Fundador) and \"the Great\" (O Magno) by the Portuguese, was the first king of Portugal, from 26 July 1139 until his death on 6 December 1185. He achieved the independence of the County of Portugal, establishing a new kingdom and doubling its area with the Reconquista, an objective that he pursued until his death.",
+    "photo": "no death year in or after 1860"
+  }
+}

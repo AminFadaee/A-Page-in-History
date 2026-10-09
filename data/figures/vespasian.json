@@ -18,6 +18,7 @@
   "contribution": "Roman emperor from 69 to 79.",
   "image": "images/vespasian.jpg",
   "image_credit": "Livioandronico2013 · CC BY-SA 4.0",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Vespasian (; Latin: Vespasianus [wɛspasiˈaːnus]; 17 November 9 AD – 23 June 79) was Roman emperor from 69 to 79. The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which ruled the empire for 27 years. His fiscal reforms and consolidation of the empire brought political stability and an extensive building program."
+    "lead": "Vespasian (; Latin: Vespasianus [wɛspasiˈaːnus]; 17 November 9 AD – 23 June 79) was Roman emperor from 69 to 79. The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which ruled the empire for 27 years. His fiscal reforms and consolidation of the empire brought political stability and an extensive building program.",
+    "photo": "no death year in or after 1860"
   }
 }

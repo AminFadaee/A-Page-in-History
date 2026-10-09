@@ -1,0 +1,36 @@
+{
+  "id": "Q153232",
+  "slug": "jean-le-rond-d-alembert",
+  "name": "Jean Le Rond d'Alembert",
+  "wikipedia": "Jean Le Rond d'Alembert",
+  "role": "French mathematician",
+  "life": "1717–1783",
+  "lifetime": [
+    1717,
+    1783
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French mathematician, physicist, philosopher, and music theorist.",
+  "image": "images/jean-le-rond-d-alembert.jpg",
+  "image_credit": "After Maurice Quentin de La Tour · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Jean Le Rond d'Alembert ( DAL-əm-BAIR; French: [ʒɑ̃ lə ʁɔ̃ dalɑ̃bɛʁ]; 16 November 1717 – 29 October 1783) was a French mathematician, physicist, philosopher, and music theorist. Until 1759 he was, together with Denis Diderot, a co-editor of the Encyclopédie.",
+    "photo": "no death year in or after 1860"
+  }
+}

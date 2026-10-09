@@ -1,0 +1,37 @@
+{
+  "id": "Q180588",
+  "slug": "georgy-malenkov",
+  "name": "Georgy Malenkov",
+  "wikipedia": "Georgy Malenkov",
+  "role": "Leader of the Soviet Union from 1953 to 1955",
+  "life": "1902–1988",
+  "lifetime": [
+    1902,
+    1988
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Soviet politician who succeeded Joseph Stalin as Premier and the overall leader of the Soviet Union in March 1953.",
+  "image": "images/georgy-malenkov.jpg",
+  "image_credit": "Grigory Vayl · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Georgy Maximilianovich Malenkov (8 January 1902 [O.S. 26 December 1901] – 14 January 1988) was a Soviet politician who succeeded Joseph Stalin as Premier and the overall leader of the Soviet Union in March 1953. Shortly thereafter, Malenkov entered into a power struggle with the party's First Secretary, Nikita Khrushchev, which culminated in his removal from the premiership in 1955 as well as the Central Committee Presidium in 1957.",
+    "photo": "captured 1950 during their lifetime"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q134958",
+  "slug": "taras-shevchenko",
+  "name": "Taras Shevchenko",
+  "wikipedia": "Taras Shevchenko",
+  "role": "Ukrainian poet and artist",
+  "life": "1814–1861",
+  "lifetime": [
+    1814,
+    1861
+  ],
+  "occupation": "Writer",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Ukrainian poet, writer, artist, public and political figure, folklorist and ethnographer.",
+  "image": "images/taras-shevchenko.jpg",
+  "image_credit": "Andrey Denyer · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Taras Hryhorovych Shevchenko (Ukrainian: Тарас Григорович Шевченко, Ukrainian pronunciation: [tɐˈrɑz‿ɦrɪˈɦɔrowɪt͡ʃ ʃeu̯t͡ʃɛnko]; Russian: Тарас Григорьевич Шевченко, romanized: Taras Grigoryevich Shevchenko; 9 March 1814 – 10 March 1861) was a Ukrainian poet, writer, artist, public and political figure, folklorist and ethnographer. His literary heritage, in particular the poetry collection Kobzar, is regarded to be the foundation of modern Ukrainian literature and to some degree also of the modern Ukrainian language. The significance of Shevchenko's creative genius for the Ukrainian and wider Slavic culture has led some to compare his figure to that of Robert Burns.",
+    "photo": "captured April 1858date QS:P571,+1858-04-00T00:00:00Z/10 during their lifetime"
+  }
+}

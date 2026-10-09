@@ -1,0 +1,38 @@
+{
+  "id": "Q47365",
+  "slug": "marie-antoinette",
+  "name": "Marie Antoinette",
+  "wikipedia": "Marie Antoinette",
+  "role": "Queen of France from 1774 to 1792",
+  "life": "1755–1793",
+  "lifetime": [
+    1755,
+    1793
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [],
+  "contribution": "Queen of France as the wife of Louis XVI from 10 May 1774 until the abolition of the French monarchy in 1792 during the French Revolution.",
+  "image": "images/marie-antoinette.jpg",
+  "image_credit": "Élisabeth Louise Vigée Le Brun · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Habsburg Monarchy"
+      ],
+      "lead": [
+        "Habsburg Monarchy"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Marie Antoinette (Maria Antonia Josepha Johanna; 2 November 1755 – 16 October 1793) was Queen of France as the wife of Louis XVI from 10 May 1774 until the abolition of the French monarchy in 1792 during the French Revolution.",
+    "photo": "no death year in or after 1860"
+  }
+}

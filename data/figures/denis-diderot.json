@@ -1,0 +1,36 @@
+{
+  "id": "Q448",
+  "slug": "denis-diderot",
+  "name": "Denis Diderot",
+  "wikipedia": "Denis Diderot",
+  "role": "French philosopher and writer",
+  "life": "1713–1784",
+  "lifetime": [
+    1713,
+    1784
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French philosopher, art critic, and writer, best known for serving as co-founder, chief editor, and contributor to the Encyclopédie along with Jean le Rond d'Alembert.",
+  "image": "images/denis-diderot.jpg",
+  "image_credit": "Pierre-Michel Alix · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Denis Diderot (; French: [dəni did(ə)ʁo]; 5 October 1713 – 31 July 1784) was a French philosopher, art critic, and writer, best known for serving as co-founder, chief editor, and contributor to the Encyclopédie along with Jean le Rond d'Alembert. He was a prominent figure during the Age of Enlightenment.",
+    "photo": "no death year in or after 1860"
+  }
+}

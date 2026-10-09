@@ -1,0 +1,38 @@
+{
+  "id": "Q319062",
+  "slug": "baal-shem-tov",
+  "name": "Baal Shem Tov",
+  "wikipedia": "Baal Shem Tov",
+  "role": "Polish founder of Hasidic Judaism",
+  "life": "1698–1760",
+  "lifetime": [
+    1698,
+    1760
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "related": [],
+  "contribution": "A Jewish mystic and healer regarded as the founder of Hasidic Judaism.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "lead": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Principality of Moldavia"
+      ]
+    },
+    "lead": "Israel ben Eliezer (c. 1700 −1760), known as the Baal Shem Tov (; Hebrew: בעל שם טוב) or BeShT (בעש״ט), was a Jewish mystic and healer regarded as the founder of Hasidic Judaism. A baal shem tov is a \"Master of the Good Name\".  The term has also been used to refer to one able to work miracles using a secret name of God. Other sources explain his sobriquet as arising from a reputation of being a saintly, or superior, Baal Shem ('miracle-worker'); hence, he was given the nickname Baal Shem Tov (the \"good Baal Shem\").",
+    "photo": "no image"
+  }
+}

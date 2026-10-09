@@ -1,0 +1,43 @@
+{
+  "id": "Q150512",
+  "slug": "otto-ii-holy-roman-emperor",
+  "name": "Otto II, Holy Roman Emperor",
+  "wikipedia": "Otto II, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 973 to 983",
+  "life": "955–983",
+  "lifetime": [
+    955,
+    983
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [
+    "Fatimid Caliphate"
+  ],
+  "contribution": "Holy Roman Emperor from 973 until his death in 983.",
+  "image": "images/otto-ii-holy-roman-emperor.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Holy Roman Empire",
+        "Fatimid Caliphate"
+      ],
+      "vital_section": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Kingdom of Germany"
+      ]
+    },
+    "lead": "Otto II (955 – 7 December 983), called the Red (German: der Rote), was Holy Roman Emperor from 973 until his death in 983. A member of the Ottonian dynasty, he was the youngest and sole surviving son of Otto the Great and Adelaide of Italy.",
+    "photo": "no death year in or after 1860"
+  }
+}

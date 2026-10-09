@@ -1,0 +1,47 @@
+{
+  "id": "Q41866",
+  "slug": "justinian-i",
+  "name": "Justinian I",
+  "wikipedia": "Justinian I",
+  "role": "Roman emperor from 527 to 565",
+  "life": "482–565",
+  "lifetime": [
+    482,
+    565
+  ],
+  "occupation": "Politician",
+  "birth_country": "North Macedonia",
+  "civilizations": [
+    "Eastern Roman Empire"
+  ],
+  "related": [
+    "Vandal Kingdom",
+    "Ostrogothic Kingdom",
+    "Sasanian Empire"
+  ],
+  "contribution": "Roman emperor from 527 to 565.",
+  "image": "images/justinian-i.jpg",
+  "image_credit": "Petar Milošević · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Eastern Roman Empire"
+      ],
+      "lead": [
+        "Vandal Kingdom",
+        "Ostrogothic Kingdom",
+        "Sasanian Empire",
+        "Eastern Roman Empire"
+      ],
+      "vital_section": [
+        "Eastern Roman Empire"
+      ],
+      "birthplace": [
+        "Eastern Roman Empire"
+      ]
+    },
+    "lead": "Justinian I (Latin: Iustinianus, Ancient Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565.",
+    "photo": "no death year in or after 1860"
+  }
+}

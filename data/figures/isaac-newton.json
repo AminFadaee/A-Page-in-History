@@ -1,0 +1,36 @@
+{
+  "id": "Q935",
+  "slug": "isaac-newton",
+  "name": "Isaac Newton",
+  "wikipedia": "Isaac Newton",
+  "role": "English polymath",
+  "life": "1642–1727",
+  "lifetime": [
+    1642,
+    1727
+  ],
+  "occupation": "Physicist",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor.",
+  "image": "images/isaac-newton.jpg",
+  "image_credit": "Godfrey Kneller · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Sir Isaac Newton ( ; 4 January 1643 [O.S. 25 December 1642] – 31 March 1727 [O.S. 20 March 1726]) was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed. His book Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687, achieved the first great unification in physics and established classical mechanics. Newton also made seminal contributions to optics, and shares credit with the German mathematician Gottfried Wilhelm Leibniz for formulating infinitesimal calculus, although he developed calculus years before Leibniz. Newton contributed to and refined the scientific method, and his work is considered the most influential in bringing forth modern science.",
+    "photo": "no death year in or after 1860"
+  }
+}

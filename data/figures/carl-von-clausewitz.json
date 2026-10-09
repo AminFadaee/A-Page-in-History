@@ -1,0 +1,36 @@
+{
+  "id": "Q76430",
+  "slug": "carl-von-clausewitz",
+  "name": "Carl von Clausewitz",
+  "wikipedia": "Carl von Clausewitz",
+  "role": "Prussian military theorist",
+  "life": "1780–1831",
+  "lifetime": [
+    1780,
+    1831
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A Prussian army officer and military theorist who stressed the \"moral\" and political aspects of waging war.",
+  "image": "images/carl-von-clausewitz.jpg",
+  "image_credit": "Wilhelm Wach · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Carl Philipp Gottlieb von Clausewitz ( KLOW-zə-vits; German: [ˈkaʁl fɔn ˈklaʊzəvɪts] ; born Carl Philipp Gottlieb Clauswitz; 1 July 1780 – 16 November 1831) was a Prussian army officer and military theorist who stressed the \"moral\" (in modern terms meaning psychological) and political aspects of waging war. His most notable work, Vom Kriege (On War), though unfinished at his death, is considered a seminal treatise on military strategy and science.",
+    "photo": "no death year in or after 1860"
+  }
+}

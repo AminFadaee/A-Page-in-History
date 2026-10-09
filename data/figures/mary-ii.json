@@ -1,0 +1,36 @@
+{
+  "id": "Q130812",
+  "slug": "mary-ii",
+  "name": "Mary II",
+  "wikipedia": "Mary II",
+  "role": "Queen of England, Scotland, and Ireland from 1689 to 1694",
+  "life": "1662–1694",
+  "lifetime": [
+    1662,
+    1694
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "Queen of England, Scotland, and Ireland with her husband, King William III and II, from 1689 until her death in 1694.",
+  "image": "images/mary-ii.jpg",
+  "image_credit": "Godfrey Kneller · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Mary II (30 April 1662 – 28 December 1694) was Queen of England, Scotland, and Ireland with her husband, King William III and II, from 1689 until her death in 1694. She was also Princess of Orange following her marriage on 4 November 1677. Her joint reign with William over Britain is known as that of William and Mary.",
+    "photo": "no death year in or after 1860"
+  }
+}

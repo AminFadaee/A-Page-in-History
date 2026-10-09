@@ -1,0 +1,121 @@
+{
+  "id": "Q238445",
+  "slug": "emirate-of-granada",
+  "name": "Emirate of Granada",
+  "wikipedia": "Emirate of Granada",
+  "map_year": 1241,
+  "period": {
+    "start": {
+      "earliest": 1232,
+      "latest": 1232,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1492,
+      "latest": 1492,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Granada",
+      "location": [
+        -3.6,
+        37.175
+      ]
+    }
+  ],
+  "predecessors": [
+    "Almohad Caliphate"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q238445",
+        "layer": 1,
+        "name": "Emirate of Granada"
+      },
+      {
+        "id": "Q199688",
+        "layer": 0,
+        "name": "Almohad Caliphate"
+      },
+      {
+        "id": "Q582861",
+        "layer": 1,
+        "name": "Marinid Sultanate"
+      },
+      {
+        "id": "Q307697",
+        "layer": 1,
+        "name": "Zayyanid dynasty"
+      },
+      {
+        "id": "Q752662",
+        "layer": 1,
+        "name": "Hafsid Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q199688",
+        "Q582861",
+        "Morocco"
+      ],
+      [
+        "Q199688",
+        "Q238445",
+        "Spain"
+      ],
+      [
+        "Q199688",
+        "Q307697",
+        "Algeria"
+      ],
+      [
+        "Q199688",
+        "Q752662",
+        "Tunisia, Algeria, Libya"
+      ]
+    ],
+    "question": "successions/emirate-of-granada-question.png",
+    "answer": "successions/emirate-of-granada-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q510879",
+      "name": "Muhammad I of Granada"
+    }
+  ],
+  "modern_countries": [
+    "Spain"
+  ],
+  "map": "maps/emirate-of-granada.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Granada"
+      ],
+      "infobox": [
+        "Granada"
+      ]
+    },
+    "cliopatria_years": [
+      1241,
+      1491
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Almohad Caliphate",
+      "Crown of Castile",
+      "Hafsid Dynasty",
+      "Zayyanid dynasty",
+      "Crown of Aragon",
+      "County of Toulouse",
+      "Papal States"
+    ]
+  }
+}

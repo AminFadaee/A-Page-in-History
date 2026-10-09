@@ -1,0 +1,37 @@
+{
+  "id": "Q192207",
+  "slug": "sri-aurobindo",
+  "name": "Sri Aurobindo",
+  "wikipedia": "Sri Aurobindo",
+  "role": "Indian yogi",
+  "life": "1872–1950",
+  "lifetime": [
+    1872,
+    1950
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian philosopher, yogi and nationalist who is noted for his participation in the movement for India's independence from British rule; he advocated for complete autonomy through his writings and political activity.",
+  "image": "images/sri-aurobindo.jpg",
+  "image_credit": "Rudolf 1922 · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Sri Aurobindo (born Aurobindo Ghosh; 15 August 1872 – 5 December 1950) was an Indian philosopher, yogi and nationalist who is noted for his participation in the movement for India's independence from British rule; he advocated for complete autonomy through his writings and political activity. Following his imprisonment and acquittal, he withdrew to Pondicherry to devote himself to spiritual practice, eventually formulating the path of Integral Yoga. His extensive literary output includes the treatises The Life Divine and The Synthesis of Yoga and the epic poem Savitri.",
+    "photo": "captured 1900 during their lifetime"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q48173",
+  "slug": "bedrich-smetana",
+  "name": "Bedřich Smetana",
+  "wikipedia": "Bedřich Smetana",
+  "role": "Czech composer",
+  "life": "1824–1884",
+  "lifetime": [
+    1824,
+    1884
+  ],
+  "occupation": "Composer",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "A Czech composer who pioneered the development of a musical style that became closely identified with his people's aspirations to a cultural and political \"revival\". He has been regarded in his homeland as the father of Czech music.",
+  "image": "images/bedrich-smetana.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire",
+        "Austria-Hungary"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Bedřich Smetana (2 March 1824 – 12 May 1884) was a Czech composer who pioneered the development of a musical style that became closely identified with his people's aspirations to a cultural and political \"revival\". He has been regarded in his homeland as the father of Czech music. Internationally he is best known for his 1866 opera The Bartered Bride and for the symphonic cycle Má vlast (\"My Fatherland\"), which portrays the history, legends and landscape of the composer's native Bohemia. It contains the famous symphonic poem \"Vltava\", also popularly known by its German name \"Die Moldau\" (in English, \"The Moldau\").",
+    "photo": "captured before 1880date QS:P,+1880-00-00T00:00:00Z/7,P1326,+1880-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "Q207272",
+  "slug": "second-polish-republic",
+  "name": "Second Polish Republic",
+  "wikipedia": "Second Polish Republic",
+  "map_year": 1939,
+  "period": {
+    "start": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1939,
+      "latest": 1939,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Warsaw",
+      "location": [
+        21.011111111111113,
+        52.23
+      ]
+    }
+  ],
+  "predecessors": [
+    "German Empire"
+  ],
+  "successors": [
+    "Union of Soviet Socialist Republics"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q207272",
+        "layer": 1,
+        "name": "Second Polish Republic"
+      },
+      {
+        "id": "Q43287",
+        "layer": 0,
+        "name": "German Empire"
+      },
+      {
+        "id": "Q41304",
+        "layer": 1,
+        "name": "Weimar Republic"
+      },
+      {
+        "id": "Q15180",
+        "layer": 2,
+        "name": "Union of Soviet Socialist Republics"
+      }
+    ],
+    "edges": [
+      [
+        "Q43287",
+        "Q41304",
+        "Germany, Poland"
+      ],
+      [
+        "Q43287",
+        "Q207272",
+        "Poland, Belarus, Ukraine"
+      ],
+      [
+        "Q207272",
+        "Q15180",
+        "Poland, Ukraine, Belarus"
+      ]
+    ],
+    "question": "successions/second-polish-republic-question.png",
+    "answer": "successions/second-polish-republic-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q885",
+      "name": "Józef Piłsudski"
+    }
+  ],
+  "modern_countries": [
+    "Poland",
+    "Ukraine",
+    "Belarus"
+  ],
+  "map": "maps/second-polish-republic.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Warsaw"
+      ],
+      "infobox": [
+        "Warsaw"
+      ]
+    },
+    "cliopatria_years": [
+      1919,
+      1939
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Union of Soviet Socialist Republics",
+      "Nazi Germany",
+      "Kingdom of Romania",
+      "Hungarian Republic",
+      "Republic of Latvia",
+      "Kingdom of Lithuania",
+      "French Third Republic",
+      "Estonia",
+      "Swiss Confederation",
+      "Netherlands",
+      "Kingdom of Belgium"
+    ]
+  }
+}

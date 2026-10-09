@@ -1,0 +1,38 @@
+{
+  "id": "Q43718",
+  "slug": "nikolai-gogol",
+  "name": "Nikolai Gogol",
+  "wikipedia": "Nikolai Gogol",
+  "role": "Ukrainian-Russian writer",
+  "life": "1809–1852",
+  "lifetime": [
+    1809,
+    1852
+  ],
+  "occupation": "Writer",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian novelist, short-story writer, and playwright of Ukrainian origin.",
+  "image": "images/nikolai-gogol.jpg",
+  "image_credit": "Otto Friedrich Theodor von Möller · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Nikolai Vasilyevich Gogol (1 April [O.S. 20 March] 1809 – 4 March [O.S. 21 February] 1852) was a Russian novelist, short-story writer, and playwright of Ukrainian origin.",
+    "photo": "no death year in or after 1860"
+  }
+}

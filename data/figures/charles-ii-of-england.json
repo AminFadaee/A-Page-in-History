@@ -1,0 +1,42 @@
+{
+  "id": "Q122553",
+  "slug": "charles-ii-of-england",
+  "name": "Charles II of England",
+  "wikipedia": "Charles II of England",
+  "role": "King of England, Scotland, and Ireland from 1660 to 1685",
+  "life": "1630–1685",
+  "lifetime": [
+    1630,
+    1685
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Commonwealth of England",
+    "Dutch Republic"
+  ],
+  "contribution": "King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685.",
+  "image": "images/charles-ii-of-england.jpg",
+  "image_credit": "Peter Lely · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Commonwealth of England",
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Charles II (29 May 1630 – 6 February 1685) was King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q57109",
+  "slug": "josef-mengele",
+  "name": "Josef Mengele",
+  "wikipedia": "Josef Mengele",
+  "role": "Nazi SS doctor at Auschwitz",
+  "life": "1911–1979",
+  "lifetime": [
+    1911,
+    1979
+  ],
+  "occupation": "Physician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Nazi Germany"
+  ],
+  "related": [
+    "Federal Republic of Germany"
+  ],
+  "contribution": "A German military officer and physician during World War II at the Soviet front and then at Auschwitz during the Holocaust.",
+  "image": "images/josef-mengele.jpg",
+  "image_credit": "Unknown, i.e. either Bernhard Walther or Ernst Hofmann or Karl-Friedrich Höcker · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Federal Republic of Germany"
+      ],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Josef Mengele (German: [ˈjoːzɛf ˈmɛŋələ] ; 16 March 1911 – 7 February 1979), often dubbed the \"Angel of Death\"   (German: Todesengel), was a German military officer and physician during World War II at the Soviet front and then at Auschwitz during the Holocaust. He conducted research and experiments on prisoners at the Auschwitz II-Birkenau concentration camp, where he was a member of the team of doctors who selected victims to be murdered in the gas chambers.",
+    "photo": "captured 1944 (probably 29 July) during their lifetime"
+  }
+}

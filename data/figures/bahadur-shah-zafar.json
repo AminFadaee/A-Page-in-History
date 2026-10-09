@@ -1,0 +1,36 @@
+{
+  "id": "Q127369",
+  "slug": "bahadur-shah-zafar",
+  "name": "Bahadur Shah Zafar",
+  "wikipedia": "Bahadur Shah Zafar",
+  "role": "Mughal emperor from 1837 to 1857",
+  "life": "1775–1862",
+  "lifetime": [
+    1775,
+    1862
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "Mughal Empire"
+  ],
+  "related": [],
+  "contribution": "The twentieth and last Mughal emperor and an Urdu poet.",
+  "image": "images/bahadur-shah-zafar.jpg",
+  "image_credit": "Ágoston Schoefft · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Mughal Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Mughal Empire"
+      ]
+    },
+    "lead": "Bahadur Shah II (Abu Zafar Siraj-ud-din Muhammad; 24 October 1775 – 7 November 1862), also known by his poetic title Bahadur Shah Zafar (Persian: بهادر شاه ظفر; Zafar lit. 'Victory'), was the twentieth and last Mughal emperor and an Urdu poet. He was a titular emperor with his authority limited to the Walled City of Delhi, but was declared the Emperor of India by the forces opposing East India Company forces in parts of the Indian subcontinent during the Indian Rebellion of 1857. Zafar was exiled to Rangoon in British-controlled Burma in December 1857 by the East India Company after rebel defeat in the war, putting an end to the nearly 500-year long Timurid dynasty started by Timur.",
+    "photo": "captured circa 1854date QS:P571,+1854-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

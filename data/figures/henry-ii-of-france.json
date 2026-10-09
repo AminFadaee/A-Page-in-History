@@ -1,0 +1,40 @@
+{
+  "id": "Q132545",
+  "slug": "henry-ii-of-france",
+  "name": "Henry II of France",
+  "wikipedia": "Henry II of France",
+  "role": "King of France from 1547 to 1559",
+  "life": "1519–1559",
+  "lifetime": [
+    1519,
+    1559
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Habsburg Monarchy"
+  ],
+  "contribution": "King of France from 1547 until his death in 1559.",
+  "image": "images/henry-ii-of-france.jpg",
+  "image_credit": "Workshop of François Clouet · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Habsburg Monarchy"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Henry II (French: Henri II; 31 March 1519 – 10 July 1559) was King of France from 1547 until his death in 1559. The second son of Francis I and Claude, Duchess of Brittany, he became Dauphin of France upon the death of his elder brother Francis in 1536.",
+    "photo": "no death year in or after 1860"
+  }
+}

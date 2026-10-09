@@ -1,0 +1,43 @@
+{
+  "id": "Q174943",
+  "slug": "belisarius",
+  "name": "Belisarius",
+  "wikipedia": "Belisarius",
+  "role": "Byzantine general",
+  "life": "c. 505–565",
+  "lifetime": [
+    505,
+    565
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Bulgaria",
+  "civilizations": [
+    "Eastern Roman Empire"
+  ],
+  "related": [
+    "Vandal Kingdom",
+    "Sasanian Empire"
+  ],
+  "contribution": "A military commander of the Byzantine Empire under Emperor Justinian I. Belisarius was instrumental in the reconquest of much of the Mediterranean territory belonging to the former Western Roman Empire, which had been lost less than a century prior.",
+  "image": "images/belisarius.jpg",
+  "image_credit": "Meister von San Vitale in Ravenna · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Eastern Roman Empire"
+      ],
+      "lead": [
+        "Eastern Roman Empire",
+        "Vandal Kingdom",
+        "Sasanian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Eastern Roman Empire"
+      ]
+    },
+    "lead": "Flavius Belisarius (Greek: Βελισάριος; c. 500 – March 565) was a military commander of the Byzantine Empire under Emperor Justinian I. Belisarius was instrumental in the reconquest of much of the Mediterranean territory belonging to the former Western Roman Empire, which had been lost less than a century prior. He is considered one of the greatest military commanders of Byzantium and in history generally.",
+    "photo": "no death year in or after 1860"
+  }
+}

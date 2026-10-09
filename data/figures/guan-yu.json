@@ -1,0 +1,36 @@
+{
+  "id": "Q222797",
+  "slug": "guan-yu",
+  "name": "Guan Yu",
+  "wikipedia": "Guan Yu",
+  "role": "Chinese general and folk hero",
+  "life": "160–220",
+  "lifetime": [
+    160,
+    220
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [],
+  "contribution": "A military general under Liu Bei during the late Eastern Han dynasty.",
+  "image": "images/guan-yu.jpg",
+  "image_credit": "Utagawa Kuniyoshi · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Han Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Guan Yu ([kwán ỳ] ; d. January or February 220), courtesy name Yunchang, was a military general under Liu Bei during the late Eastern Han dynasty. Together with Zhang Fei, he was among Liu Bei's earliest followers. After a brief period in Cao Cao's service in 200, during which he killed Yan Liang at the Battle of Boma, Guan Yu returned to Liu Bei. He later commanded Liu Bei's forces in Jing Province.",
+    "photo": "no death year in or after 1860"
+  }
+}

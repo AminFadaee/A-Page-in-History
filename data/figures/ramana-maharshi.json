@@ -1,0 +1,40 @@
+{
+  "id": "Q288441",
+  "slug": "ramana-maharshi",
+  "name": "Ramana Maharshi",
+  "wikipedia": "Ramana Maharshi",
+  "role": "Indian Hindu sage",
+  "life": "1879–1950",
+  "lifetime": [
+    1879,
+    1950
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "India",
+  "civilizations": [
+    "Republic of India",
+    "British Raj"
+  ],
+  "related": [],
+  "contribution": "An Indian Hindu sage widely regarded by his followers and by \"most advocates of Advaita\" as a jivanmukta.",
+  "image": "images/ramana-maharshi.jpg",
+  "image_credit": "G. G. Welling · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of India",
+        "British Raj"
+      ],
+      "lead": [
+        "Republic of India"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Ramana Maharshi (pronounced [ˈɾɐ.mɐ.ɳɐ mɐˈɦɐɾ.ʂi] ; 30 December 1879 – 14 April 1950) was an Indian Hindu sage widely regarded by his followers and by \"most advocates of Advaita\" as a jivanmukta (liberated being). He was born Venkataraman Iyer, but is mostly known by the name Bhagavan Sri Ramana Maharshi.",
+    "photo": "captured 1948 during their lifetime"
+  }
+}

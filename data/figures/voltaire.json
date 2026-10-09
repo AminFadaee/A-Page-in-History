@@ -1,0 +1,36 @@
+{
+  "id": "Q9068",
+  "slug": "voltaire",
+  "name": "Voltaire",
+  "wikipedia": "Voltaire",
+  "role": "French writer and philosopher",
+  "life": "1694–1778",
+  "lifetime": [
+    1694,
+    1778
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French Enlightenment writer, philosopher, satirist, and historian.",
+  "image": "images/voltaire.jpg",
+  "image_credit": "Nicolas de Largillière · CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "François-Marie Arouet (French: [fʁɑ̃swa maʁi aʁwɛ]; 21 November 1694 – 30 May 1778), known by his pen name Voltaire (, US also ; French: [vɔltɛːʁ]), was a French Enlightenment writer, philosopher (philosophe), satirist, and historian. Famous for his wit and his criticism of Christianity (especially of the Catholic Church) and of slavery, Voltaire was an advocate of freedom of speech, freedom of religion, and separation of church and state.",
+    "photo": "no death year in or after 1860"
+  }
+}

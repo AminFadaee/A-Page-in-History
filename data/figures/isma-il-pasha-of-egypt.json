@@ -1,0 +1,41 @@
+{
+  "id": "Q159378",
+  "slug": "isma-il-pasha-of-egypt",
+  "name": "Isma'il Pasha of Egypt",
+  "wikipedia": "Isma'il Pasha of Egypt",
+  "role": "Khedive of Egypt and Sudan from 1863 to 1879",
+  "life": "1830–1895",
+  "lifetime": [
+    1830,
+    1895
+  ],
+  "occupation": "Politician",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [
+    "Khedivate of Egypt",
+    "French Third Republic"
+  ],
+  "contribution": "The Khedive of Egypt and ruler of Sudan from 1863 to 1879, when he was removed at the behest of Great Britain and France.",
+  "image": "images/isma-il-pasha-of-egypt.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Khedivate of Egypt",
+        "French Third Republic",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Isma'il Pasha (Arabic: إسماعيل باشا Ismā‘īl Bāshā; 25 November 1830 or 31 December 1830 – 2 March 1895), also known as Ismail the Magnificent, was the Khedive of Egypt and ruler of Sudan from 1863 to 1879, when he was removed at the behest of Great Britain and France. Sharing the outlook of his grandfather, Muhammad Ali Pasha, he made Egypt and Sudan more competitive during his reign, investing heavily in industry, urbanization, and the expansion of the country's boundaries in Africa.",
+    "photo": "captured between 1860 and 1890date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1860-00-00T00:00:00Z/9,P1326,+1890-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

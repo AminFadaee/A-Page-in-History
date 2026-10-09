@@ -1,0 +1,63 @@
+{
+  "id": "Q187979",
+  "slug": "early-dynastic-period-of-egypt",
+  "name": "Early Dynastic Period of Egypt",
+  "wikipedia": "Early Dynastic Period of Egypt",
+  "map_year": -3000,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [
+    "Old Kingdom of Egypt"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q187979",
+        "layer": 1,
+        "name": "Early Dynastic Period of Egypt"
+      },
+      {
+        "id": "Q177819",
+        "layer": 2,
+        "name": "Old Kingdom of Egypt"
+      }
+    ],
+    "edges": [
+      [
+        "Q187979",
+        "Q177819",
+        "Egypt"
+      ]
+    ],
+    "question": "successions/early-dynastic-period-of-egypt-question.png",
+    "answer": "successions/early-dynastic-period-of-egypt-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Egypt"
+  ],
+  "map": "maps/early-dynastic-period-of-egypt.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Thinis",
+        "Memphis, Egypt"
+      ]
+    },
+    "cliopatria_years": [
+      -3000,
+      -2501
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Sumerian City-States"
+    ]
+  }
+}

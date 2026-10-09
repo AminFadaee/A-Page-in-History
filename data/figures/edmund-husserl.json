@@ -1,0 +1,36 @@
+{
+  "id": "Q58586",
+  "slug": "edmund-husserl",
+  "name": "Edmund Husserl",
+  "wikipedia": "Edmund Husserl",
+  "role": "Austrian-German philosopher and mathematician",
+  "life": "1859–1938",
+  "lifetime": [
+    1859,
+    1938
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "An Austrian and German philosopher and mathematician who established the school of phenomenology.",
+  "image": "images/edmund-husserl.jpg",
+  "image_credit": "Unknown (Mondadori Publishers) · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Edmund Gustav Albrecht Husserl (Austrian German: [ˈɛdmʊnd ˈhʊsɐl]; 8 April 1859 – 27 April 1938) was an Austrian and German philosopher and mathematician who established the school of phenomenology.",
+    "photo": "captured 1910sdate QS:P,+1910-00-00T00:00:00Z/8 during their lifetime"
+  }
+}

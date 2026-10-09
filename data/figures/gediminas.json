@@ -1,0 +1,44 @@
+{
+  "id": "Q244852",
+  "slug": "gediminas",
+  "name": "Gediminas",
+  "wikipedia": "Gediminas",
+  "role": "Grand Duke of Lithuania from c. 1316 to 1341",
+  "life": "c. 1275–1341",
+  "lifetime": [
+    1275,
+    1341
+  ],
+  "occupation": "Politician",
+  "birth_country": "Lithuania",
+  "civilizations": [
+    "Grand Duchy of Lithuania"
+  ],
+  "related": [
+    "Kingdom of Poland",
+    "Kingdom of Hungary",
+    "Kingdom of Bohemia"
+  ],
+  "contribution": "Grand Duke of Lithuania from 1315 or 1316 until his death in 1341.",
+  "image": "images/gediminas.jpg",
+  "image_credit": "Alessandro Guagnini · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Grand Duchy of Lithuania"
+      ],
+      "lead": [
+        "Kingdom of Poland",
+        "Kingdom of Hungary",
+        "Kingdom of Bohemia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Grand Duchy of Lithuania"
+      ]
+    },
+    "lead": "Gediminas (c. 1275 – December 1341) was Grand Duke of Lithuania from 1315 or 1316 until his death in 1341. Gediminas is traditionally considered the founder of Vilnius, the capital city of Lithuania (see: Iron Wolf legend). During his reign, he brought under his rule lands stretching from the Baltic Sea to the Black Sea. The Gediminids dynasty he founded and which is named after him came to rule over Poland, Hungary, and Bohemia.",
+    "photo": "no death year in or after 1860"
+  }
+}

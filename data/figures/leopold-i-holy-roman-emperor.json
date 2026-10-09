@@ -1,0 +1,39 @@
+{
+  "id": "Q150494",
+  "slug": "leopold-i-holy-roman-emperor",
+  "name": "Leopold I, Holy Roman Emperor",
+  "wikipedia": "Leopold I, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1658 to 1705",
+  "life": "1640–1705",
+  "lifetime": [
+    1640,
+    1705
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Habsburg Monarchy"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "Holy Roman Emperor, King of Germany, King of Hungary, Croatia and Bohemia.",
+  "image": "images/leopold-i-holy-roman-emperor.jpg",
+  "image_credit": "Benjamin Block · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Ottoman Empire",
+        "Habsburg Monarchy"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Habsburg Monarchy"
+      ]
+    },
+    "lead": "Leopold I (Leopold Ignaz Joseph Balthasar Franz Felician; Hungarian: I. Lipót; 9 June 1640 – 5 May 1705) was Holy Roman Emperor, King of Germany, King of Hungary, Croatia and Bohemia. The second son of Ferdinand III, Holy Roman Emperor, by his first wife, Maria Anna of Spain, Leopold became heir apparent in 1654 after the death of his elder brother Ferdinand IV, King of the Romans. Elected in 1658, Leopold ruled the Holy Roman Empire until his death in 1705, becoming the second-longest-ruling emperor (46 years and 9 months) of the House of Habsburg. He was both a composer and a considerable patron of music.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q155669",
+  "slug": "charles-iv-holy-roman-emperor",
+  "name": "Charles IV, Holy Roman Emperor",
+  "wikipedia": "Charles IV, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 1355 to 1378",
+  "life": "1316–1378",
+  "lifetime": [
+    1316,
+    1378
+  ],
+  "occupation": "Politician",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Kingdom of Bohemia"
+  ],
+  "related": [],
+  "contribution": "Holy Roman Emperor from 1355 until his death in 1378.",
+  "image": "images/charles-iv-holy-roman-emperor.jpg",
+  "image_credit": "Circle of Theodoric of Prague · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Kingdom of Bohemia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Bohemia"
+      ]
+    },
+    "lead": "Charles IV (German: Karl IV.; Czech: Karel IV.; Latin: Carolus IV; also known as Charles of Luxembourg German: Karl von Luxemburg; Czech: Karel Lucemburský; Latin: Carolus Luxemburgensis; Luxembourgish: Karel vu Lëtzebuerg; born Wenceslaus German: Wenzel; Czech: Václav; 14 May 1316 – 29 November 1378) was Holy Roman Emperor from 1355 until his death in 1378. He was elected King of Germany (King of the Romans) in 1346 and became King of Bohemia (as  Charles I) that same year. He was a member of the House of Luxembourg from his father's side and the Bohemian House of Přemysl from his mother's side; he emphasized the latter due to his lifelong affinity for the Bohemian side of his inheritance, and also because his direct ancestors in the Přemyslid line included two saints.",
+    "photo": "no death year in or after 1860"
+  }
+}

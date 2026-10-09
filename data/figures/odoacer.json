@@ -1,0 +1,36 @@
+{
+  "id": "Q103333",
+  "slug": "odoacer",
+  "name": "Odoacer",
+  "wikipedia": "Odoacer",
+  "role": "Ruler of Italy",
+  "life": "c. 433–493",
+  "lifetime": [
+    433,
+    493
+  ],
+  "occupation": "Politician",
+  "birth_country": "Serbia",
+  "civilizations": [
+    "Western Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A barbarian soldier and statesman from the Middle Danube who, as an officer of the Roman army, deposed the Western Roman child emperor Romulus Augustulus to become the ruler of Italy in the period 476–493 AD. His takeover is traditionally understood as marking the end of the Western Roman Empire.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Western Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Western Roman Empire"
+      ]
+    },
+    "lead": "Odoacer (c. 433 – 15 March 493 AD), also spelled Odovacer or Odovacar, was a barbarian soldier and statesman from the Middle Danube who, as an officer of the Roman army, deposed the Western Roman child emperor Romulus Augustulus to become the ruler of Italy in the period 476–493 AD. His takeover is traditionally understood as marking the end of the Western Roman Empire.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

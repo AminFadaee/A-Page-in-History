@@ -19,8 +19,9 @@
     "Eastern Roman Empire"
   ],
   "contribution": "A senior companion, closest friend, and father-in-law of the Islamic prophet Muhammad who served as the first Rashidun caliph, ruling from 632 until his death in 634.",
-  "image": "images/abu-bakr.jpg",
-  "image_credit": "Petermaleh · CC BY-SA 3.0",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -34,6 +35,7 @@
       "vital_section": [],
       "birthplace": []
     },
-    "lead": "Abu Bakr (Arabic: أبو بكر, romanised: ʾAbū Bakr), born Abd Allah ibn Abi Quhafa (Arabic: عَبْدُ اللهِ بْنُ أَبِي قُحَافَةَ, romanised: ʿAbd Allāh ibn ʾAbī Quḥāfa; c. 573 – 23 August 634), was a senior companion, closest friend, and father-in-law of the Islamic prophet Muhammad who served as the first Rashidun caliph, ruling from 632 until his death in 634. Abu Bakr was granted the honorific title al-Ṣiddīq (lit. the Veracious or Truthful) by Muhammad, a designation that continues to be used by Sunni Muslims to this day."
+    "lead": "Abu Bakr (Arabic: أبو بكر, romanised: ʾAbū Bakr), born Abd Allah ibn Abi Quhafa (Arabic: عَبْدُ اللهِ بْنُ أَبِي قُحَافَةَ, romanised: ʿAbd Allāh ibn ʾAbī Quḥāfa; c. 573 – 23 August 634), was a senior companion, closest friend, and father-in-law of the Islamic prophet Muhammad who served as the first Rashidun caliph, ruling from 632 until his death in 634. Abu Bakr was granted the honorific title al-Ṣiddīq (lit. the Veracious or Truthful) by Muhammad, a designation that continues to be used by Sunni Muslims to this day.",
+    "photo": "image is a coin or calligraphy"
   }
 }

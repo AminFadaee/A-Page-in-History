@@ -1,0 +1,41 @@
+{
+  "id": "Q57073",
+  "slug": "daniel-gabriel-fahrenheit",
+  "name": "Daniel Gabriel Fahrenheit",
+  "wikipedia": "Daniel Gabriel Fahrenheit",
+  "role": "Physicist and engineer",
+  "life": "1686–1736",
+  "lifetime": [
+    1686,
+    1736
+  ],
+  "occupation": "Physicist",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "related": [
+    "Dutch Republic"
+  ],
+  "contribution": "A physicist, inventor, and scientific instrument maker.",
+  "image": "images/daniel-gabriel-fahrenheit.jpg",
+  "image_credit": "AnonymousUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "lead": [
+        "Polish-Lithuanian Commonwealth",
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Polish-Lithuanian Commonwealth"
+      ]
+    },
+    "lead": "Daniel Gabriel Fahrenheit FRS (24 May 1686 – 16 September 1736) was a physicist, inventor, and scientific instrument maker. He was born in Poland to a family of German origin, although he spent much of his life in the Dutch Republic. Fahrenheit significantly improved the design and manufacture of thermometers; his were accurate and consistent enough that different observers, each with their own Fahrenheit thermometers, could reliably compare temperature measurements with each other. Fahrenheit is also credited with producing the first successful mercury-in-glass thermometers, which were more accurate than the spirit-filled thermometers of his time and of a generally superior design. The popularity of his thermometers also led to the widespread adoption of his Fahrenheit scale, with which they were provided.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Q7183",
+  "slug": "qin-dynasty",
+  "name": "Qin Dynasty",
+  "wikipedia": "Qin dynasty",
+  "map_year": -210,
+  "period": {
+    "start": {
+      "earliest": -221,
+      "latest": -221,
+      "circa": false
+    },
+    "end": {
+      "earliest": -206,
+      "latest": -206,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Xianyang",
+      "location": [
+        108.857778,
+        34.413889
+      ]
+    }
+  ],
+  "predecessors": [
+    "Qin",
+    "Wey"
+  ],
+  "successors": [
+    "Han Dynasty",
+    "Nanyue"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q7183",
+        "layer": 1,
+        "name": "Qin Dynasty"
+      },
+      {
+        "id": "Q34756",
+        "layer": 0,
+        "name": "Qin"
+      },
+      {
+        "id": "Q7209",
+        "layer": 2,
+        "name": "Han Dynasty"
+      },
+      {
+        "id": "Q827040",
+        "layer": 2,
+        "name": "Nanyue"
+      }
+    ],
+    "edges": [
+      [
+        "Q34756",
+        "Q7183",
+        "People's Republic of China"
+      ],
+      [
+        "Q7183",
+        "Q7209",
+        "People's Republic of China"
+      ],
+      [
+        "Q7183",
+        "Q827040",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/qin-dynasty-question.png",
+    "answer": "successions/qin-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/qin-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Xianyang"
+      ],
+      "infobox": [
+        "Xianyang"
+      ]
+    },
+    "cliopatria_years": [
+      -218,
+      -209
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Minyue",
+      "Maurya Empire",
+      "Yuezhi",
+      "Âu Lạc",
+      "Kalinga"
+    ]
+  }
+}

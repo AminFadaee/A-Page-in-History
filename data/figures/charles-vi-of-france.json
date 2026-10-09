@@ -1,0 +1,42 @@
+{
+  "id": "Q160349",
+  "slug": "charles-vi-of-france",
+  "name": "Charles VI of France",
+  "wikipedia": "Charles VI of France",
+  "role": "King of France from 1380 to 1422",
+  "life": "1368–1422",
+  "lifetime": [
+    1368,
+    1422
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Duchy of Brittany",
+    "Kingdom of England"
+  ],
+  "contribution": "King of France from 1380 until his death in 1422.",
+  "image": "images/charles-vi-of-france.jpg",
+  "image_credit": "Attributed to Mazarine Master · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Duchy of Brittany",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles VI (3 December 1368 – 21 October 1422), nicknamed the Beloved (French: le Bien-Aimé) and in the 19th century, the Mad (French: le Fol or le Fou), was King of France from 1380 until his death in 1422. He is known for his mental illness and psychotic episodes that plagued him throughout his life, including glass delusion.",
+    "photo": "no death year in or after 1860"
+  }
+}

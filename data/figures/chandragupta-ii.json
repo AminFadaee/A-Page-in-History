@@ -1,0 +1,45 @@
+{
+  "id": "Q844536",
+  "slug": "chandragupta-ii",
+  "name": "Chandragupta II",
+  "wikipedia": "Chandragupta II",
+  "role": "Gupta emperor from c. 375 to c. 415",
+  "life": "4th century – 5th century",
+  "lifetime": [
+    301,
+    500
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "Gupta Empire"
+  ],
+  "related": [
+    "Sasanian Empire",
+    "Western Satraps",
+    "White Huns",
+    "Vakataka Kingdom"
+  ],
+  "contribution": "The emperor of the Gupta Empire from c. 375 until his death in c. 415.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Gupta Empire"
+      ],
+      "lead": [
+        "Gupta Empire",
+        "Sasanian Empire",
+        "Western Satraps",
+        "White Huns",
+        "Vakataka Kingdom"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Chandragupta II (died c. 415), also known by his title Vikramaditya, as well as Chandragupta Vikramaditya, was the emperor of the Gupta Empire from c. 375 until his death in c. 415. Modern scholars generally identify him with King Chandra of the Delhi iron pillar inscription.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "Q17790",
+  "slug": "kangxi-emperor",
+  "name": "Kangxi Emperor",
+  "wikipedia": "Kangxi Emperor",
+  "role": "Emperor of China from 1661 to 1722",
+  "life": "1654–1722",
+  "lifetime": [
+    1654,
+    1722
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty"
+  ],
+  "related": [],
+  "contribution": "The third emperor of the Qing dynasty, and the second Qing emperor to rule over China proper.",
+  "image": "images/kangxi-emperor.jpg",
+  "image_credit": "AnonymousUnknown author Qing Dynasty Court Painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty"
+      ],
+      "lead": [
+        "Qing Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "The Kangxi Emperor (4 May 1654 – 20 December 1722), also known by his temple name Emperor Shengzu of Qing, personal name Xuanye, was the third emperor of the Qing dynasty, and the second Qing emperor to rule over China proper. His reign of 61 years makes him the longest-reigning emperor in Chinese history and one of the longest-reigning rulers in history. He is considered one of China's greatest emperors.",
+    "photo": "no death year in or after 1860"
+  }
+}

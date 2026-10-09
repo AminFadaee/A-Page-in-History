@@ -1,0 +1,45 @@
+{
+  "id": "Q498791",
+  "slug": "gwanggaeto-the-great",
+  "name": "Gwanggaeto the Great",
+  "wikipedia": "Gwanggaeto the Great",
+  "role": "19th King of Goguryeo",
+  "life": "374–413",
+  "lifetime": [
+    374,
+    413
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Goguryeo"
+  ],
+  "related": [
+    "Baekje",
+    "Silla",
+    "Later Yan"
+  ],
+  "contribution": "The nineteenth monarch of Goguryeo.",
+  "image": "images/gwanggaeto-the-great.jpg",
+  "image_credit": "Reignsh · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Goguryeo"
+      ],
+      "lead": [
+        "Goguryeo",
+        "Baekje",
+        "Silla",
+        "Later Yan"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Goguryeo"
+      ]
+    },
+    "lead": "Gwanggaeto the Great (374–412, r. 391–412) was the nineteenth monarch of Goguryeo. His full posthumous name means \"Entombed in Gukgangsang, Broad Expander of Domain, Peacemaker, Supreme King\", sometimes abbreviated to Hotaewang. His era name is Yeongnak and he is occasionally recorded as Yeongnak Taewang (\"Great King\" or \"Emperor\" Yeongnak). Gwanggaeto's imperial reign title meant that Goguryeo was on equal standing as an empire with the imperial dynasties in China.",
+    "photo": "no death year in or after 1860"
+  }
+}

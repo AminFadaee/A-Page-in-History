@@ -16,8 +16,9 @@
   ],
   "related": [],
   "contribution": "The second caliph of the Umayyad Caliphate, ruling from April 680 until his death in November 683.",
-  "image": "images/yazid-i.jpg",
-  "image_credit": "User:LouisAragon (uploader) · CC BY-SA 2.5",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -31,6 +32,7 @@
         "Rashidun Caliphate"
       ]
     },
-    "lead": "Yazid ibn Mu'awiya ibn Abi Sufyan (c. 646 – 11 November 683), commonly known as Yazid I, was the second caliph of the Umayyad Caliphate, ruling from April 680 until his death in November 683. His appointment by his father Mu'awiya I (r. 661–680) was the first hereditary succession to the caliphate in Islamic history. His caliphate was marked by the death of Muhammad's grandson Husayn ibn Ali and the start of the crisis known as the Second Fitna."
+    "lead": "Yazid ibn Mu'awiya ibn Abi Sufyan (c. 646 – 11 November 683), commonly known as Yazid I, was the second caliph of the Umayyad Caliphate, ruling from April 680 until his death in November 683. His appointment by his father Mu'awiya I (r. 661–680) was the first hereditary succession to the caliphate in Islamic history. His caliphate was marked by the death of Muhammad's grandson Husayn ibn Ali and the start of the crisis known as the Second Fitna.",
+    "photo": "image is a coin or calligraphy"
   }
 }

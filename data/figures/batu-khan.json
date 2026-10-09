@@ -1,0 +1,43 @@
+{
+  "id": "Q175138",
+  "slug": "batu-khan",
+  "name": "Batu Khan",
+  "wikipedia": "Batu Khan",
+  "role": "Founder and first Khan of the Golden Horde",
+  "life": "c. 1205–1255",
+  "lifetime": [
+    1205,
+    1255
+  ],
+  "occupation": "Politician",
+  "birth_country": "Mongolia",
+  "civilizations": [
+    "Mongol Empire"
+  ],
+  "related": [
+    "Kievan Rus'",
+    "Volga Bulgaria"
+  ],
+  "contribution": "A Mongol ruler and founder of the Golden Horde, a constituent of the Mongol Empire established after Genghis Khan's demise.",
+  "image": "images/batu-khan.jpg",
+  "image_credit": "Rashid al-Din Hamadani · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Mongol Empire",
+        "Kievan Rus'",
+        "Volga Bulgaria"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": [
+        "Mongol Empire"
+      ]
+    },
+    "lead": "Batu Khan (c. 1205–1255) was a Mongol ruler and founder of the Golden Horde, a constituent of the Mongol Empire established after Genghis Khan's demise. Batu was a son of Jochi, thus officially a grandson of Genghis Khan (Jochi's paternity is highly uncertain).  His ulus ruled over the Kievan Rus', Volga Bulgaria, Cumania, and the Caucasus for around 250 years.",
+    "photo": "no death year in or after 1860"
+  }
+}

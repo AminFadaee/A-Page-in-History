@@ -18,6 +18,7 @@
   "contribution": "An Arab jurist and founder of the Hanbali school who is widely recognized as the scholar who memorized the most Hadiths in Islamic history.",
   "image": "",
   "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Abbasid Caliphate"
       ]
     },
-    "lead": "Ahmad ibn Hanbal (Arabic: أحمد ابن حنبل, romanized: Aḥmad ibn Ḥanbal; 780 – 855) was an Arab jurist and founder of the Hanbali school who is widely recognized as the scholar who memorized the most Hadiths in Islamic history. One of the most venerated Islamic intellectual figures, Ibn Hanbal is notable for his unmatched memorization of over one million prophetic narrations, an unprecedented number that has never been claimed by any other muhaddith. Ibn Hanbal also compiled the largest hadith collection, al-Musnad, which has continued to exercise considerable influence on the field of hadith studies up to the present time,"
+    "lead": "Ahmad ibn Hanbal (Arabic: أحمد ابن حنبل, romanized: Aḥmad ibn Ḥanbal; 780 – 855) was an Arab jurist and founder of the Hanbali school who is widely recognized as the scholar who memorized the most Hadiths in Islamic history. One of the most venerated Islamic intellectual figures, Ibn Hanbal is notable for his unmatched memorization of over one million prophetic narrations, an unprecedented number that has never been claimed by any other muhaddith. Ibn Hanbal also compiled the largest hadith collection, al-Musnad, which has continued to exercise considerable influence on the field of hadith studies up to the present time,",
+    "photo": "no image"
   }
 }

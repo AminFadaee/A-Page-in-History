@@ -1,0 +1,85 @@
+{
+  "id": "Q28233",
+  "slug": "korean-empire",
+  "name": "Korean Empire",
+  "wikipedia": "Korean Empire",
+  "map_year": 1898,
+  "period": {
+    "start": {
+      "earliest": 1897,
+      "latest": 1897,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1910,
+      "latest": 1910,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Joseon"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q28233",
+        "layer": 1,
+        "name": "Korean Empire"
+      },
+      {
+        "id": "Q28179",
+        "layer": 0,
+        "name": "Joseon"
+      }
+    ],
+    "edges": [
+      [
+        "Q28179",
+        "Q28233",
+        "North Korea, South Korea"
+      ]
+    ],
+    "question": "successions/korean-empire-question.png",
+    "answer": "successions/korean-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q257425",
+      "name": "Gojong of Korea"
+    },
+    {
+      "id": "Q334111",
+      "name": "Sunjong of Korea"
+    }
+  ],
+  "modern_countries": [
+    "North Korea",
+    "South Korea"
+  ],
+  "map": "maps/korean-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hanseongbu"
+      ],
+      "infobox": [
+        "History of Seoul",
+        "Seoul"
+      ]
+    },
+    "cliopatria_years": [
+      1898,
+      1910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Qing Dynasty",
+      "Russian Empire",
+      "Empire of Japan"
+    ]
+  }
+}

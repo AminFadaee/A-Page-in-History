@@ -1,0 +1,51 @@
+{
+  "id": "Q178665",
+  "slug": "mitanni",
+  "name": "Mitanni",
+  "wikipedia": "Mitanni",
+  "map_year": -1500,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -1260,
+      "latest": -1260,
+      "circa": true
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Syria",
+    "Iraq",
+    "Turkey"
+  ],
+  "map": "maps/mitanni.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tell Fekheriye"
+      ],
+      "infobox": [
+        "Waššukanni"
+      ]
+    },
+    "cliopatria_years": [
+      -1500,
+      -1241
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Hyksos",
+      "Hittites",
+      "Assyria",
+      "Babylonia",
+      "Elam",
+      "First Sealand Dynasty"
+    ]
+  }
+}

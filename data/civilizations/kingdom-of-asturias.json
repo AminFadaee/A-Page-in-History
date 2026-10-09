@@ -1,0 +1,133 @@
+{
+  "id": "Q231392",
+  "slug": "kingdom-of-asturias",
+  "name": "Kingdom of Asturias",
+  "wikipedia": "Kingdom of Asturias",
+  "map_year": 878,
+  "period": {
+    "start": {
+      "earliest": 718,
+      "latest": 718,
+      "circa": false
+    },
+    "end": {
+      "earliest": 924,
+      "latest": 924,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cangas de Onís",
+      "location": [
+        -5.1305,
+        43.35041666666667
+      ]
+    },
+    {
+      "name": "San Martín del Rey Aurelio",
+      "location": [
+        -5.6137777628,
+        43.27501905
+      ]
+    },
+    {
+      "name": "Pravia",
+      "location": [
+        -6.1138664,
+        43.4896744
+      ]
+    },
+    {
+      "name": "Oviedo",
+      "location": [
+        -5.8502777777778,
+        43.3625
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Kingdom of León",
+    "Kingdom of Galicia"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q231392",
+        "layer": 1,
+        "name": "Kingdom of Asturias"
+      },
+      {
+        "id": "Q175276",
+        "layer": 2,
+        "name": "Kingdom of León"
+      },
+      {
+        "id": "Q303421",
+        "layer": 2,
+        "name": "Kingdom of Galicia"
+      }
+    ],
+    "edges": [
+      [
+        "Q231392",
+        "Q175276",
+        "Spain, Portugal"
+      ],
+      [
+        "Q231392",
+        "Q303421",
+        "Spain"
+      ]
+    ],
+    "question": "successions/kingdom-of-asturias-question.png",
+    "answer": "successions/kingdom-of-asturias-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q14655",
+      "name": "Pelagius of Asturias"
+    },
+    {
+      "id": "Q333603",
+      "name": "Fruela II of Asturias"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Portugal"
+  ],
+  "map": "maps/kingdom-of-asturias.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cangas de Onís",
+        "San Martín del Rey Aurelio",
+        "Pravia",
+        "Oviedo"
+      ],
+      "infobox": [
+        "Cangas de Onís",
+        "San Martín del Rey Aurelio",
+        "Pravia",
+        "Oviedo"
+      ]
+    },
+    "cliopatria_years": [
+      724,
+      925
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Emirate of Córdoba",
+      "County of Ribagorza",
+      "West Franks",
+      "Aghlabid Dynasty",
+      "Kingdom of Brittany",
+      "County of Urgell"
+    ]
+  }
+}

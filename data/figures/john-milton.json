@@ -1,0 +1,40 @@
+{
+  "id": "Q79759",
+  "slug": "john-milton",
+  "name": "John Milton",
+  "wikipedia": "John Milton",
+  "role": "English poet and civil servant",
+  "life": "1608–1674",
+  "lifetime": [
+    1608,
+    1674
+  ],
+  "occupation": "Writer",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Commonwealth of England"
+  ],
+  "contribution": "An English poet, polemicist, and civil servant.",
+  "image": "images/john-milton.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Commonwealth of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "John Milton (9 December 1608 – 8 November 1674) was an English poet, polemicist, and civil servant. His 1667 epic poem Paradise Lost was written in blank verse and included 12 books, written in a time of immense religious flux and political upheaval. It addressed the fall of man, including the temptation of Adam and Eve by the fallen angel Satan, and God's expulsion of them from the Garden of Eden. Paradise Lost elevated Milton's reputation as one of history's greatest poets. He also served as a civil servant for the Commonwealth of England under its Council of State and later under Oliver Cromwell.",
+    "photo": "no death year in or after 1860"
+  }
+}

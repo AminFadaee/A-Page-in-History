@@ -1,0 +1,41 @@
+{
+  "id": "Q214559",
+  "slug": "ismail-i",
+  "name": "Ismail I",
+  "wikipedia": "Ismail I",
+  "role": "Shah of Safavid Iran from 1501 to 1524",
+  "life": "1487–1524",
+  "lifetime": [
+    1487,
+    1524
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Safavid Dynasty"
+  ],
+  "related": [
+    "Ottoman Empire"
+  ],
+  "contribution": "The founder and first shah of Safavid Iran, ruling from 1501 until his death in 1524.",
+  "image": "images/ismail-i.jpg",
+  "image_credit": "Cristofano dell'Altissimo · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Safavid Dynasty"
+      ],
+      "lead": [
+        "Safavid Dynasty",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Aq Qoyunlu"
+      ]
+    },
+    "lead": "Ismail I (Persian: اسماعیل یکم, romanized: Ismāʿīl; 17 July 1487 – 23 May 1524) was the founder and first shah of Safavid Iran, ruling from 1501 until his death in 1524. His reign is one of the most vital in the history of Iran, and the Safavid era is often considered the beginning of modern Iranian history. Under Ismail, Iran was unified under native rule for the first time since the Islamic conquest of the country eight-and-a-half centuries earlier.",
+    "photo": "no death year in or after 1860"
+  }
+}

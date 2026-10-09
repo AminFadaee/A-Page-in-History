@@ -1,0 +1,174 @@
+{
+  "id": "Q167639",
+  "slug": "vijayanagara-empire",
+  "name": "Vijayanagara Empire",
+  "wikipedia": "Vijayanagara Empire",
+  "map_year": 1450,
+  "period": {
+    "start": {
+      "earliest": 1336,
+      "latest": 1336,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1646,
+      "latest": 1646,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Vijayanagara",
+      "location": [
+        76.465,
+        15.325
+      ]
+    },
+    {
+      "name": "Penukonda",
+      "location": [
+        77.5966537,
+        14.0846808
+      ]
+    },
+    {
+      "name": "Chandragiri",
+      "location": [
+        79.3167,
+        13.5833
+      ]
+    },
+    {
+      "name": "Vellore",
+      "location": [
+        79.133333333333,
+        12.933333333333
+      ]
+    }
+  ],
+  "predecessors": [
+    "Hoysala Kingdom",
+    "Kampili Kingdom",
+    "Pandya Empire"
+  ],
+  "successors": [
+    "Bijapur Sultanate",
+    "Kingdom of Mysore",
+    "Nayaks of Madurai",
+    "Nayaks of Thanjavur"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q167639",
+        "layer": 1,
+        "name": "Vijayanagara Empire"
+      },
+      {
+        "id": "Q466581",
+        "layer": 0,
+        "name": "Hoysala Kingdom"
+      },
+      {
+        "id": "Q844910",
+        "layer": 0,
+        "name": "Pandya Empire"
+      },
+      {
+        "id": "Q83821",
+        "layer": 2,
+        "name": "Bijapur Sultanate"
+      },
+      {
+        "id": "Q1530838",
+        "layer": 2,
+        "name": "Nayaks of Madurai"
+      }
+    ],
+    "edges": [
+      [
+        "Q466581",
+        "Q167639",
+        "India"
+      ],
+      [
+        "Q844910",
+        "Q167639",
+        "India"
+      ],
+      [
+        "Q167639",
+        "Q83821",
+        "India"
+      ],
+      [
+        "Q167639",
+        "Q1530838",
+        "India"
+      ]
+    ],
+    "question": "successions/vijayanagara-empire-question.png",
+    "answer": "successions/vijayanagara-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q2726068",
+      "name": "Harihara I"
+    },
+    {
+      "id": "Q2484694",
+      "name": "Bukka Raya I"
+    },
+    {
+      "id": "Q2336381",
+      "name": "Deva Raya II"
+    },
+    {
+      "id": "Q1452391",
+      "name": "Saluva Narasimha Deva Raya"
+    },
+    {
+      "id": "Q121235",
+      "name": "Krishnadevaraya"
+    },
+    {
+      "id": "Q2336272",
+      "name": "Achyuta Deva Raya"
+    },
+    {
+      "id": "Q3535867",
+      "name": "Sriranga III"
+    }
+  ],
+  "modern_countries": [
+    "India"
+  ],
+  "map": "maps/vijayanagara-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Vijayanagara",
+        "Penukonda",
+        "Chandragiri",
+        "Vellore"
+      ],
+      "infobox": [
+        "Vijayanagara",
+        "Penukonda",
+        "Chandragiri",
+        "Vellore"
+      ]
+    },
+    "cliopatria_years": [
+      1344,
+      1571
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Bahmani Sultanate",
+      "Ceylon"
+    ]
+  }
+}

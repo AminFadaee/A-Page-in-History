@@ -1,0 +1,38 @@
+{
+  "id": "Q101516",
+  "slug": "sergey-prokudin-gorsky",
+  "name": "Sergey Prokudin-Gorsky",
+  "wikipedia": "Sergey Prokudin-Gorsky",
+  "role": "Russian chemist and photographer",
+  "life": "1863–1944",
+  "lifetime": [
+    1863,
+    1944
+  ],
+  "occupation": "Chemist",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian chemist and photographer.",
+  "image": "images/sergey-prokudin-gorsky.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Sergey Mikhaylovich Prokudin-Gorsky (Russian: Сергей Михайлович Прокудин-Горский, IPA: [sʲɪrˈɡʲej mʲɪˈxajləvʲɪtɕ prɐˈkudʲɪn ˈɡorskʲɪj] ; 30 August [O.S. 18 August] 1863 – 27 September 1944) was a Russian chemist and photographer. He is best known for his pioneering work in colour photography and his effort to document the early 20th-century Russian Empire.",
+    "photo": "captured 1912 during their lifetime"
+  }
+}

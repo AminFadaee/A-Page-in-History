@@ -1,0 +1,41 @@
+{
+  "id": "Q76367",
+  "slug": "martin-bormann",
+  "name": "Martin Bormann",
+  "wikipedia": "Martin Bormann",
+  "role": "German Nazi politician",
+  "life": "1900–1945",
+  "lifetime": [
+    1900,
+    1945
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany",
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A German Nazi Party official, head of the Nazi Party Chancellery, and private secretary to Adolf Hitler.",
+  "image": "images/martin-bormann.jpg",
+  "image_credit": "UnknownUnknown · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Nazi Germany",
+        "Weimar Republic",
+        "German Empire"
+      ],
+      "lead": [],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Martin Ludwig Bormann (17 June 1900 – 2 May 1945) was a German Nazi Party official, head of the Nazi Party Chancellery, and private secretary to Adolf Hitler. Bormann gained immense power by using his position as Hitler's private secretary to control the flow of information and access to Hitler. He used his position to create an extensive bureaucracy and involve himself as much as possible in decision-making.",
+    "photo": "captured 1934date QS:P571,+1934-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

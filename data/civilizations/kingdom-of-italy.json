@@ -1,0 +1,151 @@
+{
+  "id": "Q172579",
+  "slug": "kingdom-of-italy",
+  "name": "Kingdom of Italy",
+  "wikipedia": "Kingdom of Italy",
+  "map_year": 1943,
+  "period": {
+    "start": {
+      "earliest": 1861,
+      "latest": 1861,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1946,
+      "latest": 1946,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Turin",
+      "location": [
+        7.676111111111111,
+        45.079166666666666
+      ]
+    },
+    {
+      "name": "Florence",
+      "location": [
+        11.254166666667,
+        43.771388888889
+      ]
+    },
+    {
+      "name": "Rome",
+      "location": [
+        12.482777777778,
+        41.893055555556
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kingdom of the Two Sicilies",
+    "Kingdom of Sardinia",
+    "Papal States"
+  ],
+  "successors": [
+    "Republic of Italy"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q172579",
+        "layer": 1,
+        "name": "Kingdom of Italy"
+      },
+      {
+        "id": "Q180393",
+        "layer": 0,
+        "name": "Kingdom of the Two Sicilies"
+      },
+      {
+        "id": "Q2577303",
+        "layer": 0,
+        "name": "Kingdom of Sardinia"
+      },
+      {
+        "id": "Q170174",
+        "layer": 0,
+        "name": "Papal States"
+      },
+      {
+        "id": "Q38",
+        "layer": 2,
+        "name": "Republic of Italy"
+      }
+    ],
+    "edges": [
+      [
+        "Q180393",
+        "Q172579",
+        "Italy"
+      ],
+      [
+        "Q2577303",
+        "Q172579",
+        "Italy"
+      ],
+      [
+        "Q170174",
+        "Q172579",
+        "Italy"
+      ],
+      [
+        "Q172579",
+        "Q38",
+        "Italy"
+      ]
+    ],
+    "question": "successions/kingdom-of-italy-question.png",
+    "answer": "successions/kingdom-of-italy-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Italy",
+    "Greece",
+    "France",
+    "Albania",
+    "Montenegro",
+    "Kosovo",
+    "San Marino",
+    "Vatican City"
+  ],
+  "map": "maps/kingdom-of-italy.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Turin",
+        "Florence",
+        "Rome"
+      ],
+      "infobox": [
+        "Turin",
+        "Florence",
+        "Rome",
+        "Brindisi"
+      ]
+    },
+    "cliopatria_years": [
+      587,
+      1946
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Empire of Japan",
+      "Nazi Germany",
+      "Union of Soviet Socialist Republics",
+      "Canada",
+      "Republic of China",
+      "British Raj",
+      "Kingdom of Saudi Arabia",
+      "Mongolian People's Republic",
+      "Italian Africa",
+      "Pahlavi Dynasty",
+      "Tibet",
+      "Republic of Turkey"
+    ]
+  }
+}

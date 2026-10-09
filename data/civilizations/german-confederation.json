@@ -1,0 +1,112 @@
+{
+  "id": "Q151624",
+  "slug": "german-confederation",
+  "name": "German Confederation",
+  "wikipedia": "German Confederation",
+  "map_year": 1866,
+  "period": {
+    "start": {
+      "earliest": 1813,
+      "latest": 1813,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1866,
+      "latest": 1866,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Free City of Frankfurt",
+      "location": [
+        8.68222222,
+        50.11027778
+      ]
+    }
+  ],
+  "predecessors": [
+    "Confederation of the Rhine",
+    "Kingdom of Prussia"
+  ],
+  "successors": [
+    "North German Confederation"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q151624",
+        "layer": 1,
+        "name": "German Confederation"
+      },
+      {
+        "id": "Q154741",
+        "layer": 0,
+        "name": "Confederation of the Rhine"
+      },
+      {
+        "id": "Q27306",
+        "layer": 0,
+        "name": "Kingdom of Prussia"
+      },
+      {
+        "id": "Q150981",
+        "layer": 2,
+        "name": "North German Confederation"
+      }
+    ],
+    "edges": [
+      [
+        "Q154741",
+        "Q151624",
+        "Poland, Germany"
+      ],
+      [
+        "Q27306",
+        "Q151624",
+        "Poland, Germany"
+      ],
+      [
+        "Q151624",
+        "Q150981",
+        "Germany, Poland"
+      ]
+    ],
+    "question": "successions/german-confederation-question.png",
+    "answer": "successions/german-confederation-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Germany",
+    "Poland",
+    "Czech Republic"
+  ],
+  "map": "maps/german-confederation.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Free City of Frankfurt"
+      ],
+      "infobox": [
+        "Free City of Frankfurt"
+      ]
+    },
+    "cliopatria_years": [
+      1815,
+      1867
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Austrian Empire",
+      "Second French Empire",
+      "Kingdom of Bavaria",
+      "Kingdom of Belgium",
+      "Kingdom of Great Britain",
+      "United Principalities of Moldavia and Wallachia",
+      "Swiss Confederation"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Q84192",
+  "slug": "maximilian-i-of-mexico",
+  "name": "Maximilian I of Mexico",
+  "wikipedia": "Maximilian I of Mexico",
+  "role": "Emperor of Mexico from 1864 to 1867",
+  "life": "1832–1867",
+  "lifetime": [
+    1832,
+    1867
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Austrian Empire",
+    "Second Mexican Empire"
+  ],
+  "related": [
+    "Spanish Empire",
+    "Second French Empire"
+  ],
+  "contribution": "An Austrian archduke who became emperor of the Second Mexican Empire from 10 April 1864 until his execution by the Restored Republic of Mexico on 19 June 1867.",
+  "image": "images/maximilian-i-of-mexico.jpg",
+  "image_credit": "Original glass negative (LC-BH824-4754) made by Andrew Burgess, one of Mathew Brady's operators, on a trip to Mexico City. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire",
+        "Second Mexican Empire"
+      ],
+      "lead": [
+        "Austrian Empire",
+        "Second Mexican Empire",
+        "Spanish Empire",
+        "Second French Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Maximilian I (Spanish: Fernando Maximiliano José María de Habsburgo-Lorena; German: Ferdinand Maximilian Josef Maria von Habsburg-Lothringen; 6 July 1832 – 19 June 1867) was an Austrian archduke who became emperor of the Second Mexican Empire from 10 April 1864 until his execution by the Restored Republic of Mexico on 19 June 1867.",
+    "photo": "captured circa 1864date QS:P571,+1864-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

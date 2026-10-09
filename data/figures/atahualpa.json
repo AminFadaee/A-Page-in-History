@@ -1,0 +1,38 @@
+{
+  "id": "Q179577",
+  "slug": "atahualpa",
+  "name": "Atahualpa",
+  "wikipedia": "Atahualpa",
+  "role": "Last Inca Emperor",
+  "life": "c. 1500–1533",
+  "lifetime": [
+    1500,
+    1533
+  ],
+  "occupation": "Politician",
+  "birth_country": "Peru",
+  "civilizations": [
+    "Inca Empire"
+  ],
+  "related": [],
+  "contribution": "Caccha Pachacuti Inca Yupanqui Inca, was the last effective Inca emperor, reigning from April 1532 until his capture and execution in July-August of the following year, as part of the Spanish conquest of the Inca Empire.",
+  "image": "images/atahualpa.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Inca Empire"
+      ],
+      "lead": [],
+      "vital_section": [
+        "Inca Empire"
+      ],
+      "birthplace": [
+        "Inca Empire"
+      ]
+    },
+    "lead": "Atawallpa ( ), also Atahualpa or Ataw Wallpa (Classical Quechua: Ataw Wallpa, pronounced [ˈataw ˈwaʎpa]) (c. 1502 – 29 August 1533), whose regnal name was Caccha Pachacuti Inca Yupanqui Inca (from the caccha idol and to honour the emperor Pachacuti), was the last effective Inca emperor, reigning from April 1532 until his capture and execution in July-August of the following year, as part of the Spanish conquest of the Inca Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

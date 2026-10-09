@@ -1,0 +1,39 @@
+{
+  "id": "Q130601",
+  "slug": "romulus-augustulus",
+  "name": "Romulus Augustulus",
+  "wikipedia": "Romulus Augustulus",
+  "role": "Western Roman emperor from 475 to 476",
+  "life": "AD 462 – 6th century",
+  "lifetime": [
+    462,
+    539
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Serbia",
+  "civilizations": [
+    "Western Roman Empire"
+  ],
+  "related": [
+    "Eastern Roman Empire"
+  ],
+  "contribution": "Roman emperor of the West from 31 October 475 until 4 September 476.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Western Roman Empire"
+      ],
+      "lead": [
+        "Western Roman Empire",
+        "Eastern Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Romulus Augustus (c. 460–465 – c. 511–530), nicknamed Augustulus, was Roman emperor of the West from 31 October 475 until 4 September 476. Romulus was placed on the imperial throne while still a minor by his father Orestes, the magister militum, for whom he served as little more than a figurehead. After a rule of ten months, the barbarian general Odoacer defeated and killed Orestes and deposed Romulus. As Odoacer did not proclaim any successor, Romulus is typically regarded as the last Western Roman emperor, his deposition marking the end of the Western Roman Empire as a political entity. The deposition of Romulus Augustulus is also sometimes used by historians to mark the transition from antiquity to the medieval period.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

@@ -16,8 +16,9 @@
   ],
   "related": [],
   "contribution": "A 9th-century Muslim muhaddith and one of the foremost authorities on hadith, widely regarded as the most important hadith scholar in the history of Sunni Islam.",
-  "image": "images/muhammad-al-bukhari.jpg",
-  "image_credit": "خالد بن طارق · CC0",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -31,6 +32,7 @@
         "Abbasid Caliphate"
       ]
     },
-    "lead": "Abū ʿAbd Allāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm al-Juʿfī al-Bukhārī (Arabic: أبو عبد الله محمد بن إسماعيل بن إبرهيم الجعفي البخاري; 21 July 810 C.E – 1 September 870; AH 194–256), commonly known as al-Bukhārī, was a 9th-century Muslim muhaddith and one of the foremost authorities on hadith, widely regarded as the most important hadith scholar in the history of Sunni Islam."
+    "lead": "Abū ʿAbd Allāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm al-Juʿfī al-Bukhārī (Arabic: أبو عبد الله محمد بن إسماعيل بن إبرهيم الجعفي البخاري; 21 July 810 C.E – 1 September 870; AH 194–256), commonly known as al-Bukhārī, was a 9th-century Muslim muhaddith and one of the foremost authorities on hadith, widely regarded as the most important hadith scholar in the history of Sunni Islam.",
+    "photo": "image is a coin or calligraphy"
   }
 }

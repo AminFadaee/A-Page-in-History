@@ -1,0 +1,45 @@
+{
+  "id": "Q7210",
+  "slug": "emperor-gaozu-of-han",
+  "name": "Emperor Gaozu of Han",
+  "wikipedia": "Emperor Gaozu of Han",
+  "role": "Founder and Emperor of Han Dynasty of China from 202 to 195 BC",
+  "life": "256–195 BC",
+  "lifetime": [
+    -256,
+    -195
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qin Dynasty",
+    "Chu"
+  ],
+  "related": [
+    "Han Dynasty",
+    "Xiongnu"
+  ],
+  "contribution": "The founder and first emperor of the Han dynasty.",
+  "image": "images/emperor-gaozu-of-han.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qin Dynasty"
+      ],
+      "lead": [
+        "Han Dynasty",
+        "Qin Dynasty",
+        "Chu",
+        "Xiongnu"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Chu"
+      ]
+    },
+    "lead": "Emperor Gaozu of Han (256 or 247 – 1 June 195 BC), personal name Liu Bang, was the founder and first emperor of the Han dynasty.",
+    "photo": "no death year in or after 1860"
+  }
+}

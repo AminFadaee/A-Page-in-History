@@ -1,0 +1,36 @@
+{
+  "id": "Q167477",
+  "slug": "anthony-of-padua",
+  "name": "Anthony of Padua",
+  "wikipedia": "Anthony of Padua",
+  "role": "Portuguese Catholic saint",
+  "life": "1195–1231",
+  "lifetime": [
+    1195,
+    1231
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [],
+  "contribution": "A Portuguese Catholic priest and member of the Order of Friars Minor.",
+  "image": "images/anthony-of-padua.jpg",
+  "image_credit": "Didier Descouens · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Anthony of Padua or Anthony of Lisbon (born Fernando Martins de Bulhões; 15 August 1195 – 13 June 1231) was a Portuguese Catholic priest and member of the Order of Friars Minor.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q311999",
+  "slug": "ferruccio-lamborghini",
+  "name": "Ferruccio Lamborghini",
+  "wikipedia": "Ferruccio Lamborghini",
+  "role": "Italian industrialist, founder of Automobili Lamborghini",
+  "life": "1916–1993",
+  "lifetime": [
+    1916,
+    1993
+  ],
+  "occupation": "Businessperson",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [],
+  "contribution": "An Italian automobile designer and industrialist who created Lamborghini Trattori in 1948 and Automobili Lamborghini in 1964, a maker of high-end sports cars in Sant'Agata Bolognese.",
+  "image": "images/ferruccio-lamborghini.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy",
+        "Republic of Italy"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Ferruccio Lamborghini  ( LAM-bər-GHEE-nee, Italian: [ferˈruttʃo lamborˈɡiːni]; 28 April 1916 – 20 February 1993) was an Italian automobile designer and industrialist who created Lamborghini Trattori in 1948 and Automobili Lamborghini in 1964, a maker of high-end sports cars in Sant'Agata Bolognese.",
+    "photo": "capture date \"anni '70\" not within their lifetime and not classified as a photograph"
+  }
+}

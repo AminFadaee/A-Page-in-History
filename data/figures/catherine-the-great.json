@@ -1,0 +1,47 @@
+{
+  "id": "Q36450",
+  "slug": "catherine-the-great",
+  "name": "Catherine the Great",
+  "wikipedia": "Catherine the Great",
+  "role": "Empress of Russia from 1762 to 1796",
+  "life": "1729–1796",
+  "lifetime": [
+    1729,
+    1796
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Russian Empire",
+    "Kingdom of Prussia"
+  ],
+  "related": [
+    "Polish-Lithuanian Commonwealth",
+    "Crimean Khanate",
+    "Ottoman Empire"
+  ],
+  "contribution": "Empress of Russia from 9 July 1762 until her death in 1796.",
+  "image": "images/catherine-the-great.jpg",
+  "image_credit": "After Alexander Roslin · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Russian Empire",
+        "Polish-Lithuanian Commonwealth",
+        "Crimean Khanate",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Catherine II (born Sophie Auguste Friederike von Anhalt-Zerbst; 2 May 1729 – 17 November 1796), known as Catherine the Great, was Empress of Russia from 9 July 1762 until her death in 1796. Before her accession, Catherine had been a royal consort as the wife of Emperor Peter III, whom she overthrew in a coup d'état. Her reign of over 34 years saw an era of prosperity during the Enlightenment in which many new cities, universities and theatres were established; large-scale immigration from the rest of Europe occurred; and the Russian Empire was recognised as a great power of Europe.",
+    "photo": "no death year in or after 1860"
+  }
+}

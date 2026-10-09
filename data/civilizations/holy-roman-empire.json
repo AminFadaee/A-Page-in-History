@@ -1,0 +1,124 @@
+{
+  "id": "Q12548",
+  "slug": "holy-roman-empire",
+  "name": "Holy Roman Empire",
+  "wikipedia": "Holy Roman Empire",
+  "map_year": 1169,
+  "period": {
+    "start": {
+      "earliest": 962,
+      "latest": 962,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Kingdom of Germany"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q12548",
+        "layer": 1,
+        "name": "Holy Roman Empire"
+      },
+      {
+        "id": "Q175211",
+        "layer": 0,
+        "name": "Kingdom of Germany"
+      }
+    ],
+    "edges": [
+      [
+        "Q175211",
+        "Q12548",
+        "Germany, Italy, Austria"
+      ]
+    ],
+    "question": "successions/holy-roman-empire-question.png",
+    "answer": "successions/holy-roman-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q3044",
+      "name": "Charlemagne"
+    },
+    {
+      "id": "Q43915",
+      "name": "Otto the Great"
+    },
+    {
+      "id": "Q150966",
+      "name": "Frederick III, Holy Roman Emperor"
+    },
+    {
+      "id": "Q32500",
+      "name": "Charles V, Holy Roman Emperor"
+    },
+    {
+      "id": "Q130834",
+      "name": "Francis II, Holy Roman Emperor"
+    }
+  ],
+  "modern_countries": [
+    "Germany",
+    "Italy",
+    "France",
+    "Austria",
+    "Czech Republic",
+    "Switzerland",
+    "Netherlands",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg",
+    "Liechtenstein",
+    "San Marino"
+  ],
+  "map": "maps/holy-roman-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Aachen",
+        "Prague",
+        "Vienna",
+        "Regensburg",
+        "Wetzlar"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      962,
+      1621
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Angevin Empire",
+      "Kingdom of Hungary",
+      "Kingdom of Sicily",
+      "County of Toulouse",
+      "Kievan Rus'",
+      "Byzantine Empire",
+      "Halych-Volhynia occupation",
+      "Duchy of Masovia",
+      "Principality of Kiev",
+      "Sultanate of Rum",
+      "Principality of Smolensk",
+      "Kingdom of León",
+      "Kingdom of Castile",
+      "Principality of Halych",
+      "Taifa of Murcia",
+      "Kingdom of Portugal",
+      "Kingdom of Alba",
+      "Principality of Minsk",
+      "Duchy of Brittany"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Q5066",
+  "slug": "great-jin",
+  "name": "Great Jin",
+  "wikipedia": "Jin dynasty (1115–1234)",
+  "map_year": 1206,
+  "period": {
+    "start": {
+      "earliest": 1115,
+      "latest": 1115,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1234,
+      "latest": 1234,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Huiningfu",
+      "location": [
+        126.974,
+        45.501
+      ]
+    },
+    {
+      "name": "Zhongdu",
+      "location": [
+        116.33333333333333,
+        39.86666666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "Liao Dynasty"
+  ],
+  "successors": [
+    "Mongol Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q5066",
+        "layer": 1,
+        "name": "Great Jin"
+      },
+      {
+        "id": "Q4958",
+        "layer": 0,
+        "name": "Liao Dynasty"
+      },
+      {
+        "id": "Q12557",
+        "layer": 2,
+        "name": "Mongol Empire"
+      },
+      {
+        "id": "Q862304",
+        "layer": 1,
+        "name": "Kara-Khitans"
+      },
+      {
+        "id": "Q7427",
+        "layer": 1,
+        "name": "Western Xia"
+      }
+    ],
+    "edges": [
+      [
+        "Q4958",
+        "Q5066",
+        "People's Republic of China, Russia"
+      ],
+      [
+        "Q5066",
+        "Q12557",
+        "People's Republic of China, Russia"
+      ],
+      [
+        "Q862304",
+        "Q12557",
+        "People's Republic of China, Kazakhstan, Uzbekistan"
+      ],
+      [
+        "Q7427",
+        "Q12557",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/great-jin-question.png",
+    "answer": "successions/great-jin-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Russia",
+    "North Korea"
+  ],
+  "map": "maps/great-jin.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Huiningfu",
+        "Zhongdu",
+        "Kaifeng Fu"
+      ],
+      "infobox": [
+        "Huiningfu",
+        "Zhongdu",
+        "Kaifeng",
+        "Runan County"
+      ]
+    },
+    "cliopatria_years": [
+      1126,
+      1235
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mongol Empire",
+      "Southern Song",
+      "Western Xia",
+      "Goryeo",
+      "Tibetans",
+      "Yenisei Kyrgyz",
+      "Kamakura Shogunate",
+      "Kingdom of Dali"
+    ]
+  }
+}

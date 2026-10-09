@@ -1,0 +1,38 @@
+{
+  "id": "Q79789",
+  "slug": "frederick-barbarossa",
+  "name": "Frederick Barbarossa",
+  "wikipedia": "Frederick Barbarossa",
+  "role": "Holy Roman Emperor from 1155 to 1190",
+  "life": "1122–1190",
+  "lifetime": [
+    1122,
+    1190
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "The Holy Roman Emperor from 1155 until his death in 1190.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Holy Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Frederick Barbarossa (December 1122 – 10 June 1190), also known as Frederick I (German: Friedrich; Italian: Federico), was the Holy Roman Emperor from 1155 until his death in 1190. He was elected King of Germany in Frankfurt on 4 March 1152 and crowned in Aachen on 9 March 1152. He was crowned King of Italy on 24 April 1155 in Pavia and emperor by Pope Adrian IV on 18 June 1155 in Rome. Two years later, the term sacrum (\"holy\") first appeared in a document in connection with his empire. He was later formally crowned King of Burgundy, at Arles on 30 June 1178. His nickname of Barbarossa (meaning \"Red Beard\" in Italian) \"was first used by the Florentines only in 1298 to differentiate the emperor from his grandson, Frederick II ... and was never employed in medieval Germany\" (the colour red was \"also associated in the Middle Ages with malice and a hot temper\"; in reality, Frederick's hair was \"blond\", although his beard was described by a contemporary as \"reddish\"). In German, he was known as Kaiser Rotbart, which in English means \"Emperor Redbeard\". The prevalence of the Italian nickname, even in later German usage, reflects the centrality of the Italian campaigns under his reign, and \"remains to this day one of the [most] powerful historical monikers.\"",
+    "photo": "image is a coin or calligraphy"
+  }
+}

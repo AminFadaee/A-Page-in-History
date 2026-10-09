@@ -1,0 +1,36 @@
+{
+  "id": "Q76564",
+  "slug": "carl-gustav-jacob-jacobi",
+  "name": "Carl Gustav Jacob Jacobi",
+  "wikipedia": "Carl Gustav Jacob Jacobi",
+  "role": "German mathematician",
+  "life": "1804–1851",
+  "lifetime": [
+    1804,
+    1851
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A German mathematician who made fundamental contributions to elliptic functions, dynamics, differential equations, determinants and number theory.",
+  "image": "images/carl-gustav-jacob-jacobi.jpg",
+  "image_credit": "August Kaselowsky; Giesecke u. Devrient (heliogr.) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Carl Gustav Jacob Jacobi (; German: [jaˈkoːbi]; 10 December 1804 – 18 February 1851) was a German mathematician who made fundamental contributions to elliptic functions, dynamics, differential equations, determinants and number theory.",
+    "photo": "no death year in or after 1860"
+  }
+}

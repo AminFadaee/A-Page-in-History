@@ -1,0 +1,67 @@
+{
+  "id": "Q188586",
+  "slug": "kingdom-of-sicily",
+  "name": "Kingdom of Sicily",
+  "wikipedia": "Kingdom of Sicily",
+  "map_year": 1147,
+  "period": {
+    "start": {
+      "earliest": 1130,
+      "latest": 1130,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1816,
+      "latest": 1816,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Palermo",
+      "location": [
+        13.361261944444445,
+        38.115658055555556
+      ]
+    }
+  ],
+  "predecessors": [
+    "Duchy of Naples"
+  ],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Italy",
+    "Malta"
+  ],
+  "map": "maps/kingdom-of-sicily.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Palermo",
+        "Naples",
+        "Catania"
+      ],
+      "infobox": [
+        "Palermo"
+      ]
+    },
+    "cliopatria_years": [
+      1139,
+      1384
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Holy Roman Empire",
+      "Byzantine Empire",
+      "Kingdom of Hungary",
+      "County of Toulouse",
+      "Kingdom of Aragon",
+      "Hammadid Dynasty",
+      "Kingdom of Navarre"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Q30578",
+  "slug": "pope-urban-ii",
+  "name": "Pope Urban II",
+  "wikipedia": "Pope Urban II",
+  "role": "Head of the Catholic Church from 1088 to 1099",
+  "life": "c. 1035–1099",
+  "lifetime": [
+    1035,
+    1099
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "France",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [
+    "Fatimid Caliphate"
+  ],
+  "contribution": "The head of the Catholic Church and ruler of the Papal States from 12 March 1088 to his death.",
+  "image": "images/pope-urban-ii.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Papal States",
+        "Fatimid Caliphate"
+      ],
+      "vital_section": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "County of Blôis",
+        "County of Champagne"
+      ]
+    },
+    "lead": "Pope Urban II (Latin: Urbanus II; c. 1035 – 29 July 1099), otherwise known as Odo of Châtillon or Otho de Lagery, was the head of the Catholic Church and ruler of the Papal States from 12 March 1088 to his death. He is best known for convening the Council of Clermont, which ignited the series of Catholic military expeditions known as the Crusades.",
+    "photo": "no death year in or after 1860"
+  }
+}

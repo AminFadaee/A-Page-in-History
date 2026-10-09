@@ -1,0 +1,38 @@
+{
+  "id": "Q7333",
+  "slug": "zheng-he",
+  "name": "Zheng He",
+  "wikipedia": "Zheng He",
+  "role": "Chinese admiral and diplomat",
+  "life": "1371–1433",
+  "lifetime": [
+    1371,
+    1435
+  ],
+  "occupation": "Explorer",
+  "birth_country": "China",
+  "civilizations": [
+    "Ming Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese admiral and diplomat from the early Ming dynasty.",
+  "image": "images/zheng-he.jpg",
+  "image_credit": "Marcin Konsek · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ming Dynasty"
+      ],
+      "lead": [
+        "Ming Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ming Dynasty"
+      ]
+    },
+    "lead": "Zheng He (Wade-Giles: Chêng Ho; 1371–1433/1435) was a Chinese admiral and diplomat from the early Ming dynasty. His extensive explorations along the Indian Ocean led to a major increase in China's political and commercial influence. He was born into a Muslim family as Ma He and later adopted the surname Zheng conferred onto him by the Yongle Emperor (r. 1402–1424). He is also widely known in Chinese culture by the alias San Bao (三宝/三保), also spelled Sam Po, which in names of Southeast Asian temples can refer either to him or to the Three Jewels of Buddhism.",
+    "photo": "no death year in or after 1860"
+  }
+}

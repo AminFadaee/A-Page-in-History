@@ -1,0 +1,36 @@
+{
+  "id": "Q7731",
+  "slug": "alexis-of-russia",
+  "name": "Alexis of Russia",
+  "wikipedia": "Alexis of Russia",
+  "role": "Tsar of Russia from 1645 to 1676",
+  "life": "1629–1676",
+  "lifetime": [
+    1629,
+    1676
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Tsardom of Russia"
+  ],
+  "related": [],
+  "contribution": "Tsar of all Russia from 1645 until his death in 1676.",
+  "image": "images/alexis-of-russia.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Tsardom of Russia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Tsardom of Russia"
+      ]
+    },
+    "lead": "Alexei Mikhailovich (Russian: Алексей Михайлович, IPA: [ɐlʲɪkˈsʲej mʲɪˈxajləvʲɪtɕ]; 19 March [O.S. 9 March] 1629 – 8 February [O.S. 29 January] 1676), also known as Alexis, was Tsar of all Russia from 1645 until his death in 1676. He was the second Russian tsar from the House of Romanov.",
+    "photo": "no death year in or after 1860"
+  }
+}

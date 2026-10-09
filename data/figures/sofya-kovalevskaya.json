@@ -1,0 +1,36 @@
+{
+  "id": "Q184535",
+  "slug": "sofya-kovalevskaya",
+  "name": "Sofya Kovalevskaya",
+  "wikipedia": "Sofya Kovalevskaya",
+  "role": "Russian mathematician",
+  "life": "1850–1891",
+  "lifetime": [
+    1850,
+    1891
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian mathematician who made noteworthy contributions to analysis, partial differential equations and mechanics.",
+  "image": "images/sofya-kovalevskaya.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Sofya Vasilyevna Kovalevskaya (Russian: Софья Васильевна Ковалевская; born Korvin-Krukovskaya; 15 January [O.S. 3 January] 1850 – 10 February 1891) was a Russian mathematician who made noteworthy contributions to analysis, partial differential equations and mechanics. She was a pioneer of equality for women in mathematics. Kovalevskaya was the first woman to earn a doctorate in mathematics, in the modern sense of that term, the first woman in Europe in modern times appointed to a full professorship in mathematics, as well as one of the first women to work for a scientific journal as an editor. According to historian of science Ann Hibner Koblitz, Kovalevskaya was \"the greatest known woman scientist before the twentieth century\".",
+    "photo": "captured 1888 during their lifetime"
+  }
+}

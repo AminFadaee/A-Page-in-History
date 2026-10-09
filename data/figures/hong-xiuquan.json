@@ -1,0 +1,41 @@
+{
+  "id": "Q334732",
+  "slug": "hong-xiuquan",
+  "name": "Hong Xiuquan",
+  "wikipedia": "Hong Xiuquan",
+  "role": "Chinese revolutionary",
+  "life": "1814–1864",
+  "lifetime": [
+    1814,
+    1864
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty",
+    "Taiping Heavenly Kingdom"
+  ],
+  "related": [],
+  "contribution": "A Chinese revolutionary and religious leader who led the Taiping Rebellion against the Qing dynasty.",
+  "image": "images/hong-xiuquan.jpg",
+  "image_credit": "Ford &amp; West Lith. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty",
+        "Taiping Heavenly Kingdom"
+      ],
+      "lead": [
+        "Qing Dynasty",
+        "Taiping Heavenly Kingdom"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Hong Xiuquan (1 January 1814 – 1 June 1864), born Hong Huoxiu and with the courtesy name Renkun, was a Chinese revolutionary and religious leader who led the Taiping Rebellion against the Qing dynasty. He established the Taiping Heavenly Kingdom over large portions of southern China, with himself as its \"Heavenly King\".",
+    "photo": "captured published 1853 during their lifetime"
+  }
+}

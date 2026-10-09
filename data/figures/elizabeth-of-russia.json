@@ -1,0 +1,40 @@
+{
+  "id": "Q130752",
+  "slug": "elizabeth-of-russia",
+  "name": "Elizabeth of Russia",
+  "wikipedia": "Elizabeth of Russia",
+  "role": "Empress of Russia from 1741 to 1762",
+  "life": "1709–1762",
+  "lifetime": [
+    1709,
+    1762
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire",
+    "Tsardom of Russia"
+  ],
+  "related": [],
+  "contribution": "Empress of Russia from 1741 until her death in 1762.",
+  "image": "images/elizabeth-of-russia.jpg",
+  "image_credit": "Vigilius Eriksen · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Tsardom of Russia"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Tsardom of Russia"
+      ]
+    },
+    "lead": "Elizabeth or Elizaveta Petrovna (Russian: Елизаве́та Петро́вна; 29 December [O.S. 18 December] 1709 – 5 January 1762 [O.S. 25 December 1761]) was Empress of Russia from 1741 until her death in 1762. She remains one of the most popular Russian monarchs because of her decision not to execute a single person during her reign, her numerous construction projects, and her strong opposition to Prussian policies. She was the last person on the agnatic line of the Romanovs as her nephew ascended, thus creating the house of Holstein-Gottorp-Romanov.",
+    "photo": "no death year in or after 1860"
+  }
+}

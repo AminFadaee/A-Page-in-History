@@ -1,0 +1,130 @@
+{
+  "id": "Q55502",
+  "slug": "kingdom-of-jerusalem",
+  "name": "Kingdom of Jerusalem",
+  "wikipedia": "Kingdom of Jerusalem",
+  "map_year": 1126,
+  "period": {
+    "start": {
+      "earliest": 1099,
+      "latest": 1099,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1291,
+      "latest": 1291,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Jerusalem",
+      "location": [
+        35.234156,
+        31.776679
+      ]
+    }
+  ],
+  "predecessors": [
+    "Fatimid Caliphate"
+  ],
+  "successors": [
+    "Mamluk Sultanate"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q55502",
+        "layer": 1,
+        "name": "Kingdom of Jerusalem"
+      },
+      {
+        "id": "Q160307",
+        "layer": 0,
+        "name": "Fatimid Caliphate"
+      },
+      {
+        "id": "Q180114",
+        "layer": 1,
+        "name": "Ayyubid Sultanate"
+      },
+      {
+        "id": "Q205718",
+        "layer": 1,
+        "name": "Zirid dynasty"
+      },
+      {
+        "id": "Q588672",
+        "layer": 1,
+        "name": "Hammadid Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q160307",
+        "Q180114",
+        "Egypt, Libya"
+      ],
+      [
+        "Q160307",
+        "Q205718",
+        "Tunisia, Algeria"
+      ],
+      [
+        "Q160307",
+        "Q55502",
+        "Jordan, Israel, Palestine"
+      ],
+      [
+        "Q160307",
+        "Q588672",
+        "Algeria"
+      ]
+    ],
+    "question": "successions/kingdom-of-jerusalem-question.png",
+    "answer": "successions/kingdom-of-jerusalem-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q76721",
+      "name": "Godfrey of Bouillon"
+    },
+    {
+      "id": "Q546497",
+      "name": "Henry II of Cyprus"
+    }
+  ],
+  "modern_countries": [
+    "Israel",
+    "Jordan",
+    "Palestine",
+    "Egypt",
+    "Lebanon"
+  ],
+  "map": "maps/kingdom-of-jerusalem.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jerusalem"
+      ],
+      "infobox": [
+        "Jerusalem",
+        "Tyre, Lebanon",
+        "Acre, Israel"
+      ]
+    },
+    "cliopatria_years": [
+      1099,
+      1293
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Great Seljuk Empire",
+      "Fatimid Caliphate",
+      "Sultanate of Rum",
+      "County of Edessa"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "Q241748",
+  "slug": "kingdom-of-serbia",
+  "name": "Kingdom of Serbia",
+  "wikipedia": "Kingdom of Serbia",
+  "map_year": 1880,
+  "period": {
+    "start": {
+      "earliest": 1882,
+      "latest": 1882,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Belgrade",
+      "location": [
+        20.456944444444446,
+        44.81777777777778
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Serbia"
+  ],
+  "map": "maps/kingdom-of-serbia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Belgrade"
+      ],
+      "infobox": [
+        "Belgrade"
+      ]
+    },
+    "cliopatria_years": [
+      1188,
+      1884
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ottoman Empire",
+      "Austria-Hungary",
+      "United Principalities of Moldavia and Wallachia",
+      "Principality of Bulgaria",
+      "French Third Republic",
+      "Kingdom of Italy",
+      "First Hellenic Republic",
+      "Swiss Confederation"
+    ]
+  }
+}

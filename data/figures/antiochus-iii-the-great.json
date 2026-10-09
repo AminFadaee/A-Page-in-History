@@ -21,8 +21,9 @@
     "Aetolian League"
   ],
   "contribution": "The sixth ruler of the Seleucid Empire, reigning from 223 BC to 187 BC.",
-  "image": "images/antiochus-iii-the-great.jpg",
-  "image_credit": "Uploadalt · CC BY 3.0",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -40,6 +41,7 @@
         "Seleucid Empire"
       ]
     },
-    "lead": "Antiochus III the Great (; Ancient Greek: Ἀντίοχος ὁ Μέγας, Antíokhos ho Mégas; c. 241 BC – 3 July 187 BC) was the sixth ruler of the Seleucid Empire, reigning from 223 BC to 187 BC."
+    "lead": "Antiochus III the Great (; Ancient Greek: Ἀντίοχος ὁ Μέγας, Antíokhos ho Mégas; c. 241 BC – 3 July 187 BC) was the sixth ruler of the Seleucid Empire, reigning from 223 BC to 187 BC.",
+    "photo": "image is a coin or calligraphy"
   }
 }

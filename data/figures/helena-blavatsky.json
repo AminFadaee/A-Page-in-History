@@ -1,0 +1,39 @@
+{
+  "id": "Q189454",
+  "slug": "helena-blavatsky",
+  "name": "Helena Blavatsky",
+  "wikipedia": "Helena Blavatsky",
+  "role": "Russian-American mystic and writer",
+  "life": "1831–1891",
+  "lifetime": [
+    1831,
+    1891
+  ],
+  "occupation": "Occultist",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian and American mystic and writer who co-founded the Theosophical Society in 1875.",
+  "image": "images/helena-blavatsky.jpg",
+  "image_credit": "Unsure · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "United States of America"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Helena Petrovna Blavatsky (née Hahn von Rottenstern; 12 August [O.S. 31 July] 1831 – 8 May 1891), often known as Madame Blavatsky, was a Russian and American mystic and writer who co-founded the Theosophical Society in 1875. She gained an international following as the primary founder of Theosophy as a belief system.",
+    "photo": "captured 1877 during their lifetime"
+  }
+}

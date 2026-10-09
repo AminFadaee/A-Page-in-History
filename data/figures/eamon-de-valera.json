@@ -1,0 +1,40 @@
+{
+  "id": "Q173347",
+  "slug": "eamon-de-valera",
+  "name": "Éamon de Valera",
+  "wikipedia": "Éamon de Valera",
+  "role": "Irish statesman",
+  "life": "1882–1975",
+  "lifetime": [
+    1882,
+    1975
+  ],
+  "occupation": "Politician",
+  "birth_country": "United States",
+  "civilizations": [
+    "United States of America",
+    "Irish Free State"
+  ],
+  "related": [],
+  "contribution": "An Irish statesman.",
+  "image": "images/eamon-de-valera.jpg",
+  "image_credit": "National Photo Company · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "United States of America",
+        "Irish Free State"
+      ],
+      "lead": [
+        "Irish Free State"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "United States of America"
+      ]
+    },
+    "lead": "Éamon de Valera (14 October 1882 – 29 August 1975) was an Irish statesman. He served as the president of Ireland from 1959 to 1973, and three terms as head of government. He had a leading role in introducing the Constitution of Ireland in 1937, and was a dominant figure in Irish political circles from the early 1930s to the late 1960s, when he served terms as both the head of government and head of state.",
+    "photo": "captured circa 1922date QS:P,+1922-00-00T00:00:00Z/9,P1480,Q5727902-30 during their lifetime"
+  }
+}

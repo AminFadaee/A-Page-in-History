@@ -1,0 +1,97 @@
+{
+  "id": "Q170770",
+  "slug": "grand-principality-of-moscow",
+  "name": "Grand Principality of Moscow",
+  "wikipedia": "Grand Principality of Moscow",
+  "map_year": 1521,
+  "period": {
+    "start": {
+      "earliest": 1263,
+      "latest": 1263,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1547,
+      "latest": 1547,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Moscow",
+      "location": [
+        37.6175,
+        55.75055555555556
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Tsardom of Russia"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q170770",
+        "layer": 1,
+        "name": "Grand Principality of Moscow"
+      },
+      {
+        "id": "Q186096",
+        "layer": 2,
+        "name": "Tsardom of Russia"
+      }
+    ],
+    "edges": [
+      [
+        "Q170770",
+        "Q186096",
+        "Russia"
+      ]
+    ],
+    "question": "successions/grand-principality-of-moscow-question.png",
+    "answer": "successions/grand-principality-of-moscow-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q295186",
+      "name": "Daniel of Moscow"
+    }
+  ],
+  "modern_countries": [
+    "Russia"
+  ],
+  "map": "maps/grand-principality-of-moscow.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Moscow"
+      ],
+      "infobox": [
+        "Moscow"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1546
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Khanate of Sibir",
+      "Kalmar Union",
+      "House of Jagiellon",
+      "Khanate of Kazan",
+      "Kazakh Khanate",
+      "Nogai Horde",
+      "Kingdom of France",
+      "Kingdom of Hungary",
+      "Holy Roman Empire Minor States",
+      "Astrakhan Khanate",
+      "Kingdom of England",
+      "Crimean Khanate",
+      "Kingdom of Bohemia"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q42188",
+  "slug": "abel-tasman",
+  "name": "Abel Tasman",
+  "wikipedia": "Abel Tasman",
+  "role": "Dutch seafarer, explorer and merchant",
+  "life": "1603–1659",
+  "lifetime": [
+    1603,
+    1659
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch seafarer and explorer, best known for his voyages of 1642 and 1644 in the service of the Dutch East India Company.",
+  "image": "images/abel-tasman.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "Abel Janszoon Tasman (Dutch: [ˈaːbəl ˈjɑnszoːn ˈtɑsmɑn]; 1603 – 10 October 1659) was a Dutch seafarer and explorer, best known for his voyages of 1642 and 1644 in the service of the Dutch East India Company (VOC). He was the first European to reach New Zealand, which he named Staten Landt. He also discovered and was the eponym of Tasmania.",
+    "photo": "no death year in or after 1860"
+  }
+}

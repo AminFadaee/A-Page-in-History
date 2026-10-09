@@ -1,0 +1,36 @@
+{
+  "id": "Q80095",
+  "slug": "kenzaburo-oe",
+  "name": "Kenzaburō Ōe",
+  "wikipedia": "Kenzaburō Ōe",
+  "role": "Japanese writer",
+  "life": "1935–2023",
+  "lifetime": [
+    1935,
+    2023
+  ],
+  "occupation": "Writer",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Empire of Japan"
+  ],
+  "related": [],
+  "contribution": "A Japanese writer and a major figure in contemporary Japanese literature.",
+  "image": "images/kenzaburo-oe.jpg",
+  "image_credit": "Thesupermat · CC BY-SA 3.0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Empire of Japan"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Empire of Japan"
+      ]
+    },
+    "lead": "Kenzaburō Ōe (大江 健三郎, Ōe Kenzaburō; 31 January 1935 – 3 March 2023) was a Japanese writer and a major figure in contemporary Japanese literature. His novels, short stories and essays, strongly influenced by French and American literature and literary theory, deal with political, social and philosophical issues, including nuclear weapons, nuclear power, social non-conformism, and existentialism. Ōe was awarded the 1994 Nobel Prize in Literature for creating \"an imagined world, where life and myth condense to form a disconcerting picture of the human predicament today\".",
+    "photo": "captured 2012-03-18 14:56 during their lifetime"
+  }
+}

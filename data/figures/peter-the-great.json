@@ -1,0 +1,46 @@
+{
+  "id": "Q8479",
+  "slug": "peter-the-great",
+  "name": "Peter the Great",
+  "wikipedia": "Peter the Great",
+  "role": "Tsar of Russia from 1682 to 1725",
+  "life": "1672–1725",
+  "lifetime": [
+    1672,
+    1725
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Tsardom of Russia",
+    "Russian Empire"
+  ],
+  "related": [
+    "Ottoman Empire",
+    "Swedish Empire"
+  ],
+  "contribution": "The tsar of all Russia from 1682 to 1721, and the first emperor of Russia from 1721 until his death in 1725.",
+  "image": "images/peter-the-great.jpg",
+  "image_credit": "Attributed to Jean-Marc Nattier · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Tsardom of Russia",
+        "Russian Empire"
+      ],
+      "lead": [
+        "Ottoman Empire",
+        "Swedish Empire",
+        "Tsardom of Russia",
+        "Russian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Tsardom of Russia"
+      ]
+    },
+    "lead": "Peter I (9 June 1672 – 8 February 1725), known by the epithet the Great, was the tsar of all Russia from 1682 to 1721, and the first emperor of Russia from 1721 until his death in 1725. He reigned jointly with his brother, Ivan V, from 1682 until Ivan's death in 1696.",
+    "photo": "no death year in or after 1860"
+  }
+}

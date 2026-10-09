@@ -1,0 +1,95 @@
+{
+  "id": "Q282428",
+  "slug": "mamluk-sultanate",
+  "name": "Mamluk Sultanate",
+  "wikipedia": "Mamluk Sultanate",
+  "map_year": 1516,
+  "period": {
+    "start": {
+      "earliest": 1250,
+      "latest": 1250,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1517,
+      "latest": 1517,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Cairo",
+      "location": [
+        31.235833333333332,
+        30.044444444444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kingdom of Jerusalem"
+  ],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q1417881",
+      "name": "Al-Mustansir II"
+    },
+    {
+      "id": "Q284627",
+      "name": "Al-Hakim I"
+    },
+    {
+      "id": "Q210445",
+      "name": "Al-Musta'in"
+    },
+    {
+      "id": "Q210489",
+      "name": "Al-Mutawakkil III"
+    }
+  ],
+  "modern_countries": [
+    "Egypt",
+    "Saudi Arabia",
+    "Yemen",
+    "Syria",
+    "Libya",
+    "Jordan",
+    "Israel",
+    "Lebanon",
+    "Palestine"
+  ],
+  "map": "maps/mamluk-sultanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cairo"
+      ],
+      "infobox": [
+        "Cairo"
+      ]
+    },
+    "cliopatria_years": [
+      1241,
+      1518
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Safavid Dynasty",
+      "Ottoman Empire",
+      "Makuria Kingdom",
+      "Hafsid Dynasty",
+      "Funj Sultanate",
+      "Kingdom of Spain",
+      "Khanate of Bukhara",
+      "Ethiopian Empire",
+      "Lodi Dynasty",
+      "Bornu Empire",
+      "Timurid Empire",
+      "Kashmiri Sultanate",
+      "Khanate of Khiva"
+    ]
+  }
+}

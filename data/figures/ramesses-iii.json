@@ -1,0 +1,36 @@
+{
+  "id": "Q1528",
+  "slug": "ramesses-iii",
+  "name": "Ramesses III",
+  "wikipedia": "Ramesses III",
+  "role": "Pharaoh of Egypt from 1185 to 1154 BC",
+  "life": "c. 1217–1155 BC",
+  "lifetime": [
+    -1217,
+    -1155
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "New Kingdom of Egypt"
+  ],
+  "related": [],
+  "contribution": "The second Pharaoh of the Twentieth Dynasty in ancient Egypt.",
+  "image": "images/ramesses-iii.jpg",
+  "image_credit": "Miguel Hermoso Cuesta · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "New Kingdom of Egypt"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "New Kingdom of Egypt"
+      ]
+    },
+    "lead": "Usermaatre Meryamun Ramesses III was the second Pharaoh of the Twentieth Dynasty in ancient Egypt. Some scholars date his reign from 26 March 1185 to 15 April 1154 BC, and he is considered to be the last pharaoh of the New Kingdom to have wielded substantial power.",
+    "photo": "no death year in or after 1860"
+  }
+}

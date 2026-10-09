@@ -1,0 +1,37 @@
+{
+  "id": "Q25973",
+  "slug": "hermann-hesse",
+  "name": "Hermann Hesse",
+  "wikipedia": "Hermann Hesse",
+  "role": "German writer",
+  "life": "1877–1962",
+  "lifetime": [
+    1877,
+    1962
+  ],
+  "occupation": "Writer",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire"
+  ],
+  "related": [],
+  "contribution": "A German-Swiss poet and novelist, and winner of the 1946 Nobel Prize in Literature.",
+  "image": "images/hermann-hesse.jpg",
+  "image_credit": "Unknown authorUnknown author · CC BY-SA 3.0 nl",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Swiss Confederation"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Hermann Karl Hesse (German: [ˈhɛʁman ˈhɛsə] ; 2 July 1877 – 9 August 1962) was a German-Swiss poet and novelist, and winner of the 1946 Nobel Prize in Literature. His interest in Eastern religious, spiritual, and philosophical traditions, combined with his involvement with Jungian analysis, helped shape his literary work. His best-known novels include Demian, Steppenwolf, Siddhartha, Narcissus and Goldmund, and The Glass Bead Game, each of which explores an individual's search for authenticity, self-knowledge, and spirituality.",
+    "photo": "capture date 'Unknown date' not within their lifetime and not classified as a photograph"
+  }
+}

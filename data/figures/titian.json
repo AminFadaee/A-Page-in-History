@@ -1,0 +1,36 @@
+{
+  "id": "Q47551",
+  "slug": "titian",
+  "name": "Titian",
+  "wikipedia": "Titian",
+  "role": "Italian painter",
+  "life": "c. 1490–1576",
+  "lifetime": [
+    1490,
+    1576
+  ],
+  "occupation": "Painter",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Republic of Venice"
+  ],
+  "related": [],
+  "contribution": "An Italian Renaissance painter.",
+  "image": "images/titian.jpg",
+  "image_credit": "Titian · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Venice"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Republic of Venice"
+      ]
+    },
+    "lead": "Tiziano Vecellio (Italian: [titˈtsjaːno veˈtʃɛlljo]; c. 1488/1490 – 27 August 1576), Latinized as Titianus, hence known in English as Titian (  TISH-ən), was an Italian Renaissance painter. The most important artist of Renaissance Venetian painting, he was born in Pieve di Cadore, near Belluno.",
+    "photo": "no death year in or after 1860"
+  }
+}

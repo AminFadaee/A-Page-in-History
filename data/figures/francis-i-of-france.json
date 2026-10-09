@@ -1,0 +1,36 @@
+{
+  "id": "Q129857",
+  "slug": "francis-i-of-france",
+  "name": "Francis I of France",
+  "wikipedia": "Francis I of France",
+  "role": "King of France from 1515 to 1547",
+  "life": "1494–1547",
+  "lifetime": [
+    1494,
+    1547
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "King of France from 1515 until his death in 1547.",
+  "image": "images/francis-i-of-france.jpg",
+  "image_credit": "Jean Clouet · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Francis I (French: François Ier; Middle French: Françoys; 12 September 1494 – 31 March 1547) was King of France from 1515 until his death in 1547. He was the son of Charles, Count of Angoulême, and Louise of Savoy. He succeeded his first cousin once removed and father-in-law Louis XII, who died without a legitimate son.",
+    "photo": "no death year in or after 1860"
+  }
+}

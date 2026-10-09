@@ -1,0 +1,36 @@
+{
+  "id": "Q81000",
+  "slug": "richard-ii-of-england",
+  "name": "Richard II of England",
+  "wikipedia": "Richard II of England",
+  "role": "King of England from 1377 to 1399",
+  "life": "c. 1367–1400",
+  "lifetime": [
+    1367,
+    1400
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of England from 1377 until he was deposed in 1399.",
+  "image": "images/richard-ii-of-england.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Richard II (6 January 1367 – c. 14 February 1400), also known as Richard of Bordeaux, was King of England from 1377 until he was deposed in 1399. He was the son of Edward the Black Prince and Joan of Kent. The Black Prince died in 1376, leaving Richard as heir apparent to his grandfather, King Edward III. Upon the King's death, the 10-year-old Richard succeeded to the throne.",
+    "photo": "no death year in or after 1860"
+  }
+}

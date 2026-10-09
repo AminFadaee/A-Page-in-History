@@ -1,0 +1,46 @@
+{
+  "id": "Q37610",
+  "slug": "david-ben-gurion",
+  "name": "David Ben-Gurion",
+  "wikipedia": "David Ben-Gurion",
+  "role": "Prime Minister of Israel",
+  "life": "1886–1973",
+  "lifetime": [
+    1886,
+    1973
+  ],
+  "occupation": "Politician",
+  "birth_country": "Poland",
+  "civilizations": [
+    "Russian Empire",
+    "Ottoman Empire",
+    "State of Israel"
+  ],
+  "related": [
+    "Federal Republic of Germany"
+  ],
+  "contribution": "The primary national founder and first prime minister of the State of Israel.",
+  "image": "images/david-ben-gurion.jpg",
+  "image_credit": "Fritz Cohen · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Ottoman Empire",
+        "State of Israel"
+      ],
+      "lead": [
+        "State of Israel",
+        "Ottoman Empire",
+        "Federal Republic of Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "David Ben-Gurion ( ben GOOR-ee-ən; Hebrew: דָּוִד בֶּן־גּוּרִיּוֹן [daˈvid ben ɡuʁˈjon] ; born David Grün; 16 October 1886 – 1 December 1973) was the primary national founder and first prime minister of the State of Israel. As head of the Jewish Agency from 1935, and later president of the Jewish Agency Executive, he was the de facto leader of the Jewish community in Palestine, and largely led the movement for an independent Jewish state in Mandatory Palestine.",
+    "photo": "captured Taken on 29 February 1960 during their lifetime"
+  }
+}

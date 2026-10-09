@@ -1,0 +1,40 @@
+{
+  "id": "Q44279",
+  "slug": "oliver-cromwell",
+  "name": "Oliver Cromwell",
+  "wikipedia": "Oliver Cromwell",
+  "role": "English military and political leader",
+  "life": "1599–1658",
+  "lifetime": [
+    1599,
+    1658
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England",
+    "Commonwealth of England"
+  ],
+  "related": [],
+  "contribution": "An English statesman and soldier, widely regarded as one of the most important figures in British history.",
+  "image": "images/oliver-cromwell.jpg",
+  "image_credit": "After Samuel Cooper · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England",
+        "Commonwealth of England"
+      ],
+      "lead": [
+        "Commonwealth of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Oliver Cromwell (25 April 1599 – 3 September 1658) was an English statesman and soldier, widely regarded as one of the most important figures in British history. He came to prominence during the Wars of the Three Kingdoms, initially as a senior commander in the Parliamentarian army and later as a politician. A leading advocate of the execution of Charles I in January 1649, which led to the establishment of the Commonwealth of England, Cromwell ruled as Lord Protector from December 1653 until his death in September 1658.",
+    "photo": "no death year in or after 1860"
+  }
+}

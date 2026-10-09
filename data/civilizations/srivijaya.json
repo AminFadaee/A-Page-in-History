@@ -1,0 +1,59 @@
+{
+  "id": "Q234197",
+  "slug": "srivijaya",
+  "name": "Srivijaya",
+  "wikipedia": "Srivijaya",
+  "map_year": 718,
+  "period": {
+    "start": {
+      "earliest": 671,
+      "latest": 671,
+      "circa": true
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Palembang",
+      "location": [
+        104.76444444444,
+        -2.9833333333333
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Kingdom of Singapura"
+  ],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Indonesia",
+    "Malaysia",
+    "Thailand",
+    "Singapore"
+  ],
+  "map": "maps/srivijaya.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Palembang"
+      ],
+      "infobox": [
+        "Palembang"
+      ]
+    },
+    "cliopatria_years": [
+      674,
+      1293
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Water Chenla",
+      "Land Chenla",
+      "Lavo Kingdom"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Q130969",
+  "slug": "philip-iv-of-france",
+  "name": "Philip IV of France",
+  "wikipedia": "Philip IV of France",
+  "role": "King of France from 1285 to 1314",
+  "life": "1268–1314",
+  "lifetime": [
+    1268,
+    1314
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of Hungary",
+    "Kingdom of Naples",
+    "Duchy of Aquitaine",
+    "County of Flanders"
+  ],
+  "contribution": "King of France from 1285 to 1314.",
+  "image": "images/philip-iv-of-france.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of France",
+        "Kingdom of Hungary",
+        "Kingdom of Naples",
+        "Duchy of Aquitaine",
+        "County of Flanders"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Philip IV (April–June 1268 – 29 November 1314), called Philip the Fair (French: Philippe le Bel), was King of France from 1285 to 1314. By virtue of his marriage with Joan I of Navarre, he was also King of Navarre and Count of Champagne as Philip I from 1284 to 1305. Although Philip was known to be handsome, hence the epithet le Bel, his rigid, autocratic, imposing, and inflexible personality gained him (from friend and foe alike) other nicknames, such as the Iron King (French: le Roi de fer). His fierce opponent Bernard Saisset, bishop of Pamiers, said of him: \"He is neither man nor beast. He is a statue.\"",
+    "photo": "no death year in or after 1860"
+  }
+}

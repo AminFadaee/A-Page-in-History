@@ -1,0 +1,43 @@
+{
+  "id": "Q57135",
+  "slug": "erich-von-manstein",
+  "name": "Erich von Manstein",
+  "wikipedia": "Erich von Manstein",
+  "role": "German field marshal",
+  "life": "1887–1973",
+  "lifetime": [
+    1887,
+    1973
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [
+    "Kingdom of Belgium",
+    "Federal Republic of Germany"
+  ],
+  "contribution": "A German military officer  who served as a Generalfeldmarschall in the Heer of Nazi Germany during World War II. He was subsequently convicted of war crimes and sentenced to 18 years imprisonment, but served fewer than four years before being released in 1953.",
+  "image": "images/erich-von-manstein.jpg",
+  "image_credit": "UnknownUnknown · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Nazi Germany",
+        "Kingdom of Belgium",
+        "Federal Republic of Germany"
+      ],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Erich von Manstein (born Fritz Erich Georg Eduard von Lewinski; 24 November 1887 – 10 June 1973) was a German military officer  who served as a Generalfeldmarschall (Field marshal) in the Heer (Army) of Nazi Germany during World War II. He was subsequently convicted of war crimes and sentenced to 18 years imprisonment, but served fewer than four years before being released in 1953.",
+    "photo": "captured 1938date QS:P571,+1938-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

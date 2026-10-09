@@ -1,0 +1,41 @@
+{
+  "id": "Q42992",
+  "slug": "golda-meir",
+  "name": "Golda Meir",
+  "wikipedia": "Golda Meir",
+  "role": "Prime Minister of Israel from 1969 to 1974",
+  "life": "1898–1978",
+  "lifetime": [
+    1898,
+    1978
+  ],
+  "occupation": "Politician",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "State of Israel",
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "The prime minister of Israel from 1969 to 1974.",
+  "image": "images/golda-meir.jpg",
+  "image_credit": "Talmoryair (talk) after Marion S. Trikosko · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "State of Israel"
+      ],
+      "lead": [
+        "Russian Empire"
+      ],
+      "vital_section": [
+        "State of Israel"
+      ],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Golda Meir (previously Meyerson; née Mabovitch; 3 May 1898 – 8 December 1978) was the prime minister of Israel from 1969 to 1974. She was Israel's first and, to date, only female head of government.",
+    "photo": "captured 1973-03-01 during their lifetime"
+  }
+}

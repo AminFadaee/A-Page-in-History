@@ -37,6 +37,7 @@
     "Parthian Empire"
   ],
   "successors": [
+    "Dabuyid Dynasty",
     "Rashidun Caliphate"
   ],
   "succession": {
@@ -52,9 +53,19 @@
         "name": "Parthian Empire"
       },
       {
+        "id": "Q2816439",
+        "layer": 2,
+        "name": "Dabuyid Dynasty"
+      },
+      {
         "id": "Q12490507",
         "layer": 2,
         "name": "Rashidun Caliphate"
+      },
+      {
+        "id": "Q12544",
+        "layer": 1,
+        "name": "Eastern Roman Empire"
       }
     ],
     "edges": [
@@ -62,6 +73,16 @@
         "Q1986139",
         "Q83891",
         "Iran, Turkmenistan"
+      ],
+      [
+        "Q83891",
+        "Q2816439",
+        "Iran"
+      ],
+      [
+        "Q12544",
+        "Q12490507",
+        "Egypt, Turkey, Libya"
       ],
       [
         "Q83891",

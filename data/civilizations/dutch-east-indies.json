@@ -1,0 +1,106 @@
+{
+  "id": "Q188161",
+  "slug": "dutch-east-indies",
+  "name": "Dutch East Indies",
+  "wikipedia": "Dutch East Indies",
+  "map_year": 1915,
+  "period": {
+    "start": {
+      "earliest": 1800,
+      "latest": 1800,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1949,
+      "latest": 1949,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Batavia",
+      "location": [
+        106.813222,
+        -6.134836
+      ]
+    }
+  ],
+  "predecessors": [
+    "Sultanate of Banjar",
+    "Sultanate of Palembang"
+  ],
+  "successors": [
+    "Republic of Indonesia"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q188161",
+        "layer": 1,
+        "name": "Dutch East Indies"
+      },
+      {
+        "id": "Q1660566",
+        "layer": 0,
+        "name": "Sultanate of Banjar"
+      },
+      {
+        "id": "Q3503555",
+        "layer": 0,
+        "name": "Sultanate of Palembang"
+      },
+      {
+        "id": "Q252",
+        "layer": 2,
+        "name": "Republic of Indonesia"
+      }
+    ],
+    "edges": [
+      [
+        "Q1660566",
+        "Q188161",
+        "Indonesia"
+      ],
+      [
+        "Q3503555",
+        "Q188161",
+        "Indonesia"
+      ],
+      [
+        "Q188161",
+        "Q252",
+        "Indonesia"
+      ]
+    ],
+    "question": "successions/dutch-east-indies-question.png",
+    "answer": "successions/dutch-east-indies-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Indonesia"
+  ],
+  "map": "maps/dutch-east-indies.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Batavia, Dutch East Indies"
+      ],
+      "infobox": [
+        "Batavia, Dutch East Indies",
+        "Jakarta"
+      ]
+    },
+    "cliopatria_years": [
+      1800,
+      1949
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "British Colonial Empire",
+      "French Indochina",
+      "Rattanakosin Kingdom"
+    ]
+  }
+}

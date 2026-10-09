@@ -1,0 +1,36 @@
+{
+  "id": "Q205162",
+  "slug": "isaiah-berlin",
+  "name": "Isaiah Berlin",
+  "wikipedia": "Isaiah Berlin",
+  "role": "British philosopher",
+  "life": "1909–1997",
+  "lifetime": [
+    1909,
+    1997
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Latvia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A British social and political theorist, philosopher, and historian of ideas.",
+  "image": "images/isaiah-berlin.jpg",
+  "image_credit": "Rob C. Croes (ANEFO) · CC0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Sir Isaiah Berlin (6 June 1909 – 5 November 1997) was a British social and political theorist, philosopher, and historian of ideas.",
+    "photo": "captured 1983-10-27 during their lifetime"
+  }
+}

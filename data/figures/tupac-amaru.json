@@ -1,0 +1,38 @@
+{
+  "id": "Q296269",
+  "slug": "tupac-amaru",
+  "name": "Túpac Amaru",
+  "wikipedia": "Túpac Amaru",
+  "role": "Monarch of the Inca state in Peru",
+  "life": "1545–1572",
+  "lifetime": [
+    1545,
+    1572
+  ],
+  "occupation": "Politician",
+  "birth_country": "Peru",
+  "civilizations": [
+    "Inca Empire"
+  ],
+  "related": [],
+  "contribution": "The last Sapa Inca of the Neo-Inca State, the final remaining independent part of the Inca Empire.",
+  "image": "images/tupac-amaru.jpg",
+  "image_credit": "Cuzco School / Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Inca Empire"
+      ],
+      "vital_section": [
+        "Inca Empire"
+      ],
+      "birthplace": [
+        "Spanish Empire"
+      ]
+    },
+    "lead": "Túpac Amaru or Thupa Amaru (14 April 1545 – 24 September 1572) (first name also spelled Túpac, Tupac, Topa, Tupaq, Thupaq, Thupa, last name also spelled Amaro instead of Amaru) was the last Sapa Inca of the Neo-Inca State, the final remaining independent part of the Inca Empire. He was executed by the Spanish following a months-long pursuit after the fall of the Neo-Inca State.",
+    "photo": "no death year in or after 1860"
+  }
+}

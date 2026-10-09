@@ -1,0 +1,39 @@
+{
+  "id": "Q105452",
+  "slug": "lepidus",
+  "name": "Lepidus",
+  "wikipedia": "Lepidus",
+  "role": "Roman politician and general",
+  "life": "c. 90–13 BC",
+  "lifetime": [
+    -90,
+    -13
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [
+    "Roman Empire"
+  ],
+  "contribution": "A Roman general and statesman who formed the Second Triumvirate alongside Octavian and Mark Antony during the final years of the Roman Republic.",
+  "image": "images/lepidus.jpg",
+  "image_credit": "Shakko · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Republic",
+        "Roman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Marcus Aemilius Lepidus ( ; c. 89 BC – late 13 or early 12 BC) was a Roman general and statesman who formed the Second Triumvirate alongside Octavian and Mark Antony during the final years of the Roman Republic. Lepidus had previously been a close ally of Julius Caesar. He was also the last pontifex maximus before the Roman Empire, and (presumably) the last interrex and magister equitum to hold military command.",
+    "photo": "no death year in or after 1860"
+  }
+}

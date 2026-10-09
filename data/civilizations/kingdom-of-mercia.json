@@ -1,0 +1,91 @@
+{
+  "id": "Q105092",
+  "slug": "kingdom-of-mercia",
+  "name": "Kingdom of Mercia",
+  "wikipedia": "Mercia",
+  "map_year": 800,
+  "period": {
+    "start": {
+      "earliest": 527,
+      "latest": 527,
+      "circa": false
+    },
+    "end": {
+      "earliest": 918,
+      "latest": 918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Hwicce"
+  ],
+  "successors": [
+    "Kingdom of Wessex"
+  ],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q738812",
+      "name": "Icel of Mercia"
+    },
+    {
+      "id": "Q332123",
+      "name": "Penda of Mercia"
+    },
+    {
+      "id": "Q164499",
+      "name": "Wulfhere of Mercia"
+    },
+    {
+      "id": "Q272148",
+      "name": "Æthelbald of Mercia"
+    },
+    {
+      "id": "Q233573",
+      "name": "Offa of Mercia"
+    },
+    {
+      "id": "Q762675",
+      "name": "Coenwulf of Mercia"
+    },
+    {
+      "id": "Q888634",
+      "name": "Ceolwulf I of Mercia"
+    },
+    {
+      "id": "Q818595",
+      "name": "Beornwulf of Mercia"
+    },
+    {
+      "id": "Q852077",
+      "name": "Burgred of Mercia"
+    }
+  ],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "map": "maps/kingdom-of-mercia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tamworth, Staffordshire"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      534,
+      925
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Northumbria",
+      "Kingdom of the Franks",
+      "Dál Riata",
+      "Breton Kingdoms",
+      "Duchy of Croatia"
+    ]
+  }
+}

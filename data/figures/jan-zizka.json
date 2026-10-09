@@ -1,0 +1,38 @@
+{
+  "id": "Q215968",
+  "slug": "jan-zizka",
+  "name": "Jan Žižka",
+  "wikipedia": "Jan Žižka",
+  "role": "Czech military commander",
+  "life": "c. 1360–1424",
+  "lifetime": [
+    1360,
+    1424
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Kingdom of Bohemia"
+  ],
+  "related": [],
+  "contribution": "A Czech military leader and knight who was a contemporary and follower of Jan Hus, and a prominent Radical Hussite who led the Taborite faction during the Hussite Wars.",
+  "image": "images/jan-zizka.jpg",
+  "image_credit": "Adolf Liebscher (1857–1919) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Bohemia"
+      ],
+      "lead": [
+        "Kingdom of Bohemia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Bohemia"
+      ]
+    },
+    "lead": "Jan Žižka z Trocnova a Kalicha (English: John Zizka of Trocnov and the Chalice; c. 1360 – 11 October 1424) was a Czech military leader and knight who was a contemporary and follower of Jan Hus, and a prominent Radical Hussite who led the Taborite faction during the Hussite Wars. Renowned for his exceptional military skill, Žižka is celebrated as a Czech national hero. Žižka led the Hussite forces in battles against three crusades and remained undefeated throughout his military career.",
+    "photo": "no death year in or after 1860"
+  }
+}

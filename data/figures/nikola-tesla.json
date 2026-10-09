@@ -1,0 +1,42 @@
+{
+  "id": "Q9036",
+  "slug": "nikola-tesla",
+  "name": "Nikola Tesla",
+  "wikipedia": "Nikola Tesla",
+  "role": "Serbian-American engineer and inventor",
+  "life": "1856–1943",
+  "lifetime": [
+    1856,
+    1943
+  ],
+  "occupation": "Inventor",
+  "birth_country": "Croatia",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [
+    "Austria-Hungary"
+  ],
+  "contribution": "A Serbian-American engineer, futurist, and inventor.",
+  "image": "images/nikola-tesla.jpg",
+  "image_credit": "Napoleon Sarony · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire",
+        "Hungarian Republic",
+        "United States of America"
+      ],
+      "lead": [
+        "Austria-Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Nikola Tesla (10 July 1856 – 7 January 1943) was a Serbian-American engineer, futurist, and inventor. He is known for his contributions to the design of the modern alternating current (AC) electricity supply system.",
+    "photo": "captured circa 1890date QS:P,+1890-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

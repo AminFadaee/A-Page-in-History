@@ -1,0 +1,135 @@
+{
+  "id": "Q18234383",
+  "slug": "safavid-dynasty",
+  "name": "Safavid Dynasty",
+  "wikipedia": "Safavid Iran",
+  "map_year": 1512,
+  "period": {
+    "start": {
+      "earliest": 1501,
+      "latest": 1501,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1736,
+      "latest": 1736,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ]
+    },
+    {
+      "name": "Qazvin",
+      "location": [
+        50.0041,
+        36.28543666666667
+      ]
+    },
+    {
+      "name": "Isfahan",
+      "location": [
+        51.67472222222222,
+        32.6525
+      ]
+    }
+  ],
+  "predecessors": [
+    "Aq Qoyunlu"
+  ],
+  "successors": [
+    "Afsharid Iran"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q18234383",
+        "layer": 1,
+        "name": "Safavid Dynasty"
+      },
+      {
+        "id": "Q555994",
+        "layer": 0,
+        "name": "Aq Qoyunlu"
+      },
+      {
+        "id": "Q63149558",
+        "layer": 2,
+        "name": "Afsharid Iran"
+      }
+    ],
+    "edges": [
+      [
+        "Q555994",
+        "Q18234383",
+        "Iran, Iraq"
+      ],
+      [
+        "Q18234383",
+        "Q63149558",
+        "Iran, Afghanistan, Turkmenistan"
+      ]
+    ],
+    "question": "successions/safavid-dynasty-question.png",
+    "answer": "successions/safavid-dynasty-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q214559",
+      "name": "Ismail I"
+    },
+    {
+      "id": "Q281336",
+      "name": "Abbas III"
+    }
+  ],
+  "modern_countries": [
+    "Iran",
+    "Turkmenistan",
+    "Iraq",
+    "Afghanistan",
+    "Turkey",
+    "Armenia"
+  ],
+  "map": "maps/safavid-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tabriz",
+        "Qazvin",
+        "Isfahan"
+      ],
+      "infobox": [
+        "Tabriz",
+        "Qazvin",
+        "Isfahan"
+      ]
+    },
+    "cliopatria_years": [
+      1502,
+      1737
+    ],
+    "identity": "the state named after Safavid dynasty",
+    "labelled": [
+      "Mamluk Sultanate",
+      "Ottoman Empire",
+      "Khanate of Khiva",
+      "Shirvan",
+      "Moghulistan",
+      "Lodi Dynasty",
+      "Makuria Kingdom",
+      "Kashmiri Sultanate",
+      "Astrakhan Khanate",
+      "Sind-Samma Dynasty",
+      "Crimean Khanate",
+      "Principality of Wallachia"
+    ]
+  }
+}

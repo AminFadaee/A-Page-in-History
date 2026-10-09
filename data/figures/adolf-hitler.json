@@ -1,0 +1,48 @@
+{
+  "id": "Q352",
+  "slug": "adolf-hitler",
+  "name": "Adolf Hitler",
+  "wikipedia": "Adolf Hitler",
+  "role": "Dictator of Germany from 1933 to 1945",
+  "life": "1889–1945",
+  "lifetime": [
+    1889,
+    1945
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Nazi Germany",
+    "Austria-Hungary"
+  ],
+  "related": [
+    "German Empire",
+    "Weimar Republic",
+    "French Third Republic"
+  ],
+  "contribution": "An Austrian-born  German politician who was dictator of Germany in the Nazi era from 1933 until his suicide in 1945.",
+  "image": "images/adolf-hitler.jpg",
+  "image_credit": "Unknown authorUnknown author · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Austria",
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Nazi Germany",
+        "Austria-Hungary",
+        "German Empire",
+        "Weimar Republic",
+        "French Third Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Adolf Hitler (20 April 1889 – 30 April 1945) was an Austrian-born  German politician who was dictator of Germany in the Nazi era from 1933 until his suicide in 1945. He rose to power as the leader of the Nazi Party, becoming the chancellor of Germany in 1933 and then taking the title of Führer und Reichskanzler in 1934. Germany's invasion of Poland on 1 September 1939 under his leadership marked the outbreak of the Second World War. Throughout the ensuing conflict, Hitler was closely involved in the direction of German military operations and was central to the perpetration of the genocide of about six million Jews in the Holocaust as well as the deaths of millions of other victims.",
+    "photo": "captured 20 April 1937date QS:P571,+1937-04-20T00:00:00Z/11 during their lifetime"
+  }
+}

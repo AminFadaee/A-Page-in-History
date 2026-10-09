@@ -1,0 +1,129 @@
+{
+  "id": "Q34266",
+  "slug": "russian-empire",
+  "name": "Russian Empire",
+  "wikipedia": "Russian Empire",
+  "map_year": 1900,
+  "period": {
+    "start": {
+      "earliest": 1721,
+      "latest": 1721,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1917,
+      "latest": 1917,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Saint Petersburg",
+      "location": [
+        30.316666666667,
+        59.95
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kingdom of Imereti",
+    "Principality of Abkhazia",
+    "Tsardom of Russia"
+  ],
+  "successors": [
+    "Russian Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q34266",
+        "layer": 1,
+        "name": "Russian Empire"
+      },
+      {
+        "id": "Q186096",
+        "layer": 0,
+        "name": "Tsardom of Russia"
+      },
+      {
+        "id": "Q139319",
+        "layer": 2,
+        "name": "Russian Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q186096",
+        "Q34266",
+        "Russia"
+      ],
+      [
+        "Q34266",
+        "Q139319",
+        "Russia, Kazakhstan"
+      ]
+    ],
+    "question": "successions/russian-empire-question.png",
+    "answer": "successions/russian-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q8479",
+      "name": "Peter the Great"
+    },
+    {
+      "id": "Q40787",
+      "name": "Nicholas II"
+    }
+  ],
+  "modern_countries": [
+    "Russia",
+    "Kazakhstan",
+    "Ukraine",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Finland",
+    "Belarus",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Azerbaijan",
+    "Georgia",
+    "Latvia",
+    "Lithuania",
+    "Estonia",
+    "Moldova",
+    "Armenia",
+    "Åland"
+  ],
+  "map": "maps/russian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Saint Petersburg"
+      ],
+      "infobox": [
+        "Saint Petersburg",
+        "Moscow"
+      ]
+    },
+    "cliopatria_years": [
+      1721,
+      1916
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Qing Dynasty",
+      "Qajar Dynasty",
+      "German Empire",
+      "British Raj",
+      "British Africa",
+      "French Africa",
+      "Belgian Congo",
+      "Ottoman Tripolitania",
+      "Kingdom of Spain",
+      "Ethiopian Empire"
+    ]
+  }
+}

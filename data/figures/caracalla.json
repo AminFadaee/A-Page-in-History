@@ -18,6 +18,7 @@
   "contribution": "Roman emperor from 198 to 217 AD, first serving as nominal co-emperor under his father and then ruling alone after 211 AD. He was a member of the Severan dynasty, the elder son of Emperor Septimius Severus and Empress Julia Domna.",
   "image": "images/caracalla.jpg",
   "image_credit": "CC BY 2.5",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -31,6 +32,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Marcus Aurelius Antoninus (born Lucius Septimius Bassianus, 4 April 188 – 8 April 217), better known by his nickname Caracalla (; Latin: [karaˈkalːa]), was Roman emperor from 198 to 217 AD, first serving as nominal co-emperor under his father and then ruling alone after 211 AD. He was a member of the Severan dynasty, the elder son of Emperor Septimius Severus and Empress Julia Domna. Severus proclaimed Caracalla co-ruler in 198, doing the same with his other son Geta in 209. The two brothers briefly shared power after their father's death in 211, but Caracalla soon had Geta murdered by the Praetorian Guard and became sole ruler of the Roman Empire. Julia Domna had a significant share in governance, since Caracalla found administration to be mundane. His reign featured domestic instability and external invasions by the Germanic peoples."
+    "lead": "Marcus Aurelius Antoninus (born Lucius Septimius Bassianus, 4 April 188 – 8 April 217), better known by his nickname Caracalla (; Latin: [karaˈkalːa]), was Roman emperor from 198 to 217 AD, first serving as nominal co-emperor under his father and then ruling alone after 211 AD. He was a member of the Severan dynasty, the elder son of Emperor Septimius Severus and Empress Julia Domna. Severus proclaimed Caracalla co-ruler in 198, doing the same with his other son Geta in 209. The two brothers briefly shared power after their father's death in 211, but Caracalla soon had Geta murdered by the Praetorian Guard and became sole ruler of the Roman Empire. Julia Domna had a significant share in governance, since Caracalla found administration to be mundane. His reign featured domestic instability and external invasions by the Germanic peoples.",
+    "photo": "no death year in or after 1860"
   }
 }

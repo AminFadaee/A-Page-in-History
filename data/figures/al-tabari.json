@@ -16,8 +16,9 @@
   ],
   "related": [],
   "contribution": "A prominent Sunni Muslim scholar, polymath, historian, Quranic exegete, jurist, and theologian from Amol, Tabaristan, in present-day Iran.",
-  "image": "images/al-tabari.jpg",
-  "image_credit": "السيف ذو الوشاح · CC BY-SA 4.0",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -31,6 +32,7 @@
         "Abbasid Caliphate"
       ]
     },
-    "lead": "Abū Jaʿfar Muḥammad ibn Jarīr ibn Yazīd al-Ṭabarī (Arabic: أَبُو جَعْفَر مُحَمَّد بْن جَرِير بْن يَزِيد ٱلطَّبَرِيّ; 839–923 CE; 224–310 AH), commonly known as al-Ṭabarī (Arabic: ٱلطَّبَرِيّ), was a prominent Sunni Muslim scholar, polymath, historian, Quranic exegete, jurist, and theologian from Amol, Tabaristan, in present-day Iran. One of the prominent scholars of the Islamic Golden Age, he was particularly renowned for his works on world history and Quranic exegesis and has been described as \"an impressively prolific polymath\". His writings ranged beyond history, law, and theology to poetry, lexicography, grammar, ethics, mathematics, and medicine."
+    "lead": "Abū Jaʿfar Muḥammad ibn Jarīr ibn Yazīd al-Ṭabarī (Arabic: أَبُو جَعْفَر مُحَمَّد بْن جَرِير بْن يَزِيد ٱلطَّبَرِيّ; 839–923 CE; 224–310 AH), commonly known as al-Ṭabarī (Arabic: ٱلطَّبَرِيّ), was a prominent Sunni Muslim scholar, polymath, historian, Quranic exegete, jurist, and theologian from Amol, Tabaristan, in present-day Iran. One of the prominent scholars of the Islamic Golden Age, he was particularly renowned for his works on world history and Quranic exegesis and has been described as \"an impressively prolific polymath\". His writings ranged beyond history, law, and theology to poetry, lexicography, grammar, ethics, mathematics, and medicine.",
+    "photo": "image is a coin or calligraphy"
   }
 }

@@ -18,6 +18,7 @@
   "contribution": "The thirteenth and last Achaemenid King of Kings of Persia, reigning from 336 BC to his death in 330 BC.",
   "image": "images/darius-iii.jpg",
   "image_credit": "Carole Raddato from FRANKFURT, Germany · CC BY-SA 2.0",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -33,6 +34,7 @@
         "Achaemenid Empire"
       ]
     },
-    "lead": "Darius III (Old Persian: 𐎭𐎠𐎼𐎹𐎺𐎢𐏁 Dārayavaʰuš; Ancient Greek: Δαρεῖος Dareios; c. 380 – 330 BC) was the thirteenth and last Achaemenid King of Kings of Persia, reigning from 336 BC to his death in 330 BC."
+    "lead": "Darius III (Old Persian: 𐎭𐎠𐎼𐎹𐎺𐎢𐏁 Dārayavaʰuš; Ancient Greek: Δαρεῖος Dareios; c. 380 – 330 BC) was the thirteenth and last Achaemenid King of Kings of Persia, reigning from 336 BC to his death in 330 BC.",
+    "photo": "no death year in or after 1860"
   }
 }

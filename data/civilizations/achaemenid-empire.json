@@ -54,7 +54,11 @@
       ]
     }
   ],
-  "predecessors": [],
+  "predecessors": [
+    "Neo-Babylonian Empire",
+    "Lydia",
+    "Twenty-sixth Dynasty of Egypt"
+  ],
   "successors": [
     "Macedonian Empire"
   ],
@@ -66,12 +70,42 @@
         "name": "Achaemenid Empire"
       },
       {
+        "id": "Q624887",
+        "layer": 0,
+        "name": "Neo-Babylonian Empire"
+      },
+      {
+        "id": "Q620765",
+        "layer": 0,
+        "name": "Lydia"
+      },
+      {
+        "id": "Q662410",
+        "layer": 0,
+        "name": "Twenty-sixth Dynasty of Egypt"
+      },
+      {
         "id": "Q83958",
         "layer": 2,
         "name": "Macedonian Empire"
       }
     ],
     "edges": [
+      [
+        "Q624887",
+        "Q389688",
+        "Iraq, Turkey, Syria"
+      ],
+      [
+        "Q620765",
+        "Q389688",
+        "Turkey"
+      ],
+      [
+        "Q662410",
+        "Q389688",
+        "Egypt"
+      ],
       [
         "Q389688",
         "Q83958",

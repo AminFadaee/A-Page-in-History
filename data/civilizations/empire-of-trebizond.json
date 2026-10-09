@@ -1,0 +1,113 @@
+{
+  "id": "Q178913",
+  "slug": "empire-of-trebizond",
+  "name": "Empire of Trebizond",
+  "wikipedia": "Empire of Trebizond",
+  "map_year": 1206,
+  "period": {
+    "start": {
+      "earliest": 1204,
+      "latest": 1204,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1461,
+      "latest": 1461,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Trabzon",
+      "location": [
+        39.7225,
+        41.005
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Ottoman Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q178913",
+        "layer": 1,
+        "name": "Empire of Trebizond"
+      },
+      {
+        "id": "Q12560",
+        "layer": 2,
+        "name": "Ottoman Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q178913",
+        "Q12560",
+        "Turkey"
+      ]
+    ],
+    "question": "successions/empire-of-trebizond-question.png",
+    "answer": "successions/empire-of-trebizond-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q314442",
+      "name": "Alexios I of Trebizond"
+    },
+    {
+      "id": "Q366036",
+      "name": "Manuel I of Trebizond"
+    },
+    {
+      "id": "Q452041",
+      "name": "John II of Trebizond"
+    },
+    {
+      "id": "Q537742",
+      "name": "Alexios III of Trebizond"
+    },
+    {
+      "id": "Q503069",
+      "name": "David of Trebizond"
+    }
+  ],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "map": "maps/empire-of-trebizond.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Trabzon"
+      ],
+      "infobox": [
+        "Trabzon"
+      ]
+    },
+    "cliopatria_years": [
+      1206,
+      1462
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Halych-Volhynia occupation",
+      "Sultanate of Rum",
+      "Hamdanid Emirates",
+      "Kingdom of Georgia",
+      "Nicaean Empire",
+      "Second Bulgarian Empire",
+      "Kingdom of Hungary",
+      "Principality of Galicia-Volhynia",
+      "Zengid dynasty",
+      "Armenian Kingdom of Cilicia",
+      "Latin Empire",
+      "Principality of Pereyaslavl",
+      "Kingdom of Serbia"
+    ]
+  }
+}

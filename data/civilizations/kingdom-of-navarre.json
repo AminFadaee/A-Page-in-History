@@ -1,0 +1,68 @@
+{
+  "id": "Q200262",
+  "slug": "kingdom-of-navarre",
+  "name": "Kingdom of Navarre",
+  "wikipedia": "Kingdom of Navarre",
+  "map_year": 1139,
+  "period": {
+    "start": {
+      "earliest": 1162,
+      "latest": 1162,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1841,
+      "latest": 1841,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Pamplona",
+      "location": [
+        -1.65,
+        42.816666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Spain",
+    "France"
+  ],
+  "map": "maps/kingdom-of-navarre.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Pamplona"
+      ],
+      "infobox": [
+        "Pamplona"
+      ]
+    },
+    "cliopatria_years": [
+      1139,
+      1428
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Castile",
+      "Holy Roman Empire",
+      "Almoravid Dynasty",
+      "Kingdom of Sicily",
+      "County of Toulouse",
+      "County of Portugal",
+      "Duchy of Brittany",
+      "County of Blôis",
+      "Hammadid Dynasty",
+      "County of Vermandois",
+      "Kingdom of Arles",
+      "Papal States"
+    ]
+  }
+}

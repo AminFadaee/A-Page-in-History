@@ -1,0 +1,109 @@
+{
+  "id": "Q58296",
+  "slug": "french-directory",
+  "name": "French Directory",
+  "wikipedia": "French First Republic",
+  "map_year": 1799,
+  "period": {
+    "start": {
+      "earliest": 1792,
+      "latest": 1792,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1804,
+      "latest": 1804,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    }
+  ],
+  "predecessors": [
+    "Comtat Venaissin"
+  ],
+  "successors": [
+    "First French Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q58296",
+        "layer": 1,
+        "name": "French Directory"
+      },
+      {
+        "id": "Q71084",
+        "layer": 2,
+        "name": "First French Empire"
+      },
+      {
+        "id": "Q877619",
+        "layer": 1,
+        "name": "French Consulate"
+      }
+    ],
+    "edges": [
+      [
+        "Q58296",
+        "Q71084",
+        "France"
+      ],
+      [
+        "Q877619",
+        "Q71084",
+        "France"
+      ]
+    ],
+    "question": "successions/french-directory-question.png",
+    "answer": "successions/french-directory-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q517",
+      "name": "Napoleon"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Egypt",
+    "Italy",
+    "Belgium",
+    "Luxembourg",
+    "Mauritius",
+    "Malta"
+  ],
+  "map": "maps/french-directory.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris"
+      ],
+      "infobox": [
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1796,
+      1799
+    ],
+    "identity": "the state named after French Directory",
+    "labelled": [
+      "Portuguese Empire",
+      "Ottoman Empire",
+      "Russian Empire",
+      "Qing Dynasty",
+      "Spanish Empire",
+      "Kazakh Khanate",
+      "Durrani Empire"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "Q12544",
+  "slug": "eastern-roman-empire",
+  "name": "Eastern Roman Empire",
+  "wikipedia": "Byzantine Empire",
+  "map_year": 561,
+  "period": {
+    "start": {
+      "earliest": 395,
+      "latest": 395,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1453,
+      "latest": 1453,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Constantinople",
+      "location": [
+        28.976018,
+        41.01224
+      ]
+    }
+  ],
+  "predecessors": [
+    "Roman Empire"
+  ],
+  "successors": [
+    "Rashidun Caliphate"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q12544",
+        "layer": 1,
+        "name": "Eastern Roman Empire"
+      },
+      {
+        "id": "Q2277",
+        "layer": 0,
+        "name": "Roman Empire"
+      },
+      {
+        "id": "Q42834",
+        "layer": 1,
+        "name": "Western Roman Empire"
+      },
+      {
+        "id": "Q12490507",
+        "layer": 2,
+        "name": "Rashidun Caliphate"
+      },
+      {
+        "id": "Q83891",
+        "layer": 1,
+        "name": "Sasanian Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q2277",
+        "Q12544",
+        "Turkey, Egypt"
+      ],
+      [
+        "Q2277",
+        "Q42834",
+        "France, Spain, Italy"
+      ],
+      [
+        "Q12544",
+        "Q12490507",
+        "Egypt, Turkey, Libya"
+      ],
+      [
+        "Q83891",
+        "Q12490507",
+        "Iran, Egypt"
+      ]
+    ],
+    "question": "successions/eastern-roman-empire-question.png",
+    "answer": "successions/eastern-roman-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q46696",
+      "name": "Theodosius I"
+    },
+    {
+      "id": "Q160353",
+      "name": "Theodosius II"
+    },
+    {
+      "id": "Q41866",
+      "name": "Justinian I"
+    },
+    {
+      "id": "Q41852",
+      "name": "Heraclius"
+    },
+    {
+      "id": "Q31755",
+      "name": "Leo III the Isaurian"
+    },
+    {
+      "id": "Q41625",
+      "name": "Nikephoros II Phokas"
+    },
+    {
+      "id": "Q41603",
+      "name": "John I Tzimiskes"
+    },
+    {
+      "id": "Q41833",
+      "name": "Basil II"
+    },
+    {
+      "id": "Q41600",
+      "name": "Alexios I Komnenos"
+    },
+    {
+      "id": "Q41628",
+      "name": "John II Komnenos"
+    },
+    {
+      "id": "Q41610",
+      "name": "Manuel I Komnenos"
+    },
+    {
+      "id": "Q200033",
+      "name": "Michael VIII Palaiologos"
+    },
+    {
+      "id": "Q37142",
+      "name": "Constantine XI Palaiologos"
+    }
+  ],
+  "modern_countries": [
+    "Turkey",
+    "Egypt",
+    "Italy",
+    "Libya",
+    "Syria",
+    "Greece",
+    "Bulgaria",
+    "Tunisia",
+    "Serbia",
+    "Albania",
+    "North Macedonia",
+    "Israel",
+    "Montenegro",
+    "Kosovo",
+    "Lebanon",
+    "Palestine",
+    "Cyprus",
+    "Turkish Republic of Northern Cyprus",
+    "Malta",
+    "San Marino",
+    "Vatican City"
+  ],
+  "map": "maps/eastern-roman-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Constantinople"
+      ],
+      "infobox": [
+        "Constantinople"
+      ]
+    },
+    "cliopatria_years": [
+      395,
+      632
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Sasanian Empire",
+      "Kingdom of the Franks",
+      "Avar Khaganate",
+      "Visigothic Kingdom",
+      "Nobatia",
+      "Lakhmid Kingdom",
+      "Alodia",
+      "Saxons",
+      "Makuria"
+    ]
+  }
+}

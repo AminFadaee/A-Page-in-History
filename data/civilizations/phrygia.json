@@ -1,0 +1,52 @@
+{
+  "id": "Q32579",
+  "slug": "phrygia",
+  "name": "Phrygia",
+  "wikipedia": "Phrygia",
+  "map_year": -700,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -675,
+      "latest": -675,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q1413020",
+      "name": "Gordias"
+    },
+    {
+      "id": "Q308398",
+      "name": "Midas"
+    }
+  ],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "map": "maps/phrygia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Gordion"
+      ]
+    },
+    "cliopatria_years": [
+      -900,
+      -676
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Neo-Assyrian Empire",
+      "Lydia"
+    ]
+  }
+}

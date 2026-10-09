@@ -1,0 +1,107 @@
+{
+  "id": "Q69808",
+  "slug": "vichy-france",
+  "name": "Vichy France",
+  "wikipedia": "Vichy France",
+  "map_year": 1940,
+  "period": {
+    "start": {
+      "earliest": 1940,
+      "latest": 1940,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1944,
+      "latest": 1944,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Paris",
+      "location": [
+        2.352222222222222,
+        48.85666666666667
+      ]
+    },
+    {
+      "name": "Vichy",
+      "location": [
+        3.4258333333333,
+        46.126944444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "French Third Republic"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q69808",
+        "layer": 1,
+        "name": "Vichy France"
+      },
+      {
+        "id": "Q70802",
+        "layer": 0,
+        "name": "French Third Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q70802",
+        "Q69808",
+        "France"
+      ]
+    ],
+    "question": "successions/vichy-france-question.png",
+    "answer": "successions/vichy-france-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q5721",
+      "name": "Philippe Pétain"
+    }
+  ],
+  "modern_countries": [
+    "France"
+  ],
+  "map": "maps/vichy-france.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Paris",
+        "Vichy"
+      ],
+      "infobox": [
+        "Vichy",
+        "De facto and de jure",
+        "Paris"
+      ]
+    },
+    "cliopatria_years": [
+      1940,
+      1943
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Unitary State of Brazil",
+      "Nazi Germany",
+      "Francoist Spain",
+      "French Africa",
+      "Italian Africa",
+      "Republic of Peru",
+      "British Gold Coast",
+      "Republic of Colombia",
+      "Kingdom of Egypt",
+      "Free French",
+      "Bolivia",
+      "Republic of Turkey",
+      "Kingdom of Iraq"
+    ]
+  }
+}

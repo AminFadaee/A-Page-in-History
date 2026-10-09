@@ -1,0 +1,38 @@
+{
+  "id": "Q218186",
+  "slug": "vytautas-the-great",
+  "name": "Vytautas the Great",
+  "wikipedia": "Vytautas the Great",
+  "role": "Grand Duke of Lithuania, 1401–1430",
+  "life": "c. 1350–1430",
+  "lifetime": [
+    1350,
+    1430
+  ],
+  "occupation": "Politician",
+  "birth_country": "Lithuania",
+  "civilizations": [
+    "Grand Duchy of Lithuania"
+  ],
+  "related": [],
+  "contribution": "A ruler of the Grand Duchy of Lithuania, first as regent for his cousin Jogaila and then as the Grand Duke alongside him.",
+  "image": "images/vytautas-the-great.jpg",
+  "image_credit": "Jan Matejko · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Grand Duchy of Lithuania"
+      ],
+      "lead": [
+        "Grand Duchy of Lithuania"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Grand Duchy of Lithuania"
+      ]
+    },
+    "lead": "Vytautas the Great (; also known as Alexander c. 1350 – 27 October 1430) was a ruler of the Grand Duchy of Lithuania, first as regent for his cousin Jogaila (1392–1401) and then as the Grand Duke alongside him (1401–1430). He was also the prince of Grodno (1370–1382) and the prince of Lutsk (1387–1389), as well as claimant to the titles of King of the Hussites and King of Lithuania.",
+    "photo": "no death year in or after 1860"
+  }
+}

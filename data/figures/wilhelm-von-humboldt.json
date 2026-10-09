@@ -1,0 +1,36 @@
+{
+  "id": "Q77888",
+  "slug": "wilhelm-von-humboldt",
+  "name": "Wilhelm von Humboldt",
+  "wikipedia": "Wilhelm von Humboldt",
+  "role": "Prussian philosopher",
+  "life": "1767–1835",
+  "lifetime": [
+    1767,
+    1835
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A Prussian philosopher, linguist, government functionary, diplomat, and founder of the Humboldt University of Berlin.",
+  "image": "images/wilhelm-von-humboldt.jpg",
+  "image_credit": "Lithographie von Friedrich Oldermann nach einem Gemälde von Franz Krüger (https://www.sammlungen.hu-berlin.de/dokumente/6012/) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Friedrich Wilhelm Christian Karl Ferdinand von Humboldt (22 June 1767 – 8 April 1835) was a Prussian philosopher, linguist, government functionary, diplomat, and founder of the Humboldt University of Berlin. In 1949, the university was named after him and his younger brother, Alexander von Humboldt, a naturalist.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q151173",
+  "slug": "joachim-murat",
+  "name": "Joachim Murat",
+  "wikipedia": "Joachim Murat",
+  "role": "French military officer and statesman",
+  "life": "1767–1815",
+  "lifetime": [
+    1767,
+    1815
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Grand Duchy of Berg",
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of Naples (Napoleonic)",
+    "Austrian Empire"
+  ],
+  "contribution": "A Marshal of the Empire, regarded as the foremost cavalry commander of the Napoleonic Wars, who reigned as King of Naples as Joachim-Napoleon from 1808 to 1815.",
+  "image": "images/joachim-murat.jpg",
+  "image_credit": "François Gérard · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Grand Duchy of Berg"
+      ],
+      "lead": [
+        "Kingdom of Naples (Napoleonic)",
+        "Grand Duchy of Berg",
+        "Kingdom of France",
+        "Austrian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Joachim Murat (English:  myoo-RAH, French: [ʒɔakim myʁa]; 25 March 1767 – 13 October 1815) was a Marshal of the Empire, regarded as the foremost cavalry commander of the Napoleonic Wars, who reigned as King of Naples as Joachim-Napoleon (Italian: Gioacchino Napoleone) from 1808 to 1815. A brother-in-law of Napoleon, he was also Admiral of France, the first Prince Murat, and Grand Duke of Berg from 1806 to 1808. He was known as the Dandy King and First Horseman of Europe.",
+    "photo": "no death year in or after 1860"
+  }
+}

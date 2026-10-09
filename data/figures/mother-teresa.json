@@ -1,0 +1,40 @@
+{
+  "id": "Q30547",
+  "slug": "mother-teresa",
+  "name": "Mother Teresa",
+  "wikipedia": "Mother Teresa",
+  "role": "Albanian-Indian Catholic saint",
+  "life": "1910–1997",
+  "lifetime": [
+    1910,
+    1997
+  ],
+  "occupation": "Social activist",
+  "birth_country": "North Macedonia",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "An Albanian-Indian Catholic nun, founder of the Missionaries of Charity and a Catholic saint.",
+  "image": "images/mother-teresa.jpg",
+  "image_credit": "Túrelio · CC BY-SA 2.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Albania",
+        "Republic of India",
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ottoman Empire"
+      ]
+    },
+    "lead": "Anjezë Gonxhe Bojaxhiu (Albanian: [aˈɲɛzə ˈɡɔndʒɛ bɔjaˈdʒi.u]; 26 August 1910 – 5 September 1997), better known as Mother Teresa or Saint Mother Teresa of Calcutta, was an Albanian-Indian Catholic nun, founder of the Missionaries of Charity and a Catholic saint.",
+    "photo": "captured 1986-07-13 during their lifetime"
+  }
+}

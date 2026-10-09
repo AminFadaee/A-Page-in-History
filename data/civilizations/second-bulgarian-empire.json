@@ -1,0 +1,76 @@
+{
+  "id": "Q420759",
+  "slug": "second-bulgarian-empire",
+  "name": "Second Bulgarian Empire",
+  "wikipedia": "Second Bulgarian Empire",
+  "map_year": 1236,
+  "period": {
+    "start": {
+      "earliest": 1185,
+      "latest": 1185,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1396,
+      "latest": 1396,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Veliko Tarnovo",
+      "location": [
+        25.628291,
+        43.078652
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Bulgaria",
+    "Romania",
+    "Serbia",
+    "Greece",
+    "North Macedonia"
+  ],
+  "map": "maps/second-bulgarian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Veliko Tarnovo"
+      ],
+      "infobox": [
+        "Veliko Tarnovo",
+        "Nikopol, Bulgaria",
+        "Vidin",
+        "Despotate of Vidin"
+      ]
+    },
+    "cliopatria_years": [
+      1188,
+      1394
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Hungary",
+      "Halych-Volhynia occupation",
+      "Kingdom of Serbia",
+      "Latin Empire",
+      "Banate of Bosnia",
+      "Holy Roman Empire",
+      "Sultanate of Rum",
+      "Principality of Galicia-Volhynia",
+      "Nicaean Empire",
+      "Kingdom of Sicily",
+      "Kingdom of Bohemia",
+      "Armenian Kingdom of Cilicia",
+      "Principality of Kiev",
+      "Papal States"
+    ]
+  }
+}

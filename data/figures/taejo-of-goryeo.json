@@ -1,0 +1,38 @@
+{
+  "id": "Q334312",
+  "slug": "taejo-of-goryeo",
+  "name": "Taejo of Goryeo",
+  "wikipedia": "Taejo of Goryeo",
+  "role": "King of Goryeo from 918 to 943",
+  "life": "877–943",
+  "lifetime": [
+    877,
+    943
+  ],
+  "occupation": "Politician",
+  "birth_country": "North Korea",
+  "civilizations": [
+    "Goryeo"
+  ],
+  "related": [],
+  "contribution": "The founder of the Goryeo Dynasty of Korea.",
+  "image": "images/taejo-of-goryeo.jpg",
+  "image_credit": "[2] · Attribution",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Goryeo"
+      ],
+      "lead": [
+        "Goryeo"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Unified Silla"
+      ]
+    },
+    "lead": "Taejo (Korean: 태조; Hanja: 太祖; 31 January 877 – 4 July 943), personal name Wang Kŏn (왕건; 王建), also known as Taejo Wang Kŏn (태조 왕건; 太祖 王建; lit. ''Great Progenitor Wang Kŏn''), was the founder of the Goryeo Dynasty of Korea. He ruled from 918 to 943, achieving unification of the Later Three Kingdoms in 936.",
+    "photo": "no death year in or after 1860"
+  }
+}

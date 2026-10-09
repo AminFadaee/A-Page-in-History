@@ -1,0 +1,38 @@
+{
+  "id": "Q173470",
+  "slug": "anastasius-i-dicorus",
+  "name": "Anastasius I Dicorus",
+  "wikipedia": "Anastasius I Dicorus",
+  "role": "Roman emperor from 491 to 518",
+  "life": "430–518",
+  "lifetime": [
+    430,
+    518
+  ],
+  "occupation": "Politician",
+  "birth_country": "Albania",
+  "civilizations": [
+    "Eastern Roman Empire"
+  ],
+  "related": [],
+  "contribution": "Eastern Roman emperor from 491 to 518.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Eastern Roman Empire"
+      ],
+      "lead": [
+        "Eastern Roman Empire"
+      ],
+      "vital_section": [
+        "Eastern Roman Empire"
+      ],
+      "birthplace": []
+    },
+    "lead": "Anastasius I Dicorus (Ancient Greek: Ἀναστάσιος, romanized: Anastásios, Latin: Anastasius; c. 430 – 9 July 518) was Eastern Roman emperor from 491 to 518. A career civil servant, he came to the throne at the age of 61 after being chosen by Ariadne, the wife of his predecessor, Zeno. His reign was characterized by reforms and improvements in the empire's government, finances, economy and bureaucracy. The resulting stable government, reinvigorated monetary economy and sizeable budget surplus allowed the empire to pursue more ambitious policies under his successors, most notably Justinian I. Since many of Anastasius' reforms proved long-lasting, his influence over the empire endured for centuries.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

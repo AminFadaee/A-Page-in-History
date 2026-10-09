@@ -1,0 +1,46 @@
+{
+  "id": "Q5406",
+  "slug": "hittites",
+  "name": "Hittites",
+  "wikipedia": "Hittites",
+  "map_year": -1300,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkey",
+    "Syria"
+  ],
+  "map": "maps/hittites.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Hattusa",
+        "Šamuḫa",
+        "Tudḫaliya III",
+        "Tarḫuntašša",
+        "Muwatalli II"
+      ]
+    },
+    "cliopatria_years": [
+      -1600,
+      -1151
+    ],
+    "identity": "Wikipedia article with a country infobox",
+    "labelled": [
+      "New Kingdom of Egypt",
+      "Mitanni",
+      "Assyria",
+      "Babylonia"
+    ]
+  }
+}

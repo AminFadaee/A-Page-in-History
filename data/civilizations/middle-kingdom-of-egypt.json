@@ -1,0 +1,59 @@
+{
+  "id": "Q191324",
+  "slug": "middle-kingdom-of-egypt",
+  "name": "Middle Kingdom of Egypt",
+  "wikipedia": "Middle Kingdom of Egypt",
+  "map_year": -1800,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Thebes",
+      "location": [
+        32.610277777777775,
+        25.720555555555556
+      ]
+    },
+    {
+      "name": "Itjtawy",
+      "location": [
+        31.231111111111,
+        29.570277777778
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Egypt"
+  ],
+  "map": "maps/middle-kingdom-of-egypt.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Thebes, Egypt",
+        "Itjtawy"
+      ],
+      "infobox": [
+        "Thebes, Egypt",
+        "Itjtawy"
+      ]
+    },
+    "cliopatria_years": [
+      -2000,
+      -1601
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Hyksos",
+      "Elam",
+      "Sumerian City-States"
+    ]
+  }
+}

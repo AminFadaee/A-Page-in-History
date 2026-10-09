@@ -1,0 +1,41 @@
+{
+  "id": "Q37682",
+  "slug": "sejong-the-great",
+  "name": "Sejong the Great",
+  "wikipedia": "Sejong the Great",
+  "role": "King of Joseon from 1418 to 1450",
+  "life": "1397–1450",
+  "lifetime": [
+    1397,
+    1450
+  ],
+  "occupation": "Politician",
+  "birth_country": "South Korea",
+  "civilizations": [
+    "Joseon"
+  ],
+  "related": [
+    "Ming Dynasty"
+  ],
+  "contribution": "The fourth monarch of the Koreanic state Joseon.",
+  "image": "images/sejong-the-great.jpg",
+  "image_credit": "Bank of Korea · South Korean currency",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Joseon"
+      ],
+      "lead": [
+        "Joseon",
+        "Ming Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Joseon"
+      ]
+    },
+    "lead": "Sejong (Korean: 세종; Hanja: 世宗; May 15, 1397 – April 8, 1450), commonly known as Sejong the Great (세종대왕; 世宗大王), was the fourth monarch of the Koreanic state Joseon. He ruled from 1418 to his death in 1450. He is widely regarded as the greatest king in Korean history, and is particularly remembered for the creation of Hangul, the native alphabet of the Korean language.",
+    "photo": "no death year in or after 1860"
+  }
+}

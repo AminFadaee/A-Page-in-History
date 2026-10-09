@@ -1,0 +1,46 @@
+{
+  "id": "Q13695",
+  "slug": "tenochtitlan",
+  "name": "Tenochtitlan",
+  "wikipedia": "Tenochtitlan",
+  "map_year": 1326,
+  "period": {
+    "start": {
+      "earliest": 1325,
+      "latest": 1325,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1521,
+      "latest": 1521,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mexico"
+  ],
+  "map": "maps/tenochtitlan.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Mexico City"
+      ]
+    },
+    "cliopatria_years": [
+      1326,
+      1428
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Later Mayan City-States"
+    ]
+  }
+}

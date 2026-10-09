@@ -1,0 +1,40 @@
+{
+  "id": "Q34479",
+  "slug": "hirohito",
+  "name": "Hirohito",
+  "wikipedia": "Hirohito",
+  "role": "Emperor of Japan from 1926 to 1989",
+  "life": "1901–1989",
+  "lifetime": [
+    1901,
+    1989
+  ],
+  "occupation": "Politician",
+  "birth_country": "Japan",
+  "civilizations": [
+    "Empire of Japan"
+  ],
+  "related": [
+    "United States of America"
+  ],
+  "contribution": "Emperor of Japan from 25 December 1926 until his death in 1989.",
+  "image": "images/hirohito.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Empire of Japan"
+      ],
+      "lead": [
+        "United States of America"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Empire of Japan"
+      ]
+    },
+    "lead": "Hirohito (29 April 1901 – 7 January 1989), also known by his posthumous name Emperor Shōwa, was Emperor of Japan from 25 December 1926 until his death in 1989. He is the longest-reigning emperor in Japanese history and one of the world's longest-reigning monarchs. His initial years on the throne corresponded with a period of increasing Japanese nationalism and militarism, culminating in Japan's entry into World War II as an Axis power. After Japan's defeat and under pressure from the Allies, he renounced his divinity as Emperor via the Humanity Declaration and sanctioned a new Constitution for Japan based on a parliamentary system and the renunciation of war.",
+    "photo": "captured 1935 during their lifetime"
+  }
+}

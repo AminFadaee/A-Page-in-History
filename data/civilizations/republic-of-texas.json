@@ -1,0 +1,99 @@
+{
+  "id": "Q170588",
+  "slug": "republic-of-texas",
+  "name": "Republic of Texas",
+  "wikipedia": "Republic of Texas",
+  "map_year": 1836,
+  "period": {
+    "start": {
+      "earliest": 1836,
+      "latest": 1836,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1846,
+      "latest": 1846,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Washington-on-the-Brazos",
+      "location": [
+        -96.153541666667,
+        30.323986111111
+      ]
+    },
+    {
+      "name": "Houston",
+      "location": [
+        -95.383055555556,
+        29.762777777778
+      ]
+    },
+    {
+      "name": "Austin",
+      "location": [
+        -97.733333333333,
+        30.3
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q1780964",
+      "name": "David G. Burnet"
+    },
+    {
+      "id": "Q216547",
+      "name": "Sam Houston"
+    },
+    {
+      "id": "Q456633",
+      "name": "Mirabeau B. Lamar"
+    },
+    {
+      "id": "Q569983",
+      "name": "Anson Jones"
+    }
+  ],
+  "modern_countries": [
+    "United States of America"
+  ],
+  "map": "maps/republic-of-texas.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Washington-on-the-Brazos, Texas",
+        "Houston",
+        "Austin, Texas"
+      ],
+      "infobox": [
+        "San Antonio",
+        "Mexican Texas",
+        "San Felipe, Texas",
+        "Washington-on-the-Brazos, Texas",
+        "Harrisburg, Houston",
+        "Galveston, Texas",
+        "Velasco, Texas",
+        "West Columbia, Texas",
+        "Houston",
+        "Austin, Texas"
+      ]
+    },
+    "cliopatria_years": [
+      1836,
+      1845
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Federated Republic of Mexico",
+      "United States of America"
+    ]
+  }
+}

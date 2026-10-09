@@ -1,0 +1,37 @@
+{
+  "id": "Q130777",
+  "slug": "kazimir-malevich",
+  "name": "Kazimir Malevich",
+  "wikipedia": "Kazimir Malevich",
+  "role": "Russian artist and painter",
+  "life": "1879–1935",
+  "lifetime": [
+    1879,
+    1935
+  ],
+  "occupation": "Painter",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian avant-garde artist and art theorist, whose work and writings pioneered the development of abstract painting in the 20th century.",
+  "image": "images/kazimir-malevich.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Kazimir Severinovich Malevich (23 February [O.S. 11 February] 1879 – 15 May 1935) was a Russian avant-garde artist and art theorist, whose work and writings pioneered the development of abstract painting in the 20th century. He is best known as the founder of Suprematism, a radically non-objective form of painting he introduced in 1915.",
+    "photo": "captured circa 1925date QS:P,+1925-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

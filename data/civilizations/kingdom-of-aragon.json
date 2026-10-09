@@ -1,0 +1,67 @@
+{
+  "id": "Q199442",
+  "slug": "kingdom-of-aragon",
+  "name": "Kingdom of Aragon",
+  "wikipedia": "Kingdom of Aragon",
+  "map_year": 1139,
+  "period": {
+    "start": {
+      "earliest": 1035,
+      "latest": 1035,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1707,
+      "latest": 1707,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "County of Ribagorza"
+  ],
+  "successors": [
+    "Crown of Aragon"
+  ],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Spain"
+  ],
+  "map": "maps/kingdom-of-aragon.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Jaca City",
+        "Huesca",
+        "Zaragoza"
+      ],
+      "infobox": [
+        "Jaca",
+        "Huesca",
+        "Zaragoza"
+      ]
+    },
+    "cliopatria_years": [
+      1015,
+      1168
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Almoravid Dynasty",
+      "Kingdom of Castile",
+      "Kingdom of Navarre",
+      "Holy Roman Empire",
+      "Kingdom of Sicily",
+      "County of Toulouse",
+      "County of Portugal",
+      "Duchy of Brittany",
+      "Hammadid Dynasty",
+      "County of Blôis",
+      "Kingdom of Arles",
+      "Papal States"
+    ]
+  }
+}

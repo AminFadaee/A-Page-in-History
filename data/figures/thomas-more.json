@@ -1,0 +1,36 @@
+{
+  "id": "Q42544",
+  "slug": "thomas-more",
+  "name": "Thomas More",
+  "wikipedia": "Thomas More",
+  "role": "English politician, author and philosopher",
+  "life": "1478–1535",
+  "lifetime": [
+    1478,
+    1535
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English lawyer, judge, social philosopher, author, statesman, theologian and Renaissance humanist.",
+  "image": "images/thomas-more.jpg",
+  "image_credit": "Hans Holbein the Younger · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Sir Thomas More (7 February 1478 – 6 July 1535), venerated in the Catholic Church as a martyr and saint, was an English lawyer, judge, social philosopher, author, statesman, theologian and Renaissance humanist. He also served Henry VIII as Lord Chancellor from October 1529 to May 1532. He wrote Utopia, published in 1516, which describes the political system of an imaginary island state.",
+    "photo": "no death year in or after 1860"
+  }
+}

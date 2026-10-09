@@ -1,0 +1,38 @@
+{
+  "id": "Q313298",
+  "slug": "suryavarman-ii",
+  "name": "Suryavarman II",
+  "wikipedia": "Suryavarman II",
+  "role": "Emperor of the Khmer Empire from 1000 to 1150 CE",
+  "life": "1094–1150",
+  "lifetime": [
+    1094,
+    1150
+  ],
+  "occupation": "Politician",
+  "birth_country": "Cambodia",
+  "civilizations": [
+    "Khmer Empire"
+  ],
+  "related": [],
+  "contribution": "The ruler of the Khmer Empire from 1113 until his death in 1150.",
+  "image": "images/suryavarman-ii.jpg",
+  "image_credit": "CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Khmer Empire"
+      ],
+      "lead": [
+        "Khmer Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Khmer Empire"
+      ]
+    },
+    "lead": "Suryavarman II (Khmer: សូរ្យវរ្ម័នទី២, UNGEGN: Soryôvôrmoăn Ti 2, ALA-LC: Sūryavarmăn Dī 2), posthumously named Paramavishnuloka, was the ruler of the Khmer Empire from 1113 until his death in 1150. He is most famously known as the builder of Angkor Wat, the largest Hindu temple in the world, which he dedicated to Vishnu and Shiva. His reign's monumental architecture, numerous military campaigns and restoration of strong government have led historians to rank Suryavarman II as one of the empire's greatest rulers.",
+    "photo": "no death year in or after 1860"
+  }
+}

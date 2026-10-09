@@ -1,0 +1,36 @@
+{
+  "id": "Q192925",
+  "slug": "edgar-king-of-england",
+  "name": "Edgar, King of England",
+  "wikipedia": "Edgar, King of England",
+  "role": "King of the English from 959 to 975",
+  "life": "943–975",
+  "lifetime": [
+    943,
+    975
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of the English from 959 until his death in 975.",
+  "image": "images/edgar-king-of-england.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Edgar (or Eadgar; c. 944 – 8 July 975), also known as Edgar the Peaceful, the Peacemaker and the Peaceable, was King of the English from 959 until his death in 975. He became king of all England on his brother Eadwig's death. He was the younger son of King Edmund I and his first wife, Ælfgifu. A detailed account of Edgar's reign is not possible, because only a few events were recorded by chroniclers and monastic writers, who were more interested in recording the activities of the leaders of the church.",
+    "photo": "no death year in or after 1860"
+  }
+}

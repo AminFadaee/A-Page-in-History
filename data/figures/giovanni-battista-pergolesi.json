@@ -1,0 +1,36 @@
+{
+  "id": "Q185312",
+  "slug": "giovanni-battista-pergolesi",
+  "name": "Giovanni Battista Pergolesi",
+  "wikipedia": "Giovanni Battista Pergolesi",
+  "role": "Italian composer, violinist and organist",
+  "life": "1710–1736",
+  "lifetime": [
+    1710,
+    1736
+  ],
+  "occupation": "Composer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "An Italian Baroque composer, violinist, and organist, leading exponent of the Baroque; he is considered one of the greatest Italian musicians of the first half of the 18th century and one of the most important representatives of the Neapolitan school.",
+  "image": "images/giovanni-battista-pergolesi.jpg",
+  "image_credit": "Domenico Antonio Vaccaro · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Giovanni Battista Draghi (Italian: [dʒoˈvanni batˈtista ˈdraːɡi]; 4 January 1710 – 16 or 17 March 1736), usually referred to as Giovanni Battista Pergolesi (Italian: [perɡoˈleːzi, -eːsi]), was an Italian Baroque composer, violinist, and organist, leading exponent of the Baroque; he is considered one of the greatest Italian musicians of the first half of the 18th century and one of the most important representatives of the Neapolitan school.",
+    "photo": "no death year in or after 1860"
+  }
+}

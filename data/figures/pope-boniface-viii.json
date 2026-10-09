@@ -1,0 +1,40 @@
+{
+  "id": "Q134646",
+  "slug": "pope-boniface-viii",
+  "name": "Pope Boniface VIII",
+  "wikipedia": "Pope Boniface VIII",
+  "role": "Head of the Catholic Church from 1294 to 1303",
+  "life": "1235–1303",
+  "lifetime": [
+    1235,
+    1303
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and leader of the Papal States from 24 December 1294 until his death in 1303.",
+  "image": "images/pope-boniface-viii.jpg",
+  "image_credit": "Giotto · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [
+        "Papal States"
+      ],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Boniface VIII (Latin: Bonifacius PP. VIII, Italian: Bonifacio VIII; born Benedetto Caetani; c. 1230 – 11 October 1303) was head of the Catholic Church and leader of the Papal States from 24 December 1294 until his death in 1303. The Caetani family was of baronial origin with connections to the papacy. He succeeded Pope Celestine V, who had abdicated from the papal throne. Boniface spent his early pontificate abroad in diplomatic roles.",
+    "photo": "no death year in or after 1860"
+  }
+}

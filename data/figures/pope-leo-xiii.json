@@ -1,0 +1,40 @@
+{
+  "id": "Q43922",
+  "slug": "pope-leo-xiii",
+  "name": "Pope Leo XIII",
+  "wikipedia": "Pope Leo XIII",
+  "role": "Head of the Catholic Church from 1878 to 1903",
+  "life": "1810–1903",
+  "lifetime": [
+    1810,
+    1903
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church from 1878 until his death in 1903.",
+  "image": "images/pope-leo-xiii.jpg",
+  "image_credit": "Braun et Compagnie · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Papal States",
+        "Kingdom of Italy"
+      ],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "First French Empire",
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Leo XIII (Italian: Leone XIII; born Gioacchino Vincenzo Raffaele Luigi Pecci; 2 March 1810 – 20 July 1903) was head of the Catholic Church from 1878 until his death in 1903. He had the fourth-longest reign and third-longest verified reign of any pope, behind those of St. Peter, Pius IX (his predecessor), and John Paul II.",
+    "photo": "captured Taken on 11 April 1878 during their lifetime"
+  }
+}

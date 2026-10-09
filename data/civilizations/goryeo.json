@@ -1,0 +1,116 @@
+{
+  "id": "Q28208",
+  "slug": "goryeo",
+  "name": "Goryeo",
+  "wikipedia": "Goryeo",
+  "map_year": 1375,
+  "period": {
+    "start": {
+      "earliest": 918,
+      "latest": 918,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1392,
+      "latest": 1392,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kaesong",
+      "location": [
+        126.55277777777778,
+        37.971666666666664
+      ]
+    },
+    {
+      "name": "Ganghwa Island",
+      "location": [
+        126.44,
+        37.71
+      ]
+    }
+  ],
+  "predecessors": [
+    "Taebong",
+    "Hubaekje"
+  ],
+  "successors": [
+    "Joseon"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q28208",
+        "layer": 1,
+        "name": "Goryeo"
+      },
+      {
+        "id": "Q699871",
+        "layer": 0,
+        "name": "Taebong"
+      },
+      {
+        "id": "Q698239",
+        "layer": 0,
+        "name": "Hubaekje"
+      },
+      {
+        "id": "Q28179",
+        "layer": 2,
+        "name": "Joseon"
+      }
+    ],
+    "edges": [
+      [
+        "Q699871",
+        "Q28208",
+        "South Korea, North Korea"
+      ],
+      [
+        "Q698239",
+        "Q28208",
+        "South Korea"
+      ],
+      [
+        "Q28208",
+        "Q28179",
+        "North Korea, South Korea"
+      ]
+    ],
+    "question": "successions/goryeo-question.png",
+    "answer": "successions/goryeo-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "North Korea",
+    "South Korea"
+  ],
+  "map": "maps/goryeo.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kaesong",
+        "Ganghwa Island"
+      ],
+      "infobox": [
+        "Kaesong",
+        "Cheorwon County",
+        "Ganghwa Island",
+        "Seoul"
+      ]
+    },
+    "cliopatria_years": [
+      922,
+      1394
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ming Dynasty",
+      "Ashikaga Shogunate"
+    ]
+  }
+}

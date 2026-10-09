@@ -1,0 +1,36 @@
+{
+  "id": "Q170373",
+  "slug": "christopher-wren",
+  "name": "Christopher Wren",
+  "wikipedia": "Christopher Wren",
+  "role": "English architect",
+  "life": "1632–1723",
+  "lifetime": [
+    1632,
+    1723
+  ],
+  "occupation": "Architect",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English architect, astronomer, mathematician and physicist who is one of the most highly acclaimed architects in the history of England.",
+  "image": "images/christopher-wren.jpg",
+  "image_credit": "Godfrey Kneller · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Sir Christopher Wren (; 30 October 1632 [O.S. 20 October] – 8 March 1723 [O.S. 25 February]) was an English architect, astronomer, mathematician and physicist who is one of the most highly acclaimed architects in the history of England. Known for his work in the English Baroque style,  he was accorded responsibility for rebuilding 52 churches in the City of London after the Great Fire in 1666, including what is regarded as his masterpiece, St Paul's Cathedral, on Ludgate Hill, completed in 1710.",
+    "photo": "no death year in or after 1860"
+  }
+}

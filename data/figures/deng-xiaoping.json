@@ -1,0 +1,43 @@
+{
+  "id": "Q16977",
+  "slug": "deng-xiaoping",
+  "name": "Deng Xiaoping",
+  "wikipedia": "Deng Xiaoping",
+  "role": "Leader of China from 1978 to 1989",
+  "life": "1904–1997",
+  "lifetime": [
+    1904,
+    1997
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "People's Republic of China",
+    "Qing Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese statesman, revolutionary, and political theorist who served as the paramount leader of the People's Republic of China from 1978 to 1989.",
+  "image": "images/deng-xiaoping.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty",
+        "Republic of China",
+        "People's Republic of China"
+      ],
+      "lead": [
+        "People's Republic of China"
+      ],
+      "vital_section": [
+        "People's Republic of China"
+      ],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Deng Xiaoping (22 August 1904 – 19 February 1997) was a Chinese statesman, revolutionary, and political theorist who served as the paramount leader of the People's Republic of China (PRC) from 1978 to 1989. Emerging as China's most influential figure after Mao Zedong's death in 1976, Deng consolidated political power and guided the country into an era of reform and opening up that transitioned the nation toward a socialist market economy. Credited as the \"architect of modern China\", he is recognized for shaping both socialism with Chinese characteristics and Deng Xiaoping Theory.",
+    "photo": "captured Taken on 29 January 1979 during their lifetime"
+  }
+}

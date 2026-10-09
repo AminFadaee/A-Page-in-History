@@ -1,0 +1,42 @@
+{
+  "id": "Q3301",
+  "slug": "charles-martel",
+  "name": "Charles Martel",
+  "wikipedia": "Charles Martel",
+  "role": "Frankish military and political leader",
+  "life": "688–741",
+  "lifetime": [
+    688,
+    741
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Belgium",
+  "civilizations": [
+    "Kingdom of the Franks"
+  ],
+  "related": [
+    "Umayyad Caliphate",
+    "Aquitaine"
+  ],
+  "contribution": "A Frankish political and military leader who, as Duke and Prince of the Franks and Mayor of the Palace, was the de facto ruler of the Franks from 718 until his death.",
+  "image": "images/charles-martel.jpg",
+  "image_credit": "Arnaud 25 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of the Franks"
+      ],
+      "lead": [
+        "Umayyad Caliphate",
+        "Aquitaine"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of the Franks"
+      ]
+    },
+    "lead": "Charles Martel (; c. 688 – 22 October 741), Martel being an Old French sobriquet meaning \"The Hammer\", was a Frankish political and military leader who, as Duke and Prince of the Franks and Mayor of the Palace, was the de facto ruler of the Franks from 718 until his death. He was a son of the Frankish statesman Pepin of Herstal and a noblewoman named Alpaida. Charles successfully asserted his claims to power as successor to his father as the power behind the throne in Frankish politics. Continuing and building on his father's work, he restored centralized government in Francia and began a series of military campaigns that re-established the Franks as the undisputed masters of all Gaul. According to the contemporary Liber Historiae Francorum, Charles was \"a warrior who was uncommonly ... effective in battle\".",
+    "photo": "no death year in or after 1860"
+  }
+}

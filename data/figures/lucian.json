@@ -3,7 +3,7 @@
   "slug": "lucian",
   "name": "Lucian",
   "wikipedia": "Lucian",
-  "role": "",
+  "role": "Syrian satirist and rhetorician",
   "life": "c. 120–180",
   "lifetime": [
     120,
@@ -18,6 +18,7 @@
   "contribution": "A Hellenized Syrian satirist, rhetorician and pamphleteer who is best known for his characteristic tongue-in-cheek style, with which he frequently ridiculed philosophers and priests, speculative beliefs about the nature of the universe, religious practices, and superstitions.",
   "image": "images/lucian.jpg",
   "image_credit": "William Faithorne · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Lucian of Samosata (c. 125 – after 180) was a Hellenized Syrian satirist, rhetorician and pamphleteer who is best known for his characteristic tongue-in-cheek style, with which he frequently ridiculed philosophers and priests, speculative beliefs about the nature of the universe, religious practices, and superstitions. Although his native language was probably Syriac, all of his extant works are written entirely in ancient Greek (mostly in the Attic Greek dialect popular during the Second Sophistic period)."
+    "lead": "Lucian of Samosata (c. 125 – after 180) was a Hellenized Syrian satirist, rhetorician and pamphleteer who is best known for his characteristic tongue-in-cheek style, with which he frequently ridiculed philosophers and priests, speculative beliefs about the nature of the universe, religious practices, and superstitions. Although his native language was probably Syriac, all of his extant works are written entirely in ancient Greek (mostly in the Attic Greek dialect popular during the Second Sophistic period).",
+    "photo": "no death year in or after 1860"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "id": "Q170467",
+  "slug": "philip-v-of-spain",
+  "name": "Philip V of Spain",
+  "wikipedia": "Philip V of Spain",
+  "role": "King of Spain",
+  "life": "1683–1746",
+  "lifetime": [
+    1683,
+    1746
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Spanish Empire"
+  ],
+  "contribution": "King of Spain from 1 November 1700 to 14 January 1724 and again from 6 September 1724 to his death in 1746.",
+  "image": "images/philip-v-of-spain.jpg",
+  "image_credit": "Jean Ranc · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Spanish Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Philip V (Spanish: Felipe V; 19 December 1683 – 9 July 1746), known as \"the Spirited\" (el Animoso), was king of Spain from 1 November 1700 to 14 January 1724 and again from 6 September 1724 to his death in 1746. His total reign (45 years, 9 months and 8 days) is the longest in the history of the Spanish monarchy, surpassing Philip IV. Although his ascent to the throne precipitated the War of the Spanish Succession, Philip V instigated many important reforms in Spain, most especially the centralization of power of the monarchy and the suppression of regional privileges, via the Nueva Planta decrees, and restructuring of the administration of the Spanish Empire on the Iberian Peninsula and its overseas regions.",
+    "photo": "no death year in or after 1860"
+  }
+}

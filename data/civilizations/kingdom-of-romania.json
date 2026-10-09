@@ -1,0 +1,153 @@
+{
+  "id": "Q203493",
+  "slug": "kingdom-of-romania",
+  "name": "Kingdom of Romania",
+  "wikipedia": "Kingdom of Romania",
+  "map_year": 1919,
+  "period": {
+    "start": {
+      "earliest": 1881,
+      "latest": 1881,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1947,
+      "latest": 1947,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bucharest",
+      "location": [
+        26.09777777777778,
+        44.41336111111111
+      ]
+    },
+    {
+      "name": "Iași",
+      "location": [
+        27.588888888889,
+        47.162222222222
+      ]
+    }
+  ],
+  "predecessors": [
+    "Austria-Hungary",
+    "United Principalities of Moldavia and Wallachia"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q203493",
+        "layer": 1,
+        "name": "Kingdom of Romania"
+      },
+      {
+        "id": "Q28513",
+        "layer": 0,
+        "name": "Austria-Hungary"
+      },
+      {
+        "id": "Q33946",
+        "layer": 1,
+        "name": "Czechoslovakia"
+      },
+      {
+        "id": "Q40",
+        "layer": 1,
+        "name": "Republic of Austria"
+      },
+      {
+        "id": "Q958291",
+        "layer": 0,
+        "name": "United Principalities of Moldavia and Wallachia"
+      }
+    ],
+    "edges": [
+      [
+        "Q28513",
+        "Q203493",
+        "Romania, Moldova"
+      ],
+      [
+        "Q28513",
+        "Q33946",
+        "Czech Republic, Slovakia"
+      ],
+      [
+        "Q28513",
+        "Q40",
+        "Austria"
+      ],
+      [
+        "Q958291",
+        "Q203493",
+        "Romania"
+      ]
+    ],
+    "question": "successions/kingdom-of-romania-question.png",
+    "answer": "successions/kingdom-of-romania-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q57146",
+      "name": "Carol I of Romania"
+    },
+    {
+      "id": "Q57165",
+      "name": "Ferdinand I of Romania"
+    },
+    {
+      "id": "Q930013",
+      "name": "Michael I of Romania"
+    },
+    {
+      "id": "Q212897",
+      "name": "Carol II of Romania"
+    }
+  ],
+  "modern_countries": [
+    "Romania",
+    "Moldova",
+    "Ukraine"
+  ],
+  "map": "maps/kingdom-of-romania.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bucharest",
+        "Iași"
+      ],
+      "infobox": [
+        "Bucharest",
+        "Iași"
+      ]
+    },
+    "cliopatria_years": [
+      1919,
+      1947
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ukrainian People's Republic",
+      "Yugoslavia",
+      "Hungarian Republic",
+      "Principality of Bulgaria",
+      "Ottoman Empire",
+      "German Empire",
+      "Kingdom of Italy",
+      "Second Polish Republic",
+      "Czechoslovakia",
+      "Republic of Austria",
+      "First Hellenic Republic",
+      "Georgia",
+      "Swiss Confederation",
+      "Kingdom of Belgium",
+      "Netherlands"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q6101",
+  "slug": "marco-polo",
+  "name": "Marco Polo",
+  "wikipedia": "Marco Polo",
+  "role": "Venetian merchant, explorer, and writer",
+  "life": "1254–1324",
+  "lifetime": [
+    1254,
+    1324
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Republic of Venice"
+  ],
+  "related": [
+    "Mongol Empire",
+    "Yuan Dynasty"
+  ],
+  "contribution": "A Venetian merchant, explorer, and writer who travelled through Asia along the Silk Road between 1271 and 1295.",
+  "image": "images/marco-polo.jpg",
+  "image_credit": "Salviati · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Venice"
+      ],
+      "lead": [
+        "Republic of Venice",
+        "Mongol Empire",
+        "Yuan Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Marco Polo (c. 1254 –  8 January 1324) was a Venetian merchant, explorer, and writer who travelled through Asia along the Silk Road between 1271 and 1295. His travels are recorded in The Travels of Marco Polo (also known as Book of the Marvels of the World  and Il Milione, c. 1300), a book that described the then-mysterious culture and inner workings of the Eastern world, including the wealth and great size of the Mongol Empire and China under the Yuan dynasty, giving Europeans their first comprehensive look into China, Persia, India, Japan, and other Asian societies.",
+    "photo": "no death year in or after 1860"
+  }
+}

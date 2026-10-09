@@ -1,0 +1,42 @@
+{
+  "id": "Q170017",
+  "slug": "thelstan",
+  "name": "Æthelstan",
+  "wikipedia": "Æthelstan",
+  "role": "King of the English from 927 to 939",
+  "life": "c. 895–939",
+  "lifetime": [
+    895,
+    939
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Wessex"
+  ],
+  "related": [
+    "Kingdom of Mercia"
+  ],
+  "contribution": "King of the Anglo-Saxons from 924 to 927 and King of the English from 927 to his death in 939.",
+  "image": "images/thelstan.jpg",
+  "image_credit": "Arpingstone · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Wessex",
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of Mercia",
+        "Kingdom of Wessex"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Wessex"
+      ]
+    },
+    "lead": "Æthelstan or Athelstan (; Old English: Æðelstān [ˈæðelstɑːn]; Old Norse: Aðalsteinn; lit. 'noble stone'; c. 894 – 27 October 939) was King of the Anglo-Saxons from 924 to 927 and King of the English from 927 to his death in 939. He was the son of King Edward the Elder and his first wife, Ecgwynn. Modern historians regard him as the first King of England and one of the \"greatest Anglo-Saxon kings\". He never married and had no children; he was succeeded by his half-brother, Edmund I.",
+    "photo": "no death year in or after 1860"
+  }
+}

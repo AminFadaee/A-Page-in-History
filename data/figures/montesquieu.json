@@ -1,0 +1,36 @@
+{
+  "id": "Q15975",
+  "slug": "montesquieu",
+  "name": "Montesquieu",
+  "wikipedia": "Montesquieu",
+  "role": "French jurist, historian, and political philosopher",
+  "life": "1689–1755",
+  "lifetime": [
+    1689,
+    1755
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [],
+  "contribution": "A French jurist, historian, and political philosopher.",
+  "image": "images/montesquieu.jpg",
+  "image_credit": "After Jacques-Antoine Dassier · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles Louis de Secondat, baron de La Brède et de Montesquieu (18 January 1689 – 10 February 1755), generally referred to as simply Montesquieu, was a French jurist, historian, and political philosopher.",
+    "photo": "no death year in or after 1860"
+  }
+}

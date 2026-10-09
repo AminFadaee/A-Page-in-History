@@ -20,7 +20,8 @@
   ],
   "contribution": "The founder of the Achaemenid Empire.",
   "image": "images/cyrus-the-great.jpg",
-  "image_credit": "Charles Francis Horne\n\nClarence Cook · Public domain",
+  "image_credit": "Charles Francis Horne Clarence Cook · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -32,8 +33,11 @@
         "Neo-Babylonian Empire"
       ],
       "vital_section": [],
-      "birthplace": []
+      "birthplace": [
+        "Median Kingdom"
+      ]
     },
-    "lead": "Cyrus II of Persia (c. 600 – 530 BC), commonly known as Cyrus the Great, was the founder of the Achaemenid Empire. Hailing from Persis, he brought the Achaemenid dynasty to power by defeating the Median Empire and embracing all of the previous civilized states of the ancient Near East, expanding vastly across most of West Asia and much of Central Asia to create what would soon become the largest empire in history at the time. The Achaemenid Empire's greatest territorial extent was achieved under Darius the Great, whose rule stretched from Southeast Europe and Northeast Africa in the west to the Indus Valley in the east."
+    "lead": "Cyrus II of Persia (c. 600 – 530 BC), commonly known as Cyrus the Great, was the founder of the Achaemenid Empire. Hailing from Persis, he brought the Achaemenid dynasty to power by defeating the Median Empire and embracing all of the previous civilized states of the ancient Near East, expanding vastly across most of West Asia and much of Central Asia to create what would soon become the largest empire in history at the time. The Achaemenid Empire's greatest territorial extent was achieved under Darius the Great, whose rule stretched from Southeast Europe and Northeast Africa in the west to the Indus Valley in the east.",
+    "photo": "no death year in or after 1860"
   }
 }

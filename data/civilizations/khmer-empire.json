@@ -1,0 +1,58 @@
+{
+  "id": "Q201705",
+  "slug": "khmer-empire",
+  "name": "Khmer Empire",
+  "wikipedia": "Khmer Empire",
+  "map_year": 1206,
+  "period": {
+    "start": {
+      "earliest": 802,
+      "latest": 802,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1431,
+      "latest": 1431,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Thailand",
+    "Laos",
+    "Cambodia",
+    "Vietnam"
+  ],
+  "map": "maps/khmer-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Yaśodharapura"
+      ],
+      "infobox": [
+        "Mahendraparvata",
+        "Hariharalaya",
+        "Angkor",
+        "Koh Ker"
+      ]
+    },
+    "cliopatria_years": [
+      800,
+      1867
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Pagan Kingdom",
+      "Ngô Dynasty",
+      "Kingdom of Dali",
+      "Sena Dynasty",
+      "Eastern Ganga Kingdom"
+    ]
+  }
+}

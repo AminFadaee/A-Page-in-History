@@ -1,0 +1,50 @@
+{
+  "id": "Q105105",
+  "slug": "theodoric-the-great",
+  "name": "Theodoric the Great",
+  "wikipedia": "Theodoric the Great",
+  "role": "King of Italy from 493 to 526",
+  "life": "454–526",
+  "lifetime": [
+    454,
+    526
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Western Roman Empire",
+    "Ostrogothic Kingdom"
+  ],
+  "related": [
+    "Eastern Roman Empire",
+    "Visigothic Kingdom",
+    "Burgundian Kingdom",
+    "Vandal Kingdom"
+  ],
+  "contribution": "King of the Ostrogoths, and ruler of the Ostrogothic Kingdom of Italy between 493 and 526, regent of the Visigoths, and a patrician of the Eastern Roman Empire.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ostrogothic Kingdom",
+        "Western Roman Empire"
+      ],
+      "lead": [
+        "Ostrogothic Kingdom",
+        "Eastern Roman Empire",
+        "Western Roman Empire",
+        "Visigothic Kingdom",
+        "Burgundian Kingdom",
+        "Vandal Kingdom"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Western Roman Empire"
+      ]
+    },
+    "lead": "Theodoric (or Theoderic) the Great (about 454 – 30 August 526), also called the Amal, was king of the Ostrogoths (471–526), and ruler of the Ostrogothic Kingdom of Italy between 493 and 526, regent of the Visigoths (511–526), and a patrician of the Eastern Roman Empire. As ruler of the combined Gothic realms, Theodoric controlled an empire stretching from the Atlantic Ocean to the Adriatic Sea. Though Theodoric himself only used the title 'king' (rex), some scholars characterize him as a Western Roman emperor in all but name, since he ruled a large part of the former Western Roman Empire. He also received and used the former Western imperial regalia from Constantinople in 497, and exercised imperial powers recognized in the East, such as naming consuls. The Italian aristocracy referred to him using the imperial title princeps.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

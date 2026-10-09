@@ -1,0 +1,46 @@
+{
+  "id": "Q204397",
+  "slug": "afonso-de-albuquerque",
+  "name": "Afonso de Albuquerque",
+  "wikipedia": "Afonso de Albuquerque",
+  "role": "Portuguese general and conquistador",
+  "life": "1453–1515",
+  "lifetime": [
+    1453,
+    1515
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "Ayutthaya Kingdom",
+    "Hanthawaddy Kingdom",
+    "Ming Dynasty",
+    "Ethiopian Empire"
+  ],
+  "contribution": "A Portuguese general, admiral, statesman, and conquistador.",
+  "image": "images/afonso-de-albuquerque.jpg",
+  "image_credit": "Johann Adolf Rossmassler (1770-1821) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "Ayutthaya Kingdom",
+        "Hanthawaddy Kingdom",
+        "Ming Dynasty",
+        "Ethiopian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "Afonso de Albuquerque, 1st Duke of Goa (c. 1453 – 16 December 1515), was a Portuguese general, admiral, statesman, and conquistador. He served as viceroy of Portuguese India from 1509 to 1515, during which he expanded Portuguese influence across the Indian Ocean and built a reputation as a fierce and skilled military commander.",
+    "photo": "no death year in or after 1860"
+  }
+}

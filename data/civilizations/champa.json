@@ -1,0 +1,66 @@
+{
+  "id": "Q216786",
+  "slug": "champa",
+  "name": "Chámpa",
+  "wikipedia": "Champa",
+  "map_year": 875,
+  "period": {
+    "start": {
+      "earliest": 192,
+      "latest": 192,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1832,
+      "latest": 1832,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Vijaya",
+      "location": [
+        109.07507,
+        13.92869
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Vietnam"
+  ],
+  "map": "maps/champa.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Vijaya"
+      ],
+      "infobox": [
+        "Huế",
+        "Trà Kiệu",
+        "Ninh Phước district",
+        "Indrapura",
+        "Vijaya",
+        "Panduranga"
+      ]
+    },
+    "cliopatria_years": [
+      207,
+      1652
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Khmer Empire",
+      "Tang Dynasty",
+      "Haripuñjaya",
+      "Lavo Kingdom",
+      "Pyu City-States",
+      "Pagan Kingdom"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "Q975405",
+  "slug": "sultanate-of-rum",
+  "name": "Sultanate of Rum",
+  "wikipedia": "Sultanate of Rum",
+  "map_year": 1094,
+  "period": {
+    "start": {
+      "earliest": 1077,
+      "latest": 1077,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1308,
+      "latest": 1308,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Konya",
+      "location": [
+        32.49213888888889,
+        37.872769444444444
+      ]
+    },
+    {
+      "name": "Nicaea",
+      "location": [
+        29.7195,
+        40.429
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Beylik of Karaman"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q975405",
+        "layer": 1,
+        "name": "Sultanate of Rum"
+      },
+      {
+        "id": "Q1469100",
+        "layer": 2,
+        "name": "Beylik of Karaman"
+      }
+    ],
+    "edges": [
+      [
+        "Q975405",
+        "Q1469100",
+        "Turkey"
+      ]
+    ],
+    "question": "successions/sultanate-of-rum-question.png",
+    "answer": "successions/sultanate-of-rum-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q730338",
+      "name": "Suleiman ibn Qutalmish"
+    },
+    {
+      "id": "Q345544",
+      "name": "Kilij Arslan I"
+    },
+    {
+      "id": "Q58810",
+      "name": "Mesud I"
+    },
+    {
+      "id": "Q58982",
+      "name": "Kilij Arslan II"
+    },
+    {
+      "id": "Q61591",
+      "name": "Kaykhusraw I"
+    },
+    {
+      "id": "Q61964",
+      "name": "Kayqubad I"
+    },
+    {
+      "id": "Q370032",
+      "name": "Mesud II"
+    }
+  ],
+  "modern_countries": [
+    "Turkey"
+  ],
+  "map": "maps/sultanate-of-rum.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Konya",
+        "Nicaea"
+      ],
+      "infobox": [
+        "Nicaea",
+        "İznik",
+        "Konya",
+        "Sivas"
+      ]
+    },
+    "cliopatria_years": [
+      1094,
+      1313
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Byzantine Empire",
+      "Hamdanid Emirates",
+      "Norman Italy",
+      "Kingdom of Croatia"
+    ]
+  }
+}

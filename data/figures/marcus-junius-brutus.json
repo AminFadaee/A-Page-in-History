@@ -1,0 +1,36 @@
+{
+  "id": "Q172248",
+  "slug": "marcus-junius-brutus",
+  "name": "Marcus Junius Brutus",
+  "wikipedia": "Marcus Junius Brutus",
+  "role": "Roman politician and assassin of Julius Caesar",
+  "life": "c. 85–42 BC",
+  "lifetime": [
+    -85,
+    -42
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [],
+  "contribution": "A Roman politician, orator, and the most famous of the assassins of Julius Caesar.",
+  "image": "images/marcus-junius-brutus.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [],
+      "vital_section": [
+        "Roman Republic"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Marcus Junius Brutus (; Latin: [ˈmaːrkʊs juːniʊs ˈbruːtʊs]; c. 85 BC – 23 October 42 BC) was a Roman politician, orator, and the most famous of the assassins of Julius Caesar. After being adopted by a relative, his legal name became Quintus Servilius Caepio Brutus. He is often referred to simply as Brutus.",
+    "photo": "no death year in or after 1860"
+  }
+}

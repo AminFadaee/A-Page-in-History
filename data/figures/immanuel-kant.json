@@ -1,0 +1,38 @@
+{
+  "id": "Q9312",
+  "slug": "immanuel-kant",
+  "name": "Immanuel Kant",
+  "wikipedia": "Immanuel Kant",
+  "role": "German philosopher",
+  "life": "1724–1804",
+  "lifetime": [
+    1724,
+    1804
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A German philosopher.",
+  "image": "images/immanuel-kant.jpg",
+  "image_credit": "Becker · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Immanuel Kant (born Emanuel Kant; 22 April 1724 – 12 February 1804) was a German philosopher. Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment. His comprehensive and systematic works in epistemology, metaphysics, logic, ethics, aesthetics, political theory, and philosophy of religion have made him one of the most influential and highly discussed figures in modern Western philosophy.",
+    "photo": "no death year in or after 1860"
+  }
+}

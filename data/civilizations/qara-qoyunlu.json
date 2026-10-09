@@ -1,0 +1,88 @@
+{
+  "id": "Q324470",
+  "slug": "qara-qoyunlu",
+  "name": "Qara Qoyunlu",
+  "wikipedia": "Qara Qoyunlu",
+  "map_year": 1440,
+  "period": {
+    "start": {
+      "earliest": 1374,
+      "latest": 1374,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1468,
+      "latest": 1468,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ]
+    },
+    {
+      "name": "Erciş",
+      "location": [
+        43.359722222222,
+        39.031111111111
+      ]
+    },
+    {
+      "name": "Mosul",
+      "location": [
+        43.12916666666667,
+        36.34166666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iraq",
+    "Iran",
+    "Turkey",
+    "Azerbaijan",
+    "Armenia"
+  ],
+  "map": "maps/qara-qoyunlu.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tabriz",
+        "Erciş",
+        "Mosul"
+      ],
+      "infobox": [
+        "Erciş",
+        "Yaylak",
+        "Mosul",
+        "Kishlak",
+        "Tabriz"
+      ]
+    },
+    "cliopatria_years": [
+      1375,
+      1467
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Timurid Empire",
+      "Ottoman Empire",
+      "Aq Qoyunlu",
+      "Kingdom of Georgia",
+      "Shirvan",
+      "Mamluk Sultanate",
+      "Beylik of Karaman",
+      "Beylik of Isfendiyar",
+      "Beylik of Dulkadir"
+    ]
+  }
+}

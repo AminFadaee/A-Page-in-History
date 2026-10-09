@@ -1,0 +1,38 @@
+{
+  "id": "Q35900",
+  "slug": "omar-khayyam",
+  "name": "Omar Khayyam",
+  "wikipedia": "Omar Khayyam",
+  "role": "Persian polymath and poet",
+  "life": "1048–1131",
+  "lifetime": [
+    1048,
+    1131
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Iran",
+  "civilizations": [
+    "Great Seljuk Empire"
+  ],
+  "related": [],
+  "contribution": "A Persian poet and polymath, known for his contributions to mathematics, astronomy, philosophy, and Persian literature.",
+  "image": "images/omar-khayyam.jpg",
+  "image_credit": "The original uploader was Atilin at French Wikipedia. · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Great Seljuk Empire"
+      ],
+      "lead": [
+        "Great Seljuk Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Great Seljuk Empire"
+      ]
+    },
+    "lead": "Omar Khayyam (1048–1131) was a Persian poet and polymath, known for his contributions to mathematics, astronomy, philosophy, and Persian literature. He was born in Nishapur, Iran and lived during the Seljuk era, around the time of the First Crusade.",
+    "photo": "no death year in or after 1860"
+  }
+}

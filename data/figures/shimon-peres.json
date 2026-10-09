@@ -1,0 +1,40 @@
+{
+  "id": "Q57410",
+  "slug": "shimon-peres",
+  "name": "Shimon Peres",
+  "wikipedia": "Shimon Peres",
+  "role": "Israeli politician",
+  "life": "1923–2016",
+  "lifetime": [
+    1923,
+    2016
+  ],
+  "occupation": "Politician",
+  "birth_country": "Belarus",
+  "civilizations": [
+    "State of Israel",
+    "Second Polish Republic"
+  ],
+  "related": [],
+  "contribution": "An Israeli politician and statesman who served as the prime minister of Israel from 1984 to 1986 and from 1995 to 1996 and as the president of Israel from 2007 to 2014.",
+  "image": "images/shimon-peres.jpg",
+  "image_credit": "Avi Ohayon · CC BY-SA 3.0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "State of Israel",
+        "Second Polish Republic"
+      ],
+      "lead": [],
+      "vital_section": [
+        "State of Israel"
+      ],
+      "birthplace": [
+        "Second Polish Republic"
+      ]
+    },
+    "lead": "Shimon Peres ( shee-MOHN PERR-ess, -⁠ez; Hebrew: שמעון פרס [ʃiˌmon ˈpeʁes] ; born Szymon Perski, Polish: [ˈʂɨmɔn ˈpɛrskʲi]; 2 August 1923 – 28 September 2016) was an Israeli politician and statesman who served as the prime minister of Israel from 1984 to 1986 and from 1995 to 1996 and as the president of Israel from 2007 to 2014. He was a member of twelve cabinets and represented five political parties in a political career spanning 70 years. Peres was elected to the Knesset in November 1959 and except for three months out of office in early 2006, served as a member of the Knesset continuously until he was elected president in 2007. Serving in the Knesset for 48 years (with the first uninterrupted stretch lasting more than 46 years), Peres is the longest serving member in the Knesset's history. At the time of his retirement from politics in 2014, he was the world's oldest head of state and was considered the last link to Israel's founding generation, as well as the last Prime Minister to make aliyah rather than being born on territory that would become Israel.",
+    "photo": "captured 1996-05-02 during their lifetime"
+  }
+}

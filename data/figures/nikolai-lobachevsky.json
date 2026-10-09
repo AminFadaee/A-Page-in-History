@@ -1,0 +1,36 @@
+{
+  "id": "Q129199",
+  "slug": "nikolai-lobachevsky",
+  "name": "Nikolai Lobachevsky",
+  "wikipedia": "Nikolai Lobachevsky",
+  "role": "Russian mathematician",
+  "life": "1792–1856",
+  "lifetime": [
+    1792,
+    1856
+  ],
+  "occupation": "Mathematician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian mathematician and geometer, known primarily for his work on hyperbolic geometry, otherwise known as Lobachevskian geometry, and also for his fundamental study on  Dirichlet integrals, known as the Lobachevsky integral formula.",
+  "image": "images/nikolai-lobachevsky.jpg",
+  "image_credit": "Lev Kryukov · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Nikolai Ivanovich Lobachevsky (; Russian: Никола́й Ива́нович Лобаче́вский, IPA: [nʲɪkɐˈlaj ɪˈvanəvʲɪtɕ ləbɐˈtɕefskʲɪj] ; 1 December [O.S. 20 November] 1792 – 24 February [O.S. 12 February] 1856) was a Russian mathematician and geometer, known primarily for his work on hyperbolic geometry, otherwise known as Lobachevskian geometry, and also for his fundamental study on  Dirichlet integrals, known as the Lobachevsky integral formula.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q8459",
+  "slug": "giorgione",
+  "name": "Giorgione",
+  "wikipedia": "Giorgione",
+  "role": "Italian painter",
+  "life": "1478–1510",
+  "lifetime": [
+    1478,
+    1510
+  ],
+  "occupation": "Painter",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Republic of Venice"
+  ],
+  "related": [],
+  "contribution": "An Italian painter of the Venetian school during the High Renaissance, who died in his thirties.",
+  "image": "images/giorgione.jpg",
+  "image_credit": "Giorgione · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Venice"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Republic of Venice"
+      ]
+    },
+    "lead": "Giorgio Barbarelli da Castelfranco (1470s – 17 September 1510), known as Giorgione, was an Italian painter of the Venetian school during the High Renaissance, who died in his thirties. He is known for the elusive poetic quality of his work, though only about six surviving paintings are firmly attributed to him. The uncertainty surrounding the identity and meaning of his work has made Giorgione one of the most mysterious figures in European art.",
+    "photo": "no death year in or after 1860"
+  }
+}

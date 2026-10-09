@@ -1,0 +1,47 @@
+{
+  "id": "Q17132",
+  "slug": "soong-ching-ling",
+  "name": "Soong Ching-ling",
+  "wikipedia": "Soong Ching-ling",
+  "role": "Wife of Sun Yat-sen",
+  "life": "1893–1981",
+  "lifetime": [
+    1893,
+    1981
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty",
+    "Republic of China",
+    "People's Republic of China"
+  ],
+  "related": [
+    "United States of America"
+  ],
+  "contribution": "A Chinese politician and activist.",
+  "image": "images/soong-ching-ling.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty",
+        "Republic of China",
+        "People's Republic of China"
+      ],
+      "lead": [
+        "United States of America",
+        "Republic of China"
+      ],
+      "vital_section": [
+        "People's Republic of China"
+      ],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Soong Ch'ing-ling (27 January 1893 – 29 May 1981; Christian name Rosamonde or Rosamond) was a Chinese politician and activist. She was the wife of Sun Yat-sen, therefore known by Madame Sun Yat-sen and the \"Mother of Modern China\". A member of the Soong family, she and her family played a significant role in shaping the Republic of China. As a prominent leader of the left wing of the Kuomintang (KMT), she founded the Revolutionary Committee of the KMT. She entered the Communist government in 1949, and was the only female, non-Communist head of state of the People's Republic of China. She was named Honorary Chairman of the People's Republic of China and admitted to the Chinese Communist Party (CCP) a few weeks before her death in 1981.",
+    "photo": "captured No later than 1941 during their lifetime"
+  }
+}

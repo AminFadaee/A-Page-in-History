@@ -1,0 +1,36 @@
+{
+  "id": "Q245315",
+  "slug": "liu-bei",
+  "name": "Liu Bei",
+  "wikipedia": "Liu Bei",
+  "role": "Emperor of Shu Han from 221 to 223",
+  "life": "161–223",
+  "lifetime": [
+    161,
+    223
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Han Dynasty"
+  ],
+  "related": [],
+  "contribution": "A Chinese warlord in the late Eastern Han dynasty who later became the founding emperor of Shu Han, one of the Three Kingdoms of China.",
+  "image": "images/liu-bei.jpg",
+  "image_credit": "Yan Liben (閻立本) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Han Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Liu Bei (Chinese: 劉備, ; Mandarin pronunciation: [ljǒʊ pêɪ]; 161 – 10 June 223 AD), courtesy name Xuande (玄德), was a Chinese warlord in the late Eastern Han dynasty who later became the founding emperor of Shu Han, one of the Three Kingdoms of China.",
+    "photo": "no death year in or after 1860"
+  }
+}

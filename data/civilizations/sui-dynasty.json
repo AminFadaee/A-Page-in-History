@@ -1,0 +1,128 @@
+{
+  "id": "Q7405",
+  "slug": "sui-dynasty",
+  "name": "Sui Dynasty",
+  "wikipedia": "Sui dynasty",
+  "map_year": 612,
+  "period": {
+    "start": {
+      "earliest": 581,
+      "latest": 581,
+      "circa": false
+    },
+    "end": {
+      "earliest": 618,
+      "latest": 618,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Chang'an",
+      "location": [
+        108.85833333333333,
+        34.30833333333333
+      ]
+    }
+  ],
+  "predecessors": [
+    "Chen Dynasty",
+    "Later Western Liang",
+    "Northern Zhou"
+  ],
+  "successors": [
+    "Tang Dynasty"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q7405",
+        "layer": 1,
+        "name": "Sui Dynasty"
+      },
+      {
+        "id": "Q62454",
+        "layer": 0,
+        "name": "Chen Dynasty"
+      },
+      {
+        "id": "Q849770",
+        "layer": 0,
+        "name": "Later Western Liang"
+      },
+      {
+        "id": "Q551067",
+        "layer": 0,
+        "name": "Northern Zhou"
+      },
+      {
+        "id": "Q9683",
+        "layer": 2,
+        "name": "Tang Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q62454",
+        "Q7405",
+        "People's Republic of China"
+      ],
+      [
+        "Q849770",
+        "Q7405",
+        "People's Republic of China"
+      ],
+      [
+        "Q551067",
+        "Q7405",
+        "People's Republic of China"
+      ],
+      [
+        "Q7405",
+        "Q9683",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/sui-dynasty-question.png",
+    "answer": "successions/sui-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/sui-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chang'an"
+      ],
+      "infobox": [
+        "Chang'an",
+        "Luoyang"
+      ]
+    },
+    "cliopatria_years": [
+      587,
+      627
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Eastern Göktürks",
+      "Tuyuhun",
+      "Goguryeo",
+      "Western Göktürks",
+      "Harsha's Empire",
+      "Funan",
+      "Chalukya Dynasty",
+      "Asuka Japan",
+      "Chenla",
+      "Turk Shahis",
+      "Kamarupa Kingdom",
+      "Silla"
+    ]
+  }
+}

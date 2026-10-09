@@ -1,0 +1,124 @@
+{
+  "id": "Q175276",
+  "slug": "kingdom-of-leon",
+  "name": "Kingdom of León",
+  "wikipedia": "Kingdom of León",
+  "map_year": 1126,
+  "period": {
+    "start": {
+      "earliest": 910,
+      "latest": 910,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1833,
+      "latest": 1833,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "León",
+      "location": [
+        -5.5669444444444,
+        42.598888888889
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kingdom of Asturias"
+  ],
+  "successors": [
+    "Crown of Castile"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q175276",
+        "layer": 1,
+        "name": "Kingdom of León"
+      },
+      {
+        "id": "Q231392",
+        "layer": 0,
+        "name": "Kingdom of Asturias"
+      },
+      {
+        "id": "Q303421",
+        "layer": 1,
+        "name": "Kingdom of Galicia"
+      },
+      {
+        "id": "Q217196",
+        "layer": 2,
+        "name": "Crown of Castile"
+      },
+      {
+        "id": "Q179293",
+        "layer": 1,
+        "name": "Kingdom of Castile"
+      }
+    ],
+    "edges": [
+      [
+        "Q231392",
+        "Q175276",
+        "Spain, Portugal"
+      ],
+      [
+        "Q231392",
+        "Q303421",
+        "Spain"
+      ],
+      [
+        "Q175276",
+        "Q217196",
+        "Spain"
+      ],
+      [
+        "Q179293",
+        "Q217196",
+        "Spain"
+      ]
+    ],
+    "question": "successions/kingdom-of-leon-question.png",
+    "answer": "successions/kingdom-of-leon-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q333699",
+      "name": "García I of León"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "Portugal"
+  ],
+  "map": "maps/kingdom-of-leon.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "León, Spain"
+      ],
+      "infobox": [
+        "León, Spain"
+      ]
+    },
+    "cliopatria_years": [
+      911,
+      1235
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Almoravid Dynasty",
+      "Duchy of Aquitaine",
+      "County of Toulouse",
+      "Duchy of Brittany",
+      "Hammadid Dynasty",
+      "County of Blôis",
+      "Kingdom of Arles"
+    ]
+  }
+}

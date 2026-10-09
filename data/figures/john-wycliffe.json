@@ -1,0 +1,36 @@
+{
+  "id": "Q173893",
+  "slug": "john-wycliffe",
+  "name": "John Wycliffe",
+  "wikipedia": "John Wycliffe",
+  "role": "English Catholic priest and philosopher",
+  "life": "14th century – 1384",
+  "lifetime": [
+    1320,
+    1384
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English scholastic philosopher, Christian reformer, Catholic priest, and a theology professor at the University of Oxford.",
+  "image": "images/john-wycliffe.jpg",
+  "image_credit": "Thomas Kirkby · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "John Wycliffe (; also spelled Wyclif, Wickliffe, Wicklyf etc.; c. 1328 – 31 December 1384) was an English scholastic philosopher, Christian reformer, Catholic priest, and a theology professor at the University of Oxford. Wycliffe is traditionally believed to have advocated for or made a vernacular translation of the Vulgate Bible into Middle English, though more recent scholarship has minimised the extent of his advocacy or involvement for lack of direct contemporary evidence.",
+    "photo": "no death year in or after 1860"
+  }
+}

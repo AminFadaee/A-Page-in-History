@@ -1,0 +1,180 @@
+{
+  "id": "Q129286",
+  "slug": "british-raj",
+  "name": "British Raj",
+  "wikipedia": "British Raj",
+  "map_year": 1917,
+  "period": {
+    "start": {
+      "earliest": 1858,
+      "latest": 1858,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1947,
+      "latest": 1947,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Kolkata",
+      "location": [
+        88.37,
+        22.5675
+      ]
+    },
+    {
+      "name": "New Delhi",
+      "location": [
+        77.2088888888889,
+        28.613888888888887
+      ]
+    }
+  ],
+  "predecessors": [
+    "Mughal Empire"
+  ],
+  "successors": [
+    "Republic of India",
+    "Islamic Republic of Pakistan"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q129286",
+        "layer": 1,
+        "name": "British Raj"
+      },
+      {
+        "id": "Q33296",
+        "layer": 0,
+        "name": "Mughal Empire"
+      },
+      {
+        "id": "Q467627",
+        "layer": 1,
+        "name": "Durrani Empire"
+      },
+      {
+        "id": "Q668",
+        "layer": 2,
+        "name": "Republic of India"
+      },
+      {
+        "id": "Q1240096",
+        "layer": 1,
+        "name": "Hyderabad State"
+      },
+      {
+        "id": "Q2571484",
+        "layer": 1,
+        "name": "Kashmir and Jammu"
+      },
+      {
+        "id": "Q843",
+        "layer": 2,
+        "name": "Islamic Republic of Pakistan"
+      }
+    ],
+    "edges": [
+      [
+        "Q33296",
+        "Q467627",
+        "Pakistan, India, Afghanistan"
+      ],
+      [
+        "Q33296",
+        "Q129286",
+        "India"
+      ],
+      [
+        "Q129286",
+        "Q668",
+        "India"
+      ],
+      [
+        "Q1240096",
+        "Q668",
+        "India"
+      ],
+      [
+        "Q2571484",
+        "Q668",
+        "India"
+      ],
+      [
+        "Q129286",
+        "Q843",
+        "Pakistan, Bangladesh"
+      ]
+    ],
+    "question": "successions/british-raj-question.png",
+    "answer": "successions/british-raj-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q9439",
+      "name": "Queen Victoria"
+    },
+    {
+      "id": "Q20875",
+      "name": "Edward VII"
+    },
+    {
+      "id": "Q269412",
+      "name": "George V"
+    },
+    {
+      "id": "Q590227",
+      "name": "Edward VIII"
+    },
+    {
+      "id": "Q280856",
+      "name": "George VI"
+    }
+  ],
+  "modern_countries": [
+    "India",
+    "Pakistan",
+    "Myanmar",
+    "Bangladesh",
+    "Sri Lanka"
+  ],
+  "map": "maps/british-raj.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Kolkata",
+        "New Delhi"
+      ],
+      "infobox": [
+        "Kolkata",
+        "Shimla",
+        "Summer capital",
+        "Presidencies and provinces of British India",
+        "Princely state",
+        "New Delhi"
+      ]
+    },
+    "cliopatria_years": [
+      1859,
+      1947
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kuomintang",
+      "Qajar Dynasty",
+      "Tibet",
+      "French Indochina",
+      "Dutch East Indies",
+      "Ottoman Empire",
+      "Ethiopian Empire",
+      "Emirate of Nejd",
+      "Kingdom of Great Britain",
+      "Asir"
+    ]
+  }
+}

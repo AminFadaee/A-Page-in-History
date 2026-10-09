@@ -1,0 +1,64 @@
+{
+  "id": "Q177819",
+  "slug": "old-kingdom-of-egypt",
+  "name": "Old Kingdom of Egypt",
+  "wikipedia": "Old Kingdom of Egypt",
+  "map_year": -2500,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": -2181,
+      "latest": -2181,
+      "circa": true
+    },
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [
+    "Early Dynastic Period of Egypt"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q177819",
+        "layer": 1,
+        "name": "Old Kingdom of Egypt"
+      },
+      {
+        "id": "Q187979",
+        "layer": 0,
+        "name": "Early Dynastic Period of Egypt"
+      }
+    ],
+    "edges": [
+      [
+        "Q187979",
+        "Q177819",
+        "Egypt"
+      ]
+    ],
+    "question": "successions/old-kingdom-of-egypt-question.png",
+    "answer": "successions/old-kingdom-of-egypt-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Egypt"
+  ],
+  "map": "maps/old-kingdom-of-egypt.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": [
+        "Memphis, Egypt"
+      ]
+    },
+    "cliopatria_years": [
+      -2500,
+      -2201
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

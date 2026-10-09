@@ -1,0 +1,93 @@
+{
+  "id": "Q154195",
+  "slug": "kingdom-of-bavaria",
+  "name": "Kingdom of Bavaria",
+  "wikipedia": "Kingdom of Bavaria",
+  "map_year": 1807,
+  "period": {
+    "start": {
+      "earliest": 1806,
+      "latest": 1806,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1918,
+      "latest": 1918,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Munich",
+      "location": [
+        11.575,
+        48.1375
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q44319",
+      "name": "Maximilian I Joseph of Bavaria"
+    },
+    {
+      "id": "Q44361",
+      "name": "Ludwig I of Bavaria"
+    },
+    {
+      "id": "Q44530",
+      "name": "Maximilian II of Bavaria"
+    },
+    {
+      "id": "Q44039",
+      "name": "Ludwig II of Bavaria"
+    },
+    {
+      "id": "Q44825",
+      "name": "Otto, King of Bavaria"
+    },
+    {
+      "id": "Q44393",
+      "name": "Ludwig III of Bavaria"
+    }
+  ],
+  "modern_countries": [
+    "Germany",
+    "Austria",
+    "Italy"
+  ],
+  "map": "maps/kingdom-of-bavaria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Munich"
+      ],
+      "infobox": [
+        "Munich"
+      ]
+    },
+    "cliopatria_years": [
+      1806,
+      1870
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Austrian Empire",
+      "Italian Republic",
+      "Helvetic Republic",
+      "Kingdom of Saxony",
+      "First French Empire",
+      "Kingdom of Spain",
+      "Kingdom of Naples (Napoleonic)",
+      "Kingdom of Sardinia",
+      "Serbs",
+      "Batavian Republic",
+      "Papal States"
+    ]
+  }
+}

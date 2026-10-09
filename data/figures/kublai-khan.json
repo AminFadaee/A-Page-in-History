@@ -1,0 +1,43 @@
+{
+  "id": "Q7523",
+  "slug": "kublai-khan",
+  "name": "Kublai Khan",
+  "wikipedia": "Kublai Khan",
+  "role": "Emperor of Yuan China from 1271 to 1294",
+  "life": "1215–1294",
+  "lifetime": [
+    1215,
+    1294
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Yuan Dynasty"
+  ],
+  "related": [
+    "Ilkhanate",
+    "Golden Horde"
+  ],
+  "contribution": "The founder and first emperor of the Mongol-led Yuan dynasty of China.",
+  "image": "images/kublai-khan.jpg",
+  "image_credit": "Araniko · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Yuan Dynasty"
+      ],
+      "lead": [
+        "Yuan Dynasty",
+        "Ilkhanate",
+        "Golden Horde"
+      ],
+      "vital_section": [
+        "Mongol Empire"
+      ],
+      "birthplace": []
+    },
+    "lead": "Kublai Khan (23 September 1215 – 18 February 1294), also known by his temple name as the Emperor Shizu of Yuan and his regnal name Setsen Khan, was the founder and first emperor of the Mongol-led Yuan dynasty of China. He proclaimed the dynastic name \"Great Yuan\" in 1271, and ruled Yuan China until his death in 1294.",
+    "photo": "no death year in or after 1860"
+  }
+}

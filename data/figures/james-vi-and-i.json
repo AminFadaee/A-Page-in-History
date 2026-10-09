@@ -1,0 +1,41 @@
+{
+  "id": "Q79972",
+  "slug": "james-vi-and-i",
+  "name": "James VI and I",
+  "wikipedia": "James VI and I",
+  "role": "King of Scotland from 1567 to 1625, King of England and Ireland from 1603",
+  "life": "1566–1625",
+  "lifetime": [
+    1566,
+    1625
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of Scotland as James VI from 24 July 1567, and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603, until his death in 1625.",
+  "image": "images/james-vi-and-i.jpg",
+  "image_credit": "John de Critz · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Scotland",
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of Scotland",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Scotland"
+      ]
+    },
+    "lead": "James VI and I (James Charles Stuart; 19 June 1566 – 27 March 1625) was King of Scotland as James VI from 24 July 1567, and King of England and Ireland as James I from the union of the Scottish and English crowns on 24 March 1603, until his death in 1625. Though he long attempted to get both countries to adopt a closer political union, the kingdoms of Scotland and England remained sovereign states ruled by James in personal union, with their own parliaments, judiciaries and laws.",
+    "photo": "no death year in or after 1860"
+  }
+}

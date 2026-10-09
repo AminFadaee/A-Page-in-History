@@ -1,0 +1,40 @@
+{
+  "id": "Q44071",
+  "slug": "yuri-andropov",
+  "name": "Yuri Andropov",
+  "wikipedia": "Yuri Andropov",
+  "role": "Leader of the Soviet Union from 1982 to 1984",
+  "life": "1914–1984",
+  "lifetime": [
+    1914,
+    1984
+  ],
+  "occupation": "Politician",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire",
+    "Union of Soviet Socialist Republics"
+  ],
+  "related": [],
+  "contribution": "A Soviet politician who served as the general secretary of the Communist Party of the Soviet Union from late 1982 until his death in 1984.",
+  "image": "images/yuri-andropov.jpg",
+  "image_credit": "TASS · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire",
+        "Union of Soviet Socialist Republics"
+      ],
+      "lead": [
+        "Union of Soviet Socialist Republics"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Yuri Vladimirovich Andropov (15 June [O.S. 2 June] 1914 – 9 February 1984) was a Soviet politician who served as the general secretary of the Communist Party of the Soviet Union from late 1982 until his death in 1984. He previously served as the chairman of the KGB from 1967 until 1982.",
+    "photo": "captured 1982 during their lifetime"
+  }
+}

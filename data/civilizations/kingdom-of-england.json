@@ -1,0 +1,139 @@
+{
+  "id": "Q179876",
+  "slug": "kingdom-of-england",
+  "name": "Kingdom of England",
+  "wikipedia": "Kingdom of England",
+  "map_year": 1429,
+  "period": {
+    "start": {
+      "earliest": 927,
+      "latest": 927,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1707,
+      "latest": 1707,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Winchester",
+      "location": [
+        -1.3086111111111,
+        51.063333333333
+      ]
+    },
+    {
+      "name": "London",
+      "location": [
+        -0.1275,
+        51.507222222222
+      ]
+    }
+  ],
+  "predecessors": [
+    "Commonwealth of England",
+    "Kingdom of Wessex"
+  ],
+  "successors": [
+    "Commonwealth of England"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q179876",
+        "layer": 1,
+        "name": "Kingdom of England"
+      },
+      {
+        "id": "Q330362",
+        "layer": 2,
+        "name": "Commonwealth of England"
+      },
+      {
+        "id": "Q105313",
+        "layer": 0,
+        "name": "Kingdom of Wessex"
+      }
+    ],
+    "edges": [
+      [
+        "Q330362",
+        "Q179876",
+        "United Kingdom, Ireland"
+      ],
+      [
+        "Q105313",
+        "Q179876",
+        "United Kingdom"
+      ],
+      [
+        "Q179876",
+        "Q330362",
+        "United Kingdom, Ireland"
+      ]
+    ],
+    "question": "successions/kingdom-of-england-question.png",
+    "answer": "successions/kingdom-of-england-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q170017",
+      "name": "Æthelstan"
+    },
+    {
+      "id": "Q119702",
+      "name": "Anne, Queen of Great Britain"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "United Kingdom",
+    "Isle of Man"
+  ],
+  "map": "maps/kingdom-of-england.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Winchester",
+        "London",
+        "Westminster",
+        "City of London"
+      ],
+      "infobox": [
+        "Winchester",
+        "London"
+      ]
+    },
+    "cliopatria_years": [
+      936,
+      1708
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Holy Roman Empire Minor States",
+      "Crown of Castile",
+      "Kalmar Union",
+      "Crown of Aragon",
+      "Kingdom of France",
+      "Kingdom of Scotland",
+      "Duchy of Burgundy",
+      "Duchy of Bavaria",
+      "Grand Duchy of Lithuania",
+      "Kingdom of Hungary",
+      "Kingdom of Poland",
+      "Kingdom of Bohemia",
+      "Livonian Conference",
+      "Serbian Empire",
+      "Principality of Wallachia",
+      "Kingdom of Naples",
+      "Teutonic Order",
+      "Kingdom of Bosnia",
+      "Papal States",
+      "County of Savoy"
+    ]
+  }
+}

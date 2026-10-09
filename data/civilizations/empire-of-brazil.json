@@ -1,0 +1,93 @@
+{
+  "id": "Q217230",
+  "slug": "empire-of-brazil",
+  "name": "Empire of Brazil",
+  "wikipedia": "Empire of Brazil",
+  "map_year": 1870,
+  "period": {
+    "start": {
+      "earliest": 1822,
+      "latest": 1822,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1889,
+      "latest": 1889,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Rio de Janeiro",
+      "location": [
+        -43.205555555555556,
+        -22.91111111111111
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Brazilian Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q217230",
+        "layer": 1,
+        "name": "Empire of Brazil"
+      },
+      {
+        "id": "Q155",
+        "layer": 2,
+        "name": "Brazilian Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q217230",
+        "Q155",
+        "Brazil"
+      ]
+    ],
+    "question": "successions/empire-of-brazil-question.png",
+    "answer": "successions/empire-of-brazil-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q939",
+      "name": "Pedro I of Brazil"
+    },
+    {
+      "id": "Q156774",
+      "name": "Pedro II of Brazil"
+    }
+  ],
+  "modern_countries": [
+    "Brazil"
+  ],
+  "map": "maps/empire-of-brazil.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rio de Janeiro"
+      ],
+      "infobox": [
+        "Rio de Janeiro"
+      ]
+    },
+    "cliopatria_years": [
+      1822,
+      1889
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Argentine Confederation",
+      "Bolivia",
+      "Republic of Peru",
+      "Republic of Colombia",
+      "Venezuela"
+    ]
+  }
+}

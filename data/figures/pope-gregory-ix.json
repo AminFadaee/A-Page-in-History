@@ -1,0 +1,36 @@
+{
+  "id": "Q124831",
+  "slug": "pope-gregory-ix",
+  "name": "Pope Gregory IX",
+  "wikipedia": "Pope Gregory IX",
+  "role": "Head of the Catholic Church from 1227 to 1241",
+  "life": "1170–1241",
+  "lifetime": [
+    1170,
+    1241
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Papal States"
+  ],
+  "related": [],
+  "contribution": "Head of the Catholic Church and the ruler of the Papal States from 19 March 1227 until his death in 1241.",
+  "image": "images/pope-gregory-ix.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Papal States"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Papal States"
+      ]
+    },
+    "lead": "Pope Gregory IX (Latin: Gregorius IX; born Ugolino dei Conti; 1145 – 22 August 1241) was head of the Catholic Church and the ruler of the Papal States from 19 March 1227 until his death in 1241. He is known for issuing the Decretales and instituting the Papal Inquisition, in response to the failures of the episcopal inquisitions established during the time of Pope Lucius III, by means of the papal bull Ad abolendam, issued in 1184.",
+    "photo": "no death year in or after 1860"
+  }
+}

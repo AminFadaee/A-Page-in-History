@@ -1,0 +1,36 @@
+{
+  "id": "Q42831",
+  "slug": "ivan-turgenev",
+  "name": "Ivan Turgenev",
+  "wikipedia": "Ivan Turgenev",
+  "role": "Russian writer",
+  "life": "1818–1883",
+  "lifetime": [
+    1818,
+    1883
+  ],
+  "occupation": "Writer",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Russian Empire"
+  ],
+  "related": [],
+  "contribution": "A Russian novelist, short story writer, poet, playwright, translator and popularizer of Russian literature in the West.",
+  "image": "images/ivan-turgenev.jpg",
+  "image_credit": "Ilya Repin · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Russian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Russian Empire"
+      ]
+    },
+    "lead": "Ivan Sergeyevich Turgenev (1818–1883) was a Russian novelist, short story writer, poet, playwright, translator and popularizer of Russian literature in the West.",
+    "photo": "captured 1874date QS:P571,+1874-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

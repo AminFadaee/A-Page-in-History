@@ -1,0 +1,36 @@
+{
+  "id": "Q157918",
+  "slug": "seti-i",
+  "name": "Seti I",
+  "wikipedia": "Seti I",
+  "role": "Egyptian pharaoh",
+  "life": "c. 1323–1279 BC",
+  "lifetime": [
+    -1323,
+    -1279
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Egypt",
+  "civilizations": [
+    "New Kingdom of Egypt"
+  ],
+  "related": [],
+  "contribution": "The second pharaoh of the Nineteenth Dynasty of Egypt during the New Kingdom period, ruling  1290 BC to 1279 BC. He was the son of Ramesses I and Sitre, and the father of Ramesses II.",
+  "image": "images/seti-i.jpg",
+  "image_credit": "Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "New Kingdom of Egypt"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "New Kingdom of Egypt"
+      ]
+    },
+    "lead": "Menmaatre Seti I was the second pharaoh of the Nineteenth Dynasty of Egypt during the New Kingdom period, ruling  1290 BC to 1279 BC. He was the son of Ramesses I and Sitre, and the father of Ramesses II (commonly known as Ramesses the Great).",
+    "photo": "no death year in or after 1860"
+  }
+}

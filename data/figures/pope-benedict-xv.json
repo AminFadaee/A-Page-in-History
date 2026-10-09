@@ -1,0 +1,39 @@
+{
+  "id": "Q4448",
+  "slug": "pope-benedict-xv",
+  "name": "Pope Benedict XV",
+  "wikipedia": "Pope Benedict XV",
+  "role": "Head of the Catholic Church from 1914 to 1922",
+  "life": "1854–1922",
+  "lifetime": [
+    1854,
+    1922
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [
+    "French Third Republic"
+  ],
+  "contribution": "Head of the Catholic Church from 1914 until his death in January 1922.",
+  "image": "images/pope-benedict-xv.jpg",
+  "image_credit": "Nicola Perscheid · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Italy"
+      ],
+      "lead": [
+        "French Third Republic",
+        "Kingdom of Italy"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Pope Benedict XV (Latin: Benedictus PP. XV; Italian: Benedetto XV; born Giacomo Paolo Giovanni Battista della Chiesa, Italian: [ˈdʒaːkomo ˈpaːolo dʒoˈvanni batˈtista della ˈkjɛːza]; 21 November 1854 – 22 January 1922) was head of the Catholic Church from 1914 until his death in January 1922. His pontificate was largely focused on World War I and its political, social, and humanitarian consequences in Europe.",
+    "photo": "captured 1915date QS:P571,+1915-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "Q206789",
+  "slug": "ghana-empire",
+  "name": "Ghana Empire",
+  "wikipedia": "Ghana Empire",
+  "map_year": 793,
+  "period": {
+    "start": null,
+    "end": {
+      "earliest": 1201,
+      "latest": 1300,
+      "circa": false
+    },
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Koumbi Saleh",
+      "location": [
+        -7.971444444444445,
+        15.75613888888889
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Mali",
+    "Mauritania"
+  ],
+  "map": "maps/ghana-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Koumbi Saleh"
+      ],
+      "infobox": [
+        "Koumbi Saleh"
+      ]
+    },
+    "cliopatria_years": [
+      793,
+      1201
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

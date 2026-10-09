@@ -1,0 +1,44 @@
+{
+  "id": "Q33550",
+  "slug": "frederick-the-great",
+  "name": "Frederick the Great",
+  "wikipedia": "Frederick the Great",
+  "role": "King of Prussia from 1740 to 1786",
+  "life": "1712–1786",
+  "lifetime": [
+    1712,
+    1786
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [
+    "Polish-Lithuanian Commonwealth",
+    "Habsburg Monarchy"
+  ],
+  "contribution": "The monarch of Prussia from 1740 until his death in 1786.",
+  "image": "images/frederick-the-great.jpg",
+  "image_credit": "Anton Graff · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia",
+        "Polish-Lithuanian Commonwealth",
+        "Habsburg Monarchy"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Brandenburg-Prussia",
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Frederick II (German: Friedrich II.; 24 January 1712 – 17 August 1786) was the monarch of Prussia from 1740 until his death in 1786. He was the last Hohenzollern monarch titled King in Prussia, declaring himself King of Prussia after annexing Royal Prussia from the Polish–Lithuanian Commonwealth in 1772. His most significant accomplishments include military successes in the Silesian wars, reorganisation of the Prussian Army, the First Partition of Poland, and patronage of the arts and the Enlightenment. Prussia greatly increased its territories and became a major military power in Europe under his rule. He became known as Frederick the Great (German: Friedrich der Große) and was nicknamed \"Old Fritz\" (German: der Alte Fritz).",
+    "photo": "no death year in or after 1860"
+  }
+}

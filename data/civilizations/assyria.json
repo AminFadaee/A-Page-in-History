@@ -1,0 +1,170 @@
+{
+  "id": "Q41137",
+  "slug": "assyria",
+  "name": "Assyria",
+  "wikipedia": "Assyria",
+  "map_year": -1220,
+  "period": {
+    "start": {
+      "earliest": -2025,
+      "latest": -2025,
+      "circa": true
+    },
+    "end": {
+      "earliest": -609,
+      "latest": -609,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Assur",
+      "location": [
+        43.2625,
+        35.456666666667
+      ]
+    },
+    {
+      "name": "Nineveh",
+      "location": [
+        43.15,
+        36.366667
+      ]
+    },
+    {
+      "name": "Kar-Tukulti-Ninurta",
+      "location": [
+        43.26944444,
+        35.49583333
+      ]
+    },
+    {
+      "name": "Nimrud",
+      "location": [
+        43.328888888889,
+        36.098055555556
+      ]
+    },
+    {
+      "name": "Dur-Sharrukin",
+      "location": [
+        43.22931,
+        36.50953
+      ]
+    },
+    {
+      "name": "Harran",
+      "location": [
+        39.025,
+        36.87083333333333
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q2493427",
+      "name": "Puzur-Ashur I"
+    },
+    {
+      "id": "Q720814",
+      "name": "Erishum I"
+    },
+    {
+      "id": "Q254523",
+      "name": "Shamshi-Adad I"
+    },
+    {
+      "id": "Q4881698",
+      "name": "Bel-bani"
+    },
+    {
+      "id": "Q299468",
+      "name": "Ashur-uballit I"
+    },
+    {
+      "id": "Q299013",
+      "name": "Tukulti-Ninurta I"
+    },
+    {
+      "id": "Q296295",
+      "name": "Tiglath-Pileser I"
+    },
+    {
+      "id": "Q193290",
+      "name": "Ashurnasirpal II"
+    },
+    {
+      "id": "Q210074",
+      "name": "Tiglath-Pileser III"
+    },
+    {
+      "id": "Q207140",
+      "name": "Sennacherib"
+    },
+    {
+      "id": "Q193912",
+      "name": "Esarhaddon"
+    },
+    {
+      "id": "Q171191",
+      "name": "Ashurbanipal"
+    },
+    {
+      "id": "Q362680",
+      "name": "Aššur-etil-ilāni"
+    },
+    {
+      "id": "Q318708",
+      "name": "Sîn-šar-iškun"
+    },
+    {
+      "id": "Q316221",
+      "name": "Ashur-uballit II"
+    }
+  ],
+  "modern_countries": [
+    "Iraq",
+    "Turkey",
+    "Syria",
+    "Iran"
+  ],
+  "map": "maps/assyria.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Assur",
+        "Ekallatum",
+        "Nineveh",
+        "Tell Leilan",
+        "Kar-Tukulti-Ninurta",
+        "Nimrud",
+        "Dur-Sharrukin",
+        "Harran",
+        "Carchemish"
+      ],
+      "infobox": [
+        "Assur",
+        "Kar-Tukulti-Ninurta",
+        "Nimrud",
+        "Dur-Sharrukin",
+        "Nineveh",
+        "Harran"
+      ]
+    },
+    "cliopatria_years": [
+      -1800,
+      -901
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Hittites",
+      "Elam",
+      "New Kingdom of Egypt"
+    ]
+  }
+}

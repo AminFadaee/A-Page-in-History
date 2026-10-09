@@ -1,0 +1,41 @@
+{
+  "id": "Q76437",
+  "slug": "karl-donitz",
+  "name": "Karl Dönitz",
+  "wikipedia": "Karl Dönitz",
+  "role": "German grand admiral",
+  "life": "1891–1980",
+  "lifetime": [
+    1891,
+    1980
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [
+    "Malta"
+  ],
+  "contribution": "A German naval officer and politician who briefly succeeded Adolf Hitler as the head of state of Germany in the Nazi era after Hitler’s Suicide during the Second World War in April 1945.",
+  "image": "images/karl-donitz.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Nazi Germany",
+        "Malta"
+      ],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Karl Dönitz (German: [ˈdøːnɪts] ; 16 September 1891 – 24 December 1980) was a German naval officer and politician who briefly succeeded Adolf Hitler as the head of state of Germany in the Nazi era after Hitler’s Suicide during the Second World War in April 1945. He held this position until the dissolution of the Flensburg Government, about two weeks after Germany's unconditional surrender to the Allies. As Supreme Commander of the Navy beginning in 1943, he played a major role in the naval history of the war.",
+    "photo": "capture date '' not within their lifetime and not classified as a photograph"
+  }
+}

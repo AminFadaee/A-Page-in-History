@@ -1,0 +1,46 @@
+{
+  "id": "Q7750",
+  "slug": "louis-xviii",
+  "name": "Louis XVIII",
+  "wikipedia": "Louis XVIII",
+  "role": "King of France from 1814 to 1824",
+  "life": "1755–1824",
+  "lifetime": [
+    1755,
+    1824
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "First French Empire",
+    "Kingdom of Prussia",
+    "Russian Empire",
+    "Bourbon Kingdom of France"
+  ],
+  "contribution": "King of France from 1814 to 1824, except for a brief interruption during the Hundred Days in 1815.",
+  "image": "images/louis-xviii.jpg",
+  "image_credit": "François Gérard · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "First French Empire",
+        "Kingdom of Prussia",
+        "Russian Empire",
+        "Bourbon Kingdom of France"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Louis XVIII (Louis Stanislas Xavier; 17 November 1755 – 16 September 1824), known as the Desired (French: le Désiré), was King of France from 1814 to 1824, except for a brief interruption during the Hundred Days in 1815. Before his reign, he spent 23 years in exile from France beginning in 1791, during the French Revolution and the First French Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "Q153529",
+  "slug": "duchy-of-milan",
+  "name": "Duchy of Milan",
+  "wikipedia": "Duchy of Milan",
+  "map_year": 1422,
+  "period": {
+    "start": {
+      "earliest": 1395,
+      "latest": 1395,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1796,
+      "latest": 1796,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Milan",
+      "location": [
+        9.19,
+        45.466944444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Ambrosian Republic"
+  ],
+  "successors": [
+    "Ambrosian Republic"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q153529",
+        "layer": 1,
+        "name": "Duchy of Milan"
+      },
+      {
+        "id": "Q746443",
+        "layer": 2,
+        "name": "Ambrosian Republic"
+      }
+    ],
+    "edges": [
+      [
+        "Q746443",
+        "Q153529",
+        "Italy, Switzerland"
+      ],
+      [
+        "Q153529",
+        "Q746443",
+        "Italy, Switzerland"
+      ]
+    ],
+    "question": "successions/duchy-of-milan-question.png",
+    "answer": "successions/duchy-of-milan-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q357539",
+      "name": "Gian Galeazzo Visconti"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "Switzerland"
+  ],
+  "map": "maps/duchy-of-milan.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Milan"
+      ],
+      "infobox": [
+        "Milan"
+      ]
+    },
+    "cliopatria_years": [
+      1402,
+      1539
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Holy Roman Empire Minor States",
+      "Kingdom of France",
+      "House of Habsburg",
+      "County of Savoy",
+      "Republic of Venice",
+      "Crown of Castile",
+      "Kingdom of Hungary",
+      "Ottoman Empire",
+      "Kingdom of England",
+      "Kingdom of Poland",
+      "Crown of Aragon",
+      "Kingdom of Bohemia",
+      "Principality of Moldavia",
+      "Kingdom of Portugal",
+      "Principality of Wallachia",
+      "Serbian Empire",
+      "Kingdom of Naples",
+      "Duchy of Bavaria",
+      "Duchy of Burgundy",
+      "Kingdom of Bosnia",
+      "Papal States",
+      "Duchy of Brittany",
+      "House of Bourbon",
+      "House of Ascania",
+      "Emirate of Granada",
+      "Electorate of Brandenburg"
+    ]
+  }
+}

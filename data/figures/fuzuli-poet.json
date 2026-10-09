@@ -1,0 +1,44 @@
+{
+  "id": "Q178379",
+  "slug": "fuzuli-poet",
+  "name": "Fuzuli (poet)",
+  "wikipedia": "Fuzuli (poet)",
+  "role": "Azerbaijani poet",
+  "life": "c. 1494–1556",
+  "lifetime": [
+    1480,
+    1556
+  ],
+  "occupation": "Writer",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Aq Qoyunlu",
+    "Safavid Dynasty",
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "A 16th-century poet who composed works in his native Azerbaijani, as well as Persian and Arabic.",
+  "image": "images/fuzuli-poet.jpg",
+  "image_credit": "Aşık Çelebi · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Aq Qoyunlu",
+        "Safavid Dynasty",
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Aq Qoyunlu",
+        "Safavid Dynasty",
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Aq Qoyunlu"
+      ]
+    },
+    "lead": "Muhammad bin Suleyman (Azerbaijani: Məhəmməd Süleyman oğlu, مَحمد سلیمان اوغلی; 1483–1556), better known by his pen name Fuzuli (Füzuli, فضولی), was a 16th-century poet who composed works in his native Azerbaijani, as well as Persian and Arabic. He is regarded as one of the greatest poets of Turkic literature and a prominent figure in both Azerbaijani and Ottoman literature. Fuzuli's work was widely known and admired throughout the Turkic cultural landscape from the 16th to the 19th centuries, with his fame reaching as far as Central Asia and India.",
+    "photo": "no death year in or after 1860"
+  }
+}

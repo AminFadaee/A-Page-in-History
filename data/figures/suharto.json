@@ -1,0 +1,42 @@
+{
+  "id": "Q44819",
+  "slug": "suharto",
+  "name": "Suharto",
+  "wikipedia": "Suharto",
+  "role": "President of Indonesia from 1967 to 1998",
+  "life": "1921–2008",
+  "lifetime": [
+    1921,
+    2008
+  ],
+  "occupation": "Politician",
+  "birth_country": "Indonesia",
+  "civilizations": [
+    "Dutch East Indies"
+  ],
+  "related": [
+    "United States of America"
+  ],
+  "contribution": "An Indonesian general and politician who served as the second and longest-serving president of Indonesia from 1967 to 1998.",
+  "image": "images/suharto.jpg",
+  "image_credit": "State Secretariat of the Republic of Indonesia · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Indonesia",
+        "Dutch East Indies"
+      ],
+      "lead": [
+        "Dutch East Indies",
+        "United States of America"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch East Indies"
+      ]
+    },
+    "lead": "Suharto (8 June 1921 – 27 January 2008) was an Indonesian general and politician who served as the second and longest-serving president of Indonesia from 1967 to 1998.",
+    "photo": "captured 1993 during their lifetime"
+  }
+}

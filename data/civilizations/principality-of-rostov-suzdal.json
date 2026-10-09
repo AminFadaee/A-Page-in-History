@@ -1,0 +1,83 @@
+{
+  "id": "Q83546",
+  "slug": "principality-of-rostov-suzdal",
+  "name": "Principality of Rostov-Suzdal",
+  "wikipedia": "Vladimir-Suzdal",
+  "map_year": 1227,
+  "period": {
+    "start": {
+      "earliest": 1125,
+      "latest": 1125,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1389,
+      "latest": 1389,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Suzdal",
+      "location": [
+        40.448888888889,
+        56.421111111111
+      ]
+    },
+    {
+      "name": "Vladimir",
+      "location": [
+        40.405833333333334,
+        56.12861111111111
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q188995",
+      "name": "Dmitry Donskoy"
+    }
+  ],
+  "modern_countries": [
+    "Russia"
+  ],
+  "map": "maps/principality-of-rostov-suzdal.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Rostov Veliky",
+        "Suzdal",
+        "Vladimir, Russia"
+      ],
+      "infobox": [
+        "Suzdal",
+        "Vladimir, Russia"
+      ]
+    },
+    "cliopatria_years": [
+      1056,
+      1240
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kievan Rus'",
+      "Novgorod Republic",
+      "Principality of Chernigov",
+      "Principality of Smolensk",
+      "Principality of Ryazan",
+      "Kimek-Kipchak confederation",
+      "Kingdom of Sweden",
+      "Principality of Galicia-Volhynia",
+      "Grand Duchy of Lithuania",
+      "Principality of Minsk",
+      "Principality of Kiev",
+      "Volga Bulgaria",
+      "Duchy of Sandomierz"
+    ]
+  }
+}

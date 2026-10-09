@@ -1,0 +1,46 @@
+{
+  "id": "Q53437",
+  "slug": "augustus-ii-the-strong",
+  "name": "Augustus II the Strong",
+  "wikipedia": "Augustus II the Strong",
+  "role": "King of Poland, Elector of Saxony and Grand Duke of Lithuania",
+  "life": "1670–1733",
+  "lifetime": [
+    1670,
+    1733
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Electorate of Saxony",
+    "Polish-Lithuanian Commonwealth"
+  ],
+  "related": [
+    "Russian Empire"
+  ],
+  "contribution": "Elector of Saxony as Frederick Augustus I from 1694 as well as King of Poland and Grand Duke of Lithuania from 1697 to 1706 and from 1709 until his death in 1733.",
+  "image": "images/augustus-ii-the-strong.jpg",
+  "image_credit": "Nicolas de Largillière · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Electorate of Saxony",
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "lead": [
+        "Electorate of Saxony",
+        "Polish-Lithuanian Commonwealth",
+        "Russian Empire"
+      ],
+      "vital_section": [
+        "Polish-Lithuanian Commonwealth"
+      ],
+      "birthplace": [
+        "Electorate of Saxony"
+      ]
+    },
+    "lead": "Augustus II the Strong (12 May 1670 – 1 February 1733), was Elector of Saxony as Frederick Augustus I (German: Friedrich August I) from 1694 as well as King of Poland and Grand Duke of Lithuania from 1697 to 1706 and from 1709 until his death in 1733. He belonged to the Albertine branch of the House of Wettin.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "Q12560",
+  "slug": "ottoman-empire",
+  "name": "Ottoman Empire",
+  "wikipedia": "Ottoman Empire",
+  "map_year": 1595,
+  "period": {
+    "start": {
+      "earliest": 1299,
+      "latest": 1299,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1923,
+      "latest": 1923,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Söğüt",
+      "location": [
+        30.181388888889,
+        40.018611111111
+      ]
+    },
+    {
+      "name": "Bursa",
+      "location": [
+        29.08053888888889,
+        40.19133055555555
+      ]
+    },
+    {
+      "name": "Edirne",
+      "location": [
+        26.57361,
+        41.67304
+      ]
+    },
+    {
+      "name": "Constantinople",
+      "location": [
+        28.976018,
+        41.01224
+      ]
+    },
+    {
+      "name": "Istanbul",
+      "location": [
+        28.960277777778,
+        41.01
+      ]
+    }
+  ],
+  "predecessors": [
+    "Empire of Trebizond"
+  ],
+  "successors": [
+    "Republic of Turkey"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q12560",
+        "layer": 1,
+        "name": "Ottoman Empire"
+      },
+      {
+        "id": "Q178913",
+        "layer": 0,
+        "name": "Empire of Trebizond"
+      },
+      {
+        "id": "Q43",
+        "layer": 2,
+        "name": "Republic of Turkey"
+      }
+    ],
+    "edges": [
+      [
+        "Q178913",
+        "Q12560",
+        "Turkey"
+      ],
+      [
+        "Q12560",
+        "Q43",
+        "Turkey"
+      ]
+    ],
+    "question": "successions/ottoman-empire-question.png",
+    "answer": "successions/ottoman-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q83100",
+      "name": "Osman I"
+    },
+    {
+      "id": "Q162543",
+      "name": "Mehmed VI"
+    }
+  ],
+  "modern_countries": [
+    "Turkey",
+    "Egypt",
+    "Saudi Arabia",
+    "Iran",
+    "Iraq",
+    "Syria",
+    "Bulgaria",
+    "Greece",
+    "Tunisia",
+    "Azerbaijan",
+    "Serbia",
+    "Jordan",
+    "Georgia",
+    "Bosnia and Herzegovina",
+    "Hungary",
+    "Armenia",
+    "Albania",
+    "North Macedonia",
+    "Israel",
+    "Montenegro",
+    "Kuwait",
+    "Qatar",
+    "Kosovo",
+    "Lebanon",
+    "Palestine",
+    "Cyprus",
+    "Turkish Republic of Northern Cyprus"
+  ],
+  "map": "maps/ottoman-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Söğüt",
+        "Bursa",
+        "Edirne",
+        "Constantinople",
+        "Didymoteicho",
+        "Istanbul"
+      ],
+      "infobox": [
+        "Söğüt",
+        "Nicaea",
+        "İznik",
+        "Prusa",
+        "Bursa",
+        "Orestias",
+        "Edirne",
+        "İslâm Ansiklopedisi",
+        "Constantinople",
+        "Istanbul",
+        "Names of Istanbul",
+        "Proclamation of the Republic of Turkey"
+      ]
+    },
+    "cliopatria_years": [
+      1305,
+      1923
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Safavid Dynasty",
+      "Saadi Sultanate",
+      "Ethiopian Empire",
+      "Mughal Empire",
+      "Kazakh Khanate",
+      "Tibet",
+      "Eastern Moghulistan",
+      "Iberian Union",
+      "Kingdom of France",
+      "Tümed",
+      "Bornu Empire",
+      "Khoshut Khanate"
+    ]
+  }
+}

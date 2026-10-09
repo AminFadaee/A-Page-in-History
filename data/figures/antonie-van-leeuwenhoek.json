@@ -1,0 +1,38 @@
+{
+  "id": "Q43522",
+  "slug": "antonie-van-leeuwenhoek",
+  "name": "Antonie van Leeuwenhoek",
+  "wikipedia": "Antonie van Leeuwenhoek",
+  "role": "Dutch microbiologist",
+  "life": "1632–1723",
+  "lifetime": [
+    1632,
+    1723
+  ],
+  "occupation": "Biologist",
+  "birth_country": "Netherlands",
+  "civilizations": [
+    "Dutch Republic"
+  ],
+  "related": [],
+  "contribution": "A Dutch microbiologist and microscopist in the Golden Age of Dutch art, science and technology.",
+  "image": "images/antonie-van-leeuwenhoek.jpg",
+  "image_credit": "Rijksmuseum · CC0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Dutch Republic"
+      ],
+      "lead": [
+        "Dutch Republic"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Dutch Republic"
+      ]
+    },
+    "lead": "Antonie Philips van Leeuwenhoek ( AHN-tə-nee vahn LAY-vən-hook, -⁠huuk; Dutch: [ˈɑntoːni vɑn ˈleːu.ə(n)ˌɦuk] ; 24 October 1632 – 26 August 1723) was a Dutch microbiologist and microscopist in the Golden Age of Dutch art, science and technology. A largely self-taught man in science, he is commonly known as \"the Father of Microbiology\", and one of the first microscopists and microbiologists. Van Leeuwenhoek is best known for his pioneering work in microscopy and for his contributions toward the establishment of microbiology as a scientific discipline.",
+    "photo": "no death year in or after 1860"
+  }
+}

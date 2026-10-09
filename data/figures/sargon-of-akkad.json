@@ -1,0 +1,36 @@
+{
+  "id": "Q199461",
+  "slug": "sargon-of-akkad",
+  "name": "Sargon of Akkad",
+  "wikipedia": "Sargon of Akkad",
+  "role": "Founder of the Akkadian Empire",
+  "life": "24th century BC – 23rd century BC",
+  "lifetime": [
+    -2350,
+    -2201
+  ],
+  "occupation": "Politician",
+  "birth_country": "Iraq",
+  "civilizations": [
+    "Akkadian Empire"
+  ],
+  "related": [],
+  "contribution": "The first ruler of the Akkadian Empire, known for his conquests of the Sumerian city-states in the 24th to 23rd centuries BC. He is sometimes identified as the first person in recorded history to rule over an empire.",
+  "image": "images/sargon-of-akkad.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Akkadian Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Akkadian Empire"
+      ]
+    },
+    "lead": "Sargon of Akkad (; Akkadian: 𒊬𒊒𒄀, romanized: Šarrugi; died c. 2279 BC), also known as Sargon the Great, was the first ruler of the Akkadian Empire, known for his conquests of the Sumerian city-states in the 24th to 23rd centuries BC. He is sometimes identified as the first person in recorded history to rule over an empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

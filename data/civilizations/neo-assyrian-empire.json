@@ -1,0 +1,106 @@
+{
+  "id": "Q10914393",
+  "slug": "neo-assyrian-empire",
+  "name": "Neo-Assyrian Empire",
+  "wikipedia": "Neo-Assyrian Empire",
+  "map_year": -675,
+  "period": {
+    "start": {
+      "earliest": -911,
+      "latest": -911,
+      "circa": false
+    },
+    "end": {
+      "earliest": -609,
+      "latest": -609,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Assur",
+      "location": [
+        43.2625,
+        35.456666666667
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Neo-Babylonian Empire",
+    "Twenty-sixth Dynasty of Egypt"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q10914393",
+        "layer": 1,
+        "name": "Neo-Assyrian Empire"
+      },
+      {
+        "id": "Q624887",
+        "layer": 2,
+        "name": "Neo-Babylonian Empire"
+      },
+      {
+        "id": "Q662410",
+        "layer": 2,
+        "name": "Twenty-sixth Dynasty of Egypt"
+      }
+    ],
+    "edges": [
+      [
+        "Q10914393",
+        "Q624887",
+        "Iraq, Turkey, Syria"
+      ],
+      [
+        "Q10914393",
+        "Q662410",
+        "Egypt"
+      ]
+    ],
+    "question": "successions/neo-assyrian-empire-question.png",
+    "answer": "successions/neo-assyrian-empire-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Egypt",
+    "Turkey",
+    "Iraq",
+    "Syria",
+    "Iran",
+    "Israel",
+    "Armenia",
+    "Lebanon",
+    "Palestine",
+    "Cyprus",
+    "Turkish Republic of Northern Cyprus"
+  ],
+  "map": "maps/neo-assyrian-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Assur"
+      ],
+      "infobox": [
+        "Assur",
+        "Nimrud",
+        "Dur-Sharrukin",
+        "Nineveh",
+        "Harran"
+      ]
+    },
+    "cliopatria_years": [
+      -900,
+      -601
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Kush",
+      "Elam"
+    ]
+  }
+}

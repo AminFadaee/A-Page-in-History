@@ -1,0 +1,44 @@
+{
+  "id": "Q8573",
+  "slug": "sun-yat-sen",
+  "name": "Sun Yat-sen",
+  "wikipedia": "Sun Yat-sen",
+  "role": "Chinese revolutionary and statesman",
+  "life": "1866–1925",
+  "lifetime": [
+    1866,
+    1925
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty",
+    "Republic of China"
+  ],
+  "related": [
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "A Chinese physician, revolutionary and political philosopher who founded the Republic of China and the Kuomintang.",
+  "image": "images/sun-yat-sen.jpg",
+  "image_credit": "上海波尔照相馆 · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of China",
+        "Qing Dynasty"
+      ],
+      "lead": [
+        "Republic of China",
+        "Qing Dynasty",
+        "Union of Soviet Socialist Republics"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Sun Yat-sen (; 12 November 1866 – 12 March 1925) was a Chinese physician, revolutionary and political philosopher who founded the Republic of China (ROC) and the Kuomintang (KMT). Sun is credited with leading the 1911 Revolution and overthrowing the Qing dynasty. He served as the first president of the Provisional Government of the Republic of China (1912) and as the inaugural premier of the Kuomintang.",
+    "photo": "capture date '1922年11月15日' not within their lifetime and not classified as a photograph"
+  }
+}

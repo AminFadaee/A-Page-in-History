@@ -1,0 +1,36 @@
+{
+  "id": "Q18456",
+  "slug": "bertha-von-suttner",
+  "name": "Bertha von Suttner",
+  "wikipedia": "Bertha von Suttner",
+  "role": "Austrian novelist and pacifist",
+  "life": "1843–1914",
+  "lifetime": [
+    1843,
+    1914
+  ],
+  "occupation": "Social activist",
+  "birth_country": "Czechia",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "An Austrian noblewoman, pacifist and novelist.",
+  "image": "images/bertha-von-suttner.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Baroness Bertha Sophie Felicitas von Suttner (Austrian German: [ˈbɛrtaː fɔn ˈzʊtnɐ]; née Countess Kinsky von Wchinitz und Tettau; 9 June 1843 – 21 June 1914) was an Austrian noblewoman, pacifist and novelist. In 1905, she became the second female Nobel laureate (after Marie Curie in 1903), the first woman to be awarded the Nobel Peace Prize, and the first Austrian laureate.",
+    "photo": "captured Unknown date, published in 1907 in Les Prix Nobel during their lifetime"
+  }
+}

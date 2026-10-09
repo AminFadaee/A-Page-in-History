@@ -18,6 +18,7 @@
   "contribution": "A legendary figure venerated by several Christian denominations as a martyr and saint.",
   "image": "images/saint-christopher.jpg",
   "image_credit": "Konrad Witz · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -29,6 +30,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Saint Christopher (Greek: Ἅγιος Χριστόφορος, romanized: Hágios Christóphoros, lit. 'Christ-bearer'; Latin: Sanctus Christophorus), also called Christopher of Lycia (Lycea), is a legendary figure venerated by several Christian denominations as a martyr and saint. The various legends regarding the saint do not agree on the time and place of his activity.  His legendary birthplace is variously placed in Marmarica (west of Egypt), the Middle East or Barbaria. The legendary accounts may situate the saint's legendary martyrdom during the reign of the 3rd-century Roman emperors Decius (r. 249–251), Diocletian (r. 284–305) or Maximinus Daza (r. 308–313).  A martyrium of a Saint Christopher consecrated near Chalcedon (near present-day Istanbul) in 452 is the earliest evidence of a cult of a Saint Christopher. The saint's veneration spread in both the Eastern and Western churches."
+    "lead": "Saint Christopher (Greek: Ἅγιος Χριστόφορος, romanized: Hágios Christóphoros, lit. 'Christ-bearer'; Latin: Sanctus Christophorus), also called Christopher of Lycia (Lycea), is a legendary figure venerated by several Christian denominations as a martyr and saint. The various legends regarding the saint do not agree on the time and place of his activity.  His legendary birthplace is variously placed in Marmarica (west of Egypt), the Middle East or Barbaria. The legendary accounts may situate the saint's legendary martyrdom during the reign of the 3rd-century Roman emperors Decius (r. 249–251), Diocletian (r. 284–305) or Maximinus Daza (r. 308–313).  A martyrium of a Saint Christopher consecrated near Chalcedon (near present-day Istanbul) in 452 is the earliest evidence of a cult of a Saint Christopher. The saint's veneration spread in both the Eastern and Western churches.",
+    "photo": "no death year in or after 1860"
   }
 }

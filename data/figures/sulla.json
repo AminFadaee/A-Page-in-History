@@ -1,0 +1,39 @@
+{
+  "id": "Q483783",
+  "slug": "sulla",
+  "name": "Sulla",
+  "wikipedia": "Sulla",
+  "role": "Roman general and dictator",
+  "life": "138–78 BC",
+  "lifetime": [
+    -138,
+    -78
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [
+    "Kingdom of Pontus"
+  ],
+  "contribution": "A Roman general and statesman of the late Roman Republic.",
+  "image": "images/sulla.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Republic",
+        "Kingdom of Pontus"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Lucius Cornelius Sulla Felix (, Latin pronunciation: [ˈɫuːkius kɔrˈneːlius ˈsulːa ˈfeːliːks]; 138–78 BC), commonly known as Sulla, was a Roman general and statesman of the late Roman Republic. He came to prominence for his military exploits and was the first general during the late republic to march on Rome and win a civil war. After purging his opponents, he assumed the dictatorship, sought to strengthen the republican system through constitutional reforms, and resigned his plenary powers after their enactment.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Q7418",
+  "slug": "emperor-wen-of-sui",
+  "name": "Emperor Wen of Sui",
+  "wikipedia": "Emperor Wen of Sui",
+  "role": "Emperor of China from 581 to 604",
+  "life": "541–604",
+  "lifetime": [
+    541,
+    604
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Sui Dynasty"
+  ],
+  "related": [
+    "Northern Zhou",
+    "Western Göktürks",
+    "Goguryeo",
+    "Chámpa"
+  ],
+  "contribution": "The founding emperor of the Sui dynasty of China.",
+  "image": "images/emperor-wen-of-sui.jpg",
+  "image_credit": "Yan Li-pen · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Sui Dynasty"
+      ],
+      "lead": [
+        "Sui Dynasty",
+        "Northern Zhou",
+        "Western Göktürks",
+        "Goguryeo",
+        "Chámpa"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Western Wei"
+      ]
+    },
+    "lead": "Emperor Wen of Sui (隋文帝; 21 July 541 – 13 August 604), personal name Yang Jian (楊堅), childhood name Naluoyan (那羅延), Xianbei name Puliuru Jian (普六茹堅), was the founding emperor of the Sui dynasty of China. As a Buddhist, he encouraged the spread of Buddhism through the state.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Q37134",
+  "slug": "frederick-william-iii",
+  "name": "Frederick William III",
+  "wikipedia": "Frederick William III",
+  "role": "King of Prussia from 1797 to 1840",
+  "life": "1770–1840",
+  "lifetime": [
+    1770,
+    1840
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "King of Prussia from 16 November 1797 until his death in 1840.",
+  "image": "images/frederick-william-iii.jpg",
+  "image_credit": "Thomas Lawrence · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Prussia"
+      ]
+    },
+    "lead": "Frederick William III (German: Friedrich Wilhelm III.; 3 August 1770 – 7 June 1840) was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved.",
+    "photo": "no death year in or after 1860"
+  }
+}

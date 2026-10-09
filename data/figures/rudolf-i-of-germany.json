@@ -1,0 +1,40 @@
+{
+  "id": "Q76956",
+  "slug": "rudolf-i-of-germany",
+  "name": "Rudolf I of Germany",
+  "wikipedia": "Rudolf I of Germany",
+  "role": "King of Germany from 1273 to 1291",
+  "life": "1218–1291",
+  "lifetime": [
+    1218,
+    1291
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [],
+  "contribution": "A German nobleman and the first member of the House of Habsburg to become King of the Romans, reigning from 1273 until his death.",
+  "image": "images/rudolf-i-of-germany.jpg",
+  "image_credit": "Antoni Boys · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Holy Roman Empire"
+      ],
+      "vital_section": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Rudolf of Habsburg (1 May 1218 – 15 July 1291) was a German nobleman and the first member of the House of Habsburg to become King of the Romans, reigning from 1273 until his death. Born into a relatively minor noble family, Rudolf succeeded his father as Count of Habsburg in 1240, gradually expanding his power through military campaigns, political alliances, and the construction of key fortresses such as Neuhabsburg Castle. His marriage to Gertrude of Hohenberg further strengthened his position among the Swabian nobility. During the turbulent period of the Great Interregnum, Rudolf distinguished himself both as a formidable military leader—participating in regional conflicts and even joining the Prussian Crusade in 1254—and as a restorer of order, often intervening against robber barons and feuding nobles. Despite facing excommunication due to disputes with the Church, Rudolf ultimately reconciled with ecclesiastical authorities and built a reputation for fairness and pragmatism. In 1273, he was elected King of the Romans, ending decades of imperial vacancy and division. As king, Rudolf reasserted imperial authority in Germany, notably defeating King Ottokar II of Bohemia and securing Habsburg control over Austria, Styria, and Carinthia. His reign laid the foundations for the rise of the Habsburg dynasty, which would become one of the most influential royal houses in European history. Rudolf died in 1291, leaving a legacy of restored stability and dynastic ambition within the Holy Roman Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "Q128938",
+  "slug": "shang-dynasty",
+  "name": "Shang Dynasty",
+  "wikipedia": "Shang dynasty",
+  "map_year": -1600,
+  "period": {
+    "start": {
+      "earliest": -1600,
+      "latest": -1600,
+      "circa": true
+    },
+    "end": {
+      "earliest": -1046,
+      "latest": -1046,
+      "circa": true
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Yinxu",
+      "location": [
+        114.31861111111111,
+        36.1225
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Zhou Dynasty"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q128938",
+        "layer": 1,
+        "name": "Shang Dynasty"
+      },
+      {
+        "id": "Q35216",
+        "layer": 2,
+        "name": "Zhou Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q128938",
+        "Q35216",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/shang-dynasty-question.png",
+    "answer": "successions/shang-dynasty-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "People's Republic of China"
+  ],
+  "map": "maps/shang-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Yinxu",
+        "Bo",
+        "Ao"
+      ],
+      "infobox": [
+        "Yanshi, Luoyang",
+        "Zhengzhou",
+        "Qufu",
+        "Anyang",
+        "Yinxu",
+        "Zhaoge",
+        "Qi County, Hebi"
+      ]
+    },
+    "cliopatria_years": [
+      -1600,
+      -1001
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": []
+  }
+}

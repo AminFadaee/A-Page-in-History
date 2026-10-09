@@ -1,0 +1,42 @@
+{
+  "id": "Q41852",
+  "slug": "heraclius",
+  "name": "Heraclius",
+  "wikipedia": "Heraclius",
+  "role": "Byzantine emperor from 610 to 641",
+  "life": "c. 575–641",
+  "lifetime": [
+    575,
+    641
+  ],
+  "occupation": "Politician",
+  "birth_country": "Türkiye",
+  "civilizations": [
+    "Eastern Roman Empire"
+  ],
+  "related": [
+    "Sasanian Empire",
+    "Rashidun Caliphate"
+  ],
+  "contribution": "Byzantine emperor from 610 to 641.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Sasanian Empire",
+        "Rashidun Caliphate"
+      ],
+      "vital_section": [
+        "Eastern Roman Empire"
+      ],
+      "birthplace": [
+        "Eastern Roman Empire"
+      ]
+    },
+    "lead": "Heraclius (Greek: Ἡράκλειος, romanized: Hērákleios; c. 575 – 11 February 641) was Byzantine emperor from 610 to 641. His rise to power began in 608, when he and his father, Heraclius the Elder, the Exarch of Africa, led a revolt against the unpopular emperor Phocas.",
+    "photo": "image is a coin or calligraphy"
+  }
+}

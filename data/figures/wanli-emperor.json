@@ -1,0 +1,38 @@
+{
+  "id": "Q10061",
+  "slug": "wanli-emperor",
+  "name": "Wanli Emperor",
+  "wikipedia": "Wanli Emperor",
+  "role": "Emperor of China from 1572 to 1620",
+  "life": "1563–1620",
+  "lifetime": [
+    1563,
+    1620
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Ming Dynasty"
+  ],
+  "related": [],
+  "contribution": "The 14th emperor of the Ming dynasty of China, reigning from 1572 to 1620.",
+  "image": "images/wanli-emperor.jpg",
+  "image_credit": "Ming Dynasty Imperial Painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ming Dynasty"
+      ],
+      "lead": [
+        "Ming Dynasty"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Ming Dynasty"
+      ]
+    },
+    "lead": "The Wanli Emperor (4 September 1563 – 18 August 1620), personal name Zhu Yijun, was the 14th emperor of the Ming dynasty of China, reigning from 1572 to 1620. He succeeded his father, the Longqing Emperor.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "Q41555",
+  "slug": "jacques-offenbach",
+  "name": "Jacques Offenbach",
+  "wikipedia": "Jacques Offenbach",
+  "role": "German-born French composer",
+  "life": "1819–1880",
+  "lifetime": [
+    1819,
+    1880
+  ],
+  "occupation": "Composer",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [
+    "Second French Empire"
+  ],
+  "contribution": "A German-born French composer, cellist and impresario.",
+  "image": "images/jacques-offenbach.jpg",
+  "image_credit": "Nadar · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia",
+        "Second French Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Jacques Offenbach (; 20 June 1819 – 5 October 1880) was a German-born French composer, cellist and impresario. He is remembered for his nearly 100 operettas of the 1850s to the 1870s, and his uncompleted opera The Tales of Hoffmann. He was a powerful influence on later composers of the operetta genre, particularly Franz von Suppé, Johann Strauss II and Arthur Sullivan. His best-known works were continually revived during the 20th century, and many of his operettas continue to be staged in the 21st. The Tales of Hoffmann remains part of the standard opera repertory.",
+    "photo": "captured before 1880date QS:P,+1880-00-00T00:00:00Z/7,P1326,+1880-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "Q43958",
+  "slug": "el-cid",
+  "name": "El Cid",
+  "wikipedia": "El Cid",
+  "role": "Castilian warlord and Prince of Valencia from 1094 to 1099",
+  "life": "",
+  "lifetime": [
+    1029,
+    1099
+  ],
+  "occupation": "Nobleman",
+  "birth_country": "Spain",
+  "civilizations": [
+    "Kingdom of Castile"
+  ],
+  "related": [
+    "Taifa of Valencia"
+  ],
+  "contribution": "A Castilian knight and ruler in medieval Spain.",
+  "image": "images/el-cid.jpg",
+  "image_credit": "CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Castile"
+      ],
+      "lead": [
+        "Taifa of Valencia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Castile"
+      ]
+    },
+    "lead": "Rodrigo Díaz de Vivar (c. 1043 – 10 July 1099) was a Castilian knight and ruler in medieval Spain. Fighting with both Christian and Muslim armies during his lifetime, he earned the Arabic honorific as-Sayyid (السّیّد, \"the Lord\" or \"the Master\"), which would evolve into El Çid (Spanish: [el ˈθið], Old Spanish: [el ˈts̻id]), and the Spanish honorific El Campeador (\"the Champion\"). He was born in Vivar, a village near the city of Burgos.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Q51056",
+  "slug": "franz-joseph-i",
+  "name": "Franz Joseph I",
+  "wikipedia": "Franz Joseph I",
+  "role": "Habsburg monarch from 1848 to 1916",
+  "life": "1830–1916",
+  "lifetime": [
+    1830,
+    1916
+  ],
+  "occupation": "Politician",
+  "birth_country": "Austria",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [
+    "Austria-Hungary",
+    "German Confederation",
+    "Grand Duchy of Tuscany",
+    "Kingdom of Sardinia",
+    "Kingdom of Prussia",
+    "Ottoman Empire",
+    "Russian Empire",
+    "Kingdom of Serbia"
+  ],
+  "contribution": "Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916.",
+  "image": "images/franz-joseph-i.jpg",
+  "image_credit": "Carl Pietzner · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire"
+      ],
+      "lead": [
+        "Austrian Empire",
+        "Austria-Hungary",
+        "German Confederation",
+        "Grand Duchy of Tuscany",
+        "Kingdom of Sardinia",
+        "Kingdom of Prussia",
+        "Ottoman Empire",
+        "Russian Empire",
+        "Kingdom of Serbia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Franz Joseph I or Francis Joseph I (German: Franz Joseph Karl [fʁants ˈjoːzɛf ˈkaʁl]; Hungarian: Ferenc József Károly [ˈfɛrɛnt͡s ˈjoːʒɛf ˈkaːroj]; 18 August 1830 – 21 November 1916) was Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy from 2 December 1848 until his death in 1916. In the early part of his reign, his realms and territories were referred to as the Austrian Empire, but in 1867 they were reconstituted as the dual monarchy of Austria-Hungary. From 1 May 1850 to 24 August 1866, he was also president of the German Confederation.",
+    "photo": "captured 1910 during their lifetime"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "Q167782",
+  "slug": "charles-v-of-france",
+  "name": "Charles V of France",
+  "wikipedia": "Charles V of France",
+  "role": "King of France from 1364 to 1380",
+  "life": "1338–1380",
+  "lifetime": [
+    1338,
+    1380
+  ],
+  "occupation": "Politician",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of England"
+  ],
+  "contribution": "King of France from 1364 to his death in 1380.",
+  "image": "images/charles-v-of-france.jpg",
+  "image_credit": "P.poschadel · CC BY-SA 3.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Kingdom of France",
+        "Kingdom of England"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of France"
+      ]
+    },
+    "lead": "Charles V (21 January 1338 – 16 September 1380), called the Wise (French: le Sage; Latin: Sapiens), was King of France from 1364 to his death in 1380. His reign marked an early high point for France during the Hundred Years' War as his armies recovered much of the territory held by the English and successfully reversed the military losses of his predecessors.",
+    "photo": "no death year in or after 1860"
+  }
+}

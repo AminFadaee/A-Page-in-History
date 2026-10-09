@@ -1,0 +1,121 @@
+{
+  "id": "Q188712",
+  "slug": "empire-of-japan",
+  "name": "Empire of Japan",
+  "wikipedia": "Empire of Japan",
+  "map_year": 1943,
+  "period": {
+    "start": {
+      "earliest": 1868,
+      "latest": 1868,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1947,
+      "latest": 1947,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Tokyo",
+      "location": [
+        139.69166666666666,
+        35.68944444444445
+      ]
+    }
+  ],
+  "predecessors": [
+    "Tokugawa Shogunate"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q188712",
+        "layer": 1,
+        "name": "Empire of Japan"
+      },
+      {
+        "id": "Q205662",
+        "layer": 0,
+        "name": "Tokugawa Shogunate"
+      }
+    ],
+    "edges": [
+      [
+        "Q205662",
+        "Q188712",
+        "Japan"
+      ]
+    ],
+    "question": "successions/empire-of-japan-question.png",
+    "answer": "successions/empire-of-japan-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q174231",
+      "name": "Emperor Meiji"
+    },
+    {
+      "id": "Q157052",
+      "name": "Emperor Taishō"
+    },
+    {
+      "id": "Q34479",
+      "name": "Hirohito"
+    }
+  ],
+  "modern_countries": [
+    "People's Republic of China",
+    "Indonesia",
+    "Myanmar",
+    "Japan",
+    "Malaysia",
+    "Philippines",
+    "North Korea",
+    "South Korea",
+    "Taiwan",
+    "Solomon Islands",
+    "East Timor",
+    "Brunei",
+    "Hong Kong",
+    "Guam",
+    "Singapore",
+    "Palau"
+  ],
+  "map": "maps/empire-of-japan.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tokyo City",
+        "Tokyo"
+      ],
+      "infobox": [
+        "Kyoto",
+        "Tokyo"
+      ]
+    },
+    "cliopatria_years": [
+      1868,
+      1945
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Union of Soviet Socialist Republics",
+      "Commonwealth of Australia",
+      "Republic of China",
+      "British Raj",
+      "Mongolian People's Republic",
+      "British Africa",
+      "Kingdom of Saudi Arabia",
+      "Free French",
+      "Pahlavi Dynasty",
+      "Ethiopia",
+      "Kingdom of Egypt",
+      "Tibet"
+    ]
+  }
+}

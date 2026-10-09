@@ -1,0 +1,91 @@
+{
+  "id": "Q178084",
+  "slug": "ilkhanate",
+  "name": "Ilkhanate",
+  "wikipedia": "Ilkhanate",
+  "map_year": 1294,
+  "period": {
+    "start": {
+      "earliest": 1256,
+      "latest": 1256,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1335,
+      "latest": 1335,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Maragheh",
+      "location": [
+        46.23916666666667,
+        37.39194444444445
+      ]
+    },
+    {
+      "name": "Tabriz",
+      "location": [
+        46.29611111111111,
+        38.07388888888889
+      ]
+    },
+    {
+      "name": "Soltaniyeh",
+      "location": [
+        48.7975,
+        36.434722
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Turkey",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan",
+    "Iraq",
+    "Azerbaijan",
+    "Armenia"
+  ],
+  "map": "maps/ilkhanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Maragheh",
+        "Tabriz",
+        "Soltaniyeh"
+      ],
+      "infobox": [
+        "Maragheh",
+        "Tabriz",
+        "Soltaniyeh"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1343
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Golden Horde",
+      "Chagatai Khanate",
+      "Mamluk Sultanate",
+      "Khalji Dynasty",
+      "Byzantine Empire",
+      "Yadava Dynasty",
+      "Kakatiya Dynasty",
+      "Kashmir",
+      "Kingdom of Hungary",
+      "Chandela Kingdom",
+      "Mahdids"
+    ]
+  }
+}

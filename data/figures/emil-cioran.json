@@ -1,0 +1,37 @@
+{
+  "id": "Q193405",
+  "slug": "emil-cioran",
+  "name": "Emil Cioran",
+  "wikipedia": "Emil Cioran",
+  "role": "Romanian philosopher, aphorist, and essayist",
+  "life": "1911–1995",
+  "lifetime": [
+    1911,
+    1995
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Romania",
+  "civilizations": [
+    "Austria-Hungary"
+  ],
+  "related": [],
+  "contribution": "A Romanian philosopher, aphorist, and essayist who published works in both Romanian and French.",
+  "image": "images/emil-cioran.jpg",
+  "image_credit": "Photographer of Keyston agency/Getty Images before Rivarol Premium. Photo taken in the last years of Cioran's life-in-Romania, before his definitive transference in France (1947); first publication 1955-1960s; for Romanian law the artistic and non-artistic photo realized before 1956, or between the years 1956-1996, have their copyright expired. · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austria-Hungary",
+        "Kingdom of Romania"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austria-Hungary"
+      ]
+    },
+    "lead": "Emil Mihai Cioran (; Romanian: [eˈmil tʃoˈran] ; French: [emil sjɔʁɑ̃]; 8 April 1911 – 20 June 1995) was a Romanian philosopher, aphorist, and essayist who published works in both Romanian and French. His work has been noted for its pervasive philosophical pessimism, style, and aphorisms. His works frequently engaged with issues of suffering, decay, and nihilism. In 1937, Cioran moved to the Latin Quarter of Paris, which became his permanent residence, wherein he lived in seclusion with his partner, Simone Boué, until his death in 1995.",
+    "photo": "captured circa 1947date QS:P,+1947-00-00T00:00:00Z/9,P1480,Q5727902 during their lifetime"
+  }
+}

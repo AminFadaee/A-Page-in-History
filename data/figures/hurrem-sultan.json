@@ -1,0 +1,36 @@
+{
+  "id": "Q255809",
+  "slug": "hurrem-sultan",
+  "name": "Hürrem Sultan",
+  "wikipedia": "Hürrem Sultan",
+  "role": "Haseki Sultan of the Ottoman Empire",
+  "life": "c. 1505–1558",
+  "lifetime": [
+    1505,
+    1561
+  ],
+  "occupation": "Politician",
+  "birth_country": "Ukraine",
+  "civilizations": [
+    "Ottoman Empire"
+  ],
+  "related": [],
+  "contribution": "The chief consort and legal wife of Ottoman sultan Suleiman the Magnificent, mother of his successor Selim II, and the first haseki sultan of the Ottoman Empire.",
+  "image": "images/hurrem-sultan.jpg",
+  "image_credit": "anonymous / Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Ottoman Empire"
+      ],
+      "lead": [
+        "Ottoman Empire"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Hürrem Sultan (Turkish pronunciation: [hyɾˈɾæm suɫˈtan]; Ottoman Turkish: خرّم سلطان; c. 1505 – 15 April 1558), also known as Roxelana, was the chief consort and legal wife of Ottoman sultan Suleiman the Magnificent, mother of his successor Selim II, and the first haseki sultan of the Ottoman Empire. She became one of the most powerful and influential women in Ottoman history, and the first in a series of prominent women who lived during the period that came to be known as the Sultanate of Women. She is commonly considered the most powerful Haseki Sultan of the Ottoman Empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

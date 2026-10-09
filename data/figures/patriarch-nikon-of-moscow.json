@@ -1,0 +1,36 @@
+{
+  "id": "Q379587",
+  "slug": "patriarch-nikon-of-moscow",
+  "name": "Patriarch Nikon of Moscow",
+  "wikipedia": "Patriarch Nikon of Moscow",
+  "role": "Seventh Patriarch of Moscow",
+  "life": "1605–1681",
+  "lifetime": [
+    1605,
+    1681
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Russia",
+  "civilizations": [
+    "Tsardom of Russia"
+  ],
+  "related": [],
+  "contribution": "The seventh Patriarch of Moscow and all Rus' of the Russian Orthodox Church, serving officially from 1652 to 1666.",
+  "image": "images/patriarch-nikon-of-moscow.jpg",
+  "image_credit": "anonymous / Unidentified painter · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Tsardom of Russia"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Tsardom of Russia"
+      ]
+    },
+    "lead": "Nikon (Russian: Ни́кон, Old spelling: Нїконъ), born Nikita Minin (Никита Минин; 7 May [O.S. 27 April] 1605 – 17 August [O.S. 7 August] 1681) was the seventh Patriarch of Moscow and all Rus' of the Russian Orthodox Church, serving officially from 1652 to 1666. He was renowned for his eloquence, energy, piety and close ties to Tsar Alexis of Russia. Nikon introduced many reforms, including liturgical reforms that were unpopular among conservatives. These divisions eventually led to a lasting schism known as Raskol (schism) in the Russian Orthodox Church. For many years, he was a dominant political figure, often equaling or even overshadowing the Tsar. In December 1667, Nikon was tried by a synod of church officials, deprived of all his sacerdotal functions, and reduced to the status of a simple monk.",
+    "photo": "no death year in or after 1860"
+  }
+}

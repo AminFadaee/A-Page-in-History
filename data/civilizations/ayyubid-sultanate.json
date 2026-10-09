@@ -1,0 +1,170 @@
+{
+  "id": "Q180114",
+  "slug": "ayyubid-sultanate",
+  "name": "Ayyubid Sultanate",
+  "wikipedia": "Ayyubid dynasty",
+  "map_year": 1192,
+  "period": {
+    "start": {
+      "earliest": 1171,
+      "latest": 1171,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [
+    {
+      "name": "Cairo",
+      "location": [
+        31.235833333333332,
+        30.044444444444444
+      ]
+    }
+  ],
+  "predecessors": [
+    "Fatimid Caliphate"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q180114",
+        "layer": 1,
+        "name": "Ayyubid Sultanate"
+      },
+      {
+        "id": "Q160307",
+        "layer": 0,
+        "name": "Fatimid Caliphate"
+      },
+      {
+        "id": "Q205718",
+        "layer": 1,
+        "name": "Zirid dynasty"
+      },
+      {
+        "id": "Q55502",
+        "layer": 1,
+        "name": "Kingdom of Jerusalem"
+      },
+      {
+        "id": "Q588672",
+        "layer": 1,
+        "name": "Hammadid Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q160307",
+        "Q180114",
+        "Egypt, Libya"
+      ],
+      [
+        "Q160307",
+        "Q205718",
+        "Tunisia, Algeria"
+      ],
+      [
+        "Q160307",
+        "Q55502",
+        "Jordan, Israel, Palestine"
+      ],
+      [
+        "Q160307",
+        "Q588672",
+        "Algeria"
+      ]
+    ],
+    "question": "successions/ayyubid-sultanate-question.png",
+    "answer": "successions/ayyubid-sultanate-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q8581",
+      "name": "Saladin"
+    },
+    {
+      "id": "Q249058",
+      "name": "Al-Aziz Uthman"
+    },
+    {
+      "id": "Q294031",
+      "name": "Al-Mansur Nasir al-Din Muhammad"
+    },
+    {
+      "id": "Q285133",
+      "name": "Al-Adil I"
+    },
+    {
+      "id": "Q293464",
+      "name": "Al-Kamil"
+    },
+    {
+      "id": "Q294314",
+      "name": "Al-Adil II"
+    },
+    {
+      "id": "Q293559",
+      "name": "As-Salih Ayyub"
+    },
+    {
+      "id": "Q464920",
+      "name": "Shajar al-Durr"
+    },
+    {
+      "id": "Q309461",
+      "name": "Al-Ashraf Musa, Sultan of Egypt"
+    }
+  ],
+  "modern_countries": [
+    "Egypt",
+    "Saudi Arabia",
+    "Yemen",
+    "Syria",
+    "Turkey",
+    "Libya",
+    "Iraq",
+    "Jordan",
+    "Israel",
+    "Palestine"
+  ],
+  "map": "maps/ayyubid-sultanate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Cairo"
+      ],
+      "infobox": [
+        "Cairo",
+        "Damascus",
+        "Aleppo"
+      ]
+    },
+    "cliopatria_years": [
+      1177,
+      1249
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Great Seljuk Empire",
+      "Almohad Caliphate",
+      "Sultanate of Rum",
+      "Makuria",
+      "Ghurid Dynasty",
+      "Kara-Khitans",
+      "Khwarezmid Dynasty",
+      "Yadava Dynasty",
+      "Halych-Volhynia occupation",
+      "Kingdom of Hungary",
+      "Lohara Dynasty",
+      "Chaulukya Dynasty",
+      "Ghana Empire",
+      "Paramara Dynasty",
+      "Kashmir",
+      "Alodia",
+      "Mahdids"
+    ]
+  }
+}

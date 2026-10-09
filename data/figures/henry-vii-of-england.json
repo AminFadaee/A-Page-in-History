@@ -1,0 +1,44 @@
+{
+  "id": "Q675493",
+  "slug": "henry-vii-of-england",
+  "name": "Henry VII of England",
+  "wikipedia": "Henry VII of England",
+  "role": "King of England from 1485 to 1509",
+  "life": "1457–1509",
+  "lifetime": [
+    1457,
+    1509
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Duchy of Brittany",
+    "Kingdom of France",
+    "Kingdom of Scotland"
+  ],
+  "contribution": "King of England and Lord of Ireland from his seizure of the crown on 22 August 1485 until his death in 1509.",
+  "image": "images/henry-vii-of-england.jpg",
+  "image_credit": "anonymous · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Duchy of Brittany",
+        "Kingdom of France",
+        "Kingdom of Scotland"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Henry VII (28 January 1457 – 21 April 1509), also known as Henry Tudor, was King of England and Lord of Ireland from his seizure of the crown on 22 August 1485 until his death in 1509. He was the first monarch of the House of Tudor.",
+    "photo": "no death year in or after 1860"
+  }
+}

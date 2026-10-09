@@ -1,0 +1,36 @@
+{
+  "id": "Q213355",
+  "slug": "john-dryden",
+  "name": "John Dryden",
+  "wikipedia": "John Dryden",
+  "role": "English poet and playwright",
+  "life": "1631–1700",
+  "lifetime": [
+    1631,
+    1700
+  ],
+  "occupation": "Writer",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "An English poet, literary critic, translator, and playwright who in 1668 was appointed England's first Poet Laureate.",
+  "image": "images/john-dryden.jpg",
+  "image_credit": "John Richardson · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "John Dryden (; 19 August [O.S. 9 August] 1631 – 12 May [O.S. 1 May] 1700) was an English poet, literary critic, translator, and playwright who in 1668 was appointed England's first Poet Laureate. He is seen as dominating the literary life of Restoration England to such a point that the period came to be known in literary circles as the Age of Dryden. Romantic writer Sir Walter Scott called him \"Glorious John\".",
+    "photo": "no death year in or after 1860"
+  }
+}

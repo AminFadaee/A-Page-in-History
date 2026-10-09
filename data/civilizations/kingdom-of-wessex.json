@@ -1,0 +1,105 @@
+{
+  "id": "Q105313",
+  "slug": "kingdom-of-wessex",
+  "name": "Kingdom of Wessex",
+  "wikipedia": "Wessex",
+  "map_year": 830,
+  "period": {
+    "start": {
+      "earliest": 519,
+      "latest": 519,
+      "circa": true
+    },
+    "end": {
+      "earliest": 927,
+      "latest": 927,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Kingdom of Mercia",
+    "Wihtgar"
+  ],
+  "successors": [
+    "Kingdom of England"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q105313",
+        "layer": 1,
+        "name": "Kingdom of Wessex"
+      },
+      {
+        "id": "Q179876",
+        "layer": 2,
+        "name": "Kingdom of England"
+      },
+      {
+        "id": "Q330362",
+        "layer": 1,
+        "name": "Commonwealth of England"
+      }
+    ],
+    "edges": [
+      [
+        "Q330362",
+        "Q179876",
+        "United Kingdom, Ireland"
+      ],
+      [
+        "Q105313",
+        "Q179876",
+        "United Kingdom"
+      ]
+    ],
+    "question": "successions/kingdom-of-wessex-question.png",
+    "answer": "successions/kingdom-of-wessex-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q366048",
+      "name": "Cerdic of Wessex"
+    },
+    {
+      "id": "Q451580",
+      "name": "Ine of Wessex"
+    },
+    {
+      "id": "Q154934",
+      "name": "Ecgberht, King of Wessex"
+    },
+    {
+      "id": "Q83476",
+      "name": "Alfred the Great"
+    }
+  ],
+  "modern_countries": [
+    "United Kingdom"
+  ],
+  "map": "maps/kingdom-of-wessex.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Winchester"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      534,
+      935
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Northumbria",
+      "Kingdom of the Franks",
+      "Dál Riata",
+      "Great Moravia",
+      "Kingdom of Brittany",
+      "Obotrites"
+    ]
+  }
+}

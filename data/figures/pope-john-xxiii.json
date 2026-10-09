@@ -1,0 +1,43 @@
+{
+  "id": "Q23873",
+  "slug": "pope-john-xxiii",
+  "name": "Pope John XXIII",
+  "wikipedia": "Pope John XXIII",
+  "role": "Head of the Catholic Church from 1958 to 1963",
+  "life": "1881–1963",
+  "lifetime": [
+    1881,
+    1963
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Kingdom of Italy"
+  ],
+  "related": [
+    "Kingdom of Bulgaria",
+    "Kingdom of Greece"
+  ],
+  "contribution": "Head of the Catholic Church and sovereign of Vatican City from 28 October 1958 until his death on 3 June 1963.",
+  "image": "images/pope-john-xxiii.jpg",
+  "image_credit": "De Agostini Editore · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of Italy",
+        "Kingdom of Italy"
+      ],
+      "lead": [
+        "Kingdom of Bulgaria",
+        "Kingdom of Greece"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Italy"
+      ]
+    },
+    "lead": "Pope John XXIII (born Angelo Giuseppe Roncalli;  25 November 1881 – 3 June 1963) was head of the Catholic Church and sovereign of Vatican City from 28 October 1958 until his death on 3 June 1963.",
+    "photo": "captured between 28 October 1958 and 3 June 1963date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1958-10-28T00:00:00Z/11,P1326,+1963-06-03T00:00:00Z/11 during their lifetime"
+  }
+}

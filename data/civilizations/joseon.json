@@ -1,0 +1,97 @@
+{
+  "id": "Q28179",
+  "slug": "joseon",
+  "name": "Joseon",
+  "wikipedia": "Joseon",
+  "map_year": 1516,
+  "period": {
+    "start": {
+      "earliest": 1392,
+      "latest": 1392,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1897,
+      "latest": 1897,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Goryeo"
+  ],
+  "successors": [
+    "Korean Empire"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q28179",
+        "layer": 1,
+        "name": "Joseon"
+      },
+      {
+        "id": "Q28208",
+        "layer": 0,
+        "name": "Goryeo"
+      },
+      {
+        "id": "Q28233",
+        "layer": 2,
+        "name": "Korean Empire"
+      }
+    ],
+    "edges": [
+      [
+        "Q28208",
+        "Q28179",
+        "North Korea, South Korea"
+      ],
+      [
+        "Q28179",
+        "Q28233",
+        "North Korea, South Korea"
+      ]
+    ],
+    "question": "successions/joseon-question.png",
+    "answer": "successions/joseon-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q378483",
+      "name": "Taejo of Joseon"
+    },
+    {
+      "id": "Q257425",
+      "name": "Gojong of Korea"
+    }
+  ],
+  "modern_countries": [
+    "North Korea",
+    "South Korea"
+  ],
+  "map": "maps/joseon.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Hanseongbu"
+      ],
+      "infobox": [
+        "History of Seoul",
+        "Seoul",
+        "Kaesong"
+      ]
+    },
+    "cliopatria_years": [
+      1395,
+      1897
+    ],
+    "identity": "Wikipedia item with overlapping dates",
+    "labelled": [
+      "Ming Dynasty",
+      "Warring States Japan"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q1405",
+  "slug": "augustus",
+  "name": "Augustus",
+  "wikipedia": "Augustus",
+  "role": "Roman emperor from 27 BC to AD 14",
+  "life": "63 BC – AD 14",
+  "lifetime": [
+    -63,
+    14
+  ],
+  "occupation": "Politician",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [
+    "Roman Empire",
+    "Ptolemaic Kingdom",
+    "Parthian Empire",
+    "Kingdom of Kush"
+  ],
+  "contribution": "The founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14.",
+  "image": "images/augustus.jpg",
+  "image_credit": "Joel Bellviure · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Empire",
+        "Roman Republic",
+        "Ptolemaic Kingdom",
+        "Parthian Empire",
+        "Kingdom of Kush"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14), also known as Octavian (Latin: Octavianus), was the founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14. The reign of Augustus initiated an imperial cult and an era of imperial peace (the Pax Romana or Pax Augusta) when the Roman world was largely free of armed conflict. The principate, a style of government in which the emperor showed nominal deference to the Senate, was established during his reign and lasted until the Crisis of the Third Century.",
+    "photo": "no death year in or after 1860"
+  }
+}

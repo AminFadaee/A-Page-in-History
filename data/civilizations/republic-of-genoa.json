@@ -1,0 +1,90 @@
+{
+  "id": "Q174306",
+  "slug": "republic-of-genoa",
+  "name": "Republic of Genoa",
+  "wikipedia": "Republic of Genoa",
+  "map_year": 1314,
+  "period": {
+    "start": {
+      "earliest": 1005,
+      "latest": 1005,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1815,
+      "latest": 1815,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Genoa",
+      "location": [
+        8.93388888888889,
+        44.407222222222224
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Ligurian Republic"
+  ],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q1974438",
+      "name": "Simone Boccanegra"
+    },
+    {
+      "id": "Q1061644",
+      "name": "Giacomo Maria Brignole"
+    }
+  ],
+  "modern_countries": [
+    "Italy",
+    "France",
+    "Russia"
+  ],
+  "map": "maps/republic-of-genoa.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Genoa"
+      ],
+      "infobox": [
+        "Genoa"
+      ]
+    },
+    "cliopatria_years": [
+      1010,
+      1795
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Golden Horde",
+      "Holy Roman Empire Minor States",
+      "Kingdom of Hungary",
+      "Kingdom of France",
+      "Kingdom of England",
+      "Byzantine Empire",
+      "Kingdom of Poland",
+      "Hafsid Dynasty",
+      "Kingdom of Bohemia",
+      "Second Bulgarian Empire",
+      "Crown of Aragon",
+      "Beylik of Karaman",
+      "Principality of Wallachia",
+      "Kingdom of Naples",
+      "House of Habsburg",
+      "Beylik of Hamid",
+      "Margraviate of Brandenburg",
+      "Papal States",
+      "Duchy of Brittany",
+      "Duchy of Masovia",
+      "Kingdom of Sicily",
+      "Kastamonu"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "Q319511",
+  "slug": "sebastiao-jose-de-carvalho-e-melo-1st-marquis-of-pombal",
+  "name": "Sebastião José de Carvalho e Melo, 1st Marquis of Pombal",
+  "wikipedia": "Sebastião José de Carvalho e Melo, 1st Marquis of Pombal",
+  "role": "Portuguese noble, diplomat and statesman",
+  "life": "1699–1782",
+  "lifetime": [
+    1699,
+    1782
+  ],
+  "occupation": "Politician",
+  "birth_country": "Portugal",
+  "civilizations": [
+    "Kingdom of Portugal"
+  ],
+  "related": [
+    "Portuguese Empire",
+    "British Colonial Empire"
+  ],
+  "contribution": "A Portuguese statesman and diplomat.",
+  "image": "images/sebastiao-jose-de-carvalho-e-melo-1st-marquis-of-pombal.jpg",
+  "image_credit": "Louis-Michel van Loo / Joseph Vernet · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Portugal"
+      ],
+      "lead": [
+        "Kingdom of Portugal",
+        "Portuguese Empire",
+        "British Colonial Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Portugal"
+      ]
+    },
+    "lead": "D. Sebastião José de Carvalho e Melo, 1st Marquis of Pombal and 1st Count of Oeiras (Sernancelhe, Viseu, 13 May 1699 – 8 May 1782, Pombal), known as the Marquis of Pombal (Portuguese: Marquês de Pombal [mɐɾˈkeʒ ðɨ põˈbal]), was a Portuguese statesman and diplomat. During the reign of King Joseph I from 1750 to 1777, Pombal served as the king's leading minister and would become the dominant political force in the Kingdom of Portugal and its overseas empire.",
+    "photo": "no death year in or after 1860"
+  }
+}

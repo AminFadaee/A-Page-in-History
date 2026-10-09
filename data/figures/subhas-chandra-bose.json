@@ -1,0 +1,45 @@
+{
+  "id": "Q2153",
+  "slug": "subhas-chandra-bose",
+  "name": "Subhas Chandra Bose",
+  "wikipedia": "Subhas Chandra Bose",
+  "role": "Indian nationalist leader",
+  "life": "1897–1945",
+  "lifetime": [
+    1897,
+    1945
+  ],
+  "occupation": "Politician",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [
+    "Nazi Germany",
+    "Empire of Japan",
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "An Indian anti-colonial nationalist whose defiance of British authority in India made him a hero among many Indians, but his wartime alliances with Nazi Germany and the Empire of Japan left a legacy vexed by authoritarianism, antisemitism, and military failure.",
+  "image": "images/subhas-chandra-bose.jpg",
+  "image_credit": "Unknown (Netaji Research Bureau, Calcutta) · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj"
+      ],
+      "lead": [
+        "British Raj",
+        "Nazi Germany",
+        "Empire of Japan",
+        "Union of Soviet Socialist Republics"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Subhas Chandra Bose (23 January 1897 – 18 August 1945) was an Indian anti-colonial nationalist whose defiance of British authority in India made him a hero among many Indians, but his wartime alliances with Nazi Germany and the Empire of Japan left a legacy vexed by authoritarianism, antisemitism, and military failure. The honorific Netaji (Hindustani for \"Respected Leader\") was first applied to Bose in Germany in early 1942—by the Indian soldiers of the Indische Legion and by the German and Indian officials in the Special Bureau for India in Berlin. It is now used throughout India.",
+    "photo": "capture date 'c. 1930s' not within their lifetime and not classified as a photograph"
+  }
+}

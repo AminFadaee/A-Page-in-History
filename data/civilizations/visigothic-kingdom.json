@@ -1,0 +1,156 @@
+{
+  "id": "Q126936",
+  "slug": "visigothic-kingdom",
+  "name": "Visigothic Kingdom",
+  "wikipedia": "Visigothic Kingdom",
+  "map_year": 490,
+  "period": {
+    "start": {
+      "earliest": 418,
+      "latest": 418,
+      "circa": false
+    },
+    "end": {
+      "earliest": 721,
+      "latest": 721,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Toulouse",
+      "location": [
+        1.4433333333333334,
+        43.60444444444445
+      ]
+    },
+    {
+      "name": "Toledo",
+      "location": [
+        -4.0333333333333,
+        39.866666666667
+      ]
+    },
+    {
+      "name": "Barcelona",
+      "location": [
+        2.1769444444444,
+        41.3825
+      ]
+    }
+  ],
+  "predecessors": [
+    "Kingdom of the Suebi"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q126936",
+        "layer": 1,
+        "name": "Visigothic Kingdom"
+      },
+      {
+        "id": "Q1048918",
+        "layer": 0,
+        "name": "Kingdom of the Suebi"
+      }
+    ],
+    "edges": [
+      [
+        "Q1048918",
+        "Q126936",
+        "Spain, Portugal"
+      ]
+    ],
+    "question": "successions/visigothic-kingdom-question.png",
+    "answer": "successions/visigothic-kingdom-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q1463732",
+      "name": "Wallia"
+    },
+    {
+      "id": "Q110892",
+      "name": "Theodoric I"
+    },
+    {
+      "id": "Q217620",
+      "name": "Euric"
+    },
+    {
+      "id": "Q110884",
+      "name": "Alaric II"
+    },
+    {
+      "id": "Q313065",
+      "name": "Liuvigild"
+    },
+    {
+      "id": "Q313057",
+      "name": "Reccared I"
+    },
+    {
+      "id": "Q350656",
+      "name": "Sisebut"
+    },
+    {
+      "id": "Q312913",
+      "name": "Suintila"
+    },
+    {
+      "id": "Q315447",
+      "name": "Recceswinth"
+    },
+    {
+      "id": "Q350672",
+      "name": "Wittiza"
+    },
+    {
+      "id": "Q243573",
+      "name": "Roderic"
+    },
+    {
+      "id": "Q639737",
+      "name": "Ardo"
+    }
+  ],
+  "modern_countries": [
+    "Spain",
+    "France",
+    "Portugal",
+    "Andorra"
+  ],
+  "map": "maps/visigothic-kingdom.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Toulouse",
+        "Toledo, Spain",
+        "Barcelona"
+      ],
+      "infobox": [
+        "Toulouse",
+        "Barcelona",
+        "Toledo, Spain"
+      ]
+    },
+    "cliopatria_years": [
+      426,
+      723
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ostrogoths",
+      "Salian Franks",
+      "Burgundian Kingdom",
+      "Kingdom of the Suebi",
+      "Vandal Kingdom",
+      "Kingdom of Alamannia",
+      "Kingdom of Thuringia"
+    ]
+  }
+}

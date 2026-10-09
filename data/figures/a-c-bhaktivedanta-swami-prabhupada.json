@@ -1,0 +1,41 @@
+{
+  "id": "Q234898",
+  "slug": "a-c-bhaktivedanta-swami-prabhupada",
+  "name": "A. C. Bhaktivedanta Swami Prabhupada",
+  "wikipedia": "A. C. Bhaktivedanta Swami Prabhupada",
+  "role": "Indian spiritual teacher",
+  "life": "1896–1977",
+  "lifetime": [
+    1896,
+    1977
+  ],
+  "occupation": "Religious figure",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj"
+  ],
+  "related": [
+    "United States of America"
+  ],
+  "contribution": "An Indian spiritual, philosophical, and religious teacher who spread the Hare Krishna mantra and the teachings of \"Krishna consciousness\" to the world.",
+  "image": "images/a-c-bhaktivedanta-swami-prabhupada.jpg",
+  "image_credit": "Christian Jansen · CC BY 3.0",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Republic of India",
+        "British Raj"
+      ],
+      "lead": [
+        "United States of America"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Abhay Charanaravinda Bhaktivedanta Swami Prabhupada (1 September 1896 – 14 November 1977) was an Indian spiritual, philosophical, and religious teacher who spread the Hare Krishna mantra and the teachings of \"Krishna consciousness\" to the world. Born as Abhay Charan De and later legally named Abhay Charanaravinda Bhaktivedanta Swami, he is often referred to as \"Bhaktivedanta Swami\", \"Srila Prabhupada\", or simply \"Prabhupada\".",
+    "photo": "captured 1974-06 during their lifetime"
+  }
+}

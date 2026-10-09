@@ -1,0 +1,47 @@
+{
+  "id": "Q185152",
+  "slug": "puyi",
+  "name": "Puyi",
+  "wikipedia": "Puyi",
+  "role": "Emperor of China and of Manchukuo",
+  "life": "1906–1967",
+  "lifetime": [
+    1906,
+    1967
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qing Dynasty",
+    "People's Republic of China"
+  ],
+  "related": [
+    "Union of Soviet Socialist Republics"
+  ],
+  "contribution": "The last emperor of China, having reigned as the Xuantong Emperor of the Qing dynasty and later as the Kangde Emperor of Manchukuo, a Japanese puppet state during World War II. After the war, he was held as a war criminal in the Soviet Union and China until 1959, when the Chinese Communist Party granted him amnesty and presented him as a model of successful reeducation.",
+  "image": "images/puyi.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qing Dynasty",
+        "Republic of China",
+        "People's Republic of China"
+      ],
+      "lead": [
+        "Qing Dynasty",
+        "Union of Soviet Socialist Republics",
+        "People's Republic of China"
+      ],
+      "vital_section": [
+        "People's Republic of China"
+      ],
+      "birthplace": [
+        "Qing Dynasty"
+      ]
+    },
+    "lead": "Puyi (Chinese: 溥儀; pinyin: Pǔ Yí; Wade–Giles: P'u-i; 7 February 1906 – 17 October 1967) was the last emperor of China, having reigned as the Xuantong Emperor of the Qing dynasty (1908–1912, with a brief restoration in 1917) and later as the Kangde Emperor of Manchukuo, a Japanese puppet state during World War II. After the war, he was held as a war criminal in the Soviet Union and China until 1959, when the Chinese Communist Party granted him amnesty and presented him as a model of successful reeducation.",
+    "photo": "capture date '约1934年至1935年' not within their lifetime and not classified as a photograph"
+  }
+}

@@ -20,6 +20,7 @@
   "contribution": "A Roman emperor from AD 98 to 117, remembered as the second of the Five Good Emperors of the Nerva–Antonine dynasty.",
   "image": "images/trajan.jpg",
   "image_credit": "Unknown artistUnknown artist · Public domain",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [],
@@ -32,6 +33,7 @@
         "Roman Empire"
       ]
     },
-    "lead": "Trajan (  TRAY-jən; born Marcus Ulpius Traianus, 18 September 53 – c. 9 August 117) was a Roman emperor from AD 98 to 117, remembered as the second of the Five Good Emperors of the Nerva–Antonine dynasty. He was a philanthropic ruler and a successful soldier-emperor who presided over one of the greatest military expansions in Roman history, during which, by the time of his death, the Roman Empire reached its maximum territorial extent. He was given the title of optimus princeps ('the best ruler') by the Roman Senate."
+    "lead": "Trajan (  TRAY-jən; born Marcus Ulpius Traianus, 18 September 53 – c. 9 August 117) was a Roman emperor from AD 98 to 117, remembered as the second of the Five Good Emperors of the Nerva–Antonine dynasty. He was a philanthropic ruler and a successful soldier-emperor who presided over one of the greatest military expansions in Roman history, during which, by the time of his death, the Roman Empire reached its maximum territorial extent. He was given the title of optimus princeps ('the best ruler') by the Roman Senate.",
+    "photo": "no death year in or after 1860"
   }
 }

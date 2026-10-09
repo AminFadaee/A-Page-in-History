@@ -1,0 +1,43 @@
+{
+  "id": "Q315000",
+  "slug": "jean-froissart",
+  "name": "Jean Froissart",
+  "wikipedia": "Jean Froissart",
+  "role": "French writer and historian",
+  "life": "c. 1337–1410",
+  "lifetime": [
+    1337,
+    1410
+  ],
+  "occupation": "Writer",
+  "birth_country": "France",
+  "civilizations": [
+    "Kingdom of France"
+  ],
+  "related": [
+    "Kingdom of England",
+    "Kingdom of Scotland"
+  ],
+  "contribution": "A French-speaking medieval author and court historian from the Low Countries who wrote several works, including Chronicles and Meliador, a long Arthurian romance, and a large body of poetry, both short lyrical forms as well as longer narrative poems.",
+  "image": "images/jean-froissart.jpg",
+  "image_credit": "Marie-Lan Nguyen · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of France"
+      ],
+      "lead": [
+        "Kingdom of England",
+        "Kingdom of France",
+        "Kingdom of Scotland"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Free County of Burgundy"
+      ]
+    },
+    "lead": "Jean Froissart (Old and Middle French: Jehan; sometimes known as John Froissart in English; c. 1337 – c. 1405) was a French-speaking medieval author and court historian from the Low Countries who wrote several works, including Chronicles and Meliador, a long Arthurian romance, and a large body of poetry, both short lyrical forms as well as longer narrative poems. For centuries, Froissart's Chronicles have been recognised as the chief expression of the chivalric revival of the 14th-century kingdoms of England, France and Scotland. His history is also an important source for the first half of the Hundred Years' War.",
+    "photo": "no death year in or after 1860"
+  }
+}

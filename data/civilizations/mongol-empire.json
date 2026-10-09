@@ -1,0 +1,156 @@
+{
+  "id": "Q12557",
+  "slug": "mongol-empire",
+  "name": "Mongol Empire",
+  "wikipedia": "Mongol Empire",
+  "map_year": 1279,
+  "period": {
+    "start": {
+      "earliest": 1206,
+      "latest": 1206,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1368,
+      "latest": 1368,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Avarga",
+      "location": [
+        109.15277777777777,
+        47.09444444444444
+      ]
+    },
+    {
+      "name": "Karakorum",
+      "location": [
+        102.82379,
+        47.19753
+      ]
+    }
+  ],
+  "predecessors": [
+    "Great Jin",
+    "Kara-Khitans",
+    "Western Xia"
+  ],
+  "successors": [],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q12557",
+        "layer": 1,
+        "name": "Mongol Empire"
+      },
+      {
+        "id": "Q5066",
+        "layer": 0,
+        "name": "Great Jin"
+      },
+      {
+        "id": "Q862304",
+        "layer": 0,
+        "name": "Kara-Khitans"
+      },
+      {
+        "id": "Q7427",
+        "layer": 0,
+        "name": "Western Xia"
+      }
+    ],
+    "edges": [
+      [
+        "Q5066",
+        "Q12557",
+        "People's Republic of China, Russia"
+      ],
+      [
+        "Q862304",
+        "Q12557",
+        "People's Republic of China, Kazakhstan, Uzbekistan"
+      ],
+      [
+        "Q7427",
+        "Q12557",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/mongol-empire-question.png",
+    "answer": "successions/mongol-empire-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q720",
+      "name": "Genghis Khan"
+    },
+    {
+      "id": "Q7519",
+      "name": "Ögedei Khan"
+    },
+    {
+      "id": "Q7520",
+      "name": "Güyük Khan"
+    },
+    {
+      "id": "Q7521",
+      "name": "Möngke Khan"
+    }
+  ],
+  "modern_countries": [
+    "People's Republic of China",
+    "Russia",
+    "Kazakhstan",
+    "Iran",
+    "Mongolia",
+    "Afghanistan",
+    "Pakistan",
+    "Turkey",
+    "Ukraine",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Iraq",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Romania",
+    "North Korea",
+    "Belarus",
+    "South Korea",
+    "Azerbaijan",
+    "Georgia",
+    "Moldova",
+    "Armenia",
+    "Siachen Glacier",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/mongol-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Avarga",
+        "Karakorum",
+        "Dadu",
+        "Shangdu"
+      ],
+      "infobox": [
+        "Avarga",
+        "Karakorum"
+      ]
+    },
+    "cliopatria_years": [
+      1206,
+      1293
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Mamluk Sultanate",
+      "Mali Empire",
+      "Khmer Empire"
+    ]
+  }
+}

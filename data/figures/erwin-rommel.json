@@ -1,0 +1,44 @@
+{
+  "id": "Q14060",
+  "slug": "erwin-rommel",
+  "name": "Erwin Rommel",
+  "wikipedia": "Erwin Rommel",
+  "role": "German field marshal",
+  "life": "1891–1944",
+  "lifetime": [
+    1891,
+    1944
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Weimar Republic",
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A German Generalfeldmarschall during World War II. He served in the Wehrmacht of Nazi Germany, as well as in the Reichswehr of the Weimar Republic, and Imperial German Army of the German Empire.",
+  "image": "images/erwin-rommel.jpg",
+  "image_credit": "Winkelmann · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Nazi Germany",
+        "Weimar Republic",
+        "German Empire"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Johannes Erwin Eugen Rommel (pronounced [ˈɛɐviːn ˈʁɔməl] ; 15 November 1891 – 14 October 1944), known as The Desert Fox (German: Der Wüstenfuchs, pronounced [ˈvyːstn̩ˌfʊks] ), was a German Generalfeldmarschall (field marshal) during World War II. He served in the Wehrmacht of Nazi Germany, as well as in the Reichswehr of the Weimar Republic, and Imperial German Army of the German Empire.",
+    "photo": "captured December 1943date QS:P571,+1943-12-00T00:00:00Z/10 during their lifetime"
+  }
+}

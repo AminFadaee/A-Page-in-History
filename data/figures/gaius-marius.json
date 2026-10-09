@@ -1,0 +1,38 @@
+{
+  "id": "Q177975",
+  "slug": "gaius-marius",
+  "name": "Gaius Marius",
+  "wikipedia": "Gaius Marius",
+  "role": "Roman general and statesman",
+  "life": "157–86 BC",
+  "lifetime": [
+    -158,
+    -86
+  ],
+  "occupation": "Diplomat",
+  "birth_country": "Italy",
+  "civilizations": [
+    "Roman Republic"
+  ],
+  "related": [],
+  "contribution": "A Roman general and statesman.",
+  "image": "images/gaius-marius.jpg",
+  "image_credit": "José Luiz · CC BY-SA 4.0",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [],
+      "lead": [
+        "Roman Republic"
+      ],
+      "vital_section": [
+        "Roman Republic"
+      ],
+      "birthplace": [
+        "Roman Republic"
+      ]
+    },
+    "lead": "Gaius Marius (Latin: [ˈɡaːiʊs ˈmariʊs]; c. 157 BC – 13 January 86 BC) was a Roman general and statesman. Marius held the office of consul seven times, more than any other Roman in the Republican period. Rising from a family of smallholders in a village called Ceraetae in the district of Arpinum, Marius acquired his initial military experience serving under Scipio Aemilianus at the Siege of Numantia in 134 BC. He won election as tribune of the plebs in 119 BC and passed a law limiting aristocratic interference in elections. Barely elected praetor in 115 BC, he next became the governor of Further Spain where he campaigned against bandits.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "Q49326",
+  "slug": "majapahit",
+  "name": "Majapahit",
+  "wikipedia": "Majapahit",
+  "map_year": 1363,
+  "period": {
+    "start": {
+      "earliest": 1293,
+      "latest": 1293,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1527,
+      "latest": 1527,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Trowulan",
+      "location": [
+        112.366667,
+        -7.55
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Indonesia",
+    "Malaysia",
+    "East Timor"
+  ],
+  "map": "maps/majapahit.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Trowulan"
+      ],
+      "infobox": [
+        "Trowulan"
+      ]
+    },
+    "cliopatria_years": [
+      1294,
+      1518
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Khmer Empire"
+    ]
+  }
+}

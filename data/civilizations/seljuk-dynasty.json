@@ -1,0 +1,53 @@
+{
+  "id": "Q3708255",
+  "slug": "seljuk-dynasty",
+  "name": "Seljuk Dynasty",
+  "wikipedia": "Seljuk dynasty",
+  "map_year": 1034,
+  "period": {
+    "start": {
+      "earliest": 901,
+      "latest": 1000,
+      "circa": false
+    },
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kazakhstan",
+    "Iran"
+  ],
+  "map": "maps/seljuk-dynasty.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      990,
+      1039
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Ghaznavid Empire",
+      "Kara-Khanids",
+      "Kimek-Kipchak confederation",
+      "Oghuz Turks",
+      "Buyid Dynasty",
+      "Hamdanid Emirates",
+      "Lohara Dynasty",
+      "Kashmir",
+      "Kingdom of Georgia",
+      "Shirvan",
+      "Bagratid Armenia"
+    ]
+  }
+}

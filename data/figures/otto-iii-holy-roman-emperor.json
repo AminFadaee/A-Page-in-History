@@ -1,0 +1,46 @@
+{
+  "id": "Q151090",
+  "slug": "otto-iii-holy-roman-emperor",
+  "name": "Otto III, Holy Roman Emperor",
+  "wikipedia": "Otto III, Holy Roman Emperor",
+  "role": "Holy Roman Emperor from 996 to 1002",
+  "life": "980–1002",
+  "lifetime": [
+    980,
+    1002
+  ],
+  "occupation": "Politician",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Holy Roman Empire"
+  ],
+  "related": [
+    "Emirate of Sicily",
+    "Duchy of Bohemia",
+    "Kingdom of Hungary"
+  ],
+  "contribution": "The Holy Roman emperor and King of Italy from 996 until his death in 1002.",
+  "image": "images/otto-iii-holy-roman-emperor.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Holy Roman Empire"
+      ],
+      "lead": [
+        "Emirate of Sicily",
+        "Duchy of Bohemia",
+        "Kingdom of Hungary"
+      ],
+      "vital_section": [
+        "Holy Roman Empire"
+      ],
+      "birthplace": [
+        "Holy Roman Empire"
+      ]
+    },
+    "lead": "Otto III (June/July 980 – 23 January 1002) was the Holy Roman emperor and King of Italy from 996 until his death in 1002. A member of the Ottonian dynasty, Otto III was the only son of Emperor Otto II and his wife Theophanu.",
+    "photo": "no death year in or after 1860"
+  }
+}

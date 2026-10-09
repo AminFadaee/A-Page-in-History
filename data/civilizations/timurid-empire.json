@@ -1,0 +1,110 @@
+{
+  "id": "Q484195",
+  "slug": "timurid-empire",
+  "name": "Timurid Empire",
+  "wikipedia": "Timurid Empire",
+  "map_year": 1402,
+  "period": {
+    "start": {
+      "earliest": 1370,
+      "latest": 1370,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1507,
+      "latest": 1507,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Samarkand",
+      "location": [
+        66.97583333333333,
+        39.65472222222222
+      ]
+    },
+    {
+      "name": "Herat",
+      "location": [
+        62.203056,
+        34.341944
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Khanate of Bukhara"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q484195",
+        "layer": 1,
+        "name": "Timurid Empire"
+      },
+      {
+        "id": "Q577668",
+        "layer": 2,
+        "name": "Khanate of Bukhara"
+      }
+    ],
+    "edges": [
+      [
+        "Q484195",
+        "Q577668",
+        "Turkmenistan, Afghanistan, Tajikistan"
+      ]
+    ],
+    "question": "successions/timurid-empire-question.png",
+    "answer": "successions/timurid-empire-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Iran",
+    "Afghanistan",
+    "Pakistan",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kazakhstan",
+    "Iraq",
+    "Tajikistan",
+    "Azerbaijan",
+    "Armenia"
+  ],
+  "map": "maps/timurid-empire.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Samarkand",
+        "Herat"
+      ],
+      "infobox": [
+        "Samarkand",
+        "Herat"
+      ]
+    },
+    "cliopatria_years": [
+      1375,
+      1528
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Chagatai Khanate",
+      "Mamluk Sultanate",
+      "Ottoman Empire",
+      "Tughlaq Dynasty",
+      "Kashmiri Sultanate",
+      "Beylik of Karaman",
+      "Golden Horde",
+      "Tibet",
+      "Bahmani Sultanate",
+      "Grand Duchy of Lithuania",
+      "Kingdom of Hungary",
+      "Sultanate of Bengal",
+      "Mahdids"
+    ]
+  }
+}

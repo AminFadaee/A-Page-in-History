@@ -1,0 +1,40 @@
+{
+  "id": "Q160337",
+  "slug": "henry-vi-of-england",
+  "name": "Henry VI of England",
+  "wikipedia": "Henry VI of England",
+  "role": "King of England",
+  "life": "1421–1471",
+  "lifetime": [
+    1421,
+    1471
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [
+    "Kingdom of France"
+  ],
+  "contribution": "King of England from 1422 to 1461 and again from 1470 to 1471, and claimant to the French throne from 1422 to 1453 under the terms of the Treaty of Troyes.",
+  "image": "images/henry-vi-of-england.jpg",
+  "image_credit": "Poems and Romances (Shrewsbury book), illuminated by the MASTER OF JOHN TALBOT · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [
+        "Kingdom of France"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Henry VI (6 December 1421 – 21 May 1471) was King of England from 1422 to 1461 and again from 1470 to 1471, and claimant to the French throne from 1422 to 1453 under the terms of the Treaty of Troyes. He became king of England at the age of nine months,  following the death of his father, Henry V, and inherited the French claim upon the death of his maternal grandfather, Charles VI of France.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Q1001",
+  "slug": "mahatma-gandhi",
+  "name": "Mahatma Gandhi",
+  "wikipedia": "Mahatma Gandhi",
+  "role": "Indian independence activist",
+  "life": "1869–1948",
+  "lifetime": [
+    1869,
+    1948
+  ],
+  "occupation": "Social activist",
+  "birth_country": "India",
+  "civilizations": [
+    "British Raj",
+    "Republic of India"
+  ],
+  "related": [],
+  "contribution": "An Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, which would later inspire movements for civil rights and freedom across the world.",
+  "image": "images/mahatma-gandhi.jpg",
+  "image_credit": "Elliott &amp; Fry · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "British Raj",
+        "Republic of India"
+      ],
+      "lead": [
+        "British Raj"
+      ],
+      "vital_section": [
+        "Republic of India"
+      ],
+      "birthplace": [
+        "British Raj"
+      ]
+    },
+    "lead": "Mohandas Karamchand Gandhi (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, which would later inspire movements for civil rights and freedom across the world. The honorific Mahātmā (Sanskrit: \"great-souled\", \"venerable\"), first applied to him in 1914 in South Africa, is now used throughout the world.",
+    "photo": "captured 1931 during their lifetime"
+  }
+}

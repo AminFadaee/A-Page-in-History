@@ -1,0 +1,88 @@
+{
+  "id": "Q205662",
+  "slug": "tokugawa-shogunate",
+  "name": "Tokugawa Shogunate",
+  "wikipedia": "Tokugawa shogunate",
+  "map_year": 1865,
+  "period": {
+    "start": {
+      "earliest": 1600,
+      "latest": 1600,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1868,
+      "latest": 1868,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Edo",
+      "location": [
+        139.77444444444444,
+        35.68388888888889
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Empire of Japan"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q205662",
+        "layer": 1,
+        "name": "Tokugawa Shogunate"
+      },
+      {
+        "id": "Q188712",
+        "layer": 2,
+        "name": "Empire of Japan"
+      }
+    ],
+    "edges": [
+      [
+        "Q205662",
+        "Q188712",
+        "Japan"
+      ]
+    ],
+    "question": "successions/tokugawa-shogunate-question.png",
+    "answer": "successions/tokugawa-shogunate-answer.png"
+  },
+  "rulers": [],
+  "modern_countries": [
+    "Japan",
+    "Russia"
+  ],
+  "map": "maps/tokugawa-shogunate.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Edo"
+      ],
+      "infobox": [
+        "Edo",
+        "Heian-kyō"
+      ]
+    },
+    "cliopatria_years": [
+      1600,
+      1869
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Russian Empire",
+      "Qing Dynasty",
+      "Rattanakosin Kingdom",
+      "Burma",
+      "Panthay Rebellion",
+      "Joseon",
+      "Khmer Empire"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "Q199821",
+  "slug": "gran-colombia",
+  "name": "Gran Colombia",
+  "wikipedia": "Gran Colombia",
+  "map_year": 1824,
+  "period": {
+    "start": {
+      "earliest": 1819,
+      "latest": 1819,
+      "circa": false
+    },
+    "end": {
+      "earliest": 1831,
+      "latest": 1831,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Bogotá",
+      "location": [
+        -74.08175,
+        4.60971
+      ]
+    }
+  ],
+  "predecessors": [],
+  "successors": [
+    "Republic of New Granada",
+    "Venezuela",
+    "Republic of Ecuador"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q199821",
+        "layer": 1,
+        "name": "Gran Colombia"
+      },
+      {
+        "id": "Q630882",
+        "layer": 2,
+        "name": "Republic of New Granada"
+      },
+      {
+        "id": "Q717",
+        "layer": 2,
+        "name": "Venezuela"
+      },
+      {
+        "id": "Q736",
+        "layer": 2,
+        "name": "Republic of Ecuador"
+      }
+    ],
+    "edges": [
+      [
+        "Q199821",
+        "Q630882",
+        "Colombia, Brazil"
+      ],
+      [
+        "Q199821",
+        "Q717",
+        "Venezuela"
+      ],
+      [
+        "Q199821",
+        "Q736",
+        "Ecuador"
+      ]
+    ],
+    "question": "successions/gran-colombia-question.png",
+    "answer": "successions/gran-colombia-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q8605",
+      "name": "Simón Bolívar"
+    },
+    {
+      "id": "Q1369751",
+      "name": "Domingo Caycedo"
+    }
+  ],
+  "modern_countries": [
+    "Colombia",
+    "Bolivia",
+    "Venezuela",
+    "Brazil",
+    "Ecuador",
+    "Paraguay",
+    "Peru",
+    "Panama"
+  ],
+  "map": "maps/gran-colombia.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Bogotá"
+      ],
+      "infobox": [
+        "Bogotá"
+      ]
+    },
+    "cliopatria_years": [
+      1822,
+      1833
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Empire of Brazil",
+      "Republic of Peru",
+      "Río de la Plata"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "Q49683",
+  "slug": "grand-duchy-of-lithuania",
+  "name": "Grand Duchy of Lithuania",
+  "wikipedia": "Grand Duchy of Lithuania",
+  "map_year": 1375,
+  "period": {
+    "start": {
+      "earliest": 1236,
+      "latest": 1236,
+      "circa": true
+    },
+    "end": {
+      "earliest": 1795,
+      "latest": 1795,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [
+    {
+      "name": "Vilnius",
+      "location": [
+        25.28,
+        54.687222222222225
+      ]
+    }
+  ],
+  "predecessors": [
+    "Principality of Drutsk"
+  ],
+  "successors": [],
+  "succession": {},
+  "rulers": [
+    {
+      "id": "Q242436",
+      "name": "Mindaugas"
+    },
+    {
+      "id": "Q54019",
+      "name": "Stanisław August Poniatowski"
+    }
+  ],
+  "modern_countries": [
+    "Ukraine",
+    "Belarus",
+    "Russia",
+    "Lithuania"
+  ],
+  "map": "maps/grand-duchy-of-lithuania.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Vilnius"
+      ],
+      "infobox": [
+        "Voruta",
+        "Kernavė",
+        "Senieji Trakai",
+        "Vilnius"
+      ]
+    },
+    "cliopatria_years": [
+      1220,
+      1449
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Blue Horde",
+      "Novgorod Republic",
+      "Kingdom of Poland",
+      "Grand Principality of Moscow",
+      "Teutonic Order",
+      "Principality of Moldavia",
+      "Holy Roman Empire Minor States",
+      "Kingdom of Hungary",
+      "Kingdom of Sweden",
+      "Kingdom of Bohemia",
+      "House of Habsburg",
+      "Duchy of Bavaria",
+      "Principality of Wallachia",
+      "Banate of Bosnia",
+      "Second Bulgarian Empire",
+      "Papal States",
+      "Kingdom of Naples",
+      "Serbian Despots"
+    ]
+  }
+}

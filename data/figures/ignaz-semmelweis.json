@@ -1,0 +1,36 @@
+{
+  "id": "Q59736",
+  "slug": "ignaz-semmelweis",
+  "name": "Ignaz Semmelweis",
+  "wikipedia": "Ignaz Semmelweis",
+  "role": "Early pioneer of antiseptic procedures",
+  "life": "1818–1865",
+  "lifetime": [
+    1818,
+    1865
+  ],
+  "occupation": "Physician",
+  "birth_country": "Hungary",
+  "civilizations": [
+    "Austrian Empire"
+  ],
+  "related": [],
+  "contribution": "A Hungarian medical doctor and scientist of German descent who was an early pioneer of antiseptic procedures, known as the \"saviour of mothers\". Postpartum infection, also known as puerperal fever or childbed fever, was common in the 19th century, and often fatal.",
+  "image": "images/ignaz-semmelweis.jpg",
+  "image_credit": "József Borsos / Albert Doctor · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Austrian Empire"
+      ]
+    },
+    "lead": "Ignaz Philipp Semmelweis (German: [ˈɪɡnaːts ˈfɪlɪp ˈzɛml̩vaɪs]; Hungarian: Semmelweis Ignác Fülöp [ˈsɛm(ː)ɛlvɛjs ˈiɡnaːts ˈfyløp]; 1 July 1818 – 13 August 1865) was a Hungarian medical doctor and scientist of German descent who was an early pioneer of antiseptic procedures, known as the \"saviour of mothers\". Postpartum infection, also known as puerperal fever or childbed fever, was common in the 19th century, and often fatal.  Semmelweis demonstrated that the incidence of infection could be drastically reduced by requiring healthcare workers in obstetrical clinics to disinfect their hands. In 1847, he proposed hand washing with chlorinated lime solutions at Vienna General Hospital's First Obstetrical Clinic, where doctors' wards had thrice the mortality of midwives' wards. The maternal mortality rate dropped from 18% to less than 2%, and he published a book of his findings, Etiology, Concept and Prophylaxis of Childbed Fever, in 1861.",
+    "photo": "captured 1860date QS:P571,+1860-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

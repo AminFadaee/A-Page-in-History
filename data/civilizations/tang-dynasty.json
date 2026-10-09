@@ -1,0 +1,106 @@
+{
+  "id": "Q9683",
+  "slug": "tang-dynasty",
+  "name": "Tang Dynasty",
+  "wikipedia": "Tang dynasty",
+  "map_year": 661,
+  "period": {
+    "start": {
+      "earliest": 618,
+      "latest": 618,
+      "circa": false
+    },
+    "end": {
+      "earliest": 907,
+      "latest": 907,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Sui Dynasty"
+  ],
+  "successors": [
+    "Later Liang Dynasty"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q9683",
+        "layer": 1,
+        "name": "Tang Dynasty"
+      },
+      {
+        "id": "Q7405",
+        "layer": 0,
+        "name": "Sui Dynasty"
+      },
+      {
+        "id": "Q783489",
+        "layer": 2,
+        "name": "Later Liang Dynasty"
+      }
+    ],
+    "edges": [
+      [
+        "Q7405",
+        "Q9683",
+        "People's Republic of China"
+      ],
+      [
+        "Q9683",
+        "Q783489",
+        "People's Republic of China"
+      ]
+    ],
+    "question": "successions/tang-dynasty-question.png",
+    "answer": "successions/tang-dynasty-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q9701",
+      "name": "Emperor Taizong of Tang"
+    }
+  ],
+  "modern_countries": [
+    "People's Republic of China",
+    "Mongolia",
+    "Kazakhstan",
+    "Russia",
+    "Uzbekistan",
+    "Kyrgyzstan",
+    "Tajikistan",
+    "Hong Kong",
+    "Macau"
+  ],
+  "map": "maps/tang-dynasty.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Chang'an, Tang Empire"
+      ],
+      "infobox": [
+        "Chang'an",
+        "Luoyang"
+      ]
+    },
+    "cliopatria_years": [
+      623,
+      910
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Rashidun Caliphate",
+      "Tibetan Empire",
+      "Yenisei Kyrgyz",
+      "Goguryeo",
+      "Umayyad Caliphate",
+      "Chalukya Dynasty",
+      "Byzantine Empire",
+      "Khazaria",
+      "Chenla"
+    ]
+  }
+}

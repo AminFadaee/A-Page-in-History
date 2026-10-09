@@ -1,0 +1,41 @@
+{
+  "id": "Q76433",
+  "slug": "eva-braun",
+  "name": "Eva Braun",
+  "wikipedia": "Eva Braun",
+  "role": "Wife of Adolf Hitler",
+  "life": "1912–1945",
+  "lifetime": [
+    1912,
+    1945
+  ],
+  "occupation": "Companion",
+  "birth_country": "Germany",
+  "civilizations": [
+    "German Empire",
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A German photographer who was the longtime companion and briefly the wife of Adolf Hitler.",
+  "image": "images/eva-braun.jpg",
+  "image_credit": "Studio of Heinrich Hoffmann · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "German Empire",
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [
+        "Nazi Germany"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Eva Anna Paula Hitler (née Braun; 6 February 1912 – 30 April 1945) was a German photographer who was the longtime companion and briefly the wife of Adolf Hitler. Braun met Hitler in Munich in 1929 (aged 17) when she was an assistant and model for his personal photographer, Heinrich Hoffmann. She began seeing Hitler often about two years later.",
+    "photo": "capture date 'late 1930s and early 1940s' not within their lifetime and not classified as a photograph"
+  }
+}

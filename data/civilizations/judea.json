@@ -1,0 +1,42 @@
+{
+  "id": "Q104028",
+  "slug": "judea",
+  "name": "Judea",
+  "wikipedia": "Judea",
+  "map_year": -77,
+  "period": {
+    "start": null,
+    "end": null,
+    "confirmed": false
+  },
+  "capitals": [],
+  "predecessors": [],
+  "successors": [],
+  "succession": {},
+  "rulers": [],
+  "modern_countries": [
+    "Israel",
+    "Jordan",
+    "Palestine"
+  ],
+  "map": "maps/judea.png",
+  "checks": {
+    "infobox": false,
+    "capital_sources": {
+      "wikidata": [],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      -144,
+      5
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Kingdom of Armenia",
+      "Nabataeans",
+      "Ptolemaic Kingdom",
+      "Kingdom of Cappadocia",
+      "Galatia"
+    ]
+  }
+}

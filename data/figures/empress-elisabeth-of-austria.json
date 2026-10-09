@@ -1,0 +1,41 @@
+{
+  "id": "Q150782",
+  "slug": "empress-elisabeth-of-austria",
+  "name": "Empress Elisabeth of Austria",
+  "wikipedia": "Empress Elisabeth of Austria",
+  "role": "Habsburg consort from 1854 to 1898",
+  "life": "1837–1898",
+  "lifetime": [
+    1837,
+    1898
+  ],
+  "occupation": "Companion",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Bavaria"
+  ],
+  "related": [
+    "Austria-Hungary"
+  ],
+  "contribution": "Empress of Austria and Queen of Hungary from her marriage to Franz Joseph I on 24 April 1854 until her assassination in 1898.",
+  "image": "images/empress-elisabeth-of-austria.jpg",
+  "image_credit": "Emil Rabending · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Austrian Empire",
+        "Kingdom of Bavaria"
+      ],
+      "lead": [
+        "Austria-Hungary"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of Bavaria"
+      ]
+    },
+    "lead": "Elisabeth (Elisabeth Amalie Eugenie; German: [eˈliːzaˌbɛt aˈmaːliə ɔʏˈɡeːniə]; 24 December 1837 – 10 September 1898), nicknamed Sisi, was Empress of Austria and Queen of Hungary from her marriage to Franz Joseph I on 24 April 1854 until her assassination in 1898.",
+    "photo": "captured 1867date QS:P571,+1867-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

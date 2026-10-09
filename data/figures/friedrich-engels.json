@@ -1,0 +1,38 @@
+{
+  "id": "Q34787",
+  "slug": "friedrich-engels",
+  "name": "Friedrich Engels",
+  "wikipedia": "Friedrich Engels",
+  "role": "German philosopher and socialist",
+  "life": "1820–1895",
+  "lifetime": [
+    1820,
+    1895
+  ],
+  "occupation": "Philosopher",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Kingdom of Prussia"
+  ],
+  "related": [],
+  "contribution": "A German philosopher, social and political theorist, and revolutionary socialist.",
+  "image": "images/friedrich-engels.jpg",
+  "image_credit": "William Hall (1826–ca. 1898) (cropped and sepia tone removed) · Public domain",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of Prussia"
+      ],
+      "lead": [
+        "Kingdom of Prussia"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "German Confederation"
+      ]
+    },
+    "lead": "Friedrich Engels ( ENG-(g)əlz; German: [ˈfʁiːdʁɪç ˈɛŋl̩s]; 28 November 1820 – 5 August 1895) was a German philosopher, social and political theorist, and revolutionary socialist. He is best known for his lifelong collaboration with Karl Marx, with whom he co-authored The Communist Manifesto (1848) and developed the political and philosophical system that came to be known as Marxism. After Marx's death, Engels served as the editor of his works, completing the second and third volumes of Das Kapital.",
+    "photo": "captured 1877-05 during their lifetime"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Q7192",
+  "slug": "qin-shi-huang",
+  "name": "Qin Shi Huang",
+  "wikipedia": "Qin Shi Huang",
+  "role": "Emperor of China from 221 to 210 BC",
+  "life": "259–210 BC",
+  "lifetime": [
+    -259,
+    -210
+  ],
+  "occupation": "Politician",
+  "birth_country": "China",
+  "civilizations": [
+    "Qin Dynasty",
+    "Qin",
+    "Zhao"
+  ],
+  "related": [
+    "Chu"
+  ],
+  "contribution": "The founder of the Qin dynasty and the first emperor of China.",
+  "image": "images/qin-shi-huang.jpg",
+  "image_credit": "Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Qin Dynasty",
+        "Qin"
+      ],
+      "lead": [
+        "Qin Dynasty",
+        "Zhao",
+        "Qin",
+        "Chu"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Zhao"
+      ]
+    },
+    "lead": "Qin Shi Huang (February 259 – 12 July 210 BC) was the founder of the Qin dynasty and the first emperor of China (Chinese: 皇帝; pinyin: Huángdì). He invented the title huángdì rather than reuse the existing title for \"king\" (Chinese: 王; pinyin: wáng); the new title was used by monarchs in China and other countries for the next two millennia.",
+    "photo": "no death year in or after 1860"
+  }
+}

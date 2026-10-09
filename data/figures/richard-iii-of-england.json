@@ -1,0 +1,36 @@
+{
+  "id": "Q133028",
+  "slug": "richard-iii-of-england",
+  "name": "Richard III of England",
+  "wikipedia": "Richard III of England",
+  "role": "King of England from 1483 to 1485",
+  "life": "1452–1485",
+  "lifetime": [
+    1452,
+    1485
+  ],
+  "occupation": "Politician",
+  "birth_country": "United Kingdom",
+  "civilizations": [
+    "Kingdom of England"
+  ],
+  "related": [],
+  "contribution": "King of England from 26 June 1483 until his death in 1485.",
+  "image": "images/richard-iii-of-england.jpg",
+  "image_credit": "Barthel ii · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Kingdom of England"
+      ],
+      "lead": [],
+      "vital_section": [],
+      "birthplace": [
+        "Kingdom of England"
+      ]
+    },
+    "lead": "Richard III (2 October 1452 – 22 August 1485) was King of England from 26 June 1483 until his death in 1485. He was the last king of the Plantagenet dynasty and its cadet branch, the House of York; the former had ruled England since 1154. His defeat and death at the Battle of Bosworth Field marked the end of the Middle Ages in England.",
+    "photo": "no death year in or after 1860"
+  }
+}

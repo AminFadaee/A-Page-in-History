@@ -1,0 +1,36 @@
+{
+  "id": "Q296478",
+  "slug": "hanno-the-navigator",
+  "name": "Hanno the Navigator",
+  "wikipedia": "Hanno the Navigator",
+  "role": "Carthaginian explorer",
+  "life": "5th century BC – 5th century BC",
+  "lifetime": [
+    -499,
+    -302
+  ],
+  "occupation": "Explorer",
+  "birth_country": "Tunisia",
+  "civilizations": [
+    "Carthage"
+  ],
+  "related": [],
+  "contribution": "A Carthaginian explorer who lived during the fifth century BC, known for his naval expedition along the coast of West Africa.",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Carthage"
+      ],
+      "lead": [
+        "Carthage"
+      ],
+      "vital_section": [],
+      "birthplace": []
+    },
+    "lead": "Hanno the Navigator (sometimes \"Hannon\"; Punic: 𐤇‬𐤍‬𐤀‬, Ḥnʾ; Greek: Ἄννων, romanized: Annōn ) was a Carthaginian explorer (sometimes identified as a king) who lived during the fifth century BC, known for his naval expedition along the coast of West Africa.",
+    "photo": "no image"
+  }
+}

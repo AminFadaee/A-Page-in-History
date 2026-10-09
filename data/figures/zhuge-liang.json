@@ -1,0 +1,45 @@
+{
+  "id": "Q198211",
+  "slug": "zhuge-liang",
+  "name": "Zhuge Liang",
+  "wikipedia": "Zhuge Liang",
+  "role": "Chinese statesman and strategist",
+  "life": "181–234",
+  "lifetime": [
+    181,
+    234
+  ],
+  "occupation": "Engineer",
+  "birth_country": "China",
+  "civilizations": [
+    "Shu Han",
+    "Han Dynasty"
+  ],
+  "related": [
+    "Eastern Wu",
+    "Cao Wei"
+  ],
+  "contribution": "A Chinese statesman and strategist who lived through the collapse of the Eastern Han dynasty and became the principal architect of the Shu Han state.",
+  "image": "images/zhuge-liang.jpg",
+  "image_credit": "Unknown authorUnknown author · Public domain",
+  "photo": false,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Shu Han"
+      ],
+      "lead": [
+        "Han Dynasty",
+        "Shu Han",
+        "Eastern Wu",
+        "Cao Wei"
+      ],
+      "vital_section": [],
+      "birthplace": [
+        "Han Dynasty"
+      ]
+    },
+    "lead": "Zhuge Liang () (23 July 181 AD – 8 October 234 AD), courtesy name Kongming, was a Chinese statesman and strategist who lived through the collapse of the Eastern Han dynasty and became the principal architect of the Shu Han state. He served as chancellor under its founding emperor Liu Bei from 221 and as regent to the young emperor Liu Shan after 223 until his death.",
+    "photo": "no death year in or after 1860"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "Q57123",
+  "slug": "alfred-jodl",
+  "name": "Alfred Jodl",
+  "wikipedia": "Alfred Jodl",
+  "role": "German general and war criminal",
+  "life": "1890–1946",
+  "lifetime": [
+    1890,
+    1946
+  ],
+  "occupation": "Military personnel",
+  "birth_country": "Germany",
+  "civilizations": [
+    "Nazi Germany"
+  ],
+  "related": [],
+  "contribution": "A German military officer and convicted war criminal who served as the chief of the operations staff of the Oberkommando der Wehrmacht – the German Armed Forces High Command – throughout World War II.",
+  "image": "images/alfred-jodl.jpg",
+  "image_credit": "Unknown authorUnknown author · CC BY-SA 3.0 de",
+  "photo": true,
+  "checks": {
+    "civilization_votes": {
+      "wikidata": [
+        "Weimar Republic",
+        "Nazi Germany"
+      ],
+      "lead": [],
+      "vital_section": [
+        "Nazi Germany"
+      ],
+      "birthplace": [
+        "German Empire"
+      ]
+    },
+    "lead": "Alfred Josef Ferdinand Jodl (German: [ˈjoːdl̩] ; born Alfred Josef Baumgärtler; 10 May 1890 – 16 October 1946) was a German military officer and convicted war criminal who served as the chief of the operations staff of the Oberkommando der Wehrmacht – the German Armed Forces High Command – throughout World War II.",
+    "photo": "captured 1940date QS:P571,+1940-00-00T00:00:00Z/9 during their lifetime"
+  }
+}

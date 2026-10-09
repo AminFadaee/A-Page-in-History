@@ -1,0 +1,119 @@
+{
+  "id": "Q146246",
+  "slug": "kingdom-of-the-franks",
+  "name": "Kingdom of the Franks",
+  "wikipedia": "Francia",
+  "map_year": 806,
+  "period": {
+    "start": {
+      "earliest": 481,
+      "latest": 481,
+      "circa": false
+    },
+    "end": {
+      "earliest": 843,
+      "latest": 843,
+      "circa": false
+    },
+    "confirmed": true
+  },
+  "capitals": [],
+  "predecessors": [
+    "Magna Frisia",
+    "Kingdom of Alamannia"
+  ],
+  "successors": [
+    "East Franks",
+    "West Franks"
+  ],
+  "succession": {
+    "nodes": [
+      {
+        "id": "Q146246",
+        "layer": 1,
+        "name": "Kingdom of the Franks"
+      },
+      {
+        "id": "Q2208978",
+        "layer": 0,
+        "name": "Kingdom of Alamannia"
+      },
+      {
+        "id": "Q153080",
+        "layer": 2,
+        "name": "East Franks"
+      },
+      {
+        "id": "Q46370",
+        "layer": 2,
+        "name": "West Franks"
+      }
+    ],
+    "edges": [
+      [
+        "Q2208978",
+        "Q146246",
+        "Germany, Switzerland"
+      ],
+      [
+        "Q146246",
+        "Q153080",
+        "Germany, Austria"
+      ],
+      [
+        "Q146246",
+        "Q46370",
+        "France, Italy"
+      ]
+    ],
+    "question": "successions/kingdom-of-the-franks-question.png",
+    "answer": "successions/kingdom-of-the-franks-answer.png"
+  },
+  "rulers": [
+    {
+      "id": "Q82339",
+      "name": "Clovis I"
+    }
+  ],
+  "modern_countries": [
+    "France",
+    "Germany",
+    "Italy",
+    "Austria",
+    "Croatia",
+    "Switzerland",
+    "Netherlands",
+    "Belgium",
+    "Slovenia",
+    "Luxembourg",
+    "Andorra",
+    "Liechtenstein",
+    "San Marino"
+  ],
+  "map": "maps/kingdom-of-the-franks.png",
+  "checks": {
+    "infobox": true,
+    "capital_sources": {
+      "wikidata": [
+        "Tournai",
+        "Paris",
+        "Aachen"
+      ],
+      "infobox": []
+    },
+    "cliopatria_years": [
+      462,
+      849
+    ],
+    "identity": "same item in Cliopatria and Wikipedia",
+    "labelled": [
+      "Emirate of Córdoba",
+      "First Bulgarian Empire",
+      "Scandinavian minor kingdoms",
+      "Duchy of Benevento",
+      "Kingdom of Asturias",
+      "Kingdom of Mercia",
+      "Dál Riata"
+    ]
+  }
+}

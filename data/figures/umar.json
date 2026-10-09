@@ -19,8 +19,9 @@
     "Eastern Roman Empire"
   ],
   "contribution": "The second Rashidun caliph, ruling from August 634 until his assassination in 644.",
-  "image": "images/umar.jpg",
-  "image_credit": "Petermaleh · CC BY-SA 3.0",
+  "image": "",
+  "image_credit": "",
+  "photo": false,
   "checks": {
     "civilization_votes": {
       "wikidata": [
@@ -34,6 +35,7 @@
       "vital_section": [],
       "birthplace": []
     },
-    "lead": "Umar ibn al-Khattab (Arabic: عُمَر بْن ٱلْخَطَّاب, romanized: ʿUmar ibn al-Khaṭṭāb; c. 584 – 644) was the second Rashidun caliph, ruling from August 634 until his assassination in 644. He succeeded Abu Bakr (r. 632–634) and is regarded as a senior companion and father-in-law of the Islamic prophet Muhammad."
+    "lead": "Umar ibn al-Khattab (Arabic: عُمَر بْن ٱلْخَطَّاب, romanized: ʿUmar ibn al-Khaṭṭāb; c. 584 – 644) was the second Rashidun caliph, ruling from August 634 until his assassination in 644. He succeeded Abu Bakr (r. 632–634) and is regarded as a senior companion and father-in-law of the Islamic prophet Muhammad.",
+    "photo": "image is a coin or calligraphy"
   }
 }
