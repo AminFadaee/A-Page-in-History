@@ -107,6 +107,7 @@ class Candidate:
     person: Entity
     lifetime: tuple[int, int]
     section: list[str]
+    lists: tuple[str, ...] = ()
 
     @property
     def adulthood(self) -> tuple[int, int]:
@@ -149,19 +150,31 @@ class FigureBuilder:
         return self._assemble(figures)
 
     def _candidates(self, start: int, end: int) -> list[Candidate]:
+        """People on English Wikipedia's Vital Articles (level 4, or level 5 with a high Pantheon score) or on Meta-Wiki's
+        lists of articles every Wikipedia should have, which many language communities maintain together and which
+        therefore weigh the world more evenly than an English list."""
         entries = [entry for entry in vital.people(self.http, self.wikipedia)
                    if not entry.top_section.startswith(EXCLUDED_SECTIONS)]
         pages = self.wikipedia.resolve([entry.title for entry in entries])
-        people = self.wikidata.entities([page.qid for page in pages.values() if page.qid and self._maybe_alive(page.qid, start, end)])
-        candidates = []
+        listed: dict[str, dict] = {}
         for entry in entries:
             page = pages.get(entry.title)
-            person = people.get(page.qid) if page and page.qid else None
-            if not person or self._excluded(person) or not self._notable(person, entry):
+            if page and page.qid:
+                found = listed.setdefault(page.qid, {"title": page.title, "section": entry.section, "lists": [], "vital": entry})
+                found["lists"].append(f"Vital {entry.level}")
+        for entry in vital.essential_people(self.http):
+            found = listed.setdefault(entry.qid, {"title": None, "section": entry.section, "lists": [], "vital": None})
+            found["lists"].append(entry.list)
+        people = self.wikidata.entities([qid for qid in listed if self._maybe_alive(qid, start, end)])
+        candidates = []
+        for qid, found in listed.items():
+            person = people.get(qid)
+            title = found["title"] or (person.enwiki if person else None)
+            if not person or not title or self._excluded(person) or not self._notable(person, found["vital"]):
                 continue
             span = lifetime(person.years("P569"), person.years("P570"))
             if span:
-                candidates.append(Candidate(page.title, person, span, entry.section.split(" > ")))
+                candidates.append(Candidate(title, person, span, found["section"].split(" > "), tuple(dict.fromkeys(found["lists"]))))
         return candidates
 
     def _maybe_alive(self, qid: str, start: int, end: int) -> bool:
@@ -171,9 +184,10 @@ class FigureBuilder:
             return True
         return start - ASSUMED_LIFESPAN <= found.birth_year <= end
 
-    def _notable(self, person: Entity, entry: vital.Entry) -> bool:
-        """Everyone on Vital Articles level 4; from level 5 only people Pantheon ranks as widely known."""
-        if entry.level == 4:
+    def _notable(self, person: Entity, entry: vital.Entry | None) -> bool:
+        """Everyone on Meta-Wiki's lists or on Vital Articles level 4; from level 5 only people Pantheon ranks as widely
+        known."""
+        if entry is None or entry.level == 4:
             return True
         found = self.pantheon.get(person.id)
         return found is not None and found.popularity is not None and found.popularity >= MIN_LEVEL_5_POPULARITY

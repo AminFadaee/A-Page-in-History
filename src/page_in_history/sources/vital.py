@@ -12,6 +12,25 @@ HEADING = re.compile(r"^(=+)\s*(.*?)\s*=+\s*$")
 ENTRY = re.compile(r"^#\s*(?:\{\{Icon\|[^}]*\}\}\s*)*'*\[\[([^\]|#]+)")
 
 
+META_API = "https://meta.wikimedia.org/w/api.php"
+META_LISTS = {
+    "List of articles every Wikipedia should have": "Meta 1000",
+    "List of articles every Wikipedia should have/Expanded/People": "Meta 10000",
+}
+META_ENTRY = re.compile(r"^#\s*'*\[\[d:(Q\d+)")
+META_COUNT = re.compile(r",\s*\d+$")
+META_EXCLUDED = ("Actors", "Performing artists", "Entertainers", "Musicians", "Criminals", "Directors", "Businesspeople", "Sport",
+                 "Journalists")
+COMMENT = re.compile(r"<!--.*?-->")
+
+
+@dataclass(frozen=True)
+class MetaEntry:
+    qid: str
+    list: str
+    section: str
+
+
 @dataclass(frozen=True)
 class Entry:
     title: str
@@ -64,4 +83,26 @@ def article_levels(http: Http, wikipedia: Wikipedia) -> dict[str, int]:
         for title in page_titles(http, prefix):
             for entry in entries(wikipedia.page_wikitext(title), level, ""):
                 found[entry.title] = min(level, found.get(entry.title, level))
+    return found
+
+
+def essential_people(http: Http) -> list[MetaEntry]:
+    """Entries of Meta-Wiki's lists of articles every Wikipedia should have, the core 1,000 and the people of the
+    expanded 10,000, which editors from many language communities maintain as Wikidata items. People in entertainment,
+    sport, business and crime sections are left out, as on the Vital Articles lists; the core list is filtered to
+    people later, by their dates of birth and death."""
+    found: list[MetaEntry] = []
+    for page, name in META_LISTS.items():
+        params = {"action": "parse", "page": page, "prop": "wikitext", "format": "json", "formatversion": 2}
+        headings: dict[int, str] = {}
+        for line in http.json(META_API, params, namespace="meta")["parse"]["wikitext"].splitlines():
+            line = COMMENT.sub("", line).strip()
+            if heading := HEADING.match(line):
+                depth = len(heading.group(1))
+                headings = {key: value for key, value in headings.items() if key < depth}
+                headings[depth] = META_COUNT.sub("", heading.group(2))
+            elif entry := META_ENTRY.match(line):
+                section = " > ".join(headings[key] for key in sorted(headings) if key > 2 and "{{" not in headings[key])
+                if not section.startswith(META_EXCLUDED):
+                    found.append(MetaEntry(entry.group(1), name, section))
     return found

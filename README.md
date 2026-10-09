@@ -52,7 +52,7 @@ and cut to today's coastline.
 
 | Subdeck | Question | Answer | Made only when |
 |---|---|---|---|
-| Figures | Who: Cyrus the Great | Founder of the Achaemenid Empire, with what they are known for, their civilization and its map | always |
+| Figures | Wikipedia Vital Articles (levels 4 and 5), Meta-Wiki's lists of articles every Wikipedia should have (the core 1,000 and the people of the expanded 10,000), Pantheon | Everyone on Vital Articles level 4 or on either Meta-Wiki list, which editors from many language communities maintain and which weigh the world more evenly than an English list; from level 5 only people with a Pantheon Historical Popularity Index of 78 or more. Leaves out entertainers, athletes, musicians, businesspeople, journalists and similar occupations |
 | Photos | a photograph | the person | they died in 1860 or later and a photograph of them alone is found (see below) |
 
 Images of people from before photography are artists' depictions, so they are shown on the back as illustrations
