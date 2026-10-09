@@ -3,11 +3,12 @@ from collections import Counter
 from dataclasses import asdict, dataclass, field
 
 import geopandas as gpd
+from shapely.geometry import Point
 
 from page_in_history.dates import Span
 from page_in_history.naming import slugify
 from page_in_history.sources import vital
-from page_in_history.sources.cliopatria import EQUAL_AREA, Cliopatria
+from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 from page_in_history.sources.wikidata import Entity, Wikidata, entity_id
 from page_in_history.sources.wikipedia import Infobox, Wikipedia, country_infobox, display_name, place_name
 from page_in_history.succession import RegionalSuccession
@@ -76,6 +77,7 @@ class Polity:
     map_year: int
     period: Period
     capitals: list[dict] = field(default_factory=list)
+    parts: list[str] = field(default_factory=list)
     before: dict = field(default_factory=dict)
     after: dict = field(default_factory=dict)
     rulers: list[dict] = field(default_factory=list)
@@ -332,21 +334,24 @@ class PolityBuilder:
         entity = self.catalog.entities[identity.qid]
         rows = self.cliopatria.rows(identity.name)
         period = self._period(entity, infobox, int(rows.FromYear.min()), int(rows.ToYear.max()))
-        peak = self._peak(rows, period)
         capitals = [self._capital(qid) for qid in entity.ids("P36") if qid in self._qids(infobox.capital)]
+        parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
+                 if qid in self.catalog.by_qid and qid != identity.qid]
+        map_year, extent = self._peak(identity.name, parts, rows, period, capitals)
         before, after, home = self.succession.neighbours(identity.qid, capitals)
         polity = Polity(
             id=identity.qid,
             slug=slugify(identity.name),
             name=identity.name,
             wikipedia=identity.title,
-            map_year=int(peak.FromYear),
+            map_year=map_year,
             period=period,
             capitals=capitals,
+            parts=parts,
             before=self._named(before),
             after=self._named(after),
             rulers=self._rulers(identity.qid, self._qids(infobox.leaders)),
-            modern_countries=self._modern_countries(peak.geometry),
+            modern_countries=self._modern_countries(extent),
         )
         polity.checks = {
             "infobox": bool(infobox.start or infobox.capital or infobox.leaders),
@@ -358,13 +363,23 @@ class PolityBuilder:
         }
         return polity
 
-    @staticmethod
-    def _peak(rows: gpd.GeoDataFrame, period: Period):
-        """The largest extent, looking only inside the confirmed period when there is one."""
+    def _peak(self, name: str, parts: list[str], rows: gpd.GeoDataFrame, period: Period, capitals: list[dict]):
+        """The year of the largest extent, looking only inside the confirmed period when there is one, counted with the
+        parts Wikidata lists (Spain for the Spanish Empire) and preferring years when the civilization holds a capital,
+        so that a year of foreign occupation is not shown; with that year's territory."""
         if period.confirmed:
             within = rows[(rows.ToYear >= period.start.earliest) & (rows.FromYear <= period.end.latest)]
             rows = within if not within.empty else rows
-        return rows.loc[rows.Area.idxmax()]
+        points = [Point(capital["location"]) for capital in capitals if capital["location"]]
+        snapshots = []
+        for year in sorted({int(year) for year in rows.FromYear}):
+            territory = self.cliopatria.at(year)
+            territory = territory[territory.Name.isin([name, *parts])]
+            shape = territory.geometry.union_all()
+            holds = any(shape.buffer(CAPITAL_TOLERANCE_DEGREES).contains(point) for point in points)
+            snapshots.append((holds, float(territory.Area.sum()), year, shape))
+        _, _, year, shape = max(snapshots, key=lambda snapshot: snapshot[:3])
+        return year, shape
 
     def _period(self, entity: Entity, infobox: Infobox, clio_start: int, clio_end: int) -> Period:
         tolerances = {

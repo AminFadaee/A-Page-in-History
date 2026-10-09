@@ -24,7 +24,7 @@ from shapely.geometry import Point, box
 from shapely.ops import polylabel
 
 from page_in_history.naming import year_label
-from page_in_history.sources.cliopatria import EQUAL_AREA, Cliopatria
+from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES, EQUAL_AREA, Cliopatria
 
 FIGURE_SIZE = (10, 5.625)
 DPI = 160
@@ -192,8 +192,8 @@ def regions(territory) -> list[Region]:
 def home(found: list[Region], capitals: list[tuple[float, float]]) -> Region:
     """The region holding a capital, or the largest when none does: Cliopatria draws some colonial empires without
     their homeland, which is a state of its own."""
-    return next((region for region in found for capital in capitals if region.geometry.buffer(0.1).contains(Point(capital))),
-                found[0])
+    return next((region for region in found for capital in capitals
+                 if region.geometry.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))), found[0])
 
 
 class Scene:
@@ -201,8 +201,9 @@ class Scene:
     spanning a third of the globe is drawn on the Equal Earth world projection, anything smaller on a projection
     centred on it."""
 
-    def __init__(self, renderer: "MapRenderer", name: str, year: int, region, territory):
+    def __init__(self, renderer: "MapRenderer", name: str, year: int, region, territory, parts: list[str]):
         polities = renderer.cliopatria.at(year)
+        polities = polities.assign(Name=polities.Name.where(~polities.Name.isin(parts), name))
         center = region.representative_point()
         west, south, east, north = region.bounds
         world = east - west > WORLD_SCALE_DEGREES or north - south > WORLD_SCALE_DEGREES * 0.75
@@ -243,16 +244,19 @@ class MapRenderer:
         font_manager.fontManager.addfont(str(font))
         self.font = font_manager.FontProperties(fname=font).get_name()
 
-    def render(self, name: str, year: int, capitals: list[tuple[float, float]], output: pathlib.Path) -> list[str]:
-        """Draws the civilization at its year around its home region, with up to three other large regions as panels
-        beside it; returns the polities that got a label on the main map."""
+    def render(self, name: str, year: int, capitals: list[tuple[float, float]], output: pathlib.Path,
+               parts: list[str] = ()) -> list[str]:
+        """Draws the civilization at its year, with the parts Wikidata lists for it, around its home region and with up
+        to three other large regions as panels beside it; capitals are starred only where it holds them that year.
+        Returns the polities that got a label on the main map."""
         territory = self.cliopatria.at(year)
-        territory = territory[territory.Name == name].geometry.union_all()
+        territory = territory[territory.Name.isin([name, *parts])].geometry.union_all()
+        capitals = [capital for capital in capitals if territory.buffer(CAPITAL_TOLERANCE_DEGREES).contains(Point(capital))]
         found = regions(territory)
         main = home(found, capitals)
         panels = [region for region in found if region is not main and region.share >= MIN_PANEL_SHARE][:MAX_PANELS]
-        image, labelled = self._draw(Scene(self, name, year, main.geometry, territory), year, capitals, panel=False)
-        images = [self._draw(Scene(self, name, year, region.geometry, territory), year, capitals, panel=True)[0]
+        image, labelled = self._draw(Scene(self, name, year, main.geometry, territory, parts), year, capitals, panel=False)
+        images = [self._draw(Scene(self, name, year, region.geometry, territory, parts), year, capitals, panel=True)[0]
                   for region in panels]
         save(beside(image, images), output)
         return labelled

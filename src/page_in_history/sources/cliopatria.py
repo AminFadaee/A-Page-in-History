@@ -9,6 +9,7 @@ from page_in_history.http import Http
 
 URL = "https://github.com/Seshat-Global-History-Databank/cliopatria/raw/main/cliopatria.geojson.zip"
 EQUAL_AREA = "EPSG:6933"
+CAPITAL_TOLERANCE_DEGREES = 0.1  # how far outside a drawn border a capital can lie, as on a coast or lagoon
 SPIKE_RATIO = 2.5
 
 logger = logging.getLogger(__name__)

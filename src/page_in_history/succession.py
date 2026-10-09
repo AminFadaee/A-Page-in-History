@@ -6,13 +6,14 @@ import numpy as np
 import shapely
 from shapely.geometry import Point
 
+from page_in_history.sources.cliopatria import CAPITAL_TOLERANCE_DEGREES
+
 WINDOW_YEARS = 30
 MIN_HOLD_YEARS = 5
 HOLDING_GAP_YEARS = 5
 HEARTLAND_GRID = 60
 PARTITION_SHARE = 0.15
 PARTITION_HOLDERS = 3
-CAPITAL_TOLERANCE_DEGREES = 0.1
 
 
 @dataclass(frozen=True)

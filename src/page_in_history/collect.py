@@ -104,7 +104,8 @@ class Collector:
     def _draw(self, polity: Polity, renderer: MapRenderer) -> None:
         polity.map = f"maps/{polity.slug}.png"
         capitals = [capital["location"] for capital in polity.capitals if capital["location"]]
-        polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals, self.paths.root / polity.map)
+        polity.checks["labelled"] = renderer.render(polity.name, polity.map_year, capitals, self.paths.root / polity.map,
+                                                    polity.parts)
 
     def _image(self, file: str, name: str) -> str:
         if not file:
