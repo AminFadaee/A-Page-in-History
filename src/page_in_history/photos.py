@@ -29,6 +29,7 @@ PHOTOGRAPHIC = re.compile(r"photograph|daguerreotype|albumen|gelatin silver|cart
 NOT_PHOTOGRAPHIC = re.compile(r"painting|drawing|lithograph|engraving|etching|woodcut|illustration|sculpture|statue|"
                               r"\bbusts?\b|caricature|miniature|fresco|mosaic|\bcoins?\b|\bstamps?\b|calligraph",
                               re.IGNORECASE)
+PORTRAIT_CATEGORY = re.compile(r"portraits? of|paintings of|statues of", re.IGNORECASE)
 MACHINE_DATE = re.compile(r"QS:P\d*,\+(\d{3,4})-")
 HUMAN_YEAR = re.compile(r"(?<!\d)(\d{3,4})(?!\d)")
 
@@ -138,15 +139,23 @@ class PortraitFinder:
         self.classifier = classifier
 
     def illustration(self, person: Entity) -> tuple[str, str, str]:
-        """The person's main Wikidata image unless Commons files it under coins or calligraphy, since those images
-        can show someone else; its file name, credit, and why it was left out when it was."""
-        main = [claim["mainsnak"]["datavalue"]["value"] for claim in person.statements("P18")][:1]
-        file = next(iter(self._files(["File:" + name for name in main]).values()), None)
-        if file is None:
-            return "", "", "no image"
-        if not file.portrait:
-            return "", "", "image is a coin or calligraphy"
-        return file.name, file.credit, ""
+        """A picture of the person for the Who card, which may be a painting: their main Wikidata image, or when
+        Commons files that under coins or calligraphy (such images can show someone else, like a ruler's successor
+        on the reverse), the first other candidate that shows them: a portrait of one person to the model, or without
+        it, a file in a portrait, painting or statue category named after them. Returns the file name, its credit and
+        why there is none when there is not."""
+        main = [claim["mainsnak"]["datavalue"]["value"].replace("_", " ") for claim in person.statements("P18")][:1]
+        for file in self._candidates(person)[:MAX_CANDIDATES]:
+            if file.name in main or self._shows_one_person(file, person):
+                return file.name, file.credit, "" if file.name in main else "main image is a coin, calligraphy or missing"
+        return "", "", "no candidate shows a portrait of the person"
+
+    def _shows_one_person(self, file: CommonsFile, person: Entity) -> bool:
+        """A portrait of one person to the model; without it, a portrait, painting or statue category of the person."""
+        if self.classifier:
+            return self.classifier.score(file.name)[1] >= PORTRAIT
+        name = (person.label or "").casefold()
+        return any(PORTRAIT_CATEGORY.search(category) and name in category.casefold() for category in file.categories)
 
     def photograph(self, person: Entity) -> tuple[Photo | None, str]:
         """A photograph of the person for the Photo card. Candidates are the person's Wikidata images and the files
