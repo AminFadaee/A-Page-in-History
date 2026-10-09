@@ -22,62 +22,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Fatimid Caliphate"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q180114",
-        "layer": 1,
-        "name": "Ayyubid Sultanate"
-      },
-      {
-        "id": "Q160307",
-        "layer": 0,
-        "name": "Fatimid Caliphate"
-      },
-      {
-        "id": "Q205718",
-        "layer": 1,
-        "name": "Zirid dynasty"
-      },
-      {
-        "id": "Q55502",
-        "layer": 1,
-        "name": "Kingdom of Jerusalem"
-      },
-      {
-        "id": "Q588672",
-        "layer": 1,
-        "name": "Hammadid Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q160307",
-        "Q180114",
-        "Egypt, Libya"
-      ],
-      [
-        "Q160307",
-        "Q205718",
-        "Tunisia, Algeria"
-      ],
-      [
-        "Q160307",
-        "Q55502",
-        "Jordan, Israel, Palestine"
-      ],
-      [
-        "Q160307",
-        "Q588672",
-        "Algeria"
-      ]
-    ],
-    "question": "successions/ayyubid-sultanate-question.png",
-    "answer": "successions/ayyubid-sultanate-answer.png"
+  "before": {
+    "id": "Q160307",
+    "region": "Egypt",
+    "name": "Fatimid Caliphate"
+  },
+  "after": {
+    "id": "Q282428",
+    "region": "Egypt",
+    "name": "Mamluk Sultanate"
   },
   "rulers": [
     {
@@ -147,6 +100,7 @@
       1249
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cairo",
     "labelled": [
       "Great Seljuk Empire",
       "Almohad Caliphate",

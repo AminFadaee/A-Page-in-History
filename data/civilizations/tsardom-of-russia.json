@@ -33,34 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Grand Principality of Moscow"
-  ],
-  "successors": [
-    "Russian Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q186096",
-        "layer": 1,
-        "name": "Tsardom of Russia"
-      },
-      {
-        "id": "Q170770",
-        "layer": 0,
-        "name": "Grand Principality of Moscow"
-      }
-    ],
-    "edges": [
-      [
-        "Q170770",
-        "Q186096",
-        "Russia"
-      ]
-    ],
-    "question": "successions/tsardom-of-russia-question.png",
-    "answer": "successions/tsardom-of-russia-answer.png"
+  "before": {
+    "id": "Q170770",
+    "region": "Russia",
+    "name": "Grand Principality of Moscow"
+  },
+  "after": {
+    "id": "Q34266",
+    "region": "Russia",
+    "name": "Russian Empire"
   },
   "rulers": [
     {
@@ -96,6 +77,7 @@
       1720
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Moscow",
     "labelled": [
       "Qing Dynasty",
       "Kazakh Khanate",

@@ -26,11 +26,16 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of Jerusalem"
-  ],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q180114",
+    "region": "Egypt",
+    "name": "Ayyubid Sultanate"
+  },
+  "after": {
+    "id": "Q12560",
+    "region": "Egypt",
+    "name": "Ottoman Empire"
+  },
   "rulers": [
     {
       "id": "Q1417881",
@@ -76,6 +81,7 @@
       1518
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cairo",
     "labelled": [
       "Safavid Dynasty",
       "Ottoman Empire",

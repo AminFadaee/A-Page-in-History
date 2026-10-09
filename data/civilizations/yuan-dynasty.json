@@ -26,53 +26,25 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Ming Dynasty",
-    "Northern Yuan"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q7313",
-        "layer": 1,
-        "name": "Yuan Dynasty"
-      },
-      {
-        "id": "Q9903",
-        "layer": 2,
-        "name": "Ming Dynasty"
-      },
-      {
-        "id": "Q8959",
-        "layer": 2,
-        "name": "Northern Yuan"
-      }
-    ],
-    "edges": [
-      [
-        "Q7313",
-        "Q9903",
-        "People's Republic of China"
-      ],
-      [
-        "Q7313",
-        "Q8959",
-        "Mongolia, Russia, People's Republic of China"
-      ]
-    ],
-    "question": "successions/yuan-dynasty-question.png",
-    "answer": "successions/yuan-dynasty-answer.png"
+  "before": {
+    "id": "Q12557",
+    "region": "China",
+    "name": "Mongol Empire"
+  },
+  "after": {
+    "id": "Q9903",
+    "region": "China",
+    "name": "Ming Dynasty"
   },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Russia",
     "Mongolia",
     "North Korea",
     "South Korea",
-    "Hong Kong",
-    "Macau"
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/yuan-dynasty.png",
   "checks": {
@@ -92,6 +64,7 @@
       1374
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Dadu",
     "labelled": [
       "Golden Horde",
       "Chagatai Khanate",

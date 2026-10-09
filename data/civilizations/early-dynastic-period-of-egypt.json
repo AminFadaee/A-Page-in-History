@@ -10,32 +10,11 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [
-    "Old Kingdom of Egypt"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q187979",
-        "layer": 1,
-        "name": "Early Dynastic Period of Egypt"
-      },
-      {
-        "id": "Q177819",
-        "layer": 2,
-        "name": "Old Kingdom of Egypt"
-      }
-    ],
-    "edges": [
-      [
-        "Q187979",
-        "Q177819",
-        "Egypt"
-      ]
-    ],
-    "question": "successions/early-dynastic-period-of-egypt-question.png",
-    "answer": "successions/early-dynastic-period-of-egypt-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q177819",
+    "region": "Egypt",
+    "name": "Old Kingdom of Egypt"
   },
   "rulers": [],
   "modern_countries": [
@@ -56,6 +35,7 @@
       -2501
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Sumerian City-States"
     ]

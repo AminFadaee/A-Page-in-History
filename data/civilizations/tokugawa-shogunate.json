@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Empire of Japan"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q205662",
-        "layer": 1,
-        "name": "Tokugawa Shogunate"
-      },
-      {
-        "id": "Q188712",
-        "layer": 2,
-        "name": "Empire of Japan"
-      }
-    ],
-    "edges": [
-      [
-        "Q205662",
-        "Q188712",
-        "Japan"
-      ]
-    ],
-    "question": "successions/tokugawa-shogunate-question.png",
-    "answer": "successions/tokugawa-shogunate-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q188712",
+    "region": "Japan",
+    "name": "Empire of Japan"
   },
   "rulers": [],
   "modern_countries": [
@@ -75,6 +54,7 @@
       1869
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Edo",
     "labelled": [
       "Russian Empire",
       "Qing Dynasty",

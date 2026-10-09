@@ -18,33 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Kingdom of Germany"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q12548",
-        "layer": 1,
-        "name": "Holy Roman Empire"
-      },
-      {
-        "id": "Q175211",
-        "layer": 0,
-        "name": "Kingdom of Germany"
-      }
-    ],
-    "edges": [
-      [
-        "Q175211",
-        "Q12548",
-        "Germany, Italy, Austria"
-      ]
-    ],
-    "question": "successions/holy-roman-empire-question.png",
-    "answer": "successions/holy-roman-empire-answer.png"
+  "before": {
+    "id": "Q175211",
+    "region": "Germany",
+    "name": "Kingdom of Germany"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q3044",
@@ -72,7 +51,7 @@
     "Italy",
     "France",
     "Austria",
-    "Czech Republic",
+    "Czechia",
     "Switzerland",
     "Netherlands",
     "Belgium",
@@ -99,6 +78,7 @@
       1621
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Angevin Empire",
       "Kingdom of Hungary",

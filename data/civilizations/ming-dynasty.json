@@ -18,61 +18,22 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Yuan Dynasty"
-  ],
-  "successors": [
-    "Southern Ming"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q9903",
-        "layer": 1,
-        "name": "Ming Dynasty"
-      },
-      {
-        "id": "Q7313",
-        "layer": 0,
-        "name": "Yuan Dynasty"
-      },
-      {
-        "id": "Q8959",
-        "layer": 1,
-        "name": "Northern Yuan"
-      },
-      {
-        "id": "Q1198163",
-        "layer": 2,
-        "name": "Southern Ming"
-      }
-    ],
-    "edges": [
-      [
-        "Q7313",
-        "Q9903",
-        "People's Republic of China"
-      ],
-      [
-        "Q7313",
-        "Q8959",
-        "Mongolia, Russia, People's Republic of China"
-      ],
-      [
-        "Q9903",
-        "Q1198163",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/ming-dynasty-question.png",
-    "answer": "successions/ming-dynasty-answer.png"
+  "before": {
+    "id": "Q7313",
+    "region": "China",
+    "name": "Yuan Dynasty"
+  },
+  "after": {
+    "id": "Q1198163",
+    "region": "China",
+    "name": "Southern Ming"
   },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Russia",
-    "Hong Kong",
-    "Macau"
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/ming-dynasty.png",
   "checks": {
@@ -92,6 +53,7 @@
       1644
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Northern Yuan",
       "Tibet",

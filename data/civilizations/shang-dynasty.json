@@ -26,36 +26,15 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Zhou Dynasty"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q128938",
-        "layer": 1,
-        "name": "Shang Dynasty"
-      },
-      {
-        "id": "Q35216",
-        "layer": 2,
-        "name": "Zhou Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q128938",
-        "Q35216",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/shang-dynasty-question.png",
-    "answer": "successions/shang-dynasty-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q35216",
+    "region": "China",
+    "name": "Zhou Dynasty"
   },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China"
+    "China"
   ],
   "map": "maps/shang-dynasty.png",
   "checks": {
@@ -81,6 +60,7 @@
       -1001
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Yinxu",
     "labelled": []
   }
 }

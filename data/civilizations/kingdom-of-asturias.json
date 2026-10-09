@@ -47,43 +47,15 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Kingdom of León",
-    "Kingdom of Galicia"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q231392",
-        "layer": 1,
-        "name": "Kingdom of Asturias"
-      },
-      {
-        "id": "Q175276",
-        "layer": 2,
-        "name": "Kingdom of León"
-      },
-      {
-        "id": "Q303421",
-        "layer": 2,
-        "name": "Kingdom of Galicia"
-      }
-    ],
-    "edges": [
-      [
-        "Q231392",
-        "Q175276",
-        "Spain, Portugal"
-      ],
-      [
-        "Q231392",
-        "Q303421",
-        "Spain"
-      ]
-    ],
-    "question": "successions/kingdom-of-asturias-question.png",
-    "answer": "successions/kingdom-of-asturias-answer.png"
+  "before": {
+    "id": "Q126936",
+    "region": "Spain",
+    "name": "Visigothic Kingdom"
+  },
+  "after": {
+    "id": "Q175276",
+    "region": "Spain",
+    "name": "Kingdom of León"
   },
   "rulers": [
     {
@@ -121,6 +93,7 @@
       925
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cangas de Onís",
     "labelled": [
       "Emirate of Córdoba",
       "County of Ribagorza",

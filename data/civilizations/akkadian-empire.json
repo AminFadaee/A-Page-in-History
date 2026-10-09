@@ -23,9 +23,8 @@
       "location": null
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Iraq",
@@ -49,6 +48,7 @@
       -2101
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Old Kingdom of Egypt"
     ]

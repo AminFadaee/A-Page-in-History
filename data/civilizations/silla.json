@@ -14,65 +14,15 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [
-    "Byeonhan",
-    "Jinhan"
-  ],
-  "successors": [
-    "Unified Silla"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28456",
-        "layer": 1,
-        "name": "Silla"
-      },
-      {
-        "id": "Q701273",
-        "layer": 0,
-        "name": "Jinhan"
-      },
-      {
-        "id": "Q715257",
-        "layer": 2,
-        "name": "Unified Silla"
-      },
-      {
-        "id": "Q28428",
-        "layer": 1,
-        "name": "Baekje"
-      },
-      {
-        "id": "Q28370",
-        "layer": 1,
-        "name": "Goguryeo"
-      }
-    ],
-    "edges": [
-      [
-        "Q701273",
-        "Q28456",
-        "South Korea"
-      ],
-      [
-        "Q28428",
-        "Q715257",
-        "South Korea"
-      ],
-      [
-        "Q28370",
-        "Q715257",
-        "North Korea"
-      ],
-      [
-        "Q28456",
-        "Q715257",
-        "South Korea, North Korea"
-      ]
-    ],
-    "question": "successions/silla-question.png",
-    "answer": "successions/silla-answer.png"
+  "before": {
+    "id": "Q701273",
+    "region": "South Korea",
+    "name": "Jinhan"
+  },
+  "after": {
+    "id": "Q715257",
+    "region": "South Korea",
+    "name": "Unified Silla"
   },
   "rulers": [],
   "modern_countries": [
@@ -95,6 +45,7 @@
       681
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Goguryeo",
       "Baekje",

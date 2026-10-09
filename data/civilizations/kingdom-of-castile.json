@@ -18,42 +18,15 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [
-    "Crown of Castile"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q179293",
-        "layer": 1,
-        "name": "Kingdom of Castile"
-      },
-      {
-        "id": "Q217196",
-        "layer": 2,
-        "name": "Crown of Castile"
-      },
-      {
-        "id": "Q175276",
-        "layer": 1,
-        "name": "Kingdom of León"
-      }
-    ],
-    "edges": [
-      [
-        "Q175276",
-        "Q217196",
-        "Spain"
-      ],
-      [
-        "Q179293",
-        "Q217196",
-        "Spain"
-      ]
-    ],
-    "question": "successions/kingdom-of-castile-question.png",
-    "answer": "successions/kingdom-of-castile-answer.png"
+  "before": {
+    "id": "Q175276",
+    "region": "Spain",
+    "name": "Kingdom of León"
+  },
+  "after": {
+    "id": "Q217196",
+    "region": "Spain",
+    "name": "Crown of Castile"
   },
   "rulers": [
     {
@@ -83,6 +56,7 @@
       1235
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Almoravid Dynasty",
       "Duchy of Aquitaine",

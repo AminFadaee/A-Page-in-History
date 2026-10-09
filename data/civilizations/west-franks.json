@@ -18,55 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Kingdom of the Franks"
-  ],
-  "successors": [
-    "Kingdom of France"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q46370",
-        "layer": 1,
-        "name": "West Franks"
-      },
-      {
-        "id": "Q146246",
-        "layer": 0,
-        "name": "Kingdom of the Franks"
-      },
-      {
-        "id": "Q153080",
-        "layer": 1,
-        "name": "East Franks"
-      },
-      {
-        "id": "Q70972",
-        "layer": 2,
-        "name": "Kingdom of France"
-      }
-    ],
-    "edges": [
-      [
-        "Q146246",
-        "Q153080",
-        "Germany, Austria"
-      ],
-      [
-        "Q146246",
-        "Q46370",
-        "France, Italy"
-      ],
-      [
-        "Q46370",
-        "Q70972",
-        "France"
-      ]
-    ],
-    "question": "successions/west-franks-question.png",
-    "answer": "successions/west-franks-answer.png"
+  "before": {
+    "id": "Q146246",
+    "region": "France",
+    "name": "Kingdom of the Franks"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q71231",
@@ -107,6 +64,7 @@
       989
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "First Bulgarian Empire",
       "Great Moravia",

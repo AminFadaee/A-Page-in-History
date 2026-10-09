@@ -26,55 +26,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Sultanate of Banjar",
-    "Sultanate of Palembang"
-  ],
-  "successors": [
-    "Republic of Indonesia"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q188161",
-        "layer": 1,
-        "name": "Dutch East Indies"
-      },
-      {
-        "id": "Q1660566",
-        "layer": 0,
-        "name": "Sultanate of Banjar"
-      },
-      {
-        "id": "Q3503555",
-        "layer": 0,
-        "name": "Sultanate of Palembang"
-      },
-      {
-        "id": "Q252",
-        "layer": 2,
-        "name": "Republic of Indonesia"
-      }
-    ],
-    "edges": [
-      [
-        "Q1660566",
-        "Q188161",
-        "Indonesia"
-      ],
-      [
-        "Q3503555",
-        "Q188161",
-        "Indonesia"
-      ],
-      [
-        "Q188161",
-        "Q252",
-        "Indonesia"
-      ]
-    ],
-    "question": "successions/dutch-east-indies-question.png",
-    "answer": "successions/dutch-east-indies-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q252",
+    "region": "Indonesia",
+    "name": "Republic of Indonesia"
   },
   "rulers": [],
   "modern_countries": [
@@ -97,6 +53,7 @@
       1949
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Batavia",
     "labelled": [
       "British Colonial Empire",
       "French Indochina",

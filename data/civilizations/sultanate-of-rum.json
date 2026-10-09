@@ -33,33 +33,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Beylik of Karaman"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q975405",
-        "layer": 1,
-        "name": "Sultanate of Rum"
-      },
-      {
-        "id": "Q1469100",
-        "layer": 2,
-        "name": "Beylik of Karaman"
-      }
-    ],
-    "edges": [
-      [
-        "Q975405",
-        "Q1469100",
-        "Turkey"
-      ]
-    ],
-    "question": "successions/sultanate-of-rum-question.png",
-    "answer": "successions/sultanate-of-rum-answer.png"
+  "before": {
+    "id": "Q3708094",
+    "region": "Turkey",
+    "name": "Great Seljuk Empire"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q730338",
@@ -113,6 +92,7 @@
       1313
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Konya",
     "labelled": [
       "Byzantine Empire",
       "Hamdanid Emirates",

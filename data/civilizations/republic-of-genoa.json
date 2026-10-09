@@ -26,11 +26,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Ligurian Republic"
-  ],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q659312",
+    "region": "Italy",
+    "name": "Ligurian Republic"
+  },
   "rulers": [
     {
       "id": "Q1974438",
@@ -62,6 +63,7 @@
       1795
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Genoa",
     "labelled": [
       "Golden Horde",
       "Holy Roman Empire Minor States",

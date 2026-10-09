@@ -26,72 +26,21 @@
       ]
     }
   ],
-  "predecessors": [
-    "Chen Dynasty",
-    "Later Western Liang",
-    "Northern Zhou"
-  ],
-  "successors": [
-    "Tang Dynasty"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q7405",
-        "layer": 1,
-        "name": "Sui Dynasty"
-      },
-      {
-        "id": "Q62454",
-        "layer": 0,
-        "name": "Chen Dynasty"
-      },
-      {
-        "id": "Q849770",
-        "layer": 0,
-        "name": "Later Western Liang"
-      },
-      {
-        "id": "Q551067",
-        "layer": 0,
-        "name": "Northern Zhou"
-      },
-      {
-        "id": "Q9683",
-        "layer": 2,
-        "name": "Tang Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q62454",
-        "Q7405",
-        "People's Republic of China"
-      ],
-      [
-        "Q849770",
-        "Q7405",
-        "People's Republic of China"
-      ],
-      [
-        "Q551067",
-        "Q7405",
-        "People's Republic of China"
-      ],
-      [
-        "Q7405",
-        "Q9683",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/sui-dynasty-question.png",
-    "answer": "successions/sui-dynasty-answer.png"
+  "before": {
+    "id": "Q551067",
+    "region": "China",
+    "name": "Northern Zhou"
+  },
+  "after": {
+    "id": "Q9683",
+    "region": "China",
+    "name": "Tang Dynasty"
   },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
-    "Hong Kong",
-    "Macau"
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/sui-dynasty.png",
   "checks": {
@@ -110,6 +59,7 @@
       627
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Chang'an",
     "labelled": [
       "Eastern Göktürks",
       "Tuyuhun",

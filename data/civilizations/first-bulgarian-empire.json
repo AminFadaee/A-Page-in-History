@@ -47,9 +47,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q189450",
@@ -79,7 +78,7 @@
   "modern_countries": [
     "Romania",
     "Bulgaria",
-    "Serbia",
+    "Republic of Serbia",
     "Ukraine",
     "Hungary",
     "North Macedonia",
@@ -108,6 +107,7 @@
       1017
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pliska",
     "labelled": [
       "Byzantine Empire",
       "Khazaria",

@@ -26,9 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q269412",
@@ -54,6 +53,7 @@
       1937
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Dublin",
     "labelled": [
       "Kingdom of Great Britain",
       "French Third Republic",

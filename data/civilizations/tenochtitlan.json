@@ -18,9 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q2608489",
+    "region": "Mexico",
+    "name": "Aztec Triple Alliance"
+  },
   "rulers": [],
   "modern_countries": [
     "Mexico"
@@ -39,6 +42,7 @@
       1428
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Later Mayan City-States"
     ]

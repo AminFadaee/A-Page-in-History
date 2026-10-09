@@ -33,55 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Nanda Empire"
-  ],
-  "successors": [
-    "Shunga Empire",
-    "Satavahana Dynasty"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q62943",
-        "layer": 1,
-        "name": "Maurya Empire"
-      },
-      {
-        "id": "Q949268",
-        "layer": 0,
-        "name": "Nanda Empire"
-      },
-      {
-        "id": "Q651377",
-        "layer": 2,
-        "name": "Shunga Empire"
-      },
-      {
-        "id": "Q5257",
-        "layer": 2,
-        "name": "Satavahana Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q949268",
-        "Q62943",
-        "India, Pakistan"
-      ],
-      [
-        "Q62943",
-        "Q651377",
-        "India, Nepal"
-      ],
-      [
-        "Q62943",
-        "Q5257",
-        "India"
-      ]
-    ],
-    "question": "successions/maurya-empire-question.png",
-    "answer": "successions/maurya-empire-answer.png"
+  "before": {
+    "id": "Q949268",
+    "region": "India",
+    "name": "Nanda Empire"
+  },
+  "after": {
+    "id": "Q651377",
+    "region": "India",
+    "name": "Shunga Empire"
   },
   "rulers": [
     {
@@ -145,6 +105,7 @@
       -171
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pataliputra",
     "labelled": [
       "Seleucid Empire",
       "Yuezhi",

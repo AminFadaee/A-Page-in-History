@@ -18,45 +18,11 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Kingdom of Mercia",
-    "Wihtgar"
-  ],
-  "successors": [
-    "Kingdom of England"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q105313",
-        "layer": 1,
-        "name": "Kingdom of Wessex"
-      },
-      {
-        "id": "Q179876",
-        "layer": 2,
-        "name": "Kingdom of England"
-      },
-      {
-        "id": "Q330362",
-        "layer": 1,
-        "name": "Commonwealth of England"
-      }
-    ],
-    "edges": [
-      [
-        "Q330362",
-        "Q179876",
-        "United Kingdom, Ireland"
-      ],
-      [
-        "Q105313",
-        "Q179876",
-        "United Kingdom"
-      ]
-    ],
-    "question": "successions/kingdom-of-wessex-question.png",
-    "answer": "successions/kingdom-of-wessex-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q179876",
+    "region": "United Kingdom",
+    "name": "Kingdom of England"
   },
   "rulers": [
     {
@@ -93,6 +59,7 @@
       935
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Kingdom of Northumbria",
       "Kingdom of the Franks",

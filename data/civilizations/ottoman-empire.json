@@ -54,44 +54,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Empire of Trebizond"
-  ],
-  "successors": [
-    "Republic of Turkey"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q12560",
-        "layer": 1,
-        "name": "Ottoman Empire"
-      },
-      {
-        "id": "Q178913",
-        "layer": 0,
-        "name": "Empire of Trebizond"
-      },
-      {
-        "id": "Q43",
-        "layer": 2,
-        "name": "Republic of Turkey"
-      }
-    ],
-    "edges": [
-      [
-        "Q178913",
-        "Q12560",
-        "Turkey"
-      ],
-      [
-        "Q12560",
-        "Q43",
-        "Turkey"
-      ]
-    ],
-    "question": "successions/ottoman-empire-question.png",
-    "answer": "successions/ottoman-empire-answer.png"
+  "before": {
+    "id": "Q12544",
+    "region": "Turkey",
+    "name": "Eastern Roman Empire"
+  },
+  "after": {
+    "id": "Q43",
+    "region": "Turkey",
+    "name": "Republic of Turkey"
   },
   "rulers": [
     {
@@ -114,7 +85,7 @@
     "Greece",
     "Tunisia",
     "Azerbaijan",
-    "Serbia",
+    "Republic of Serbia",
     "Jordan",
     "Georgia",
     "Bosnia and Herzegovina",
@@ -130,7 +101,7 @@
     "Lebanon",
     "Palestine",
     "Cyprus",
-    "Turkish Republic of Northern Cyprus"
+    "Northern Cyprus"
   ],
   "map": "maps/ottoman-empire.png",
   "checks": {
@@ -164,6 +135,7 @@
       1923
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Söğüt",
     "labelled": [
       "Safavid Dynasty",
       "Saadi Sultanate",

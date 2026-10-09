@@ -26,61 +26,13 @@
       ]
     }
   ],
-  "predecessors": [
-    "Confederation of the Rhine",
-    "Kingdom of Prussia"
-  ],
-  "successors": [
-    "North German Confederation"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q151624",
-        "layer": 1,
-        "name": "German Confederation"
-      },
-      {
-        "id": "Q154741",
-        "layer": 0,
-        "name": "Confederation of the Rhine"
-      },
-      {
-        "id": "Q27306",
-        "layer": 0,
-        "name": "Kingdom of Prussia"
-      },
-      {
-        "id": "Q150981",
-        "layer": 2,
-        "name": "North German Confederation"
-      }
-    ],
-    "edges": [
-      [
-        "Q154741",
-        "Q151624",
-        "Poland, Germany"
-      ],
-      [
-        "Q27306",
-        "Q151624",
-        "Poland, Germany"
-      ],
-      [
-        "Q151624",
-        "Q150981",
-        "Germany, Poland"
-      ]
-    ],
-    "question": "successions/german-confederation-question.png",
-    "answer": "successions/german-confederation-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Germany",
     "Poland",
-    "Czech Republic"
+    "Czechia"
   ],
   "map": "maps/german-confederation.png",
   "checks": {
@@ -98,6 +50,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Free City of Frankfurt",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",

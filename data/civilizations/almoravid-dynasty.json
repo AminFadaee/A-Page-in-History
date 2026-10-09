@@ -40,56 +40,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Taifa of Granada",
-    "Taifa of Ceuta",
-    "Taifa of Alpuente"
-  ],
-  "successors": [
-    "Almohad Caliphate"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q75613",
-        "layer": 1,
-        "name": "Almoravid Dynasty"
-      },
-      {
-        "id": "Q205708",
-        "layer": 0,
-        "name": "Taifa of Granada"
-      },
-      {
-        "id": "Q199688",
-        "layer": 2,
-        "name": "Almohad Caliphate"
-      },
-      {
-        "id": "Q588672",
-        "layer": 1,
-        "name": "Hammadid Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q205708",
-        "Q75613",
-        "Spain"
-      ],
-      [
-        "Q75613",
-        "Q199688",
-        "Morocco, Spain"
-      ],
-      [
-        "Q588672",
-        "Q199688",
-        "Algeria"
-      ]
-    ],
-    "question": "successions/almoravid-dynasty-question.png",
-    "answer": "successions/almoravid-dynasty-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q199688",
+    "region": "Morocco",
+    "name": "Almohad Caliphate"
   },
   "rulers": [],
   "modern_countries": [
@@ -119,6 +74,7 @@
       1205
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Aghmat",
     "labelled": [
       "Takrur",
       "Fatimid Caliphate",

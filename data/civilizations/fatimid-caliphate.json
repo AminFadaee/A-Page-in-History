@@ -40,88 +40,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Aghlabid Dynasty",
-    "Rustamid dynasty"
-  ],
-  "successors": [
-    "Ayyubid Sultanate",
-    "Zirid dynasty",
-    "Kingdom of Jerusalem",
-    "Hammadid Dynasty"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q160307",
-        "layer": 1,
-        "name": "Fatimid Caliphate"
-      },
-      {
-        "id": "Q207600",
-        "layer": 0,
-        "name": "Aghlabid Dynasty"
-      },
-      {
-        "id": "Q940123",
-        "layer": 0,
-        "name": "Rustamid dynasty"
-      },
-      {
-        "id": "Q180114",
-        "layer": 2,
-        "name": "Ayyubid Sultanate"
-      },
-      {
-        "id": "Q205718",
-        "layer": 2,
-        "name": "Zirid dynasty"
-      },
-      {
-        "id": "Q55502",
-        "layer": 2,
-        "name": "Kingdom of Jerusalem"
-      },
-      {
-        "id": "Q588672",
-        "layer": 2,
-        "name": "Hammadid Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q207600",
-        "Q160307",
-        "Tunisia, Libya, Algeria"
-      ],
-      [
-        "Q940123",
-        "Q160307",
-        "Algeria"
-      ],
-      [
-        "Q160307",
-        "Q180114",
-        "Egypt, Libya"
-      ],
-      [
-        "Q160307",
-        "Q205718",
-        "Tunisia, Algeria"
-      ],
-      [
-        "Q160307",
-        "Q55502",
-        "Jordan, Israel, Palestine"
-      ],
-      [
-        "Q160307",
-        "Q588672",
-        "Algeria"
-      ]
-    ],
-    "question": "successions/fatimid-caliphate-question.png",
-    "answer": "successions/fatimid-caliphate-answer.png"
+  "before": {
+    "id": "Q12536",
+    "region": "Egypt",
+    "name": "Abbasid Caliphate"
+  },
+  "after": {
+    "id": "Q180114",
+    "region": "Egypt",
+    "name": "Ayyubid Sultanate"
   },
   "rulers": [
     {
@@ -166,6 +93,7 @@
       1176
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cairo",
     "labelled": [
       "Buyid Dynasty",
       "Byzantine Empire",

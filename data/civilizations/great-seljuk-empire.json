@@ -54,9 +54,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q249578",
+    "region": "Iran",
+    "name": "Ghaznavid Empire"
+  },
+  "after": {
+    "id": "Q63134381",
+    "region": "Iran",
+    "name": "Khwarezmid Empire"
+  },
   "rulers": [],
   "modern_countries": [
     "Iran",
@@ -98,6 +105,7 @@
       1201
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Ray",
     "labelled": [
       "Kimek-Kipchak confederation",
       "Ghaznavid Empire",

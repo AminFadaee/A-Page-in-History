@@ -18,9 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q861054",
+    "region": "Kazakhstan",
+    "name": "Xianbei"
+  },
   "rulers": [
     {
       "id": "Q382816",
@@ -28,7 +31,7 @@
     }
   ],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Mongolia",
     "Russia",
     "Kazakhstan"
@@ -49,6 +52,7 @@
       153
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Han Dynasty",
       "Yuezhi",

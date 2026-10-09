@@ -26,64 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of Asturias"
-  ],
-  "successors": [
-    "Crown of Castile"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q175276",
-        "layer": 1,
-        "name": "Kingdom of León"
-      },
-      {
-        "id": "Q231392",
-        "layer": 0,
-        "name": "Kingdom of Asturias"
-      },
-      {
-        "id": "Q303421",
-        "layer": 1,
-        "name": "Kingdom of Galicia"
-      },
-      {
-        "id": "Q217196",
-        "layer": 2,
-        "name": "Crown of Castile"
-      },
-      {
-        "id": "Q179293",
-        "layer": 1,
-        "name": "Kingdom of Castile"
-      }
-    ],
-    "edges": [
-      [
-        "Q231392",
-        "Q175276",
-        "Spain, Portugal"
-      ],
-      [
-        "Q231392",
-        "Q303421",
-        "Spain"
-      ],
-      [
-        "Q175276",
-        "Q217196",
-        "Spain"
-      ],
-      [
-        "Q179293",
-        "Q217196",
-        "Spain"
-      ]
-    ],
-    "question": "successions/kingdom-of-leon-question.png",
-    "answer": "successions/kingdom-of-leon-answer.png"
+  "before": {
+    "id": "Q231392",
+    "region": "Spain",
+    "name": "Kingdom of Asturias"
+  },
+  "after": {
+    "id": "Q217196",
+    "region": "Spain",
+    "name": "Crown of Castile"
   },
   "rulers": [
     {
@@ -111,6 +62,7 @@
       1235
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "León",
     "labelled": [
       "Almoravid Dynasty",
       "Duchy of Aquitaine",

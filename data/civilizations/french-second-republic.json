@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Second French Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q58326",
-        "layer": 1,
-        "name": "French Second Republic"
-      },
-      {
-        "id": "Q71092",
-        "layer": 2,
-        "name": "Second French Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q58326",
-        "Q71092",
-        "France"
-      ]
-    ],
-    "question": "successions/french-second-republic-question.png",
-    "answer": "successions/french-second-republic-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q71092",
+    "region": "France",
+    "name": "Second French Empire"
   },
   "rulers": [],
   "modern_countries": [
@@ -73,6 +52,7 @@
       1852
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Paris",
     "labelled": [
       "Empire of Brazil",
       "British Empire",

@@ -18,44 +18,15 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Goryeo"
-  ],
-  "successors": [
-    "Korean Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28179",
-        "layer": 1,
-        "name": "Joseon"
-      },
-      {
-        "id": "Q28208",
-        "layer": 0,
-        "name": "Goryeo"
-      },
-      {
-        "id": "Q28233",
-        "layer": 2,
-        "name": "Korean Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q28208",
-        "Q28179",
-        "North Korea, South Korea"
-      ],
-      [
-        "Q28179",
-        "Q28233",
-        "North Korea, South Korea"
-      ]
-    ],
-    "question": "successions/joseon-question.png",
-    "answer": "successions/joseon-answer.png"
+  "before": {
+    "id": "Q28208",
+    "region": "South Korea",
+    "name": "Goryeo"
+  },
+  "after": {
+    "id": "Q28233",
+    "region": "South Korea",
+    "name": "Korean Empire"
   },
   "rulers": [
     {
@@ -89,6 +60,7 @@
       1897
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "the spot held longest",
     "labelled": [
       "Ming Dynasty",
       "Warring States Japan"

@@ -26,62 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Almohad Caliphate"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q238445",
-        "layer": 1,
-        "name": "Emirate of Granada"
-      },
-      {
-        "id": "Q199688",
-        "layer": 0,
-        "name": "Almohad Caliphate"
-      },
-      {
-        "id": "Q582861",
-        "layer": 1,
-        "name": "Marinid Sultanate"
-      },
-      {
-        "id": "Q307697",
-        "layer": 1,
-        "name": "Zayyanid dynasty"
-      },
-      {
-        "id": "Q752662",
-        "layer": 1,
-        "name": "Hafsid Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q199688",
-        "Q582861",
-        "Morocco"
-      ],
-      [
-        "Q199688",
-        "Q238445",
-        "Spain"
-      ],
-      [
-        "Q199688",
-        "Q307697",
-        "Algeria"
-      ],
-      [
-        "Q199688",
-        "Q752662",
-        "Tunisia, Algeria, Libya"
-      ]
-    ],
-    "question": "successions/emirate-of-granada-question.png",
-    "answer": "successions/emirate-of-granada-answer.png"
+  "before": {
+    "id": "Q199688",
+    "region": "Spain",
+    "name": "Almohad Caliphate"
+  },
+  "after": {
+    "id": "Q217196",
+    "region": "Spain",
+    "name": "Crown of Castile"
   },
   "rulers": [
     {
@@ -108,6 +61,7 @@
       1491
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Granada",
     "labelled": [
       "Almohad Caliphate",
       "Crown of Castile",

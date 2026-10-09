@@ -40,44 +40,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Aq Qoyunlu"
-  ],
-  "successors": [
-    "Afsharid Iran"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q18234383",
-        "layer": 1,
-        "name": "Safavid Dynasty"
-      },
-      {
-        "id": "Q555994",
-        "layer": 0,
-        "name": "Aq Qoyunlu"
-      },
-      {
-        "id": "Q63149558",
-        "layer": 2,
-        "name": "Afsharid Iran"
-      }
-    ],
-    "edges": [
-      [
-        "Q555994",
-        "Q18234383",
-        "Iran, Iraq"
-      ],
-      [
-        "Q18234383",
-        "Q63149558",
-        "Iran, Afghanistan, Turkmenistan"
-      ]
-    ],
-    "question": "successions/safavid-dynasty-question.png",
-    "answer": "successions/safavid-dynasty-answer.png"
+  "before": {
+    "id": "Q555994",
+    "region": "Iran",
+    "name": "Aq Qoyunlu"
+  },
+  "after": {
+    "id": "Q627449",
+    "region": "Iran",
+    "name": "Hotaki Dynasty"
   },
   "rulers": [
     {
@@ -117,6 +88,7 @@
       1737
     ],
     "identity": "the state named after Safavid dynasty",
+    "home": "Qazvin",
     "labelled": [
       "Mamluk Sultanate",
       "Ottoman Empire",

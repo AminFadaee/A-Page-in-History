@@ -40,9 +40,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q12557",
+    "region": "Iran",
+    "name": "Mongol Empire"
+  },
+  "after": {
+    "id": "Q1089675",
+    "region": "Iran",
+    "name": "Chobanids"
+  },
   "rulers": [],
   "modern_countries": [
     "Iran",
@@ -74,6 +81,7 @@
       1343
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Maragheh",
     "labelled": [
       "Golden Horde",
       "Chagatai Khanate",

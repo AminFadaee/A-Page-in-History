@@ -26,34 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Free City of Danzig",
-    "Weimar Republic"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q7318",
-        "layer": 1,
-        "name": "Nazi Germany"
-      },
-      {
-        "id": "Q41304",
-        "layer": 0,
-        "name": "Weimar Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q41304",
-        "Q7318",
-        "Germany, Poland"
-      ]
-    ],
-    "question": "successions/nazi-germany-question.png",
-    "answer": "successions/nazi-germany-answer.png"
+  "before": {
+    "id": "Q41304",
+    "region": "Germany",
+    "name": "Weimar Republic"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q2667",
@@ -77,10 +55,10 @@
     "Norway",
     "Belarus",
     "Austria",
-    "Czech Republic",
+    "Czechia",
     "Lithuania",
     "Latvia",
-    "Serbia",
+    "Republic of Serbia",
     "Estonia",
     "Denmark",
     "Netherlands",
@@ -105,6 +83,7 @@
       1944
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Berlin",
     "labelled": [
       "Union of Soviet Socialist Republics",
       "French Africa",

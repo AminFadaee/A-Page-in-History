@@ -26,33 +26,8 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kalmar Union"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q62651",
-        "layer": 1,
-        "name": "Denmark-Norway"
-      },
-      {
-        "id": "Q62623",
-        "layer": 0,
-        "name": "Kalmar Union"
-      }
-    ],
-    "edges": [
-      [
-        "Q62623",
-        "Q62651",
-        "Norway, Iceland, Sweden"
-      ]
-    ],
-    "question": "successions/denmark-norway-question.png",
-    "answer": "successions/denmark-norway-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Norway",
@@ -78,6 +53,7 @@
       1940
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Copenhagen",
     "labelled": [
       "Tsardom of Russia",
       "Swedish Empire",

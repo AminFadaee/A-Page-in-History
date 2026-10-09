@@ -14,44 +14,15 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [
-    "Greco-Bactrian Kingdom"
-  ],
-  "successors": [
-    "Indo-Scythians"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q215643",
-        "layer": 1,
-        "name": "Indo-Greeks"
-      },
-      {
-        "id": "Q488880",
-        "layer": 0,
-        "name": "Greco-Bactrian Kingdom"
-      },
-      {
-        "id": "Q240123",
-        "layer": 2,
-        "name": "Indo-Scythians"
-      }
-    ],
-    "edges": [
-      [
-        "Q488880",
-        "Q215643",
-        "Pakistan, India, Afghanistan"
-      ],
-      [
-        "Q215643",
-        "Q240123",
-        "Pakistan, India"
-      ]
-    ],
-    "question": "successions/indo-greeks-question.png",
-    "answer": "successions/indo-greeks-answer.png"
+  "before": {
+    "id": "Q488880",
+    "region": "India",
+    "name": "Greco-Bactrian Kingdom"
+  },
+  "after": {
+    "id": "Q240123",
+    "region": "India",
+    "name": "Indo-Scythians"
   },
   "rulers": [],
   "modern_countries": [
@@ -76,6 +47,7 @@
       13
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Parthian Empire",
       "Shunga Empire",

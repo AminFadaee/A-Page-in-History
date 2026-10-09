@@ -47,69 +47,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Hoysala Kingdom",
-    "Kampili Kingdom",
-    "Pandya Empire"
-  ],
-  "successors": [
-    "Bijapur Sultanate",
-    "Kingdom of Mysore",
-    "Nayaks of Madurai",
-    "Nayaks of Thanjavur"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q167639",
-        "layer": 1,
-        "name": "Vijayanagara Empire"
-      },
-      {
-        "id": "Q466581",
-        "layer": 0,
-        "name": "Hoysala Kingdom"
-      },
-      {
-        "id": "Q844910",
-        "layer": 0,
-        "name": "Pandya Empire"
-      },
-      {
-        "id": "Q83821",
-        "layer": 2,
-        "name": "Bijapur Sultanate"
-      },
-      {
-        "id": "Q1530838",
-        "layer": 2,
-        "name": "Nayaks of Madurai"
-      }
-    ],
-    "edges": [
-      [
-        "Q466581",
-        "Q167639",
-        "India"
-      ],
-      [
-        "Q844910",
-        "Q167639",
-        "India"
-      ],
-      [
-        "Q167639",
-        "Q83821",
-        "India"
-      ],
-      [
-        "Q167639",
-        "Q1530838",
-        "India"
-      ]
-    ],
-    "question": "successions/vijayanagara-empire-question.png",
-    "answer": "successions/vijayanagara-empire-answer.png"
+  "before": {
+    "id": "Q466581",
+    "region": "India",
+    "name": "Hoysala Kingdom"
+  },
+  "after": {
+    "id": "Q83821",
+    "region": "India",
+    "name": "Bijapur Sultanate"
   },
   "rulers": [
     {
@@ -166,6 +112,7 @@
       1571
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vijayanagara",
     "labelled": [
       "Bahmani Sultanate",
       "Ceylon"

@@ -22,9 +22,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q13099593",
+    "region": "Mauritania",
+    "name": "Sosso Empire"
+  },
   "rulers": [],
   "modern_countries": [
     "Mali",
@@ -46,6 +49,7 @@
       1201
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Koumbi Saleh",
     "labelled": []
   }
 }

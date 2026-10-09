@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Tsardom of Russia"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q170770",
-        "layer": 1,
-        "name": "Grand Principality of Moscow"
-      },
-      {
-        "id": "Q186096",
-        "layer": 2,
-        "name": "Tsardom of Russia"
-      }
-    ],
-    "edges": [
-      [
-        "Q170770",
-        "Q186096",
-        "Russia"
-      ]
-    ],
-    "question": "successions/grand-principality-of-moscow-question.png",
-    "answer": "successions/grand-principality-of-moscow-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q186096",
+    "region": "Russia",
+    "name": "Tsardom of Russia"
   },
   "rulers": [
     {
@@ -78,6 +57,7 @@
       1546
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Moscow",
     "labelled": [
       "Khanate of Sibir",
       "Kalmar Union",

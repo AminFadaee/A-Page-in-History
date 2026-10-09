@@ -26,33 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Dutch Republic"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q188553",
-        "layer": 1,
-        "name": "Batavian Republic"
-      },
-      {
-        "id": "Q170072",
-        "layer": 0,
-        "name": "Dutch Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q170072",
-        "Q188553",
-        "Indonesia, Netherlands"
-      ]
-    ],
-    "question": "successions/batavian-republic-question.png",
-    "answer": "successions/batavian-republic-answer.png"
+  "before": {
+    "id": "Q170072",
+    "region": "Netherlands",
+    "name": "Dutch Republic"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Indonesia",
@@ -74,6 +53,7 @@
       1810
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "The Hague",
     "labelled": [
       "French Directory",
       "Russian Empire",

@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Francoist Spain"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q178038",
-        "layer": 1,
-        "name": "Second Spanish Republic"
-      },
-      {
-        "id": "Q13474305",
-        "layer": 2,
-        "name": "Francoist Spain"
-      }
-    ],
-    "edges": [
-      [
-        "Q178038",
-        "Q13474305",
-        "Spain, Morocco, Western Sahara"
-      ]
-    ],
-    "question": "successions/second-spanish-republic-question.png",
-    "answer": "successions/second-spanish-republic-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q13474305",
+    "region": "Spain",
+    "name": "Francoist Spain"
   },
   "rulers": [
     {
@@ -90,6 +69,7 @@
       1938
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Madrid",
     "labelled": [
       "French Africa",
       "Estado Novo",

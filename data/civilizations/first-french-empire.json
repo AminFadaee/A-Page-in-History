@@ -26,66 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "French Directory",
-    "French Consulate"
-  ],
-  "successors": [
-    "Bourbon Kingdom of France",
-    "Sovereign Principality of the United Netherlands"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q71084",
-        "layer": 1,
-        "name": "First French Empire"
-      },
-      {
-        "id": "Q58296",
-        "layer": 0,
-        "name": "French Directory"
-      },
-      {
-        "id": "Q877619",
-        "layer": 0,
-        "name": "French Consulate"
-      },
-      {
-        "id": "Q207162",
-        "layer": 2,
-        "name": "Bourbon Kingdom of France"
-      },
-      {
-        "id": "Q774783",
-        "layer": 2,
-        "name": "Sovereign Principality of the United Netherlands"
-      }
-    ],
-    "edges": [
-      [
-        "Q58296",
-        "Q71084",
-        "France"
-      ],
-      [
-        "Q877619",
-        "Q71084",
-        "France"
-      ],
-      [
-        "Q71084",
-        "Q207162",
-        "France"
-      ],
-      [
-        "Q71084",
-        "Q774783",
-        "Netherlands"
-      ]
-    ],
-    "question": "successions/first-french-empire-question.png",
-    "answer": "successions/first-french-empire-answer.png"
+  "before": {
+    "id": "Q877619",
+    "region": "France",
+    "name": "French Consulate"
+  },
+  "after": {
+    "id": "Q207162",
+    "region": "France",
+    "name": "Bourbon Kingdom of France"
   },
   "rulers": [
     {
@@ -103,7 +52,7 @@
     "Slovenia",
     "Luxembourg",
     "Andorra",
-    "Vatican City"
+    "Vatican"
   ],
   "map": "maps/first-french-empire.png",
   "checks": {
@@ -121,6 +70,7 @@
       1814
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Paris",
     "labelled": [
       "Ottoman Empire",
       "Austrian Empire",

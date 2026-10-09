@@ -40,43 +40,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Austrian Empire",
-    "Cisalpine Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q4948",
-        "layer": 1,
-        "name": "Republic of Venice"
-      },
-      {
-        "id": "Q131964",
-        "layer": 2,
-        "name": "Austrian Empire"
-      },
-      {
-        "id": "Q153136",
-        "layer": 1,
-        "name": "Habsburg Monarchy"
-      }
-    ],
-    "edges": [
-      [
-        "Q153136",
-        "Q131964",
-        "Romania, Hungary, Poland"
-      ],
-      [
-        "Q4948",
-        "Q131964",
-        "Italy, Croatia"
-      ]
-    ],
-    "question": "successions/republic-of-venice-question.png",
-    "answer": "successions/republic-of-venice-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q153136",
+    "region": "Italy",
+    "name": "Habsburg Monarchy"
   },
   "rulers": [
     {
@@ -113,6 +81,7 @@
       1796
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Venice",
     "labelled": [
       "Ottoman Empire",
       "Habsburg Monarchy",

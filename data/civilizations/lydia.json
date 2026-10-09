@@ -26,52 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Achaemenid Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q620765",
-        "layer": 1,
-        "name": "Lydia"
-      },
-      {
-        "id": "Q389688",
-        "layer": 2,
-        "name": "Achaemenid Empire"
-      },
-      {
-        "id": "Q624887",
-        "layer": 1,
-        "name": "Neo-Babylonian Empire"
-      },
-      {
-        "id": "Q662410",
-        "layer": 1,
-        "name": "Twenty-sixth Dynasty of Egypt"
-      }
-    ],
-    "edges": [
-      [
-        "Q624887",
-        "Q389688",
-        "Iraq, Turkey, Syria"
-      ],
-      [
-        "Q620765",
-        "Q389688",
-        "Turkey"
-      ],
-      [
-        "Q662410",
-        "Q389688",
-        "Egypt"
-      ]
-    ],
-    "question": "successions/lydia-question.png",
-    "answer": "successions/lydia-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q389688",
+    "region": "Turkey",
+    "name": "Achaemenid Empire"
   },
   "rulers": [
     {
@@ -102,6 +61,7 @@
       -541
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Sardis",
     "labelled": [
       "Neo-Babylonian Empire",
       "Kingdom of Urartu"

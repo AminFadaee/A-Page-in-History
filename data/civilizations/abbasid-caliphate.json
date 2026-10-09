@@ -33,54 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Umayyad Caliphate"
-  ],
-  "successors": [
-    "Qarmatians"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q12536",
-        "layer": 1,
-        "name": "Abbasid Caliphate"
-      },
-      {
-        "id": "Q8575586",
-        "layer": 0,
-        "name": "Umayyad Caliphate"
-      },
-      {
-        "id": "Q1337854",
-        "layer": 1,
-        "name": "Emirate of Córdoba"
-      },
-      {
-        "id": "Q138803",
-        "layer": 2,
-        "name": "Qarmatians"
-      }
-    ],
-    "edges": [
-      [
-        "Q8575586",
-        "Q12536",
-        "Saudi Arabia, Iran"
-      ],
-      [
-        "Q8575586",
-        "Q1337854",
-        "Spain, Portugal"
-      ],
-      [
-        "Q12536",
-        "Q138803",
-        "United Arab Emirates, Saudi Arabia, Qatar"
-      ]
-    ],
-    "question": "successions/abbasid-caliphate-question.png",
-    "answer": "successions/abbasid-caliphate-answer.png"
+  "before": {
+    "id": "Q8575586",
+    "region": "Iraq",
+    "name": "Umayyad Caliphate"
+  },
+  "after": {
+    "id": "Q12557",
+    "region": "Iraq",
+    "name": "Mongol Empire"
   },
   "rulers": [
     {
@@ -146,6 +107,7 @@
       1259
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Baghdad",
     "labelled": [
       "Uyghur Khaganate",
       "Tibetan Empire",

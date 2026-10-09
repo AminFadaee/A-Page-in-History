@@ -19,33 +19,12 @@
       "location": null
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Principality of Moldavia"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q79965",
-        "layer": 1,
-        "name": "Golden Horde"
-      },
-      {
-        "id": "Q10957559",
-        "layer": 2,
-        "name": "Principality of Moldavia"
-      }
-    ],
-    "edges": [
-      [
-        "Q79965",
-        "Q10957559",
-        "Romania, Moldova, Ukraine"
-      ]
-    ],
-    "question": "successions/golden-horde-question.png",
-    "answer": "successions/golden-horde-answer.png"
+  "before": {
+    "id": "Q12557",
+    "region": "Russia",
+    "name": "Mongol Empire"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Kazakhstan",
@@ -73,6 +52,7 @@
       1695
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Yuan Dynasty",
       "Ilkhanate",

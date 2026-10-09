@@ -10,9 +10,8 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Israel",
@@ -31,6 +30,7 @@
       5
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Kingdom of Armenia",
       "Nabataeans",

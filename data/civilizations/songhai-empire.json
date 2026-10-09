@@ -26,15 +26,22 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q184536",
+    "region": "Mali",
+    "name": "Mali Empire"
+  },
+  "after": {
+    "id": "Q1136188",
+    "region": "Mali",
+    "name": "Saadi Sultanate"
+  },
   "rulers": [],
   "modern_countries": [
     "Mali",
     "Mauritania",
     "Senegal",
-    "The Gambia"
+    "Gambia"
   ],
   "map": "maps/songhai-empire.png",
   "checks": {
@@ -52,6 +59,7 @@
       1608
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Gao",
     "labelled": [
       "Mali Empire"
     ]

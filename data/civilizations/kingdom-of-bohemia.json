@@ -26,9 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q312938",
@@ -40,7 +39,7 @@
     }
   ],
   "modern_countries": [
-    "Czech Republic",
+    "Czechia",
     "Poland",
     "Germany"
   ],
@@ -60,6 +59,7 @@
       1528
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Prague",
     "labelled": [
       "Holy Roman Empire Minor States",
       "Kingdom of Hungary",

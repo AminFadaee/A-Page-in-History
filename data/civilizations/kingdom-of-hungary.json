@@ -26,32 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Principality of Hungary"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q171150",
-        "layer": 1,
-        "name": "Kingdom of Hungary"
-      },
-      {
-        "id": "Q2899771",
-        "layer": 0,
-        "name": "Principality of Hungary"
-      }
-    ],
-    "edges": [
-      [
-        "Q2899771",
-        "Q171150",
-        "Hungary, Romania, Slovakia"
-      ]
-    ],
-    "question": "successions/kingdom-of-hungary-question.png",
-    "answer": "successions/kingdom-of-hungary-answer.png"
+  "before": {
+    "id": "Q2899771",
+    "region": "Hungary",
+    "name": "Principality of Hungary"
+  },
+  "after": {
+    "id": "Q12560",
+    "region": "Hungary",
+    "name": "Ottoman Empire"
   },
   "rulers": [
     {
@@ -70,8 +53,8 @@
     "Slovakia",
     "Croatia",
     "Poland",
-    "Czech Republic",
-    "Serbia"
+    "Czechia",
+    "Republic of Serbia"
   ],
   "map": "maps/kingdom-of-hungary.png",
   "checks": {
@@ -99,6 +82,7 @@
       1546
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Budapest",
     "labelled": [
       "House of Jagiellon",
       "Ottoman Empire",

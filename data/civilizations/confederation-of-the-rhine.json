@@ -26,42 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "German Confederation"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q154741",
-        "layer": 1,
-        "name": "Confederation of the Rhine"
-      },
-      {
-        "id": "Q151624",
-        "layer": 2,
-        "name": "German Confederation"
-      },
-      {
-        "id": "Q27306",
-        "layer": 1,
-        "name": "Kingdom of Prussia"
-      }
-    ],
-    "edges": [
-      [
-        "Q154741",
-        "Q151624",
-        "Poland, Germany"
-      ],
-      [
-        "Q27306",
-        "Q151624",
-        "Poland, Germany"
-      ]
-    ],
-    "question": "successions/confederation-of-the-rhine-question.png",
-    "answer": "successions/confederation-of-the-rhine-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q151624",
+    "region": "Poland",
+    "name": "German Confederation"
   },
   "rulers": [],
   "modern_countries": [
@@ -86,6 +55,7 @@
       1814
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",

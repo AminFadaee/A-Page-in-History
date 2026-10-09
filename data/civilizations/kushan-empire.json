@@ -18,15 +18,22 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q1255614",
+    "region": "Pakistan",
+    "name": "Indo-Parthians"
+  },
+  "after": {
+    "id": "Q11774",
+    "region": "Pakistan",
+    "name": "Gupta Empire"
+  },
   "rulers": [],
   "modern_countries": [
     "India",
     "Pakistan",
     "Afghanistan",
-    "People's Republic of China",
+    "China",
     "Uzbekistan",
     "Tajikistan"
   ],
@@ -50,6 +57,7 @@
       237
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Parthian Empire",
       "Xianbei",

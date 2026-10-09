@@ -22,9 +22,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q2919812",
@@ -54,6 +53,7 @@
       946
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Axum",
     "labelled": [
       "Himyarite Kingdom",
       "Kingdom of Kush",

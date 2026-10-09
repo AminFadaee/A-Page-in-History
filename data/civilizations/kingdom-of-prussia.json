@@ -26,55 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Brandenburg-Prussia"
-  ],
-  "successors": [
-    "German Confederation"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q27306",
-        "layer": 1,
-        "name": "Kingdom of Prussia"
-      },
-      {
-        "id": "Q157367",
-        "layer": 0,
-        "name": "Brandenburg-Prussia"
-      },
-      {
-        "id": "Q151624",
-        "layer": 2,
-        "name": "German Confederation"
-      },
-      {
-        "id": "Q154741",
-        "layer": 1,
-        "name": "Confederation of the Rhine"
-      }
-    ],
-    "edges": [
-      [
-        "Q157367",
-        "Q27306",
-        "Poland, Germany, Russia"
-      ],
-      [
-        "Q154741",
-        "Q151624",
-        "Poland, Germany"
-      ],
-      [
-        "Q27306",
-        "Q151624",
-        "Poland, Germany"
-      ]
-    ],
-    "question": "successions/kingdom-of-prussia-question.png",
-    "answer": "successions/kingdom-of-prussia-answer.png"
+  "before": {
+    "id": "Q157367",
+    "region": "Germany",
+    "name": "Brandenburg-Prussia"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q151826",
@@ -106,6 +63,7 @@
       1863
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Berlin",
     "labelled": [
       "Russian Empire",
       "Austrian Empire",

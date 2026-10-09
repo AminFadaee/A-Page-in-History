@@ -26,9 +26,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q12544",
+    "region": "Turkey",
+    "name": "Eastern Roman Empire"
+  },
+  "after": {
+    "id": "Q12544",
+    "region": "Turkey",
+    "name": "Eastern Roman Empire"
+  },
   "rulers": [
     {
       "id": "Q37086",
@@ -68,6 +75,7 @@
       1278
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Nicaea",
     "labelled": [
       "Mongol Empire",
       "Second Bulgarian Empire",

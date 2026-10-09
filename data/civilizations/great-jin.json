@@ -33,68 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Liao Dynasty"
-  ],
-  "successors": [
-    "Mongol Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q5066",
-        "layer": 1,
-        "name": "Great Jin"
-      },
-      {
-        "id": "Q4958",
-        "layer": 0,
-        "name": "Liao Dynasty"
-      },
-      {
-        "id": "Q12557",
-        "layer": 2,
-        "name": "Mongol Empire"
-      },
-      {
-        "id": "Q862304",
-        "layer": 1,
-        "name": "Kara-Khitans"
-      },
-      {
-        "id": "Q7427",
-        "layer": 1,
-        "name": "Western Xia"
-      }
-    ],
-    "edges": [
-      [
-        "Q4958",
-        "Q5066",
-        "People's Republic of China, Russia"
-      ],
-      [
-        "Q5066",
-        "Q12557",
-        "People's Republic of China, Russia"
-      ],
-      [
-        "Q862304",
-        "Q12557",
-        "People's Republic of China, Kazakhstan, Uzbekistan"
-      ],
-      [
-        "Q7427",
-        "Q12557",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/great-jin-question.png",
-    "answer": "successions/great-jin-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q12557",
+    "region": "China",
+    "name": "Mongol Empire"
   },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Russia",
     "North Korea"
   ],
@@ -119,6 +66,7 @@
       1235
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Huiningfu",
     "labelled": [
       "Mongol Empire",
       "Southern Song",

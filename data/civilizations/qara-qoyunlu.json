@@ -40,9 +40,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q555994",
+    "region": "Turkey",
+    "name": "Aq Qoyunlu"
+  },
   "rulers": [],
   "modern_countries": [
     "Iraq",
@@ -73,6 +76,7 @@
       1467
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Erciş",
     "labelled": [
       "Timurid Empire",
       "Ottoman Empire",

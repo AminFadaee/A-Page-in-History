@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Batavian Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q170072",
-        "layer": 1,
-        "name": "Dutch Republic"
-      },
-      {
-        "id": "Q188553",
-        "layer": 2,
-        "name": "Batavian Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q170072",
-        "Q188553",
-        "Indonesia, Netherlands"
-      ]
-    ],
-    "question": "successions/dutch-republic-question.png",
-    "answer": "successions/dutch-republic-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q188553",
+    "region": "Netherlands",
+    "name": "Batavian Republic"
   },
   "rulers": [],
   "modern_countries": [
@@ -76,6 +55,7 @@
       1795
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "The Hague",
     "labelled": [
       "Russian Empire",
       "Qing Dynasty",

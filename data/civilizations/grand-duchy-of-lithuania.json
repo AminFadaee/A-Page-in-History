@@ -26,11 +26,8 @@
       ]
     }
   ],
-  "predecessors": [
-    "Principality of Drutsk"
-  ],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q242436",
@@ -66,6 +63,7 @@
       1449
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vilnius",
     "labelled": [
       "Blue Horde",
       "Novgorod Republic",

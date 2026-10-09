@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Denmark-Norway"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q62623",
-        "layer": 1,
-        "name": "Kalmar Union"
-      },
-      {
-        "id": "Q62651",
-        "layer": 2,
-        "name": "Denmark-Norway"
-      }
-    ],
-    "edges": [
-      [
-        "Q62623",
-        "Q62651",
-        "Norway, Iceland, Sweden"
-      ]
-    ],
-    "question": "successions/kalmar-union-question.png",
-    "answer": "successions/kalmar-union-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q62651",
+    "region": "Denmark",
+    "name": "Denmark-Norway"
   },
   "rulers": [],
   "modern_countries": [
@@ -61,7 +40,7 @@
     "Iceland",
     "Denmark",
     "Faroe Islands",
-    "Åland"
+    "Aland"
   ],
   "map": "maps/kalmar-union.png",
   "checks": {
@@ -84,6 +63,7 @@
       1525
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Copenhagen",
     "labelled": [
       "Grand Principality of Moscow",
       "Holy Roman Empire Minor States",

@@ -26,64 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Roman Empire"
-  ],
-  "successors": [
-    "Rashidun Caliphate"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q12544",
-        "layer": 1,
-        "name": "Eastern Roman Empire"
-      },
-      {
-        "id": "Q2277",
-        "layer": 0,
-        "name": "Roman Empire"
-      },
-      {
-        "id": "Q42834",
-        "layer": 1,
-        "name": "Western Roman Empire"
-      },
-      {
-        "id": "Q12490507",
-        "layer": 2,
-        "name": "Rashidun Caliphate"
-      },
-      {
-        "id": "Q83891",
-        "layer": 1,
-        "name": "Sasanian Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q2277",
-        "Q12544",
-        "Turkey, Egypt"
-      ],
-      [
-        "Q2277",
-        "Q42834",
-        "France, Spain, Italy"
-      ],
-      [
-        "Q12544",
-        "Q12490507",
-        "Egypt, Turkey, Libya"
-      ],
-      [
-        "Q83891",
-        "Q12490507",
-        "Iran, Egypt"
-      ]
-    ],
-    "question": "successions/eastern-roman-empire-question.png",
-    "answer": "successions/eastern-roman-empire-answer.png"
+  "before": {
+    "id": "Q2277",
+    "region": "Turkey",
+    "name": "Roman Empire"
+  },
+  "after": {
+    "id": "Q12560",
+    "region": "Turkey",
+    "name": "Ottoman Empire"
   },
   "rulers": [
     {
@@ -148,7 +99,7 @@
     "Greece",
     "Bulgaria",
     "Tunisia",
-    "Serbia",
+    "Republic of Serbia",
     "Albania",
     "North Macedonia",
     "Israel",
@@ -157,10 +108,10 @@
     "Lebanon",
     "Palestine",
     "Cyprus",
-    "Turkish Republic of Northern Cyprus",
+    "Northern Cyprus",
     "Malta",
     "San Marino",
-    "Vatican City"
+    "Vatican"
   ],
   "map": "maps/eastern-roman-empire.png",
   "checks": {
@@ -178,6 +129,7 @@
       632
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Constantinople",
     "labelled": [
       "Sasanian Empire",
       "Kingdom of the Franks",

@@ -26,55 +26,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "North German Confederation"
-  ],
-  "successors": [
-    "Weimar Republic",
-    "Second Polish Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q43287",
-        "layer": 1,
-        "name": "German Empire"
-      },
-      {
-        "id": "Q150981",
-        "layer": 0,
-        "name": "North German Confederation"
-      },
-      {
-        "id": "Q41304",
-        "layer": 2,
-        "name": "Weimar Republic"
-      },
-      {
-        "id": "Q207272",
-        "layer": 2,
-        "name": "Second Polish Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q150981",
-        "Q43287",
-        "Germany, Poland, France"
-      ],
-      [
-        "Q43287",
-        "Q41304",
-        "Germany, Poland"
-      ],
-      [
-        "Q43287",
-        "Q207272",
-        "Poland, Belarus, Ukraine"
-      ]
-    ],
-    "question": "successions/german-empire-question.png",
-    "answer": "successions/german-empire-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q41304",
+    "region": "Germany",
+    "name": "Weimar Republic"
   },
   "rulers": [
     {
@@ -117,6 +73,7 @@
       1919
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Berlin",
     "labelled": [
       "Russian Republic",
       "Austria-Hungary",

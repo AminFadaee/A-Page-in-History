@@ -33,55 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Rashidun Caliphate"
-  ],
-  "successors": [
-    "Abbasid Caliphate",
-    "Emirate of Córdoba"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q8575586",
-        "layer": 1,
-        "name": "Umayyad Caliphate"
-      },
-      {
-        "id": "Q12490507",
-        "layer": 0,
-        "name": "Rashidun Caliphate"
-      },
-      {
-        "id": "Q12536",
-        "layer": 2,
-        "name": "Abbasid Caliphate"
-      },
-      {
-        "id": "Q1337854",
-        "layer": 2,
-        "name": "Emirate of Córdoba"
-      }
-    ],
-    "edges": [
-      [
-        "Q12490507",
-        "Q8575586",
-        "Saudi Arabia, Iran"
-      ],
-      [
-        "Q8575586",
-        "Q12536",
-        "Saudi Arabia, Iran"
-      ],
-      [
-        "Q8575586",
-        "Q1337854",
-        "Spain, Portugal"
-      ]
-    ],
-    "question": "successions/umayyad-caliphate-question.png",
-    "answer": "successions/umayyad-caliphate-answer.png"
+  "before": {
+    "id": "Q12490507",
+    "region": "Syria",
+    "name": "Rashidun Caliphate"
+  },
+  "after": {
+    "id": "Q12536",
+    "region": "Syria",
+    "name": "Abbasid Caliphate"
   },
   "rulers": [
     {
@@ -139,6 +99,7 @@
       756
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Damascus",
     "labelled": [
       "Türgesh",
       "Tibetan Empire",

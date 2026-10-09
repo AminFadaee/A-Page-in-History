@@ -25,12 +25,19 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q12557",
+    "region": "China",
+    "name": "Mongol Empire"
+  },
+  "after": {
+    "id": "Q1191125",
+    "region": "China",
+    "name": "Moghulistan"
+  },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Kazakhstan",
     "Uzbekistan",
     "Kyrgyzstan",
@@ -56,6 +63,7 @@
       1462
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Almaliq",
     "labelled": [
       "Yuan Dynasty",
       "Ilkhanate",

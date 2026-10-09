@@ -40,11 +40,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "United States of America"
-  ],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q30",
+    "region": "United States of America",
+    "name": "United States of America"
+  },
   "rulers": [
     {
       "id": "Q162269",
@@ -75,6 +76,7 @@
       1865
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Montgomery",
     "labelled": [
       "United States of America",
       "Federated Republic of Mexico",

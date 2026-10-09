@@ -33,63 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Austria-Hungary",
-    "United Principalities of Moldavia and Wallachia"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q203493",
-        "layer": 1,
-        "name": "Kingdom of Romania"
-      },
-      {
-        "id": "Q28513",
-        "layer": 0,
-        "name": "Austria-Hungary"
-      },
-      {
-        "id": "Q33946",
-        "layer": 1,
-        "name": "Czechoslovakia"
-      },
-      {
-        "id": "Q40",
-        "layer": 1,
-        "name": "Republic of Austria"
-      },
-      {
-        "id": "Q958291",
-        "layer": 0,
-        "name": "United Principalities of Moldavia and Wallachia"
-      }
-    ],
-    "edges": [
-      [
-        "Q28513",
-        "Q203493",
-        "Romania, Moldova"
-      ],
-      [
-        "Q28513",
-        "Q33946",
-        "Czech Republic, Slovakia"
-      ],
-      [
-        "Q28513",
-        "Q40",
-        "Austria"
-      ],
-      [
-        "Q958291",
-        "Q203493",
-        "Romania"
-      ]
-    ],
-    "question": "successions/kingdom-of-romania-question.png",
-    "answer": "successions/kingdom-of-romania-answer.png"
+  "before": {
+    "id": "Q958291",
+    "region": "Romania",
+    "name": "United Principalities of Moldavia and Wallachia"
+  },
+  "after": {
+    "id": "Q842794",
+    "region": "Romania",
+    "name": "Socialist Republic of Romania"
   },
   "rulers": [
     {
@@ -132,6 +84,7 @@
       1947
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bucharest",
     "labelled": [
       "Ukrainian People's Republic",
       "Yugoslavia",

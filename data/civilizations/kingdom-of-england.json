@@ -33,51 +33,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Commonwealth of England",
-    "Kingdom of Wessex"
-  ],
-  "successors": [
-    "Commonwealth of England"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q179876",
-        "layer": 1,
-        "name": "Kingdom of England"
-      },
-      {
-        "id": "Q330362",
-        "layer": 2,
-        "name": "Commonwealth of England"
-      },
-      {
-        "id": "Q105313",
-        "layer": 0,
-        "name": "Kingdom of Wessex"
-      }
-    ],
-    "edges": [
-      [
-        "Q330362",
-        "Q179876",
-        "United Kingdom, Ireland"
-      ],
-      [
-        "Q105313",
-        "Q179876",
-        "United Kingdom"
-      ],
-      [
-        "Q179876",
-        "Q330362",
-        "United Kingdom, Ireland"
-      ]
-    ],
-    "question": "successions/kingdom-of-england-question.png",
-    "answer": "successions/kingdom-of-england-answer.png"
+  "before": {
+    "id": "Q105313",
+    "region": "United Kingdom",
+    "name": "Kingdom of Wessex"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q170017",
@@ -113,6 +74,7 @@
       1708
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Winchester",
     "labelled": [
       "Holy Roman Empire Minor States",
       "Crown of Castile",

@@ -18,15 +18,14 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Ukraine",
     "Romania",
     "Hungary",
-    "Serbia",
+    "Republic of Serbia",
     "Bosnia and Herzegovina",
     "Moldova",
     "Croatia",
@@ -44,6 +43,7 @@
       805
     ],
     "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
     "labelled": [
       "Eastern Roman Empire",
       "Kingdom of Italy",

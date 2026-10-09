@@ -18,13 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Hwicce"
-  ],
-  "successors": [
-    "Kingdom of Wessex"
-  ],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q105313",
+    "region": "United Kingdom",
+    "name": "Kingdom of Wessex"
+  },
   "rulers": [
     {
       "id": "Q738812",
@@ -80,6 +79,7 @@
       925
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Kingdom of Northumbria",
       "Kingdom of the Franks",

@@ -14,33 +14,12 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [
-    "Early Dynastic Period of Egypt"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q177819",
-        "layer": 1,
-        "name": "Old Kingdom of Egypt"
-      },
-      {
-        "id": "Q187979",
-        "layer": 0,
-        "name": "Early Dynastic Period of Egypt"
-      }
-    ],
-    "edges": [
-      [
-        "Q187979",
-        "Q177819",
-        "Egypt"
-      ]
-    ],
-    "question": "successions/old-kingdom-of-egypt-question.png",
-    "answer": "successions/old-kingdom-of-egypt-answer.png"
+  "before": {
+    "id": "Q187979",
+    "region": "Egypt",
+    "name": "Early Dynastic Period of Egypt"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Egypt"
@@ -59,6 +38,7 @@
       -2201
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": []
   }
 }

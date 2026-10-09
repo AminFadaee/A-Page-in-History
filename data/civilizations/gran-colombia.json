@@ -26,54 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Republic of New Granada",
-    "Venezuela",
-    "Republic of Ecuador"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q199821",
-        "layer": 1,
-        "name": "Gran Colombia"
-      },
-      {
-        "id": "Q630882",
-        "layer": 2,
-        "name": "Republic of New Granada"
-      },
-      {
-        "id": "Q717",
-        "layer": 2,
-        "name": "Venezuela"
-      },
-      {
-        "id": "Q736",
-        "layer": 2,
-        "name": "Republic of Ecuador"
-      }
-    ],
-    "edges": [
-      [
-        "Q199821",
-        "Q630882",
-        "Colombia, Brazil"
-      ],
-      [
-        "Q199821",
-        "Q717",
-        "Venezuela"
-      ],
-      [
-        "Q199821",
-        "Q736",
-        "Ecuador"
-      ]
-    ],
-    "question": "successions/gran-colombia-question.png",
-    "answer": "successions/gran-colombia-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q630882",
+    "region": "Colombia",
+    "name": "Republic of New Granada"
   },
   "rulers": [
     {
@@ -111,6 +68,7 @@
       1833
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bogotá",
     "labelled": [
       "Empire of Brazil",
       "Republic of Peru",

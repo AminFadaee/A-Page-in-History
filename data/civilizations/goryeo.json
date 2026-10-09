@@ -33,55 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Taebong",
-    "Hubaekje"
-  ],
-  "successors": [
-    "Joseon"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28208",
-        "layer": 1,
-        "name": "Goryeo"
-      },
-      {
-        "id": "Q699871",
-        "layer": 0,
-        "name": "Taebong"
-      },
-      {
-        "id": "Q698239",
-        "layer": 0,
-        "name": "Hubaekje"
-      },
-      {
-        "id": "Q28179",
-        "layer": 2,
-        "name": "Joseon"
-      }
-    ],
-    "edges": [
-      [
-        "Q699871",
-        "Q28208",
-        "South Korea, North Korea"
-      ],
-      [
-        "Q698239",
-        "Q28208",
-        "South Korea"
-      ],
-      [
-        "Q28208",
-        "Q28179",
-        "North Korea, South Korea"
-      ]
-    ],
-    "question": "successions/goryeo-question.png",
-    "answer": "successions/goryeo-answer.png"
+  "before": {
+    "id": "Q699871",
+    "region": "North Korea",
+    "name": "Taebong"
+  },
+  "after": {
+    "id": "Q28179",
+    "region": "North Korea",
+    "name": "Joseon"
   },
   "rulers": [],
   "modern_countries": [
@@ -108,6 +68,7 @@
       1394
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kaesong",
     "labelled": [
       "Ming Dynasty",
       "Ashikaga Shogunate"

@@ -14,9 +14,8 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Russia",
@@ -39,6 +38,7 @@
       -224
     ],
     "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
     "labelled": [
       "Lydia"
     ]

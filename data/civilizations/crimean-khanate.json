@@ -33,9 +33,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q34266",
+    "region": "Russia",
+    "name": "Russian Empire"
+  },
   "rulers": [
     {
       "id": "Q379718",
@@ -70,6 +73,7 @@
       1782
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bakhchysarai",
     "labelled": [
       "House of Jagiellon",
       "Golden Horde",

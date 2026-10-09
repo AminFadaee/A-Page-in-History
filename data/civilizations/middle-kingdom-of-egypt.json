@@ -25,9 +25,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Egypt"
@@ -50,6 +49,7 @@
       -1601
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Thebes",
     "labelled": [
       "Hyksos",
       "Elam",

@@ -26,12 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
-    "Serbia"
+    "Republic of Serbia"
   ],
   "map": "maps/kingdom-of-serbia.png",
   "checks": {
@@ -49,6 +48,7 @@
       1884
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Belgrade",
     "labelled": [
       "Ottoman Empire",
       "Austria-Hungary",

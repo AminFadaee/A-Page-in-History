@@ -26,33 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Tokugawa Shogunate"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q188712",
-        "layer": 1,
-        "name": "Empire of Japan"
-      },
-      {
-        "id": "Q205662",
-        "layer": 0,
-        "name": "Tokugawa Shogunate"
-      }
-    ],
-    "edges": [
-      [
-        "Q205662",
-        "Q188712",
-        "Japan"
-      ]
-    ],
-    "question": "successions/empire-of-japan-question.png",
-    "answer": "successions/empire-of-japan-answer.png"
+  "before": {
+    "id": "Q205662",
+    "region": "Japan",
+    "name": "Tokugawa Shogunate"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q174231",
@@ -68,7 +47,7 @@
     }
   ],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Indonesia",
     "Myanmar",
     "Japan",
@@ -80,7 +59,7 @@
     "Solomon Islands",
     "East Timor",
     "Brunei",
-    "Hong Kong",
+    "Hong Kong S.A.R.",
     "Guam",
     "Singapore",
     "Palau"
@@ -103,6 +82,7 @@
       1945
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tokyo",
     "labelled": [
       "Union of Soviet Socialist Republics",
       "Commonwealth of Australia",

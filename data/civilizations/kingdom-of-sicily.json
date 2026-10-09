@@ -26,11 +26,8 @@
       ]
     }
   ],
-  "predecessors": [
-    "Duchy of Naples"
-  ],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Italy",
@@ -54,6 +51,7 @@
       1384
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Palermo",
     "labelled": [
       "Holy Roman Empire",
       "Byzantine Empire",

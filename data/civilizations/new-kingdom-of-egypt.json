@@ -39,9 +39,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Egypt",
@@ -79,6 +78,7 @@
       -801
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Memphis",
     "labelled": [
       "Mitanni",
       "Babylonia",

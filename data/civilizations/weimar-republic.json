@@ -26,44 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "German Empire"
-  ],
-  "successors": [
-    "Nazi Germany"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q41304",
-        "layer": 1,
-        "name": "Weimar Republic"
-      },
-      {
-        "id": "Q43287",
-        "layer": 0,
-        "name": "German Empire"
-      },
-      {
-        "id": "Q207272",
-        "layer": 1,
-        "name": "Second Polish Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q43287",
-        "Q41304",
-        "Germany, Poland"
-      ],
-      [
-        "Q43287",
-        "Q207272",
-        "Poland, Belarus, Ukraine"
-      ]
-    ],
-    "question": "successions/weimar-republic-question.png",
-    "answer": "successions/weimar-republic-answer.png"
+  "before": {
+    "id": "Q43287",
+    "region": "Germany",
+    "name": "German Empire"
+  },
+  "after": {
+    "id": "Q7318",
+    "region": "Germany",
+    "name": "Nazi Germany"
   },
   "rulers": [
     {
@@ -95,6 +66,7 @@
       1935
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Berlin",
     "labelled": [
       "French Third Republic",
       "Second Polish Republic",

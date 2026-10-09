@@ -26,38 +26,17 @@
       ]
     }
   ],
-  "predecessors": [
-    "Later Zhou"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q7462",
-        "layer": 1,
-        "name": "Northern Song"
-      },
-      {
-        "id": "Q1154556",
-        "layer": 0,
-        "name": "Later Zhou"
-      }
-    ],
-    "edges": [
-      [
-        "Q1154556",
-        "Q7462",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/northern-song-question.png",
-    "answer": "successions/northern-song-answer.png"
+  "before": {
+    "id": "Q1193822",
+    "region": "China",
+    "name": "Wuyue"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
-    "Hong Kong",
-    "Macau"
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/northern-song.png",
   "checks": {
@@ -80,6 +59,7 @@
       1138
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Lin'an Prefecture",
     "labelled": [
       "Tibetans",
       "Liao Dynasty",

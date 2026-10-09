@@ -18,13 +18,16 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Kingdom of Bernicia",
-    "Kingdom of Deira",
-    "Kingdom of Rheged"
-  ],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q623751",
+    "region": "United Kingdom",
+    "name": "Kingdom of Bernicia"
+  },
+  "after": {
+    "id": "Q179876",
+    "region": "United Kingdom",
+    "name": "Kingdom of England"
+  },
   "rulers": [],
   "modern_countries": [
     "United Kingdom"
@@ -41,6 +44,7 @@
       935
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Burgundian Kingdom",
       "Scandinavian minor kingdoms",

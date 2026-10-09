@@ -33,65 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Parthian Empire"
-  ],
-  "successors": [
-    "Dabuyid Dynasty",
-    "Rashidun Caliphate"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q83891",
-        "layer": 1,
-        "name": "Sasanian Empire"
-      },
-      {
-        "id": "Q1986139",
-        "layer": 0,
-        "name": "Parthian Empire"
-      },
-      {
-        "id": "Q2816439",
-        "layer": 2,
-        "name": "Dabuyid Dynasty"
-      },
-      {
-        "id": "Q12490507",
-        "layer": 2,
-        "name": "Rashidun Caliphate"
-      },
-      {
-        "id": "Q12544",
-        "layer": 1,
-        "name": "Eastern Roman Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q1986139",
-        "Q83891",
-        "Iran, Turkmenistan"
-      ],
-      [
-        "Q83891",
-        "Q2816439",
-        "Iran"
-      ],
-      [
-        "Q12544",
-        "Q12490507",
-        "Egypt, Turkey, Libya"
-      ],
-      [
-        "Q83891",
-        "Q12490507",
-        "Iran, Egypt"
-      ]
-    ],
-    "question": "successions/sasanian-empire-question.png",
-    "answer": "successions/sasanian-empire-answer.png"
+  "before": {
+    "id": "Q1986139",
+    "region": "Iran",
+    "name": "Parthian Empire"
+  },
+  "after": {
+    "id": "Q12490507",
+    "region": "Iran",
+    "name": "Rashidun Caliphate"
   },
   "rulers": [
     {
@@ -141,6 +91,7 @@
       643
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "Istakhr",
     "labelled": [
       "Western Göktürks",
       "Eastern Roman Empire",

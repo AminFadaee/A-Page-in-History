@@ -33,33 +33,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "County of Portugal"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q45670",
-        "layer": 1,
-        "name": "Kingdom of Portugal"
-      },
-      {
-        "id": "Q1139807",
-        "layer": 0,
-        "name": "County of Portugal"
-      }
-    ],
-    "edges": [
-      [
-        "Q1139807",
-        "Q45670",
-        "Portugal"
-      ]
-    ],
-    "question": "successions/kingdom-of-portugal-question.png",
-    "answer": "successions/kingdom-of-portugal-answer.png"
+  "before": {
+    "id": "Q1139807",
+    "region": "Portugal",
+    "name": "County of Portugal"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q587697",
@@ -79,8 +58,8 @@
     "Mozambique",
     "Portugal",
     "Guinea-Bissau",
-    "Cape Verde",
-    "São Tomé and Príncipe"
+    "Cabo Verde",
+    "São Tomé and Principe"
   ],
   "map": "maps/kingdom-of-portugal.png",
   "checks": {
@@ -102,6 +81,7 @@
       1911
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Coimbra",
     "labelled": [
       "British Africa",
       "French Africa",

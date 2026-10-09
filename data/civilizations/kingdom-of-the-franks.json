@@ -18,57 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Magna Frisia",
-    "Kingdom of Alamannia"
-  ],
-  "successors": [
-    "East Franks",
-    "West Franks"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q146246",
-        "layer": 1,
-        "name": "Kingdom of the Franks"
-      },
-      {
-        "id": "Q2208978",
-        "layer": 0,
-        "name": "Kingdom of Alamannia"
-      },
-      {
-        "id": "Q153080",
-        "layer": 2,
-        "name": "East Franks"
-      },
-      {
-        "id": "Q46370",
-        "layer": 2,
-        "name": "West Franks"
-      }
-    ],
-    "edges": [
-      [
-        "Q2208978",
-        "Q146246",
-        "Germany, Switzerland"
-      ],
-      [
-        "Q146246",
-        "Q153080",
-        "Germany, Austria"
-      ],
-      [
-        "Q146246",
-        "Q46370",
-        "France, Italy"
-      ]
-    ],
-    "question": "successions/kingdom-of-the-franks-question.png",
-    "answer": "successions/kingdom-of-the-franks-answer.png"
+  "before": {
+    "id": "Q42834",
+    "region": "Belgium",
+    "name": "Western Roman Empire"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q82339",
@@ -106,6 +61,7 @@
       849
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Emirate of Córdoba",
       "First Bulgarian Empire",

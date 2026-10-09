@@ -33,77 +33,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Austrian Empire"
-  ],
-  "successors": [
-    "Kingdom of Romania",
-    "Czechoslovakia",
-    "Republic of Austria"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28513",
-        "layer": 1,
-        "name": "Austria-Hungary"
-      },
-      {
-        "id": "Q131964",
-        "layer": 0,
-        "name": "Austrian Empire"
-      },
-      {
-        "id": "Q203493",
-        "layer": 2,
-        "name": "Kingdom of Romania"
-      },
-      {
-        "id": "Q958291",
-        "layer": 1,
-        "name": "United Principalities of Moldavia and Wallachia"
-      },
-      {
-        "id": "Q33946",
-        "layer": 2,
-        "name": "Czechoslovakia"
-      },
-      {
-        "id": "Q40",
-        "layer": 2,
-        "name": "Republic of Austria"
-      }
-    ],
-    "edges": [
-      [
-        "Q131964",
-        "Q28513",
-        "Romania, Hungary, Austria"
-      ],
-      [
-        "Q28513",
-        "Q203493",
-        "Romania, Moldova"
-      ],
-      [
-        "Q958291",
-        "Q203493",
-        "Romania"
-      ],
-      [
-        "Q28513",
-        "Q33946",
-        "Czech Republic, Slovakia"
-      ],
-      [
-        "Q28513",
-        "Q40",
-        "Austria"
-      ]
-    ],
-    "question": "successions/austria-hungary-question.png",
-    "answer": "successions/austria-hungary-answer.png"
+  "before": {
+    "id": "Q131964",
+    "region": "Hungary",
+    "name": "Austrian Empire"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q51056",
@@ -119,8 +54,8 @@
     "Hungary",
     "Austria",
     "Ukraine",
-    "Czech Republic",
-    "Serbia",
+    "Czechia",
+    "Republic of Serbia",
     "Bosnia and Herzegovina",
     "Croatia",
     "Slovakia",
@@ -155,6 +90,7 @@
       1918
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Budapest",
     "labelled": [
       "German Empire",
       "Kingdom of Italy",

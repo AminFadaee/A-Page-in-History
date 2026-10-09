@@ -26,40 +26,8 @@
       ]
     }
   ],
-  "predecessors": [
-    "Ambrosian Republic"
-  ],
-  "successors": [
-    "Ambrosian Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q153529",
-        "layer": 1,
-        "name": "Duchy of Milan"
-      },
-      {
-        "id": "Q746443",
-        "layer": 2,
-        "name": "Ambrosian Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q746443",
-        "Q153529",
-        "Italy, Switzerland"
-      ],
-      [
-        "Q153529",
-        "Q746443",
-        "Italy, Switzerland"
-      ]
-    ],
-    "question": "successions/duchy-of-milan-question.png",
-    "answer": "successions/duchy-of-milan-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q357539",
@@ -86,6 +54,7 @@
       1539
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Milan",
     "labelled": [
       "Holy Roman Empire Minor States",
       "Kingdom of France",

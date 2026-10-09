@@ -33,85 +33,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Mughal Empire"
-  ],
-  "successors": [
-    "Republic of India",
-    "Islamic Republic of Pakistan"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q129286",
-        "layer": 1,
-        "name": "British Raj"
-      },
-      {
-        "id": "Q33296",
-        "layer": 0,
-        "name": "Mughal Empire"
-      },
-      {
-        "id": "Q467627",
-        "layer": 1,
-        "name": "Durrani Empire"
-      },
-      {
-        "id": "Q668",
-        "layer": 2,
-        "name": "Republic of India"
-      },
-      {
-        "id": "Q1240096",
-        "layer": 1,
-        "name": "Hyderabad State"
-      },
-      {
-        "id": "Q2571484",
-        "layer": 1,
-        "name": "Kashmir and Jammu"
-      },
-      {
-        "id": "Q843",
-        "layer": 2,
-        "name": "Islamic Republic of Pakistan"
-      }
-    ],
-    "edges": [
-      [
-        "Q33296",
-        "Q467627",
-        "Pakistan, India, Afghanistan"
-      ],
-      [
-        "Q33296",
-        "Q129286",
-        "India"
-      ],
-      [
-        "Q129286",
-        "Q668",
-        "India"
-      ],
-      [
-        "Q1240096",
-        "Q668",
-        "India"
-      ],
-      [
-        "Q2571484",
-        "Q668",
-        "India"
-      ],
-      [
-        "Q129286",
-        "Q843",
-        "Pakistan, Bangladesh"
-      ]
-    ],
-    "question": "successions/british-raj-question.png",
-    "answer": "successions/british-raj-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q668",
+    "region": "India",
+    "name": "Republic of India"
   },
   "rulers": [
     {
@@ -164,6 +90,7 @@
       1947
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kolkata",
     "labelled": [
       "Kuomintang",
       "Qajar Dynasty",

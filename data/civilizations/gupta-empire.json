@@ -26,9 +26,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q12448145",
+    "region": "India",
+    "name": "Maukhari Dynasty"
+  },
   "rulers": [
     {
       "id": "Q4664626",
@@ -57,6 +60,7 @@
       554
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Pataliputra",
     "labelled": [
       "Sasanian Empire",
       "Kidarites",

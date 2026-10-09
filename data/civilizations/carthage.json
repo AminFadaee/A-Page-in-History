@@ -26,33 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Phoenicia"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q2429397",
-        "layer": 1,
-        "name": "Carthage"
-      },
-      {
-        "id": "Q41642",
-        "layer": 0,
-        "name": "Phoenicia"
-      }
-    ],
-    "edges": [
-      [
-        "Q41642",
-        "Q2429397",
-        "Italy, Spain, Libya"
-      ]
-    ],
-    "question": "successions/carthage-question.png",
-    "answer": "successions/carthage-answer.png"
+  "before": {
+    "id": "Q41642",
+    "region": "Tunisia",
+    "name": "Phoenicia"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Spain",
@@ -76,6 +55,7 @@
       -145
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Carthage",
     "labelled": [
       "Roman Republic",
       "Antigonid Macedonia"

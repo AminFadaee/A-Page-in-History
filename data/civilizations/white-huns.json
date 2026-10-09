@@ -29,9 +29,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q26996",
+    "region": "Afghanistan",
+    "name": "Kidarites"
+  },
+  "after": {
+    "id": "Q15146034",
+    "region": "Afghanistan",
+    "name": "Göktürk Khaganate"
+  },
   "rulers": [],
   "modern_countries": [
     "Pakistan",
@@ -62,6 +69,7 @@
       560
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "Kunduz",
     "labelled": [
       "Rouran Khaganate",
       "Sasanian Empire",

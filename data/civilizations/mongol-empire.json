@@ -33,54 +33,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Great Jin",
-    "Kara-Khitans",
-    "Western Xia"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q12557",
-        "layer": 1,
-        "name": "Mongol Empire"
-      },
-      {
-        "id": "Q5066",
-        "layer": 0,
-        "name": "Great Jin"
-      },
-      {
-        "id": "Q862304",
-        "layer": 0,
-        "name": "Kara-Khitans"
-      },
-      {
-        "id": "Q7427",
-        "layer": 0,
-        "name": "Western Xia"
-      }
-    ],
-    "edges": [
-      [
-        "Q5066",
-        "Q12557",
-        "People's Republic of China, Russia"
-      ],
-      [
-        "Q862304",
-        "Q12557",
-        "People's Republic of China, Kazakhstan, Uzbekistan"
-      ],
-      [
-        "Q7427",
-        "Q12557",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/mongol-empire-question.png",
-    "answer": "successions/mongol-empire-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q7313",
+    "region": "Mongolia",
+    "name": "Yuan Dynasty"
   },
   "rulers": [
     {
@@ -101,7 +58,7 @@
     }
   ],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Russia",
     "Kazakhstan",
     "Iran",
@@ -124,8 +81,8 @@
     "Moldova",
     "Armenia",
     "Siachen Glacier",
-    "Hong Kong",
-    "Macau"
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/mongol-empire.png",
   "checks": {
@@ -147,6 +104,7 @@
       1293
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Avarga",
     "labelled": [
       "Mamluk Sultanate",
       "Mali Empire",

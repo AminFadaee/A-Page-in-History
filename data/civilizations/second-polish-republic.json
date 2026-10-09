@@ -26,55 +26,8 @@
       ]
     }
   ],
-  "predecessors": [
-    "German Empire"
-  ],
-  "successors": [
-    "Union of Soviet Socialist Republics"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q207272",
-        "layer": 1,
-        "name": "Second Polish Republic"
-      },
-      {
-        "id": "Q43287",
-        "layer": 0,
-        "name": "German Empire"
-      },
-      {
-        "id": "Q41304",
-        "layer": 1,
-        "name": "Weimar Republic"
-      },
-      {
-        "id": "Q15180",
-        "layer": 2,
-        "name": "Union of Soviet Socialist Republics"
-      }
-    ],
-    "edges": [
-      [
-        "Q43287",
-        "Q41304",
-        "Germany, Poland"
-      ],
-      [
-        "Q43287",
-        "Q207272",
-        "Poland, Belarus, Ukraine"
-      ],
-      [
-        "Q207272",
-        "Q15180",
-        "Poland, Ukraine, Belarus"
-      ]
-    ],
-    "question": "successions/second-polish-republic-question.png",
-    "answer": "successions/second-polish-republic-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q885",
@@ -102,6 +55,7 @@
       1939
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Warsaw",
     "labelled": [
       "Union of Soviet Socialist Republics",
       "Nazi Germany",

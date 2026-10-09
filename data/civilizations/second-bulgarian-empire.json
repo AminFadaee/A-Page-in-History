@@ -26,14 +26,17 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q12560",
+    "region": "Bulgaria",
+    "name": "Ottoman Empire"
+  },
   "rulers": [],
   "modern_countries": [
     "Bulgaria",
     "Romania",
-    "Serbia",
+    "Republic of Serbia",
     "Greece",
     "North Macedonia"
   ],
@@ -56,6 +59,7 @@
       1394
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Veliko Tarnovo",
     "labelled": [
       "Kingdom of Hungary",
       "Halych-Volhynia occupation",

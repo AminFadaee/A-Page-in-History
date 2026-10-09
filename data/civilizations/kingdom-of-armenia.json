@@ -26,9 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Turkey",
@@ -61,6 +60,7 @@
       646
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Tigranocerta",
     "labelled": [
       "Parthian Empire",
       "Kingdom of Pontus",

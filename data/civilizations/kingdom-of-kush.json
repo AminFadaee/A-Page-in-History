@@ -29,9 +29,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q180568",
+    "region": "Sudan",
+    "name": "New Kingdom of Egypt"
+  },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Egypt",
@@ -56,6 +59,7 @@
       346
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Napata",
     "labelled": [
       "Neo-Assyrian Empire",
       "Hadhramaut",

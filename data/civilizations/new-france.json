@@ -26,9 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Canada",
@@ -56,6 +55,7 @@
       1791
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Quebec City",
     "labelled": [
       "Portuguese Empire",
       "Russian Empire",

@@ -33,32 +33,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Achaemenid Empire"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q83958",
-        "layer": 1,
-        "name": "Macedonian Empire"
-      },
-      {
-        "id": "Q389688",
-        "layer": 0,
-        "name": "Achaemenid Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q389688",
-        "Q83958",
-        "Iran, Afghanistan, Egypt"
-      ]
-    ],
-    "question": "successions/macedonian-empire-question.png",
-    "answer": "successions/macedonian-empire-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q237325",
+    "region": "Greece",
+    "name": "Antigonid Macedonia"
   },
   "rulers": [
     {
@@ -144,6 +123,7 @@
       -292
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Aegae",
     "labelled": [
       "Maurya Empire",
       "Kingdom of Kush",

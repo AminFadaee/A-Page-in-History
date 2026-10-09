@@ -14,9 +14,8 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q1413020",
@@ -44,6 +43,7 @@
       -676
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Neo-Assyrian Empire",
       "Lydia"

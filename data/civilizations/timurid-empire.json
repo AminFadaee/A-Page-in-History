@@ -33,32 +33,15 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Khanate of Bukhara"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q484195",
-        "layer": 1,
-        "name": "Timurid Empire"
-      },
-      {
-        "id": "Q577668",
-        "layer": 2,
-        "name": "Khanate of Bukhara"
-      }
-    ],
-    "edges": [
-      [
-        "Q484195",
-        "Q577668",
-        "Turkmenistan, Afghanistan, Tajikistan"
-      ]
-    ],
-    "question": "successions/timurid-empire-question.png",
-    "answer": "successions/timurid-empire-answer.png"
+  "before": {
+    "id": "Q1734616",
+    "region": "Afghanistan",
+    "name": "Kartids"
+  },
+  "after": {
+    "id": "Q18234383",
+    "region": "Afghanistan",
+    "name": "Safavid Dynasty"
   },
   "rulers": [],
   "modern_countries": [
@@ -91,6 +74,7 @@
       1528
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Herat",
     "labelled": [
       "Chagatai Khanate",
       "Mamluk Sultanate",

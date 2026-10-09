@@ -22,9 +22,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q188586",
+    "region": "Italy",
+    "name": "Kingdom of Sicily"
+  },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Italy"
@@ -45,6 +48,7 @@
       1501
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Naples",
     "labelled": [
       "Crown of Aragon",
       "Papal States",

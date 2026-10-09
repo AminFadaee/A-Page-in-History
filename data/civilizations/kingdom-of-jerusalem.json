@@ -26,64 +26,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Fatimid Caliphate"
-  ],
-  "successors": [
-    "Mamluk Sultanate"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q55502",
-        "layer": 1,
-        "name": "Kingdom of Jerusalem"
-      },
-      {
-        "id": "Q160307",
-        "layer": 0,
-        "name": "Fatimid Caliphate"
-      },
-      {
-        "id": "Q180114",
-        "layer": 1,
-        "name": "Ayyubid Sultanate"
-      },
-      {
-        "id": "Q205718",
-        "layer": 1,
-        "name": "Zirid dynasty"
-      },
-      {
-        "id": "Q588672",
-        "layer": 1,
-        "name": "Hammadid Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q160307",
-        "Q180114",
-        "Egypt, Libya"
-      ],
-      [
-        "Q160307",
-        "Q205718",
-        "Tunisia, Algeria"
-      ],
-      [
-        "Q160307",
-        "Q55502",
-        "Jordan, Israel, Palestine"
-      ],
-      [
-        "Q160307",
-        "Q588672",
-        "Algeria"
-      ]
-    ],
-    "question": "successions/kingdom-of-jerusalem-question.png",
-    "answer": "successions/kingdom-of-jerusalem-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q180114",
+    "region": "Palestine",
+    "name": "Ayyubid Sultanate"
   },
   "rulers": [
     {
@@ -120,6 +67,7 @@
       1293
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Jerusalem",
     "labelled": [
       "Great Seljuk Empire",
       "Fatimid Caliphate",

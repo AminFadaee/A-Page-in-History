@@ -47,43 +47,15 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Durrani Empire",
-    "British Raj"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q33296",
-        "layer": 1,
-        "name": "Mughal Empire"
-      },
-      {
-        "id": "Q467627",
-        "layer": 2,
-        "name": "Durrani Empire"
-      },
-      {
-        "id": "Q129286",
-        "layer": 2,
-        "name": "British Raj"
-      }
-    ],
-    "edges": [
-      [
-        "Q33296",
-        "Q467627",
-        "Pakistan, India, Afghanistan"
-      ],
-      [
-        "Q33296",
-        "Q129286",
-        "India"
-      ]
-    ],
-    "question": "successions/mughal-empire-question.png",
-    "answer": "successions/mughal-empire-answer.png"
+  "before": {
+    "id": "Q11709",
+    "region": "India",
+    "name": "Lodi Dynasty"
+  },
+  "after": {
+    "id": "Q129286",
+    "region": "India",
+    "name": "British Raj"
   },
   "rulers": [
     {
@@ -125,6 +97,7 @@
       1858
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Delhi",
     "labelled": [
       "Safavid Dynasty",
       "Dzungar Khanate",

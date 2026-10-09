@@ -18,33 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Joseon"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28233",
-        "layer": 1,
-        "name": "Korean Empire"
-      },
-      {
-        "id": "Q28179",
-        "layer": 0,
-        "name": "Joseon"
-      }
-    ],
-    "edges": [
-      [
-        "Q28179",
-        "Q28233",
-        "North Korea, South Korea"
-      ]
-    ],
-    "question": "successions/korean-empire-question.png",
-    "answer": "successions/korean-empire-answer.png"
+  "before": {
+    "id": "Q28179",
+    "region": "North Korea",
+    "name": "Joseon"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q257425",
@@ -76,6 +55,7 @@
       1910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Qing Dynasty",
       "Russian Empire",

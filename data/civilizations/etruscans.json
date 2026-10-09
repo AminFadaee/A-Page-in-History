@@ -10,9 +10,12 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q17167",
+    "region": "Italy",
+    "name": "Roman Republic"
+  },
   "rulers": [],
   "modern_countries": [
     "Italy",
@@ -30,6 +33,7 @@
       -265
     ],
     "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
     "labelled": [
       "Greek City-States"
     ]

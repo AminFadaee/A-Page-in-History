@@ -40,44 +40,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Kingdom of Cappadocia",
-    "Parthian Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q93180",
-        "layer": 1,
-        "name": "Seleucid Empire"
-      },
-      {
-        "id": "Q29654286",
-        "layer": 2,
-        "name": "Kingdom of Cappadocia"
-      },
-      {
-        "id": "Q1986139",
-        "layer": 2,
-        "name": "Parthian Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q93180",
-        "Q29654286",
-        "Turkey"
-      ],
-      [
-        "Q93180",
-        "Q1986139",
-        "Iran, Turkmenistan"
-      ]
-    ],
-    "question": "successions/seleucid-empire-question.png",
-    "answer": "successions/seleucid-empire-answer.png"
+  "before": {
+    "id": "Q83958",
+    "region": "Turkey",
+    "name": "Macedonian Empire"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q184176",
@@ -116,6 +84,7 @@
       -64
     ],
     "identity": "the state named after Seleucid dynasty",
+    "home": "Antioch",
     "labelled": [
       "Maurya Empire",
       "Ptolemaic Kingdom",

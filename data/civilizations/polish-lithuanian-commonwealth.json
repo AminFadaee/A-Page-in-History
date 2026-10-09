@@ -33,33 +33,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Duchy of Warsaw"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q172107",
-        "layer": 1,
-        "name": "Polish-Lithuanian Commonwealth"
-      },
-      {
-        "id": "Q152115",
-        "layer": 2,
-        "name": "Duchy of Warsaw"
-      }
-    ],
-    "edges": [
-      [
-        "Q172107",
-        "Q152115",
-        "Poland"
-      ]
-    ],
-    "question": "successions/polish-lithuanian-commonwealth-question.png",
-    "answer": "successions/polish-lithuanian-commonwealth-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q54058",
@@ -98,6 +73,7 @@
       1793
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kraków",
     "labelled": [
       "Tsardom of Russia",
       "Swedish Empire",

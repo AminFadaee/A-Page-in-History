@@ -40,54 +40,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Seleucid Empire"
-  ],
-  "successors": [
-    "Sasanian Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q1986139",
-        "layer": 1,
-        "name": "Parthian Empire"
-      },
-      {
-        "id": "Q93180",
-        "layer": 0,
-        "name": "Seleucid Empire"
-      },
-      {
-        "id": "Q29654286",
-        "layer": 1,
-        "name": "Kingdom of Cappadocia"
-      },
-      {
-        "id": "Q83891",
-        "layer": 2,
-        "name": "Sasanian Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q93180",
-        "Q29654286",
-        "Turkey"
-      ],
-      [
-        "Q93180",
-        "Q1986139",
-        "Iran, Turkmenistan"
-      ],
-      [
-        "Q1986139",
-        "Q83891",
-        "Iran, Turkmenistan"
-      ]
-    ],
-    "question": "successions/parthian-empire-question.png",
-    "answer": "successions/parthian-empire-answer.png"
+  "before": {
+    "id": "Q93180",
+    "region": "Turkmenistan",
+    "name": "Seleucid Empire"
+  },
+  "after": {
+    "id": "Q83891",
+    "region": "Turkmenistan",
+    "name": "Sasanian Empire"
   },
   "rulers": [],
   "modern_countries": [
@@ -126,6 +87,7 @@
       237
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Nisa",
     "labelled": [
       "Kushan Empire",
       "Roman Empire",

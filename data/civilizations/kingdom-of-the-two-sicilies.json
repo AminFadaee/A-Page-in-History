@@ -33,64 +33,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of Naples (Napoleonic)"
-  ],
-  "successors": [
-    "Kingdom of Italy"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q180393",
-        "layer": 1,
-        "name": "Kingdom of the Two Sicilies"
-      },
-      {
-        "id": "Q48779892",
-        "layer": 0,
-        "name": "Kingdom of Naples (Napoleonic)"
-      },
-      {
-        "id": "Q172579",
-        "layer": 2,
-        "name": "Kingdom of Italy"
-      },
-      {
-        "id": "Q2577303",
-        "layer": 1,
-        "name": "Kingdom of Sardinia"
-      },
-      {
-        "id": "Q170174",
-        "layer": 1,
-        "name": "Papal States"
-      }
-    ],
-    "edges": [
-      [
-        "Q48779892",
-        "Q180393",
-        "Italy"
-      ],
-      [
-        "Q180393",
-        "Q172579",
-        "Italy"
-      ],
-      [
-        "Q2577303",
-        "Q172579",
-        "Italy"
-      ],
-      [
-        "Q170174",
-        "Q172579",
-        "Italy"
-      ]
-    ],
-    "question": "successions/kingdom-of-the-two-sicilies-question.png",
-    "answer": "successions/kingdom-of-the-two-sicilies-answer.png"
+  "before": {
+    "id": "Q48779892",
+    "region": "Italy",
+    "name": "Kingdom of Naples (Napoleonic)"
+  },
+  "after": {
+    "id": "Q172579",
+    "region": "Italy",
+    "name": "Kingdom of Italy"
   },
   "rulers": [
     {
@@ -119,6 +70,7 @@
       1860
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Naples",
     "labelled": [
       "Papal States",
       "Austrian Empire",

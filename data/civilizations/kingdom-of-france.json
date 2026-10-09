@@ -26,32 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "West Franks"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q70972",
-        "layer": 1,
-        "name": "Kingdom of France"
-      },
-      {
-        "id": "Q46370",
-        "layer": 0,
-        "name": "West Franks"
-      }
-    ],
-    "edges": [
-      [
-        "Q46370",
-        "Q70972",
-        "France"
-      ]
-    ],
-    "question": "successions/kingdom-of-france-question.png",
-    "answer": "successions/kingdom-of-france-answer.png"
+  "before": {
+    "id": "Q46370",
+    "region": "France",
+    "name": "West Franks"
+  },
+  "after": {
+    "id": "Q58296",
+    "region": "France",
+    "name": "French Directory"
   },
   "rulers": [
     {
@@ -81,6 +64,7 @@
       1791
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "Versailles",
     "labelled": [
       "Spanish Empire",
       "Russian Empire",

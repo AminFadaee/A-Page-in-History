@@ -26,45 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Habsburg Monarchy",
-    "Republic of Venice"
-  ],
-  "successors": [
-    "Austria-Hungary"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q131964",
-        "layer": 1,
-        "name": "Austrian Empire"
-      },
-      {
-        "id": "Q153136",
-        "layer": 0,
-        "name": "Habsburg Monarchy"
-      },
-      {
-        "id": "Q28513",
-        "layer": 2,
-        "name": "Austria-Hungary"
-      }
-    ],
-    "edges": [
-      [
-        "Q153136",
-        "Q131964",
-        "Romania, Hungary, Poland"
-      ],
-      [
-        "Q131964",
-        "Q28513",
-        "Romania, Hungary, Austria"
-      ]
-    ],
-    "question": "successions/austrian-empire-question.png",
-    "answer": "successions/austrian-empire-answer.png"
+  "before": {
+    "id": "Q153136",
+    "region": "Austria",
+    "name": "Habsburg Monarchy"
+  },
+  "after": {
+    "id": "Q28513",
+    "region": "Austria",
+    "name": "Austria-Hungary"
   },
   "rulers": [
     {
@@ -85,7 +55,7 @@
     "Hungary",
     "Italy",
     "Austria",
-    "Czech Republic",
+    "Czechia",
     "Ukraine",
     "Croatia",
     "Slovakia",
@@ -107,6 +77,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vienna",
     "labelled": [
       "Russian Empire",
       "Ottoman Empire",

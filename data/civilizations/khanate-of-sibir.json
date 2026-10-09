@@ -29,9 +29,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q186096",
+    "region": "Russia",
+    "name": "Tsardom of Russia"
+  },
   "rulers": [],
   "modern_countries": [
     "Russia",
@@ -55,6 +58,7 @@
       1587
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Qashliq",
     "labelled": [
       "Mongol Khanate",
       "Grand Principality of Moscow",

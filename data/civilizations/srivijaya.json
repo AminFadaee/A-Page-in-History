@@ -22,11 +22,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Kingdom of Singapura"
-  ],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Indonesia",
@@ -50,6 +47,7 @@
       1293
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Palembang",
     "labelled": [
       "Water Chenla",
       "Land Chenla",

@@ -10,9 +10,8 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Turkey",
@@ -36,6 +35,7 @@
       -1151
     ],
     "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
     "labelled": [
       "New Kingdom of Egypt",
       "Mitanni",

@@ -26,11 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of Israel"
-  ],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q3185305",
+    "region": "Palestine",
+    "name": "Kingdom of Israel"
+  },
+  "after": {},
   "rulers": [
     {
       "id": "Q211663",
@@ -62,6 +63,7 @@
       -701
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Jerusalem",
     "labelled": [
       "Neo-Assyrian Empire",
       "Twenty-second Dynasty of Egypt",

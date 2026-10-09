@@ -40,32 +40,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of the Suebi"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q126936",
-        "layer": 1,
-        "name": "Visigothic Kingdom"
-      },
-      {
-        "id": "Q1048918",
-        "layer": 0,
-        "name": "Kingdom of the Suebi"
-      }
-    ],
-    "edges": [
-      [
-        "Q1048918",
-        "Q126936",
-        "Spain, Portugal"
-      ]
-    ],
-    "question": "successions/visigothic-kingdom-question.png",
-    "answer": "successions/visigothic-kingdom-answer.png"
+  "before": {
+    "id": "Q42834",
+    "region": "Spain",
+    "name": "Western Roman Empire"
+  },
+  "after": {
+    "id": "Q8575586",
+    "region": "Spain",
+    "name": "Umayyad Caliphate"
   },
   "rulers": [
     {
@@ -143,6 +126,7 @@
       723
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Toledo",
     "labelled": [
       "Ostrogoths",
       "Salian Franks",

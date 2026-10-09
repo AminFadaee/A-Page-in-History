@@ -18,13 +18,16 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "County of Ribagorza"
-  ],
-  "successors": [
-    "Crown of Aragon"
-  ],
-  "succession": {},
+  "before": {
+    "id": "Q1297894",
+    "region": "Spain",
+    "name": "County of Ribagorza"
+  },
+  "after": {
+    "id": "Q204920",
+    "region": "Spain",
+    "name": "Crown of Aragon"
+  },
   "rulers": [],
   "modern_countries": [
     "Spain"
@@ -49,6 +52,7 @@
       1168
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Almoravid Dynasty",
       "Kingdom of Castile",

@@ -26,9 +26,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q33296",
+    "region": "India",
+    "name": "Mughal Empire"
+  },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "India"
@@ -53,6 +56,7 @@
       1845
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Raigad Fort",
     "labelled": [
       "British Empire",
       "Mughal Empire",

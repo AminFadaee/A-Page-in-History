@@ -23,9 +23,8 @@
       "location": null
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Russia",
@@ -50,6 +49,7 @@
       979
     ],
     "identity": "Wikipedia article with a country infobox",
+    "home": "the spot held longest",
     "labelled": [
       "Abbasid Caliphate",
       "Byzantine Empire",

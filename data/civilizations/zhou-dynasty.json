@@ -18,36 +18,15 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Shang Dynasty"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q35216",
-        "layer": 1,
-        "name": "Zhou Dynasty"
-      },
-      {
-        "id": "Q128938",
-        "layer": 0,
-        "name": "Shang Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q128938",
-        "Q35216",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/zhou-dynasty-question.png",
-    "answer": "successions/zhou-dynasty-answer.png"
+  "before": {
+    "id": "Q128938",
+    "region": "China",
+    "name": "Shang Dynasty"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China"
+    "China"
   ],
   "map": "maps/zhou-dynasty.png",
   "checks": {
@@ -67,6 +46,7 @@
       -751
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": []
   }
 }

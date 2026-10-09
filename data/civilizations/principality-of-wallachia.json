@@ -26,9 +26,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q958291",
+    "region": "Romania",
+    "name": "United Principalities of Moldavia and Wallachia"
+  },
   "rulers": [],
   "modern_countries": [
     "Romania"
@@ -52,6 +55,7 @@
       1858
     ],
     "identity": "Wikipedia article with a country infobox",
+    "home": "Câmpulung",
     "labelled": [
       "Ottoman Empire",
       "Kingdom of Hungary",

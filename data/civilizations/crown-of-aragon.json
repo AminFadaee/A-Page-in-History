@@ -18,65 +18,15 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "County of Ampuria",
-    "Kingdom of Aragon"
-  ],
-  "successors": [
-    "Kingdom of Spain"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q204920",
-        "layer": 1,
-        "name": "Crown of Aragon"
-      },
-      {
-        "id": "Q199442",
-        "layer": 0,
-        "name": "Kingdom of Aragon"
-      },
-      {
-        "id": "Q29",
-        "layer": 2,
-        "name": "Kingdom of Spain"
-      },
-      {
-        "id": "Q497777",
-        "layer": 1,
-        "name": "First Spanish Republic"
-      },
-      {
-        "id": "Q80702",
-        "layer": 1,
-        "name": "Spanish Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q199442",
-        "Q204920",
-        "Spain"
-      ],
-      [
-        "Q204920",
-        "Q29",
-        "Italy, Spain"
-      ],
-      [
-        "Q497777",
-        "Q29",
-        "Spain, Philippines, Cuba"
-      ],
-      [
-        "Q80702",
-        "Q29",
-        "Philippines, Cuba"
-      ]
-    ],
-    "question": "successions/crown-of-aragon-question.png",
-    "answer": "successions/crown-of-aragon-answer.png"
+  "before": {
+    "id": "Q199442",
+    "region": "Spain",
+    "name": "Kingdom of Aragon"
+  },
+  "after": {
+    "id": "Q29",
+    "region": "Spain",
+    "name": "Kingdom of Spain"
   },
   "rulers": [
     {
@@ -113,6 +63,7 @@
       1515
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Ottoman Empire",
       "Crown of Castile",

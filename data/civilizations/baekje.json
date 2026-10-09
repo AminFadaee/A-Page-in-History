@@ -26,53 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Unified Silla"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28428",
-        "layer": 1,
-        "name": "Baekje"
-      },
-      {
-        "id": "Q715257",
-        "layer": 2,
-        "name": "Unified Silla"
-      },
-      {
-        "id": "Q28370",
-        "layer": 1,
-        "name": "Goguryeo"
-      },
-      {
-        "id": "Q28456",
-        "layer": 1,
-        "name": "Silla"
-      }
-    ],
-    "edges": [
-      [
-        "Q28428",
-        "Q715257",
-        "South Korea"
-      ],
-      [
-        "Q28370",
-        "Q715257",
-        "North Korea"
-      ],
-      [
-        "Q28456",
-        "Q715257",
-        "South Korea, North Korea"
-      ]
-    ],
-    "question": "successions/baekje-question.png",
-    "answer": "successions/baekje-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "South Korea"
@@ -95,6 +50,7 @@
       660
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Wiryeseong",
     "labelled": [
       "Goguryeo",
       "Jinhan",

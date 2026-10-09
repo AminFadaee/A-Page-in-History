@@ -26,9 +26,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q2060657",
+    "region": "Indonesia",
+    "name": "Singhasari"
+  },
+  "after": {
+    "id": "Q287996",
+    "region": "Indonesia",
+    "name": "Blambangan Kingdom"
+  },
   "rulers": [],
   "modern_countries": [
     "Indonesia",
@@ -51,6 +58,7 @@
       1518
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Trowulan",
     "labelled": [
       "Khmer Empire"
     ]

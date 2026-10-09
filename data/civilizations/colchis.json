@@ -18,9 +18,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Georgia",
@@ -42,6 +41,7 @@
       -231
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kutaisi",
     "labelled": [
       "Kingdom of Armenia",
       "Kingdom of Lysimachus",

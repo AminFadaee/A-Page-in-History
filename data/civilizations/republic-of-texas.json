@@ -40,9 +40,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q1780964",
@@ -91,6 +90,7 @@
       1845
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Washington-on-the-Brazos",
     "labelled": [
       "Federated Republic of Mexico",
       "United States of America"

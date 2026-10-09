@@ -26,11 +26,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Roman Republic"
-  ],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q17167",
+    "region": "Italy",
+    "name": "Roman Republic"
+  },
   "rulers": [
     {
       "id": "Q2186",
@@ -63,7 +64,7 @@
   ],
   "modern_countries": [
     "Italy",
-    "Vatican City"
+    "Vatican"
   ],
   "map": "maps/roman-kingdom.png",
   "checks": {
@@ -82,6 +83,7 @@
       -481
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Rome",
     "labelled": [
       "Etruscans"
     ]

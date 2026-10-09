@@ -18,9 +18,12 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q1057118",
+    "region": "Cambodia",
+    "name": "Chenla"
+  },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Thailand",
@@ -47,6 +50,7 @@
       1867
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Pagan Kingdom",
       "Ngô Dynasty",

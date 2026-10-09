@@ -26,44 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "German Confederation"
-  ],
-  "successors": [
-    "German Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q150981",
-        "layer": 1,
-        "name": "North German Confederation"
-      },
-      {
-        "id": "Q151624",
-        "layer": 0,
-        "name": "German Confederation"
-      },
-      {
-        "id": "Q43287",
-        "layer": 2,
-        "name": "German Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q151624",
-        "Q150981",
-        "Germany, Poland"
-      ],
-      [
-        "Q150981",
-        "Q43287",
-        "Germany, Poland, France"
-      ]
-    ],
-    "question": "successions/north-german-confederation-question.png",
-    "answer": "successions/north-german-confederation-answer.png"
+  "before": {
+    "id": "Q151624",
+    "region": "Germany",
+    "name": "German Confederation"
+  },
+  "after": {
+    "id": "Q43287",
+    "region": "Germany",
+    "name": "German Empire"
   },
   "rulers": [],
   "modern_countries": [
@@ -87,6 +58,7 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Berlin",
     "labelled": [
       "Russian Empire",
       "Austria-Hungary",

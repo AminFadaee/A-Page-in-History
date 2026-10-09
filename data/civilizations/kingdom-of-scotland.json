@@ -26,9 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q298263",
@@ -60,6 +59,7 @@
       1608
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Edinburgh",
     "labelled": [
       "Kingdom of England",
       "Denmark-Norway",

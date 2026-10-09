@@ -26,32 +26,11 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Brazilian Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q217230",
-        "layer": 1,
-        "name": "Empire of Brazil"
-      },
-      {
-        "id": "Q155",
-        "layer": 2,
-        "name": "Brazilian Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q217230",
-        "Q155",
-        "Brazil"
-      ]
-    ],
-    "question": "successions/empire-of-brazil-question.png",
-    "answer": "successions/empire-of-brazil-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q155",
+    "region": "Brazil",
+    "name": "Brazilian Republic"
   },
   "rulers": [
     {
@@ -82,6 +61,7 @@
       1889
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Rio de Janeiro",
     "labelled": [
       "Argentine Confederation",
       "Bolivia",

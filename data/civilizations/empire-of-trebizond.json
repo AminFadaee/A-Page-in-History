@@ -26,32 +26,15 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Ottoman Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q178913",
-        "layer": 1,
-        "name": "Empire of Trebizond"
-      },
-      {
-        "id": "Q12560",
-        "layer": 2,
-        "name": "Ottoman Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q178913",
-        "Q12560",
-        "Turkey"
-      ]
-    ],
-    "question": "successions/empire-of-trebizond-question.png",
-    "answer": "successions/empire-of-trebizond-answer.png"
+  "before": {
+    "id": "Q12544",
+    "region": "Turkey",
+    "name": "Eastern Roman Empire"
+  },
+  "after": {
+    "id": "Q12560",
+    "region": "Turkey",
+    "name": "Ottoman Empire"
   },
   "rulers": [
     {
@@ -94,6 +77,7 @@
       1462
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Trabzon",
     "labelled": [
       "Halych-Volhynia occupation",
       "Sultanate of Rum",

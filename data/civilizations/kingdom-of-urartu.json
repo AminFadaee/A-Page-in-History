@@ -33,9 +33,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {
+    "id": "Q389688",
+    "region": "Turkey",
+    "name": "Achaemenid Empire"
+  },
   "rulers": [
     {
       "id": "Q336087",
@@ -118,6 +121,7 @@
       -551
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Arzashkun",
     "labelled": [
       "Neo-Assyrian Empire",
       "Lydia",

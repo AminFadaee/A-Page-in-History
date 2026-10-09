@@ -26,47 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of Imereti",
-    "Principality of Abkhazia",
-    "Tsardom of Russia"
-  ],
-  "successors": [
-    "Russian Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q34266",
-        "layer": 1,
-        "name": "Russian Empire"
-      },
-      {
-        "id": "Q186096",
-        "layer": 0,
-        "name": "Tsardom of Russia"
-      },
-      {
-        "id": "Q139319",
-        "layer": 2,
-        "name": "Russian Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q186096",
-        "Q34266",
-        "Russia"
-      ],
-      [
-        "Q34266",
-        "Q139319",
-        "Russia, Kazakhstan"
-      ]
-    ],
-    "question": "successions/russian-empire-question.png",
-    "answer": "successions/russian-empire-answer.png"
+  "before": {
+    "id": "Q186096",
+    "region": "Russia",
+    "name": "Tsardom of Russia"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q8479",
@@ -94,7 +59,7 @@
     "Estonia",
     "Moldova",
     "Armenia",
-    "Åland"
+    "Aland"
   ],
   "map": "maps/russian-empire.png",
   "checks": {
@@ -113,6 +78,7 @@
       1916
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Saint Petersburg",
     "labelled": [
       "Qing Dynasty",
       "Qajar Dynasty",

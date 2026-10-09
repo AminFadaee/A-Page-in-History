@@ -33,33 +33,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "French Third Republic"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q69808",
-        "layer": 1,
-        "name": "Vichy France"
-      },
-      {
-        "id": "Q70802",
-        "layer": 0,
-        "name": "French Third Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q70802",
-        "Q69808",
-        "France"
-      ]
-    ],
-    "question": "successions/vichy-france-question.png",
-    "answer": "successions/vichy-france-answer.png"
+  "before": {
+    "id": "Q70802",
+    "region": "France",
+    "name": "French Third Republic"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q5721",
@@ -88,6 +67,7 @@
       1943
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Vichy",
     "labelled": [
       "Unitary State of Brazil",
       "Nazi Germany",

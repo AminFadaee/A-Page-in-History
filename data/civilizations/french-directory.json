@@ -26,45 +26,12 @@
       ]
     }
   ],
-  "predecessors": [
-    "Comtat Venaissin"
-  ],
-  "successors": [
-    "First French Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q58296",
-        "layer": 1,
-        "name": "French Directory"
-      },
-      {
-        "id": "Q71084",
-        "layer": 2,
-        "name": "First French Empire"
-      },
-      {
-        "id": "Q877619",
-        "layer": 1,
-        "name": "French Consulate"
-      }
-    ],
-    "edges": [
-      [
-        "Q58296",
-        "Q71084",
-        "France"
-      ],
-      [
-        "Q877619",
-        "Q71084",
-        "France"
-      ]
-    ],
-    "question": "successions/french-directory-question.png",
-    "answer": "successions/french-directory-answer.png"
+  "before": {
+    "id": "Q70972",
+    "region": "France",
+    "name": "Kingdom of France"
   },
+  "after": {},
   "rulers": [
     {
       "id": "Q517",
@@ -96,6 +63,7 @@
       1799
     ],
     "identity": "the state named after French Directory",
+    "home": "Paris",
     "labelled": [
       "Portuguese Empire",
       "Ottoman Empire",

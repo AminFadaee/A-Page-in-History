@@ -26,9 +26,8 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q3545445",
@@ -74,6 +73,7 @@
       1899
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Bloemfontein",
     "labelled": [
       "British Cape Colony",
       "South African Republic",

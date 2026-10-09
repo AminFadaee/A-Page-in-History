@@ -18,44 +18,15 @@
     "confirmed": true
   },
   "capitals": [],
-  "predecessors": [
-    "Sui Dynasty"
-  ],
-  "successors": [
-    "Later Liang Dynasty"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q9683",
-        "layer": 1,
-        "name": "Tang Dynasty"
-      },
-      {
-        "id": "Q7405",
-        "layer": 0,
-        "name": "Sui Dynasty"
-      },
-      {
-        "id": "Q783489",
-        "layer": 2,
-        "name": "Later Liang Dynasty"
-      }
-    ],
-    "edges": [
-      [
-        "Q7405",
-        "Q9683",
-        "People's Republic of China"
-      ],
-      [
-        "Q9683",
-        "Q783489",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/tang-dynasty-question.png",
-    "answer": "successions/tang-dynasty-answer.png"
+  "before": {
+    "id": "Q7405",
+    "region": "China",
+    "name": "Sui Dynasty"
+  },
+  "after": {
+    "id": "Q783489",
+    "region": "China",
+    "name": "Later Liang Dynasty"
   },
   "rulers": [
     {
@@ -64,15 +35,15 @@
     }
   ],
   "modern_countries": [
-    "People's Republic of China",
+    "China",
     "Mongolia",
     "Kazakhstan",
     "Russia",
     "Uzbekistan",
     "Kyrgyzstan",
     "Tajikistan",
-    "Hong Kong",
-    "Macau"
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/tang-dynasty.png",
   "checks": {
@@ -91,6 +62,7 @@
       910
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Rashidun Caliphate",
       "Tibetan Empire",

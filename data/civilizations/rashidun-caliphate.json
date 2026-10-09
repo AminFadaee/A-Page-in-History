@@ -33,65 +33,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Eastern Roman Empire",
-    "Sasanian Empire"
-  ],
-  "successors": [
-    "Umayyad Caliphate"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q12490507",
-        "layer": 1,
-        "name": "Rashidun Caliphate"
-      },
-      {
-        "id": "Q12544",
-        "layer": 0,
-        "name": "Eastern Roman Empire"
-      },
-      {
-        "id": "Q83891",
-        "layer": 0,
-        "name": "Sasanian Empire"
-      },
-      {
-        "id": "Q2816439",
-        "layer": 1,
-        "name": "Dabuyid Dynasty"
-      },
-      {
-        "id": "Q8575586",
-        "layer": 2,
-        "name": "Umayyad Caliphate"
-      }
-    ],
-    "edges": [
-      [
-        "Q12544",
-        "Q12490507",
-        "Egypt, Turkey, Libya"
-      ],
-      [
-        "Q83891",
-        "Q2816439",
-        "Iran"
-      ],
-      [
-        "Q83891",
-        "Q12490507",
-        "Iran, Egypt"
-      ],
-      [
-        "Q12490507",
-        "Q8575586",
-        "Saudi Arabia, Iran"
-      ]
-    ],
-    "question": "successions/rashidun-caliphate-question.png",
-    "answer": "successions/rashidun-caliphate-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q8575586",
+    "region": "Saudi Arabia",
+    "name": "Umayyad Caliphate"
   },
   "rulers": [
     {
@@ -146,6 +92,7 @@
       665
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Medina",
     "labelled": [
       "Western Göktürks",
       "Byzantine Empire",

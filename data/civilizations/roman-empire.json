@@ -40,55 +40,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "Roman Republic"
-  ],
-  "successors": [
-    "Eastern Roman Empire",
-    "Western Roman Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q2277",
-        "layer": 1,
-        "name": "Roman Empire"
-      },
-      {
-        "id": "Q17167",
-        "layer": 0,
-        "name": "Roman Republic"
-      },
-      {
-        "id": "Q12544",
-        "layer": 2,
-        "name": "Eastern Roman Empire"
-      },
-      {
-        "id": "Q42834",
-        "layer": 2,
-        "name": "Western Roman Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q17167",
-        "Q2277",
-        "France, Spain, Turkey"
-      ],
-      [
-        "Q2277",
-        "Q12544",
-        "Turkey, Egypt"
-      ],
-      [
-        "Q2277",
-        "Q42834",
-        "France, Spain, Italy"
-      ]
-    ],
-    "question": "successions/roman-empire-question.png",
-    "answer": "successions/roman-empire-answer.png"
+  "before": {
+    "id": "Q17167",
+    "region": "Italy",
+    "name": "Roman Republic"
+  },
+  "after": {
+    "id": "Q42834",
+    "region": "Italy",
+    "name": "Western Roman Empire"
   },
   "rulers": [],
   "modern_countries": [
@@ -106,7 +66,7 @@
     "Portugal",
     "Tunisia",
     "Austria",
-    "Serbia",
+    "Republic of Serbia",
     "Bosnia and Herzegovina",
     "Croatia",
     "Switzerland",
@@ -121,13 +81,13 @@
     "Lebanon",
     "Palestine",
     "Cyprus",
-    "Turkish Republic of Northern Cyprus",
+    "Northern Cyprus",
     "Luxembourg",
     "Andorra",
     "Malta",
     "Liechtenstein",
     "San Marino",
-    "Vatican City"
+    "Vatican"
   ],
   "map": "maps/roman-empire.png",
   "checks": {
@@ -160,6 +120,7 @@
       394
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "Rome",
     "labelled": [
       "Parthian Empire",
       "Xianbei",

@@ -40,66 +40,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Kingdom of the Two Sicilies",
-    "Kingdom of Sardinia",
-    "Papal States"
-  ],
-  "successors": [
-    "Republic of Italy"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q172579",
-        "layer": 1,
-        "name": "Kingdom of Italy"
-      },
-      {
-        "id": "Q180393",
-        "layer": 0,
-        "name": "Kingdom of the Two Sicilies"
-      },
-      {
-        "id": "Q2577303",
-        "layer": 0,
-        "name": "Kingdom of Sardinia"
-      },
-      {
-        "id": "Q170174",
-        "layer": 0,
-        "name": "Papal States"
-      },
-      {
-        "id": "Q38",
-        "layer": 2,
-        "name": "Republic of Italy"
-      }
-    ],
-    "edges": [
-      [
-        "Q180393",
-        "Q172579",
-        "Italy"
-      ],
-      [
-        "Q2577303",
-        "Q172579",
-        "Italy"
-      ],
-      [
-        "Q170174",
-        "Q172579",
-        "Italy"
-      ],
-      [
-        "Q172579",
-        "Q38",
-        "Italy"
-      ]
-    ],
-    "question": "successions/kingdom-of-italy-question.png",
-    "answer": "successions/kingdom-of-italy-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q38",
+    "region": "Italy",
+    "name": "Republic of Italy"
   },
   "rulers": [],
   "modern_countries": [
@@ -110,7 +55,7 @@
     "Montenegro",
     "Kosovo",
     "San Marino",
-    "Vatican City"
+    "Vatican"
   ],
   "map": "maps/kingdom-of-italy.png",
   "checks": {
@@ -133,6 +78,7 @@
       1946
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Turin",
     "labelled": [
       "Empire of Japan",
       "Nazi Germany",

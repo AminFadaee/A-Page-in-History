@@ -26,34 +26,11 @@
       ]
     }
   ],
-  "predecessors": [
-    "Roman Kingdom"
-  ],
-  "successors": [
-    "Roman Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q17167",
-        "layer": 1,
-        "name": "Roman Republic"
-      },
-      {
-        "id": "Q2277",
-        "layer": 2,
-        "name": "Roman Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q17167",
-        "Q2277",
-        "France, Spain, Turkey"
-      ]
-    ],
-    "question": "successions/roman-republic-question.png",
-    "answer": "successions/roman-republic-answer.png"
+  "before": {},
+  "after": {
+    "id": "Q2277",
+    "region": "Italy",
+    "name": "Roman Empire"
   },
   "rulers": [],
   "modern_countries": [
@@ -72,11 +49,11 @@
     "Montenegro",
     "Lebanon",
     "Cyprus",
-    "Turkish Republic of Northern Cyprus",
+    "Northern Cyprus",
     "Luxembourg",
     "Malta",
     "San Marino",
-    "Vatican City"
+    "Vatican"
   ],
   "map": "maps/roman-republic.png",
   "checks": {
@@ -94,6 +71,7 @@
       -32
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "Rome",
     "labelled": [
       "Parthian Empire",
       "Ptolemaic Kingdom",

@@ -26,33 +26,8 @@
       ]
     }
   ],
-  "predecessors": [
-    "Chimu Empire"
-  ],
-  "successors": [],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q28573",
-        "layer": 1,
-        "name": "Inca Empire"
-      },
-      {
-        "id": "Q581741",
-        "layer": 0,
-        "name": "Chimu Empire"
-      }
-    ],
-    "edges": [
-      [
-        "Q581741",
-        "Q28573",
-        "Peru"
-      ]
-    ],
-    "question": "successions/inca-empire-question.png",
-    "answer": "successions/inca-empire-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [
     {
       "id": "Q213758",
@@ -98,6 +73,7 @@
       1571
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Cusco",
     "labelled": []
   }
 }

@@ -26,9 +26,12 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q47261",
+    "region": "Germany",
+    "name": "Duchy of Bavaria"
+  },
+  "after": {},
   "rulers": [
     {
       "id": "Q44319",
@@ -76,6 +79,7 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Munich",
     "labelled": [
       "Austrian Empire",
       "Italian Republic",

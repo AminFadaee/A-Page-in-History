@@ -26,44 +26,15 @@
       ]
     }
   ],
-  "predecessors": [
-    "French Second Republic"
-  ],
-  "successors": [
-    "French Third Republic"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q71092",
-        "layer": 1,
-        "name": "Second French Empire"
-      },
-      {
-        "id": "Q58326",
-        "layer": 0,
-        "name": "French Second Republic"
-      },
-      {
-        "id": "Q70802",
-        "layer": 2,
-        "name": "French Third Republic"
-      }
-    ],
-    "edges": [
-      [
-        "Q58326",
-        "Q71092",
-        "France"
-      ],
-      [
-        "Q71092",
-        "Q70802",
-        "France"
-      ]
-    ],
-    "question": "successions/second-french-empire-question.png",
-    "answer": "successions/second-french-empire-answer.png"
+  "before": {
+    "id": "Q58326",
+    "region": "France",
+    "name": "French Second Republic"
+  },
+  "after": {
+    "id": "Q70802",
+    "region": "France",
+    "name": "French Third Republic"
   },
   "rulers": [
     {
@@ -90,6 +61,7 @@
       1870
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Paris",
     "labelled": [
       "Empire of Brazil",
       "Russian Empire",

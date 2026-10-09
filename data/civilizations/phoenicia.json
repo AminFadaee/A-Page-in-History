@@ -14,33 +14,12 @@
     "confirmed": false
   },
   "capitals": [],
-  "predecessors": [],
-  "successors": [
-    "Carthage"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q41642",
-        "layer": 1,
-        "name": "Phoenicia"
-      },
-      {
-        "id": "Q2429397",
-        "layer": 2,
-        "name": "Carthage"
-      }
-    ],
-    "edges": [
-      [
-        "Q41642",
-        "Q2429397",
-        "Italy, Spain, Libya"
-      ]
-    ],
-    "question": "successions/phoenicia-question.png",
-    "answer": "successions/phoenicia-answer.png"
+  "before": {
+    "id": "Q180568",
+    "region": "Lebanon",
+    "name": "New Kingdom of Egypt"
   },
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Lebanon",
@@ -67,6 +46,7 @@
       -501
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "the spot held longest",
     "labelled": [
       "Neo-Assyrian Empire",
       "Twenty-sixth Dynasty of Egypt",

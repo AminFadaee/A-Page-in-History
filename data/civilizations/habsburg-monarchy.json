@@ -22,51 +22,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [
-    "Austrian Empire"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q153136",
-        "layer": 1,
-        "name": "Habsburg Monarchy"
-      },
-      {
-        "id": "Q131964",
-        "layer": 2,
-        "name": "Austrian Empire"
-      },
-      {
-        "id": "Q4948",
-        "layer": 1,
-        "name": "Republic of Venice"
-      }
-    ],
-    "edges": [
-      [
-        "Q153136",
-        "Q131964",
-        "Romania, Hungary, Poland"
-      ],
-      [
-        "Q4948",
-        "Q131964",
-        "Italy, Croatia"
-      ]
-    ],
-    "question": "successions/habsburg-monarchy-question.png",
-    "answer": "successions/habsburg-monarchy-answer.png"
-  },
+  "before": {},
+  "after": {},
   "rulers": [],
   "modern_countries": [
     "Romania",
     "Italy",
     "Hungary",
-    "Czech Republic",
+    "Czechia",
     "Austria",
-    "Serbia",
+    "Republic of Serbia",
     "Slovakia",
     "Croatia",
     "Poland",
@@ -90,6 +55,7 @@
       1805
     ],
     "identity": "Wikipedia item with overlapping dates",
+    "home": "Vienna",
     "labelled": [
       "Ottoman Empire",
       "Polish-Lithuanian Commonwealth",

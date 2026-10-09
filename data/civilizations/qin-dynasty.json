@@ -26,62 +26,21 @@
       ]
     }
   ],
-  "predecessors": [
-    "Qin",
-    "Wey"
-  ],
-  "successors": [
-    "Han Dynasty",
-    "Nanyue"
-  ],
-  "succession": {
-    "nodes": [
-      {
-        "id": "Q7183",
-        "layer": 1,
-        "name": "Qin Dynasty"
-      },
-      {
-        "id": "Q34756",
-        "layer": 0,
-        "name": "Qin"
-      },
-      {
-        "id": "Q7209",
-        "layer": 2,
-        "name": "Han Dynasty"
-      },
-      {
-        "id": "Q827040",
-        "layer": 2,
-        "name": "Nanyue"
-      }
-    ],
-    "edges": [
-      [
-        "Q34756",
-        "Q7183",
-        "People's Republic of China"
-      ],
-      [
-        "Q7183",
-        "Q7209",
-        "People's Republic of China"
-      ],
-      [
-        "Q7183",
-        "Q827040",
-        "People's Republic of China"
-      ]
-    ],
-    "question": "successions/qin-dynasty-question.png",
-    "answer": "successions/qin-dynasty-answer.png"
+  "before": {
+    "id": "Q34756",
+    "region": "China",
+    "name": "Qin"
+  },
+  "after": {
+    "id": "Q7209",
+    "region": "China",
+    "name": "Han Dynasty"
   },
   "rulers": [],
   "modern_countries": [
-    "People's Republic of China",
-    "Hong Kong",
-    "Macau"
+    "China",
+    "Hong Kong S.A.R.",
+    "Macao S.A.R"
   ],
   "map": "maps/qin-dynasty.png",
   "checks": {
@@ -99,6 +58,7 @@
       -209
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Xianyang",
     "labelled": [
       "Minyue",
       "Maurya Empire",

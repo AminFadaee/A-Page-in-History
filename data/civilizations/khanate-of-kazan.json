@@ -26,9 +26,16 @@
       ]
     }
   ],
-  "predecessors": [],
-  "successors": [],
-  "succession": {},
+  "before": {
+    "id": "Q79965",
+    "region": "Russia",
+    "name": "Golden Horde"
+  },
+  "after": {
+    "id": "Q186096",
+    "region": "Russia",
+    "name": "Tsardom of Russia"
+  },
   "rulers": [],
   "modern_countries": [
     "Russia"
@@ -49,6 +56,7 @@
       1551
     ],
     "identity": "same item in Cliopatria and Wikipedia",
+    "home": "Kazan",
     "labelled": [
       "Grand Principality of Moscow",
       "Nogai Horde",
