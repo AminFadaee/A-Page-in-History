@@ -1,4 +1,5 @@
 import logging
+import math
 from collections import Counter
 from dataclasses import asdict, dataclass, field
 
@@ -46,7 +47,10 @@ KINDS = {
     "Q28171280": "historical",  # ancient civilization
 }
 INFOBOX_TOLERANCE_YEARS = 1
+AGE_TOLERANCE_SHARE = 0.01
+PRESENT_YEAR = 2000
 CLIOPATRIA_TOLERANCE_YEARS = 25
+CAPITAL_MATCH_KM = 25
 MODERN_SHARE_OF_POLITY = 0.05
 MODERN_SHARE_OF_COUNTRY = 0.5
 
@@ -105,6 +109,23 @@ def years_overlap(entity: Entity, start: int, end: int) -> bool:
     inception = [year.earliest for year in entity.years("P571") + entity.years("P580")]
     dissolution = [year.latest for year in entity.years("P576") + entity.years("P582")]
     return bool(inception) and min(inception) <= end and (not dissolution or max(dissolution) >= start)
+
+
+def kilometres(first: tuple[float, float], second: tuple[float, float]) -> float:
+    """Great-circle distance between two longitude and latitude points."""
+    (lon1, lat1), (lon2, lat2) = (map(math.radians, point) for point in (first, second))
+    a = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
+    return 2 * 6371 * math.asin(math.sqrt(a))
+
+
+def tolerances(year: int) -> dict[frozenset, int]:
+    """How far apart two sources may be and still agree on a date around the given year."""
+    aged = max(INFOBOX_TOLERANCE_YEARS, round(AGE_TOLERANCE_SHARE * (PRESENT_YEAR - year)))
+    return {
+        frozenset(("infobox", "wikidata")): aged,
+        frozenset(("infobox", "cliopatria")): max(CLIOPATRIA_TOLERANCE_YEARS, aged),
+        frozenset(("wikidata", "cliopatria")): max(CLIOPATRIA_TOLERANCE_YEARS, aged),
+    }
 
 
 def vote(candidates: dict[str, Span | None], tolerances: dict[frozenset, int]) -> Span | None:
@@ -319,6 +340,25 @@ class PolityBuilder:
     def _named(self, neighbour: dict) -> dict:
         return {**neighbour, "name": self._name(neighbour["id"])} if neighbour else {}
 
+    def _capitals(self, entity: Entity, infobox: Infobox) -> list[dict]:
+        """Capitals that Wikidata and the infobox both name: the same item, or two items for the same place within
+        25 km, as when Wikidata names the prefecture Shuntian Fu and the infobox the city of Beijing. They are shown
+        under the infobox's name, once per place (Bursa, not also Prusa), and a linked state is never a capital."""
+        listed = entity.ids("P36")
+        places = [found.coordinates() for found in (self.names.get(qid) for qid in listed) if found and found.coordinates()]
+        capitals = []
+        for qid in self._qids(infobox.capital):
+            if qid in self.catalog.by_qid or (qid in self.names and self.catalog.is_polity(self.names[qid])):
+                continue
+            capital = self._capital(qid)
+            location = capital["location"]
+            nearby = bool(location) and any(kilometres(location, place) <= CAPITAL_MATCH_KM for place in places)
+            repeated = bool(location) and any(found["location"] and kilometres(location, found["location"]) <= CAPITAL_MATCH_KM
+                                              for found in capitals)
+            if (qid in listed or nearby) and not repeated and capital["name"] not in {found["name"] for found in capitals}:
+                capitals.append(capital)
+        return capitals
+
     def _capital(self, qid: str) -> dict:
         entity = self.names.get(qid)
         location = entity.coordinates() if entity else None
@@ -334,7 +374,7 @@ class PolityBuilder:
         entity = self.catalog.entities[identity.qid]
         rows = self.cliopatria.rows(identity.name)
         period = self._period(entity, infobox, int(rows.FromYear.min()), int(rows.ToYear.max()))
-        capitals = [self._capital(qid) for qid in entity.ids("P36") if qid in self._qids(infobox.capital)]
+        capitals = self._capitals(entity, infobox)
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
         map_year, extent = self._peak(identity.name, parts, rows, period, capitals)
@@ -382,17 +422,15 @@ class PolityBuilder:
         return year, shape
 
     def _period(self, entity: Entity, infobox: Infobox, clio_start: int, clio_end: int) -> Period:
-        tolerances = {
-            frozenset(("infobox", "wikidata")): INFOBOX_TOLERANCE_YEARS,
-            frozenset(("infobox", "cliopatria")): CLIOPATRIA_TOLERANCE_YEARS,
-            frozenset(("wikidata", "cliopatria")): CLIOPATRIA_TOLERANCE_YEARS,
-        }
-        inception = min(entity.years("P571"), key=lambda year: year.earliest, default=None)
-        dissolution = max(entity.years("P576"), key=lambda year: year.latest, default=None)
+        """Each end needs two sources to agree. Wikidata's inception or start time and dissolution or end time all
+        count. The infobox and Wikidata agree within a year for modern dates and within about 1% of a date's age for
+        older ones, since ancient chronologies differ by decades: 27 years at 700 BC, 47 at 2700 BC."""
+        inception = min(entity.years("P571") + entity.years("P580"), key=lambda year: year.earliest, default=None)
+        dissolution = max(entity.years("P576") + entity.years("P582"), key=lambda year: year.latest, default=None)
         start = vote({"infobox": infobox.start, "wikidata": inception.as_span() if inception else None,
-                      "cliopatria": Span(clio_start, clio_start)}, tolerances)
+                      "cliopatria": Span(clio_start, clio_start)}, tolerances(clio_start))
         end = vote({"infobox": infobox.end, "wikidata": dissolution.as_span() if dissolution else None,
-                    "cliopatria": Span(clio_end, clio_end)}, tolerances)
+                    "cliopatria": Span(clio_end, clio_end)}, tolerances(clio_end))
         return Period(start, end, start is not None and end is not None)
 
     def _rulers(self, polity_qid: str, leaders: list[str]) -> list[dict]:
