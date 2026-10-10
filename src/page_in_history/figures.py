@@ -98,8 +98,21 @@ def role(description: str | None) -> str:
     """A short description without its dates: '4th-century Christian bishop and saint (270–343)' becomes
     'Christian bishop and saint'; the life years are shown separately."""
     text = LEADING_CENTURY.sub("", DATES_IN_PARENTHESES.sub("", description or "")).strip()
-    text = TRAILING_YEAR.sub("", text).strip(" ,")
+    text = balanced(TRAILING_YEAR.sub("", text)).strip(" ,")
     return text[:1].upper() + text[1:]
+
+
+def balanced(text: str) -> str:
+    """The text without a closing parenthesis that has no opening one, or an opening one never closed, both left
+    behind when dates are cut from a description."""
+    depth, kept = 0, []
+    for character in text:
+        if character == ")" and depth == 0:
+            continue
+        depth += {"(": 1, ")": -1}.get(character, 0)
+        kept.append(character)
+    text = "".join(kept)
+    return text[:text.rfind("(")].rstrip() if depth > 0 else text
 
 
 def first_paragraph(extract: str) -> str:

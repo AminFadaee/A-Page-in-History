@@ -87,7 +87,8 @@ def parse_range(text: str) -> tuple[Span | None, Span | None]:
 
 
 def period_label(start: Span | None, end: Span | None) -> str:
-    """'550–330 BC', '247 BC – AD 224', '224–651', '7th century BC – 168 BC'."""
+    """'550–330 BC', '247 BC – AD 224', '224–651', '7th century BC – 168 BC', or '23rd century BC' when both ends
+    fall in the same century."""
     if start is None or end is None:
         return ""
     if start.precise and end.precise:
@@ -96,4 +97,5 @@ def period_label(start: Span | None, end: Span | None) -> str:
             return f"{circa}{-start.earliest}–{-end.earliest} BC"
         if start.earliest > 0:
             return f"{circa}{start.earliest}–{end.earliest}"
-    return f"{start.label()} – {end.label()}"
+    first, last = start.label(), end.label()
+    return first if first == last else f"{first} – {last}"
