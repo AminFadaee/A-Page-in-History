@@ -5,13 +5,17 @@ from page_in_history.http import Http
 COUNTRIES_URL = "https://naciscdn.org/naturalearth/50m/cultural/ne_50m_admin_0_countries.zip"
 RIVERS_URL = "https://naciscdn.org/naturalearth/50m/physical/ne_50m_rivers_lake_centerlines.zip"
 MAX_RIVER_RANK = 5
+NO_CODE = "-99"
 
 
 def countries(http: Http) -> gpd.GeoDataFrame:
+    """Today's countries. Those without an ISO 3166 code, such as the Siachen Glacier or Northern Cyprus, are drawn on
+    maps but not listed as modern countries."""
     path = http.download(COUNTRIES_URL, "ne_50m_admin_0_countries.zip")
     frame = gpd.read_file(f"zip://{path}")
     frame["geometry"] = frame.geometry.buffer(0)
-    return frame[["ADMIN", "WIKIDATAID", "geometry"]].rename(columns={"ADMIN": "name", "WIKIDATAID": "qid"})
+    frame["listed"] = frame.ISO_A2_EH != NO_CODE
+    return frame[["ADMIN", "WIKIDATAID", "listed", "geometry"]].rename(columns={"ADMIN": "name", "WIKIDATAID": "qid"})
 
 
 def rivers(http: Http) -> gpd.GeoDataFrame:

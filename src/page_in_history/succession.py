@@ -137,7 +137,8 @@ class RegionalSuccession:
         return sum(share >= PARTITION_SHARE for share in shares.values()) >= PARTITION_HOLDERS
 
     def _country(self, point: Point) -> str:
-        inside = self.countries[self.countries.geometry.contains(point)]
+        listed = self.countries[self.countries.listed]
+        inside = listed[listed.geometry.contains(point)]
         if not inside.empty:
             return inside.iloc[0]["name"]
-        return self.countries.iloc[int(np.argmin(shapely.distance(self.countries.geometry.values, point)))]["name"]
+        return listed.iloc[int(np.argmin(shapely.distance(listed.geometry.values, point)))]["name"]

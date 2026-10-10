@@ -145,7 +145,7 @@ The deck still reflects who held power and was written about: about 7% of the fi
 | Capital | Wikidata, Wikipedia infobox | Capitals both list, as the same item or as two items within 25 km of each other (Wikidata's Shuntian Fu, the infobox's Beijing), shown under the infobox's name and once per place |
 | Before and after in its home region | Cliopatria shapes, Wikidata, Wikipedia infobox | The next holder of the home on Cliopatria's maps within 30 years, which Wikidata or either civilization's infobox must also name as predecessor or successor. Holders that stayed under 5 years, such as wartime occupations, are passed over; Cliopatria names that share a Wikidata item count as one civilization; and an empire whose last territory went in large parts (15% or more each) to three or more states has no single successor |
 | Rulers | Wikipedia infobox, Wikidata | Infobox leaders that Wikidata records as holding an office of the state |
-| Modern countries | Cliopatria, Natural Earth | At least 5% of the civilization's territory or half of the country |
+| Modern countries | Cliopatria, Natural Earth | Countries with an ISO 3166 code (so not the Siachen Glacier or Northern Cyprus) covering at least 5% of the civilization's territory or with half their own territory inside it |
 | Map: borders, coastline, rivers | Natural Earth | Rivers of scale rank 4 and above everywhere, rank 5 where they cross the civilization |
 | Map: capitals | Wikidata coordinates of the confirmed capitals | |
 | Figures | Cross-verified database of notable people, Meta-Wiki's list of 1,000 articles, Pantheon | See procedure steps 3, 6 and 7 |

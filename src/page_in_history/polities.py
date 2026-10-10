@@ -537,7 +537,7 @@ class PolityBuilder:
     def _modern_countries(self, geometry) -> list[str]:
         shape = equal_area_shape(geometry, self.cliopatria.frame.crs)
         found = []
-        for country in self.countries[self.countries.intersects(shape)].itertuples():
+        for country in self.countries[self.countries.listed & self.countries.intersects(shape)].itertuples():
             overlap = country.geometry.intersection(shape).area
             if overlap / shape.area >= MODERN_SHARE_OF_POLITY or overlap / country.geometry.area >= MODERN_SHARE_OF_COUNTRY:
                 found.append((overlap, country.name))
