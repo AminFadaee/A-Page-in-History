@@ -49,9 +49,15 @@ class Wikipedia:
         self.http = http
 
     def resolve(self, titles: list[str]) -> dict[str, Page]:
-        """Follow normalisation and redirects; map each requested title to its article and Wikidata item."""
-        unique = sorted({title for title in titles if title and "|" not in title})
-        found: dict[str, Page] = {}
+        """Follow normalisation and redirects; map each requested title to its article and Wikidata item. Cached per
+        title."""
+        wanted = [title for title in titles if title and "|" not in title]
+        found = self.http.per_key("page-by-title", wanted, self._fetch_pages)
+        return {title: Page(*page) for title, page in found.items()}
+
+    def _fetch_pages(self, titles: list[str]) -> dict[str, list]:
+        unique = sorted(set(titles))
+        found: dict[str, list] = {}
         for start in range(0, len(unique), BATCH):
             batch = unique[start : start + BATCH]
             params = {"action": "query", "titles": "|".join(batch), "prop": "pageprops", "ppprop": "wikibase_item",
@@ -65,10 +71,14 @@ class Wikipedia:
                 target = redirects.get(target, target)
                 page = pages.get(target, {})
                 if not page.get("missing"):
-                    found[title] = Page(target, page.get("pageprops", {}).get("wikibase_item"))
+                    found[title] = [target, page.get("pageprops", {}).get("wikibase_item")]
         return found
 
     def wikitext(self, titles: list[str]) -> dict[str, str]:
+        """The source text of each article, cached per title."""
+        return self.http.per_key("wikitext-by-title", titles, self._fetch_wikitext)
+
+    def _fetch_wikitext(self, titles: list[str]) -> dict[str, str]:
         unique = sorted(set(titles))
         found: dict[str, str] = {}
         for start in range(0, len(unique), BATCH):
@@ -80,7 +90,11 @@ class Wikipedia:
         return found
 
     def categories(self, titles: list[str]) -> dict[str, list[str]]:
-        """The visible categories of each article, following continuation since one batch can exceed the limit."""
+        """The visible categories of each article, cached per title."""
+        return self.http.per_key("categories-by-title", titles, self._fetch_categories)
+
+    def _fetch_categories(self, titles: list[str]) -> dict[str, list[str]]:
+        """Follows continuation, since one batch can exceed the limit."""
         unique = sorted(set(titles))
         found: dict[str, list[str]] = {}
         for start in range(0, len(unique), BATCH):

@@ -32,6 +32,33 @@ class Http:
         path.write_text(json.dumps(data))
         return data
 
+    def per_key(self, namespace: str, keys: list[str], fetch) -> dict:
+        """Values cached one key at a time, so a batch query that is rerun with a slightly different set of keys only
+        fetches the new ones. `fetch` takes the missing keys and returns their values; keys it leaves out are
+        remembered as missing."""
+        found, missing = {}, []
+        for key in dict.fromkeys(keys):
+            path = self._keyed_path(namespace, key)
+            if path.exists():
+                value = json.loads(path.read_text())
+                if value is not None:
+                    found[key] = value
+            else:
+                missing.append(key)
+        if missing:
+            fetched = fetch(missing)
+            for key in missing:
+                path = self._keyed_path(namespace, key)
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(fetched.get(key)))
+                if fetched.get(key) is not None:
+                    found[key] = fetched[key]
+        return found
+
+    def _keyed_path(self, namespace: str, key: str) -> pathlib.Path:
+        digest = hashlib.sha256(key.encode()).hexdigest()
+        return self.cache_dir / namespace / digest[:2] / f"{digest}.json"
+
     def download(self, url: str, name: str) -> pathlib.Path:
         path = self.cache_dir / "downloads" / name
         if path.exists():

@@ -6,6 +6,7 @@ from page_in_history.http import Http
 API = "https://www.wikidata.org/w/api.php"
 SPARQL = "https://query.wikidata.org/sparql"
 BATCH = 20
+ENTITY_CHUNK = 500
 KIND_BATCH = 150
 CIRCA = "Q5727902"
 SOURCING_CIRCUMSTANCES = "P1480"
@@ -46,9 +47,29 @@ class Year:
         return Span(self.earliest, self.latest, self.circa)
 
 
+def slim(data: dict) -> dict:
+    """The parts of an item the pipeline reads: English label and description, the English Wikipedia title, and each
+    statement's rank, value and qualifier values. References and hashes make up most of an item and are dropped."""
+    def value(snak: dict) -> dict:
+        return {"datavalue": snak["datavalue"]} if "datavalue" in snak else {}
+    return {
+        "id": data["id"],
+        "labels": data.get("labels", {}),
+        "descriptions": data.get("descriptions", {}),
+        "sitelinks": {site: {"title": link["title"]} for site, link in data.get("sitelinks", {}).items()},
+        "claims": {
+            prop: [{"rank": claim["rank"], "mainsnak": value(claim["mainsnak"]),
+                    "qualifiers": {name: [value(snak) for snak in snaks]
+                                   for name, snaks in claim.get("qualifiers", {}).items()}}
+                   for claim in claims]
+            for prop, claims in data.get("claims", {}).items()
+        },
+    }
+
+
 class Entity:
     def __init__(self, data: dict):
-        self.data = data
+        self.data = slim(data)
         self.id: str = data["id"]
 
     @property
@@ -122,13 +143,24 @@ def parse_year(time: str) -> int:
     return sign * int(time[1:].split("-", 1)[0])
 
 
+
 class Wikidata:
     def __init__(self, http: Http):
         self.http = http
 
     def entities(self, ids: list[str]) -> dict[str, Entity]:
-        unique = sorted({qid for qid in ids if qid})
+        """Wikidata items, cached per item. They are read a few hundred at a time and slimmed, since whole items take
+        several gigabytes for the deck's people."""
+        unique = list(dict.fromkeys(qid for qid in ids if qid))
         found: dict[str, Entity] = {}
+        for start in range(0, len(unique), ENTITY_CHUNK):
+            chunk = self.http.per_key("entity-by-id", unique[start : start + ENTITY_CHUNK], self._fetch_entities)
+            found.update((qid, Entity(data)) for qid, data in chunk.items())
+        return found
+
+    def _fetch_entities(self, ids: list[str]) -> dict[str, dict]:
+        unique = sorted(set(ids))
+        found: dict[str, dict] = {}
         for start in range(0, len(unique), BATCH):
             batch = unique[start : start + BATCH]
             params = {
@@ -142,7 +174,7 @@ class Wikidata:
             data = self.http.json(API, params, namespace="wikidata")
             for qid, entity in data.get("entities", {}).items():
                 if "missing" not in entity:
-                    found[qid] = Entity(entity)
+                    found[qid] = entity
         return found
 
     def exact_matches(self, name: str) -> list[str]:
