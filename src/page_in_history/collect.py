@@ -77,19 +77,23 @@ class Collector:
         for directory in (self.paths.civilizations, self.paths.figures, self.paths.maps, self.paths.images):
             shutil.rmtree(directory, ignore_errors=True)
             directory.mkdir(parents=True)
+        classifier = PhotoClassifier(self.http) if self.photos is PhotoMode.MODEL else None
+        figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
+        rulers = [ruler["id"] for polity in polities for ruler in polity.rulers]
+        figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end, rulers)
+        polities += builder.build([catalog.identities[name] for name in figure_builder.pulled])
+        logger.info("Core-list figures brought in %d more civilizations: %s", len(figure_builder.pulled),
+                    ", ".join(figure_builder.pulled))
         font = fonts.inter(self.http)
         renderer = MapRenderer(cliopatria, countries, naturalearth.rivers(self.http), font)
         self.failures: list[str] = []
-        for polity in polities:
+        for polity in (polity for polity in polities if polity.borders):
             try:
                 self._draw(polity, renderer)
             except Exception:
                 logger.exception("Could not draw %s", polity.name)
                 self.failures.append(f"drawing {polity.name}")
                 polity.map = ""
-        classifier = PhotoClassifier(self.http) if self.photos is PhotoMode.MODEL else None
-        figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
-        figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
         for figure in figures:
             try:
                 figure.image = self._image(figure.image, figure.slug)
