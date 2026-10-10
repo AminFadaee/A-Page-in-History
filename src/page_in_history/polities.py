@@ -28,9 +28,17 @@ MIN_LANGUAGE_EDITIONS = 60
 MAX_VITAL_LEVEL = 4
 LEVEL_5_LANGUAGES = 45
 LEVEL_5_PEAK_KM2 = 1_000_000
+MAX_DRAWN_SHARE = 0.5
 LARGE_PEAK_KM2 = 2_000_000
 LIVING_ON_MAP_BEFORE = 1900
 LIVING_PEAK_KM2 = 2_000_000
+STATE_KINDS = {"state", "historical country", "city-state", "empire", "kingdom"}
+MAPLESS_KINDS = {
+    "Q7275": "state", "Q3024240": "historical country", "Q133442": "city-state", "Q48349": "empire",
+    "Q417175": "kingdom", "Q486972": "settlement", "Q10864048": "subdivision", "Q11514315": "period",
+    "Q164950": "dynasty", "Q41710": "ethnic group", "Q8432": "civilization",
+}
+NOT_MAPLESS = {"subdivision", "period", "dynasty", "ethnic group", "civilization"}
 KINDS = {
     "Q3624078": "sovereign state",
     "Q133442": "city-state",
@@ -86,6 +94,7 @@ class Polity:
     after: dict = field(default_factory=dict)
     rulers: list[dict] = field(default_factory=list)
     modern_countries: list[str] = field(default_factory=list)
+    borders: bool = True
     map: str = ""
     checks: dict = field(default_factory=dict)
 
@@ -116,6 +125,16 @@ def kilometres(first: tuple[float, float], second: tuple[float, float]) -> float
     (lon1, lat1), (lon2, lat2) = (map(math.radians, point) for point in (first, second))
     a = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
     return 2 * 6371 * math.asin(math.sqrt(a))
+
+
+def reference(*dates) -> int:
+    """A rough year for sizing the tolerance: the first date given, as a year, a Wikidata year or a span."""
+    for date in dates:
+        if isinstance(date, int):
+            return date
+        if date is not None:
+            return date.earliest
+    return PRESENT_YEAR
 
 
 def tolerances(year: int) -> dict[frozenset, int]:
@@ -177,6 +196,20 @@ class PolityCatalog:
         self.qids = {name: identity.qid for name, identity in candidates.items()}
         self.identities = self._without_duplicates(candidates)
         self.by_qid = {identity.qid: identity for identity in self.identities.values()}
+        self.mapless: dict[str, tuple[int, int]] = {}
+
+    def years(self, qid: str) -> tuple[int, int]:
+        """When a civilization existed: Cliopatria's first and last year, or Wikidata's dates for one it does not draw."""
+        if qid in self.mapless:
+            return self.mapless[qid]
+        rows = self.cliopatria.rows(self.by_qid[qid].name)
+        return int(rows.FromYear.min()), int(rows.ToYear.max())
+
+    def add_mapless(self, identity: Identity, entity: Entity, years: tuple[int, int]) -> None:
+        self.entities[identity.qid] = entity
+        self.identities[identity.name] = identity
+        self.by_qid[identity.qid] = identity
+        self.mapless[identity.qid] = years
 
     def _by_name(self, failed: dict[str, tuple[str, int, int]]) -> dict[str, Identity]:
         """Cliopatria's link sometimes points at the wrong article, such as the island for the Kingdom of Great
@@ -276,7 +309,58 @@ class PolityBuilder:
         kinds = self.wikidata.kinds(qids, KINDS)
         selected = [identity for identity in identities
                     if self._notable(identity, editions.get(identity.qid, 0), levels.get(identity.qid), kinds[identity.qid])]
-        return sorted(selected, key=lambda identity: self.cliopatria.rows(identity.name).FromYear.min())
+        selected += self._mapless(levels, selected)
+        return sorted(selected, key=lambda identity: self.catalog.years(identity.qid)[0])
+
+    def _mapless(self, levels: dict[str, int], drawn: list[Identity]) -> list[Identity]:
+        """States Wikipedia's editors list as vital that Cliopatria does not draw, such as Classical Athens or Sparta,
+        chosen by the same signals but needing both dates, from Wikidata or else the Wikipedia infobox, since there
+        are no borders to date them. City-states count although Wikidata also files them as settlements. Left out:
+        items Wikidata files as a civilization (Ancient Egypt) and umbrellas whose parts are drawn (Ancient Rome),
+        since the drawn states stand in for them, and a state whose capital, or its own location, lies inside drawn
+        civilizations of the deck for most of its years: London for the United Kingdom of Great Britain and Ireland,
+        or the city of Babylon inside Babylonia. They get no map; figures can belong to them."""
+        qids = [qid for qid in levels if qid not in self.catalog.by_qid]
+        entities = self.wikidata.entities(qids)
+        kinds = self.wikidata.kinds(list(entities), MAPLESS_KINDS)
+        editions = self.wikidata.language_editions(list(entities))
+        drawn_parts = {whole for state in self.catalog.by_qid
+                       for whole in self.catalog.entities[state].ids("P361", preferred_only=False)}
+        states = {qid: entity for qid, entity in entities.items()
+                  if (kinds.get(qid, set()) & STATE_KINDS) and not (kinds.get(qid, set()) & NOT_MAPLESS)
+                  and ("settlement" not in kinds.get(qid, set()) or "city-state" in kinds[qid])
+                  and entity.enwiki and qid not in drawn_parts
+                  and not any(part in self.catalog.by_qid for part in entity.ids("P527", preferred_only=False))
+                  and (levels[qid] <= MAX_VITAL_LEVEL or editions.get(qid, 0) >= LEVEL_5_LANGUAGES)}
+        texts = self.wikipedia.wikitext([entity.enwiki for entity in states.values()])
+        drawn_frame = self.cliopatria.frame[self.cliopatria.frame.Name.isin({identity.name for identity in drawn})]
+        capitals = self.wikidata.entities([capital for entity in states.values() for capital in entity.ids("P36")])
+        found = []
+        for qid, entity in states.items():
+            infobox = country_infobox(texts.get(entity.enwiki, "")) or Infobox()
+            starts = [year.earliest for year in entity.years("P571") + entity.years("P580")]
+            ends = [year.latest for year in entity.years("P576") + entity.years("P582")]
+            first = min(starts) if starts else infobox.start.earliest if infobox.start else None
+            last = max(ends) if ends else infobox.end.latest if infobox.end else None
+            name = display_name(entity.enwiki)
+            if first is None or last is None or name in self.catalog.identities:
+                continue
+            location = next((capitals[c].coordinates() for c in entity.ids("P36") if c in capitals and capitals[c].coordinates()),
+                            entity.coordinates())
+            if location and self._drawn_share(drawn_frame, location, first, last) > MAX_DRAWN_SHARE:
+                continue
+            identity = Identity(name, entity.enwiki, qid, "Vital Articles state without Cliopatria borders")
+            self.catalog.add_mapless(identity, entity, (first, last))
+            found.append(identity)
+        return found
+
+    @staticmethod
+    def _drawn_share(frame: gpd.GeoDataFrame, location: tuple[float, float], first: int, last: int) -> float:
+        """The share of the years from first to last in which a drawn civilization covers the location."""
+        rows = frame[frame.geometry.contains(Point(location))]
+        years = {year for start, end in zip(rows.FromYear, rows.ToYear)
+                 for year in range(max(int(start), first), min(int(end), last) + 1)}
+        return len(years) / (last - first + 1)
 
     def _vital_levels(self) -> dict[str, int]:
         levels = vital.article_levels(self.wikipedia.http, self.wikipedia)
@@ -373,11 +457,13 @@ class PolityBuilder:
     def _polity(self, identity: Identity, infobox: Infobox) -> Polity:
         entity = self.catalog.entities[identity.qid]
         rows = self.cliopatria.rows(identity.name)
-        period = self._period(entity, infobox, int(rows.FromYear.min()), int(rows.ToYear.max()))
+        drawn = not rows.empty
+        first, last = self.catalog.years(identity.qid)
+        period = self._period(entity, infobox, first if drawn else None, last if drawn else None)
         capitals = self._capitals(entity, infobox)
         parts = [self.catalog.by_qid[qid].name for qid in entity.ids("P527", preferred_only=False)
                  if qid in self.catalog.by_qid and qid != identity.qid]
-        map_year, extent = self._peak(identity.name, parts, rows, period, capitals)
+        map_year, extent = self._peak(identity.name, parts, rows, period, capitals) if drawn else (first, None)
         before, after, home = self.succession.neighbours(identity.qid, capitals)
         polity = Polity(
             id=identity.qid,
@@ -391,13 +477,14 @@ class PolityBuilder:
             before=self._named(before),
             after=self._named(after),
             rulers=self._rulers(identity.qid, self._qids(infobox.leaders)),
-            modern_countries=self._modern_countries(extent),
+            modern_countries=self._modern_countries(extent) if drawn else [],
+            borders=drawn,
         )
         polity.checks = {
             "infobox": bool(infobox.start or infobox.capital or infobox.leaders),
             "capital_sources": {"wikidata": [self._name(q) for q in entity.ids("P36")],
                                 "infobox": [self._name(q) for q in self._qids(infobox.capital)]},
-            "cliopatria_years": [int(rows.FromYear.min()), int(rows.ToYear.max())],
+            "cliopatria_years": [first, last] if drawn else [],
             "identity": identity.how,
             "home": home or "the spot held longest",
         }
@@ -421,16 +508,18 @@ class PolityBuilder:
         _, _, year, shape = max(snapshots, key=lambda snapshot: snapshot[:3])
         return year, shape
 
-    def _period(self, entity: Entity, infobox: Infobox, clio_start: int, clio_end: int) -> Period:
+    def _period(self, entity: Entity, infobox: Infobox, clio_start: int | None, clio_end: int | None) -> Period:
         """Each end needs two sources to agree. Wikidata's inception or start time and dissolution or end time all
         count. The infobox and Wikidata agree within a year for modern dates and within about 1% of a date's age for
         older ones, since ancient chronologies differ by decades: 27 years at 700 BC, 47 at 2700 BC."""
         inception = min(entity.years("P571") + entity.years("P580"), key=lambda year: year.earliest, default=None)
         dissolution = max(entity.years("P576") + entity.years("P582"), key=lambda year: year.latest, default=None)
         start = vote({"infobox": infobox.start, "wikidata": inception.as_span() if inception else None,
-                      "cliopatria": Span(clio_start, clio_start)}, tolerances(clio_start))
+                      "cliopatria": Span(clio_start, clio_start) if clio_start is not None else None},
+                     tolerances(reference(clio_start, inception, infobox.start)))
         end = vote({"infobox": infobox.end, "wikidata": dissolution.as_span() if dissolution else None,
-                    "cliopatria": Span(clio_end, clio_end)}, tolerances(clio_end))
+                    "cliopatria": Span(clio_end, clio_end) if clio_end is not None else None},
+                   tolerances(reference(clio_end, dissolution, infobox.end)))
         return Period(start, end, start is not None and end is not None)
 
     def _rulers(self, polity_qid: str, leaders: list[str]) -> list[dict]:
