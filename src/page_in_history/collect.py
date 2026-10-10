@@ -79,11 +79,10 @@ class Collector:
             directory.mkdir(parents=True)
         classifier = PhotoClassifier(self.http) if self.photos is PhotoMode.MODEL else None
         figure_builder = FigureBuilder(catalog, pantheon.load(self.http), self.http, PortraitFinder(self.http, classifier))
-        rulers = [ruler["id"] for polity in polities for ruler in polity.rulers]
-        figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end, rulers)
-        polities += builder.build([catalog.identities[name] for name in figure_builder.pulled])
-        logger.info("Core-list figures brought in %d more civilizations: %s", len(figure_builder.pulled),
-                    ", ".join(figure_builder.pulled))
+        figures = figure_builder.build({polity.name for polity in polities}, scope.start, scope.end)
+        polities += builder.build([catalog.identities[name] for name in figure_builder.joined])
+        logger.info("Their people brought in %d more civilizations: %s", len(figure_builder.joined),
+                    ", ".join(figure_builder.joined))
         font = fonts.inter(self.http)
         renderer = MapRenderer(cliopatria, countries, naturalearth.rivers(self.http), font)
         self.failures: list[str] = []
@@ -103,6 +102,7 @@ class Collector:
                 self.failures.append(f"images of {figure.name}")
                 figure.image, figure.photo = "", ""
         self._write(polities, figures)
+        write_json(self.paths.root / "extended.json", figure_builder.extended)
         self._report(scope, catalog, cliopatria, polities, figures)
 
     def _draw(self, polity: Polity, renderer: MapRenderer) -> None:

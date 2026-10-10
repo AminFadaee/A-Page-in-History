@@ -10,13 +10,11 @@ from page_in_history.dates import period_label
 from page_in_history.naming import slugify
 from page_in_history.photos import PortraitFinder
 from page_in_history.polities import PolityCatalog
-from page_in_history.sources import civ, curated, vital
+from page_in_history.sources import notable, vital
 from page_in_history.sources.pantheon import Person
 from page_in_history.sources.wikidata import Entity, Year, qualifier_year
 from page_in_history.sources.wikipedia import lead_links
 
-EXCLUDED_SECTIONS = ("Entertainers", "Sports figures", "Directors, producers", "Musicians", "Businesspeople",
-                     "Journalists", "Criminals")
 EXCLUDED_OCCUPATIONS = {
     "SOCCER PLAYER", "ACTOR", "ATHLETE", "SINGER", "MUSICIAN", "FILM DIRECTOR", "BASKETBALL PLAYER", "CYCLIST",
     "TENNIS PLAYER", "SWIMMER", "WRESTLER", "RACING DRIVER", "SKIER", "HOCKEY PLAYER", "BOXER", "GYMNAST",
@@ -26,25 +24,25 @@ EXCLUDED_OCCUPATIONS = {
     "AMERICAN FOOTBALL PLAYER", "YOUTUBER", "POKER PLAYER", "MAGICIAN", "GAMER", "BULLFIGHTER", "GO PLAYER",
 }
 ASSUMED_LIFESPAN = 70
-MIN_LEVEL_5_POPULARITY = 78
-MIN_CURATED_POPULARITY = 70
-CURATED_LISTS = ("Banknote", "National poll", "Pantheon")
 MIN_VOTES = 2
 MEMBERSHIP_SOURCES = ("office", "category", "citizenship", "vital_section")
 SINGLE_VOTE_SOURCES = ("office", "category", "vital_section")
-CIV_LEADER = "Civ leader"
-CORE_LISTS = ("Vital 4", "Meta 1000", CIV_LEADER)
-RULER = "Ruler"
-MIN_PLACES = 3
-PLACES_PER_ROOT_YEAR = 1.5
-MAX_RULER_SHARE = 0.5
+CORE_LIST = "Meta 1000"
+PER_CELL = 60
+STRONG_RANK, VERY_STRONG_RANK = 10, 3
+WINDOW_YEARS = 300
+MAX_PER_SEGMENT = 25
+MAX_COMPOSERS = 20
 RULING_OCCUPATIONS = {"POLITICIAN", "NOBLEMAN", "MILITARY PERSONNEL"}
+COMPOSER = "COMPOSER"
 ADULT_AGE = 20
 POST_WAR = 1945
 LEGENDARY = "Q13002315"
 HUMAN = "Q5"
 SUCCESSION_STEPS = 3
-MIN_PULLED_KM2 = 20_000
+MIN_JOINING_KM2 = 20_000
+LIVING_ON_MAP_BEFORE = 1900
+DEATH_DISCOUNT = 0.5
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
 LEADING_CENTURY = re.compile(r"^(?:c\.\s*)?\d+(?:st|nd|rd|th)[- ]century(?:[- ](?:BCE?|AD|CE))?[- ]+", re.IGNORECASE)
@@ -76,7 +74,6 @@ class Figure:
     image_is_photo: bool = False
     photo: str = ""
     photo_credit: str = ""
-    extended: bool = False
     checks: dict = field(default_factory=dict)
 
     def to_json(self) -> dict:
@@ -125,12 +122,9 @@ class Candidate:
     person: Entity
     lifetime: tuple[int, int]
     section: list[str]
-    lists: tuple[str, ...] = ()
-
-    @property
-    def core(self) -> bool:
-        """On a list of essential articles: Vital Articles level 4 or Meta-Wiki's core 1,000."""
-        return any(name in self.lists for name in CORE_LISTS)
+    score: float
+    cell_rank: int | None
+    core: bool = False
 
     @property
     def adulthood(self) -> tuple[int, int]:
@@ -147,80 +141,87 @@ class FigureBuilder:
         self.wikidata = catalog.wikidata
         self.pantheon = pantheon
         self.http = http
+        self.per_cell = PER_CELL
         self.head_offices: dict[str, set[str]] = {}
         for state in catalog.by_qid:
             for office in catalog.entities[state].ids(*HEAD_OFFICES, preferred_only=False):
                 self.head_offices.setdefault(office, set()).add(state)
 
-    def build(self, polity_names: set[str], start: int, end: int, rulers: list[str] = ()) -> list[Figure]:
-        candidates = [candidate for candidate in self._candidates(start, end, rulers)
+    def build(self, polity_names: set[str], start: int, end: int) -> list[Figure]:
+        """Every candidate is placed against the whole catalog, so civilizations outside the selection can join
+        through their people; then each civilization's figures are chosen era by era."""
+        candidates = [candidate for candidate in self._candidates()
                       if candidate.lifetime[1] >= start and candidate.lifetime[0] <= end]
         self.prepare(candidates)
         placed = [(candidate, *self.civilizations(candidate)) for candidate in candidates]
-        self.pulled = self.pulled_in(placed, polity_names)
-        polity_names = polity_names | set(self.pulled)
-        figures = [entry for entry in placed if set(entry[1]) & polity_names]
-        extended = self.beyond_cap([(candidate, civilizations) for candidate, civilizations, *_ in figures], polity_names)
-        logger.info("%d figures link to the selected civilizations, %d of them beyond their civilization's share",
-                    len(figures), len(extended))
-        return self._assemble(figures, extended)
+        self.joined = self.people_backed(placed, polity_names)
+        deck = polity_names | set(self.joined)
+        figures = [entry for entry in placed if set(entry[1]) & deck]
+        chosen = self.select([(candidate, civilizations) for candidate, civilizations, *_ in figures], deck)
+        self.extended = [{"id": candidate.person.id, "name": candidate.title,
+                          "civilization": next(name for name in civilizations if name in deck)}
+                         for candidate, civilizations, *_ in figures if candidate.person.id not in chosen]
+        logger.info("%d people placed in the deck's civilizations, %d chosen", len(figures), len(chosen))
+        return self._assemble([entry for entry in figures if entry[0].person.id in chosen])
 
-    def pulled_in(self, placed: list[tuple], polity_names: set[str]) -> list[str]:
-        """Civilizations outside the selection that a person on a core list needs, when none of the civilizations
-        confirmed for them is selected: the best supported one that a source names them a member of (an office, a
-        category, citizenship or the Vital Articles section), that began before 1945 like the deck's figures, and that
-        reached 20,000 km², so a co-prince of Andorra or a free city does not bring in a micro-state. The core lists
-        are short and weigh the world evenly, so they bring in states the selection passes over, such as the Crown of
-        Castile for Isabella I or Lu for Confucius, without opening it to every small state."""
-        pulled = set()
-        for candidate, civilizations, _, votes in placed:
-            if not candidate.core or set(civilizations) & polity_names:
-                continue
-            members = {name for source in MEMBERSHIP_SOURCES for name in votes.get(source, [])}
-            joining = next((name for name in civilizations if name in members and self._can_join(name)), None)
-            if joining:
-                pulled.add(joining)
-        return sorted(pulled)
+    def people_backed(self, placed: list[tuple], polity_names: set[str]) -> list[str]:
+        """Civilizations outside the selection that their people make notable: two people placed there among the
+        first 10 of their region and period, or one among the first 3, as Confucius is for Lu, or one on Meta-Wiki's
+        list of 1,000 articles, as Laozi is for Chu. A civilization must
+        have begun before 1900 and reached 20,000 km², so modern republics, a co-prince of Andorra or a free city do
+        not bring in their state."""
+        strong: Counter = Counter()
+        very_strong: Counter = Counter()
+        for candidate, civilizations, *_ in placed:
+            if civilizations and civilizations[0] not in polity_names:
+                rank = candidate.cell_rank or PER_CELL + 1
+                strong[civilizations[0]] += rank <= STRONG_RANK
+                very_strong[civilizations[0]] += rank <= VERY_STRONG_RANK or candidate.core
+        return sorted(name for name in strong
+                      if (strong[name] >= 2 or very_strong[name] >= 1) and self._can_join(name))
 
     def _can_join(self, name: str) -> bool:
         qid = self.catalog.identities[name].qid
         if qid in self.catalog.mapless:
             return False
-        rows = self.cliopatria.rows(name)
-        return self.catalog.years(qid)[0] < POST_WAR and rows.Area.max() >= MIN_PULLED_KM2
+        return self.catalog.years(qid)[0] < LIVING_ON_MAP_BEFORE and self.cliopatria.rows(name).Area.max() >= MIN_JOINING_KM2
 
-    def beyond_cap(self, placed: list[tuple[Candidate, list[str]]], polity_names: set[str]) -> set[str]:
-        """The figures past their civilization's share, which stay in the deck tagged as extended. Each civilization
-        gets 1.5 times the square root of the years it lasted, at least 3, so long-lived ones keep more people than
-        short-lived ones without the modern era crowding out the rest. People on the core lists come first, then those
-        named by more lists, then by Pantheon's popularity, which corrects for how long ago they lived; rulers,
-        politicians and holders of the civilization's offices take at most half the places while others are left."""
-        by_civilization: dict[str, list[Candidate]] = {}
+    def select(self, placed: list[tuple[Candidate, list[str]]], deck: set[str], per_cell: int = PER_CELL) -> set[str]:
+        """The figures for the deck. Each figure belongs to its first civilization in the deck, and each civilization
+        is split into eras of at most 300 years, so its people compete with their own contemporaries. In each such
+        segment people are ranked by the database's visibility score; chosen are those among the first 60 of their
+        region and period, the segment's best person always, and anyone on Meta-Wiki's list of 1,000 articles. A
+        segment keeps at most 25, and rulers, politicians and holders of the civilization's offices at most as many as
+        everyone else, so places are left empty rather than filled with minor kings. Composers are capped at 20 across
+        the deck."""
+        segments: dict[tuple[str, int], list[Candidate]] = {}
         for candidate, civilizations in placed:
-            home = next(name for name in civilizations if name in polity_names)
-            by_civilization.setdefault(home, []).append(candidate)
-        extended = set()
-        for name, people in by_civilization.items():
-            first, last = self.catalog.years(self.catalog.identities[name].qid)
-            places = max(MIN_PLACES, math.ceil(PLACES_PER_ROOT_YEAR * math.sqrt(max(last - first, 1))))
-            ranked = sorted(people, key=lambda candidate: (not candidate.core, -len(set(candidate.lists)),
-                                                           -self._popularity(candidate.person)))
-            rulers_allowed, kept = math.ceil(places * MAX_RULER_SHARE), []
-            others = [candidate for candidate in ranked if not self._rules(candidate, name)]
-            for candidate in ranked:
-                if len(kept) == places:
-                    break
-                ruling = self._rules(candidate, name)
-                if ruling and rulers_allowed == 0 and any(other not in kept for other in others):
-                    continue
-                kept.append(candidate)
-                rulers_allowed -= ruling
-            extended |= {candidate.person.id for candidate in people if candidate not in kept}
-        return extended
+            home = next(name for name in civilizations if name in deck)
+            segments.setdefault((home, self._window(home, candidate)), []).append(candidate)
+        chosen: list[Candidate] = []
+        for (home, _), people in segments.items():
+            ranked = sorted(people, key=lambda candidate: -candidate.score)
+            wanted = [candidate for index, candidate in enumerate(ranked)
+                      if index == 0 or candidate.core or (candidate.cell_rank and candidate.cell_rank <= per_cell)]
+            rulers = [candidate for candidate in wanted if self._rules(candidate, home)]
+            others = [candidate for candidate in wanted if candidate not in rulers]
+            kept_rulers = rulers[:max(1, len(others))] if rulers else []
+            kept = sorted(others + kept_rulers, key=lambda candidate: -candidate.score)[:MAX_PER_SEGMENT]
+            chosen += kept + [candidate for candidate in wanted if candidate.core and candidate not in kept]
+        composers = sorted((candidate for candidate in chosen if self._occupation(candidate) == COMPOSER),
+                           key=lambda candidate: -candidate.score)
+        dropped = {candidate.person.id for candidate in composers[MAX_COMPOSERS:]}
+        return {candidate.person.id for candidate in chosen} - dropped
 
-    def _popularity(self, person: Entity) -> float:
-        known = self.pantheon.get(person.id)
-        return known.popularity if known and known.popularity is not None else 0
+    def _window(self, home: str, candidate: Candidate) -> int:
+        first, last = self.catalog.years(self.catalog.identities[home].qid)
+        windows = max(1, math.ceil((last - first) / WINDOW_YEARS))
+        start = min(max(candidate.adulthood[0], first), last)
+        return min(windows - 1, int((start - first) * windows / max(last - first + 1, 1)))
+
+    def _occupation(self, candidate: Candidate) -> str:
+        known = self.pantheon.get(candidate.person.id)
+        return known.occupation if known else ""
 
     def _rules(self, candidate: Candidate, home: str) -> bool:
         """A ruler or politician by Pantheon's occupation, or anyone who held an office of their civilization, such as
@@ -301,76 +302,39 @@ class FigureBuilder:
                     found.append(years.most_common(1)[0][0])
         return found
 
-    def _candidates(self, start: int, end: int, rulers: list[str] = ()) -> list[Candidate]:
-        """People on English Wikipedia's Vital Articles (level 4, or level 5 with a high Pantheon score) or on Meta-Wiki's
-        lists of articles every Wikipedia should have, which many language communities maintain together and which
-        therefore weigh the world more evenly than an English list; the leaders of the Civilization games, a small set
-        chosen to spread across the world's peoples and eras; the people nations put on their banknotes, vote their
-        greatest or lay in their pantheons; and the notable rulers of the civilizations, if Pantheon
-        ranks them as widely known. Left out: people whose adult life began after the Second World War, since the deck
-        is about history, and figures Wikidata files as legendary and not as human, such as Moses (Jesus is filed as
-        both)."""
-        entries = [entry for entry in vital.people(self.http, self.wikipedia)
-                   if not entry.top_section.startswith(EXCLUDED_SECTIONS)]
-        pages = self.wikipedia.resolve([entry.title for entry in entries])
-        listed: dict[str, dict] = {}
-        for entry in entries:
-            page = pages.get(entry.title)
-            if page and page.qid:
-                found = listed.setdefault(page.qid, {"title": page.title, "section": entry.section, "lists": []})
-                found["lists"].append(f"Vital {entry.level}")
-        for entry in vital.essential_people(self.http):
-            found = listed.setdefault(entry.qid, {"title": None, "section": entry.section, "lists": []})
-            found["lists"].append(entry.list)
-        leaders = civ.leaders(self.http)
-        leader_pages = self.wikipedia.resolve([leader.title for leader in leaders])
-        for leader in leaders:
-            page = leader_pages.get(leader.title)
-            if page and page.qid:
-                found = listed.setdefault(page.qid, {"title": page.title, "section": "", "lists": []})
-                found["lists"].append(CIV_LEADER)
-        named = curated.people(self.wikipedia)
-        named_pages = self.wikipedia.resolve([title for titles in named.values() for title in titles])
-        for name, titles in named.items():
-            for title in titles:
-                page = named_pages.get(title)
-                if page and page.qid:
-                    listed.setdefault(page.qid, {"title": page.title, "section": "", "lists": []})["lists"].append(name)
-        for qid in rulers:
-            listed.setdefault(qid, {"title": None, "section": "", "lists": []})["lists"].append(RULER)
-        people = self.wikidata.entities([qid for qid in listed if self._maybe_alive(qid, start, end)])
+    def _candidates(self) -> list[Candidate]:
+        """The first people of every region and period in the cross-verified database of notable people, and
+        everyone on Meta-Wiki's core list of 1,000 articles every Wikipedia should have, so no essential figure depends
+        on the database alone. Left out: people whose adult life began after the Second World War, since the deck is
+        about history; sport, business and entertainment; and figures Wikidata files as legendary and not as human,
+        such as Moses (Jesus is filed as both)."""
+        frame = notable.load(self.http)
+        pool = notable.pool(frame, POST_WAR, ADULT_AGE, self.per_cell)
+        core = {entry.qid for entry in vital.essential_people(self.http) if entry.list == CORE_LIST}
+        qids = list(dict.fromkeys(list(pool.index) + sorted(core)))
+        sections = self._vital_sections()
+        people = self.wikidata.entities(qids)
         legendary = {qid for qid, kinds in self.wikidata.kinds(list(people), {LEGENDARY: "legendary"}).items()
                      if kinds and HUMAN not in people[qid].ids("P31", preferred_only=False)}
         candidates = []
-        for qid, found in listed.items():
+        for qid in qids:
             person = people.get(qid)
-            title = found["title"] or (person.enwiki if person else None)
-            if not person or not title or qid in legendary or self._excluded(person) or not self._notable(person, found):
+            if not person or not person.enwiki or qid in legendary or self._excluded(person):
                 continue
             span = lifetime(person.years("P569"), person.years("P570"))
             if span and span[0] + ADULT_AGE < POST_WAR:
-                candidates.append(Candidate(title, person, span, found["section"].split(" > "), tuple(dict.fromkeys(found["lists"]))))
+                score = float(frame.score.get(qid, 0.0))
+                cell_rank = int(pool.cell_rank[qid]) if qid in pool.index else None
+                candidates.append(Candidate(person.enwiki, person, span, sections.get(qid, []), score, cell_rank, qid in core))
         return candidates
 
-    def _maybe_alive(self, qid: str, start: int, end: int) -> bool:
-        """Skips fetching people whose Pantheon birth year puts them clearly outside the window."""
-        found = self.pantheon.get(qid)
-        if found is None or found.birth_year is None:
-            return True
-        return start - ASSUMED_LIFESPAN <= found.birth_year <= end
-
-    def _notable(self, person: Entity, found: dict) -> bool:
-        """Everyone on a core list: Vital Articles level 4, Meta-Wiki's core 1,000 or the Civilization leaders. Others
-        need Pantheon to rank them as widely known, or a little less so when at least two lists name them and one is
-        curated by a nation for itself (its banknotes, its greatest-person poll, its pantheon), such as Ismail Samani,
-        who is on Tajikistan's banknotes and the Vital Articles."""
-        lists = set(found["lists"])
-        if lists & set(CORE_LISTS):
-            return True
-        known = self.pantheon.get(person.id)
-        popularity = known.popularity if known and known.popularity is not None else 0
-        return popularity >= MIN_LEVEL_5_POPULARITY or (
-            popularity >= MIN_CURATED_POPULARITY and len(lists) >= 2 and bool(lists & set(CURATED_LISTS)))
+    def _vital_sections(self) -> dict[str, list[str]]:
+        """The section each person is filed under on Wikipedia's Vital Articles lists, such as 'Rulers > Persia', a
+        placement vote."""
+        entries = vital.people(self.http, self.wikipedia)
+        pages = self.wikipedia.resolve([entry.title for entry in entries])
+        return {pages[entry.title].qid: entry.section.split(" > ") for entry in entries
+                if entry.title in pages and pages[entry.title].qid}
 
     def _excluded(self, person: Entity) -> bool:
         found = self.pantheon.get(person.id)
@@ -409,8 +373,8 @@ class FigureBuilder:
         or the Vital Articles section), counts only when no other civilization of theirs has more votes: otherwise a
         death under a foreign occupation, like Saddam Hussein's in Baghdad drawn as American, would place them there.
         Holding a state's own head-of-state or head-of-government office confirms that state alone. The best supported
-        come first, and
-        among equals the one the person lived in longest as an adult."""
+        come first, a place of death counting half there since exiles die abroad, and among equals the one the person
+        lived in longest as an adult."""
         person, adulthood = candidate.person, candidate.adulthood
         sources = {
             "office": self._offices(candidate),
@@ -427,12 +391,13 @@ class FigureBuilder:
         headed = self._headed(candidate)
         member = {qid for source in MEMBERSHIP_SOURCES for qid in sources[source]}
         best = max(votes.values(), default=0)
+        support = lambda qid: (-(votes[qid] - DEATH_DISCOUNT * (qid in sources["death"])),
+                               -self._years_within(qid, adulthood))
         confirmed = sorted((qid for qid in set(votes) | headed
                             if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
-                           key=lambda qid: (-votes[qid], -self._years_within(qid, adulthood)))
+                           key=support)
         if not confirmed and candidate.core:
-            confirmed = sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]},
-                               key=lambda qid: (-votes[qid], -self._years_within(qid, adulthood)))
+            confirmed = sorted({qid for source in SINGLE_VOTE_SOURCES for qid in sources[source]}, key=support)
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
         readable = {source: [names[qid].name for qid in qids] for source, qids in sources.items() if qids}
@@ -482,7 +447,7 @@ class FigureBuilder:
         rows = rows[rows.geometry.contains(Point(location))]
         return [self.catalog.identities[name].qid for name in rows.Name if name in self.catalog.identities]
 
-    def _assemble(self, figures: list, extended: set[str]) -> list[Figure]:
+    def _assemble(self, figures: list) -> list[Figure]:
         introductions = self.wikipedia.introductions([candidate.title for candidate, *_ in figures])
         assembled = []
         for candidate, civilizations, related, votes in figures:
@@ -511,7 +476,6 @@ class FigureBuilder:
                 image_is_photo=bool(photo) and photo.file == image,
                 photo=photo.file if photo else "",
                 photo_credit=photo.credit if photo else "",
-                extended=person.id in extended,
                 checks={"civilization_votes": votes, "lead": paragraph, "image": image_check,
                         "photo": photo.check if photo else photo_check},
             ))

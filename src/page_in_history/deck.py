@@ -289,7 +289,6 @@ def figure_tags(document: dict, civilizations: list[str]) -> list[str]:
     tags += [century_tag(number) for number in centuries(*document["lifetime"])]
     tags += [tag("Country", document["birth_country"])] if document["birth_country"] else []
     tags += [tag("Occupation", document["occupation"])] if document["occupation"] else []
-    tags += [tag("Extended")] if document.get("extended") else []
     return tags
 
 
