@@ -245,8 +245,8 @@ class FigureBuilder:
         headed = self._headed(candidate)
         member = {qid for source in MEMBERSHIP_SOURCES for qid in sources[source]}
         best = max(votes.values(), default=0)
-        confirmed = sorted((qid for qid, count in votes.items()
-                            if (count >= MIN_VOTES and (qid in member or count == best)) or qid in headed),
+        confirmed = sorted((qid for qid in set(votes) | headed
+                            if (votes[qid] >= MIN_VOTES and (qid in member or votes[qid] == best)) or qid in headed),
                            key=lambda qid: (-votes[qid], -self._years_within(qid, adulthood)))
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
