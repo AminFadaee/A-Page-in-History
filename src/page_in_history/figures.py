@@ -27,6 +27,7 @@ EXCLUDED_OCCUPATIONS = {
 ASSUMED_LIFESPAN = 70
 MIN_LEVEL_5_POPULARITY = 78
 MIN_VOTES = 2
+MEMBERSHIP_SOURCES = ("office", "category", "citizenship", "vital_section")
 ADULT_AGE = 20
 HEAD_OFFICES = ("P1906", "P1313")
 MEMBERSHIP_QUALIFIERS = {"P27", "P1001", "P945"}
@@ -221,8 +222,12 @@ class FigureBuilder:
     def _civilizations(self, candidate: Candidate, links: list[str]):
         """A civilization counts when it existed during the person's adult life and at least two sources agree:
         offices held, 'people of' categories, the place of death and the birthplace on the Cliopatria map, links
-        in the article's opening, Wikidata citizenship and the Vital Articles section. Holding a state's own
-        head-of-state or head-of-government office confirms that state alone. The best supported come first, and
+        in the article's opening, Wikidata citizenship and the Vital Articles section. A civilization backed only by
+        places and opening links, with no source saying the person belonged to it (an office, a category, citizenship
+        or the Vital Articles section), counts only when no other civilization of theirs has more votes: otherwise a
+        death under a foreign occupation, like Saddam Hussein's in Baghdad drawn as American, would place them there.
+        Holding a state's own head-of-state or head-of-government office confirms that state alone. The best supported
+        come first, and
         among equals the one the person lived in longest as an adult."""
         person, adulthood = candidate.person, candidate.adulthood
         sources = {
@@ -238,7 +243,10 @@ class FigureBuilder:
                    for source, qids in sources.items()}
         votes = Counter(qid for qids in sources.values() for qid in qids)
         headed = self._headed(candidate)
-        confirmed = sorted((qid for qid, count in votes.items() if count >= MIN_VOTES or qid in headed),
+        member = {qid for source in MEMBERSHIP_SOURCES for qid in sources[source]}
+        best = max(votes.values(), default=0)
+        confirmed = sorted((qid for qid, count in votes.items()
+                            if (count >= MIN_VOTES and (qid in member or count == best)) or qid in headed),
                            key=lambda qid: (-votes[qid], -self._years_within(qid, adulthood)))
         related = [qid for qid in sources["lead"] if qid not in confirmed]
         names = self.catalog.by_qid
